@@ -1,0 +1,84 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://view/start_menu.gd" id="1_menu"]
+
+[node name="StartMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_menu")
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 0
+anchor_left = 0.5
+anchor_top = 0.2
+anchor_right = 0.5
+anchor_bottom = 0.2
+offset_left = -300.0
+offset_right = 300.0
+offset_bottom = 72.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 56
+text = "明日方舟：逐界争锋"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Subtitle" type="Label" parent="."]
+layout_mode = 0
+anchor_left = 0.5
+anchor_top = 0.3
+anchor_right = 0.5
+anchor_bottom = 0.3
+offset_left = -300.0
+offset_right = 300.0
+offset_bottom = 32.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 16
+text = "Arknights：RiftDuel"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Menu" type="VBoxContainer" parent="."]
+layout_mode = 0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -190.0
+offset_top = -48.0
+offset_right = 190.0
+offset_bottom = 240.0
+grow_horizontal = 2
+theme_override_constants/separation = 12
+
+[node name="SinglePlayer" type="Button" parent="Menu"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "单人模式"
+tooltip_text = "进入现有测试对局，与镜像 AI 对战"
+
+[node name="Multiplayer" type="Button" parent="Menu"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "多人模式"
+tooltip_text = "创建房间或加入好友的对局"
+
+[node name="Squad" type="Button" parent="Menu"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+disabled = true
+text = "编队"
+tooltip_text = "暂为空"
+
+[node name="Settings" type="Button" parent="Menu"]
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "设置"
+tooltip_text = "连接与显示偏好"

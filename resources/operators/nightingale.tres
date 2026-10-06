@@ -1,0 +1,70 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3 uid="uid://7p6e0lb0lcs3"]
+
+[ext_resource type="Script" uid="uid://cqgm23k7jg1a1" path="res://data/trait_resource.gd" id="1_5msyj"]
+[ext_resource type="Script" uid="uid://c33aieax8g07p" path="res://data/operator_data.gd" id="2_o26w4"]
+[ext_resource type="Script" uid="uid://dvva1d0eb3kxp" path="res://data/skill_resource.gd" id="3_4gw8g"]
+[ext_resource type="Script" uid="uid://bdnln34dj2a6e" path="res://data/talent_resource.gd" id="4_id20t"]
+
+[sub_resource type="Resource" id="Resource_jrfp8"]
+script = ExtResource("1_5msyj")
+trait_name = "群愈师"
+description = "同时恢复三个友方单位的生命"
+effect_type = "multi_target_heal"
+effect_params = {
+"target_count": 3
+}
+
+[sub_resource type="Resource" id="Resource_1g0pb"]
+script = ExtResource("3_4gw8g")
+skill_name = "技能1"
+sp_required = 30
+sp_recharge_type = "time"
+description = "攻击力+90%"
+effect_type = "heal_boost"
+effect_params = {
+"attack_mult": 1.9
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_te8j6"]
+script = ExtResource("4_id20t")
+talent_name = "白恶魔的庇护"
+description = "攻击范围内友方单位法术抗性+15"
+effect_type = "magic_resist_aura"
+effect_params = {
+"magic_resist_add": 15
+}
+
+[sub_resource type="Resource" id="Resource_a5xxx"]
+script = ExtResource("4_id20t")
+talent_name = "转瞬即逝的幻影"
+description = "可部署幻影（5点费用、20秒部署间隔、仅地面）；每次部署夜莺补充2个，库存上限3；幻影6000生命、75法抗、30%物理闪避，每秒流失3%最大生命，不能攻击、阻挡或接受治疗"
+effect_type = "summon_phantom"
+effect_params = {
+"stock_per_deploy": 2,
+"stock_limit": 3
+}
+
+[resource]
+script = ExtResource("2_o26w4")
+operator_id = "nightingale"
+profession_id = "medic"
+display_name = "夜莺"
+profession = "医疗"
+branch = "群愈师"
+max_health = 1705
+attack = 350
+defense = 169
+magic_resist = 5
+damage_type = "healing"
+attack_interval = 2.85
+block_count = 1
+deploy_cost = 18
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(-1, -1), Vector2i(-1, 0), Vector2i(-1, 1), Vector2i(0, -1), Vector2i(0, 0), Vector2i(0, 1), Vector2i(1, -1), Vector2i(1, 0), Vector2i(1, 1), Vector2i(2, -1), Vector2i(2, 0), Vector2i(2, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_jrfp8")
+talent_1 = SubResource("Resource_te8j6")
+talent_2 = SubResource("Resource_a5xxx")
+skills = Array[ExtResource("3_4gw8g")]([SubResource("Resource_1g0pb")])
+initial_sp = 20

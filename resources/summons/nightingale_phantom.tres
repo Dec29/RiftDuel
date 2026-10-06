@@ -1,0 +1,50 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "幻影"
+description = "不能攻击、阻挡或接受治疗；嘲讽等级+1，每秒流失3%最大生命；夜莺退场后仍保留"
+effect_type = "phantom"
+effect_params = {"life_loss_percent": 3, "taunt_level": 1}
+
+[sub_resource type="Resource" id="Talent"]
+script = ExtResource("3")
+talent_name = "无独立天赋"
+description = "幻影的法抗、闪避与生命流失由召唤物属性和特性生效"
+effect_type = "none"
+
+[sub_resource type="Resource" id="Skill"]
+script = ExtResource("4")
+skill_name = "无主动技能"
+sp_recharge_type = "passive"
+description = "幻影不攻击，也不释放技能"
+effect_type = "no_skill"
+
+[resource]
+script = ExtResource("1")
+operator_id = "nightingale_phantom"
+display_name = "幻影"
+profession = "召唤物"
+profession_id = "summon"
+branch = "夜莺召唤物"
+max_health = 6000
+attack = 0
+defense = 0
+magic_resist = 75
+damage_type = "physical"
+attack_interval = 1.0
+block_count = 0
+deploy_cost = 5
+redeploy_time = 20.0
+dodge_physical = 30
+attack_range = Array[Vector2i]([])
+terrain_requirement = "ground"
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent")
+talent_2 = SubResource("Talent")
+skills = Array[ExtResource("4")]([SubResource("Skill")])

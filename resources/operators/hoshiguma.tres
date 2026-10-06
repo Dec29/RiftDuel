@@ -1,0 +1,67 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3 uid="uid://bp2ial3u0dhf"]
+
+[ext_resource type="Script" uid="uid://cqgm23k7jg1a1" path="res://data/trait_resource.gd" id="1_dto63"]
+[ext_resource type="Script" uid="uid://c33aieax8g07p" path="res://data/operator_data.gd" id="2_lrqa2"]
+[ext_resource type="Script" uid="uid://dvva1d0eb3kxp" path="res://data/skill_resource.gd" id="3_ab2vr"]
+[ext_resource type="Script" uid="uid://bdnln34dj2a6e" path="res://data/talent_resource.gd" id="4_yo6sq"]
+
+[sub_resource type="Resource" id="Resource_fp75y"]
+script = ExtResource("1_dto63")
+trait_name = "铁卫"
+description = "能够阻挡三个敌人"
+effect_type = "prioritize_blocked"
+
+[sub_resource type="Resource" id="Resource_h2a3c"]
+script = ExtResource("3_ab2vr")
+skill_name = "技能1"
+sp_required = 40
+sp_recharge_type = "time"
+description = "防御力+80%，攻击力+40%"
+effect_type = "atk_def_boost"
+effect_params = {
+"attack_mult": 1.4,
+"defense_mult": 1.8
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_pr4lv"]
+script = ExtResource("4_yo6sq")
+talent_name = "战术装甲"
+description = "获得25%概率的全伤害抵挡（含真实伤害）"
+effect_type = "damage_block"
+effect_params = {
+"chance_percent": 25
+}
+
+[sub_resource type="Resource" id="Resource_4nlu0"]
+script = ExtResource("4_yo6sq")
+talent_name = "特种作战策略"
+description = "在场时所有友方【重装】干员防御力提升6%"
+effect_type = "defense_aura"
+effect_params = {
+"profession_id": "defender",
+"defense_percent": 6
+}
+
+[resource]
+script = ExtResource("2_lrqa2")
+operator_id = "hoshiguma"
+profession_id = "defender"
+display_name = "星熊"
+profession = "重装"
+branch = "铁卫"
+max_health = 3850
+attack = 430
+defense = 723
+damage_type = "physical"
+attack_interval = 1.2
+block_count = 3
+deploy_cost = 23
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_fp75y")
+talent_1 = SubResource("Resource_pr4lv")
+talent_2 = SubResource("Resource_4nlu0")
+skills = Array[ExtResource("3_ab2vr")]([SubResource("Resource_h2a3c")])
+initial_sp = 20

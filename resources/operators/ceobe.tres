@@ -1,0 +1,67 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3 uid="uid://ql4y00mh6b81"]
+
+[ext_resource type="Script" uid="uid://cqgm23k7jg1a1" path="res://data/trait_resource.gd" id="1_fsgrn"]
+[ext_resource type="Script" uid="uid://c33aieax8g07p" path="res://data/operator_data.gd" id="2_2rf8b"]
+[ext_resource type="Script" uid="uid://dvva1d0eb3kxp" path="res://data/skill_resource.gd" id="3_6kg3h"]
+[ext_resource type="Script" uid="uid://bdnln34dj2a6e" path="res://data/talent_resource.gd" id="4_6t0n1"]
+
+[sub_resource type="Resource" id="Resource_1tinh"]
+script = ExtResource("1_fsgrn")
+trait_name = "中坚术士"
+description = "攻击造成法术伤害"
+effect_type = "prioritize_flying"
+
+[sub_resource type="Resource" id="Resource_i8udo"]
+script = ExtResource("3_6kg3h")
+skill_name = "技能1"
+sp_required = 6
+sp_recharge_type = "time"
+description = "下次攻击造成相当于攻击力210%的法术伤害，并令目标束缚3秒；可充能3次；优先攻击没有被阻挡的目标"
+effect_type = "charge_shot"
+effect_params = {
+"attack_mult": 2.1,
+"bind_duration": 3.0,
+"charge_count": 3
+}
+
+[sub_resource type="Resource" id="Resource_tl2cc"]
+script = ExtResource("4_6t0n1")
+talent_name = "剥壳"
+description = "攻击时对目标额外造成相当于其防御力40%的法术伤害"
+effect_type = "defense_damage"
+effect_params = {
+"defense_damage_percent": 40
+}
+
+[sub_resource type="Resource" id="Resource_21e23"]
+script = ExtResource("4_6t0n1")
+talent_name = "独行长路"
+description = "周围四格内没有其他友方单位时，攻击力+8%，攻击速度+8"
+effect_type = "isolated_buff"
+effect_params = {
+"attack_percent": 8,
+"attack_speed_add": 8
+}
+
+[resource]
+script = ExtResource("2_2rf8b")
+operator_id = "ceobe"
+profession_id = "caster"
+display_name = "刻俄柏"
+profession = "术士"
+branch = "中坚术士"
+max_health = 1565
+attack = 667
+defense = 128
+magic_resist = 20
+damage_type = "magical"
+attack_interval = 1.6
+block_count = 1
+deploy_cost = 21
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -1), Vector2i(0, 0), Vector2i(0, 1), Vector2i(1, -1), Vector2i(1, 0), Vector2i(1, 1), Vector2i(2, -1), Vector2i(2, 0), Vector2i(2, 1), Vector2i(3, 0)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_1tinh")
+talent_1 = SubResource("Resource_tl2cc")
+talent_2 = SubResource("Resource_21e23")
+skills = Array[ExtResource("3_6kg3h")]([SubResource("Resource_i8udo")])

@@ -1,0 +1,158 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://view/room_view.gd" id="1_view"]
+
+[node name="RoomView" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_view")
+
+[node name="Center" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="VBoxContainer" parent="Center"]
+custom_minimum_size = Vector2(620, 0)
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="Title" type="Label" parent="Center/Panel"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 36
+text = "多人模式"
+horizontal_alignment = 1
+
+[node name="Hint" type="Label" parent="Center/Panel"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "同一局域网 · 两人对战 · 无外部服务器"
+horizontal_alignment = 1
+
+[node name="Mode" type="OptionButton" parent="Center/Panel"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+item_count = 2
+selected = 0
+popup/item_0/text = "局域网"
+popup/item_0/id = 0
+popup/item_1/text = "互联网"
+popup/item_1/id = 1
+
+[node name="Create" type="Button" parent="Center/Panel"]
+custom_minimum_size = Vector2(0, 56)
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "创建房间"
+
+[node name="JoinRow" type="HBoxContainer" parent="Center/Panel"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Code" type="LineEdit" parent="Center/Panel/JoinRow"]
+custom_minimum_size = Vector2(0, 56)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 22
+max_length = 6
+placeholder_text = "输入 6 位配对码"
+
+[node name="Join" type="Button" parent="Center/Panel/JoinRow"]
+custom_minimum_size = Vector2(180, 56)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "加入房间"
+
+[node name="AddressRow" type="HBoxContainer" parent="Center/Panel"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Address" type="LineEdit" parent="Center/Panel/AddressRow"]
+custom_minimum_size = Vector2(0, 44)
+layout_mode = 2
+size_flags_horizontal = 3
+placeholder_text = "备用：房主局域网 IP"
+
+[node name="Port" type="SpinBox" parent="Center/Panel/AddressRow"]
+layout_mode = 2
+min_value = 1024.0
+max_value = 65535.0
+value = 24770.0
+
+[node name="JoinAddress" type="Button" parent="Center/Panel/AddressRow"]
+custom_minimum_size = Vector2(180, 44)
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "使用地址加入"
+
+[node name="Room" type="VBoxContainer" parent="Center/Panel"]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="Code" type="Label" parent="Center/Panel/Room"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "配对码"
+horizontal_alignment = 1
+
+[node name="Copy" type="Button" parent="Center/Panel/Room"]
+custom_minimum_size = Vector2(0, 36)
+layout_mode = 2
+text = "复制配对码"
+
+[node name="Addresses" type="Label" parent="Center/Panel/Room"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Players" type="Label" parent="Center/Panel/Room"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+horizontal_alignment = 1
+
+[node name="ReadyRow" type="HBoxContainer" parent="Center/Panel/Room"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Ready" type="Button" parent="Center/Panel/Room/ReadyRow"]
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 20
+text = "准备"
+
+[node name="Start" type="Button" parent="Center/Panel/Room/ReadyRow"]
+custom_minimum_size = Vector2(0, 52)
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 20
+text = "开始对局"
+
+[node name="Status" type="Label" parent="Center/Panel"]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "创建房间，或输入好友的配对码加入"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Reset" type="Button" parent="Center/Panel"]
+visible = false
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+text = "取消 / 重新选择"
+
+[node name="Back" type="Button" parent="Center/Panel"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+text = "返回主页"

@@ -1,0 +1,72 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3 uid="uid://eixekied51nt"]
+
+[ext_resource type="Script" uid="uid://cqgm23k7jg1a1" path="res://data/trait_resource.gd" id="1_0moqr"]
+[ext_resource type="Script" uid="uid://c33aieax8g07p" path="res://data/operator_data.gd" id="2_usy53"]
+[ext_resource type="Script" uid="uid://dvva1d0eb3kxp" path="res://data/skill_resource.gd" id="3_0t3rk"]
+[ext_resource type="Script" uid="uid://bdnln34dj2a6e" path="res://data/talent_resource.gd" id="4_r6i0h"]
+
+[sub_resource type="Resource" id="Resource_fuiac"]
+script = ExtResource("1_0moqr")
+trait_name = "冲锋手"
+description = "击杀敌人后获得1点部署费用，撤退时返还初始部署费用"
+effect_type = "refund_on_kill"
+effect_params = {
+"refund_amount": 1
+}
+
+[sub_resource type="Resource" id="Resource_24eb0"]
+script = ExtResource("3_0t3rk")
+skill_name = "技能1"
+sp_required = 35
+sp_recharge_type = "time"
+description = "攻击力+45%，攻击速度+45"
+effect_type = "atk_spd_boost"
+effect_params = {
+"attack_mult": 1.45,
+"attack_speed_add": 45
+}
+duration = 35.0
+
+[sub_resource type="Resource" id="Resource_3fp0o"]
+script = ExtResource("4_r6i0h")
+talent_name = "精密填弹"
+description = "每次攻击有25%概率攻击力提升至130%，且额外攻击一个目标"
+effect_type = "attack_proc"
+effect_params = {
+"chance_percent": 25,
+"attack_percent": 130,
+"target_count": 2
+}
+
+[sub_resource type="Resource" id="Resource_sb7qh"]
+script = ExtResource("4_r6i0h")
+talent_name = "军事传统"
+description = "编入队伍时所有【先锋】干员初始技力+6"
+effect_type = "initial_sp_aura"
+effect_params = {
+"profession_id": "vanguard",
+"initial_sp_add": 6
+}
+
+[resource]
+script = ExtResource("2_usy53")
+operator_id = "bagpipe"
+profession_id = "vanguard"
+display_name = "风笛"
+profession = "先锋"
+branch = "冲锋手"
+max_health = 2484
+attack = 586
+defense = 382
+damage_type = "physical"
+attack_interval = 1.0
+block_count = 1
+deploy_cost = 13
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_fuiac")
+talent_1 = SubResource("Resource_3fp0o")
+talent_2 = SubResource("Resource_sb7qh")
+skills = Array[ExtResource("3_0t3rk")]([SubResource("Resource_24eb0")])
+initial_sp = 15

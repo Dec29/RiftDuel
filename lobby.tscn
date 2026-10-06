@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://lobby.gd" id="1_lobby"]
+[ext_resource type="PackedScene" path="res://view/room_view.tscn" id="2_view"]
+
+[node name="Lobby" type="Node"]
+script = ExtResource("1_lobby")
+
+[node name="RoomView" parent="." instance=ExtResource("2_view")]

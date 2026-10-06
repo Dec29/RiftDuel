@@ -1,0 +1,63 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://view/network_hud.gd" id="1_hud"]
+
+[node name="NetworkHUD" type="Control"]
+visible = false
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_hud")
+
+[node name="Status" type="Label" parent="."]
+layout_mode = 0
+offset_left = 864.0
+offset_top = 484.0
+offset_right = 1230.0
+offset_bottom = 530.0
+vertical_alignment = 1
+
+[node name="Leave" type="Button" parent="."]
+layout_mode = 0
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -116.0
+offset_top = 12.0
+offset_right = -18.0
+offset_bottom = 56.0
+text = "离开对局"
+
+[node name="Failure" type="ColorRect" parent="."]
+visible = false
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Panel" type="VBoxContainer" parent="Failure"]
+layout_mode = 0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -270.0
+offset_top = -70.0
+offset_right = 270.0
+offset_bottom = 70.0
+theme_override_constants/separation = 28
+
+[node name="Message" type="Label" parent="Failure/Panel"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "连接已断开"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Return" type="Button" parent="Failure/Panel"]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "返回主页"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://data/ball_data.gd" id="1_ball"]
+
+[resource]
+script = ExtResource("1_ball")
+ball_id = "standard"
+display_name = "RMA70刺球"
+kick_threshold = 2000
+push_ratio = 1
+weight = 1
+push_power = 450
+friction = 0.7
+elasticity = 0.75

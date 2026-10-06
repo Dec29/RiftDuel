@@ -1,0 +1,12 @@
+# Bootstrap: HTTP serves only ACME challenges, never game traffic.
+server {
+    listen 80;
+    server_name PUBLIC_IP;
+    access_log off;
+    server_tokens off;
+    location ^~ /.well-known/acme-challenge/ {
+        root /var/lib/riftduel/acme;
+        try_files $uri =404;
+    }
+    location / { return 404; }
+}

@@ -1,0 +1,25 @@
+[Unit]
+Description=RiftDuel input relay
+After=network.target
+
+[Service]
+Type=simple
+User=riftduel
+Group=riftduel
+ExecStart=/opt/riftduel/riftduel-relay -listen 127.0.0.1:8080
+Restart=on-failure
+RestartSec=3
+TimeoutStopSec=10
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+LimitNOFILE=256
+MemoryMax=256M
+TasksMax=64
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

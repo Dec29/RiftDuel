@@ -1,0 +1,68 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3 uid="uid://di2rr0ncses3u"]
+
+[ext_resource type="Script" uid="uid://cqgm23k7jg1a1" path="res://data/trait_resource.gd" id="1_110qv"]
+[ext_resource type="Script" uid="uid://c33aieax8g07p" path="res://data/operator_data.gd" id="2_aus6n"]
+[ext_resource type="Script" uid="uid://dvva1d0eb3kxp" path="res://data/skill_resource.gd" id="3_p0hff"]
+[ext_resource type="Script" uid="uid://bdnln34dj2a6e" path="res://data/talent_resource.gd" id="4_3p5al"]
+
+[sub_resource type="Resource" id="Resource_kfvf8"]
+script = ExtResource("1_110qv")
+trait_name = "凝滞师"
+description = "攻击造成法术伤害，并对敌人造成短暂的停顿"
+effect_type = "slow_on_hit"
+effect_params = {
+"slow_duration": 0.8
+}
+
+[sub_resource type="Resource" id="Resource_he7gp"]
+script = ExtResource("3_p0hff")
+skill_name = "技能1"
+sp_required = 10
+sp_recharge_type = "on_hit"
+description = "攻击力+110%；技能会自动开启"
+effect_type = "atk_boost_auto"
+effect_params = {
+"attack_mult": 2.1
+}
+duration = 35.0
+
+[sub_resource type="Resource" id="Resource_lrd48"]
+script = ExtResource("4_3p5al")
+talent_name = "加速力场"
+description = "在场时全场友方单位攻速+7"
+effect_type = "attack_speed_aura"
+effect_params = {
+"attack_speed_add": 7
+}
+
+[sub_resource type="Resource" id="Resource_5ru1l"]
+script = ExtResource("4_3p5al")
+talent_name = "兼职工作"
+description = "技能未开启时全场友方单位每秒回复20点生命"
+effect_type = "inactive_regen_aura"
+effect_params = {
+"heal_per_second": 20
+}
+
+[resource]
+script = ExtResource("2_aus6n")
+operator_id = "angelina"
+profession_id = "supporter"
+display_name = "安洁莉娜"
+profession = "辅助"
+branch = "凝滞师"
+max_health = 1385
+attack = 542
+defense = 120
+magic_resist = 25
+damage_type = "magical"
+attack_interval = 1.9
+block_count = 1
+deploy_cost = 16
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(-1, -1), Vector2i(-1, 0), Vector2i(-1, 1), Vector2i(0, -1), Vector2i(0, 0), Vector2i(0, 1), Vector2i(1, -1), Vector2i(1, 0), Vector2i(1, 1), Vector2i(2, -1), Vector2i(2, 0), Vector2i(2, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_kfvf8")
+talent_1 = SubResource("Resource_lrd48")
+talent_2 = SubResource("Resource_5ru1l")
+skills = Array[ExtResource("3_p0hff")]([SubResource("Resource_he7gp")])

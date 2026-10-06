@@ -1,0 +1,66 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3 uid="uid://bc8h3nmd44ham"]
+
+[ext_resource type="Script" uid="uid://cqgm23k7jg1a1" path="res://data/trait_resource.gd" id="1_txfo8"]
+[ext_resource type="Script" uid="uid://c33aieax8g07p" path="res://data/operator_data.gd" id="2_52d2v"]
+[ext_resource type="Script" uid="uid://dvva1d0eb3kxp" path="res://data/skill_resource.gd" id="3_ckev0"]
+[ext_resource type="Script" uid="uid://bdnln34dj2a6e" path="res://data/talent_resource.gd" id="4_qjswp"]
+
+[sub_resource type="Resource" id="Resource_xs4bv"]
+script = ExtResource("1_txfo8")
+trait_name = "强攻手"
+description = "同时攻击阻挡的所有敌人"
+effect_type = "attack_all_blocked"
+
+[sub_resource type="Resource" id="Resource_3gk3n"]
+script = ExtResource("3_ckev0")
+skill_name = "技能1"
+sp_required = 2
+sp_recharge_type = "on_hit"
+description = "下次攻击的攻击力提高至290%"
+effect_type = "atk_boost_single"
+effect_params = {
+"attack_mult": 2.9
+}
+
+[sub_resource type="Resource" id="Resource_qxreb"]
+script = ExtResource("4_qjswp")
+talent_name = "紧急除颤"
+description = "生命值低于25%时，仅一次回复50%生命并在6秒内使生命值不低于50%"
+effect_type = "emergency_heal"
+effect_params = {
+"hp_threshold_percent": 25,
+"heal_percent": 50,
+"lock_hp_percent": 50,
+"lock_duration": 6
+}
+
+[sub_resource type="Resource" id="Resource_4cr8a"]
+script = ExtResource("4_qjswp")
+talent_name = "严酷训练"
+description = "在战场停留15秒后获得抵抗（晕眩、寒冷和冻结持续时间减少50%）"
+effect_type = "status_resistance"
+effect_params = {
+"warmup_seconds": 15
+}
+
+[resource]
+script = ExtResource("2_52d2v")
+operator_id = "blaze"
+profession_id = "guard"
+display_name = "煌"
+profession = "近卫"
+branch = "强攻手"
+max_health = 2821
+attack = 765
+defense = 370
+damage_type = "physical"
+attack_interval = 1.2
+block_count = 3
+deploy_cost = 24
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_xs4bv")
+talent_1 = SubResource("Resource_qxreb")
+talent_2 = SubResource("Resource_4cr8a")
+skills = Array[ExtResource("3_ckev0")]([SubResource("Resource_3gk3n")])

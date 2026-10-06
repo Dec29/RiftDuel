@@ -1,0 +1,75 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3 uid="uid://dbd5ak7kpakkp"]
+
+[ext_resource type="Script" uid="uid://cqgm23k7jg1a1" path="res://data/trait_resource.gd" id="1_exxdb"]
+[ext_resource type="Script" uid="uid://c33aieax8g07p" path="res://data/operator_data.gd" id="2_50wnr"]
+[ext_resource type="Script" uid="uid://dvva1d0eb3kxp" path="res://data/skill_resource.gd" id="3_rps0i"]
+[ext_resource type="Script" uid="uid://bdnln34dj2a6e" path="res://data/talent_resource.gd" id="4_mcqtw"]
+
+[sub_resource type="Resource" id="Resource_ymp21"]
+script = ExtResource("1_exxdb")
+trait_name = "行商"
+description = "再部署时间减少，撤退时不返还部署费用，在场时每3秒消耗3点部署费用（不足时自动撤退）"
+effect_type = "cost_drain"
+effect_params = {
+"drain_amount": 3,
+"drain_interval": 3.0
+}
+
+[sub_resource type="Resource" id="Resource_lkyw7"]
+script = ExtResource("3_rps0i")
+skill_name = "仗义疏财"
+sp_recharge_type = "passive"
+description = "消耗1枚金币，替代当次攻击，为周围八格内生命低于70%的一名友军恢复当前攻击力80%的生命；金币上限3，无需手动开启"
+effect_type = "passive_heal"
+effect_params = {
+"heal_percent": 80,
+"hp_threshold_percent": 70,
+"heal_radius": 1,
+"coin_limit": 3
+}
+duration = -1.0
+
+[sub_resource type="Resource" id="Resource_qxrhl"]
+script = ExtResource("4_mcqtw")
+talent_name = "大买家"
+description = "开启技能时获得1枚金币，技能期间每次特性消耗费用获得1枚金币，提升自身4%攻击力（最多叠加8次）"
+effect_type = "coin_income"
+effect_params = {
+"initial_coins": 1,
+"coins_per_drain": 1,
+"attack_percent_per_stack": 4,
+"max_attack_stacks": 8
+}
+
+[sub_resource type="Resource" id="Resource_4dm00"]
+script = ExtResource("4_mcqtw")
+talent_name = "破财消灾"
+description = "受到致命伤害时若费用足够则消耗5点部署费用使生命恢复到70%，每次触发费用翻倍"
+effect_type = "fatal_revive"
+effect_params = {
+"initial_cost": 5,
+"heal_percent": 70,
+"cost_multiplier": 2
+}
+
+[resource]
+script = ExtResource("2_50wnr")
+operator_id = "swire_alter"
+profession_id = "specialist"
+display_name = "琳琅诗怀雅"
+profession = "特种"
+branch = "行商"
+max_health = 2360
+attack = 810
+defense = 457
+damage_type = "physical"
+attack_interval = 1.0
+block_count = 1
+deploy_cost = 9
+redeploy_time = 25.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_ymp21")
+talent_1 = SubResource("Resource_qxrhl")
+talent_2 = SubResource("Resource_4dm00")
+skills = Array[ExtResource("3_rps0i")]([SubResource("Resource_lkyw7")])

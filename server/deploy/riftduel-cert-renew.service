@@ -1,0 +1,8 @@
+[Unit]
+Description=Renew RiftDuel IP certificate
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/opt/riftduel-certbot/bin/certbot renew --cert-name riftduel-ip --quiet --deploy-hook /opt/riftduel/reload-tls.sh

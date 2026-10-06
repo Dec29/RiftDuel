@@ -1,0 +1,66 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3 uid="uid://bdvolojiij7bp"]
+
+[ext_resource type="Script" uid="uid://cqgm23k7jg1a1" path="res://data/trait_resource.gd" id="1_or5vf"]
+[ext_resource type="Script" uid="uid://c33aieax8g07p" path="res://data/operator_data.gd" id="2_c8531"]
+[ext_resource type="Script" uid="uid://dvva1d0eb3kxp" path="res://data/skill_resource.gd" id="3_pionp"]
+[ext_resource type="Script" uid="uid://bdnln34dj2a6e" path="res://data/talent_resource.gd" id="4_rx421"]
+
+[sub_resource type="Resource" id="Resource_00vkh"]
+script = ExtResource("1_or5vf")
+trait_name = "速射手"
+description = "优先攻击空中单位"
+effect_type = "prioritize_flying"
+
+[sub_resource type="Resource" id="Resource_wl4uy"]
+script = ExtResource("3_pionp")
+skill_name = "技能1"
+sp_required = 4
+sp_recharge_type = "on_hit"
+description = "下次攻击变为3连射，每次射击造成相当于攻击力145%的伤害"
+effect_type = "multi_shot"
+effect_params = {
+"attack_mult": 1.45,
+"shot_count": 3
+}
+
+[sub_resource type="Resource" id="Resource_dytbk"]
+script = ExtResource("4_rx421")
+talent_name = "快速弹匣"
+description = "攻击速度+12"
+effect_type = "attack_speed_buff"
+effect_params = {
+"attack_speed_add": 12
+}
+
+[sub_resource type="Resource" id="Resource_2po8r"]
+script = ExtResource("4_rx421")
+talent_name = "天使的祝福"
+description = "攻击力+6%，生命上限+10%，置入战场后此效果同样赋予给一名随机友方单位"
+effect_type = "random_blessing"
+effect_params = {
+"attack_percent": 6,
+"max_health_percent": 10,
+"target_count": 1
+}
+
+[resource]
+script = ExtResource("2_c8531")
+operator_id = "exusiai"
+profession_id = "sniper"
+display_name = "能天使"
+profession = "狙击"
+branch = "速射手"
+max_health = 1673
+attack = 540
+defense = 161
+damage_type = "physical"
+attack_interval = 1.0
+block_count = 1
+deploy_cost = 14
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -1), Vector2i(0, 0), Vector2i(0, 1), Vector2i(1, -1), Vector2i(1, 0), Vector2i(1, 1), Vector2i(2, -1), Vector2i(2, 0), Vector2i(2, 1), Vector2i(3, -1), Vector2i(3, 0), Vector2i(3, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_00vkh")
+talent_1 = SubResource("Resource_dytbk")
+talent_2 = SubResource("Resource_2po8r")
+skills = Array[ExtResource("3_pionp")]([SubResource("Resource_wl4uy")])
