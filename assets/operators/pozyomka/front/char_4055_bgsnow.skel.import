@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://to5xe8c6iaie"
+path="res://.godot/imported/char_4055_bgsnow.skel-85031b7fe74d47b821461e67fedc2e32.tres"
+
+[deps]
+
+source_file="res://assets/operators/pozyomka/front/char_4055_bgsnow.skel"
+dest_files=["res://.godot/imported/char_4055_bgsnow.skel-85031b7fe74d47b821461e67fedc2e32.tres"]
+
+[params]

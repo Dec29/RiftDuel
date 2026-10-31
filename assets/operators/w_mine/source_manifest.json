@@ -1,0 +1,51 @@
+{
+  "operator_id": "w_mine",
+  "display_name": "此面向敌",
+  "char_id": "token_10008_cqbw_box",
+  "costume": "默认服装",
+  "model_kind": "single root skeleton",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "single",
+      "file": "res://assets/operators/w_mine/single/token_10008_cqbw_box.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10008_cqbw_box/token_10008_cqbw_box.skel",
+      "sha256": "81da3d6f08b08d4b0ae5d45bdbaef98c4cf57f4af5ff14cf4cbc29bd9bea46b3",
+      "size": 1419
+    },
+    {
+      "side": "single",
+      "file": "res://assets/operators/w_mine/single/token_10008_cqbw_box.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10008_cqbw_box/token_10008_cqbw_box.atlas",
+      "sha256": "39e16de1e6578e84d71a5b28d9beb292acddb393bb512abec8f6d773b664b567",
+      "size": 185
+    },
+    {
+      "side": "single",
+      "file": "res://assets/operators/w_mine/single/token_10008_cqbw_box.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10008_cqbw_box/token_10008_cqbw_box.png",
+      "sha256": "c6b446424d2ba025c9b8ecbaa32abff2df7f4d10ec941ee241eab57aae0f66ab",
+      "size": 4742
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "single": {
+      "Attack": 1.5,
+      "Default": 0.0,
+      "Die": 0.16666666666666666,
+      "Idle": 0.0,
+      "Start": 0.5
+    }
+  },
+  "atlas_pages": {
+    "single": {
+      "width": 128,
+      "height": 128,
+      "mode": "straight alpha",
+      "normal_slots": 1
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

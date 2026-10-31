@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dsw3sfurk2sa1"
+path="res://.godot/imported/char_1013_chen2.skel-b3c86e4674210758b7f4f30b20ff59b2.tres"
+
+[deps]
+
+source_file="res://assets/operators/chen_alter/front/char_1013_chen2.skel"
+dest_files=["res://.godot/imported/char_1013_chen2.skel-b3c86e4674210758b7f4f30b20ff59b2.tres"]
+
+[params]

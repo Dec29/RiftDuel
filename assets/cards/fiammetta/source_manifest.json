@@ -1,0 +1,30 @@
+{
+  "operator_id": "fiammetta",
+  "char_id": "char_300_phenxi",
+  "files": [
+    {
+      "category": "cards",
+      "kind": "portrait",
+      "path": "assets/cards/fiammetta/portrait.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/portrait/char_300_phenxi_1.png",
+      "bytes": 120188,
+      "sha256": "82551dd02843e9b04845d7a8adba714899073e54cbcac4ec65c98e484e46736d",
+      "width": 180,
+      "height": 360
+    },
+    {
+      "category": "cards",
+      "kind": "avatar",
+      "path": "assets/cards/fiammetta/avatar.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_300_phenxi.png",
+      "bytes": 59517,
+      "sha256": "6cacabd3d1e8430762639a7775dd28770b446a3f9460b6c8c70d3e2660686388",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e"
+  }
+}

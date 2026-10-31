@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dkeyfcpl1k6ml"
+path="res://.godot/imported/char_197_poca.atlas-3d2e41bd4493d7e7d578e3cee4498d6f.tres"
+
+[deps]
+
+source_file="res://assets/operators/rosa/back/char_197_poca.atlas"
+dest_files=["res://.godot/imported/char_197_poca.atlas-3d2e41bd4493d7e7d578e3cee4498d6f.tres"]
+
+[params]
+
+normal_map_prefix="n"

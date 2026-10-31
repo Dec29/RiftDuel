@@ -1,0 +1,81 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_8c7l2"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_0y7te"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_tyf2e"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_dd6my"]
+
+[sub_resource type="Resource" id="Resource_ripix"]
+script = ExtResource("1_8c7l2")
+trait_name = "医师"
+description = "恢复友方单位生命"
+effect_type = "single_target_heal"
+
+[sub_resource type="Resource" id="Resource_6m4g8"]
+script = ExtResource("3_tyf2e")
+skill_name = "紧急包扎"
+trigger_type = "attack"
+sp_required = 4
+sp_recharge_type = "on_hit"
+description = "普通治疗时，目标生命低于一半则消耗一份充能，额外恢复其最大生命25%；可充能4次，治疗按本作系数折算。"
+effect_type = "percent_charge_heal"
+effect_params = {
+"attack_mult": 1.0,
+"charge_count": 4,
+"extra_max_health_percent": 25,
+"hp_threshold_percent": 50
+}
+
+[sub_resource type="Resource" id="Resource_8gynu"]
+script = ExtResource("3_tyf2e")
+skill_name = "不稳定血浆"
+initial_sp = 50
+sp_required = 60
+sp_recharge_type = "time"
+description = "自身与攻击范围内随机一名其他友方获得15秒攻击+90%、每秒流失最大生命3%；增益独立于施法者存续，流失可致死。"
+effect_type = "random_blood_buff"
+effect_params = {
+"attack_mult": 1.0,
+"attack_percent": 90,
+"buff_ticks": 450,
+"hp_loss_percent": 3
+}
+
+[sub_resource type="Resource" id="Resource_rg7n6"]
+script = ExtResource("4_dd6my")
+talent_name = "血液样本回收"
+description = "攻击范围内有敌人倒下时，为自身和范围内随机一名友方单位回复2点技力"
+effect_type = "death_sp_in_range"
+effect_params = {
+"sp_add": 2
+}
+
+[sub_resource type="Resource" id="Resource_oqpae"]
+script = ExtResource("4_dd6my")
+talent_name = "无第二天赋"
+description = "原作仅有一个天赋。"
+effect_type = "none"
+
+[resource]
+script = ExtResource("2_0y7te")
+operator_id = "warfarin"
+display_name = "华法琳"
+profession = "医疗"
+profession_id = "medic"
+branch = "医师"
+race_id = "sarkaz"
+max_health = 1520
+attack = 505
+defense = 125
+damage_type = "healing"
+attack_interval = 2.85
+block_count = 1
+initial_deploy_cost = 17
+deploy_cost = 19
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(3, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(3, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_ripix")
+talent_1 = SubResource("Resource_rg7n6")
+talent_2 = SubResource("Resource_oqpae")
+skills = Array[ExtResource("3_tyf2e")]([SubResource("Resource_6m4g8"), SubResource("Resource_8gynu")])

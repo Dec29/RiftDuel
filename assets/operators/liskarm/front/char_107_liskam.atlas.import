@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bbcy2gvgficif"
+path="res://.godot/imported/char_107_liskam.atlas-379c717a1aa80566c78fcb9d85f8f7e3.tres"
+
+[deps]
+
+source_file="res://assets/operators/liskarm/front/char_107_liskam.atlas"
+dest_files=["res://.godot/imported/char_107_liskam.atlas-379c717a1aa80566c78fcb9d85f8f7e3.tres"]
+
+[params]
+
+normal_map_prefix="n"

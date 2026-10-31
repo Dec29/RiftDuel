@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cu3gvvq7c7inl"
+path="res://.godot/imported/char_4056_titi.atlas-d0ce2654974f2e215247cb3cc7f4a521.tres"
+
+[deps]
+
+source_file="res://assets/operators/titi/back/char_4056_titi.atlas"
+dest_files=["res://.godot/imported/char_4056_titi.atlas-d0ce2654974f2e215247cb3cc7f4a521.tres"]
+
+[params]
+
+normal_map_prefix="n"

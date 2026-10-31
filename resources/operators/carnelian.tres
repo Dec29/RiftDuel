@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_2cjnj"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_mwo66"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_ulbp6"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_g3kn2"]
+
+[sub_resource type="Resource" id="Resource_tkgs2"]
+script = ExtResource("1_2cjnj")
+trait_name = "阵法术师"
+description = "通常不攻击、防御+200%、法抗+20；技能开启时对范围内全体敌人造成法术伤害。"
+effect_type = "phalanx"
+effect_params = {
+"idle_defense_percent": 200,
+"idle_resist_add": 20
+}
+
+[sub_resource type="Resource" id="Resource_kmqdj"]
+script = ExtResource("3_ulbp6")
+skill_name = "沙暴守卫"
+initial_sp = 5
+sp_required = 18
+sp_recharge_type = "time"
+description = "攻击+60%、防御+100%，20秒；蓄力时保留特性防御法抗。开启消耗全部技力。"
+effect_type = "carnelian_guard"
+effect_params = {
+"attack_mult": 1.6,
+"charge_count": 2,
+"defense_mult": 2.0
+}
+duration = 20.0
+
+[sub_resource type="Resource" id="Resource_rlseb"]
+script = ExtResource("3_ulbp6")
+skill_name = "沙缚镣锁"
+initial_sp = 10
+sp_required = 25
+sp_recharge_type = "time"
+description = "攻击间隔-1.1秒，攻击停顿0.3秒；蓄力额外攻击+20%，停顿替换为0.6秒束缚。"
+effect_type = "carnelian_bind"
+effect_params = {
+"attack_interval_add": -1.1,
+"attack_mult": 1.0,
+"bind_ticks": 18,
+"charge_count": 2,
+"charged_attack_mult": 1.2,
+"slow_ticks": 9
+}
+duration = 25.0
+
+[sub_resource type="Resource" id="Resource_37twk"]
+script = ExtResource("3_ulbp6")
+skill_name = "食噬之印"
+initial_sp = 5
+sp_required = 28
+sp_recharge_type = "time"
+description = "范围扩大，20秒内每秒更新攻击至+280%；蓄力每次攻击先叠一层仅来源自身增伤20%，最多五层，持续至技能结束。"
+effect_type = "carnelian_feast"
+effect_params = {
+"attack_mult": 1.0,
+"charge_count": 2,
+"damage_percent_per_stack": 20,
+"max_attack_bonus_percent": 280,
+"max_stacks": 5,
+"ramp_interval_ticks": 30,
+"ramp_steps": 20
+}
+duration = 21.0
+attack_range_override = Array[Vector2i]([Vector2i(-1, 2), Vector2i(0, 2), Vector2i(1, 2), Vector2i(-2, 1), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-2, -1), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(-1, -2), Vector2i(0, -2), Vector2i(1, -2)])
+
+[sub_resource type="Resource" id="Resource_rcyey"]
+script = ExtResource("4_g3kn2")
+talent_name = "生命之餐"
+description = "开启技能立即恢复40%最大生命，蓄力翻倍；继承当前治疗系数。"
+effect_type = "charged_skill_heal"
+effect_params = {
+"charged_heal_percent": 80,
+"heal_percent": 40
+}
+
+[sub_resource type="Resource" id="Resource_lygc4"]
+script = ExtResource("4_g3kn2")
+talent_name = "蓄势待发"
+description = "进入第二段技力蓄力时，自然技力回复+0.6每秒。"
+effect_type = "overcharge_sp"
+effect_params = {
+"sp_recharge_bonus_percent": 60
+}
+
+[resource]
+script = ExtResource("2_mwo66")
+operator_id = "carnelian"
+display_name = "卡涅利安"
+group_id = "sargon"
+profession = "术师"
+profession_id = "caster"
+branch = "阵法术师"
+max_health = 2106
+attack = 846
+defense = 228
+magic_resist = 15
+damage_type = "magical"
+attack_interval = 2.0
+block_count = 1
+initial_deploy_cost = 22
+deploy_cost = 24
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 2), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(0, -2)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_tkgs2")
+talent_1 = SubResource("Resource_rcyey")
+talent_2 = SubResource("Resource_lygc4")
+skills = Array[ExtResource("3_ulbp6")]([SubResource("Resource_kmqdj"), SubResource("Resource_rlseb"), SubResource("Resource_37twk")])

@@ -1,2 +1,32 @@
 # Normalize EOL for all files that Git considers text files.
 * text=auto eol=lf
+
+# Preserve pinned source atlas bytes and SHA256 for the M129 assets.
+assets/operators/wildmane/**/*.atlas -text
+assets/operators/gavial_alter/**/*.atlas -text
+assets/operators/eunectes/**/*.atlas -text
+assets/operators/chen_alter/**/*.atlas -text
+assets/operators/goldenglow/**/*.atlas -text
+assets/operators/mon3tr_operator/**/*.atlas -text
+assets/operators/stainless/**/*.atlas -text
+assets/operators/gladiia/**/*.atlas -text
+assets/operators/muelsyse/**/*.atlas -text
+assets/operators/mlynar/**/*.atlas -text
+assets/operators/jessica_alter/**/*.atlas -text
+assets/operators/fiammetta/**/*.atlas -text
+assets/operators/dusk/**/*.atlas -text
+assets/operators/titi/**/*.atlas -text
+assets/operators/ling/**/*.atlas -text
+assets/operators/shaw/**/*.atlas -text
+assets/operators/mon3tr_reconstruction/**/*.atlas -text
+assets/operators/ling_soul1/**/*.atlas -text
+assets/operators/ling_soul2/**/*.atlas -text
+assets/operators/ling_soul3/**/*.atlas -text
+assets/operators/flowing_shape/**/*.atlas -text
+assets/operators/jessica_shield/**/*.atlas -text
+assets/operators/dusk_freeling/**/*.atlas -text
+assets/operators/stainless_device_atk/**/*.atlas -text
+assets/operators/stainless_device_sp/**/*.atlas -text
+assets/operators/stainless_cannon/**/*.atlas -text
+# Preserve source delivery snapshots byte-for-byte.
+assets/battle/vfx/**/delivery_manifest.json -text whitespace=cr-at-eol

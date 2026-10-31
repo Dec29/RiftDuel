@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_fyymf"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_28c84"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_0j7cn"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_yd6go"]
+
+[sub_resource type="Resource" id="Resource_tj2a2"]
+script = ExtResource("1_fyymf")
+trait_name = "吟游者"
+description = "不进行普通攻击；持续回复自身或海嗣范围内友方生命，每秒为自身攻击力10%，重叠不重复。本作回复按50%折算；自身不受鼓舞影响，但可接受普通治疗。"
+effect_type = "bard"
+effect_params = {
+"regen_attack_percent": 10
+}
+
+[sub_resource type="Resource" id="Resource_nnxnj"]
+script = ExtResource("3_0j7cn")
+skill_name = "同归殊途之吟"
+initial_sp = 30
+sp_required = 50
+sp_recharge_type = "time"
+description = "立即恢复全部生命，最大生命+170%，持续回复提高至每秒80%攻击力，持续30秒。范围内其他友方受到的实际伤害在护盾后分担50%给本体，转移为生命流失，不能再转移；普通生命流失不分担。"
+effect_type = "bard_share"
+effect_params = {
+"health_percent": 170,
+"regen_attack_percent": 80,
+"share_percent": 50
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_q0jgn"]
+script = ExtResource("3_0j7cn")
+skill_name = "同葬无光之愿"
+trigger_type = "auto"
+sp_required = 56
+sp_recharge_type = "time"
+description = "自动开启且持续无限；范围内其他友方获得相当于本体当前攻击和防御60%的鼓舞（属性最终加值），持续回复提高至每秒20%攻击力。自身不受鼓舞，本体与海嗣重叠仅算一次。"
+effect_type = "bard_inspire"
+effect_params = {
+"inspire_attack_percent": 60,
+"inspire_defense_percent": 60,
+"regen_attack_percent": 20
+}
+duration = -1.0
+
+[sub_resource type="Resource" id="Resource_xlpdj"]
+script = ExtResource("3_0j7cn")
+skill_name = "“潮涌，潮枯”"
+initial_sp = 15
+sp_required = 35
+sp_recharge_type = "time"
+description = "停止持续回复，每秒流失5%最大生命，对本体及海嗣范围内敌人分别造成70%攻击力真实伤害，两处伤害可叠加，按辅助职业系数折算。其他友方获得110%本体攻击的鼓舞。无敌人时每秒仅对范围内箱子→静止球结算一次，球不套单位系数。"
+effect_type = "bard_tide"
+effect_params = {
+"damage_attack_percent": 70,
+"hp_loss_percent": 5,
+"inspire_attack_percent": 110,
+"pulse_ticks": 30
+}
+duration = 20.0
+
+[sub_resource type="Resource" id="Resource_jfho2"]
+script = ExtResource("4_yd6go")
+talent_name = "远古血亲"
+description = "可使用1只海嗣，不占编队槽、5费、25秒寿命、退场后独立30秒冷却，本体离场一并退场。海嗣遵守地界与占格，不攻击、不挡球、不可受伤；其范围扩展本体回复与技能。"
+effect_type = "summon_seaborn"
+effect_params = {
+"max_count": 1
+}
+
+[sub_resource type="Resource" id="Resource_fyaw4"]
+script = ExtResource("4_yd6go")
+talent_name = "捕食习性"
+description = "自身或海嗣范围内有其他友方普通干员时，自身攻击+6%；有深海猎人时改为+15%，自身与召唤物不触发。"
+effect_type = "bard_predation"
+effect_params = {
+"abyssal_attack_percent": 15,
+"attack_percent": 6
+}
+
+[resource]
+script = ExtResource("2_28c84")
+operator_id = "skadi_alter"
+display_name = "浊心斯卡蒂"
+profession = "辅助"
+profession_id = "supporter"
+branch = "吟游者"
+max_health = 1603
+attack = 368
+defense = 233
+damage_type = "healing"
+attack_interval = 1.3
+block_count = 1
+initial_deploy_cost = 6
+deploy_cost = 8
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -2), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(0, 2)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_tj2a2")
+talent_1 = SubResource("Resource_jfho2")
+talent_2 = SubResource("Resource_fyaw4")
+skills = Array[ExtResource("3_0j7cn")]([SubResource("Resource_nnxnj"), SubResource("Resource_q0jgn"), SubResource("Resource_xlpdj")])

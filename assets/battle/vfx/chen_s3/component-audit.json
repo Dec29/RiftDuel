@@ -1,0 +1,21 @@
+{
+  "prefabs": 13,
+  "nodes": 174,
+  "meshes": 51,
+  "particles": 64,
+  "trails": 2,
+  "materials": 29,
+  "shaders": {
+    "Torappu/Particles/Additive": 10,
+    "Torappu/Particles/AlphaBlend": 10,
+    "Torappu/Particles/Dissolve/Dissolve AB": 7,
+    "Torappu/Particles/Dissolve/Dissolve Add": 2
+  },
+  "bound_curves": 416,
+  "legacy_curves": 36,
+  "unbound_source_targets": 770,
+  "unmapped_valid_bindings": 0,
+  "noise_modules": 14,
+  "clamp_velocity_modules": 24,
+  "missing_dependencies": 52
+}

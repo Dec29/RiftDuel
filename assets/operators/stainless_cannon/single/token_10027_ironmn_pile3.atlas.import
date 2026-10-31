@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://brff538rwgdeq"
+path="res://.godot/imported/token_10027_ironmn_pile3.atlas-6d4d99818a4d6d1e94b893b29a2dbe5b.tres"
+
+[deps]
+
+source_file="res://assets/operators/stainless_cannon/single/token_10027_ironmn_pile3.atlas"
+dest_files=["res://.godot/imported/token_10027_ironmn_pile3.atlas-6d4d99818a4d6d1e94b893b29a2dbe5b.tres"]
+
+[params]
+
+normal_map_prefix="n"

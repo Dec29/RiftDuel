@@ -1,0 +1,569 @@
+{
+  "repository": "Kengxxiao/ArknightsGameData",
+  "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "paths": [
+    "zh_CN/gamedata/excel/character_table.json",
+    "zh_CN/gamedata/excel/skill_table.json",
+    "zh_CN/gamedata/excel/range_table.json"
+  ],
+  "char_id": "char_108_silent",
+  "base": {
+    "maxHp": 1595,
+    "atk": 482,
+    "def": 142,
+    "magicResistance": 0.0,
+    "cost": 19,
+    "blockCnt": 1,
+    "moveSpeed": 1.0,
+    "attackSpeed": 100.0,
+    "baseAttackTime": 2.85,
+    "respawnTime": 70,
+    "hpRecoveryPerSec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "maxDeployCount": 1,
+    "maxDeckStackCnt": 0,
+    "tauntLevel": 0,
+    "massLevel": 0,
+    "baseForceLevel": 0,
+    "stunImmune": false,
+    "silenceImmune": false,
+    "sleepImmune": false,
+    "frozenImmune": false,
+    "levitateImmune": false,
+    "disarmedCombatImmune": false,
+    "fearedImmune": false,
+    "palsyImmune": false,
+    "attractImmune": false,
+    "teleportImmune": false,
+    "groundBoundImmune": false
+  },
+  "talents": [
+    {
+      "candidates": [
+        {
+          "unlockCondition": {
+            "phase": "PHASE_1",
+            "level": 1
+          },
+          "requiredPotentialRank": 0,
+          "prefabKey": "1",
+          "name": "强化注射",
+          "description": "在场时，所有友方【医疗】职业干员攻速+6",
+          "rangeId": null,
+          "blackboard": [
+            {
+              "key": "attack_speed",
+              "value": 6.0,
+              "valueStr": null
+            }
+          ],
+          "tokenKey": null,
+          "isHideTalent": false
+        },
+        {
+          "unlockCondition": {
+            "phase": "PHASE_1",
+            "level": 1
+          },
+          "requiredPotentialRank": 4,
+          "prefabKey": "1",
+          "name": "强化注射",
+          "description": "在场时，所有友方【医疗】职业干员攻速+8<@ba.talpu>（+2）</>",
+          "rangeId": null,
+          "blackboard": [
+            {
+              "key": "attack_speed",
+              "value": 8.0,
+              "valueStr": null
+            }
+          ],
+          "tokenKey": null,
+          "isHideTalent": false
+        },
+        {
+          "unlockCondition": {
+            "phase": "PHASE_2",
+            "level": 1
+          },
+          "requiredPotentialRank": 0,
+          "prefabKey": "1",
+          "name": "强化注射",
+          "description": "在场时，所有友方【医疗】职业干员攻速+12",
+          "rangeId": null,
+          "blackboard": [
+            {
+              "key": "attack_speed",
+              "value": 12.0,
+              "valueStr": null
+            }
+          ],
+          "tokenKey": null,
+          "isHideTalent": false
+        },
+        {
+          "unlockCondition": {
+            "phase": "PHASE_2",
+            "level": 1
+          },
+          "requiredPotentialRank": 4,
+          "prefabKey": "1",
+          "name": "强化注射",
+          "description": "在场时，所有友方【医疗】职业干员攻速+14<@ba.talpu>（+2）</>",
+          "rangeId": null,
+          "blackboard": [
+            {
+              "key": "attack_speed",
+              "value": 14.0,
+              "valueStr": null
+            }
+          ],
+          "tokenKey": null,
+          "isHideTalent": false
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "skcom_heal_up[3]": {
+      "name": "治疗强化·γ型",
+      "rangeId": null,
+      "description": "攻击力<@ba.vup>+{atk:0%}</>",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_heal_up",
+      "duration": 30.0,
+      "blackboard": [
+        {
+          "key": "atk",
+          "value": 0.9,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_silent_2": {
+      "name": "医疗无人机",
+      "rangeId": null,
+      "description": "获得一个医疗无人机\\n<@ba.rem>最多可库存1个无人机；无人机投入战场后治疗周围友军，10秒后自动销毁</>",
+      "skillType": "AUTO",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 18,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_silent_2",
+      "duration": 0.0,
+      "blackboard": [
+        {
+          "key": "cnt",
+          "value": 1.0,
+          "valueStr": null
+        }
+      ]
+    }
+  },
+  "token": {
+    "name": "医疗探机",
+    "description": "不会受到攻击，恢复周围友方单位的生命",
+    "sortIndex": 1185,
+    "spTargetType": "NONE",
+    "spTargetId": null,
+    "canUseGeneralPotentialItem": true,
+    "canUseActivityPotentialItem": false,
+    "potentialItemId": null,
+    "activityPotentialItemId": null,
+    "classicPotentialItemId": null,
+    "nationId": null,
+    "groupId": null,
+    "teamId": null,
+    "mainPower": {
+      "nationId": null,
+      "groupId": null,
+      "teamId": null
+    },
+    "subPower": null,
+    "displayNumber": null,
+    "appellation": "Medical Drone",
+    "position": "ALL",
+    "tagList": null,
+    "itemUsage": null,
+    "itemDesc": null,
+    "itemObtainApproach": null,
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 0,
+    "rarity": "TIER_5",
+    "profession": "TOKEN",
+    "subProfessionId": "notchar1",
+    "trait": null,
+    "phases": [
+      {
+        "characterPrefabKey": "token_10000_silent_healrb",
+        "rangeId": "x-4",
+        "maxLevel": 50,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1000,
+              "atk": 30,
+              "def": 0,
+              "magicResistance": 0.0,
+              "cost": 5,
+              "blockCnt": 0,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 0.5,
+              "respawnTime": 5,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 50,
+            "data": {
+              "maxHp": 1000,
+              "atk": 55,
+              "def": 0,
+              "magicResistance": 0.0,
+              "cost": 5,
+              "blockCnt": 0,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 0.5,
+              "respawnTime": 5,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": null
+      },
+      {
+        "characterPrefabKey": "token_10000_silent_healrb",
+        "rangeId": "x-4",
+        "maxLevel": 70,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1000,
+              "atk": 55,
+              "def": 0,
+              "magicResistance": 0.0,
+              "cost": 5,
+              "blockCnt": 0,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 0.5,
+              "respawnTime": 5,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 70,
+            "data": {
+              "maxHp": 1000,
+              "atk": 90,
+              "def": 0,
+              "magicResistance": 0.0,
+              "cost": 5,
+              "blockCnt": 0,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 0.5,
+              "respawnTime": 5,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": null
+      },
+      {
+        "characterPrefabKey": "token_10000_silent_healrb",
+        "rangeId": "x-4",
+        "maxLevel": 80,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1000,
+              "atk": 90,
+              "def": 0,
+              "magicResistance": 0.0,
+              "cost": 5,
+              "blockCnt": 0,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 0.5,
+              "respawnTime": 5,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 80,
+            "data": {
+              "maxHp": 1000,
+              "atk": 125,
+              "def": 0,
+              "magicResistance": 0.0,
+              "cost": 5,
+              "blockCnt": 0,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 0.5,
+              "respawnTime": 5,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": null
+      }
+    ],
+    "skills": [
+      {
+        "skillId": "skcom_withdraw",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [],
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skcom_withdraw",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [],
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        }
+      }
+    ],
+    "displayTokenDict": null,
+    "talents": null,
+    "potentialRanks": [],
+    "favorKeyFrames": null,
+    "allSkillLvlup": []
+  },
+  "ranges": {
+    "3-3": {
+      "id": "3-3",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": -1,
+          "col": 0
+        },
+        {
+          "row": -1,
+          "col": 1
+        },
+        {
+          "row": -1,
+          "col": 2
+        },
+        {
+          "row": -1,
+          "col": 3
+        }
+      ]
+    },
+    "x-4": {
+      "id": "x-4",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 1,
+          "col": -1
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": -1
+        },
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": -1,
+          "col": -1
+        },
+        {
+          "row": -1,
+          "col": 0
+        },
+        {
+          "row": -1,
+          "col": 1
+        }
+      ]
+    }
+  },
+  "prts": [
+    "https://prts.wiki/w/赫默",
+    "https://prts.wiki/w/医疗探机"
+  ],
+  "pending": [
+    "探机首疗沿现有部署冷却为15tick；原生动画起点待核",
+    "无人机库存限制/存续与本作格子占用适配；不放宽部署地界或叠格",
+    "装置免伤免控制且不参与普通治疗目标；本作医疗50%先取整后输出光环"
+  ]
+}

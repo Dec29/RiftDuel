@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dnhs52vrqjnnp"
+path="res://.godot/imported/char_1034_jesca2.skel-5d7fbff234b5f129f938824032173bd7.tres"
+
+[deps]
+
+source_file="res://assets/operators/jessica_alter/front/char_1034_jesca2.skel"
+dest_files=["res://.godot/imported/char_1034_jesca2.skel-5d7fbff234b5f129f938824032173bd7.tres"]
+
+[params]

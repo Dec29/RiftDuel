@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://crextqdqqgngd"
+path="res://.godot/imported/char_4064_mlynar.atlas-fc70f0efc115f16440703de9e542ddfb.tres"
+
+[deps]
+
+source_file="res://assets/operators/mlynar/back/char_4064_mlynar.atlas"
+dest_files=["res://.godot/imported/char_4064_mlynar.atlas-fc70f0efc115f16440703de9e542ddfb.tres"]
+
+[params]
+
+normal_map_prefix="n"

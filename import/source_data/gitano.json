@@ -1,0 +1,326 @@
+{
+  "repository": "Kengxxiao/ArknightsGameData",
+  "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "paths": [
+    "zh_CN/gamedata/excel/character_table.json",
+    "zh_CN/gamedata/excel/skill_table.json",
+    "zh_CN/gamedata/excel/range_table.json"
+  ],
+  "char_id": "char_109_fmout",
+  "base": {
+    "maxHp": 1598,
+    "atk": 715,
+    "def": 118,
+    "magicResistance": 20.0,
+    "cost": 32,
+    "blockCnt": 1,
+    "moveSpeed": 1.0,
+    "attackSpeed": 100.0,
+    "baseAttackTime": 2.9,
+    "respawnTime": 70,
+    "hpRecoveryPerSec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "maxDeployCount": 1,
+    "maxDeckStackCnt": 0,
+    "tauntLevel": 0,
+    "massLevel": 0,
+    "baseForceLevel": 0,
+    "stunImmune": false,
+    "silenceImmune": false,
+    "sleepImmune": false,
+    "frozenImmune": false,
+    "levitateImmune": false,
+    "disarmedCombatImmune": false,
+    "fearedImmune": false,
+    "palsyImmune": false,
+    "attractImmune": false,
+    "teleportImmune": false,
+    "groundBoundImmune": false
+  },
+  "talents": [
+    {
+      "candidates": [
+        {
+          "unlockCondition": {
+            "phase": "PHASE_1",
+            "level": 1
+          },
+          "requiredPotentialRank": 0,
+          "prefabKey": "1",
+          "name": "占卜",
+          "description": "部署后随机永久获得下列一项增益：攻击力+7%；攻击速度+7；生命上限+12%",
+          "rangeId": null,
+          "blackboard": [
+            {
+              "key": "attack_speed",
+              "value": 7.0,
+              "valueStr": null
+            },
+            {
+              "key": "atk",
+              "value": 0.07,
+              "valueStr": null
+            },
+            {
+              "key": "max_hp",
+              "value": 0.12,
+              "valueStr": null
+            }
+          ],
+          "tokenKey": null,
+          "isHideTalent": false
+        },
+        {
+          "unlockCondition": {
+            "phase": "PHASE_1",
+            "level": 1
+          },
+          "requiredPotentialRank": 4,
+          "prefabKey": "1",
+          "name": "占卜",
+          "description": "部署后随机永久获得下列一项增益：攻击力+9%<@ba.talpu>（+2%）</>；攻击速度+9<@ba.talpu>（+2）</>；生命上限+14%<@ba.talpu>（+2%）</>",
+          "rangeId": null,
+          "blackboard": [
+            {
+              "key": "attack_speed",
+              "value": 9.0,
+              "valueStr": null
+            },
+            {
+              "key": "atk",
+              "value": 0.09,
+              "valueStr": null
+            },
+            {
+              "key": "max_hp",
+              "value": 0.14,
+              "valueStr": null
+            }
+          ],
+          "tokenKey": null,
+          "isHideTalent": false
+        },
+        {
+          "unlockCondition": {
+            "phase": "PHASE_2",
+            "level": 1
+          },
+          "requiredPotentialRank": 0,
+          "prefabKey": "1",
+          "name": "占卜",
+          "description": "部署后随机永久获得下列一项增益：攻击力+13%；攻击速度+13；生命上限提升20%",
+          "rangeId": null,
+          "blackboard": [
+            {
+              "key": "attack_speed",
+              "value": 13.0,
+              "valueStr": null
+            },
+            {
+              "key": "atk",
+              "value": 0.13,
+              "valueStr": null
+            },
+            {
+              "key": "max_hp",
+              "value": 0.2,
+              "valueStr": null
+            }
+          ],
+          "tokenKey": null,
+          "isHideTalent": false
+        },
+        {
+          "unlockCondition": {
+            "phase": "PHASE_2",
+            "level": 1
+          },
+          "requiredPotentialRank": 4,
+          "prefabKey": "1",
+          "name": "占卜",
+          "description": "部署后随机永久获得下列一项增益：攻击力+15%<@ba.talpu>（+2%）</>；攻击速度+15<@ba.talpu>（+2）</>；生命上限+22%<@ba.talpu>（+2%）</>",
+          "rangeId": null,
+          "blackboard": [
+            {
+              "key": "attack_speed",
+              "value": 15.0,
+              "valueStr": null
+            },
+            {
+              "key": "atk",
+              "value": 0.15,
+              "valueStr": null
+            },
+            {
+              "key": "max_hp",
+              "value": 0.22,
+              "valueStr": null
+            }
+          ],
+          "tokenKey": null,
+          "isHideTalent": false
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "skcom_magic_rage[2]": {
+      "name": "战术咏唱·β型",
+      "rangeId": null,
+      "description": "攻击速度<@ba.vup>+{attack_speed}</>",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_attack_speed_up",
+      "duration": 25.0,
+      "blackboard": [
+        {
+          "key": "attack_speed",
+          "value": 75.0,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_fmout_2": {
+      "name": "命运",
+      "rangeId": "3-3",
+      "description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>扩大</>，同时攻击攻击范围内所有敌人\\n<@ba.rem>技能时间结束后远山停止攻击{time}秒</>",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 85,
+        "initSp": 50,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_fmout_2",
+      "duration": 30.0,
+      "blackboard": [
+        {
+          "key": "atk",
+          "value": 1.0,
+          "valueStr": null
+        },
+        {
+          "key": "time",
+          "value": 10.0,
+          "valueStr": null
+        }
+      ]
+    }
+  },
+  "ranges": {
+    "3-6": {
+      "id": "3-6",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": -1,
+          "col": 0
+        },
+        {
+          "row": -1,
+          "col": 1
+        },
+        {
+          "row": -1,
+          "col": 2
+        }
+      ]
+    },
+    "3-3": {
+      "id": "3-3",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": -1,
+          "col": 0
+        },
+        {
+          "row": -1,
+          "col": 1
+        },
+        {
+          "row": -1,
+          "col": 2
+        },
+        {
+          "row": -1,
+          "col": 3
+        }
+      ]
+    }
+  },
+  "prts": "https://prts.wiki/w/远山",
+  "verified_radius": 1.1,
+  "pending": [
+    "占卜三个结果的概率原始表未给，候选模拟RNG等权三选一",
+    "命运结束仅按原文停止攻击10秒，不擅自扩大为眩晕；是否可解除/折减待原生行为依据",
+    "命运不对球/箱额外群体计击，沿用当前扩散术师单次交互规则"
+  ]
+}

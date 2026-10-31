@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "char_id": "token_10015_dusk_drgn",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/token_10015_dusk_drgn.png",
+      "commit": "9bf239661e37766fba585806fb9fa67e79bb679e",
+      "bytes": 32521,
+      "sha256": "f0ab06da6829e34cae817df6d9d6ee8c58cf2a7058f36bad9830378e88bab9b6",
+      "kind": "avatar",
+      "variant": "original default summon",
+      "width": 180,
+      "height": 180,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "operator_id": "dusk_freeling",
+      "path": "assets/cards/dusk_freeling/avatar.png",
+      "modification": "none"
+    }
+  ],
+  "copyright_notice": "Original Arknights / Hypergryph and respective rightsholders. Local non-commercial fan use is not a new license; source code license does not cover game art."
+}

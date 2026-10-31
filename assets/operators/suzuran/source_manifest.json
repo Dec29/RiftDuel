@@ -1,0 +1,56 @@
+{
+  "operator_id": "suzuran",
+  "display_name": "铃兰",
+  "char_id": "char_358_lisa",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "atlas_page_size": "512x512",
+  "note": "Ark-Models 的基建小人不是战斗来源，未使用。原始骨架经 tools/import_operator_visual.gd 生成压缩资源。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/suzuran/back/char_358_lisa.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_358_lisa/back/char_358_lisa.atlas",
+      "sha256": "58026e396e2dfc966f5fb3287b5b582fc2a84d4a88d13b8a0fae2bec1d5dcdfa",
+      "size": 4439
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/suzuran/back/char_358_lisa.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_358_lisa/back/char_358_lisa.png",
+      "sha256": "e23b3ad2359aefe6107ee0e51192dcd3fb2d559d836340a452ec0464ad91b49a",
+      "size": 68320
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/suzuran/back/char_358_lisa.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_358_lisa/back/char_358_lisa.skel",
+      "sha256": "ce691a8d58ce1ec6fc09e565dbfbe38f6aa779c9f34cfa66fb28fbb44a92b19e",
+      "size": 65718
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/suzuran/front/char_358_lisa.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_358_lisa/front/char_358_lisa.atlas",
+      "sha256": "9af20ae3e233dd584d6bb2b5323b3304e0adcea70ec76b982d80d6d4e8d26d1b",
+      "size": 6944
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/suzuran/front/char_358_lisa.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_358_lisa/front/char_358_lisa.png",
+      "sha256": "d4d0e8d968f446c7873b5a216e06620e380ae66e290e75a4e9db605e0605eaae",
+      "size": 89378
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/suzuran/front/char_358_lisa.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_358_lisa/front/char_358_lisa.skel",
+      "sha256": "4055745fb9d6c96a4939aa273d49b032bf2e2a2773691d3932861b539078f5e5",
+      "size": 157523
+    }
+  ]
+}

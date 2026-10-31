@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://bdojskukqkoxj"
+path="res://.godot/imported/char_128_plosis.skel-a3ec6868ffa8fd9157031d542e5b65a8.tres"
+
+[deps]
+
+source_file="res://assets/operators/ptilopsis/back/char_128_plosis.skel"
+dest_files=["res://.godot/imported/char_128_plosis.skel-a3ec6868ffa8fd9157031d542e5b65a8.tres"]
+
+[params]

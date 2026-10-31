@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://do6euk51v3wap"
+path="res://.godot/imported/char_362_saga.skel-bae6c5c32ed8b4824d37f50dcf7d2d1a.tres"
+
+[deps]
+
+source_file="res://assets/operators/saga/front/char_362_saga.skel"
+dest_files=["res://.godot/imported/char_362_saga.skel-bae6c5c32ed8b4824d37f50dcf7d2d1a.tres"]
+
+[params]

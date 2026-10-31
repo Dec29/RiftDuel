@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://cfl6egh8jc0p7"
+path="res://.godot/imported/char_101_sora.skel-ac8b37dd1a3c67158aa8fa27104a5d6c.tres"
+
+[deps]
+
+source_file="res://assets/operators/sora/back/char_101_sora.skel"
+dest_files=["res://.godot/imported/char_101_sora.skel-ac8b37dd1a3c67158aa8fa27104a5d6c.tres"]
+
+[params]

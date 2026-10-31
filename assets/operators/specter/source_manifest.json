@@ -1,0 +1,85 @@
+{
+  "operator_id": "specter",
+  "display_name": "幽灵鲨",
+  "char_id": "char_143_ghost",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/specter/front/char_143_ghost.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_143_ghost/front/char_143_ghost.skel",
+      "sha256": "c3e6f5b176806dc84687220766aa0d7f1bc6086590b9a667766369a1f1877672",
+      "size": 111004
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/specter/front/char_143_ghost.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_143_ghost/front/char_143_ghost.atlas",
+      "sha256": "b7fee6902bdb2c50fc989cad2d94afb07fd50fb65a58af1b40cd8027bdfa5de0",
+      "size": 5828
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/specter/front/char_143_ghost.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_143_ghost/front/char_143_ghost.png",
+      "sha256": "b07eafa787536c0bb6d55f25bc817ad59c0a14f6b8b1bd9eb42d9bd40ea9ddeb",
+      "size": 93131
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/specter/back/char_143_ghost.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_143_ghost/back/char_143_ghost.skel",
+      "sha256": "f495bd3331c2f246adfba16bbe2c65930a46d77f332771da126b2c5c64fb0331",
+      "size": 48210
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/specter/back/char_143_ghost.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_143_ghost/back/char_143_ghost.atlas",
+      "sha256": "c42f90f9d9cdcc331f64615b61dae58b2235748fd23081fadb9c3045de5f3b1a",
+      "size": 2901
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/specter/back/char_143_ghost.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_143_ghost/back/char_143_ghost.png",
+      "sha256": "c2886bccfc7e7676b37b7254807b64869e2aa1da0ea94cfdb1b8ec4683e90c7c",
+      "size": 74153
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.0,
+      "Attack_Down": 1.0,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.0,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.0,
+      "Default": 0.0,
+      "Idle": 1.0,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 43
+    },
+    "back": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 26
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

@@ -1,0 +1,116 @@
+{
+  "operator_id": "lee",
+  "char_id": "char_322_lmlee",
+  "display_name": "老鲤",
+  "files": [
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/lee/front/char_322_lmlee.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_322_lmlee/front/char_322_lmlee.atlas",
+      "bytes": 10376,
+      "sha256": "dc8dfca29585c64066de17e4f4fb0a99c0c6c6d53a2a6a3ee9c5505ebc7e1526"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/lee/front/char_322_lmlee.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_322_lmlee/front/char_322_lmlee.skel",
+      "bytes": 352466,
+      "sha256": "6b4884fa843fc7320ef3ab744acf4c50a9da5a033a94177bc87854df4de8d943",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/lee/front/char_322_lmlee.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_322_lmlee/front/char_322_lmlee.png",
+      "bytes": 112021,
+      "sha256": "96c7d620f78aebc7cc2394e14cd534d6057807a57e49aadb548484b34d8df27f",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/lee/back/char_322_lmlee.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_322_lmlee/back/char_322_lmlee.atlas",
+      "bytes": 5895,
+      "sha256": "1aa9170dfa7571591d16eba422d841fb83ca209e13f4a0deeeaf9f88dabf4f71"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/lee/back/char_322_lmlee.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_322_lmlee/back/char_322_lmlee.skel",
+      "bytes": 258705,
+      "sha256": "1a218348c83a97ef6501a1125d7ace06a79b3fa40a38e4bb6723b3c0fa4a77db",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/lee/back/char_322_lmlee.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_322_lmlee/back/char_322_lmlee.png",
+      "bytes": 79254,
+      "sha256": "9b9f74ab6b62d4ecc7c95c80dd5b5d2971249a6c22b9b3e3de7c6aa839ec3f0b",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified.",
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.0,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 3.6,
+      "Skill_2_Attack": 1.0,
+      "Skill_2_Start": 0.333333333333333,
+      "Skill_3_End": 0.1,
+      "Skill_3_Idle": 1.0,
+      "Skill_3_Loop": 1.0,
+      "Skill_3_Start": 0.333333333333333,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.0,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 3.6,
+      "Skill_2_Attack": 1.0,
+      "Skill_2_start": 0.333333333333333,
+      "Skill_3_End": 0.1,
+      "Skill_3_Idle": 1.0,
+      "Skill_3_Loop": 1.0,
+      "Skill_3_Start": 0.333333333333333,
+      "Start": 1.0
+    }
+  },
+  "animation_mapping": {
+    "attack_clip": "Attack",
+    "attack_seconds": 1.0,
+    "idle_seconds": 3.6,
+    "deploy_seconds": 1.0
+  },
+  "animation_measurement": "Native 3.8 completion events sampled at1/300s and rounded to30fps; only presentation, never simulation.",
+  "normal_blend_verified": true,
+  "skill_animation_mapping": [
+    {},
+    {
+      "cast": "Skill_2_Start",
+      "attack": "Skill_2_Attack"
+    },
+    {
+      "begin": "Skill_3_Start",
+      "idle": "Skill_3_Idle",
+      "attack": "Skill_3_Loop",
+      "end": "Skill_3_End"
+    }
+  ]
+}

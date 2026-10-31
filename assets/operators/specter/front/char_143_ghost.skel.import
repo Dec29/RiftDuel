@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://bdjb0ljp0y0qm"
+path="res://.godot/imported/char_143_ghost.skel-985b92c5b69a56b0e91eca89acb043ed.tres"
+
+[deps]
+
+source_file="res://assets/operators/specter/front/char_143_ghost.skel"
+dest_files=["res://.godot/imported/char_143_ghost.skel-985b92c5b69a56b0e91eca89acb043ed.tres"]
+
+[params]

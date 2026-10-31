@@ -92,15 +92,26 @@ s, key, response = connect()
 assert response.startswith(b'HTTP/1.1 101 '), response
 accept = base64.b64encode(hashlib.sha1((key + '258EAFA5-E914-47DA-95CA-C5AB0DC85B11').encode()).digest())
 assert b'sec-websocket-accept: ' + accept.lower() in response.lower()
-send(s, dict(v=1, type='hello', seq=1, build='a' * 64))
-assert read(s) == dict(v=1, type='hello', seq=1)
-send(s, dict(v=1, type='create', seq=2))
+send(s, dict(v=2, type='hello', seq=1, build='a' * 64))
+assert read(s) == dict(v=2, type='hello', seq=1)
+send(s, dict(v=2, type='create', seq=2))
 created = read(s)
-assert created['type'] == 'created' and created['seq'] == 2 and len(created['invite']) == 32
+assert set(created) == {'v', 'type', 'seq', 'room_id', 'code', 'side'}
+assert created['v'] == 2 and created['type'] == 'created' and created['seq'] == 2 and created['side'] == 0
+assert len(created['room_id']) == 32 and len(bytes.fromhex(created['room_id'])) == 16
+assert len(created['code']) == 6 and all('0' <= digit <= '9' for digit in created['code'])
+other, _, response = connect()
+assert response.startswith(b'HTTP/1.1 101 '), response
+send(other, dict(v=2, type='hello', seq=1, build='a' * 64))
+assert read(other) == dict(v=2, type='hello', seq=1)
+send(other, dict(v=2, type='join', seq=2, code=created['code']))
+assert read(other) == dict(v=2, type='joined', seq=2, room_id=created['room_id'], side=1)
+assert read(s) == dict(v=2, type='joined', seq=3, room_id=created['room_id'], side=0)
+other.close()
 s.close()
 s, _, response = connect(origin=True)
 assert response.startswith(b'HTTP/1.1 403 '), response
 s.close()
-print('TLS chain/IP SAN, WebSocket 101, hello/create and Origin rejection: OK')
+print('TLS chain/IP SAN, WebSocket 101, v2 hello/create/code-only join and Origin rejection: OK')
 PY
 echo 'DEPLOY_LOCAL_VERIFY_OK'

@@ -1,0 +1,79 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_5ymad"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_408dw"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_ahrj3"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_0v0pn"]
+
+[sub_resource type="Resource" id="Resource_dcf8f"]
+script = ExtResource("1_5ymad")
+trait_name = "处决者"
+description = "再部署时间大幅减少，基础18秒。"
+effect_type = "fast_redeploy"
+
+[sub_resource type="Resource" id="Resource_x73s4"]
+script = ExtResource("3_ahrj3")
+skill_name = "影袭"
+trigger_type = "passive"
+sp_recharge_type = "passive"
+description = "部署后防御+400%，在12秒内线性衰减至零；眩晕不暂停计时，沉默暂停防御增益。"
+effect_type = "gravel_defense"
+effect_params = {
+"decay_ticks": 360,
+"defense_percent": 400
+}
+duration = 12.0
+
+[sub_resource type="Resource" id="Resource_w5ega"]
+script = ExtResource("3_ahrj3")
+skill_name = "鼠群"
+trigger_type = "passive"
+sp_recharge_type = "passive"
+description = "部署后获得相当于当前最大生命250%的全伤害屏障，在10秒内按初始屏障量线性流失；伤害额外扣除，溢出伤害进入生命，屏障不重复触发受击技力。"
+effect_type = "gravel_barrier"
+effect_params = {
+"decay_ticks": 300,
+"shield_health_percent": 250
+}
+duration = 10.0
+
+[sub_resource type="Resource" id="Resource_gttj5"]
+script = ExtResource("4_0v0pn")
+talent_name = "小个子支援"
+description = "自身部署费用-1；在场未沉默时，原始部署费用不超过10的所有友方单位防御+6%。"
+effect_type = "low_cost_support"
+effect_params = {
+"cost_reduction": 1,
+"cost_threshold": 10,
+"defense_percent": 6
+}
+
+[sub_resource type="Resource" id="Resource_6742s"]
+script = ExtResource("4_0v0pn")
+talent_name = "无第二天赋"
+description = "原作仅有一个天赋，不额外添加天赋。"
+effect_type = "none"
+
+[resource]
+script = ExtResource("2_408dw")
+operator_id = "gravel"
+group_id = "kazimierz"
+display_name = "砾"
+profession = "特种"
+profession_id = "specialist"
+branch = "处决者"
+max_health = 1420
+attack = 452
+defense = 335
+damage_type = "physical"
+attack_interval = 0.93
+block_count = 1
+initial_deploy_cost = 6
+deploy_cost = 8
+redeploy_time = 18.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_dcf8f")
+talent_1 = SubResource("Resource_gttj5")
+talent_2 = SubResource("Resource_6742s")
+skills = Array[ExtResource("3_ahrj3")]([SubResource("Resource_x73s4"), SubResource("Resource_w5ega")])

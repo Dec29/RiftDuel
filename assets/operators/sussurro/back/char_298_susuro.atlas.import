@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://xct5mtvmbpl2"
+path="res://.godot/imported/char_298_susuro.atlas-c931fc6179e15b3adcaf906d4e471354.tres"
+
+[deps]
+
+source_file="res://assets/operators/sussurro/back/char_298_susuro.atlas"
+dest_files=["res://.godot/imported/char_298_susuro.atlas-c931fc6179e15b3adcaf906d4e471354.tres"]
+
+[params]
+
+normal_map_prefix="n"

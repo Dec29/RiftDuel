@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://corytppnccmic"
+path="res://.godot/imported/char_340_shwaz.skel-f06009117a9827bc73edc70b4a8d4802.tres"
+
+[deps]
+
+source_file="res://assets/operators/schwarz/back/char_340_shwaz.skel"
+dest_files=["res://.godot/imported/char_340_shwaz.skel-f06009117a9827bc73edc70b4a8d4802.tres"]
+
+[params]

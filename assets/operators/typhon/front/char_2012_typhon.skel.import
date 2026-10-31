@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dhl3ebpic228l"
+path="res://.godot/imported/char_2012_typhon.skel-8bef62c72e444a6cee5a115b9eabefa0.tres"
+
+[deps]
+
+source_file="res://assets/operators/typhon/front/char_2012_typhon.skel"
+dest_files=["res://.godot/imported/char_2012_typhon.skel-8bef62c72e444a6cee5a115b9eabefa0.tres"]
+
+[params]

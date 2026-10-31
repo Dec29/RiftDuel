@@ -24,11 +24,3 @@ Thumbs.db
 !.env.example
 *.key
 *.pem
-*.p12
-*.pfx
-*.jks
-*.keystore
-*.crt
-*.cer
-id_rsa
-id_ed25519

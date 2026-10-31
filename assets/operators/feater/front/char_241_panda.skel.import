@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://c7ud77de17f3d"
+path="res://.godot/imported/char_241_panda.skel-6f1e63625652d7ec2c41c5aab42b7e23.tres"
+
+[deps]
+
+source_file="res://assets/operators/feater/front/char_241_panda.skel"
+dest_files=["res://.godot/imported/char_241_panda.skel-6f1e63625652d7ec2c41c5aab42b7e23.tres"]
+
+[params]

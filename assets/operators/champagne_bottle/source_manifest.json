@@ -1,0 +1,42 @@
+{
+  "operator_id": "champagne_bottle",
+  "char_id": "token_10031_swire2_gdtrap",
+  "model_kind": "non-unit prop, original single skeleton",
+  "costume": "默认服装",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "file": "res://assets/operators/champagne_bottle/single/token_10031_swire2_gdtrap.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10031_swire2_gdtrap/token_10031_swire2_gdtrap.skel",
+      "bytes": 14672,
+      "sha256": "417c1d8241297e7e1b915b8749bacfbcf2c6c597273e32d9d8d17cf64080617d"
+    },
+    {
+      "file": "res://assets/operators/champagne_bottle/single/token_10031_swire2_gdtrap.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10031_swire2_gdtrap/token_10031_swire2_gdtrap.atlas",
+      "bytes": 1037,
+      "sha256": "7b569354d3ea71320c028c8a1179b1c19db26b6964ea8884992cea61f38fc51a"
+    },
+    {
+      "file": "res://assets/operators/champagne_bottle/single/token_10031_swire2_gdtrap.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10031_swire2_gdtrap/token_10031_swire2_gdtrap.png",
+      "bytes": 13129,
+      "sha256": "dfad4f2eb18d2429d78a1dc6bb7209ac09e7942047e130c66654a6110b68aa62"
+    }
+  ],
+  "note": "原作SpawnToken对应token_10031_swire2_gdtrap；仅用现有ChampagneBomb数据绘制，不新增可部署卡或模拟单位。版权属于原权利人，本地非盈利用途不代表取得新许可。",
+  "animation_seconds": {
+    "single": {
+      "Attack": 0.2,
+      "Default": 0.0,
+      "Die": 0.466666666666667,
+      "Idle": 2.0,
+      "Start": 0.666666666666667
+    }
+  },
+  "normal_blend_verified": true,
+  "atlas_mode": "single-page straight alpha",
+  "native_evidence": ".ai/menu-summons-20261027/prop-spine-native.json",
+  "export_version": "3.8.99",
+  "body_cell_ratio": 0.5
+}

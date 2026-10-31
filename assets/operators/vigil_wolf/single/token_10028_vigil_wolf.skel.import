@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://b5rp0okb5wjyu"
+path="res://.godot/imported/token_10028_vigil_wolf.skel-d2719739084a39a8509020c86963417b.tres"
+
+[deps]
+
+source_file="res://assets/operators/vigil_wolf/single/token_10028_vigil_wolf.skel"
+dest_files=["res://.godot/imported/token_10028_vigil_wolf.skel-d2719739084a39a8509020c86963417b.tres"]
+
+[params]

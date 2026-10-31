@@ -1,0 +1,77 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_uciwe"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_c00ob"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_srpeg"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_prpcf"]
+
+[sub_resource type="Resource" id="Resource_yf6fg"]
+script = ExtResource("1_uciwe")
+trait_name = "铁卫"
+description = "能够阻挡三个敌人；本作阻挡数至少3时可挡球。"
+effect_type = "prioritize_blocked"
+
+[sub_resource type="Resource" id="Resource_bryyw"]
+script = ExtResource("3_srpeg")
+skill_name = "防御力强化·β型"
+initial_sp = 10
+sp_required = 35
+sp_recharge_type = "time"
+description = "防御力+80%，持续35秒。"
+effect_type = "defense_up"
+effect_params = {
+"defense_mult": 1.8
+}
+duration = 35.0
+
+[sub_resource type="Resource" id="Resource_xdt8h"]
+script = ExtResource("3_srpeg")
+skill_name = "壳状防御"
+sp_required = 40
+sp_recharge_type = "time"
+description = "停止攻击（包括箱子和球），防御+130%、阻挡+1，每秒回复当前最大生命3%，持续30秒；回复按本作50%折算。"
+effect_type = "cuora_shell"
+effect_params = {
+"block_count_add": 1,
+"defense_mult": 2.3,
+"regen_health_percent": 3
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_xo6kj"]
+script = ExtResource("4_prpcf")
+talent_name = "防御专精"
+description = "自身防御力+12%，与技能及其他防御加值相加；沉默暂停。"
+effect_type = "self_defense"
+effect_params = {
+"defense_percent": 12
+}
+
+[sub_resource type="Resource" id="Resource_i6vo4"]
+script = ExtResource("4_prpcf")
+talent_name = "无第二天赋"
+description = "原作仅有一个天赋，不额外添加天赋。"
+effect_type = "none"
+
+[resource]
+script = ExtResource("2_c00ob")
+operator_id = "cuora"
+display_name = "蛇屠箱"
+profession = "重装"
+profession_id = "defender"
+branch = "铁卫"
+max_health = 3105
+attack = 365
+defense = 690
+damage_type = "physical"
+attack_interval = 1.2
+block_count = 3
+initial_deploy_cost = 17
+deploy_cost = 21
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_yf6fg")
+talent_1 = SubResource("Resource_xo6kj")
+talent_2 = SubResource("Resource_i6vo4")
+skills = Array[ExtResource("3_srpeg")]([SubResource("Resource_bryyw"), SubResource("Resource_xdt8h")])

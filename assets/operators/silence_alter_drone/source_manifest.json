@@ -1,0 +1,46 @@
+{
+  "operator_id": "silence_alter_drone",
+  "char_id": "token_10029_slent2_protrb",
+  "commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "path": "assets/operators/silence_alter_drone/single/token_10029_slent2_protrb.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10029_slent2_protrb/token_10029_slent2_protrb.skel",
+      "side": "single",
+      "bytes": 35961,
+      "sha256": "7f61b319acd6a4f71e80cb1d15beb184f1ed32c05e4d42c3af2afaa3e4059fff"
+    },
+    {
+      "path": "assets/operators/silence_alter_drone/single/token_10029_slent2_protrb.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10029_slent2_protrb/token_10029_slent2_protrb.atlas",
+      "side": "single",
+      "bytes": 1531,
+      "sha256": "0be824431737ac4934a70cf9294216a0ffa0d5f54a4437de9fa31e8c5754a3e4"
+    },
+    {
+      "path": "assets/operators/silence_alter_drone/single/token_10029_slent2_protrb.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10029_slent2_protrb/token_10029_slent2_protrb.png",
+      "side": "single",
+      "bytes": 13052,
+      "sha256": "a9a8e1af130764ddf020c0648b637bcc6781f3dac9db8d4087bd8ec87f2201de"
+    }
+  ],
+  "animation_seconds": {
+    "single": {
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 1.2,
+      "Start": 1.0
+    }
+  },
+  "animation_mapping": {
+    "idle_clip": "Idle",
+    "idle_seconds": 1.2,
+    "attack_clip": "Idle",
+    "attack_seconds": 1.2,
+    "deploy_seconds": 1.0
+  },
+  "non_normal_slots": {},
+  "native_pages": 1,
+  "pma": false
+}

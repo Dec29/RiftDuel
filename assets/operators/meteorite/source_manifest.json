@@ -1,0 +1,55 @@
+{
+  "operator_id": "meteorite",
+  "display_name": "陨星",
+  "char_id": "char_219_meteo",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "note": "原始素材按固定提交与SHA校验；已由3.8原生提供器生成运行资源，动作时长以实际完成事件核定，映射见OperatorSpineMap。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/meteorite/back/char_219_meteo.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_219_meteo/back/char_219_meteo.atlas",
+      "sha256": "8e5f2a1f7d61527abf8b04881ca445b206b514d29edd508b484cbc5a606b39d8",
+      "size": 3003
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/meteorite/back/char_219_meteo.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_219_meteo/back/char_219_meteo.png",
+      "sha256": "15104d4ff2da59c8aa611c65ee449cbf9ecf02a33c8208d717c0c0e1c303e9d0",
+      "size": 38053
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/meteorite/back/char_219_meteo.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_219_meteo/back/char_219_meteo.skel",
+      "sha256": "19ac339bbc94eae4240c534645ce319558abe5d80f3bfd99522435557763600e",
+      "size": 71217
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/meteorite/front/char_219_meteo.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_219_meteo/front/char_219_meteo.atlas",
+      "sha256": "54f26cf196e2db2bdceba41b2946689a5b9f228039aef429a6aea8e5520d7465",
+      "size": 4370
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/meteorite/front/char_219_meteo.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_219_meteo/front/char_219_meteo.png",
+      "sha256": "b0b9d271c27a9d32bbfc990263d25a451f6215b3559206da9df0b9fe9bd75aa0",
+      "size": 52880
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/meteorite/front/char_219_meteo.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_219_meteo/front/char_219_meteo.skel",
+      "sha256": "5d4f49ad2c15af9385af090b77a18c6857b73444ed7d30673abd9ba20b77af67",
+      "size": 114845
+    }
+  ]
+}

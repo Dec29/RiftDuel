@@ -1,0 +1,56 @@
+{
+  "operator_id": "eyjafjalla",
+  "display_name": "艾雅法拉",
+  "char_id": "char_180_amgoat",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "atlas_page_size": "512x512",
+  "note": "Ark-Models 的基建小人不是战斗来源，未使用。原始骨架经 tools/import_operator_visual.gd 生成压缩资源。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/eyjafjalla/back/char_180_amgoat.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_180_amgoat/back/char_180_amgoat.atlas",
+      "sha256": "5974a122c0bb2e9daacda29600ca6760f22e7571bc80215d87040b57ab9979b9",
+      "size": 4217
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/eyjafjalla/back/char_180_amgoat.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_180_amgoat/back/char_180_amgoat.png",
+      "sha256": "5ea0384e1289b9cb40a93a1558da5fe0c6bf1ab7b4a3405b817d32286300c06b",
+      "size": 51842
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/eyjafjalla/back/char_180_amgoat.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_180_amgoat/back/char_180_amgoat.skel",
+      "sha256": "089b5a1cb5667a1fe3ff108f623815e2b4be6a0ff723c0894de21a8830b9995f",
+      "size": 71718
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/eyjafjalla/front/char_180_amgoat.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_180_amgoat/front/char_180_amgoat.atlas",
+      "sha256": "0066c3e8276d25040ea1d05b4edc2f69f6433571ba7dc76444c0317bb9e60abe",
+      "size": 6925
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/eyjafjalla/front/char_180_amgoat.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_180_amgoat/front/char_180_amgoat.png",
+      "sha256": "5d3fc5240d040f8866815f8e46f47b68c7e5e3cccb1b0541b9870ef2caff406d",
+      "size": 67049
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/eyjafjalla/front/char_180_amgoat.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_180_amgoat/front/char_180_amgoat.skel",
+      "sha256": "1d073e4dd525f03df49733977521ae7ad6a9298e59d2de96fbef1863de3b048e",
+      "size": 190563
+    }
+  ]
+}

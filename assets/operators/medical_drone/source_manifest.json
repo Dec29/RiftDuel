@@ -1,0 +1,31 @@
+{
+  "operator_id": "medical_drone",
+  "display_name": "医疗探机",
+  "char_id": "token_10000_silent_healrb",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "model_kind": "原生单向装置骨骼；不虚构背面文件",
+  "files": [
+    {
+      "side": "single",
+      "file": "res://assets/operators/medical_drone/single/token_10000_silent_healrb.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10000_silent_healrb/token_10000_silent_healrb.skel",
+      "sha256": "85131291fc7fe4dc107b189deb29432748fd0a8f3f01354ed23a96e3962ae2b0",
+      "size": 3123
+    },
+    {
+      "side": "single",
+      "file": "res://assets/operators/medical_drone/single/token_10000_silent_healrb.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10000_silent_healrb/token_10000_silent_healrb.atlas",
+      "sha256": "f2ef6ffb4b6fc7abff91dedb9ff2944345ebf9cbddbf0d6cb856afe9cad71314",
+      "size": 376
+    },
+    {
+      "side": "single",
+      "file": "res://assets/operators/medical_drone/single/token_10000_silent_healrb.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10000_silent_healrb/token_10000_silent_healrb.png",
+      "sha256": "92854f064d37906f772406004f118cb73eeb82c378723da2a7bb22295b66753e",
+      "size": 4361
+    }
+  ],
+  "note": "原始素材按固定提交与SHA校验；已由3.8原生提供器生成运行资源，动作时长以实际完成事件核定，映射见OperatorSpineMap。"
+}

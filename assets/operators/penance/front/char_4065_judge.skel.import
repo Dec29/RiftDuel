@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://c3cmt2sh1k72s"
+path="res://.godot/imported/char_4065_judge.skel-5e5b4c5ba3d2daebab4a19de0fcbe9c4.tres"
+
+[deps]
+
+source_file="res://assets/operators/penance/front/char_4065_judge.skel"
+dest_files=["res://.godot/imported/char_4065_judge.skel-5e5b4c5ba3d2daebab4a19de0fcbe9c4.tres"]
+
+[params]

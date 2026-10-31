@@ -1,0 +1,84 @@
+{
+  "operator_id": "kaltsit",
+  "display_name": "凯尔希",
+  "char_id": "char_003_kalts",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/kaltsit/front/char_003_kalts.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_003_kalts/front/char_003_kalts.skel",
+      "sha256": "cf7d424394eb283ecfc78c199f6576e6f983374e8d45a40bebee31d3503a6d2a",
+      "size": 139125
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/kaltsit/front/char_003_kalts.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_003_kalts/front/char_003_kalts.atlas",
+      "sha256": "01d4076edb9f1c4b9e9f80b68decd446e75c8053367042c5a59cf28cef6b9e91",
+      "size": 8391
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/kaltsit/front/char_003_kalts.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_003_kalts/front/char_003_kalts.png",
+      "sha256": "bb0db67533b20ea97486cc764c14ee51bad3ad5cc32b6b6caa9a4f66c9fbcb08",
+      "size": 75624
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/kaltsit/back/char_003_kalts.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_003_kalts/back/char_003_kalts.skel",
+      "sha256": "28092520d391408d32e394dcd323c3c0bf5f93351db4fb3817c4f3aa5dcb94d7",
+      "size": 65792
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/kaltsit/back/char_003_kalts.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_003_kalts/back/char_003_kalts.atlas",
+      "sha256": "10a71d064be2f5ee069271803ba6c26b7af188a1a734a464eb29e3f9fb7f73ed",
+      "size": 5364
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/kaltsit/back/char_003_kalts.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_003_kalts/back/char_003_kalts.png",
+      "sha256": "ef310b163c763f4ef5c1123b9fbb525a32ca909b4d44e89ca464e9580eb6ad78",
+      "size": 48213
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.0,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 9.0,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.0,
+      "Default": 0.0,
+      "Idle": 9.0,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 83
+    },
+    "back": {
+      "width": 256,
+      "height": 256,
+      "mode": "straight alpha",
+      "normal_slots": 54
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

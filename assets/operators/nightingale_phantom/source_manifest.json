@@ -1,0 +1,49 @@
+{
+  "operator_id": "nightingale_phantom",
+  "token_id": "token_10003_cgbird_bird",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "model_kind": "single facing-neutral battle skeleton",
+  "files": [
+    {
+      "side": "single",
+      "file": "res://assets/operators/nightingale_phantom/single/token_10003_cgbird_bird.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10003_cgbird_bird/token_10003_cgbird_bird.atlas",
+      "size": 1141,
+      "sha256": "493cf78c297d5241005d0b9c37763537e61a8cba660d56d9973ab44c755ae437"
+    },
+    {
+      "side": "single",
+      "file": "res://assets/operators/nightingale_phantom/single/token_10003_cgbird_bird.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10003_cgbird_bird/token_10003_cgbird_bird.png",
+      "size": 54660,
+      "sha256": "976398546e79403b3851d49d7531168674a8a996891137620a824dd6b38162aa"
+    },
+    {
+      "side": "single",
+      "file": "res://assets/operators/nightingale_phantom/single/token_10003_cgbird_bird.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10003_cgbird_bird/token_10003_cgbird_bird.skel",
+      "size": 14091,
+      "sha256": "e4a9c9236b2169491f83ee55f5dc774f8f835d1a0c9dadfefa844cd8e69693d5"
+    }
+  ],
+  "atlas_pages": {
+    "single": {
+      "width": 512,
+      "height": 512,
+      "normal_slots": 20,
+      "alpha": "straight"
+    }
+  },
+  "animation_seconds": {
+    "single": {
+      "Default": 0.0,
+      "Idle": 0.0,
+      "Start": 1.3333333333333333
+    }
+  },
+  "normal_blend_verified": true,
+  "export_version": "3.8.99",
+  "animation_measurement": "Native3.8 completion sampled at1/300s and rounded to30fps; no event affects simulation.",
+  "animation_note": "Start40/30s then native zero-duration Idle; no Attack; one actual skeleton used for all facings, no invented back model."
+}

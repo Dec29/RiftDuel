@@ -1,0 +1,90 @@
+{
+  "operator_id": "ptilopsis",
+  "display_name": "白面鸮",
+  "char_id": "char_128_plosis",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/ptilopsis/front/char_128_plosis.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_128_plosis/front/char_128_plosis.skel",
+      "sha256": "f3b57dd551a995d54765aa231df03829b09d81491161146051593c4aa3f4e58c",
+      "size": 99812
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/ptilopsis/front/char_128_plosis.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_128_plosis/front/char_128_plosis.atlas",
+      "sha256": "7b15989d58aed2d204dffd9fd01c0a4f5c6c248dcc5f62f6732364187b20f9db",
+      "size": 5227
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/ptilopsis/front/char_128_plosis.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_128_plosis/front/char_128_plosis.png",
+      "sha256": "731fbe447ce1dde07583ee481d2d8d74bf4634337afd86e1e331346e0364ccdf",
+      "size": 59836
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/ptilopsis/back/char_128_plosis.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_128_plosis/back/char_128_plosis.skel",
+      "sha256": "162705c34c8ef5a34991e53c668262f98aee8b9df65a62a1e3fe53841c9041b5",
+      "size": 52039
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/ptilopsis/back/char_128_plosis.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_128_plosis/back/char_128_plosis.atlas",
+      "sha256": "d037dc9f7052d3838b08e7c3817ce924f0f62d25ea9b4f40408224d56e25426f",
+      "size": 2408
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/ptilopsis/back/char_128_plosis.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_128_plosis/back/char_128_plosis.png",
+      "sha256": "b6d1b4cc6ac644bd1b39e08422e940ec86c0ae1c06cd67b60715108c502c63dd",
+      "size": 45914
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.2,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.0,
+      "Skill_End": 0.3333333333333333,
+      "Skill_Loop": 0.4,
+      "Skill_Start": 0.7,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.2,
+      "Default": 0.0,
+      "Idle": 1.0,
+      "Skill_End": 0.3333333333333333,
+      "Skill_Loop": 0.4,
+      "Skill_Start": 0.7,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 39
+    },
+    "back": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 23
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

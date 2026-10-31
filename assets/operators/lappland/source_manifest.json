@@ -1,0 +1,88 @@
+{
+  "operator_id": "lappland",
+  "display_name": "拉普兰德",
+  "char_id": "char_140_whitew",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/lappland/front/char_140_whitew.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_140_whitew/front/char_140_whitew.skel",
+      "sha256": "6e5804b751890cec69a455ae503a91175fe4d3291bac36fec40f719ca7ea658e",
+      "size": 150693
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/lappland/front/char_140_whitew.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_140_whitew/front/char_140_whitew.atlas",
+      "sha256": "ec99a0bf721b0b41b0d2d19f12470aeaa7b75b3c21617bea11bb4003e71c9a9d",
+      "size": 3947
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/lappland/front/char_140_whitew.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_140_whitew/front/char_140_whitew.png",
+      "sha256": "d84bf4dc135ec67750356896e84f822790af8878ab307cbc8d8029e0c1a0401a",
+      "size": 70099
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/lappland/back/char_140_whitew.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_140_whitew/back/char_140_whitew.skel",
+      "sha256": "9624a37eb36442479285a032be1d31e0528f90a6f9ec7ee73e326cdf643fadad",
+      "size": 76094
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/lappland/back/char_140_whitew.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_140_whitew/back/char_140_whitew.atlas",
+      "sha256": "d3bce2d3f67c1c54fa8b6eb6f0e9e6765305e7f58ef8c02c507d7633ad4a59ab",
+      "size": 2690
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/lappland/back/char_140_whitew.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_140_whitew/back/char_140_whitew.png",
+      "sha256": "336d6d49a042176d18381734fbeed59439f6ab62b1e27da2de1b20e57b96c06c",
+      "size": 54229
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.3333333333333333,
+      "Combat": 1.1666666666666667,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.0,
+      "Skill": 1.3333333333333333,
+      "Start": 0.8333333333333334
+    },
+    "back": {
+      "Attack": 1.3333333333333333,
+      "Combat": 1.1666666666666667,
+      "Default": 0.0,
+      "Idle": 2.0,
+      "Skill": 1.3333333333333333,
+      "Start": 0.8333333333333334
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 40
+    },
+    "back": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 27
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

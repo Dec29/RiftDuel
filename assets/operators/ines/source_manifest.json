@@ -1,0 +1,114 @@
+{
+  "operator_id": "ines",
+  "char_id": "char_4087_ines",
+  "display_name": "伊内丝",
+  "files": [
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/ines/front/char_4087_ines.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4087_ines/front/char_4087_ines.atlas",
+      "bytes": 11416,
+      "sha256": "9a4903121a9b8ff0cafe517cbb4b8638e57b061e414d2dff70c6a5473408349c"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/ines/front/char_4087_ines.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4087_ines/front/char_4087_ines.skel",
+      "bytes": 379264,
+      "sha256": "d08b965616318f78a68ba95ab8916fdd8d5b2221a30ff216cf15c12b7af4feb9",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/ines/front/char_4087_ines.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4087_ines/front/char_4087_ines.png",
+      "bytes": 113323,
+      "sha256": "df9d7e2cb6cde7ca2a3a3926699176179f1d78334d24065ef8cc36590f6898c0",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/ines/back/char_4087_ines.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4087_ines/back/char_4087_ines.atlas",
+      "bytes": 7006,
+      "sha256": "eeb7f7d211e17fc0fd694f46487f9f1a85e2cce15edb329f9bfddbba55f1d3b3"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/ines/back/char_4087_ines.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4087_ines/back/char_4087_ines.skel",
+      "bytes": 232007,
+      "sha256": "479994331fbdc260627ad3037a2acf2604c7df544ed5eaf7e351bb833ac4ab6a",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/ines/back/char_4087_ines.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4087_ines/back/char_4087_ines.png",
+      "bytes": 85635,
+      "sha256": "a67cc396c3c7f630cc366e7052744d3ec5cfcfe7c845185628b1b466799e172e",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified.",
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.0,
+      "Combat": 1.0,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 4.0,
+      "Skill_2_Attack": 1.0,
+      "Skill_2_Begin": 0.166666666666667,
+      "Skill_2_Combat": 1.0,
+      "Skill_2_End": 0.666666666666667,
+      "Skill_2_Idle": 4.0,
+      "Start": 1.0,
+      "Start_Skill": 1.0
+    },
+    "back": {
+      "Attack": 1.0,
+      "Combat": 1.0,
+      "Default": 0.0,
+      "Idle": 4.0,
+      "Skill_2_Attack": 1.0,
+      "Skill_2_Begin": 0.166666666666667,
+      "Skill_2_Combat": 1.0,
+      "Skill_2_End": 0.666666666666667,
+      "Skill_2_Idle": 4.0,
+      "Start": 1.0,
+      "Start_Skill": 1.0
+    }
+  },
+  "animation_mapping": {
+    "attack_clip": "Attack",
+    "attack_seconds": 1.0,
+    "idle_seconds": 4.0,
+    "deploy_seconds": 1.0
+  },
+  "animation_measurement": "Native 3.8 completion events sampled at1/300s and rounded to30fps; only presentation, never simulation.",
+  "normal_blend_verified": true,
+  "skill_animation_mapping": [
+    {},
+    {
+      "begin": "Skill_2_Begin",
+      "idle": "Skill_2_Idle",
+      "attack": "Skill_2_Attack",
+      "end": "Skill_2_End"
+    },
+    {}
+  ]
+}

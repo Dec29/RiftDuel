@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bdeiks3bc86sf"
+path="res://.godot/imported/char_416_zumama.atlas-7addc335bc99e2a6d3e89b48ea0587ae.tres"
+
+[deps]
+
+source_file="res://assets/operators/eunectes/front/char_416_zumama.atlas"
+dest_files=["res://.godot/imported/char_416_zumama.atlas-7addc335bc99e2a6d3e89b48ea0587ae.tres"]
+
+[params]
+
+normal_map_prefix="n"

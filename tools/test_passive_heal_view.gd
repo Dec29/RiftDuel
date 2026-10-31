@@ -27,6 +27,8 @@ func _run() -> void:
 	input.select_unit(0)
 	var view := CoinView.new()
 	view.bind(state, input, definitions)
+	view._info_tab = MatchView.InfoTab.COMMAND
+	state.squad_skills[0].fill(0)
 	root.add_child(view)
 	var unit := state.units[0]
 	var skill: SkillResource = definitions.swire_alter.skills[0]
@@ -47,7 +49,7 @@ func _run() -> void:
 	if not args.is_empty():
 		await RenderingServer.frame_post_draw
 		var frame := root.get_texture().get_image()
-		var point := Vector2i(view._cell_rect(Vector2i(12, 4)).get_center())
+		var point := Vector2i(view.projection.cell_rect(Vector2i(12, 4)).get_center())
 		if not _check(not frame.get_pixelv(point).is_equal_approx(MatchView.PALETTE.GROUND), "Healing range must include the rear diagonal independently of facing"):
 			return
 		if not _check(frame.save_png(args[0].get_basename() + "_gain.png") == OK, "Cannot save coin gain screenshot"):
@@ -77,7 +79,7 @@ func _run() -> void:
 	view._activate_selected_skill()
 	if not _check(view.labels.has("金币  3 / 3") and view.labels.has("敌方干员 · 仅查看") and input.take_commands().is_empty() and state.state_hash() == hash_before, "Enemy coin information must be read-only"):
 		return
-	view._info_tab = MatchView.InfoTab.PASSIVE
+	view._info_tab = MatchView.InfoTab.TALENT
 	view.labels.clear()
 	await process_frame
 	await process_frame
@@ -91,6 +93,7 @@ func _run() -> void:
 		return
 	view._info_tab = MatchView.InfoTab.SKILL
 	view._info_scroll = 0
+	view._info_scroll_display = 0.0
 	view.labels.clear()
 	await process_frame
 	await process_frame

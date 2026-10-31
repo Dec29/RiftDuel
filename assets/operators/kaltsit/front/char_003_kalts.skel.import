@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://nssufpfbxcfr"
+path="res://.godot/imported/char_003_kalts.skel-e40dc9ee8eec1a470cfd2016ee64f7c8.tres"
+
+[deps]
+
+source_file="res://assets/operators/kaltsit/front/char_003_kalts.skel"
+dest_files=["res://.godot/imported/char_003_kalts.skel-e40dc9ee8eec1a470cfd2016ee64f7c8.tres"]
+
+[params]

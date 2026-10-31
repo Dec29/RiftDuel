@@ -1,0 +1,54 @@
+[
+  {
+    "prefab": "sleach_skill_03_flag_01",
+    "clip": "sleach_skill_03_flag_01_animation",
+    "animator_path": "",
+    "binding": {
+      "path": 66468248,
+      "type": 96,
+      "attribute": 1895888582,
+      "channel": 8,
+      "count": 1
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "sleach_skill_03_flag_01",
+    "clip": "sleach_skill_03_flag_01_animation",
+    "animator_path": "",
+    "binding": {
+      "path": 66468248,
+      "type": 96,
+      "attribute": 1090582214,
+      "channel": 17,
+      "count": 1
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "sleach_skill_03_flag_01",
+    "clip": "sleach_skill_03_flag_01_animation",
+    "animator_path": "",
+    "binding": {
+      "path": 66468248,
+      "type": 96,
+      "attribute": 1359017670,
+      "channel": 18,
+      "count": 1
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "sleach_skill_03_flag_01",
+    "clip": "sleach_skill_03_flag_01_animation",
+    "animator_path": "",
+    "binding": {
+      "path": 66468248,
+      "type": 96,
+      "attribute": 1627453126,
+      "channel": 19,
+      "count": 1
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  }
+]

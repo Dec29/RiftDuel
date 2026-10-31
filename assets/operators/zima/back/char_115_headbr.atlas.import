@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://c4e2rxhkar6mq"
+path="res://.godot/imported/char_115_headbr.atlas-b9d24dfbac68fabeb55924700fad6967.tres"
+
+[deps]
+
+source_file="res://assets/operators/zima/back/char_115_headbr.atlas"
+dest_files=["res://.godot/imported/char_115_headbr.atlas-b9d24dfbac68fabeb55924700fad6967.tres"]
+
+[params]
+
+normal_map_prefix="n"

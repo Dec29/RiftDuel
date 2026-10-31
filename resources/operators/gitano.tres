@@ -1,0 +1,75 @@
+[gd_resource type="Resource" load_steps=10 format=3]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "扩散术师"
+description = "攻击造成群体法术伤害；原作半径1.1，整数格中平方距离≤1。"
+effect_type = "magic_splash"
+effect_params = {"splash_radius_squared": 1}
+
+[sub_resource type="Resource" id="Talent1"]
+script = ExtResource("3")
+talent_name = "占卜"
+description = "部署时随机永久获得攻击力+13%、攻击速度+13或生命上限+20%之一。候选等权三选一。"
+effect_type = "deployment_fortune"
+effect_params = {"attack_percent": 13, "attack_speed_add": 13, "health_percent": 20}
+
+[sub_resource type="Resource" id="Talent2"]
+script = ExtResource("3")
+talent_name = ""
+description = ""
+effect_type = "none"
+effect_params = {}
+
+[sub_resource type="Resource" id="Skill1"]
+script = ExtResource("4")
+skill_name = "战术咏唱·β型"
+initial_sp = 10
+sp_required = 35
+sp_recharge_type = "time"
+trigger_type = "manual"
+duration = 25.0
+description = "攻击速度+75。"
+effect_type = "atk_spd_boost"
+effect_params = {"attack_mult": 1.0, "attack_speed_add": 75}
+
+[sub_resource type="Resource" id="Skill2"]
+script = ExtResource("4")
+skill_name = "命运"
+initial_sp = 50
+sp_required = 85
+sp_recharge_type = "time"
+trigger_type = "manual"
+duration = 30.0
+description = "攻击力+100%，扩大范围，同时攻击范围内所有敌人；结束后停止攻击10秒。"
+effect_type = "caster_destiny"
+effect_params = {"attack_mult": 2.0, "end_attack_stop_ticks": 300}
+attack_range_override = Array[Vector2i]([Vector2i(0,1), Vector2i(1,1), Vector2i(2,1), Vector2i(3,1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(3,0), Vector2i(0,-1), Vector2i(1,-1), Vector2i(2,-1), Vector2i(3,-1)])
+
+[resource]
+script = ExtResource("1")
+operator_id = "gitano"
+display_name = "远山"
+profession = "术师"
+profession_id = "caster"
+branch = "扩散术师"
+max_health = 1598
+attack = 715
+defense = 118
+magic_resist = 20
+damage_type = "magical"
+attack_interval = 2.9
+block_count = 1
+initial_deploy_cost = 29
+deploy_cost = 32
+redeploy_time = 70
+attack_range = Array[Vector2i]([Vector2i(0,1), Vector2i(1,1), Vector2i(2,1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(0,-1), Vector2i(1,-1), Vector2i(2,-1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent1")
+talent_2 = SubResource("Talent2")
+skills = Array[ExtResource("4")]([SubResource("Skill1"), SubResource("Skill2")])

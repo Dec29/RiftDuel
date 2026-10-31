@@ -1,0 +1,88 @@
+{
+  "operator_id": "phantom_clone",
+  "token_id": "token_10007_phatom_twin",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "model_kind": "battle front/back",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/phantom_clone/front/token_10007_phatom_twin.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10007_phatom_twin/token_10007_phatom_twin.atlas",
+      "size": 13183,
+      "sha256": "15b0814e591ace2e0ced066b8134a0b2a3eb81f0f5fef79816526bdb9e58a361"
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/phantom_clone/front/token_10007_phatom_twin.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10007_phatom_twin/token_10007_phatom_twin.png",
+      "size": 112326,
+      "sha256": "11d0c6b1520722cd4fa68bd368eb68f1e05df60ebf35f8b788f691ea62f6e924"
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/phantom_clone/front/token_10007_phatom_twin.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10007_phatom_twin/token_10007_phatom_twin.skel",
+      "size": 246663,
+      "sha256": "3500410c35332fa765591a5918e1ded4a675a88aaba3f5e85ce6b64498e9f488"
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/phantom_clone/back/token_10007_phatom_twin.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10007_phatom_twin/back/token_10007_phatom_twin.atlas",
+      "size": 13183,
+      "sha256": "15b0814e591ace2e0ced066b8134a0b2a3eb81f0f5fef79816526bdb9e58a361"
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/phantom_clone/back/token_10007_phatom_twin.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10007_phatom_twin/back/token_10007_phatom_twin.png",
+      "size": 112326,
+      "sha256": "11d0c6b1520722cd4fa68bd368eb68f1e05df60ebf35f8b788f691ea62f6e924"
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/phantom_clone/back/token_10007_phatom_twin.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10007_phatom_twin/back/token_10007_phatom_twin.skel",
+      "size": 198556,
+      "sha256": "749bdaead6423b0b56864bb162efd3822d6eb7391983a29a4afba09b5f1f26ff"
+    }
+  ],
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "normal_slots": 115,
+      "alpha": "straight"
+    },
+    "back": {
+      "width": 512,
+      "height": 512,
+      "normal_slots": 115,
+      "alpha": "straight"
+    }
+  },
+  "animation_seconds": {
+    "front": {
+      "Attack": 0.8666666666666667,
+      "Attack_2": 0.9,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 3.0,
+      "Skill": 1.0,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 0.8666666666666667,
+      "Attack_2": 0.9,
+      "Default": 0.0,
+      "Idle": 3.0,
+      "Skill": 1.0,
+      "Start": 1.0
+    }
+  },
+  "normal_blend_verified": true,
+  "export_version": "3.8.99",
+  "animation_measurement": "Native3.8 completion sampled at1/300s and rounded to30fps; no event affects simulation.",
+  "animation_note": "Start1s, Idle3s, ordinary Attack26/30s on front/back. Attack_2/Skill remain unmapped without evidence; original passive gameplay unchanged."
+}

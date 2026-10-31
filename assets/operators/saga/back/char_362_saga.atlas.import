@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://83e6srg071mj"
+path="res://.godot/imported/char_362_saga.atlas-1085832c40b331ae76f0b4953d32d430.tres"
+
+[deps]
+
+source_file="res://assets/operators/saga/back/char_362_saga.atlas"
+dest_files=["res://.godot/imported/char_362_saga.atlas-1085832c40b331ae76f0b4953d32d430.tres"]
+
+[params]
+
+normal_map_prefix="n"

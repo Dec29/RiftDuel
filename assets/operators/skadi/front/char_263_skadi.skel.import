@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://b6yv6ul51i6qr"
+path="res://.godot/imported/char_263_skadi.skel-e5eecd23a2ff783593bb057fabebbca7.tres"
+
+[deps]
+
+source_file="res://assets/operators/skadi/front/char_263_skadi.skel"
+dest_files=["res://.godot/imported/char_263_skadi.skel-e5eecd23a2ff783593bb057fabebbca7.tres"]
+
+[params]

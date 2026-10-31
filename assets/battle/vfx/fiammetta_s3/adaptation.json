@@ -1,0 +1,143 @@
+{
+  "status": "integrated_runtime; current acceptance and limitations in Docs/vfx_release.md",
+  "base_commit": "eb98de4e8a913b8770403f73ac3c0dea2d4755ed",
+  "prefabs": [
+    {
+      "prefab": "phenxi_skill_03_buff",
+      "nodes": 11,
+      "meshes": 3,
+      "particles": 5,
+      "trails": 0,
+      "animations": []
+    },
+    {
+      "prefab": "phenxi_skill_03_buff_02",
+      "nodes": 5,
+      "meshes": 1,
+      "particles": 1,
+      "trails": 0,
+      "animations": [
+        {
+          "name": "phenxi_skill_03_buff_02",
+          "seconds": 0.46666666865348816,
+          "loop": true
+        }
+      ]
+    },
+    {
+      "prefab": "phenxi_skill_03_hit",
+      "nodes": 29,
+      "meshes": 5,
+      "particles": 17,
+      "trails": 2,
+      "animations": [
+        {
+          "name": "phenxi_skill_03_hit",
+          "seconds": 1.399999976158142,
+          "loop": false
+        }
+      ]
+    },
+    {
+      "prefab": "phenxi_skill_03_start",
+      "nodes": 21,
+      "meshes": 5,
+      "particles": 10,
+      "trails": 2,
+      "animations": [
+        {
+          "name": "phenxi_skill_03_start",
+          "seconds": 0.800000011920929,
+          "loop": false
+        }
+      ]
+    }
+  ],
+  "reference": {
+    "page": "https://www.taptap.cn/moment/253533056592251203",
+    "author": "奇怪所所长",
+    "published": "2022-03-17",
+    "url": "https://img2-tc.tapimg.com/bbcode/images/c33655d221f59f25fcce161fca491cc1.gif/_tap_ugc.gif",
+    "bytes": 3207256,
+    "sha256": "9d1062c83e76e739b9b0900f5e13eac47ae4fdf938bd75b8adf2b7867c218235",
+    "size": [
+      498,
+      315
+    ],
+    "frames": 114
+  },
+  "reference_scope": "Default outfit S3 steady firing and impact; activation and manual close not covered.",
+  "mapping_plan": {
+    "buff": "S3 active, caster foot; original chain also activates buff_02",
+    "buff_02": "Adapted to F_Muzzle/B_Muzzle using native bone transforms; mountPointType=5 remains an interpretation awaiting graphic confirmation.",
+    "start": "One source-anchored effect per released S3 area projectile, deduplicated by actual order_key; no extra generic flight streak.",
+    "hit": "One finite effect scheduled at snapshot arrival_tick and target_cell; survives skill close and caster retreat."
+  },
+  "original_projectile": {
+    "mainEffect": "",
+    "effectsWhenReached": [
+      "phenxi_skill_03_hit"
+    ],
+    "delayToStart": 0.5,
+    "lifeTime": 0.699999988,
+    "use": "Reference metadata only; do not change simulation release/arrival."
+  },
+  "approximations": [
+    "UV driver MonoScript 1369540917083035942 uses continuous-speed approximation; source tween reset/easing unverified.",
+    "Particle noise/velocity clamp and fixed local random seed retain existing sampler approximations.",
+    "Original quality scaling component not reproduced; do not drop principal visual layers to emulate it.",
+    "30Hz four-direction geometry sampling and source-to-board projection require graphic comparison.",
+    "Build horizons and attached-loop ranges are provisional sampling settings, not recovered engine stop semantics."
+  ],
+  "unresolved": [
+    "14 external MonoScript references remain unresolved; serialized component fields are retained. Four additional unresolved material references belong to source-disabled particle renderers; no enabled-renderer material was substituted. Exact uses are recorded in missing-reference-uses.json.",
+    "Additional delay component semantics and buff_02 mount enumeration remain unverified.",
+    "Godot resource import/bake succeeded in headless mode; actual GPU shader compilation, blend paths, pixel appearance, transparency, bone attachment alignment and performance remain untested."
+  ],
+  "validation": {
+    "source_export_exit": 0,
+    "prefabs": 4,
+    "materials": 36,
+    "textures": 37,
+    "animation_binding_gaps": 0,
+    "godot_launched": true,
+    "graphics_tested": false,
+    "reason": "Latest user authorized checking after preparation; no graphical or performance run while user games.",
+    "godot_mode": "headless / Dummy rendering, audio Dummy",
+    "resource_import_exit": 0,
+    "bake_exit": 0,
+    "source_events_exit": 0,
+    "sampler_compat_exit": 0,
+    "sampler_compat_cases": 144,
+    "windows_build_exit": 0,
+    "isolated_pck_events_exit": 0,
+    "actual_graphics_tested": false
+  },
+  "event_sources": [
+    {
+      "bundle": "charpack/char_300_phenxi.ab",
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\charpack\\char_300_phenxi.ab",
+      "bytes": 24845,
+      "sha256": "961dca17fa8ba352de934460918f1c74e734e1f8f13ae763e2ade216b9533989"
+    },
+    {
+      "bundle": "chararts/char_300_phenxi.ab",
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\chararts\\char_300_phenxi.ab",
+      "bytes": 5514395,
+      "sha256": "f3000e2b53d1e42c3ece81b0a66d7498a676c4121f92184f0c59bab550c47e18"
+    },
+    {
+      "bundle": "battle/prefabs/[uc]projectiles.ab",
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\battle\\prefabs\\[uc]projectiles.ab",
+      "bytes": 1857618,
+      "sha256": "ec8cfdb28782d4ffb903f3987ba0ad424d67655c9dfdc6b648b7d8f8bb08ab93"
+    }
+  ],
+  "original_component_ids": {
+    "skill3_cast_effects": -4565425336255947791,
+    "skill3_ability": -2754146425534260239,
+    "projectile_reached_effect": -3966947858737722734,
+    "projectile_movement": 4974554781998975634,
+    "projectile_lifetime": 7280704604028275346
+  }
+}

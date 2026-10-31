@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://brwlfgxdvnf2w"
+path="res://.godot/imported/char_300_phenxi.skel-1df1c5c0cccd05446984e86bcca204d5.tres"
+
+[deps]
+
+source_file="res://assets/operators/fiammetta/front/char_300_phenxi.skel"
+dest_files=["res://.godot/imported/char_300_phenxi.skel-1df1c5c0cccd05446984e86bcca204d5.tres"]
+
+[params]

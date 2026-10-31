@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://btfyctyhcpgf0"
+path="res://.godot/imported/char_179_cgbird.skel-3253b95eedfa5cf2bad8d7e8d481f599.tres"
+
+[deps]
+
+source_file="res://assets/operators/nightingale/back/char_179_cgbird.skel"
+dest_files=["res://.godot/imported/char_179_cgbird.skel-3253b95eedfa5cf2bad8d7e8d481f599.tres"]
+
+[params]

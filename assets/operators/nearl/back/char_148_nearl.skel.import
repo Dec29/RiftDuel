@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://efcew3vtiqtb"
+path="res://.godot/imported/char_148_nearl.skel-735e5ca7647aa21501bd2d360a2e1ffe.tres"
+
+[deps]
+
+source_file="res://assets/operators/nearl/back/char_148_nearl.skel"
+dest_files=["res://.godot/imported/char_148_nearl.skel-735e5ca7647aa21501bd2d360a2e1ffe.tres"]
+
+[params]

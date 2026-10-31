@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dwx2pf7rsgp83"
+path="res://.godot/imported/char_1033_swire2.atlas-709ad0c7aae880c4a5a7b7fa4f32c4e8.tres"
+
+[deps]
+
+source_file="res://assets/operators/swire_alter/back/char_1033_swire2.atlas"
+dest_files=["res://.godot/imported/char_1033_swire2.atlas-709ad0c7aae880c4a5a7b7fa4f32c4e8.tres"]
+
+[params]
+
+normal_map_prefix="n"

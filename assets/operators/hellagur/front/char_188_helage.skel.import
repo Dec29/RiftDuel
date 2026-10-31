@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dj11dafw31ouc"
+path="res://.godot/imported/char_188_helage.skel-17b20ea4e7fb7669e622c6b66b0c7953.tres"
+
+[deps]
+
+source_file="res://assets/operators/hellagur/front/char_188_helage.skel"
+dest_files=["res://.godot/imported/char_188_helage.skel-17b20ea4e7fb7669e622c6b66b0c7953.tres"]
+
+[params]

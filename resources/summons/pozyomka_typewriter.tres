@@ -1,0 +1,163 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="operator"]
+
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="skill"]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="trait"]
+
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="talent"]
+
+[sub_resource type="Resource" id="trait"]
+
+script = ExtResource("trait")
+
+trait_name = "打字机"
+
+description = "不可成为攻击目标；持续25秒；来源职业狙击。"
+
+effect_type = "pozyomka_typewriter"
+
+effect_params = {"source_profession_id": "sniper", "lifetime_ticks": 750}
+
+[sub_resource type="Resource" id="talent0"]
+
+script = ExtResource("talent")
+
+talent_name = "弱点速记"
+
+description = "命中减防18%，四邻放置提升至23%，持续4秒。"
+
+effect_type = "typewriter_weakness"
+
+effect_params = {"defense_remaining_percent": 82, "adjacent_defense_remaining_percent": 77, "duration_ticks": 120}
+
+[sub_resource type="Resource" id="talent1"]
+
+script = ExtResource("talent")
+
+talent_name = "无"
+
+description = "装置无独立第二天赋。"
+
+effect_type = "none"
+
+effect_params = {}
+
+[sub_resource type="Resource" id="skill0"]
+
+script = ExtResource("skill")
+
+skill_name = "抑扬格"
+
+effect_type = "pozyomka_meter"
+
+effect_params = {"attack_mult": 1.6, "chance_percent": 40, "critical_mult": 2.25}
+
+initial_sp = 0
+
+sp_required = 20
+
+sp_recharge_type = "on_hit"
+
+trigger_type = "auto"
+
+duration = -1.0
+
+attack_range_override = Array[Vector2i]([])
+
+description = "攻击力+60%，攻击时40%概率当次攻击力提升至225%；持续无限。"
+
+[sub_resource type="Resource" id="skill1"]
+
+script = ExtResource("skill")
+
+skill_name = "点题"
+
+effect_type = "pozyomka_burst"
+
+effect_params = {"attack_mult": 2.3, "charge_count": 2, "shot_count": 3, "redeploy_percent": 50}
+
+initial_sp = 9
+
+sp_required = 9
+
+sp_recharge_type = "time"
+
+trigger_type = "manual"
+
+duration = 0.0
+
+attack_range_override = Array[Vector2i]([])
+
+description = "携带时打字机再部署20秒；立即向前方三次230%物理攻击，可充能两次。"
+
+[sub_resource type="Resource" id="skill2"]
+
+script = ExtResource("skill")
+
+skill_name = "锐笔速写"
+
+effect_type = "pozyomka_sketch"
+
+effect_params = {"attack_mult": 2.55, "front_attack_mult": 2.55, "attack_interval_add": -0.6}
+
+initial_sp = 23
+
+sp_required = 35
+
+sp_recharge_type = "time"
+
+trigger_type = "manual"
+
+duration = 30.0
+
+attack_range_override = Array[Vector2i]([])
+
+description = "扩大范围，间隔-0.6秒，每击200%，正前方三格255%；打字机全部255%。"
+
+[resource]
+
+script = ExtResource("operator")
+
+operator_id = "pozyomka_typewriter"
+
+display_name = "“打字机”"
+
+profession = "召唤物"
+
+profession_id = "summon"
+
+branch = "打字机"
+
+max_health = 500
+
+attack = 866
+
+defense = 0
+
+magic_resist = 0
+
+damage_type = "physical"
+
+attack_interval = 1.6
+
+block_count = 0
+
+initial_deploy_cost = 5
+
+deploy_cost = 5
+
+redeploy_time = 40.0
+
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0)])
+
+terrain_requirement = "high"
+
+branch_trait = SubResource("trait")
+
+talent_1 = SubResource("talent0")
+
+talent_2 = SubResource("talent1")
+
+skills = Array[ExtResource("skill")]([SubResource("skill0"), SubResource("skill1"), SubResource("skill2")])

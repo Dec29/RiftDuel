@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://buwraxv7d7dli"
+path="res://.godot/imported/char_213_mostma.skel-ade5462ffae0ac6fa3afb64bce30f488.tres"
+
+[deps]
+
+source_file="res://assets/operators/mostima/front/char_213_mostma.skel"
+dest_files=["res://.godot/imported/char_213_mostma.skel-ade5462ffae0ac6fa3afb64bce30f488.tres"]
+
+[params]

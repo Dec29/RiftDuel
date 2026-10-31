@@ -1,0 +1,94 @@
+{
+  "source_pack": "res://assets/battle/vfx/mlynar_s3/source_pack.json",
+  "output": "res://assets/battle/vfx/mlynar_s3",
+  "frames_per_second": 30,
+  "discard_invisible": true,
+  "clips": [
+    {
+      "id": "buff_01",
+      "prefab": 0,
+      "role": "start",
+      "emission_seconds": 2.0,
+      "duration_seconds": 3.0,
+      "loop_from_seconds": -1.0,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "buff_02",
+      "prefab": 1,
+      "role": "attached",
+      "emission_seconds": 10.0,
+      "duration_seconds": 10.0,
+      "loop_from_seconds": 5.0,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "buff_03",
+      "prefab": 2,
+      "role": "attached",
+      "emission_seconds": 10.0,
+      "duration_seconds": 10.0,
+      "loop_from_seconds": 5.0,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ],
+      "ground_plane": true
+    },
+    {
+      "id": "hit_01",
+      "prefab": 3,
+      "role": "hit",
+      "emission_seconds": 2.0,
+      "duration_seconds": 3.0,
+      "loop_from_seconds": -1.0,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "range_01",
+      "prefab": 4,
+      "role": "start",
+      "emission_seconds": 2.0,
+      "duration_seconds": 3.5,
+      "loop_from_seconds": -1.0,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "start_01",
+      "prefab": 5,
+      "role": "start",
+      "emission_seconds": 2.0,
+      "duration_seconds": 3.5,
+      "loop_from_seconds": -1.0,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "restore_prewarm": true
+}

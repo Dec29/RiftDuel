@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dqnmphbgon0a1"
+path="res://.godot/imported/char_179_cgbird.atlas-8714ac8068f0b4b3b2b29c6b05cf1b32.tres"
+
+[deps]
+
+source_file="res://assets/operators/nightingale/front/char_179_cgbird.atlas"
+dest_files=["res://.godot/imported/char_179_cgbird.atlas-8714ac8068f0b4b3b2b29c6b05cf1b32.tres"]
+
+[params]
+
+normal_map_prefix="n"

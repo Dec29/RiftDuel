@@ -1,0 +1,4876 @@
+{
+  "source": "https://github.com/yuanyan3060/ArknightsGameResource",
+  "commit": "9bf239661e37766fba585806fb9fa67e79bb679e",
+  "data_source": "https://github.com/Kengxxiao/ArknightsGameData/tree/17759cc8cdf37388414145d16262a3a06f3ab25e/zh_CN/gamedata/excel",
+  "data_commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "character_table_sha256": "e523c7c83c36e2d76697121079e17d0282da1a94d59a55e1cc55616edf0b41c4",
+  "skill_table_sha256": "b6559b845efea6042e23f1d976185f12e13de3d749464543f5c2c17a7d2fa280",
+  "modification": "none",
+  "bindings": [
+    {
+      "operator_id": "aak",
+      "char_id": "char_225_haak",
+      "slot": 1,
+      "skill_id": "skchr_haak_1",
+      "icon_id": "skchr_haak_1",
+      "original_skill_name": "快速射击"
+    },
+    {
+      "operator_id": "aak",
+      "char_id": "char_225_haak",
+      "slot": 2,
+      "skill_id": "skchr_haak_2",
+      "icon_id": "skchr_haak_2",
+      "original_skill_name": "爆发剂·γ型"
+    },
+    {
+      "operator_id": "aak",
+      "char_id": "char_225_haak",
+      "slot": 3,
+      "skill_id": "skchr_haak_3",
+      "icon_id": "skchr_haak_3",
+      "original_skill_name": "爆发剂·榴莲味"
+    },
+    {
+      "operator_id": "amiya",
+      "char_id": "char_002_amiya",
+      "slot": 1,
+      "skill_id": "skcom_magic_rage[3]",
+      "icon_id": "skcom_magic_rage[3]",
+      "original_skill_name": "战术咏唱·γ型"
+    },
+    {
+      "operator_id": "amiya",
+      "char_id": "char_002_amiya",
+      "slot": 2,
+      "skill_id": "skchr_amiya_2",
+      "icon_id": "skchr_amiya_2",
+      "original_skill_name": "精神爆发"
+    },
+    {
+      "operator_id": "amiya",
+      "char_id": "char_002_amiya",
+      "slot": 3,
+      "skill_id": "skchr_amiya_3",
+      "icon_id": "skchr_amiya_3",
+      "original_skill_name": "奇美拉"
+    },
+    {
+      "operator_id": "angelina",
+      "char_id": "char_291_aglina",
+      "slot": 1,
+      "skill_id": "skchr_aglina_1",
+      "icon_id": "skchr_aglina_1",
+      "original_skill_name": "秘杖·速充模式"
+    },
+    {
+      "operator_id": "angelina",
+      "char_id": "char_291_aglina",
+      "slot": 2,
+      "skill_id": "skchr_aglina_2",
+      "icon_id": "skchr_aglina_2",
+      "original_skill_name": "秘杖·微粒模式"
+    },
+    {
+      "operator_id": "angelina",
+      "char_id": "char_291_aglina",
+      "slot": 3,
+      "skill_id": "skchr_aglina_3",
+      "icon_id": "skchr_aglina_3",
+      "original_skill_name": "秘杖·反重力模式"
+    },
+    {
+      "operator_id": "archetto",
+      "char_id": "char_332_archet",
+      "slot": 1,
+      "skill_id": "skchr_archet_1",
+      "icon_id": "skchr_archet_1",
+      "original_skill_name": "箭矢·散逸"
+    },
+    {
+      "operator_id": "archetto",
+      "char_id": "char_332_archet",
+      "slot": 2,
+      "skill_id": "skchr_archet_2",
+      "icon_id": "skchr_archet_2",
+      "original_skill_name": "箭矢·追猎"
+    },
+    {
+      "operator_id": "archetto",
+      "char_id": "char_332_archet",
+      "slot": 3,
+      "skill_id": "skchr_archet_3",
+      "icon_id": "skchr_archet_3",
+      "original_skill_name": "箭矢·暴风"
+    },
+    {
+      "operator_id": "bagpipe",
+      "char_id": "char_222_bpipe",
+      "slot": 1,
+      "skill_id": "skcom_quickattack[3]",
+      "icon_id": "skcom_quickattack[3]",
+      "original_skill_name": "迅捷打击·γ型"
+    },
+    {
+      "operator_id": "bagpipe",
+      "char_id": "char_222_bpipe",
+      "slot": 2,
+      "skill_id": "skchr_bpipe_2",
+      "icon_id": "skchr_bpipe_2",
+      "original_skill_name": "高效冲击"
+    },
+    {
+      "operator_id": "bagpipe",
+      "char_id": "char_222_bpipe",
+      "slot": 3,
+      "skill_id": "skchr_bpipe_3",
+      "icon_id": "skchr_bpipe_3",
+      "original_skill_name": "闭膛连发"
+    },
+    {
+      "operator_id": "blaze",
+      "char_id": "char_017_huang",
+      "slot": 1,
+      "skill_id": "skchr_huang_1",
+      "icon_id": "skcom_powerstrike[3]",
+      "original_skill_name": "强力击·γ型"
+    },
+    {
+      "operator_id": "blaze",
+      "char_id": "char_017_huang",
+      "slot": 2,
+      "skill_id": "skchr_huang_2",
+      "icon_id": "skchr_huang_2",
+      "original_skill_name": "链锯延伸模块"
+    },
+    {
+      "operator_id": "blaze",
+      "char_id": "char_017_huang",
+      "slot": 3,
+      "skill_id": "skchr_huang_3",
+      "icon_id": "skchr_huang_3",
+      "original_skill_name": "沸腾爆裂"
+    },
+    {
+      "operator_id": "blemishine",
+      "char_id": "char_423_blemsh",
+      "slot": 1,
+      "skill_id": "skchr_blemsh_1",
+      "icon_id": "skchr_blemsh_1",
+      "original_skill_name": "光芒涌动"
+    },
+    {
+      "operator_id": "blemishine",
+      "char_id": "char_423_blemsh",
+      "slot": 2,
+      "skill_id": "skchr_blemsh_2",
+      "icon_id": "skchr_blemsh_2",
+      "original_skill_name": "慑敌辉光"
+    },
+    {
+      "operator_id": "blemishine",
+      "char_id": "char_423_blemsh",
+      "slot": 3,
+      "skill_id": "skchr_blemsh_3",
+      "icon_id": "skchr_blemsh_3",
+      "original_skill_name": "先贤化身"
+    },
+    {
+      "operator_id": "blue_poison",
+      "char_id": "char_129_bluep",
+      "slot": 1,
+      "skill_id": "skchr_bluep_1",
+      "icon_id": "skchr_bluep_1",
+      "original_skill_name": "二重射击·自动"
+    },
+    {
+      "operator_id": "blue_poison",
+      "char_id": "char_129_bluep",
+      "slot": 2,
+      "skill_id": "skchr_bluep_2",
+      "icon_id": "skchr_bluep_2",
+      "original_skill_name": "毒液散射"
+    },
+    {
+      "operator_id": "carnelian",
+      "char_id": "char_426_billro",
+      "slot": 1,
+      "skill_id": "skchr_billro_1",
+      "icon_id": "skchr_billro_1",
+      "original_skill_name": "沙暴守卫"
+    },
+    {
+      "operator_id": "carnelian",
+      "char_id": "char_426_billro",
+      "slot": 2,
+      "skill_id": "skchr_billro_2",
+      "icon_id": "skchr_billro_2",
+      "original_skill_name": "沙缚镣锁"
+    },
+    {
+      "operator_id": "carnelian",
+      "char_id": "char_426_billro",
+      "slot": 3,
+      "skill_id": "skchr_billro_3",
+      "icon_id": "skchr_billro_3",
+      "original_skill_name": "食噬之印"
+    },
+    {
+      "operator_id": "ceobe",
+      "char_id": "char_2013_cerber",
+      "slot": 1,
+      "skill_id": "skchr_cerber_1",
+      "icon_id": "skchr_cerber_1",
+      "original_skill_name": "“很冰的斧”"
+    },
+    {
+      "operator_id": "ceobe",
+      "char_id": "char_2013_cerber",
+      "slot": 2,
+      "skill_id": "skchr_cerber_2",
+      "icon_id": "skchr_cerber_2",
+      "original_skill_name": "“很热的刀”"
+    },
+    {
+      "operator_id": "ceobe",
+      "char_id": "char_2013_cerber",
+      "slot": 3,
+      "skill_id": "skchr_cerber_3",
+      "icon_id": "skchr_cerber_3",
+      "original_skill_name": "“很重的枪”"
+    },
+    {
+      "operator_id": "chen",
+      "char_id": "char_010_chen",
+      "slot": 1,
+      "skill_id": "skchr_chen_1",
+      "icon_id": "skchr_chen_1",
+      "original_skill_name": "鞘击"
+    },
+    {
+      "operator_id": "chen",
+      "char_id": "char_010_chen",
+      "slot": 2,
+      "skill_id": "skchr_chen_2",
+      "icon_id": "skchr_chen_2",
+      "original_skill_name": "赤霄·拔刀"
+    },
+    {
+      "operator_id": "chen",
+      "char_id": "char_010_chen",
+      "slot": 3,
+      "skill_id": "skchr_chen_3",
+      "icon_id": "skchr_chen_3",
+      "original_skill_name": "赤霄·绝影"
+    },
+    {
+      "operator_id": "chen_alter",
+      "char_id": "char_1013_chen2",
+      "slot": 1,
+      "skill_id": "skchr_chen2_1",
+      "icon_id": "skchr_chen2_1",
+      "original_skill_name": "高压冲击"
+    },
+    {
+      "operator_id": "chen_alter",
+      "char_id": "char_1013_chen2",
+      "slot": 2,
+      "skill_id": "skchr_chen2_2",
+      "icon_id": "skchr_chen2_2",
+      "original_skill_name": "“堇青之夜”"
+    },
+    {
+      "operator_id": "chen_alter",
+      "char_id": "char_1013_chen2",
+      "slot": 3,
+      "skill_id": "skchr_chen2_3",
+      "icon_id": "skchr_chen2_3",
+      "original_skill_name": "“假日风暴”"
+    },
+    {
+      "operator_id": "cliffheart",
+      "char_id": "char_173_slchan",
+      "slot": 1,
+      "skill_id": "skchr_slchan_1",
+      "icon_id": "skchr_slchan_1",
+      "original_skill_name": "锁链勾爪"
+    },
+    {
+      "operator_id": "cliffheart",
+      "char_id": "char_173_slchan",
+      "slot": 2,
+      "skill_id": "skchr_slchan_2",
+      "icon_id": "skchr_slchan_2",
+      "original_skill_name": "束缚链"
+    },
+    {
+      "operator_id": "cuora",
+      "char_id": "char_150_snakek",
+      "slot": 1,
+      "skill_id": "skcom_def_up[2]",
+      "icon_id": "skcom_def_up[2]",
+      "original_skill_name": "防御力强化·β型"
+    },
+    {
+      "operator_id": "cuora",
+      "char_id": "char_150_snakek",
+      "slot": 2,
+      "skill_id": "skchr_snakek_2",
+      "icon_id": "skchr_snakek_2",
+      "original_skill_name": "壳状防御"
+    },
+    {
+      "operator_id": "dusk",
+      "char_id": "char_2015_dusk",
+      "slot": 1,
+      "skill_id": "skchr_dusk_1",
+      "icon_id": "skchr_dusk_1",
+      "original_skill_name": "工笔入化"
+    },
+    {
+      "operator_id": "dusk",
+      "char_id": "char_2015_dusk",
+      "slot": 2,
+      "skill_id": "skchr_dusk_2",
+      "icon_id": "skchr_dusk_2",
+      "original_skill_name": "泼墨淋漓"
+    },
+    {
+      "operator_id": "dusk",
+      "char_id": "char_2015_dusk",
+      "slot": 3,
+      "skill_id": "skchr_dusk_3",
+      "icon_id": "skchr_dusk_3",
+      "original_skill_name": "写意胜形"
+    },
+    {
+      "operator_id": "elysium",
+      "char_id": "char_401_elysm",
+      "slot": 1,
+      "skill_id": "skcom_assist_cost[3]",
+      "icon_id": "skcom_assist_cost[3]",
+      "original_skill_name": "支援号令·γ型"
+    },
+    {
+      "operator_id": "elysium",
+      "char_id": "char_401_elysm",
+      "slot": 2,
+      "skill_id": "skchr_elysm_2",
+      "icon_id": "skchr_elysm_2",
+      "original_skill_name": "聆听"
+    },
+    {
+      "operator_id": "eunectes",
+      "char_id": "char_416_zumama",
+      "slot": 1,
+      "skill_id": "skchr_zumama_1",
+      "icon_id": "skchr_zumama_1",
+      "original_skill_name": "轻型挂斧"
+    },
+    {
+      "operator_id": "eunectes",
+      "char_id": "char_416_zumama",
+      "slot": 2,
+      "skill_id": "skchr_zumama_2",
+      "icon_id": "skchr_zumama_2",
+      "original_skill_name": "震慑劈砍"
+    },
+    {
+      "operator_id": "eunectes",
+      "char_id": "char_416_zumama",
+      "slot": 3,
+      "skill_id": "skchr_zumama_3",
+      "icon_id": "skchr_zumama_3",
+      "original_skill_name": "钢铁意志"
+    },
+    {
+      "operator_id": "exusiai",
+      "char_id": "char_103_angel",
+      "slot": 1,
+      "skill_id": "skchr_angel_1",
+      "icon_id": "skchr_angel_1",
+      "original_skill_name": "冲锋模式"
+    },
+    {
+      "operator_id": "exusiai",
+      "char_id": "char_103_angel",
+      "slot": 2,
+      "skill_id": "skchr_angel_2",
+      "icon_id": "skchr_angel_2",
+      "original_skill_name": "扫射模式"
+    },
+    {
+      "operator_id": "exusiai",
+      "char_id": "char_103_angel",
+      "slot": 3,
+      "skill_id": "skchr_angel_3",
+      "icon_id": "skchr_angel_3",
+      "original_skill_name": "过载模式"
+    },
+    {
+      "operator_id": "eyjafjalla",
+      "char_id": "char_180_amgoat",
+      "slot": 1,
+      "skill_id": "skchr_amgoat_1",
+      "icon_id": "skchr_amgoat_1",
+      "original_skill_name": "二重咏唱"
+    },
+    {
+      "operator_id": "eyjafjalla",
+      "char_id": "char_180_amgoat",
+      "slot": 2,
+      "skill_id": "skchr_amgoat_2",
+      "icon_id": "skchr_amgoat_2",
+      "original_skill_name": "点燃"
+    },
+    {
+      "operator_id": "eyjafjalla",
+      "char_id": "char_180_amgoat",
+      "slot": 3,
+      "skill_id": "skchr_amgoat_3",
+      "icon_id": "skchr_amgoat_3",
+      "original_skill_name": "火山"
+    },
+    {
+      "operator_id": "eyjafjalla_alter",
+      "char_id": "char_1016_agoat2",
+      "slot": 1,
+      "skill_id": "skchr_agoat2_1",
+      "icon_id": "skchr_agoat2_1",
+      "original_skill_name": "无声润物"
+    },
+    {
+      "operator_id": "eyjafjalla_alter",
+      "char_id": "char_1016_agoat2",
+      "slot": 2,
+      "skill_id": "skchr_agoat2_2",
+      "icon_id": "skchr_agoat2_2",
+      "original_skill_name": "云霭荫佑"
+    },
+    {
+      "operator_id": "eyjafjalla_alter",
+      "char_id": "char_1016_agoat2",
+      "slot": 3,
+      "skill_id": "skchr_agoat2_3",
+      "icon_id": "skchr_agoat2_3",
+      "original_skill_name": "火山回响"
+    },
+    {
+      "operator_id": "feater",
+      "char_id": "char_241_panda",
+      "slot": 1,
+      "skill_id": "skchr_panda_1",
+      "icon_id": "skchr_panda_1",
+      "original_skill_name": "铁意六合"
+    },
+    {
+      "operator_id": "feater",
+      "char_id": "char_241_panda",
+      "slot": 2,
+      "skill_id": "skchr_panda_2",
+      "icon_id": "skchr_panda_2",
+      "original_skill_name": "崩拳式"
+    },
+    {
+      "operator_id": "fiammetta",
+      "char_id": "char_300_phenxi",
+      "slot": 1,
+      "skill_id": "skchr_phenxi_1",
+      "icon_id": "skchr_phenxi_1",
+      "original_skill_name": "“你须直面”"
+    },
+    {
+      "operator_id": "fiammetta",
+      "char_id": "char_300_phenxi",
+      "slot": 2,
+      "skill_id": "skchr_phenxi_2",
+      "icon_id": "skchr_phenxi_2",
+      "original_skill_name": "“你须愧悔”"
+    },
+    {
+      "operator_id": "fiammetta",
+      "char_id": "char_300_phenxi",
+      "slot": 3,
+      "skill_id": "skchr_phenxi_3",
+      "icon_id": "skchr_phenxi_3",
+      "original_skill_name": "“你须偿还”"
+    },
+    {
+      "operator_id": "flametail",
+      "char_id": "char_420_flamtl",
+      "slot": 1,
+      "skill_id": "skchr_flamtl_1",
+      "icon_id": "skchr_flamtl_1",
+      "original_skill_name": "迅敏直觉"
+    },
+    {
+      "operator_id": "flametail",
+      "char_id": "char_420_flamtl",
+      "slot": 2,
+      "skill_id": "skchr_flamtl_2",
+      "icon_id": "skchr_flamtl_2",
+      "original_skill_name": "“红松林”"
+    },
+    {
+      "operator_id": "flametail",
+      "char_id": "char_420_flamtl",
+      "slot": 3,
+      "skill_id": "skchr_flamtl_3",
+      "icon_id": "skchr_flamtl_3",
+      "original_skill_name": "焰心"
+    },
+    {
+      "operator_id": "gavial_alter",
+      "char_id": "char_1026_gvial2",
+      "slot": 1,
+      "skill_id": "skchr_gvial2_1",
+      "icon_id": "skchr_gvial2_1",
+      "original_skill_name": "精准痛击"
+    },
+    {
+      "operator_id": "gavial_alter",
+      "char_id": "char_1026_gvial2",
+      "slot": 2,
+      "skill_id": "skchr_gvial2_2",
+      "icon_id": "skchr_gvial2_2",
+      "original_skill_name": "链锯强袭"
+    },
+    {
+      "operator_id": "gavial_alter",
+      "char_id": "char_1026_gvial2",
+      "slot": 3,
+      "skill_id": "skchr_gvial2_3",
+      "icon_id": "skchr_gvial2_3",
+      "original_skill_name": "丛林之魂"
+    },
+    {
+      "operator_id": "gitano",
+      "char_id": "char_109_fmout",
+      "slot": 1,
+      "skill_id": "skcom_magic_rage[2]",
+      "icon_id": "skcom_magic_rage[2]",
+      "original_skill_name": "战术咏唱·β型"
+    },
+    {
+      "operator_id": "gitano",
+      "char_id": "char_109_fmout",
+      "slot": 2,
+      "skill_id": "skchr_fmout_2",
+      "icon_id": "skchr_fmout_2",
+      "original_skill_name": "命运"
+    },
+    {
+      "operator_id": "gladiia",
+      "char_id": "char_474_glady",
+      "slot": 1,
+      "skill_id": "skchr_glady_1",
+      "icon_id": "skchr_glady_1",
+      "original_skill_name": "缺水的大洋裂断"
+    },
+    {
+      "operator_id": "gladiia",
+      "char_id": "char_474_glady",
+      "slot": 2,
+      "skill_id": "skchr_glady_2",
+      "icon_id": "skchr_glady_2",
+      "original_skill_name": "缺水的掌握怒海"
+    },
+    {
+      "operator_id": "gladiia",
+      "char_id": "char_474_glady",
+      "slot": 3,
+      "skill_id": "skchr_glady_3",
+      "icon_id": "skchr_glady_3",
+      "original_skill_name": "缺水的碎漩狂舞"
+    },
+    {
+      "operator_id": "gnosis",
+      "char_id": "char_206_gnosis",
+      "slot": 1,
+      "skill_id": "skchr_gnosis_1",
+      "icon_id": "skchr_gnosis_1",
+      "original_skill_name": "高速思考"
+    },
+    {
+      "operator_id": "gnosis",
+      "char_id": "char_206_gnosis",
+      "slot": 2,
+      "skill_id": "skchr_gnosis_2",
+      "icon_id": "skchr_gnosis_2",
+      "original_skill_name": "零度爆发"
+    },
+    {
+      "operator_id": "gnosis",
+      "char_id": "char_206_gnosis",
+      "slot": 3,
+      "skill_id": "skchr_gnosis_3",
+      "icon_id": "skchr_gnosis_3",
+      "original_skill_name": "失温症"
+    },
+    {
+      "operator_id": "goldenglow",
+      "char_id": "char_377_gdglow",
+      "slot": 1,
+      "skill_id": "skchr_gdglow_1",
+      "icon_id": "skchr_gdglow_1",
+      "original_skill_name": "火花四溅"
+    },
+    {
+      "operator_id": "goldenglow",
+      "char_id": "char_377_gdglow",
+      "slot": 2,
+      "skill_id": "skchr_gdglow_2",
+      "icon_id": "skchr_gdglow_2",
+      "original_skill_name": "电流翻涌"
+    },
+    {
+      "operator_id": "goldenglow",
+      "char_id": "char_377_gdglow",
+      "slot": 3,
+      "skill_id": "skchr_gdglow_3",
+      "icon_id": "skchr_gdglow_3",
+      "original_skill_name": "澄净闪耀"
+    },
+    {
+      "operator_id": "gravel",
+      "char_id": "char_237_gravel",
+      "slot": 1,
+      "skill_id": "skchr_gravel_1",
+      "icon_id": "skchr_gravel_1",
+      "original_skill_name": "影袭"
+    },
+    {
+      "operator_id": "gravel",
+      "char_id": "char_237_gravel",
+      "slot": 2,
+      "skill_id": "skchr_gravel_2",
+      "icon_id": "skchr_gravel_2",
+      "original_skill_name": "鼠群"
+    },
+    {
+      "operator_id": "gummy",
+      "char_id": "char_196_sunbr",
+      "slot": 1,
+      "skill_id": "skchr_sunbr_1",
+      "icon_id": "skchr_sunbr_1",
+      "original_skill_name": "备用军粮"
+    },
+    {
+      "operator_id": "gummy",
+      "char_id": "char_196_sunbr",
+      "slot": 2,
+      "skill_id": "skchr_sunbr_2",
+      "icon_id": "skchr_sunbr_2",
+      "original_skill_name": "食粮烹制"
+    },
+    {
+      "operator_id": "haze",
+      "char_id": "char_141_nights",
+      "slot": 1,
+      "skill_id": "skcom_atk_up[2]",
+      "icon_id": "skcom_atk_up[2]",
+      "original_skill_name": "攻击力强化·β型"
+    },
+    {
+      "operator_id": "haze",
+      "char_id": "char_141_nights",
+      "slot": 2,
+      "skill_id": "skchr_nights_2",
+      "icon_id": "skchr_nights_2",
+      "original_skill_name": "赤色之瞳"
+    },
+    {
+      "operator_id": "hellagur",
+      "char_id": "char_188_helage",
+      "slot": 1,
+      "skill_id": "skchr_helage_1",
+      "icon_id": "skchr_helage_1",
+      "original_skill_name": "新月"
+    },
+    {
+      "operator_id": "hellagur",
+      "char_id": "char_188_helage",
+      "slot": 2,
+      "skill_id": "skchr_helage_2",
+      "icon_id": "skchr_helage_2",
+      "original_skill_name": "弦月"
+    },
+    {
+      "operator_id": "hellagur",
+      "char_id": "char_188_helage",
+      "slot": 3,
+      "skill_id": "skchr_helage_3",
+      "icon_id": "skchr_helage_3",
+      "original_skill_name": "满月"
+    },
+    {
+      "operator_id": "horn",
+      "char_id": "char_4039_horn",
+      "slot": 1,
+      "skill_id": "skchr_horn_1",
+      "icon_id": "skchr_horn_1",
+      "original_skill_name": "照明榴弹"
+    },
+    {
+      "operator_id": "horn",
+      "char_id": "char_4039_horn",
+      "slot": 2,
+      "skill_id": "skchr_horn_2",
+      "icon_id": "skchr_horn_2",
+      "original_skill_name": "暴风号令"
+    },
+    {
+      "operator_id": "horn",
+      "char_id": "char_4039_horn",
+      "slot": 3,
+      "skill_id": "skchr_horn_3",
+      "icon_id": "skchr_horn_3",
+      "original_skill_name": "终极防线"
+    },
+    {
+      "operator_id": "hoshiguma",
+      "char_id": "char_136_hsguma",
+      "slot": 1,
+      "skill_id": "skchr_hsguma_1",
+      "icon_id": "skchr_hsguma_1",
+      "original_skill_name": "战意"
+    },
+    {
+      "operator_id": "hoshiguma",
+      "char_id": "char_136_hsguma",
+      "slot": 2,
+      "skill_id": "skchr_hsguma_2",
+      "icon_id": "skchr_hsguma_2",
+      "original_skill_name": "荆棘"
+    },
+    {
+      "operator_id": "hoshiguma",
+      "char_id": "char_136_hsguma",
+      "slot": 3,
+      "skill_id": "skchr_hsguma_3",
+      "icon_id": "skchr_hsguma_3",
+      "original_skill_name": "力之锯"
+    },
+    {
+      "operator_id": "ifrit",
+      "char_id": "char_134_ifrit",
+      "slot": 1,
+      "skill_id": "skchr_ifrit_1",
+      "icon_id": "skchr_ifrit_1",
+      "original_skill_name": "狂热"
+    },
+    {
+      "operator_id": "ifrit",
+      "char_id": "char_134_ifrit",
+      "slot": 2,
+      "skill_id": "skchr_ifrit_2",
+      "icon_id": "skchr_ifrit_2",
+      "original_skill_name": "炎爆"
+    },
+    {
+      "operator_id": "ifrit",
+      "char_id": "char_134_ifrit",
+      "slot": 3,
+      "skill_id": "skchr_ifrit_3",
+      "icon_id": "skchr_ifrit_3",
+      "original_skill_name": "灼地"
+    },
+    {
+      "operator_id": "ines",
+      "char_id": "char_4087_ines",
+      "slot": 1,
+      "skill_id": "skchr_ines_1",
+      "icon_id": "skchr_ines_1",
+      "original_skill_name": "淬影突袭"
+    },
+    {
+      "operator_id": "ines",
+      "char_id": "char_4087_ines",
+      "slot": 2,
+      "skill_id": "skchr_ines_2",
+      "icon_id": "skchr_ines_2",
+      "original_skill_name": "暗夜无明"
+    },
+    {
+      "operator_id": "ines",
+      "char_id": "char_4087_ines",
+      "slot": 3,
+      "skill_id": "skchr_ines_3",
+      "icon_id": "skchr_ines_3",
+      "original_skill_name": "独影归途"
+    },
+    {
+      "operator_id": "istina",
+      "char_id": "char_195_glassb",
+      "slot": 1,
+      "skill_id": "skchr_glassb_1",
+      "icon_id": "skchr_glassb_1",
+      "original_skill_name": "专心致志"
+    },
+    {
+      "operator_id": "istina",
+      "char_id": "char_195_glassb",
+      "slot": 2,
+      "skill_id": "skchr_glassb_2",
+      "icon_id": "skchr_glassb_2",
+      "original_skill_name": "文学风暴"
+    },
+    {
+      "operator_id": "jessica",
+      "char_id": "char_235_jesica",
+      "slot": 1,
+      "skill_id": "skchr_jesica_1",
+      "icon_id": "skcom_powerstrike[2]",
+      "original_skill_name": "强力击·β型"
+    },
+    {
+      "operator_id": "jessica",
+      "char_id": "char_235_jesica",
+      "slot": 2,
+      "skill_id": "skchr_jesica_2",
+      "icon_id": "skchr_jesica_2",
+      "original_skill_name": "掩护烟幕"
+    },
+    {
+      "operator_id": "jessica_alter",
+      "char_id": "char_1034_jesca2",
+      "slot": 1,
+      "skill_id": "skchr_jesca2_1",
+      "icon_id": "skchr_jesca2_1",
+      "original_skill_name": "坚守阵线"
+    },
+    {
+      "operator_id": "jessica_alter",
+      "char_id": "char_1034_jesca2",
+      "slot": 2,
+      "skill_id": "skchr_jesca2_2",
+      "icon_id": "skchr_jesca2_2",
+      "original_skill_name": "掩蔽护卫"
+    },
+    {
+      "operator_id": "jessica_alter",
+      "char_id": "char_1034_jesca2",
+      "slot": 3,
+      "skill_id": "skchr_jesca2_3",
+      "icon_id": "skchr_jesca2_3",
+      "original_skill_name": "饱和迸射"
+    },
+    {
+      "operator_id": "kaltsit",
+      "char_id": "char_003_kalts",
+      "slot": 1,
+      "skill_id": "skchr_kalts_1",
+      "icon_id": "skchr_kalts_1",
+      "original_skill_name": "指令：结构加固"
+    },
+    {
+      "operator_id": "kaltsit",
+      "char_id": "char_003_kalts",
+      "slot": 2,
+      "skill_id": "skchr_kalts_2",
+      "icon_id": "skchr_kalts_2",
+      "original_skill_name": "指令：战术协同"
+    },
+    {
+      "operator_id": "kaltsit",
+      "char_id": "char_003_kalts",
+      "slot": 3,
+      "skill_id": "skchr_kalts_3",
+      "icon_id": "skchr_kalts_3",
+      "original_skill_name": "指令：熔毁"
+    },
+    {
+      "operator_id": "lappland",
+      "char_id": "char_140_whitew",
+      "slot": 1,
+      "skill_id": "skchr_whitew_1",
+      "icon_id": "skchr_whitew_1",
+      "original_skill_name": "日晷"
+    },
+    {
+      "operator_id": "lappland",
+      "char_id": "char_140_whitew",
+      "slot": 2,
+      "skill_id": "skchr_whitew_2",
+      "icon_id": "skchr_whitew_2",
+      "original_skill_name": "狼魂"
+    },
+    {
+      "operator_id": "lee",
+      "char_id": "char_322_lmlee",
+      "slot": 1,
+      "skill_id": "skchr_lmlee_1",
+      "icon_id": "skchr_lmlee_1",
+      "original_skill_name": "小惩大诫"
+    },
+    {
+      "operator_id": "lee",
+      "char_id": "char_322_lmlee",
+      "slot": 2,
+      "skill_id": "skchr_lmlee_2",
+      "icon_id": "skchr_lmlee_2",
+      "original_skill_name": "驱凶辟邪"
+    },
+    {
+      "operator_id": "lee",
+      "char_id": "char_322_lmlee",
+      "slot": 3,
+      "skill_id": "skchr_lmlee_3",
+      "icon_id": "skchr_lmlee_3",
+      "original_skill_name": "贵客盈门"
+    },
+    {
+      "operator_id": "lin",
+      "char_id": "char_4080_lin",
+      "slot": 1,
+      "skill_id": "skchr_lin_1",
+      "icon_id": "skchr_lin_1",
+      "original_skill_name": "玲珑"
+    },
+    {
+      "operator_id": "lin",
+      "char_id": "char_4080_lin",
+      "slot": 2,
+      "skill_id": "skchr_lin_2",
+      "icon_id": "skchr_lin_2",
+      "original_skill_name": "荫庇"
+    },
+    {
+      "operator_id": "lin",
+      "char_id": "char_4080_lin",
+      "slot": 3,
+      "skill_id": "skchr_lin_3",
+      "icon_id": "skchr_lin_3",
+      "original_skill_name": "流光乍裂"
+    },
+    {
+      "operator_id": "ling",
+      "char_id": "char_2023_ling",
+      "slot": 1,
+      "skill_id": "skchr_ling_1",
+      "icon_id": "skchr_ling_1",
+      "original_skill_name": "重进酒"
+    },
+    {
+      "operator_id": "ling",
+      "char_id": "char_2023_ling",
+      "slot": 2,
+      "skill_id": "skchr_ling_2",
+      "icon_id": "skchr_ling_2",
+      "original_skill_name": "笑鸣瑟"
+    },
+    {
+      "operator_id": "ling",
+      "char_id": "char_2023_ling",
+      "slot": 3,
+      "skill_id": "skchr_ling_3",
+      "icon_id": "skchr_ling_3",
+      "original_skill_name": "宁作吾"
+    },
+    {
+      "operator_id": "liskarm",
+      "char_id": "char_107_liskam",
+      "slot": 1,
+      "skill_id": "skchr_liskam_1",
+      "icon_id": "skchr_liskam_1",
+      "original_skill_name": "充能防御"
+    },
+    {
+      "operator_id": "liskarm",
+      "char_id": "char_107_liskam",
+      "slot": 2,
+      "skill_id": "skchr_liskam_2",
+      "icon_id": "skchr_liskam_2",
+      "original_skill_name": "反击电弧"
+    },
+    {
+      "operator_id": "lumen",
+      "char_id": "char_4042_lumen",
+      "slot": 1,
+      "skill_id": "skchr_lumen_1",
+      "icon_id": "skchr_lumen_1",
+      "original_skill_name": "沐雨"
+    },
+    {
+      "operator_id": "lumen",
+      "char_id": "char_4042_lumen",
+      "slot": 2,
+      "skill_id": "skchr_lumen_2",
+      "icon_id": "skchr_lumen_2",
+      "original_skill_name": "沛霖"
+    },
+    {
+      "operator_id": "lumen",
+      "char_id": "char_4042_lumen",
+      "slot": 3,
+      "skill_id": "skchr_lumen_3",
+      "icon_id": "skchr_lumen_3",
+      "original_skill_name": "灯火不灭"
+    },
+    {
+      "operator_id": "magallan",
+      "char_id": "char_248_mgllan",
+      "slot": 1,
+      "skill_id": "skchr_mgllan_1",
+      "icon_id": "skchr_mgllan_1",
+      "original_skill_name": "高效制冷模块"
+    },
+    {
+      "operator_id": "magallan",
+      "char_id": "char_248_mgllan",
+      "slot": 2,
+      "skill_id": "skchr_mgllan_2",
+      "icon_id": "skchr_mgllan_2",
+      "original_skill_name": "激光开采模块"
+    },
+    {
+      "operator_id": "magallan",
+      "char_id": "char_248_mgllan",
+      "slot": 3,
+      "skill_id": "skchr_mgllan_3",
+      "icon_id": "skchr_mgllan_3",
+      "original_skill_name": "武装打击模块"
+    },
+    {
+      "operator_id": "meteorite",
+      "char_id": "char_219_meteo",
+      "slot": 1,
+      "skill_id": "skchr_meteo_1",
+      "icon_id": "skchr_meteo_1",
+      "original_skill_name": "霰射弹头"
+    },
+    {
+      "operator_id": "meteorite",
+      "char_id": "char_219_meteo",
+      "slot": 2,
+      "skill_id": "skchr_meteo_2",
+      "icon_id": "skchr_meteo_2",
+      "original_skill_name": "高爆弹头"
+    },
+    {
+      "operator_id": "mizuki",
+      "char_id": "char_437_mizuki",
+      "slot": 1,
+      "skill_id": "skchr_mizuki_1",
+      "icon_id": "skchr_mizuki_1",
+      "original_skill_name": "唤醒"
+    },
+    {
+      "operator_id": "mizuki",
+      "char_id": "char_437_mizuki",
+      "slot": 2,
+      "skill_id": "skchr_mizuki_2",
+      "icon_id": "skchr_mizuki_2",
+      "original_skill_name": "囚徒困境"
+    },
+    {
+      "operator_id": "mizuki",
+      "char_id": "char_437_mizuki",
+      "slot": 3,
+      "skill_id": "skchr_mizuki_3",
+      "icon_id": "skchr_mizuki_3",
+      "original_skill_name": "镜花水月"
+    },
+    {
+      "operator_id": "mlynar",
+      "char_id": "char_4064_mlynar",
+      "slot": 1,
+      "skill_id": "skchr_mlynar_1",
+      "icon_id": "skchr_mlynar_1",
+      "original_skill_name": "未声张的怒火"
+    },
+    {
+      "operator_id": "mlynar",
+      "char_id": "char_4064_mlynar",
+      "slot": 2,
+      "skill_id": "skchr_mlynar_2",
+      "icon_id": "skchr_mlynar_2",
+      "original_skill_name": "未宽解的悲哀"
+    },
+    {
+      "operator_id": "mlynar",
+      "char_id": "char_4064_mlynar",
+      "slot": 3,
+      "skill_id": "skchr_mlynar_3",
+      "icon_id": "skchr_mlynar_3",
+      "original_skill_name": "未照耀的荣光"
+    },
+    {
+      "operator_id": "mon3tr_operator",
+      "char_id": "char_4179_monstr",
+      "slot": 1,
+      "skill_id": "skchr_monstr_1",
+      "icon_id": "skchr_monstr_1",
+      "original_skill_name": "策略：超压链接"
+    },
+    {
+      "operator_id": "mon3tr_operator",
+      "char_id": "char_4179_monstr",
+      "slot": 2,
+      "skill_id": "skchr_monstr_2",
+      "icon_id": "skchr_monstr_2",
+      "original_skill_name": "策略：超负荷"
+    },
+    {
+      "operator_id": "mon3tr_operator",
+      "char_id": "char_4179_monstr",
+      "slot": 3,
+      "skill_id": "skchr_monstr_3",
+      "icon_id": "skchr_monstr_3",
+      "original_skill_name": "策略：熔毁"
+    },
+    {
+      "operator_id": "mostima",
+      "char_id": "char_213_mostma",
+      "slot": 1,
+      "skill_id": "skcom_atk_up[3]",
+      "icon_id": "skcom_atk_up[3]",
+      "original_skill_name": "攻击力强化·γ型"
+    },
+    {
+      "operator_id": "mostima",
+      "char_id": "char_213_mostma",
+      "slot": 2,
+      "skill_id": "skchr_mostma_2",
+      "icon_id": "skchr_mostma_2",
+      "original_skill_name": "荒时之锁"
+    },
+    {
+      "operator_id": "mostima",
+      "char_id": "char_213_mostma",
+      "slot": 3,
+      "skill_id": "skchr_mostma_3",
+      "icon_id": "skchr_mostma_3",
+      "original_skill_name": "序时之匙"
+    },
+    {
+      "operator_id": "mountain",
+      "char_id": "char_264_f12yin",
+      "slot": 1,
+      "skill_id": "skchr_f12yin_1",
+      "icon_id": "skchr_f12yin_1",
+      "original_skill_name": "左勾扫拳"
+    },
+    {
+      "operator_id": "mountain",
+      "char_id": "char_264_f12yin",
+      "slot": 2,
+      "skill_id": "skchr_f12yin_2",
+      "icon_id": "skchr_f12yin_2",
+      "original_skill_name": "横扫架势"
+    },
+    {
+      "operator_id": "mountain",
+      "char_id": "char_264_f12yin",
+      "slot": 3,
+      "skill_id": "skchr_f12yin_3",
+      "icon_id": "skchr_f12yin_3",
+      "original_skill_name": "震地碎岩击"
+    },
+    {
+      "operator_id": "mudrock",
+      "char_id": "char_311_mudrok",
+      "slot": 1,
+      "skill_id": "skcom_def_up[3]",
+      "icon_id": "skcom_def_up[3]",
+      "original_skill_name": "防御力强化·γ型"
+    },
+    {
+      "operator_id": "mudrock",
+      "char_id": "char_311_mudrok",
+      "slot": 2,
+      "skill_id": "skchr_mudrok_2",
+      "icon_id": "skchr_mudrok_2",
+      "original_skill_name": "岩崩锤"
+    },
+    {
+      "operator_id": "mudrock",
+      "char_id": "char_311_mudrok",
+      "slot": 3,
+      "skill_id": "skchr_mudrok_3",
+      "icon_id": "skchr_mudrok_3",
+      "original_skill_name": "秽壤的血脉"
+    },
+    {
+      "operator_id": "muelsyse",
+      "char_id": "char_249_mlyss",
+      "slot": 1,
+      "skill_id": "skchr_mlyss_1",
+      "icon_id": "skchr_mlyss_1",
+      "original_skill_name": "渐进性润化"
+    },
+    {
+      "operator_id": "muelsyse",
+      "char_id": "char_249_mlyss",
+      "slot": 2,
+      "skill_id": "skchr_mlyss_2",
+      "icon_id": "skchr_mlyss_2",
+      "original_skill_name": "生态耦合"
+    },
+    {
+      "operator_id": "muelsyse",
+      "char_id": "char_249_mlyss",
+      "slot": 3,
+      "skill_id": "skchr_mlyss_3",
+      "icon_id": "skchr_mlyss_3",
+      "original_skill_name": "浅层非熵适应"
+    },
+    {
+      "operator_id": "myrtle",
+      "char_id": "char_151_myrtle",
+      "slot": 1,
+      "skill_id": "skcom_assist_cost[2]",
+      "icon_id": "skcom_assist_cost[2]",
+      "original_skill_name": "支援号令·β型"
+    },
+    {
+      "operator_id": "myrtle",
+      "char_id": "char_151_myrtle",
+      "slot": 2,
+      "skill_id": "skchr_myrtle_2",
+      "icon_id": "skchr_myrtle_2",
+      "original_skill_name": "治愈之翼"
+    },
+    {
+      "operator_id": "nearl",
+      "char_id": "char_148_nearl",
+      "slot": 1,
+      "skill_id": "skchr_nearl_1",
+      "icon_id": "skchr_nearl_1",
+      "original_skill_name": "急救"
+    },
+    {
+      "operator_id": "nearl",
+      "char_id": "char_148_nearl",
+      "slot": 2,
+      "skill_id": "skchr_nearl_2",
+      "icon_id": "skchr_nearl_2",
+      "original_skill_name": "急救模式"
+    },
+    {
+      "operator_id": "nian",
+      "char_id": "char_2014_nian",
+      "slot": 1,
+      "skill_id": "skchr_nian_1",
+      "icon_id": "skchr_nian_1",
+      "original_skill_name": "锡灼"
+    },
+    {
+      "operator_id": "nian",
+      "char_id": "char_2014_nian",
+      "slot": 2,
+      "skill_id": "skchr_nian_2",
+      "icon_id": "skchr_nian_2",
+      "original_skill_name": "铜印"
+    },
+    {
+      "operator_id": "nian",
+      "char_id": "char_2014_nian",
+      "slot": 3,
+      "skill_id": "skchr_nian_3",
+      "icon_id": "skchr_nian_3",
+      "original_skill_name": "铁御"
+    },
+    {
+      "operator_id": "nightingale",
+      "char_id": "char_179_cgbird",
+      "slot": 1,
+      "skill_id": "skcom_heal_up[3]",
+      "icon_id": "skcom_heal_up[3]",
+      "original_skill_name": "治疗强化·γ型"
+    },
+    {
+      "operator_id": "nightingale",
+      "char_id": "char_179_cgbird",
+      "slot": 2,
+      "skill_id": "skchr_cgbird_2",
+      "icon_id": "skchr_cgbird_2",
+      "original_skill_name": "法术护盾"
+    },
+    {
+      "operator_id": "nightingale",
+      "char_id": "char_179_cgbird",
+      "slot": 3,
+      "skill_id": "skchr_cgbird_3",
+      "icon_id": "skchr_cgbird_3",
+      "original_skill_name": "圣域"
+    },
+    {
+      "operator_id": "pallas",
+      "char_id": "char_485_pallas",
+      "slot": 1,
+      "skill_id": "skchr_pallas_1",
+      "icon_id": "skchr_pallas_1",
+      "original_skill_name": "胜利的连击"
+    },
+    {
+      "operator_id": "pallas",
+      "char_id": "char_485_pallas",
+      "slot": 2,
+      "skill_id": "skchr_pallas_2",
+      "icon_id": "skchr_pallas_2",
+      "original_skill_name": "信念的长鞭"
+    },
+    {
+      "operator_id": "pallas",
+      "char_id": "char_485_pallas",
+      "slot": 3,
+      "skill_id": "skchr_pallas_3",
+      "icon_id": "skchr_pallas_3",
+      "original_skill_name": "英勇的祝福"
+    },
+    {
+      "operator_id": "passenger",
+      "char_id": "char_472_pasngr",
+      "slot": 1,
+      "skill_id": "skchr_pasngr_1",
+      "icon_id": "skchr_pasngr_1",
+      "original_skill_name": "电能之触"
+    },
+    {
+      "operator_id": "passenger",
+      "char_id": "char_472_pasngr",
+      "slot": 2,
+      "skill_id": "skchr_pasngr_2",
+      "icon_id": "skchr_pasngr_2",
+      "original_skill_name": "聚焦指令"
+    },
+    {
+      "operator_id": "passenger",
+      "char_id": "char_472_pasngr",
+      "slot": 3,
+      "skill_id": "skchr_pasngr_3",
+      "icon_id": "skchr_pasngr_3",
+      "original_skill_name": "辉煌裂片"
+    },
+    {
+      "operator_id": "penance",
+      "char_id": "char_4065_judge",
+      "slot": 1,
+      "skill_id": "skchr_judge_1",
+      "icon_id": "skchr_judge_1",
+      "original_skill_name": "一锤定音"
+    },
+    {
+      "operator_id": "penance",
+      "char_id": "char_4065_judge",
+      "slot": 2,
+      "skill_id": "skchr_judge_2",
+      "icon_id": "skchr_judge_2",
+      "original_skill_name": "坚心苦修"
+    },
+    {
+      "operator_id": "penance",
+      "char_id": "char_4065_judge",
+      "slot": 3,
+      "skill_id": "skchr_judge_3",
+      "icon_id": "skchr_judge_3",
+      "original_skill_name": "披荆斩棘"
+    },
+    {
+      "operator_id": "perfumer",
+      "char_id": "char_181_flower",
+      "slot": 1,
+      "skill_id": "skcom_heal_up[2]",
+      "icon_id": "skcom_heal_up[2]",
+      "original_skill_name": "治疗强化·β型"
+    },
+    {
+      "operator_id": "perfumer",
+      "char_id": "char_181_flower",
+      "slot": 2,
+      "skill_id": "skchr_flower_2",
+      "icon_id": "skchr_flower_2",
+      "original_skill_name": "精调"
+    },
+    {
+      "operator_id": "phantom",
+      "char_id": "char_250_phatom",
+      "slot": 1,
+      "skill_id": "skchr_phatom_1",
+      "icon_id": "skchr_phatom_1",
+      "original_skill_name": "暗夜魅影"
+    },
+    {
+      "operator_id": "phantom",
+      "char_id": "char_250_phatom",
+      "slot": 2,
+      "skill_id": "skchr_phatom_2",
+      "icon_id": "skchr_phatom_2",
+      "original_skill_name": "血色乐章"
+    },
+    {
+      "operator_id": "phantom",
+      "char_id": "char_250_phatom",
+      "slot": 3,
+      "skill_id": "skchr_phatom_3",
+      "icon_id": "skchr_phatom_3",
+      "original_skill_name": "夜幕突袭"
+    },
+    {
+      "operator_id": "platinum",
+      "char_id": "char_204_platnm",
+      "slot": 1,
+      "skill_id": "skcom_atk_up[3]",
+      "icon_id": "skcom_atk_up[3]",
+      "original_skill_name": "攻击力强化·γ型"
+    },
+    {
+      "operator_id": "platinum",
+      "char_id": "char_204_platnm",
+      "slot": 2,
+      "skill_id": "skchr_platnm_2",
+      "icon_id": "skchr_platnm_2",
+      "original_skill_name": "天马视域"
+    },
+    {
+      "operator_id": "podenco",
+      "char_id": "char_258_podego",
+      "slot": 1,
+      "skill_id": "skchr_podego_1",
+      "icon_id": "skchr_podego_1",
+      "original_skill_name": "花香疗法"
+    },
+    {
+      "operator_id": "podenco",
+      "char_id": "char_258_podego",
+      "slot": 2,
+      "skill_id": "skchr_podego_2",
+      "icon_id": "skchr_podego_2",
+      "original_skill_name": "孢子扩散"
+    },
+    {
+      "operator_id": "pozyomka",
+      "char_id": "char_4055_bgsnow",
+      "slot": 1,
+      "skill_id": "skchr_bgsnow_1",
+      "icon_id": "skchr_bgsnow_1",
+      "original_skill_name": "抑扬格"
+    },
+    {
+      "operator_id": "pozyomka",
+      "char_id": "char_4055_bgsnow",
+      "slot": 2,
+      "skill_id": "skchr_bgsnow_2",
+      "icon_id": "skchr_bgsnow_2",
+      "original_skill_name": "点题"
+    },
+    {
+      "operator_id": "pozyomka",
+      "char_id": "char_4055_bgsnow",
+      "slot": 3,
+      "skill_id": "skchr_bgsnow_3",
+      "icon_id": "skchr_bgsnow_3",
+      "original_skill_name": "锐笔速写"
+    },
+    {
+      "operator_id": "pramanix",
+      "char_id": "char_174_slbell",
+      "slot": 1,
+      "skill_id": "skchr_slbell_1",
+      "icon_id": "skchr_slbell_1",
+      "original_skill_name": "传音回响"
+    },
+    {
+      "operator_id": "pramanix",
+      "char_id": "char_174_slbell",
+      "slot": 2,
+      "skill_id": "skchr_slbell_2",
+      "icon_id": "skchr_slbell_2",
+      "original_skill_name": "自然震慑"
+    },
+    {
+      "operator_id": "projekt_red",
+      "char_id": "char_144_red",
+      "slot": 1,
+      "skill_id": "skchr_red_1",
+      "icon_id": "skchr_red_1",
+      "original_skill_name": "处决模式"
+    },
+    {
+      "operator_id": "projekt_red",
+      "char_id": "char_144_red",
+      "slot": 2,
+      "skill_id": "skchr_red_2",
+      "icon_id": "skchr_red_2",
+      "original_skill_name": "狼群"
+    },
+    {
+      "operator_id": "ptilopsis",
+      "char_id": "char_128_plosis",
+      "slot": 1,
+      "skill_id": "skcom_heal_up[3]",
+      "icon_id": "skcom_heal_up[3]",
+      "original_skill_name": "治疗强化·γ型"
+    },
+    {
+      "operator_id": "ptilopsis",
+      "char_id": "char_128_plosis",
+      "slot": 2,
+      "skill_id": "skchr_plosis_2",
+      "icon_id": "skchr_plosis_2",
+      "original_skill_name": "脑啡肽"
+    },
+    {
+      "operator_id": "reed_alter",
+      "char_id": "char_1020_reed2",
+      "slot": 1,
+      "skill_id": "skcom_quickattack[3]",
+      "icon_id": "skcom_quickattack[3]",
+      "original_skill_name": "迅捷打击·γ型"
+    },
+    {
+      "operator_id": "reed_alter",
+      "char_id": "char_1020_reed2",
+      "slot": 2,
+      "skill_id": "skchr_reed2_2",
+      "icon_id": "skchr_reed2_2",
+      "original_skill_name": "枯荣共息"
+    },
+    {
+      "operator_id": "reed_alter",
+      "char_id": "char_1020_reed2",
+      "slot": 3,
+      "skill_id": "skchr_reed2_3",
+      "icon_id": "skchr_reed2_3",
+      "original_skill_name": "生命火种"
+    },
+    {
+      "operator_id": "rosa",
+      "char_id": "char_197_poca",
+      "slot": 1,
+      "skill_id": "skcom_atk_up[3]",
+      "icon_id": "skcom_atk_up[3]",
+      "original_skill_name": "攻击力强化·γ型"
+    },
+    {
+      "operator_id": "rosa",
+      "char_id": "char_197_poca",
+      "slot": 2,
+      "skill_id": "skchr_poca_2",
+      "icon_id": "skchr_poca_2",
+      "original_skill_name": "分裂射击"
+    },
+    {
+      "operator_id": "rosa",
+      "char_id": "char_197_poca",
+      "slot": 3,
+      "skill_id": "skchr_poca_3",
+      "icon_id": "skchr_poca_3",
+      "original_skill_name": "雪崩击"
+    },
+    {
+      "operator_id": "saga",
+      "char_id": "char_362_saga",
+      "slot": 1,
+      "skill_id": "skcom_charge_cost[3]",
+      "icon_id": "skcom_charge_cost[3]",
+      "original_skill_name": "冲锋号令·γ型"
+    },
+    {
+      "operator_id": "saga",
+      "char_id": "char_362_saga",
+      "slot": 2,
+      "skill_id": "skchr_saga_2",
+      "icon_id": "skchr_saga_2",
+      "original_skill_name": "除恶"
+    },
+    {
+      "operator_id": "saga",
+      "char_id": "char_362_saga",
+      "slot": 3,
+      "skill_id": "skchr_saga_3",
+      "icon_id": "skchr_saga_3",
+      "original_skill_name": "怒目"
+    },
+    {
+      "operator_id": "saileach",
+      "char_id": "char_479_sleach",
+      "slot": 1,
+      "skill_id": "skcom_assist_cost[3]",
+      "icon_id": "skcom_assist_cost[3]",
+      "original_skill_name": "支援号令·γ型"
+    },
+    {
+      "operator_id": "saileach",
+      "char_id": "char_479_sleach",
+      "slot": 2,
+      "skill_id": "skchr_sleach_2",
+      "icon_id": "skchr_sleach_2",
+      "original_skill_name": "信仰传承"
+    },
+    {
+      "operator_id": "saileach",
+      "char_id": "char_479_sleach",
+      "slot": 3,
+      "skill_id": "skchr_sleach_3",
+      "icon_id": "skchr_sleach_3",
+      "original_skill_name": "光辉旗帜"
+    },
+    {
+      "operator_id": "saria",
+      "char_id": "char_202_demkni",
+      "slot": 1,
+      "skill_id": "skchr_demkni_1",
+      "icon_id": "skchr_demkni_1",
+      "original_skill_name": "急救"
+    },
+    {
+      "operator_id": "saria",
+      "char_id": "char_202_demkni",
+      "slot": 2,
+      "skill_id": "skchr_demkni_2",
+      "icon_id": "skchr_demkni_2",
+      "original_skill_name": "药物配置"
+    },
+    {
+      "operator_id": "saria",
+      "char_id": "char_202_demkni",
+      "slot": 3,
+      "skill_id": "skchr_demkni_3",
+      "icon_id": "skchr_demkni_3",
+      "original_skill_name": "钙质化"
+    },
+    {
+      "operator_id": "schwarz",
+      "char_id": "char_340_shwaz",
+      "slot": 1,
+      "skill_id": "skchr_shwaz_1",
+      "icon_id": "skchr_shwaz_1",
+      "original_skill_name": "强弩"
+    },
+    {
+      "operator_id": "schwarz",
+      "char_id": "char_340_shwaz",
+      "slot": 2,
+      "skill_id": "skchr_shwaz_2",
+      "icon_id": "skchr_shwaz_2",
+      "original_skill_name": "暮眼锐瞳"
+    },
+    {
+      "operator_id": "schwarz",
+      "char_id": "char_340_shwaz",
+      "slot": 3,
+      "skill_id": "skchr_shwaz_3",
+      "icon_id": "skchr_shwaz_3",
+      "original_skill_name": "战术的终结"
+    },
+    {
+      "operator_id": "shamare",
+      "char_id": "char_254_vodfox",
+      "slot": 1,
+      "skill_id": "skchr_vodfox_1",
+      "icon_id": "skchr_vodfox_1",
+      "original_skill_name": "病入膏肓"
+    },
+    {
+      "operator_id": "shamare",
+      "char_id": "char_254_vodfox",
+      "slot": 2,
+      "skill_id": "skchr_vodfox_2",
+      "icon_id": "skchr_vodfox_2",
+      "original_skill_name": "诅咒娃娃"
+    },
+    {
+      "operator_id": "shaw",
+      "char_id": "char_277_sqrrel",
+      "slot": 1,
+      "skill_id": "skchr_sqrrel_1",
+      "icon_id": "skchr_sqrrel_1",
+      "original_skill_name": "水蒸气泵"
+    },
+    {
+      "operator_id": "shaw",
+      "char_id": "char_277_sqrrel",
+      "slot": 2,
+      "skill_id": "skchr_sqrrel_2",
+      "icon_id": "skchr_sqrrel_2",
+      "original_skill_name": "高压水炮"
+    },
+    {
+      "operator_id": "shining",
+      "char_id": "char_147_shining",
+      "slot": 1,
+      "skill_id": "skchr_shining_1",
+      "icon_id": "skchr_shining_1",
+      "original_skill_name": "信条"
+    },
+    {
+      "operator_id": "shining",
+      "char_id": "char_147_shining",
+      "slot": 2,
+      "skill_id": "skchr_shining_2",
+      "icon_id": "skchr_shining_2",
+      "original_skill_name": "自动掩护"
+    },
+    {
+      "operator_id": "shining",
+      "char_id": "char_147_shining",
+      "slot": 3,
+      "skill_id": "skchr_shining_3",
+      "icon_id": "skchr_shining_3",
+      "original_skill_name": "教条力场"
+    },
+    {
+      "operator_id": "siege",
+      "char_id": "char_112_siege",
+      "slot": 1,
+      "skill_id": "skcom_charge_cost[3]",
+      "icon_id": "skcom_charge_cost[3]",
+      "original_skill_name": "冲锋号令·γ型"
+    },
+    {
+      "operator_id": "siege",
+      "char_id": "char_112_siege",
+      "slot": 2,
+      "skill_id": "skchr_siege_2",
+      "icon_id": "skchr_siege_2",
+      "original_skill_name": "跃空锤"
+    },
+    {
+      "operator_id": "siege",
+      "char_id": "char_112_siege",
+      "slot": 3,
+      "skill_id": "skchr_siege_3",
+      "icon_id": "skchr_siege_3",
+      "original_skill_name": "碎颅击"
+    },
+    {
+      "operator_id": "silence",
+      "char_id": "char_108_silent",
+      "slot": 1,
+      "skill_id": "skcom_heal_up[3]",
+      "icon_id": "skcom_heal_up[3]",
+      "original_skill_name": "治疗强化·γ型"
+    },
+    {
+      "operator_id": "silence",
+      "char_id": "char_108_silent",
+      "slot": 2,
+      "skill_id": "skchr_silent_2",
+      "icon_id": "skchr_silent_2",
+      "original_skill_name": "医疗无人机"
+    },
+    {
+      "operator_id": "silence_alter",
+      "char_id": "char_1031_slent2",
+      "slot": 1,
+      "skill_id": "skchr_slent2_1",
+      "icon_id": "skchr_slent2_1",
+      "original_skill_name": "进取之心"
+    },
+    {
+      "operator_id": "silence_alter",
+      "char_id": "char_1031_slent2",
+      "slot": 2,
+      "skill_id": "skchr_slent2_2",
+      "icon_id": "skchr_slent2_2",
+      "original_skill_name": "俯瞰视界"
+    },
+    {
+      "operator_id": "silence_alter",
+      "char_id": "char_1031_slent2",
+      "slot": 3,
+      "skill_id": "skchr_slent2_3",
+      "icon_id": "skchr_slent2_3",
+      "original_skill_name": "无畏者协议"
+    },
+    {
+      "operator_id": "silverash",
+      "char_id": "char_172_svrash",
+      "slot": 1,
+      "skill_id": "skchr_svrash_1",
+      "icon_id": "skcom_powerstrike[3]",
+      "original_skill_name": "强力击·γ型"
+    },
+    {
+      "operator_id": "silverash",
+      "char_id": "char_172_svrash",
+      "slot": 2,
+      "skill_id": "skchr_svrash_2",
+      "icon_id": "skchr_svrash_2",
+      "original_skill_name": "雪境生存法则"
+    },
+    {
+      "operator_id": "silverash",
+      "char_id": "char_172_svrash",
+      "slot": 3,
+      "skill_id": "skchr_svrash_3",
+      "icon_id": "skchr_svrash_3",
+      "original_skill_name": "真银斩"
+    },
+    {
+      "operator_id": "skadi",
+      "char_id": "char_263_skadi",
+      "slot": 1,
+      "skill_id": "skcom_quickattack[3]",
+      "icon_id": "skcom_quickattack[3]",
+      "original_skill_name": "迅捷打击·γ型"
+    },
+    {
+      "operator_id": "skadi",
+      "char_id": "char_263_skadi",
+      "slot": 2,
+      "skill_id": "skchr_skadi_2",
+      "icon_id": "skchr_skadi_2",
+      "original_skill_name": "跃浪击"
+    },
+    {
+      "operator_id": "skadi",
+      "char_id": "char_263_skadi",
+      "slot": 3,
+      "skill_id": "skchr_skadi_3",
+      "icon_id": "skchr_skadi_3",
+      "original_skill_name": "涌潮悲歌"
+    },
+    {
+      "operator_id": "skadi_alter",
+      "char_id": "char_1012_skadi2",
+      "slot": 1,
+      "skill_id": "skchr_skadi2_1",
+      "icon_id": "skchr_skadi2_1",
+      "original_skill_name": "同归殊途之吟"
+    },
+    {
+      "operator_id": "skadi_alter",
+      "char_id": "char_1012_skadi2",
+      "slot": 2,
+      "skill_id": "skchr_skadi2_2",
+      "icon_id": "skchr_skadi2_2",
+      "original_skill_name": "同葬无光之愿"
+    },
+    {
+      "operator_id": "skadi_alter",
+      "char_id": "char_1012_skadi2",
+      "slot": 3,
+      "skill_id": "skchr_skadi2_3",
+      "icon_id": "skchr_skadi2_3",
+      "original_skill_name": "\"潮涌，潮枯\""
+    },
+    {
+      "operator_id": "skyfire",
+      "char_id": "char_166_skfire",
+      "slot": 1,
+      "skill_id": "skcom_atk_up[3]",
+      "icon_id": "skcom_atk_up[3]",
+      "original_skill_name": "攻击力强化·γ型"
+    },
+    {
+      "operator_id": "skyfire",
+      "char_id": "char_166_skfire",
+      "slot": 2,
+      "skill_id": "skchr_skfire_2",
+      "icon_id": "skchr_skfire_2",
+      "original_skill_name": "天坠之火"
+    },
+    {
+      "operator_id": "sora",
+      "char_id": "char_101_sora",
+      "slot": 1,
+      "skill_id": "skchr_sora_1",
+      "icon_id": "skchr_sora_1",
+      "original_skill_name": "睡眠之歌"
+    },
+    {
+      "operator_id": "sora",
+      "char_id": "char_101_sora",
+      "slot": 2,
+      "skill_id": "skchr_sora_2",
+      "icon_id": "skchr_sora_2",
+      "original_skill_name": "战斗之歌"
+    },
+    {
+      "operator_id": "specter",
+      "char_id": "char_143_ghost",
+      "slot": 1,
+      "skill_id": "skcom_atk_up[3]",
+      "icon_id": "skcom_atk_up[3]",
+      "original_skill_name": "攻击力强化·γ型"
+    },
+    {
+      "operator_id": "specter",
+      "char_id": "char_143_ghost",
+      "slot": 2,
+      "skill_id": "skchr_ghost_2",
+      "icon_id": "skchr_ghost_2",
+      "original_skill_name": "肉斩骨断"
+    },
+    {
+      "operator_id": "stainless",
+      "char_id": "char_4072_ironmn",
+      "slot": 1,
+      "skill_id": "skchr_ironmn_1",
+      "icon_id": "skchr_ironmn_1",
+      "original_skill_name": "极致火力"
+    },
+    {
+      "operator_id": "stainless",
+      "char_id": "char_4072_ironmn",
+      "slot": 2,
+      "skill_id": "skchr_ironmn_2",
+      "icon_id": "skchr_ironmn_2",
+      "original_skill_name": "高效补给"
+    },
+    {
+      "operator_id": "stainless",
+      "char_id": "char_4072_ironmn",
+      "slot": 3,
+      "skill_id": "skchr_ironmn_3",
+      "icon_id": "skchr_ironmn_3",
+      "original_skill_name": "铁钳号·原型机"
+    },
+    {
+      "operator_id": "surtr",
+      "char_id": "char_350_surtr",
+      "slot": 1,
+      "skill_id": "skchr_surtr_1",
+      "icon_id": "skchr_surtr_1",
+      "original_skill_name": "烈焰魔剑"
+    },
+    {
+      "operator_id": "surtr",
+      "char_id": "char_350_surtr",
+      "slot": 2,
+      "skill_id": "skchr_surtr_2",
+      "icon_id": "skchr_surtr_2",
+      "original_skill_name": "熔核巨影"
+    },
+    {
+      "operator_id": "surtr",
+      "char_id": "char_350_surtr",
+      "slot": 3,
+      "skill_id": "skchr_surtr_3",
+      "icon_id": "skchr_surtr_3",
+      "original_skill_name": "黄昏"
+    },
+    {
+      "operator_id": "sussurro",
+      "char_id": "char_298_susuro",
+      "slot": 1,
+      "skill_id": "skcom_heal_up[2]",
+      "icon_id": "skcom_heal_up[2]",
+      "original_skill_name": "治疗强化·β型"
+    },
+    {
+      "operator_id": "sussurro",
+      "char_id": "char_298_susuro",
+      "slot": 2,
+      "skill_id": "skchr_susuro_2",
+      "icon_id": "skchr_susuro_2",
+      "original_skill_name": "深度治疗"
+    },
+    {
+      "operator_id": "suzuran",
+      "char_id": "char_358_lisa",
+      "slot": 1,
+      "skill_id": "skchr_lisa_1",
+      "icon_id": "skchr_lisa_1",
+      "original_skill_name": "全力以赴"
+    },
+    {
+      "operator_id": "suzuran",
+      "char_id": "char_358_lisa",
+      "slot": 2,
+      "skill_id": "skchr_lisa_2",
+      "icon_id": "skchr_lisa_2",
+      "original_skill_name": "儿时的舞乐"
+    },
+    {
+      "operator_id": "suzuran",
+      "char_id": "char_358_lisa",
+      "slot": 3,
+      "skill_id": "skchr_lisa_3",
+      "icon_id": "skchr_lisa_3",
+      "original_skill_name": "狐火渺然"
+    },
+    {
+      "operator_id": "swire_alter",
+      "char_id": "char_1033_swire2",
+      "slot": 1,
+      "skill_id": "skchr_swire2_1",
+      "icon_id": "skchr_swire2_1",
+      "original_skill_name": "仗义疏财"
+    },
+    {
+      "operator_id": "swire_alter",
+      "char_id": "char_1033_swire2",
+      "slot": 2,
+      "skill_id": "skchr_swire2_2",
+      "icon_id": "skchr_swire2_2",
+      "original_skill_name": "“见面礼”"
+    },
+    {
+      "operator_id": "swire_alter",
+      "char_id": "char_1033_swire2",
+      "slot": 3,
+      "skill_id": "skchr_swire2_3",
+      "icon_id": "skchr_swire2_3",
+      "original_skill_name": "千金一掷"
+    },
+    {
+      "operator_id": "texas",
+      "char_id": "char_102_texas",
+      "slot": 1,
+      "skill_id": "skcom_charge_cost[3]",
+      "icon_id": "skcom_charge_cost[3]",
+      "original_skill_name": "冲锋号令·γ型"
+    },
+    {
+      "operator_id": "texas",
+      "char_id": "char_102_texas",
+      "slot": 2,
+      "skill_id": "skchr_texas_2",
+      "icon_id": "skchr_texas_2",
+      "original_skill_name": "剑雨"
+    },
+    {
+      "operator_id": "texas_alter",
+      "char_id": "char_1028_texas2",
+      "slot": 1,
+      "skill_id": "skchr_texas2_1",
+      "icon_id": "skchr_texas2_1",
+      "original_skill_name": "细雨无声"
+    },
+    {
+      "operator_id": "texas_alter",
+      "char_id": "char_1028_texas2",
+      "slot": 2,
+      "skill_id": "skchr_texas2_2",
+      "icon_id": "skchr_texas2_2",
+      "original_skill_name": "阵雨连绵"
+    },
+    {
+      "operator_id": "texas_alter",
+      "char_id": "char_1028_texas2",
+      "slot": 3,
+      "skill_id": "skchr_texas2_3",
+      "icon_id": "skchr_texas2_3",
+      "original_skill_name": "剑雨滂沱"
+    },
+    {
+      "operator_id": "thorns",
+      "char_id": "char_293_thorns",
+      "slot": 1,
+      "skill_id": "skcom_atk_up[3]",
+      "icon_id": "skcom_atk_up[3]",
+      "original_skill_name": "攻击力强化·γ型"
+    },
+    {
+      "operator_id": "thorns",
+      "char_id": "char_293_thorns",
+      "slot": 2,
+      "skill_id": "skchr_thorns_2",
+      "icon_id": "skchr_thorns_2",
+      "original_skill_name": "护身尖刺"
+    },
+    {
+      "operator_id": "thorns",
+      "char_id": "char_293_thorns",
+      "slot": 3,
+      "skill_id": "skchr_thorns_3",
+      "icon_id": "skchr_thorns_3",
+      "original_skill_name": "至高之术"
+    },
+    {
+      "operator_id": "titi",
+      "char_id": "char_4056_titi",
+      "slot": 1,
+      "skill_id": "skchr_titi_1",
+      "icon_id": "skchr_titi_1",
+      "original_skill_name": "缓蚀"
+    },
+    {
+      "operator_id": "titi",
+      "char_id": "char_4056_titi",
+      "slot": 2,
+      "skill_id": "skchr_titi_2",
+      "icon_id": "skchr_titi_2",
+      "original_skill_name": "封护"
+    },
+    {
+      "operator_id": "titi",
+      "char_id": "char_4056_titi",
+      "slot": 3,
+      "skill_id": "skchr_titi_3",
+      "icon_id": "skchr_titi_3",
+      "original_skill_name": "旧日绽放"
+    },
+    {
+      "operator_id": "typhon",
+      "char_id": "char_2012_typhon",
+      "slot": 1,
+      "skill_id": "skcom_quickattack[3]",
+      "icon_id": "skcom_quickattack[3]",
+      "original_skill_name": "迅捷打击·γ型"
+    },
+    {
+      "operator_id": "typhon",
+      "char_id": "char_2012_typhon",
+      "slot": 2,
+      "skill_id": "skchr_typhon_2",
+      "icon_id": "skchr_typhon_2",
+      "original_skill_name": "冰原秩序"
+    },
+    {
+      "operator_id": "typhon",
+      "char_id": "char_2012_typhon",
+      "slot": 3,
+      "skill_id": "skchr_typhon_3",
+      "icon_id": "skchr_typhon_3",
+      "original_skill_name": "“永恒狩猎”"
+    },
+    {
+      "operator_id": "vigil",
+      "char_id": "char_427_vigil",
+      "slot": 1,
+      "skill_id": "skchr_vigil_1",
+      "icon_id": "skchr_vigil_1",
+      "original_skill_name": "领袖的呼唤"
+    },
+    {
+      "operator_id": "vigil",
+      "char_id": "char_427_vigil",
+      "slot": 2,
+      "skill_id": "skchr_vigil_2",
+      "icon_id": "skchr_vigil_2",
+      "original_skill_name": "领袖的馈赠"
+    },
+    {
+      "operator_id": "vigil",
+      "char_id": "char_427_vigil",
+      "slot": 3,
+      "skill_id": "skchr_vigil_3",
+      "icon_id": "skchr_vigil_3",
+      "original_skill_name": "领袖的尊严"
+    },
+    {
+      "operator_id": "w",
+      "char_id": "char_113_cqbw",
+      "slot": 1,
+      "skill_id": "skchr_cqbw_1",
+      "icon_id": "skchr_cqbw_1",
+      "original_skill_name": "红桃K"
+    },
+    {
+      "operator_id": "w",
+      "char_id": "char_113_cqbw",
+      "slot": 2,
+      "skill_id": "skchr_cqbw_2",
+      "icon_id": "skchr_cqbw_2",
+      "original_skill_name": "惊吓盒子"
+    },
+    {
+      "operator_id": "w",
+      "char_id": "char_113_cqbw",
+      "slot": 3,
+      "skill_id": "skchr_cqbw_3",
+      "icon_id": "skchr_cqbw_3",
+      "original_skill_name": "D12"
+    },
+    {
+      "operator_id": "warfarin",
+      "char_id": "char_171_bldsk",
+      "slot": 1,
+      "skill_id": "skchr_bldsk_1",
+      "icon_id": "skchr_bldsk_1",
+      "original_skill_name": "紧急包扎"
+    },
+    {
+      "operator_id": "warfarin",
+      "char_id": "char_171_bldsk",
+      "slot": 2,
+      "skill_id": "skchr_bldsk_2",
+      "icon_id": "skchr_bldsk_2",
+      "original_skill_name": "不稳定血浆"
+    },
+    {
+      "operator_id": "weedy",
+      "char_id": "char_400_weedy",
+      "slot": 1,
+      "skill_id": "skchr_weedy_1",
+      "icon_id": "skchr_weedy_1",
+      "original_skill_name": "炮管敲击"
+    },
+    {
+      "operator_id": "weedy",
+      "char_id": "char_400_weedy",
+      "slot": 2,
+      "skill_id": "skchr_weedy_2",
+      "icon_id": "skchr_weedy_2",
+      "original_skill_name": "水炮模式"
+    },
+    {
+      "operator_id": "weedy",
+      "char_id": "char_400_weedy",
+      "slot": 3,
+      "skill_id": "skchr_weedy_3",
+      "icon_id": "skchr_weedy_3",
+      "original_skill_name": "液氮大炮"
+    },
+    {
+      "operator_id": "wildmane",
+      "char_id": "char_496_wildmn",
+      "slot": 1,
+      "skill_id": "skchr_wildmn_1",
+      "icon_id": "skchr_wildmn_1",
+      "original_skill_name": "骑枪刺击"
+    },
+    {
+      "operator_id": "wildmane",
+      "char_id": "char_496_wildmn",
+      "slot": 2,
+      "skill_id": "skchr_wildmn_2",
+      "icon_id": "skchr_wildmn_2",
+      "original_skill_name": "夹枪冲锋"
+    },
+    {
+      "operator_id": "zima",
+      "char_id": "char_115_headbr",
+      "slot": 1,
+      "skill_id": "skcom_charge_cost[3]",
+      "icon_id": "skcom_charge_cost[3]",
+      "original_skill_name": "冲锋号令·γ型"
+    },
+    {
+      "operator_id": "zima",
+      "char_id": "char_115_headbr",
+      "slot": 2,
+      "skill_id": "skchr_headbr_2",
+      "icon_id": "skchr_headbr_2",
+      "original_skill_name": "乌萨斯战吼"
+    }
+  ],
+  "files": [
+    {
+      "icon_id": "skchr_aglina_1",
+      "path": "assets/icons/skills/skchr_aglina_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_aglina_1.png",
+      "sha256": "f04d685f7ba10321cd3df45338440cbdcf1e96a89e37f088866842d1a735ca48",
+      "bytes": 14251,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_aglina_2",
+      "path": "assets/icons/skills/skchr_aglina_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_aglina_2.png",
+      "sha256": "d48ce8c3519677006857b6d58fe115965827950f5292c7d5cf359738ef574097",
+      "bytes": 20761,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_aglina_3",
+      "path": "assets/icons/skills/skchr_aglina_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_aglina_3.png",
+      "sha256": "72b42abda6b60b7ac888a070a7feee399de1f8b2675e88ef3404aa564e7fa9a0",
+      "bytes": 19319,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_agoat2_1",
+      "path": "assets/icons/skills/skchr_agoat2_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_agoat2_1.png",
+      "sha256": "6b9f72180378321be610df51695a570dfae0bf670556693dbee86cb3332581b2",
+      "bytes": 22348,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_agoat2_2",
+      "path": "assets/icons/skills/skchr_agoat2_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_agoat2_2.png",
+      "sha256": "941926bdd49aa5c245e8f3bfcbf7dbb4843dc5cd14eb0fe45cd14fb693dc6b69",
+      "bytes": 26650,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_agoat2_3",
+      "path": "assets/icons/skills/skchr_agoat2_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_agoat2_3.png",
+      "sha256": "3f4f1c0373f56a8e24b9a176ad75b88d3ad3b3581d223d1f44bb691a1d0f7f46",
+      "bytes": 24792,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_amgoat_1",
+      "path": "assets/icons/skills/skchr_amgoat_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_amgoat_1.png",
+      "sha256": "923668268734afeb5b51bf7a4845c0a88923e842bbf864ee0228ed96331871f7",
+      "bytes": 11311,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_amgoat_2",
+      "path": "assets/icons/skills/skchr_amgoat_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_amgoat_2.png",
+      "sha256": "928268d0be0cb3a9cd20f9da7543796c708e20dfbfbb0d6aff695d9948a597c2",
+      "bytes": 13966,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_amgoat_3",
+      "path": "assets/icons/skills/skchr_amgoat_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_amgoat_3.png",
+      "sha256": "afa91149d14e60dc849384fdc52c08a8f5263268a41ff5f6acb19d9b3bbbcd1b",
+      "bytes": 21115,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_amiya_2",
+      "path": "assets/icons/skills/skchr_amiya_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_amiya_2.png",
+      "sha256": "cb11d869a675662abd45ed0a63ea02057879b2ffcd752b25d069c08281ee949b",
+      "bytes": 16797,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_amiya_3",
+      "path": "assets/icons/skills/skchr_amiya_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_amiya_3.png",
+      "sha256": "79710223bc98adcd3555ae0f87f9745bb1d415808239705323e7be0d25d8f6b9",
+      "bytes": 12697,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_angel_1",
+      "path": "assets/icons/skills/skchr_angel_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_angel_1.png",
+      "sha256": "7a84a0b6976a07eeedff4f927fa2ee2105265d8bde528a0144e9e96697615000",
+      "bytes": 15422,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_angel_2",
+      "path": "assets/icons/skills/skchr_angel_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_angel_2.png",
+      "sha256": "00fcdf1b3a8c4d1d83ad24257d151cb47df2a0536f4c1953a5fb94159534dbee",
+      "bytes": 16296,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_angel_3",
+      "path": "assets/icons/skills/skchr_angel_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_angel_3.png",
+      "sha256": "545b207a424cdc173831c2d5b64d629c787c9d4c4772febda1e8d26f5b1c5af0",
+      "bytes": 16226,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_archet_1",
+      "path": "assets/icons/skills/skchr_archet_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_archet_1.png",
+      "sha256": "00cc197cb50e3364af9c159db3aaa162196a5b05205488f1a1f6594452e0c433",
+      "bytes": 13729,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_archet_2",
+      "path": "assets/icons/skills/skchr_archet_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_archet_2.png",
+      "sha256": "c9c93507bf672ba5e75f1850293f91322533937a5b646a5ec9a0ec7477538d19",
+      "bytes": 16844,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_archet_3",
+      "path": "assets/icons/skills/skchr_archet_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_archet_3.png",
+      "sha256": "c23f246438c33cf7a607224c93e84a094aac91b90b4090e8eda83a11f3ac4edb",
+      "bytes": 15001,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_bgsnow_1",
+      "path": "assets/icons/skills/skchr_bgsnow_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_bgsnow_1.png",
+      "sha256": "c25fce2dee977c2a8d3609f9e761ab46e3d4e6e37c82bda1778f8af7ea031f48",
+      "bytes": 21507,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_bgsnow_2",
+      "path": "assets/icons/skills/skchr_bgsnow_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_bgsnow_2.png",
+      "sha256": "d3457f23d2e22fc9ab6a47c0783ca4a2a51eb135fcbedd0235ea0829cd238848",
+      "bytes": 24917,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_bgsnow_3",
+      "path": "assets/icons/skills/skchr_bgsnow_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_bgsnow_3.png",
+      "sha256": "b0b4991ec8f5bf471b5fe053aa80f3e7fbce0d12ed672700849da1b5ad03afbf",
+      "bytes": 30209,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_billro_1",
+      "path": "assets/icons/skills/skchr_billro_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_billro_1.png",
+      "sha256": "414a17b6498493acc24e376c194b57ee3c8d0b09ef683f5e967d8b840fada9c6",
+      "bytes": 11958,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_billro_2",
+      "path": "assets/icons/skills/skchr_billro_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_billro_2.png",
+      "sha256": "1efe7b42afc12a0881938c654b0a10fc87a07bdab3f86a34e8ffe89ee2b71806",
+      "bytes": 12422,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_billro_3",
+      "path": "assets/icons/skills/skchr_billro_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_billro_3.png",
+      "sha256": "7ba4ec650e5ac8f416d3759a8fa9339a57f4f5694783efe8f909db3d6a3efd50",
+      "bytes": 21193,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_bldsk_1",
+      "path": "assets/icons/skills/skchr_bldsk_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_bldsk_1.png",
+      "sha256": "0557b3789861e423b185f65a71ddf48e0c1480b9efaa23157fd7b2c898a30169",
+      "bytes": 15666,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_bldsk_2",
+      "path": "assets/icons/skills/skchr_bldsk_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_bldsk_2.png",
+      "sha256": "4c5d19236a795c47cde4db6fd1f37e822645e62dabc1914ee9b3ecf8b577ce58",
+      "bytes": 10853,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_blemsh_1",
+      "path": "assets/icons/skills/skchr_blemsh_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_blemsh_1.png",
+      "sha256": "72e75a46d7fa0bfbf40ae094368ed786e353dd124767e8c9ad84b5c519722dc7",
+      "bytes": 18590,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_blemsh_2",
+      "path": "assets/icons/skills/skchr_blemsh_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_blemsh_2.png",
+      "sha256": "b544eda3a9790290ae118e526a2a5cd5938bafd78e5062da5f76ab0dd39c8a7d",
+      "bytes": 24041,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_blemsh_3",
+      "path": "assets/icons/skills/skchr_blemsh_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_blemsh_3.png",
+      "sha256": "3e17069b744adebd0d2cf186fd4749a730a468064cc92d9ce4c1a73fc36e0915",
+      "bytes": 23762,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_bluep_1",
+      "path": "assets/icons/skills/skchr_bluep_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_bluep_1.png",
+      "sha256": "7b279ad772a75e911ad48f5daee7b7e64783d8cd400654ff5938f7fb969013f7",
+      "bytes": 12618,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_bluep_2",
+      "path": "assets/icons/skills/skchr_bluep_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_bluep_2.png",
+      "sha256": "80250805b4d232c32d6c1a2e56da24c7f056a6b368b9c2af43e636add9f207d1",
+      "bytes": 12727,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_bpipe_2",
+      "path": "assets/icons/skills/skchr_bpipe_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_bpipe_2.png",
+      "sha256": "ee1791aecdfc558aafee5f85690ff809af439f8759c3c73ee26828b43aff4488",
+      "bytes": 21564,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_bpipe_3",
+      "path": "assets/icons/skills/skchr_bpipe_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_bpipe_3.png",
+      "sha256": "ed766b2e6f3925aeb5a60a7fbda4ed69282866c020ebce5ab2384efd1cfa91fb",
+      "bytes": 14772,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_cerber_1",
+      "path": "assets/icons/skills/skchr_cerber_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_cerber_1.png",
+      "sha256": "f5af13ccaa67e5ef2dcdd4c555a0baa4ba33457bf529ca56a780aee8c7af6142",
+      "bytes": 16559,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_cerber_2",
+      "path": "assets/icons/skills/skchr_cerber_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_cerber_2.png",
+      "sha256": "46aabb0461e940c510729b0c6f6efc72e2579086a05569be752fae1e5f70cf07",
+      "bytes": 18061,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_cerber_3",
+      "path": "assets/icons/skills/skchr_cerber_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_cerber_3.png",
+      "sha256": "bcaadc860908389c6a556f4248ba80bc230508685cda87d75c98bda96a29c3a2",
+      "bytes": 17848,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_cgbird_2",
+      "path": "assets/icons/skills/skchr_cgbird_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_cgbird_2.png",
+      "sha256": "831d83474872843a87626b9b89c02a195857677a7a88bd056485384ab094ca29",
+      "bytes": 17300,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_cgbird_3",
+      "path": "assets/icons/skills/skchr_cgbird_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_cgbird_3.png",
+      "sha256": "2bccc1617ff9267ad31e886ff2a26a321503b81e68a442fb17eb6334f7f5daf7",
+      "bytes": 13611,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_chen2_1",
+      "path": "assets/icons/skills/skchr_chen2_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_chen2_1.png",
+      "sha256": "3111b3551dc920356e264a3109ac33a83f6bd733b5cc0a89645be5fe93a577d6",
+      "bytes": 21460,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_chen2_2",
+      "path": "assets/icons/skills/skchr_chen2_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_chen2_2.png",
+      "sha256": "293e692f0d18d9c59eda6d4c29064ea3fcef223d772fcd75acb47dc06095b5b2",
+      "bytes": 17655,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_chen2_3",
+      "path": "assets/icons/skills/skchr_chen2_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_chen2_3.png",
+      "sha256": "f0be81a79727b211fe0194c77402663b863cbdfe119f202e9925237c396b724d",
+      "bytes": 22299,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_chen_1",
+      "path": "assets/icons/skills/skchr_chen_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_chen_1.png",
+      "sha256": "fc089f355f665f881818f126aaf67ec7cfe3f76c1c56a93852e0a759f9db224d",
+      "bytes": 14238,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_chen_2",
+      "path": "assets/icons/skills/skchr_chen_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_chen_2.png",
+      "sha256": "7d0dd490cf257fab024c2d6db316a5aac4ea876af0ecebf0afdbf47e38050eac",
+      "bytes": 17332,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_chen_3",
+      "path": "assets/icons/skills/skchr_chen_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_chen_3.png",
+      "sha256": "a51d6276d5aa6b5cbd6edd2c6ff4e3b66a825199498b2cd4eebd03e490976feb",
+      "bytes": 26709,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_cqbw_1",
+      "path": "assets/icons/skills/skchr_cqbw_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_cqbw_1.png",
+      "sha256": "e253cc61d0a363ba6e76d53077f3ee135a6373c1eb87a6c4022e3e16bef06886",
+      "bytes": 14946,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_cqbw_2",
+      "path": "assets/icons/skills/skchr_cqbw_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_cqbw_2.png",
+      "sha256": "db4bcb1300594026ca42a8c1dcdee0ef17945b297c6d21bd7525d225ff200729",
+      "bytes": 16258,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_cqbw_3",
+      "path": "assets/icons/skills/skchr_cqbw_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_cqbw_3.png",
+      "sha256": "ace79a128b4d401c34e969422e4d28cb7a8df1aed09ec66980bb0ed57abfab3c",
+      "bytes": 21229,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_demkni_1",
+      "path": "assets/icons/skills/skchr_demkni_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_demkni_1.png",
+      "sha256": "e9c444f50043a09a6a881153bbc463362c581fae9e620aa2f7c75a121d66d941",
+      "bytes": 16579,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_demkni_2",
+      "path": "assets/icons/skills/skchr_demkni_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_demkni_2.png",
+      "sha256": "585a5c544996cbd506766ef55a15d6dc928fdb5ca920cf038d65b71f98fedcec",
+      "bytes": 16825,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_demkni_3",
+      "path": "assets/icons/skills/skchr_demkni_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_demkni_3.png",
+      "sha256": "3f0cef3b78392bc1919843aeb6f5c7481c4521e99755f59bd5d7bc3a1190da83",
+      "bytes": 17038,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_dusk_1",
+      "path": "assets/icons/skills/skchr_dusk_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_dusk_1.png",
+      "sha256": "b99dcf5be8bd8f7e9a65337d5eac959b989351e948b90cbae106e6786e4a1750",
+      "bytes": 12276,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_dusk_2",
+      "path": "assets/icons/skills/skchr_dusk_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_dusk_2.png",
+      "sha256": "427ed87ca8237ec295b12822e0e9a7ab2d3c750ba3027361b06c249a21ed13fe",
+      "bytes": 16379,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_dusk_3",
+      "path": "assets/icons/skills/skchr_dusk_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_dusk_3.png",
+      "sha256": "0c869e13be10444a2236f209b8dbe39186b2e8b64a8221783e2c84f906747761",
+      "bytes": 18262,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_elysm_2",
+      "path": "assets/icons/skills/skchr_elysm_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_elysm_2.png",
+      "sha256": "7a0056fb352736377d45277562d076e1ae7e9cf89c086c5a39ce0a147a525492",
+      "bytes": 16082,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_f12yin_1",
+      "path": "assets/icons/skills/skchr_f12yin_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_f12yin_1.png",
+      "sha256": "6974f07d57cd3aae1bbd1a1e357663caae8b48858f7ad3f7dd72094e8f5135ff",
+      "bytes": 18106,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_f12yin_2",
+      "path": "assets/icons/skills/skchr_f12yin_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_f12yin_2.png",
+      "sha256": "be975da7eb5c7be1ec2fce7464f259de3309dc5cb967819e2b246ce8a4ee93a8",
+      "bytes": 19229,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_f12yin_3",
+      "path": "assets/icons/skills/skchr_f12yin_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_f12yin_3.png",
+      "sha256": "3ff6bae8d04c5c6ab58fd0421e68e65d28eb45407b3c527575c87d9a80d1ea24",
+      "bytes": 18048,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_flamtl_1",
+      "path": "assets/icons/skills/skchr_flamtl_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_flamtl_1.png",
+      "sha256": "a9f208d2b71da898c8836d3d0dad4e6f24c266d3b9b8342a93fe7f3f23ff8356",
+      "bytes": 20419,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_flamtl_2",
+      "path": "assets/icons/skills/skchr_flamtl_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_flamtl_2.png",
+      "sha256": "c81bf932539f21f262d4b8f82fe6ffeceb74219d7c2765aba4e2090165918664",
+      "bytes": 20027,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_flamtl_3",
+      "path": "assets/icons/skills/skchr_flamtl_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_flamtl_3.png",
+      "sha256": "cbb483d5199f05d032fc9dfe671f6e2b098b531870c32d409c0e6dabd052a04c",
+      "bytes": 18226,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_flower_2",
+      "path": "assets/icons/skills/skchr_flower_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_flower_2.png",
+      "sha256": "87f3809ccb825b7b314512d7afe13f0ba61baabfe880d9632871ac6068bf6986",
+      "bytes": 16502,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_fmout_2",
+      "path": "assets/icons/skills/skchr_fmout_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_fmout_2.png",
+      "sha256": "790c88bc9a57f8323528a44dadd910961c64a74977b550c66f6daefa9a96e1ad",
+      "bytes": 20104,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_gdglow_1",
+      "path": "assets/icons/skills/skchr_gdglow_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_gdglow_1.png",
+      "sha256": "c4dc8c9ceca0c56abeb344499481efd478b260ee221029a9de37c594444c80a7",
+      "bytes": 16143,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_gdglow_2",
+      "path": "assets/icons/skills/skchr_gdglow_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_gdglow_2.png",
+      "sha256": "7493f6ded3ba3d4f5f14afab04b7ea016fa7e0bfc39c19889fa83afc319b9fda",
+      "bytes": 17718,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_gdglow_3",
+      "path": "assets/icons/skills/skchr_gdglow_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_gdglow_3.png",
+      "sha256": "0ad39dc427c8a10ee004e4bc263f77f6771c4400ae26abafb53a1cef5932a030",
+      "bytes": 20041,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_ghost_2",
+      "path": "assets/icons/skills/skchr_ghost_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_ghost_2.png",
+      "sha256": "5c1bd4a9e82ce69904ddec73eda6f65ef6164ceeccbde2fe770c8730316b8a94",
+      "bytes": 16778,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_glady_1",
+      "path": "assets/icons/skills/skchr_glady_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_glady_1.png",
+      "sha256": "b989e28f076e41053f5bedb6bcb29bc3ac071bec11d8284b3542c136bbed40d8",
+      "bytes": 17035,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_glady_2",
+      "path": "assets/icons/skills/skchr_glady_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_glady_2.png",
+      "sha256": "44b4e5519057b2de53c0b00017ce95bb62f2a662b7fccc155337e6696b5621d1",
+      "bytes": 18046,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_glady_3",
+      "path": "assets/icons/skills/skchr_glady_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_glady_3.png",
+      "sha256": "e261e6dfd1f7288d981cec135e399f54608964cddd498d040f5ef158c13d2ae8",
+      "bytes": 20250,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_glassb_1",
+      "path": "assets/icons/skills/skchr_glassb_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_glassb_1.png",
+      "sha256": "935e147b9a34d36fca3027e9985e9696764fe7f38e51db607a2ebacbad0d3bd8",
+      "bytes": 12659,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_glassb_2",
+      "path": "assets/icons/skills/skchr_glassb_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_glassb_2.png",
+      "sha256": "3ad13eca221e89c104da8d558b94e5b42f8f971b98d296ad619d6ec0443867b2",
+      "bytes": 17073,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_gnosis_1",
+      "path": "assets/icons/skills/skchr_gnosis_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_gnosis_1.png",
+      "sha256": "7fad814fb7e6e806b6bc60eff793972440d5fac25aeef5a7acbaee7c2ca478a3",
+      "bytes": 16097,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_gnosis_2",
+      "path": "assets/icons/skills/skchr_gnosis_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_gnosis_2.png",
+      "sha256": "0435a2f20efdeed019ac49269b8c716bb2be0be80bf2980a74f31871dbaa1e86",
+      "bytes": 19468,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_gnosis_3",
+      "path": "assets/icons/skills/skchr_gnosis_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_gnosis_3.png",
+      "sha256": "6acc7dbd8c99203acdad26d6e6104b7a3df03626c61fa98472cd874f8dfeba9a",
+      "bytes": 19442,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_gravel_1",
+      "path": "assets/icons/skills/skchr_gravel_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_gravel_1.png",
+      "sha256": "f840d4cefdde5c1db47ae4125a4c6f87b69e3e3b5bb3d2d5aa4fa3207f18d67d",
+      "bytes": 14053,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_gravel_2",
+      "path": "assets/icons/skills/skchr_gravel_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_gravel_2.png",
+      "sha256": "92f2c043f095ebb97f2d5049c1b73d53f78e4c533d1292dffc5cd2d209b645a9",
+      "bytes": 13660,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_gvial2_1",
+      "path": "assets/icons/skills/skchr_gvial2_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_gvial2_1.png",
+      "sha256": "85058170df43d379ec82fd3a27aeb967d51b5292f2d2b37b16277b9fff06c3bb",
+      "bytes": 23038,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_gvial2_2",
+      "path": "assets/icons/skills/skchr_gvial2_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_gvial2_2.png",
+      "sha256": "92961693921658ba74c626b42b8fe5abb8e212dc20748d6b65aaae05e797a0b2",
+      "bytes": 23243,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_gvial2_3",
+      "path": "assets/icons/skills/skchr_gvial2_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_gvial2_3.png",
+      "sha256": "7fdd8b8a21cd82312073cfc32ddbfba5ba53b4edf6b63684e52667f72a78eff7",
+      "bytes": 23856,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_haak_1",
+      "path": "assets/icons/skills/skchr_haak_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_haak_1.png",
+      "sha256": "5eb637365623d2ed113f81e02537a5f0d11ef9de7676b83ab83ad659bd772e0c",
+      "bytes": 9080,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_haak_2",
+      "path": "assets/icons/skills/skchr_haak_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_haak_2.png",
+      "sha256": "1dfa3f2deebb01dd2998b49a8ddfa6aae3807e027173b9b126e01e9d2f67d6e8",
+      "bytes": 25953,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_haak_3",
+      "path": "assets/icons/skills/skchr_haak_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_haak_3.png",
+      "sha256": "2eb4693a056133022f48caee52e7f0562e758568857ed34114d65c30c10567bb",
+      "bytes": 25025,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_headbr_2",
+      "path": "assets/icons/skills/skchr_headbr_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_headbr_2.png",
+      "sha256": "9a769fc5b0f27ca38cde4825a4427407edb42fd9c7d1f092e2220ab451720078",
+      "bytes": 14200,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_helage_1",
+      "path": "assets/icons/skills/skchr_helage_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_helage_1.png",
+      "sha256": "3a03cc4f8bc8ec84812fc62a3789630ed976940efe806a632fa7e53a55773328",
+      "bytes": 16398,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_helage_2",
+      "path": "assets/icons/skills/skchr_helage_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_helage_2.png",
+      "sha256": "f8d6d89ae5af7bb7d01cfa72af6dac7e8aae9b9509cff506c4cfdb4c65dcc518",
+      "bytes": 17085,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_helage_3",
+      "path": "assets/icons/skills/skchr_helage_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_helage_3.png",
+      "sha256": "d01821cfacdd1122ca9612404f11b1a313620c36e7a76c9542d1bcf8f7a73296",
+      "bytes": 16370,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_horn_1",
+      "path": "assets/icons/skills/skchr_horn_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_horn_1.png",
+      "sha256": "1b49735d063babe94ee58347e5472cda6f796e4a73fc15313cbf62536bf8aed1",
+      "bytes": 22616,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_horn_2",
+      "path": "assets/icons/skills/skchr_horn_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_horn_2.png",
+      "sha256": "138294e290eba4d1a1ab94f893b9ccb512bd6ff11af98d7646db0c4cc88c747c",
+      "bytes": 19049,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_horn_3",
+      "path": "assets/icons/skills/skchr_horn_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_horn_3.png",
+      "sha256": "5a2e840501f41ccc1c3597ad3a6932594ba7bca7edd4464f8f50818a6dc1e757",
+      "bytes": 24641,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_hsguma_1",
+      "path": "assets/icons/skills/skchr_hsguma_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_hsguma_1.png",
+      "sha256": "daa4efca153a73ccd33ba1478152b02045032790f3e5498176668727aceb5a4a",
+      "bytes": 14048,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_hsguma_2",
+      "path": "assets/icons/skills/skchr_hsguma_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_hsguma_2.png",
+      "sha256": "0c45cf2b2ed55e638aec71a440e58abca052e60015ccc9b8da788373f18576cf",
+      "bytes": 19415,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_hsguma_3",
+      "path": "assets/icons/skills/skchr_hsguma_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_hsguma_3.png",
+      "sha256": "a330c392e25f147be410fcfb255dda795f33a4c25f1b43435f332368119a0770",
+      "bytes": 16224,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_huang_2",
+      "path": "assets/icons/skills/skchr_huang_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_huang_2.png",
+      "sha256": "040d7dbb173c8b96f5ba61445c2f21d6c3edcad1802e1df90738b96ca614bd70",
+      "bytes": 18205,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_huang_3",
+      "path": "assets/icons/skills/skchr_huang_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_huang_3.png",
+      "sha256": "02d665e690cefe4404a3f3aa258003bc7871da859c9dfbdd9f9ed87bbfb89d0d",
+      "bytes": 21741,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_ifrit_1",
+      "path": "assets/icons/skills/skchr_ifrit_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_ifrit_1.png",
+      "sha256": "25ea00574c4f7d6cf3a6435fec732595a3b6852a2c469273427835af7143b29d",
+      "bytes": 12234,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_ifrit_2",
+      "path": "assets/icons/skills/skchr_ifrit_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_ifrit_2.png",
+      "sha256": "c1032540eb531a51c89dd5f06cbe5f9c87c9d3d25f08f9947e8b61cddff9c55f",
+      "bytes": 17562,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_ifrit_3",
+      "path": "assets/icons/skills/skchr_ifrit_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_ifrit_3.png",
+      "sha256": "0f70cb72f02328612b12d705ab2ca062f635b649b133df5c96f7afe3cd5a2ea6",
+      "bytes": 11518,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_ines_1",
+      "path": "assets/icons/skills/skchr_ines_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_ines_1.png",
+      "sha256": "6c6deb086643f8ebc98b6b5b040ded24362a59ebba6cc30c70ad40e566342626",
+      "bytes": 17149,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_ines_2",
+      "path": "assets/icons/skills/skchr_ines_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_ines_2.png",
+      "sha256": "4975adc58c115cc94d2fe7e701901cefff6beb5902afe5d9dd1d835ccc72f11a",
+      "bytes": 19854,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_ines_3",
+      "path": "assets/icons/skills/skchr_ines_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_ines_3.png",
+      "sha256": "4580501bbc00f5bd396377ec4f7c9a05d04c69fc04cfa4693a848a769934b91e",
+      "bytes": 14525,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_ironmn_1",
+      "path": "assets/icons/skills/skchr_ironmn_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_ironmn_1.png",
+      "sha256": "7fae21afbb878ddab37c811bae675ded1bb6d0be870eebb379199cd24c7bf937",
+      "bytes": 16496,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_ironmn_2",
+      "path": "assets/icons/skills/skchr_ironmn_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_ironmn_2.png",
+      "sha256": "425869c4ed70dc1829f0f7d9d0c1fe093d053dd1cff01bb142164ffd981efd87",
+      "bytes": 17697,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_ironmn_3",
+      "path": "assets/icons/skills/skchr_ironmn_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_ironmn_3.png",
+      "sha256": "b95bcf0c750244db58527db6662d59d7c012e8e749f76c74f841480d4d0d201c",
+      "bytes": 24420,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_jesca2_1",
+      "path": "assets/icons/skills/skchr_jesca2_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_jesca2_1.png",
+      "sha256": "1b1eb071ee7fcf2efdc1aa386f4e04b7aa0cd437aa082647ec742b1c97555e9e",
+      "bytes": 13023,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_jesca2_2",
+      "path": "assets/icons/skills/skchr_jesca2_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_jesca2_2.png",
+      "sha256": "dcd4450803be1d0b4081a3ec099f179b2d5267222015620aa87600f89f37f2c0",
+      "bytes": 16295,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_jesca2_3",
+      "path": "assets/icons/skills/skchr_jesca2_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_jesca2_3.png",
+      "sha256": "847b94f3fb7cde8e3f9449601dc264c6b6318cb0f9dfd9e6bf584ce59233268f",
+      "bytes": 19851,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_jesica_2",
+      "path": "assets/icons/skills/skchr_jesica_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_jesica_2.png",
+      "sha256": "3d2404d94fa64e70335c5299afe5069de45473c037165b060f74bbb6fd11558a",
+      "bytes": 7244,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_judge_1",
+      "path": "assets/icons/skills/skchr_judge_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_judge_1.png",
+      "sha256": "ec2934da5fad42aa29cfe69a73fec1537b7ad7a57320568d8b73d93cdf999157",
+      "bytes": 21680,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_judge_2",
+      "path": "assets/icons/skills/skchr_judge_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_judge_2.png",
+      "sha256": "cc186beca36b22ec9529038123e8322672957cc599a3807688c9ca6628e2d6b7",
+      "bytes": 19429,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_judge_3",
+      "path": "assets/icons/skills/skchr_judge_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_judge_3.png",
+      "sha256": "182ce47b59ed84dfaee178de0fd6c6a3c5805d0f84254493a2e2ff8435d2e8ca",
+      "bytes": 24375,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_kalts_1",
+      "path": "assets/icons/skills/skchr_kalts_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_kalts_1.png",
+      "sha256": "09c251a0d808f18a33da74b7ada008200546ae794c65de3aff1a8ac85f64f784",
+      "bytes": 11345,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_kalts_2",
+      "path": "assets/icons/skills/skchr_kalts_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_kalts_2.png",
+      "sha256": "843d83d3bc3fe760b4ef3ab96acb6df6e909b94c77f6f89a6e762c7eecce9ec7",
+      "bytes": 11540,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_kalts_3",
+      "path": "assets/icons/skills/skchr_kalts_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_kalts_3.png",
+      "sha256": "41ff37dc470948fa3d9af51eeab8392de779eab1867fc86ca7af8e56d6551f09",
+      "bytes": 14242,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_lin_1",
+      "path": "assets/icons/skills/skchr_lin_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_lin_1.png",
+      "sha256": "d2438960a956c6c81f8885651baf2e865e46aac96bafe0f973c5dd127792dc3c",
+      "bytes": 16956,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_lin_2",
+      "path": "assets/icons/skills/skchr_lin_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_lin_2.png",
+      "sha256": "ec23096311fb7d4d32f09d5d8598f7e6844efe0784689585268a3ab093fe43dd",
+      "bytes": 19300,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_lin_3",
+      "path": "assets/icons/skills/skchr_lin_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_lin_3.png",
+      "sha256": "5c9170b2a7f058a7f454a390dbf4502266d613a68e5dbf5085042f868553425e",
+      "bytes": 22094,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_ling_1",
+      "path": "assets/icons/skills/skchr_ling_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_ling_1.png",
+      "sha256": "7323c76de433d8085e25ba7ecb7646c05221cbf882fd2a23665eed3c5b1e798e",
+      "bytes": 15618,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_ling_2",
+      "path": "assets/icons/skills/skchr_ling_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_ling_2.png",
+      "sha256": "1482589a11559f330c52d74cdd45f6d3507285be2571544861a5f759554bc231",
+      "bytes": 17849,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_ling_3",
+      "path": "assets/icons/skills/skchr_ling_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_ling_3.png",
+      "sha256": "84c86f418aa9173a4955bc7dacf3aae82d535ef599192f917e4ee259f16e1712",
+      "bytes": 19519,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_lisa_1",
+      "path": "assets/icons/skills/skchr_lisa_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_lisa_1.png",
+      "sha256": "c9529c88e166957a09df0c7a3419cb8803161357ebff0eac9f0821c26356b8e0",
+      "bytes": 13356,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_lisa_2",
+      "path": "assets/icons/skills/skchr_lisa_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_lisa_2.png",
+      "sha256": "7643a224d40bcb7c2c29300d9cbacbc719a5759249528d6de1a5cb895027855f",
+      "bytes": 22230,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_lisa_3",
+      "path": "assets/icons/skills/skchr_lisa_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_lisa_3.png",
+      "sha256": "bb3f78e40c8051a6f8f286f8ce16ceb19525b91b8890acc578573062432ec255",
+      "bytes": 19708,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_liskam_1",
+      "path": "assets/icons/skills/skchr_liskam_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_liskam_1.png",
+      "sha256": "71b9d5fa26705ef282ed74b8093b4f8a2400cb77b9a7866a9e8325d3a4b672af",
+      "bytes": 14187,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_liskam_2",
+      "path": "assets/icons/skills/skchr_liskam_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_liskam_2.png",
+      "sha256": "153f14c8178211092db140f14099b8a8b4e8814fdd66423cffe7aa4daae45c9b",
+      "bytes": 18029,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_lmlee_1",
+      "path": "assets/icons/skills/skchr_lmlee_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_lmlee_1.png",
+      "sha256": "da30f13b4b111c81bd991454930cad4199fa650c2ca3d56200ba08636737958e",
+      "bytes": 13410,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_lmlee_2",
+      "path": "assets/icons/skills/skchr_lmlee_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_lmlee_2.png",
+      "sha256": "cc7eacd9dc6e337a3311d3f8fc28b0527ea90e86b3426ef760b4b683c912205e",
+      "bytes": 18201,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_lmlee_3",
+      "path": "assets/icons/skills/skchr_lmlee_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_lmlee_3.png",
+      "sha256": "ae74e87b7097f6a296f7329adfdf047af5f586aa8f49caf9c2a56bceba7c45d6",
+      "bytes": 18681,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_lumen_1",
+      "path": "assets/icons/skills/skchr_lumen_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_lumen_1.png",
+      "sha256": "2fd3e3a09a769b97cae0242c423114ccbd81ac592a025652cee9ea0340d0978d",
+      "bytes": 22206,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_lumen_2",
+      "path": "assets/icons/skills/skchr_lumen_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_lumen_2.png",
+      "sha256": "6e9f5a11492c7986f51fea7d76b7458ab7b7a3d8c59bf8a7483afc32b5916150",
+      "bytes": 22229,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_lumen_3",
+      "path": "assets/icons/skills/skchr_lumen_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_lumen_3.png",
+      "sha256": "e26f94bcc661f5a497029f4250419fbbfb1aa9c9f2d54fab295b1290c82d3d35",
+      "bytes": 19890,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_meteo_1",
+      "path": "assets/icons/skills/skchr_meteo_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_meteo_1.png",
+      "sha256": "ecb4c3e14b7f9c8c04cfc9b4d9f5e629ab3967b71f9d57938c41afa3a0f6f3a2",
+      "bytes": 11112,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_meteo_2",
+      "path": "assets/icons/skills/skchr_meteo_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_meteo_2.png",
+      "sha256": "7ef680789c3520a81b02b88449494dd880186e91b28695f772cb49e97847acf1",
+      "bytes": 15588,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_mgllan_1",
+      "path": "assets/icons/skills/skchr_mgllan_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_mgllan_1.png",
+      "sha256": "b995f9224c76020b2067eceff9bed9645a79e3e87f66d567c0310afdd040028f",
+      "bytes": 16620,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_mgllan_2",
+      "path": "assets/icons/skills/skchr_mgllan_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_mgllan_2.png",
+      "sha256": "99c0b84e8e2f922054bb6baa9f82256078e64d6ba291822d2b943db7b64bd9fb",
+      "bytes": 17082,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_mgllan_3",
+      "path": "assets/icons/skills/skchr_mgllan_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_mgllan_3.png",
+      "sha256": "018ce99b5bd11cc637b929119ae31f4c07963347e8de42da75f6fcfae5570eac",
+      "bytes": 17911,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_mizuki_1",
+      "path": "assets/icons/skills/skchr_mizuki_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_mizuki_1.png",
+      "sha256": "b7fd15d2413894b9bfc4137a8d13f867237791b9adc8b34973467ce94641f903",
+      "bytes": 16029,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_mizuki_2",
+      "path": "assets/icons/skills/skchr_mizuki_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_mizuki_2.png",
+      "sha256": "fcdec832471284ccf90729f1bcc88fce2258f1dbe615e46b91368d781e404268",
+      "bytes": 16650,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_mizuki_3",
+      "path": "assets/icons/skills/skchr_mizuki_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_mizuki_3.png",
+      "sha256": "cc2354e91eee5b4691be0ccdfba8609613af32d59367e54f32afb177ecac1735",
+      "bytes": 24748,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_mlynar_1",
+      "path": "assets/icons/skills/skchr_mlynar_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_mlynar_1.png",
+      "sha256": "f769a617e82285edeecb80f67a6183ea97781e3162ce5b8d2cbbc9b954ab6acf",
+      "bytes": 20384,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_mlynar_2",
+      "path": "assets/icons/skills/skchr_mlynar_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_mlynar_2.png",
+      "sha256": "31650705ef34afa257265e80f0f4a4e28ca1873e7e4c28178f01afe428a193a0",
+      "bytes": 20971,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_mlynar_3",
+      "path": "assets/icons/skills/skchr_mlynar_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_mlynar_3.png",
+      "sha256": "1b929f27eec35536c222d37a6ab13b2147818d33e095c2a4dcc989afd1117a2a",
+      "bytes": 25693,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_mlyss_1",
+      "path": "assets/icons/skills/skchr_mlyss_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_mlyss_1.png",
+      "sha256": "ebb22f492d14a37915be9c3ca9edc5e945ae6fdb6c97b5792c233c16ea0452c2",
+      "bytes": 17228,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_mlyss_2",
+      "path": "assets/icons/skills/skchr_mlyss_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_mlyss_2.png",
+      "sha256": "983439befe54d0b1bfa68349a40c9f8c4ec53873e26dbfb4d83e7aa9f97b4fb6",
+      "bytes": 24041,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_mlyss_3",
+      "path": "assets/icons/skills/skchr_mlyss_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_mlyss_3.png",
+      "sha256": "631bdc5b85a96b82396d4d7d87cc3c1eccc5c47a14451d3d16d58a61f39ed1a3",
+      "bytes": 19782,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_monstr_1",
+      "path": "assets/icons/skills/skchr_monstr_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_monstr_1.png",
+      "sha256": "3c5d0d4b339c7b009bf4c26db3391ad472ac4b09d024ddc28b2b79050f0ff0d7",
+      "bytes": 20991,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_monstr_2",
+      "path": "assets/icons/skills/skchr_monstr_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_monstr_2.png",
+      "sha256": "8c9ba3698a64348319ebdf22a417875442cbc874013be6bc8ea5e4ba6090981a",
+      "bytes": 20636,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_monstr_3",
+      "path": "assets/icons/skills/skchr_monstr_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_monstr_3.png",
+      "sha256": "4ba5ea0214edff5f9fba77ff866a3c52ad14295a1c52692c1d71ac2055f2b6bc",
+      "bytes": 26688,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_mostma_2",
+      "path": "assets/icons/skills/skchr_mostma_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_mostma_2.png",
+      "sha256": "fd3459911b8de63d7db44b59967fa1d28956d372631d6362eed804af926417d0",
+      "bytes": 21059,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_mostma_3",
+      "path": "assets/icons/skills/skchr_mostma_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_mostma_3.png",
+      "sha256": "c405332992303e7f9ec1b90024a94acee62b66a0afbcf188639b86610912cbc6",
+      "bytes": 19527,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_mudrok_2",
+      "path": "assets/icons/skills/skchr_mudrok_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_mudrok_2.png",
+      "sha256": "e073cd7964345d83c9404c1b629e57aefdc1d055fbab294268697ec54fc976e5",
+      "bytes": 16839,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_mudrok_3",
+      "path": "assets/icons/skills/skchr_mudrok_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_mudrok_3.png",
+      "sha256": "ea3622977fc9815954d9a3cf0c622f196412383ce3282f0309fe047e250f4aa3",
+      "bytes": 18083,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_myrtle_2",
+      "path": "assets/icons/skills/skchr_myrtle_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_myrtle_2.png",
+      "sha256": "6e71cf915ef73c0d9e6a29e159ec74318f12d372f16783b11204845b32263d68",
+      "bytes": 15961,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_nearl_1",
+      "path": "assets/icons/skills/skchr_nearl_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_nearl_1.png",
+      "sha256": "e9c444f50043a09a6a881153bbc463362c581fae9e620aa2f7c75a121d66d941",
+      "bytes": 16579,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_nearl_2",
+      "path": "assets/icons/skills/skchr_nearl_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_nearl_2.png",
+      "sha256": "ef3fbb4578d275962725658393fb429396f47dc815f8adc9e232e25d930845bb",
+      "bytes": 14240,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_nian_1",
+      "path": "assets/icons/skills/skchr_nian_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_nian_1.png",
+      "sha256": "3edbc5b2b7be34554a516c227fd475b24b471eee6af43b54efcea6163c85500c",
+      "bytes": 11980,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_nian_2",
+      "path": "assets/icons/skills/skchr_nian_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_nian_2.png",
+      "sha256": "e043366e51c03f6c7017fd2a9bcb505ea9050b05b7f06f9ab8b6fa7dcf3d54b3",
+      "bytes": 17329,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_nian_3",
+      "path": "assets/icons/skills/skchr_nian_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_nian_3.png",
+      "sha256": "5b5f64825152228ef921c67c3ecc8627744f52772ebc5bc4c93985ced05d741b",
+      "bytes": 25821,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_nights_2",
+      "path": "assets/icons/skills/skchr_nights_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_nights_2.png",
+      "sha256": "bec0c7bdfdf0ad02835f69545d261d95a0d0a73b0270499fa4217c308a9990d5",
+      "bytes": 13946,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_pallas_1",
+      "path": "assets/icons/skills/skchr_pallas_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_pallas_1.png",
+      "sha256": "10312f4a4b4456dff5fc4fab9280ab60b4fa906d998ddf339382947f81b3fe96",
+      "bytes": 17726,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_pallas_2",
+      "path": "assets/icons/skills/skchr_pallas_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_pallas_2.png",
+      "sha256": "b3d3b4beb5cbcbd679090d473db8fdfbdee5d72ef4e8bd912264ce74b84f6a47",
+      "bytes": 16712,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_pallas_3",
+      "path": "assets/icons/skills/skchr_pallas_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_pallas_3.png",
+      "sha256": "76f08cc6ce338721b4b9a28c632acc23905c98274b28124dad7c2d181e892426",
+      "bytes": 19238,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_panda_1",
+      "path": "assets/icons/skills/skchr_panda_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_panda_1.png",
+      "sha256": "b8d3d778d8323f51c6c187691720df9b15898dde5730da85dd8909250204c150",
+      "bytes": 14045,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_panda_2",
+      "path": "assets/icons/skills/skchr_panda_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_panda_2.png",
+      "sha256": "16a482c2b3e3be174ce053b079cb4eea5f4a4f5b267a8b8f22820c23250e2134",
+      "bytes": 16041,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_pasngr_1",
+      "path": "assets/icons/skills/skchr_pasngr_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_pasngr_1.png",
+      "sha256": "04847d5b0c0435fa90234a55b2cf3e2bd2a802593d5ea4363010e30243a952f8",
+      "bytes": 15563,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_pasngr_2",
+      "path": "assets/icons/skills/skchr_pasngr_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_pasngr_2.png",
+      "sha256": "ddf44b2d4f91c08563678f96ac971adfb5a01897984d48aac5f946524e03293e",
+      "bytes": 15614,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_pasngr_3",
+      "path": "assets/icons/skills/skchr_pasngr_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_pasngr_3.png",
+      "sha256": "344369fd8119a6c9f9f9d82dd6289e5629a09a59218fd0436b7c0e2f0928fd86",
+      "bytes": 21200,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_phatom_1",
+      "path": "assets/icons/skills/skchr_phatom_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_phatom_1.png",
+      "sha256": "f8dcf594af44a75129b4dd1f4a88889c739d6b94a73fb85419faabbc6afdc2ba",
+      "bytes": 15655,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_phatom_2",
+      "path": "assets/icons/skills/skchr_phatom_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_phatom_2.png",
+      "sha256": "2841607c1c68f8b519280685e2b6a82b65456f31ed5b767c167178fa78494ddc",
+      "bytes": 13161,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_phatom_3",
+      "path": "assets/icons/skills/skchr_phatom_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_phatom_3.png",
+      "sha256": "07fa1285f57b4d266f8d5ecf9a20bf26fbaac79378050df1cb1dd96b277046ff",
+      "bytes": 18905,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_phenxi_1",
+      "path": "assets/icons/skills/skchr_phenxi_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_phenxi_1.png",
+      "sha256": "824f1067ae58364ac8915226abcbdd275ed336824c81ea42de8e1f7553188035",
+      "bytes": 21352,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_phenxi_2",
+      "path": "assets/icons/skills/skchr_phenxi_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_phenxi_2.png",
+      "sha256": "f7836f3683b2220e9e7e78afba4ea7b103a1e5932336266c176d61c687b390b9",
+      "bytes": 20862,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_phenxi_3",
+      "path": "assets/icons/skills/skchr_phenxi_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_phenxi_3.png",
+      "sha256": "5fe2c167d03057d8b2109e41040b9573b2e52fd2a96175c61df5c66b9cba7a33",
+      "bytes": 22470,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_platnm_2",
+      "path": "assets/icons/skills/skchr_platnm_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_platnm_2.png",
+      "sha256": "ef5708b90c918aa889bbe71260893022557b5ca7eb55f928967229b5d6b24bb8",
+      "bytes": 14816,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_plosis_2",
+      "path": "assets/icons/skills/skchr_plosis_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_plosis_2.png",
+      "sha256": "42280aaa9f4e2916a359506fb28ba5c8c04a3b5510f9ad431c9790e98fe92856",
+      "bytes": 12548,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_poca_2",
+      "path": "assets/icons/skills/skchr_poca_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_poca_2.png",
+      "sha256": "99beb3e384cedd7715a2d8052dd9e49835dcf1cefbace0f566d2f3bd9d2faa06",
+      "bytes": 20141,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_poca_3",
+      "path": "assets/icons/skills/skchr_poca_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_poca_3.png",
+      "sha256": "60528ec28ac5408d514324c0b96b40afc9fd046843da0cd8de550047dfdd2a57",
+      "bytes": 23792,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_podego_1",
+      "path": "assets/icons/skills/skchr_podego_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_podego_1.png",
+      "sha256": "1a130367d0d6922075929244c2ad751f1bb4f9899f5c508030498226ea17ccd7",
+      "bytes": 24232,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_podego_2",
+      "path": "assets/icons/skills/skchr_podego_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_podego_2.png",
+      "sha256": "3aeffdd68c2137279903700079cb74e88ddb3ec4f9e9204faeb9f3479bbb8ee2",
+      "bytes": 18318,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_red_1",
+      "path": "assets/icons/skills/skchr_red_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_red_1.png",
+      "sha256": "253b11d8cdcbc407379983230120ddc5ee9d36b8dad528158abd65953bbadb9e",
+      "bytes": 14989,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_red_2",
+      "path": "assets/icons/skills/skchr_red_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_red_2.png",
+      "sha256": "4562d84aab319a40693f351a637952b43b3e2760569ce74e7a883924905f63c2",
+      "bytes": 8656,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_reed2_2",
+      "path": "assets/icons/skills/skchr_reed2_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_reed2_2.png",
+      "sha256": "7edeb57d856655e1c668fac51a8ea3c16ec56fff95b8c1825372f38acfbcee1b",
+      "bytes": 20815,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_reed2_3",
+      "path": "assets/icons/skills/skchr_reed2_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_reed2_3.png",
+      "sha256": "fe898767977830e162a48962f88bf039942161233d27b27d0ba3e264547f7c30",
+      "bytes": 21460,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_saga_2",
+      "path": "assets/icons/skills/skchr_saga_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_saga_2.png",
+      "sha256": "9a5ebf33c7ad406d73a7dda8b68cb749a3378d8b4ad7a88cf804d0600eec5e0a",
+      "bytes": 17593,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_saga_3",
+      "path": "assets/icons/skills/skchr_saga_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_saga_3.png",
+      "sha256": "f374fea4d93eb85e891635344d2d21abf5b7fef6fda3d60122d70a3ed1ae0d64",
+      "bytes": 20120,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_shining_1",
+      "path": "assets/icons/skills/skchr_shining_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_shining_1.png",
+      "sha256": "2aa02a167ff409e8fb1d4dc359d7e9a927489ceb67fcbaa1e7562c9bc8c0ccf1",
+      "bytes": 11773,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_shining_2",
+      "path": "assets/icons/skills/skchr_shining_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_shining_2.png",
+      "sha256": "67c09793d6e7b7671295da54529bcfdb4dafae50d14d50234cebe6ffa222dbfa",
+      "bytes": 10926,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_shining_3",
+      "path": "assets/icons/skills/skchr_shining_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_shining_3.png",
+      "sha256": "aee2642ed26ad84580def5b24068f94f0e742f4c0d42a94d0aba663992629f9a",
+      "bytes": 14994,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_shwaz_1",
+      "path": "assets/icons/skills/skchr_shwaz_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_shwaz_1.png",
+      "sha256": "3bf0a0c067c57323d086039520ddb308ad7c0b41e8f696e8be729c6ed542dd60",
+      "bytes": 20121,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_shwaz_2",
+      "path": "assets/icons/skills/skchr_shwaz_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_shwaz_2.png",
+      "sha256": "b9bff9127842704e079c2cd9f9945a7834adce8bf15f3d4e82229b1bf9b0731d",
+      "bytes": 19268,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_shwaz_3",
+      "path": "assets/icons/skills/skchr_shwaz_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_shwaz_3.png",
+      "sha256": "e26891ae1f65d3b702bac00b1f0b31c54d8d4491a3f4a3bc3c797a61c875841c",
+      "bytes": 17860,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_siege_2",
+      "path": "assets/icons/skills/skchr_siege_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_siege_2.png",
+      "sha256": "14e60a0821072b828e1271e226fb890b50ae4dfad54b8b1f65b2d5d69c094c97",
+      "bytes": 15949,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_siege_3",
+      "path": "assets/icons/skills/skchr_siege_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_siege_3.png",
+      "sha256": "7e2fe52e126e14143d922d07705d7053614875a0f5f8e142b002af206c0340f2",
+      "bytes": 12936,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_silent_2",
+      "path": "assets/icons/skills/skchr_silent_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_silent_2.png",
+      "sha256": "fdc49c52bbc7a5b67fd431f10cd372926a2eb7b3dc801347e541d0694b21718c",
+      "bytes": 13254,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_skadi2_1",
+      "path": "assets/icons/skills/skchr_skadi2_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_skadi2_1.png",
+      "sha256": "01046ee97c7619e2815cb8ba7df3137c0242ec8a7792fe6966ecc9bacf541509",
+      "bytes": 28236,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_skadi2_2",
+      "path": "assets/icons/skills/skchr_skadi2_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_skadi2_2.png",
+      "sha256": "9b720451599c0d59e46b2087b7743f71d7ecd92439c1abd845e47049977f6762",
+      "bytes": 23296,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_skadi2_3",
+      "path": "assets/icons/skills/skchr_skadi2_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_skadi2_3.png",
+      "sha256": "9efaedec29a47aad0f6776e0fac095595f8f72287c9d76a859b5d9f05f234e91",
+      "bytes": 21614,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_skadi_2",
+      "path": "assets/icons/skills/skchr_skadi_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_skadi_2.png",
+      "sha256": "9b6e75ff45f264a9e83d6c45b4e856d51ad371a2adcbc1c976a382d963d0e82d",
+      "bytes": 14907,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_skadi_3",
+      "path": "assets/icons/skills/skchr_skadi_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_skadi_3.png",
+      "sha256": "afab25e72d58d39666dab6c0e1659bff9964181390455673019e42d87c025746",
+      "bytes": 15152,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_skfire_2",
+      "path": "assets/icons/skills/skchr_skfire_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_skfire_2.png",
+      "sha256": "159cb753a6194d0baf1411970d41f8a3e5c3c936e03737379ad3ea5a182d7026",
+      "bytes": 13707,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_slbell_1",
+      "path": "assets/icons/skills/skchr_slbell_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_slbell_1.png",
+      "sha256": "382997fde6de8f23b1e618833f96f731ba26220d331e083cb67cead2d3dde534",
+      "bytes": 10799,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_slbell_2",
+      "path": "assets/icons/skills/skchr_slbell_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_slbell_2.png",
+      "sha256": "82543d269b0ee3ddac73717230ef60e6ecb3d9504fef7b79e8c927f2380ebc85",
+      "bytes": 20513,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_slchan_1",
+      "path": "assets/icons/skills/skchr_slchan_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_slchan_1.png",
+      "sha256": "96c1a0a44c07f713941c7f70917f3387aea65c92bcd4847faf51fdd785180f2f",
+      "bytes": 15018,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_slchan_2",
+      "path": "assets/icons/skills/skchr_slchan_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_slchan_2.png",
+      "sha256": "f930103e0fa0e6737b54580e9d51857eefc146adeb5c3655821736497e7fa209",
+      "bytes": 18516,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_sleach_2",
+      "path": "assets/icons/skills/skchr_sleach_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_sleach_2.png",
+      "sha256": "57014d39e388be93bbca81fd5a46d942b81024eb394f1fb6b120adedff0bf7fa",
+      "bytes": 17216,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_sleach_3",
+      "path": "assets/icons/skills/skchr_sleach_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_sleach_3.png",
+      "sha256": "bb4163ca972a47449d2a4b96596862ad6175361e474d9751e8bbec1ebda75dc6",
+      "bytes": 21143,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_slent2_1",
+      "path": "assets/icons/skills/skchr_slent2_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_slent2_1.png",
+      "sha256": "9f9dd4a44d6db4fa45e22986a673cad71db574746393ed242adf8d85f64219b6",
+      "bytes": 16319,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_slent2_2",
+      "path": "assets/icons/skills/skchr_slent2_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_slent2_2.png",
+      "sha256": "134ba6fc0bc23a397dd0c75c748d9e449ad2507876b0bb7e3bcec360f716e9a8",
+      "bytes": 16563,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_slent2_3",
+      "path": "assets/icons/skills/skchr_slent2_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_slent2_3.png",
+      "sha256": "bd4ec5d2fa9f1a87af580b4f5624f2a02041cf0f2e49e79fc1910da76a613317",
+      "bytes": 18221,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_snakek_2",
+      "path": "assets/icons/skills/skchr_snakek_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_snakek_2.png",
+      "sha256": "1a6351562dc606c6a29bb9802b9f0898d492f010d1e18b87e5de87dc678d02ee",
+      "bytes": 11794,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_sora_1",
+      "path": "assets/icons/skills/skchr_sora_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_sora_1.png",
+      "sha256": "cc1f236f5c4adcb92831b176b7654f31fc8b9ea3269429e7eb0402128a8434be",
+      "bytes": 16939,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_sora_2",
+      "path": "assets/icons/skills/skchr_sora_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_sora_2.png",
+      "sha256": "1dd3a30cc06699b2f2f37806be4a731fe0ba80a71fb904e73f2b5918ed48735b",
+      "bytes": 16880,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_sqrrel_1",
+      "path": "assets/icons/skills/skchr_sqrrel_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_sqrrel_1.png",
+      "sha256": "ea8b4e6dae10118015e26dd629525f7deb60947f018ce69ac11df0194c991539",
+      "bytes": 18075,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_sqrrel_2",
+      "path": "assets/icons/skills/skchr_sqrrel_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_sqrrel_2.png",
+      "sha256": "7f2c96557ccfe35f5224d9a0623cfdca189436a6e4664ba0838451815b37b850",
+      "bytes": 16423,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_sunbr_1",
+      "path": "assets/icons/skills/skchr_sunbr_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_sunbr_1.png",
+      "sha256": "7ba1b4a907236970ee3a774e2f889a2b276a0d2988911d9ed5d42b6d3964f92c",
+      "bytes": 16855,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_sunbr_2",
+      "path": "assets/icons/skills/skchr_sunbr_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_sunbr_2.png",
+      "sha256": "44ecbd22b76c72ae89f47450fb60b40f82518d0b6f775e7f3092c6a9430e4fe9",
+      "bytes": 16718,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_surtr_1",
+      "path": "assets/icons/skills/skchr_surtr_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_surtr_1.png",
+      "sha256": "d3b5be863612ca206a3c2e77cf496f6c677292f81cc8a9282bd598d74a36805f",
+      "bytes": 20028,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_surtr_2",
+      "path": "assets/icons/skills/skchr_surtr_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_surtr_2.png",
+      "sha256": "4366688898527a35d06693034599de88f914814563477ee5c8290042d3e6d15d",
+      "bytes": 18267,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_surtr_3",
+      "path": "assets/icons/skills/skchr_surtr_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_surtr_3.png",
+      "sha256": "a7f2e019762ce22de51b90dc850b4729f2e74760e437dcbe6d5d4663631fc4fe",
+      "bytes": 23621,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_susuro_2",
+      "path": "assets/icons/skills/skchr_susuro_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_susuro_2.png",
+      "sha256": "b8809a12352511e7f3c66b49f52425272d9bdbefd78fc54195e82a8c2919e0df",
+      "bytes": 13831,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_svrash_2",
+      "path": "assets/icons/skills/skchr_svrash_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_svrash_2.png",
+      "sha256": "43538662ab04123fb3c57039b3161d5e241815bfe01060bd12546bb37544c80f",
+      "bytes": 15964,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_svrash_3",
+      "path": "assets/icons/skills/skchr_svrash_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_svrash_3.png",
+      "sha256": "856c7ca0aa7c5d755eee8647e1d2682ac7ea977f706bd1081db2bcba3241612a",
+      "bytes": 18476,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_swire2_1",
+      "path": "assets/icons/skills/skchr_swire2_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_swire2_1.png",
+      "sha256": "620d5bb78dc1aaa8bfcc4302145bfed761a792f33e8aa10d87c01ce8f8ec3b87",
+      "bytes": 18150,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_swire2_2",
+      "path": "assets/icons/skills/skchr_swire2_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_swire2_2.png",
+      "sha256": "0f26688af565b30199f85e2c021e93adf938b87410660189425e983a07879078",
+      "bytes": 16986,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_swire2_3",
+      "path": "assets/icons/skills/skchr_swire2_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_swire2_3.png",
+      "sha256": "713b3df83ce955041498a182d2fb1f55c24231bde81853382cb76b54ed795ecc",
+      "bytes": 24800,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_texas2_1",
+      "path": "assets/icons/skills/skchr_texas2_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_texas2_1.png",
+      "sha256": "71b22aef5559ed44007582351dc2932d08c0d08100f288daeb786d100a8f9395",
+      "bytes": 15818,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_texas2_2",
+      "path": "assets/icons/skills/skchr_texas2_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_texas2_2.png",
+      "sha256": "7329d19c37bf275b186d4b932d34c965809f122d7e87ea525db5acb42aebf7d5",
+      "bytes": 19536,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_texas2_3",
+      "path": "assets/icons/skills/skchr_texas2_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_texas2_3.png",
+      "sha256": "ac901d5b26142b02a52a64114289041914f495aebaa429b88c7578c3dfc4e8de",
+      "bytes": 20141,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_texas_2",
+      "path": "assets/icons/skills/skchr_texas_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_texas_2.png",
+      "sha256": "ea2104b73c9673531e00751cf9f11550206af54e3f10bc289fee8a1a43c61319",
+      "bytes": 14492,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_thorns_2",
+      "path": "assets/icons/skills/skchr_thorns_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_thorns_2.png",
+      "sha256": "9bb16e67d74738febcd77b5720316f775c18c9f0c39c84dd14641c1647c69037",
+      "bytes": 20035,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_thorns_3",
+      "path": "assets/icons/skills/skchr_thorns_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_thorns_3.png",
+      "sha256": "87c867fdbcf56f4dd5df69095c35b4e3de0db3d699a225cbc4636d11c6a38ec6",
+      "bytes": 20884,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_titi_1",
+      "path": "assets/icons/skills/skchr_titi_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_titi_1.png",
+      "sha256": "8c65ec9857dc5d711f7d8d1210884ae907eabcf48b7aa8e0f7adb545cac022db",
+      "bytes": 24000,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_titi_2",
+      "path": "assets/icons/skills/skchr_titi_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_titi_2.png",
+      "sha256": "7c80572f8e9135610c22dfb49de33c82719743349338178d62f511a2f6c67840",
+      "bytes": 28299,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_titi_3",
+      "path": "assets/icons/skills/skchr_titi_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_titi_3.png",
+      "sha256": "4284dcbed0f4bdd5293315fdb5494e88b63bdf6942adeba723598fb8da7e7fb7",
+      "bytes": 26180,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_typhon_2",
+      "path": "assets/icons/skills/skchr_typhon_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_typhon_2.png",
+      "sha256": "98c80cc57016bb40adab7bd0879619b46ce770775092edac1dc4c4486b844bf5",
+      "bytes": 18355,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_typhon_3",
+      "path": "assets/icons/skills/skchr_typhon_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_typhon_3.png",
+      "sha256": "213937f02a51139e94112f007ccbba57e7cd2839c971931979f4e1d1a4aa72f5",
+      "bytes": 20727,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_vigil_1",
+      "path": "assets/icons/skills/skchr_vigil_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_vigil_1.png",
+      "sha256": "dec86a507443f05c34d3b7da9128b2aa927ee4be38d98bb40be385b571b4e3a6",
+      "bytes": 15714,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_vigil_2",
+      "path": "assets/icons/skills/skchr_vigil_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_vigil_2.png",
+      "sha256": "2b56cde51278c140e878b5a90c686865f9ee12bebfd22a739d00b4164e0b0f30",
+      "bytes": 16681,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_vigil_3",
+      "path": "assets/icons/skills/skchr_vigil_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_vigil_3.png",
+      "sha256": "14def9c8a74beba1eaba2aefdc1a37b19c0f0c528761af700097359175468994",
+      "bytes": 16853,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_vodfox_1",
+      "path": "assets/icons/skills/skchr_vodfox_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_vodfox_1.png",
+      "sha256": "c771897f69a702a60755fcd37d3efb9f9d21aa813dfeeb84ea651d40bee6bedf",
+      "bytes": 19165,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_vodfox_2",
+      "path": "assets/icons/skills/skchr_vodfox_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_vodfox_2.png",
+      "sha256": "6b739dd51a92c763ec0685e96d0b7aaa3735a347540b1395e3eab4a7ccc06809",
+      "bytes": 18006,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_weedy_1",
+      "path": "assets/icons/skills/skchr_weedy_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_weedy_1.png",
+      "sha256": "9faa11a8588347f7917ff8a0c7b656eb142f66af91db615a070d58b1a79c5259",
+      "bytes": 17367,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_weedy_2",
+      "path": "assets/icons/skills/skchr_weedy_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_weedy_2.png",
+      "sha256": "0134caa30df84ba012577e062009b5b46052abff66956f8bf97825145de9a0a9",
+      "bytes": 12260,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_weedy_3",
+      "path": "assets/icons/skills/skchr_weedy_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_weedy_3.png",
+      "sha256": "81e63f617a5f5b8ec08674fc8d9f5f1a3eb16fb4491ef12d9f322bb10c40c2e0",
+      "bytes": 13858,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_whitew_1",
+      "path": "assets/icons/skills/skchr_whitew_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_whitew_1.png",
+      "sha256": "597e2c1da00f6e5829a511282b9b15d9e0df6043304c52810d2efaf48993f950",
+      "bytes": 15603,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_whitew_2",
+      "path": "assets/icons/skills/skchr_whitew_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_whitew_2.png",
+      "sha256": "ec4d0619a40307b187372816e0c1f7fc434b335fec1732d8b5608c5076b9acd1",
+      "bytes": 12965,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_wildmn_1",
+      "path": "assets/icons/skills/skchr_wildmn_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_wildmn_1.png",
+      "sha256": "58ebb4569a0cf7079d0ad80a2d8f1f1a41a107340800fd832ed96bc00074035f",
+      "bytes": 20457,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_wildmn_2",
+      "path": "assets/icons/skills/skchr_wildmn_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_wildmn_2.png",
+      "sha256": "bc86b9aa2cf73bb277bf3162e59b33154183169da2feaa8e9c8c56d1b110febe",
+      "bytes": 16660,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_zumama_1",
+      "path": "assets/icons/skills/skchr_zumama_1.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_zumama_1.png",
+      "sha256": "17fd3ca1563bd8e14390e317852ffffa7107820eff3b642e96a25f5c8eadb023",
+      "bytes": 17014,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_zumama_2",
+      "path": "assets/icons/skills/skchr_zumama_2.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_zumama_2.png",
+      "sha256": "66bc45150efdb209ad27dae3529b684c99c68716a9e46283d9ff8270bfb8bd8f",
+      "bytes": 22291,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skchr_zumama_3",
+      "path": "assets/icons/skills/skchr_zumama_3.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skchr_zumama_3.png",
+      "sha256": "70887c4e7319557843c89f1d4536c142191eb2c53586b5b0fb5cbb1d1d6fd139",
+      "bytes": 21505,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skcom_assist_cost[2]",
+      "path": "assets/icons/skills/skcom_assist_cost[2].png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skcom_assist_cost[2].png",
+      "sha256": "fe5f5189795a9f24f94ff495ececdea7bce76814f027387d9b1c6f8bc7b094c3",
+      "bytes": 19619,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skcom_assist_cost[3]",
+      "path": "assets/icons/skills/skcom_assist_cost[3].png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skcom_assist_cost[3].png",
+      "sha256": "9875e8d3e3f796d4690ff48bf49f499318e9153f4cc08bad2236164500d2ef46",
+      "bytes": 24439,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skcom_atk_up[2]",
+      "path": "assets/icons/skills/skcom_atk_up[2].png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skcom_atk_up[2].png",
+      "sha256": "5b0bcbe49449a41a2987ff2b29627a1b75caad42c87501fdc71f65bcbe7974e1",
+      "bytes": 12155,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skcom_atk_up[3]",
+      "path": "assets/icons/skills/skcom_atk_up[3].png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skcom_atk_up[3].png",
+      "sha256": "83ac97ae84e1503425508db0b435ae975d569fed312a125cd43fa04ac5b37cf8",
+      "bytes": 13125,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skcom_charge_cost[3]",
+      "path": "assets/icons/skills/skcom_charge_cost[3].png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skcom_charge_cost[3].png",
+      "sha256": "93a30315edb3d554d83f641b890a15478fadec7d8d3497eec3fa71e35862e7f8",
+      "bytes": 13806,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skcom_def_up[2]",
+      "path": "assets/icons/skills/skcom_def_up[2].png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skcom_def_up[2].png",
+      "sha256": "d5ddb89aa68a6656a8d0cb9fa0e84306ca809057d09d79cebfc7eaf64d09391b",
+      "bytes": 12656,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skcom_def_up[3]",
+      "path": "assets/icons/skills/skcom_def_up[3].png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skcom_def_up[3].png",
+      "sha256": "7839c7b7d342fd37fd6966bfe2cff8199252be0084da01dbccebf4a1a60b8faa",
+      "bytes": 14667,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skcom_heal_up[2]",
+      "path": "assets/icons/skills/skcom_heal_up[2].png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skcom_heal_up[2].png",
+      "sha256": "2a8657d8611ec771f9558bcc31cd3af29f5e14ee489f2b2111febff467370fe5",
+      "bytes": 11149,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skcom_heal_up[3]",
+      "path": "assets/icons/skills/skcom_heal_up[3].png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skcom_heal_up[3].png",
+      "sha256": "626950588613995a803aa97454561c86adb7cf78de493eb42ddd14c5ef6dd4b6",
+      "bytes": 16343,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skcom_magic_rage[2]",
+      "path": "assets/icons/skills/skcom_magic_rage[2].png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skcom_magic_rage[2].png",
+      "sha256": "9274d0dc6236f5cfa0486cb1d6bc4ded059f6263f9bb8f11292b20ff3066b7a5",
+      "bytes": 9891,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skcom_magic_rage[3]",
+      "path": "assets/icons/skills/skcom_magic_rage[3].png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skcom_magic_rage[3].png",
+      "sha256": "d27ae10f8d1130a2d0abebc5cc2e8b5a0c3e70e4dd0fe6be9f71bd549196f89c",
+      "bytes": 13836,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skcom_powerstrike[2]",
+      "path": "assets/icons/skills/skcom_powerstrike[2].png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skcom_powerstrike[2].png",
+      "sha256": "7d3ed9fe5c6d2685ba941c1222dd4b1f5f19c3cbe6162f297f50cd1328a4330d",
+      "bytes": 14794,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skcom_powerstrike[3]",
+      "path": "assets/icons/skills/skcom_powerstrike[3].png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skcom_powerstrike[3].png",
+      "sha256": "21202be1c6d03a4ea51f22c117fc22eb434ae66f55b6d23c22b29b9da4e4a8d6",
+      "bytes": 15005,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    },
+    {
+      "icon_id": "skcom_quickattack[3]",
+      "path": "assets/icons/skills/skcom_quickattack[3].png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/skill/skill_icon_skcom_quickattack[3].png",
+      "sha256": "c1a9edb1202f6499147014a596e0433682eb05e5d1e9d641eb5a1c9be954707d",
+      "bytes": 17070,
+      "width": 128,
+      "height": 128,
+      "color_type": 6
+    }
+  ],
+  "copyright_notice": "Original Arknights game artwork, community-mirrored source. Existing local fan-project asset scope applies; no new license or public redistribution authorization is asserted."
+}

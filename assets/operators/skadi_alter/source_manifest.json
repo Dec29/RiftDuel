@@ -1,0 +1,99 @@
+{
+  "operator_id": "skadi_alter",
+  "display_name": "浊心斯卡蒂",
+  "char_id": "char_1012_skadi2",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/skadi_alter/front/char_1012_skadi2.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1012_skadi2/front/char_1012_skadi2.skel",
+      "sha256": "cc7ff0619d1988c2e5b24727f8d35573a8110411c5f3213453322fe83b38cd1b",
+      "size": 1397714
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/skadi_alter/front/char_1012_skadi2.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1012_skadi2/front/char_1012_skadi2.atlas",
+      "sha256": "ed5c8d45989303347a0e520dee98d77e9a0d9d7e189d0660439978b1c17ed775",
+      "size": 17856
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/skadi_alter/front/char_1012_skadi2.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1012_skadi2/front/char_1012_skadi2.png",
+      "sha256": "308f92991584b9d667a4d41aa7f130aad3bc1f750e72d63d9d1eb7a1146dc2d7",
+      "size": 193747
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/skadi_alter/back/char_1012_skadi2.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1012_skadi2/back/char_1012_skadi2.skel",
+      "sha256": "cc7ff0619d1988c2e5b24727f8d35573a8110411c5f3213453322fe83b38cd1b",
+      "size": 1397714
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/skadi_alter/back/char_1012_skadi2.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1012_skadi2/back/char_1012_skadi2.atlas",
+      "sha256": "ed5c8d45989303347a0e520dee98d77e9a0d9d7e189d0660439978b1c17ed775",
+      "size": 17856
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/skadi_alter/back/char_1012_skadi2.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1012_skadi2/back/char_1012_skadi2.png",
+      "sha256": "308f92991584b9d667a4d41aa7f130aad3bc1f750e72d63d9d1eb7a1146dc2d7",
+      "size": 193747
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 8.766666666666667,
+      "Skill_1_Begin": 3.2,
+      "Skill_1_Loop": 8.766666666666667,
+      "Skill_2_Begin": 3.933333333333333,
+      "Skill_2_Loop": 3.3333333333333335,
+      "Skill_3_Begin": 4.4,
+      "Skill_3_Loop": 8.766666666666667,
+      "Start": 1.0,
+      "Stun": 2.0,
+      "Stun_Begin": 1.0
+    },
+    "back": {
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 8.766666666666667,
+      "Skill_1_Begin": 3.2,
+      "Skill_1_Loop": 8.766666666666667,
+      "Skill_2_Begin": 3.933333333333333,
+      "Skill_2_Loop": 3.3333333333333335,
+      "Skill_3_Begin": 4.4,
+      "Skill_3_Loop": 8.766666666666667,
+      "Start": 1.0,
+      "Stun": 2.0,
+      "Stun_Begin": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 166
+    },
+    "back": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 166
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

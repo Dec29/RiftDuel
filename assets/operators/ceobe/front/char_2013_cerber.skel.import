@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://1kto1ukkug44"
+path="res://.godot/imported/char_2013_cerber.skel-cff8ff211f61ede9ce648d3cec5e5b20.tres"
+
+[deps]
+
+source_file="res://assets/operators/ceobe/front/char_2013_cerber.skel"
+dest_files=["res://.godot/imported/char_2013_cerber.skel-cff8ff211f61ede9ce648d3cec5e5b20.tres"]
+
+[params]

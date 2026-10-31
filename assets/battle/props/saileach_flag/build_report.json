@@ -1,0 +1,20 @@
+{
+	"clips": [
+		{
+			"bake_ms": 34861,
+			"duration_seconds": 2.73333333333333,
+			"file": "res://assets/battle/props/saileach_flag/flag_02.res",
+			"frames": 328,
+			"id": "flag_02"
+		},
+		{
+			"bake_ms": 35020,
+			"duration_seconds": 2.73333333333333,
+			"file": "res://assets/battle/props/saileach_flag/flag_03.res",
+			"frames": 328,
+			"id": "flag_03"
+		}
+	],
+	"facing_count": 4,
+	"fps": 30.0
+}

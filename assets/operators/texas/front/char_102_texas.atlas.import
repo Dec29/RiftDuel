@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://jifu8utx7o5"
+path="res://.godot/imported/char_102_texas.atlas-6ea9ffc0a32629ee4a251299328d99c1.tres"
+
+[deps]
+
+source_file="res://assets/operators/texas/front/char_102_texas.atlas"
+dest_files=["res://.godot/imported/char_102_texas.atlas-6ea9ffc0a32629ee4a251299328d99c1.tres"]
+
+[params]
+
+normal_map_prefix="n"

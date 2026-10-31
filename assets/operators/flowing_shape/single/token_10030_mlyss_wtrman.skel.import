@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://nv35sfjye1d1"
+path="res://.godot/imported/token_10030_mlyss_wtrman.skel-d7bc30979bff98f744883727cafc931c.tres"
+
+[deps]
+
+source_file="res://assets/operators/flowing_shape/single/token_10030_mlyss_wtrman.skel"
+dest_files=["res://.godot/imported/token_10030_mlyss_wtrman.skel-d7bc30979bff98f744883727cafc931c.tres"]
+
+[params]

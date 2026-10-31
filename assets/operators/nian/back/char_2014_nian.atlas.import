@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://yxq8taxvxced"
+path="res://.godot/imported/char_2014_nian.atlas-8385357ffe0a317e6cfeb36dbecf4c27.tres"
+
+[deps]
+
+source_file="res://assets/operators/nian/back/char_2014_nian.atlas"
+dest_files=["res://.godot/imported/char_2014_nian.atlas-8385357ffe0a317e6cfeb36dbecf4c27.tres"]
+
+[params]
+
+normal_map_prefix="n"

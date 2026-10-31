@@ -1,0 +1,62 @@
+{
+  "operator_id": "eunectes",
+  "char_id": "char_416_zumama",
+  "commit": "33a5327f9c01512f0c14a9407de303920db16125",
+  "files": [
+    {
+      "category": "voice",
+      "tag": "023",
+      "language": "ja",
+      "path": "assets/audio/voices/eunectes/cn_023.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_416_zumama/cn_023.mp3",
+      "bytes": 22378,
+      "sha256": "106cd0e535e8d3c1c9741cc87b915d9219a7b4f27ef3817448cd09bf6ba1e9ec"
+    },
+    {
+      "category": "voice",
+      "tag": "024",
+      "language": "ja",
+      "path": "assets/audio/voices/eunectes/cn_024.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_416_zumama/cn_024.mp3",
+      "bytes": 24259,
+      "sha256": "3e5eafc47cf9ae75840cdf677d35401f175fcc0717dc50fb04f9165fb5fe9e04"
+    },
+    {
+      "category": "voice",
+      "tag": "025",
+      "language": "ja",
+      "path": "assets/audio/voices/eunectes/cn_025.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_416_zumama/cn_025.mp3",
+      "bytes": 17781,
+      "sha256": "8eea8542969a9fed021771f082e2724e2541ed1c8f07e5bb5e5228bbd6f1b340"
+    },
+    {
+      "category": "voice",
+      "tag": "026",
+      "language": "ja",
+      "path": "assets/audio/voices/eunectes/cn_026.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_416_zumama/cn_026.mp3",
+      "bytes": 16318,
+      "sha256": "54b69b1d0ef7cc73caf86fda8ebe77be8caef6f19e6f909144de3a6fa0c8c0d6"
+    },
+    {
+      "category": "voice",
+      "tag": "027",
+      "language": "ja",
+      "path": "assets/audio/voices/eunectes/cn_027.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_416_zumama/cn_027.mp3",
+      "bytes": 20289,
+      "sha256": "27b401552eb1509351c540c06ce8462ba0a7a59924d43b3d8335750377d52153"
+    },
+    {
+      "category": "voice",
+      "tag": "028",
+      "language": "ja",
+      "path": "assets/audio/voices/eunectes/cn_028.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_416_zumama/cn_028.mp3",
+      "bytes": 10675,
+      "sha256": "ad293d3d08d6546dbf1ad57b862530ffcf54a535500f1915e62fd4695913a8eb"
+    }
+  ],
+  "missing_tags": []
+}

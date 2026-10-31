@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://drlxytmhoibqx"
+path="res://.godot/imported/char_188_helage.atlas-8c28052ae4f07eba1e1417f4b8609878.tres"
+
+[deps]
+
+source_file="res://assets/operators/hellagur/front/char_188_helage.atlas"
+dest_files=["res://.godot/imported/char_188_helage.atlas-8c28052ae4f07eba1e1417f4b8609878.tres"]
+
+[params]
+
+normal_map_prefix="n"

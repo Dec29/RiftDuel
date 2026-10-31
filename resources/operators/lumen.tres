@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_5gso8"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_u1mjw"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_j7roj"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_1tpw4"]
+
+[sub_resource type="Resource" id="Resource_tawup"]
+script = ExtResource("1_5gso8")
+trait_name = "疗养师"
+description = "较大治疗范围，近距七格以外治疗量变为80%；本作所有普通治疗再按50%折算，优先生命比例最低的伤员。"
+effect_type = "therapist"
+effect_params = {
+"far_heal_percent": 80
+}
+
+[sub_resource type="Resource" id="Resource_8j1rk"]
+script = ExtResource("3_j7roj")
+skill_name = "沐雨"
+trigger_type = "attack"
+sp_required = 10
+sp_recharge_type = "time"
+description = "下次治疗改为在目标格形成5秒雨区，目标格及周围八格每秒接受55%攻击力治疗；雨区每秒结算一次，按近远距离和治疗系数折算。"
+effect_type = "lumen_rain"
+effect_params = {
+"heal_percent": 55,
+"pulse_count": 5,
+"pulse_ticks": 30
+}
+
+[sub_resource type="Resource" id="Resource_754a3"]
+script = ExtResource("3_j7roj")
+skill_name = "沛霖"
+initial_sp = 5
+sp_required = 13
+sp_recharge_type = "time"
+description = "立即治疗范围内最多3名友方260%攻击力生命。技力可蓄力至26，开启消耗全部技力；蓄力后额外清除眩晕、沉默、束缚和停顿，不解除外力位移。满血控制者亦可被蓄力技能选中。"
+effect_type = "lumen_cleanse"
+effect_params = {
+"charge_count": 2,
+"heal_percent": 260,
+"target_count": 3
+}
+
+[sub_resource type="Resource" id="Resource_2o8gs"]
+script = ExtResource("3_j7roj")
+skill_name = "灯火不灭"
+sp_required = 50
+sp_recharge_type = "time"
+description = "攻击+55%、攻速+30，优先治疗处于眩晕、沉默、束缚或停顿的伤员；仅治疗这些目标时消耗1弹，该次治疗变为攻击力200%并清除这四类状态，不解除外力位移。8发耗尽结束，可手动停止；普通伤员治疗不耗弹。"
+effect_type = "lumen_lamp"
+effect_params = {
+"ammo_count": 8,
+"attack_mult": 1.55,
+"attack_speed_add": 30,
+"heal_mult": 2.0
+}
+duration = -1.0
+
+[sub_resource type="Resource" id="Resource_wjpnr"]
+script = ExtResource("4_1tpw4")
+talent_name = "凡人之愿"
+description = "治疗前生命高于75%的目标获得6秒抵抗，其余4秒；抵抗缩短之后新施加的眩晕，不回溯旧控制。"
+effect_type = "heal_resistance"
+effect_params = {
+"base_ticks": 120,
+"high_ticks": 180,
+"hp_threshold_percent": 75
+}
+
+[sub_resource type="Resource" id="Resource_yahfy"]
+script = ExtResource("4_1tpw4")
+talent_name = "应急处理"
+description = "范围内伤员被施加眩晕、沉默、束缚或停顿时，立刻接受80%攻击力治疗，12秒冷却；不改普通攻击间隔，治疗同样触发凡人之愿。"
+effect_type = "emergency_control_heal"
+effect_params = {
+"cooldown_ticks": 360,
+"heal_percent": 80
+}
+
+[resource]
+script = ExtResource("2_u1mjw")
+operator_id = "lumen"
+display_name = "流明"
+profession = "医疗"
+profession_id = "medic"
+branch = "疗养师"
+max_health = 1825
+attack = 540
+defense = 111
+magic_resist = 10
+damage_type = "healing"
+attack_interval = 2.85
+block_count = 1
+initial_deploy_cost = 21
+deploy_cost = 23
+redeploy_time = 80.0
+attack_range = Array[Vector2i]([Vector2i(0, -2), Vector2i(1, -2), Vector2i(2, -2), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(3, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(3, 1), Vector2i(0, 2), Vector2i(1, 2), Vector2i(2, 2)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_tawup")
+talent_1 = SubResource("Resource_wjpnr")
+talent_2 = SubResource("Resource_yahfy")
+skills = Array[ExtResource("3_j7roj")]([SubResource("Resource_8j1rk"), SubResource("Resource_754a3"), SubResource("Resource_2o8gs")])

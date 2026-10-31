@@ -23,7 +23,7 @@ func _input(event: InputEvent) -> void:
 				get_viewport().set_input_as_handled()
 				home_requested.emit()
 				return
-			if (menu_open and _resume_rect().has_point(event.position)) or _pause_rect().has_point(event.position):
+			if (menu_open and _resume_rect().has_point(event.position)) or (not menu_open and _pause_rect().has_point(event.position)):
 				_consume_release = true
 				menu_open = not menu_open
 				queue_redraw()
@@ -60,12 +60,14 @@ func _draw() -> void:
 		center = resume.get_center()
 		icon_size = resume.size.x * 0.23
 		draw_colored_polygon(PackedVector2Array([center + Vector2(-icon_size * 0.65, -icon_size), center + Vector2(icon_size, 0), center + Vector2(-icon_size * 0.65, icon_size)]), PALETTE.BALL)
-	draw_rect(pause, PALETTE.HUD_HOVER if pause.has_point(pointer) else PALETTE.HUD_SURFACE)
-	draw_rect(pause, PALETTE.ARROW if menu_open else PALETTE.HUD_RULE, false, 1.0)
-	var bar_size := Vector2(pause.size.x * 0.14, pause.size.y * 0.44)
-	for direction in [-1, 1]:
-		var center := pause.get_center() + Vector2(direction * pause.size.x * 0.14, 0)
-		draw_rect(Rect2(center - bar_size * 0.5, bar_size), PALETTE.BALL)
+	else:
+		draw_rect(pause, PALETTE.HUD_HOVER if pause.has_point(pointer) else PALETTE.HUD_SURFACE)
+		draw_rect(pause, PALETTE.HUD_RULE, false, 1.0)
+		var bar_size := Vector2(pause.size.x * 0.14, pause.size.y * 0.44)
+		for direction in [-1, 1]:
+			var center := pause.get_center() + Vector2(direction * pause.size.x * 0.14, 0)
+			draw_rect(Rect2(center - bar_size * 0.5, bar_size), PALETTE.BALL)
+
 
 
 func _pause_rect() -> Rect2:

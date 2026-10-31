@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://qw7hayoumyig"
+path="res://.godot/imported/char_102_texas.skel-77a2cde0901d2b4b6c289420b7f614c7.tres"
+
+[deps]
+
+source_file="res://assets/operators/texas/back/char_102_texas.skel"
+dest_files=["res://.godot/imported/char_102_texas.skel-77a2cde0901d2b4b6c289420b7f614c7.tres"]
+
+[params]

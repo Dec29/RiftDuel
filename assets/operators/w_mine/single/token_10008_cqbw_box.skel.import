@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dc8x86ttn5jit"
+path="res://.godot/imported/token_10008_cqbw_box.skel-bd91d01a7f03d5aefbae592982ecf6df.tres"
+
+[deps]
+
+source_file="res://assets/operators/w_mine/single/token_10008_cqbw_box.skel"
+dest_files=["res://.godot/imported/token_10008_cqbw_box.skel-bd91d01a7f03d5aefbae592982ecf6df.tres"]
+
+[params]

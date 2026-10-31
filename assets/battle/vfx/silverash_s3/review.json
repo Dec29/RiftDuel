@@ -1,0 +1,55 @@
+{
+  "id": "silverash_s3",
+  "title": "银灰默认S3",
+  "operator_id": "silverash",
+  "asset_root": "res://assets/battle/vfx/silverash_s3/",
+  "output": "res://.ai/silverash-s3-20261023/evidence/",
+  "clip_ids": [
+    "activate",
+    "slash",
+    "hit",
+    "aura"
+  ],
+  "start_times": [
+    0.0,
+    0.4,
+    0.9,
+    0.0
+  ],
+  "anchors": [
+    "source",
+    "source",
+    "target",
+    "source"
+  ],
+  "target_distance_units": 2.4,
+  "projectile_seconds": 0.65,
+  "loop_seconds": 33.0,
+  "verify_times": [
+    0.15,
+    0.55,
+    1.2,
+    2.1,
+    29.9,
+    30.6,
+    32.0
+  ],
+  "hit_verify_time": 1.2,
+  "capture_ranges": [
+    [
+      0.0,
+      4.0
+    ],
+    [
+      29.0,
+      32.0
+    ]
+  ],
+  "actor_attack_clip": "Skill",
+  "board_times": [
+    0.3,
+    0.6,
+    1.2
+  ],
+  "performance_cycle_seconds": 2.5
+}

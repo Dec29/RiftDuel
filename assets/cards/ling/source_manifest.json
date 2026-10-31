@@ -1,0 +1,30 @@
+{
+  "operator_id": "ling",
+  "char_id": "char_2023_ling",
+  "files": [
+    {
+      "category": "cards",
+      "kind": "portrait",
+      "path": "assets/cards/ling/portrait.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/portrait/char_2023_ling_1.png",
+      "bytes": 129932,
+      "sha256": "26a07b0de11d84b1aef43f8cac963f2b9fbd923f8747c124539e9331d7b8c303",
+      "width": 180,
+      "height": 360
+    },
+    {
+      "category": "cards",
+      "kind": "avatar",
+      "path": "assets/cards/ling/avatar.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_2023_ling.png",
+      "bytes": 65299,
+      "sha256": "ffb7da7f7d047a9bd1da107356f021b470f82e2d9e02c928d171b130cbfef5ba",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e"
+  }
+}

@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://l4s7dp4iaj77"
+path="res://.godot/imported/char_263_skadi.atlas-2ed2ec5f6155d39230889bb1b9de463b.tres"
+
+[deps]
+
+source_file="res://assets/operators/skadi/back/char_263_skadi.atlas"
+dest_files=["res://.godot/imported/char_263_skadi.atlas-2ed2ec5f6155d39230889bb1b9de463b.tres"]
+
+[params]
+
+normal_map_prefix="n"

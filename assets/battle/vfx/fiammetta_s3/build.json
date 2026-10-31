@@ -1,0 +1,64 @@
+{
+  "source_pack": "res://assets/battle/vfx/fiammetta_s3/source_pack.json",
+  "output": "res://assets/battle/vfx/fiammetta_s3",
+  "frames_per_second": 30,
+  "discard_invisible": true,
+  "clips": [
+    {
+      "id": "buff",
+      "prefab": 0,
+      "role": "attached",
+      "emission_seconds": 4.0,
+      "duration_seconds": 4.0,
+      "loop_from_seconds": 2.0,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "buff_02",
+      "prefab": 1,
+      "role": "attached",
+      "emission_seconds": 8.0,
+      "duration_seconds": 8.0,
+      "loop_from_seconds": 1.0,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hit",
+      "prefab": 2,
+      "role": "hit",
+      "emission_seconds": 2.0,
+      "duration_seconds": 8.0,
+      "loop_from_seconds": -1.0,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "start",
+      "prefab": 3,
+      "role": "start",
+      "emission_seconds": 1.0,
+      "duration_seconds": 7.0,
+      "loop_from_seconds": -1.0,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

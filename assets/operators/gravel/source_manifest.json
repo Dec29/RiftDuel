@@ -1,0 +1,84 @@
+{
+  "operator_id": "gravel",
+  "display_name": "砾",
+  "char_id": "char_237_gravel",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/gravel/front/char_237_gravel.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_237_gravel/front/char_237_gravel.skel",
+      "sha256": "68cdd140fb8234704aa8f051e3df384558d838f1eeeba15ce690c9f591749f65",
+      "size": 97669
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/gravel/front/char_237_gravel.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_237_gravel/front/char_237_gravel.atlas",
+      "sha256": "fc70054baf6e5e5d55a70f49e06bc595988c58863dee187254b2013f1676fdd7",
+      "size": 5468
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/gravel/front/char_237_gravel.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_237_gravel/front/char_237_gravel.png",
+      "sha256": "047c7763f9870301b7a9abc354944c00f5a7e8cd05336381794b8dbcc96049c1",
+      "size": 59973
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/gravel/back/char_237_gravel.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_237_gravel/back/char_237_gravel.skel",
+      "sha256": "faef48d65a91876a7cf523da95c2697d7f91a7d181548ac36f8f2c8efb443066",
+      "size": 66429
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/gravel/back/char_237_gravel.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_237_gravel/back/char_237_gravel.atlas",
+      "sha256": "8aa052b080661e09c2fba7dda7257786706dc20828ae9388987b25834d34a65c",
+      "size": 3675
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/gravel/back/char_237_gravel.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_237_gravel/back/char_237_gravel.png",
+      "sha256": "4cb8a1677e8b3cba1ecc8df022c5f523a856bf9d1ae2096918e93f717d6baf1d",
+      "size": 36932
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 0.9666666666666667,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.0,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 0.9666666666666667,
+      "Default": 0.0,
+      "Idle": 2.0,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 56
+    },
+    "back": {
+      "width": 256,
+      "height": 256,
+      "mode": "straight alpha",
+      "normal_slots": 37
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

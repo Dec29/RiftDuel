@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cxdosavucp3fl"
+path="res://.godot/imported/char_180_amgoat.atlas-63909ef6296b6f04b207997c2f01399c.tres"
+
+[deps]
+
+source_file="res://assets/operators/eyjafjalla/front/char_180_amgoat.atlas"
+dest_files=["res://.godot/imported/char_180_amgoat.atlas-63909ef6296b6f04b207997c2f01399c.tres"]
+
+[params]
+
+normal_map_prefix="n"

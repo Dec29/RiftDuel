@@ -1,0 +1,92 @@
+[gd_resource type="Resource" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "凝滞师"
+description = "攻击造成法术伤害，命中赋予0.8秒停顿标记；停顿打断普攻或普通治疗，每目标3秒内最多一次、最多延后0.4秒，不影响主动技能或外力位移"
+effect_type = "slow_on_hit"
+effect_params = {"slow_duration": 0.8}
+
+[sub_resource type="Resource" id="Talent1"]
+script = ExtResource("3")
+talent_name = "技力光环·辅助"
+description = "在场时所有友方辅助干员自然技力回复速度+0.4/秒，同类效果取最高，包含自身"
+effect_type = "sp_recharge_aura"
+effect_params = {"profession_id": "supporter", "sp_recharge_bonus_percent": 40}
+
+[sub_resource type="Resource" id="Talent2"]
+script = ExtResource("3")
+talent_name = "画地为牢"
+description = "攻击范围内受停顿影响的敌方单位受到所有伤害提高20%；来源退场、离开范围或停顿结束即失效，球不受影响"
+effect_type = "slow_fragile_aura"
+effect_params = {"damage_taken_bonus_percent": 20}
+
+[sub_resource type="Resource" id="Skill1"]
+script = ExtResource("4")
+initial_sp = 0
+trigger_type = "auto"
+skill_name = "全力以赴"
+description = "攻击力+80%，攻击速度+30，自动开启"
+sp_required = 20
+sp_recharge_type = "time"
+effect_type = "atk_spd_boost_auto"
+effect_params = {"attack_mult": 1.8, "attack_speed_add": 30}
+duration = 30.0
+
+[sub_resource type="Resource" id="Skill2"]
+script = ExtResource("4")
+initial_sp = 0
+trigger_type = "auto"
+skill_name = "儿时的舞乐"
+description = "攻击力+60%，同时攻击3名敌方单位，持续无限。"
+sp_required = 80
+sp_recharge_type = "time"
+effect_type = "permanent_multi_target"
+effect_params = {"attack_mult": 1.6, "target_count": 3}
+duration = -1.0
+
+[sub_resource type="Resource" id="Skill3"]
+script = ExtResource("4")
+initial_sp = 50
+trigger_type = "manual"
+skill_name = "狐火渺然"
+description = "停止攻击，范围扩大并持续赋予停顿标记，范围内停顿敌人受到伤害+40%；首秒不回复，之后每秒刷新攻击力20%的生命回复速度，按本作50%折算，包含自身及召唤物。"
+sp_required = 70
+sp_recharge_type = "time"
+effect_type = "foxfire_aura"
+effect_params = {"regen_attack_percent": 20, "fragile_multiplier": 2}
+duration = 35.0
+attack_range_override = Array[Vector2i]([Vector2i(-1,2),Vector2i(0,2),Vector2i(1,2),Vector2i(2,2),Vector2i(-1,1),Vector2i(0,1),Vector2i(1,1),Vector2i(2,1),Vector2i(3,1),Vector2i(-1,0),Vector2i(0,0),Vector2i(1,0),Vector2i(2,0),Vector2i(3,0),Vector2i(-1,-1),Vector2i(0,-1),Vector2i(1,-1),Vector2i(2,-1),Vector2i(3,-1),Vector2i(-1,-2),Vector2i(0,-2),Vector2i(1,-2),Vector2i(2,-2)])
+
+[resource]
+script = ExtResource("1")
+operator_id = "suzuran"
+display_name = "铃兰"
+profession = "辅助"
+profession_id = "supporter"
+branch = "凝滞师"
+max_health = 1480
+attack = 521
+defense = 128
+magic_resist = 25
+damage_type = "magical"
+attack_interval = 1.9
+block_count = 1
+initial_deploy_cost = 14
+deploy_cost = 16
+redeploy_time = 70.0
+dodge_physical = 0
+dodge_magical = 0
+attack_range = Array[Vector2i]([Vector2i(-1,-1),Vector2i(-1,0),Vector2i(-1,1),Vector2i(0,-1),Vector2i(0,0),Vector2i(0,1),Vector2i(1,-1),Vector2i(1,0),Vector2i(1,1),Vector2i(2,-1),Vector2i(2,0),Vector2i(2,1)])
+terrain_requirement = "high"
+ignore_deploy_line = false
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent1")
+talent_2 = SubResource("Talent2")
+skills = Array[ExtResource("4")]([SubResource("Skill1"),SubResource("Skill2"),SubResource("Skill3")])
+equipped_skill_index = 0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://c76usofamr4cd"
+path="res://.godot/imported/char_248_mgllan.atlas-17ba0c93ec989dd3feb20603fcdc928e.tres"
+
+[deps]
+
+source_file="res://assets/operators/magallan/front/char_248_mgllan.atlas"
+dest_files=["res://.godot/imported/char_248_mgllan.atlas-17ba0c93ec989dd3feb20603fcdc928e.tres"]
+
+[params]
+
+normal_map_prefix="n"

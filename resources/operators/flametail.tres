@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_hplpf"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_8huv8"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_x5al4"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_2c848"]
+
+[sub_resource type="Resource" id="Resource_lsry1"]
+script = ExtResource("1_hplpf")
+trait_name = "尖兵"
+description = "能够阻挡两个敌人"
+effect_type = "prioritize_blocked"
+
+[sub_resource type="Resource" id="Resource_jccbw"]
+script = ExtResource("3_x5al4")
+skill_name = "迅敏直觉"
+initial_sp = 9
+trigger_type = "auto"
+sp_required = 18
+sp_recharge_type = "time"
+description = "自动获得6费用，并闪避下次物理攻击；闪避触发前锋剑术。"
+effect_type = "cost_dodge"
+effect_params = {
+"cost_add": 6
+}
+
+[sub_resource type="Resource" id="Resource_5hnf0"]
+script = ExtResource("3_x5al4")
+skill_name = "“红松林”"
+initial_sp = 30
+sp_required = 40
+sp_recharge_type = "time"
+description = "立即获得13费用；周围最多6名敌人各受两次240%攻击物伤和0.5秒眩晕，箱子和静止球独立受两段效果；10秒内周围友方物理闪避+50%，本体离场结束。"
+effect_type = "cost_dodge_burst"
+effect_params = {
+"attack_mult": 2.4,
+"buff_ticks": 300,
+"cost_add": 13,
+"dodge_percent": 50,
+"shot_count": 2,
+"stun_ticks": 15,
+"target_count": 6
+}
+attack_range_override = Array[Vector2i]([Vector2i(0, -2), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(0, 2)])
+
+[sub_resource type="Resource" id="Resource_bflto"]
+script = ExtResource("3_x5al4")
+skill_name = "焰心"
+initial_sp = 6
+sp_required = 16
+sp_recharge_type = "time"
+description = "8秒累计获得8费用，攻击+90%、基础间隔乘70%、阻挡+1，物理与法术闪避+80%。"
+effect_type = "cost_dodge_mode"
+effect_params = {
+"attack_interval_mult": 0.7,
+"attack_mult": 1.9,
+"block_count_add": 1,
+"dodge_percent": 80,
+"total_cost": 8
+}
+duration = 8.0
+
+[sub_resource type="Resource" id="Resource_o5seg"]
+script = ExtResource("4_2c848")
+talent_name = "前锋剑术"
+description = "触发闪避时，下次攻击变为二连击并攻击所有阻挡的敌人"
+effect_type = "dodge_counter"
+effect_params = {
+"shot_count": 2
+}
+
+[sub_resource type="Resource" id="Resource_u80hr"]
+script = ExtResource("4_2c848")
+talent_name = "红松骑士团团长"
+description = "在场时，所有【卡西米尔】势力的干员获得22%的物理闪避"
+effect_type = "group_physical_dodge"
+effect_params = {
+"dodge_percent": 22,
+"group_id": "kazimierz"
+}
+
+[resource]
+script = ExtResource("2_8huv8")
+operator_id = "flametail"
+display_name = "焰尾"
+profession = "先锋"
+profession_id = "vanguard"
+branch = "尖兵"
+group_id = "kazimierz"
+max_health = 2138
+attack = 526
+defense = 392
+damage_type = "physical"
+attack_interval = 1.05
+block_count = 2
+initial_deploy_cost = 12
+deploy_cost = 14
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_lsry1")
+talent_1 = SubResource("Resource_o5seg")
+talent_2 = SubResource("Resource_u80hr")
+skills = Array[ExtResource("3_x5al4")]([SubResource("Resource_jccbw"), SubResource("Resource_5hnf0"), SubResource("Resource_bflto")])

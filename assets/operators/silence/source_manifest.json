@@ -1,0 +1,55 @@
+{
+  "operator_id": "silence",
+  "display_name": "赫默",
+  "char_id": "char_108_silent",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "note": "原始素材按固定提交与SHA校验；已由3.8原生提供器生成运行资源，动作时长以实际完成事件核定，映射见OperatorSpineMap。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/silence/back/char_108_silent.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_108_silent/back/char_108_silent.atlas",
+      "sha256": "9703efee3c712072fdbdd3bb6ae67a33f31d716e03f91016b7d969ea21db46f8",
+      "size": 2998
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/silence/back/char_108_silent.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_108_silent/back/char_108_silent.png",
+      "sha256": "9b4d9d7058d0c70b8e2297af3ca28af29ff809aba09450ca813bbb5acf31a63d",
+      "size": 37075
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/silence/back/char_108_silent.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_108_silent/back/char_108_silent.skel",
+      "sha256": "28399049523508327b5011790e9f6e0d1c31d99ea003a4535732602ba90adf44",
+      "size": 49906
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/silence/front/char_108_silent.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_108_silent/front/char_108_silent.atlas",
+      "sha256": "97f40616abeb515f938a81b2f76c7a177bf7b9ebdfb0283d20220616feee6a68",
+      "size": 6053
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/silence/front/char_108_silent.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_108_silent/front/char_108_silent.png",
+      "sha256": "dde3304965e422b958d43453eaa21d1d7fde4d940a3cfb909e1dc7dc451de686",
+      "size": 66256
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/silence/front/char_108_silent.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_108_silent/front/char_108_silent.skel",
+      "sha256": "9e25c7813096f5e5dbca1089882e96d51a2c9be89265f2e889e72a9801e5fd8a",
+      "size": 124820
+    }
+  ]
+}

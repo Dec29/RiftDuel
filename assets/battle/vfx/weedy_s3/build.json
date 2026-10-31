@@ -1,0 +1,59 @@
+{
+  "source_pack": "res://assets/battle/vfx/weedy_s3/source_pack.json",
+  "output": "res://assets/battle/vfx/weedy_s3",
+  "frames_per_second": 30,
+  "clips": [
+    {
+      "id": "start",
+      "prefab": 0,
+      "emission_seconds": 1.0,
+      "duration_seconds": 2.0,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0.25,
+        0.4,
+        0
+      ],
+      "role": "start"
+    },
+    {
+      "id": "flight",
+      "prefab": 1,
+      "emission_seconds": 0.65,
+      "duration_seconds": 1.5,
+      "travel_units": 2.8,
+      "attachment_offset": [
+        0,
+        0.4,
+        0
+      ],
+      "role": "projectile"
+    },
+    {
+      "id": "hit",
+      "prefab": 2,
+      "emission_seconds": 1.0,
+      "duration_seconds": 3.0,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ],
+      "role": "hit"
+    },
+    {
+      "id": "buff",
+      "prefab": 3,
+      "emission_seconds": 8.0,
+      "duration_seconds": 10.0,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ],
+      "role": "attached"
+    }
+  ]
+}

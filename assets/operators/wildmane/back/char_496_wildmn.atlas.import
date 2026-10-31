@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://uad8jw6a11en"
+path="res://.godot/imported/char_496_wildmn.atlas-91478126451f2dee9c13f1f408b46fe5.tres"
+
+[deps]
+
+source_file="res://assets/operators/wildmane/back/char_496_wildmn.atlas"
+dest_files=["res://.godot/imported/char_496_wildmn.atlas-91478126451f2dee9c13f1f408b46fe5.tres"]
+
+[params]
+
+normal_map_prefix="n"

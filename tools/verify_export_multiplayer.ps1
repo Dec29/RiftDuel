@@ -17,7 +17,7 @@ $Verifier = Join-Path $ProjectRoot "tools\verify_multiplayer.ps1"
 $Cases = @(
     @{ Arguments = @("-Mode", "battle", "-Port", "24820") },
     @{ Arguments = @("-Mode", "battle", "-DelayMs", "200", "-Port", "24830") },
-    @{ Arguments = @("-Mode", "endurance", "-Ticks", "9000", "-Port", "24840") }
+    @{ Arguments = @("-Mode", "endurance", "-Ticks", "8100", "-Port", "24840") }
 )
 foreach ($Case in $Cases) {
     $Arguments = @("-ExecutionPolicy", "Bypass", "-File", $Verifier, "-Executable", $QaExecutable) + $Case.Arguments
@@ -28,5 +28,5 @@ foreach ($Case in $Cases) {
         exit 1
     }
 }
-Write-Host "EXPORTED MULTIPLAYER OK: complete battle, 200ms delay and 9000-tick endurance." -ForegroundColor Green
+Write-Host "EXPORTED MULTIPLAYER OK: complete battle, 200ms delay and 8100-tick endurance." -ForegroundColor Green
 exit 0

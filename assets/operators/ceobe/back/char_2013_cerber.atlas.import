@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://ba2twomocdmxq"
+path="res://.godot/imported/char_2013_cerber.atlas-e5844f810b66870277f32dded210c3a3.tres"
+
+[deps]
+
+source_file="res://assets/operators/ceobe/back/char_2013_cerber.atlas"
+dest_files=["res://.godot/imported/char_2013_cerber.atlas-e5844f810b66870277f32dded210c3a3.tres"]
+
+[params]
+
+normal_map_prefix="n"

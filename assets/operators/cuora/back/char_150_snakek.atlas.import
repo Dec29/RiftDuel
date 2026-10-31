@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://tspf71hmwl1b"
+path="res://.godot/imported/char_150_snakek.atlas-362e2768117c4aed3331897cfb6634e6.tres"
+
+[deps]
+
+source_file="res://assets/operators/cuora/back/char_150_snakek.atlas"
+dest_files=["res://.godot/imported/char_150_snakek.atlas-362e2768117c4aed3331897cfb6634e6.tres"]
+
+[params]
+
+normal_map_prefix="n"

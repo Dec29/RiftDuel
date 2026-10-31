@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://cnpcky0d7k25p"
+path="res://.godot/imported/token_10015_dusk_drgn.skel-bd02f0d0b45b9ef1edbc93042188839e.tres"
+
+[deps]
+
+source_file="res://assets/operators/dusk_freeling/single/token_10015_dusk_drgn.skel"
+dest_files=["res://.godot/imported/token_10015_dusk_drgn.skel-bd02f0d0b45b9ef1edbc93042188839e.tres"]
+
+[params]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://pypn7s4a17be"
+path="res://.godot/imported/char_225_haak.atlas-7608606c7ba4c9b490de6cb0bb17370c.tres"
+
+[deps]
+
+source_file="res://assets/operators/aak/back/char_225_haak.atlas"
+dest_files=["res://.godot/imported/char_225_haak.atlas-7608606c7ba4c9b490de6cb0bb17370c.tres"]
+
+[params]
+
+normal_map_prefix="n"

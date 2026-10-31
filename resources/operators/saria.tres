@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_shqrn"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_wa7kx"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_5wm2u"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_8dv16"]
+
+[sub_resource type="Resource" id="Resource_p6ild"]
+script = ExtResource("1_shqrn")
+trait_name = "守护者"
+description = "技能可以治疗友方单位；普通攻击为物理伤害。"
+effect_type = "guardian"
+
+[sub_resource type="Resource" id="Resource_3apl8"]
+script = ExtResource("3_5wm2u")
+skill_name = "急救"
+trigger_type = "auto"
+sp_required = 4
+sp_recharge_type = "time"
+description = "下一次攻击为周围生命比例不高于50%的一名友军恢复180%攻击力的生命；可充能3次。治疗按本作50%折算。"
+effect_type = "guardian_aid"
+effect_params = {
+"charge_count": 3,
+"heal_percent": 180,
+"hp_threshold_percent": 50
+}
+attack_range_override = Array[Vector2i]([Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1)])
+
+[sub_resource type="Resource" id="Resource_px6lt"]
+script = ExtResource("3_5wm2u")
+skill_name = "药物配置"
+trigger_type = "auto"
+sp_required = 7
+sp_recharge_type = "time"
+description = "治疗周围范围内所有生命未满的友军，治疗量为140%攻击力，按本作50%折算。"
+effect_type = "guardian_medicine"
+effect_params = {
+"heal_percent": 140
+}
+attack_range_override = Array[Vector2i]([Vector2i(-1, -2), Vector2i(0, -2), Vector2i(1, -2), Vector2i(-2, -1), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-2, 1), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(-1, 2), Vector2i(0, 2), Vector2i(1, 2)])
+
+[sub_resource type="Resource" id="Resource_d3y1i"]
+script = ExtResource("3_5wm2u")
+skill_name = "钙质化"
+initial_sp = 70
+sp_required = 80
+sp_recharge_type = "time"
+description = "停止攻击，每秒为范围内友军恢复35%攻击力的生命（按本作50%折算）；范围内敌方受到法术伤害+55%。原作移动减速60%在本作无自主移动对象，不改变攻击速度或外力位移，持续30秒。"
+effect_type = "guardian_calcium"
+effect_params = {
+"heal_percent": 35,
+"magic_damage_taken_percent": 155,
+"pulse_ticks": 30
+}
+duration = 30.0
+attack_range_override = Array[Vector2i]([Vector2i(0, -3), Vector2i(-1, -2), Vector2i(0, -2), Vector2i(1, -2), Vector2i(-2, -1), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(-3, 0), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(-2, 1), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(-1, 2), Vector2i(0, 2), Vector2i(1, 2), Vector2i(0, 3)])
+
+[sub_resource type="Resource" id="Resource_wepgd"]
+script = ExtResource("4_8dv16")
+talent_name = "莱茵充能护服"
+description = "每在场20秒，攻击力+5%、防御力+4%，最多5层。"
+effect_type = "rhine_suit"
+effect_params = {
+"attack_percent": 5,
+"defense_percent": 4,
+"interval_ticks": 600,
+"max_stacks": 5
+}
+
+[sub_resource type="Resource" id="Resource_myvkd"]
+script = ExtResource("4_8dv16")
+talent_name = "精神回复"
+description = "每次输出治疗时额外回复目标1点技力；技能生效中的目标不获得技力。"
+effect_type = "healing_sp"
+effect_params = {
+"sp_add": 1
+}
+
+[resource]
+script = ExtResource("2_wa7kx")
+group_id = "rhine"
+operator_id = "saria"
+display_name = "塞雷娅"
+profession = "重装"
+profession_id = "defender"
+branch = "守护者"
+max_health = 3150
+attack = 485
+defense = 595
+magic_resist = 10
+damage_type = "physical"
+attack_interval = 1.2
+block_count = 3
+initial_deploy_cost = 18
+deploy_cost = 22
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_p6ild")
+talent_1 = SubResource("Resource_wepgd")
+talent_2 = SubResource("Resource_myvkd")
+skills = Array[ExtResource("3_5wm2u")]([SubResource("Resource_3apl8"), SubResource("Resource_px6lt"), SubResource("Resource_d3y1i")])

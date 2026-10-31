@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://mi3nh8p1kecp"
+path="res://.godot/imported/char_401_elysm.atlas-29b4138995cb7e34043cf07717f4c1a2.tres"
+
+[deps]
+
+source_file="res://assets/operators/elysium/front/char_401_elysm.atlas"
+dest_files=["res://.godot/imported/char_401_elysm.atlas-29b4138995cb7e34043cf07717f4c1a2.tres"]
+
+[params]
+
+normal_map_prefix="n"

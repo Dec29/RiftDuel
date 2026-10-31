@@ -1,0 +1,73 @@
+{
+  "operator_id": "stainless_device_sp",
+  "char_id": "token_10027_ironmn_pile2",
+  "commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "views": [
+    "single"
+  ],
+  "files": [
+    {
+      "path": "assets/operators/stainless_device_sp/single/token_10027_ironmn_pile2.skel",
+      "side": "single",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10027_ironmn_pile2/token_10027_ironmn_pile2.skel",
+      "bytes": 46064,
+      "sha256": "36d00c3ffe246d278637bc9b69e636b6f806e3f783fc3208494e150963a460cb"
+    },
+    {
+      "path": "assets/operators/stainless_device_sp/single/token_10027_ironmn_pile2.atlas",
+      "side": "single",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10027_ironmn_pile2/token_10027_ironmn_pile2.atlas",
+      "bytes": 4464,
+      "sha256": "2c41acccf4cdf6d0e96ae5ddd2d2f84011d71da85a1c26d028e91dadf356e615"
+    },
+    {
+      "path": "assets/operators/stainless_device_sp/single/token_10027_ironmn_pile2.png",
+      "side": "single",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10027_ironmn_pile2/token_10027_ironmn_pile2.png",
+      "bytes": 31149,
+      "sha256": "31a719f3501b2e4435627306f98c455fabd07700d8e00011d3a37ab5057526ef"
+    }
+  ],
+  "export_version": "3.8.99",
+  "animation_seconds": {
+    "single": {
+      "Default": 0.0,
+      "End": 1.0,
+      "Idle": 2.8,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "single": {
+      "width": 512,
+      "height": 512,
+      "straight_alpha": true,
+      "slot_blend_modes": {
+        "C_Tyre_04": 0,
+        "C_Tyre_03": 0,
+        "C_T": 0,
+        "C_Line_04": 0,
+        "C_Box_05": 0,
+        "C_Box_06": 0,
+        "C_Box_04": 0,
+        "C_Box_03": 0,
+        "C_Box_02": 0,
+        "C_Box_01": 0,
+        "C_Tyre_02": 0,
+        "C_Tyre_01": 0,
+        "C_Line_03": 0,
+        "C_Line_02": 0,
+        "C_Line_01": 0,
+        "C_Tube": 0,
+        "C_Hand_01": 0,
+        "C_Head": 0,
+        "C_Head_1_4": 0,
+        "C_Head_1_3": 0,
+        "C_Head_1_2": 0,
+        "C_Head_1_1": 0
+      }
+    }
+  },
+  "normal_blend_verified": true,
+  "animation_measurement": "Native Spine 3.8 completion events sampled at 1/300 s and rounded to original 30 fps boundaries; presentation only."
+}

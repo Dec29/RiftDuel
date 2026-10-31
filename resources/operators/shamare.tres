@@ -1,0 +1,79 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_otkg3"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_uy74m"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_uvnef"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_kysnv"]
+
+[sub_resource type="Resource" id="Resource_mu456"]
+script = ExtResource("1_otkg3")
+trait_name = "削弱者"
+description = "攻击造成法术伤害"
+effect_type = "magical_attack"
+
+[sub_resource type="Resource" id="Resource_4udsb"]
+script = ExtResource("3_uvnef")
+skill_name = "病入膏肓"
+trigger_type = "auto"
+sp_required = 70
+sp_recharge_type = "time"
+description = "自动开启，无限持续；攻击+60%，天赋脆弱加成变为原来的180%（30%变54%）。"
+effect_type = "permanent_fragile_attack"
+effect_params = {
+"attack_mult": 1.6,
+"fragile_multiplier_percent": 180
+}
+duration = -1.0
+
+[sub_resource type="Resource" id="Resource_en2t1"]
+script = ExtResource("3_uvnef")
+skill_name = "诅咒娃娃"
+initial_sp = 10
+trigger_type = "auto"
+sp_required = 30
+sp_recharge_type = "time"
+description = "自动补充1个诅咒娃娃库存；部署5费、不占编队槽、最多同时1个，存续15秒，周围原作范围敌人攻防各-50%。娃娃不攻击、不挡球、不可受伤，部署后本体继续回技力，本体离场娃娃一并退场。"
+effect_type = "curse_doll_supply"
+effect_params = {
+"stock_limit": 1
+}
+
+[sub_resource type="Resource" id="Resource_bjv0q"]
+script = ExtResource("4_kysnv")
+talent_name = "溃败暗示"
+description = "攻击范围内的敌人生命少于40%时，令其获得30%的脆弱效果"
+effect_type = "low_health_fragile"
+effect_params = {
+"fragile_percent": 30,
+"hp_threshold_percent": 40
+}
+
+[sub_resource type="Resource" id="Resource_4qmjq"]
+script = ExtResource("4_kysnv")
+talent_name = "无第二天赋"
+description = "原作仅有一个天赋。"
+effect_type = "none"
+
+[resource]
+script = ExtResource("2_uy74m")
+operator_id = "shamare"
+display_name = "巫恋"
+profession = "辅助"
+profession_id = "supporter"
+branch = "削弱者"
+max_health = 1728
+attack = 408
+defense = 105
+magic_resist = 25
+damage_type = "magical"
+attack_interval = 1.6
+block_count = 1
+initial_deploy_cost = 10
+deploy_cost = 12
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -2), Vector2i(1, -2), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(0, 2), Vector2i(1, 2)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_mu456")
+talent_1 = SubResource("Resource_bjv0q")
+talent_2 = SubResource("Resource_4qmjq")
+skills = Array[ExtResource("3_uvnef")]([SubResource("Resource_4udsb"), SubResource("Resource_en2t1")])

@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bmr8y41qyvgjl"
+path="res://.godot/imported/char_423_blemsh.atlas-3b6f1405f83cb76b5a83ffb91a66bb2e.tres"
+
+[deps]
+
+source_file="res://assets/operators/blemishine/front/char_423_blemsh.atlas"
+dest_files=["res://.godot/imported/char_423_blemsh.atlas-3b6f1405f83cb76b5a83ffb91a66bb2e.tres"]
+
+[params]
+
+normal_map_prefix="n"

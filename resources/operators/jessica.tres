@@ -1,0 +1,76 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_avv1k"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_n0n2n"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_uuxpk"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_qpr2v"]
+
+[sub_resource type="Resource" id="Resource_y6jty"]
+script = ExtResource("1_avv1k")
+trait_name = "速射手"
+description = "优先攻击空中单位"
+effect_type = "prioritize_flying"
+
+[sub_resource type="Resource" id="Resource_sokmm"]
+script = ExtResource("3_uuxpk")
+skill_name = "强力击·β型"
+trigger_type = "attack"
+sp_required = 3
+sp_recharge_type = "on_hit"
+description = "下次攻击造成230%攻击力的物理伤害。"
+effect_type = "atk_boost_single"
+effect_params = {
+"attack_mult": 2.3
+}
+
+[sub_resource type="Resource" id="Resource_2cqlo"]
+script = ExtResource("3_uuxpk")
+skill_name = "掩护烟幕"
+initial_sp = 20
+sp_required = 40
+sp_recharge_type = "time"
+description = "25秒攻击+80%，获得75%物理与法术闪避。"
+effect_type = "atk_dodge_boost"
+effect_params = {
+"attack_mult": 1.8,
+"dodge_percent": 75
+}
+duration = 25.0
+
+[sub_resource type="Resource" id="Resource_rtdpn"]
+script = ExtResource("4_qpr2v")
+talent_name = "快速弹匣"
+description = "攻击速度+12"
+effect_type = "attack_speed_buff"
+effect_params = {
+"attack_speed_add": 12
+}
+
+[sub_resource type="Resource" id="Resource_xyflc"]
+script = ExtResource("4_qpr2v")
+talent_name = "无第二天赋"
+description = "原作仅有一个天赋。"
+effect_type = "none"
+
+[resource]
+script = ExtResource("2_n0n2n")
+operator_id = "jessica"
+display_name = "杰西卡"
+profession = "狙击"
+profession_id = "sniper"
+branch = "速射手"
+max_health = 1320
+attack = 475
+defense = 154
+damage_type = "physical"
+attack_interval = 1.0
+block_count = 1
+initial_deploy_cost = 10
+deploy_cost = 12
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(3, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(3, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_y6jty")
+talent_1 = SubResource("Resource_rtdpn")
+talent_2 = SubResource("Resource_xyflc")
+skills = Array[ExtResource("3_uuxpk")]([SubResource("Resource_sokmm"), SubResource("Resource_2cqlo")])

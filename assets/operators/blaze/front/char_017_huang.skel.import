@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://bwn0csc30lsx4"
+path="res://.godot/imported/char_017_huang.skel-52e8ae0ce2234747567d137e65bf1755.tres"
+
+[deps]
+
+source_file="res://assets/operators/blaze/front/char_017_huang.skel"
+dest_files=["res://.godot/imported/char_017_huang.skel-52e8ae0ce2234747567d137e65bf1755.tres"]
+
+[params]

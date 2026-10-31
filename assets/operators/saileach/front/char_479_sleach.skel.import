@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://d3ctma6i26twx"
+path="res://.godot/imported/char_479_sleach.skel-15ac1b0ad676eb27c42e500880d07f5b.tres"
+
+[deps]
+
+source_file="res://assets/operators/saileach/front/char_479_sleach.skel"
+dest_files=["res://.godot/imported/char_479_sleach.skel-15ac1b0ad676eb27c42e500880d07f5b.tres"]
+
+[params]

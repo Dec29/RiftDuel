@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_fokjq"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_qbur2"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_lpm4a"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_th6rp"]
+
+[sub_resource type="Resource" id="Resource_2vd76"]
+script = ExtResource("1_fokjq")
+trait_name = "阵法术师"
+description = "通常不攻击、防御+200%、法抗+20；开启技能造成全体法术伤害。"
+effect_type = "phalanx"
+effect_params = {
+"idle_defense_percent": 200,
+"idle_resist_add": 20
+}
+
+[sub_resource type="Resource" id="Resource_gk7rs"]
+script = ExtResource("3_lpm4a")
+skill_name = "玲珑"
+sp_required = 5
+sp_recharge_type = "time"
+description = "在初始状态与攻击状态间切换：攻击+60%，间隔+1秒，攻击停顿1秒；两种姿态均自然回技力。"
+effect_type = "lin_stance"
+effect_params = {
+"attack_interval_add": 1.0,
+"attack_mult": 1.6,
+"slow_ticks": 30
+}
+duration = -1.0
+
+[sub_resource type="Resource" id="Resource_geguq"]
+script = ExtResource("3_lpm4a")
+skill_name = "荫庇"
+initial_sp = 25
+sp_required = 30
+sp_recharge_type = "time"
+description = "攻速+130、嘲讽-1；范围内友军各自获得独立普通琉璃璧，破碎使用林的攻击力并以持有者为中心。"
+effect_type = "lin_shelter"
+effect_params = {
+"attack_mult": 1.0,
+"attack_speed_add": 130
+}
+duration = 25.0
+
+[sub_resource type="Resource" id="Resource_60jbp"]
+script = ExtResource("3_lpm4a")
+skill_name = "流光乍裂"
+initial_sp = 30
+sp_required = 50
+sp_recharge_type = "time"
+description = "攻击+200%，攻击和琉璃璧破碎范围扩大，阈值三倍；每次普攻击杀最多触发一次自身盾破碎并再生，可随时主动关闭。"
+effect_type = "lin_burst"
+effect_params = {
+"attack_mult": 3.0,
+"threshold_multiplier": 3
+}
+duration = 30.0
+attack_range_override = Array[Vector2i]([Vector2i(-1, 2), Vector2i(0, 2), Vector2i(1, 2), Vector2i(-2, 1), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-2, -1), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(-1, -2), Vector2i(0, -2), Vector2i(1, -2)])
+
+[sub_resource type="Resource" id="Resource_ou4b0"]
+script = ExtResource("4_th6rp")
+talent_name = "计出万全"
+description = "琉璃璧抵挡单次200以内伤害，超过则破碎并抵消200；破碎造成攻击力100%法术伤害、眩晕1秒，8秒后恢复。"
+effect_type = "glass_wall"
+effect_params = {
+"attack_percent": 100,
+"damage_threshold": 200,
+"recovery_ticks": 240,
+"stun_ticks": 30
+}
+
+[sub_resource type="Resource" id="Resource_fr5s0"]
+script = ExtResource("4_th6rp")
+talent_name = "韬光"
+description = "受到攻击时50%几率回复1SP，技能期间停回；切换姿态不阻止回SP。"
+effect_type = "damage_sp_proc"
+effect_params = {
+"chance_percent": 50,
+"sp_add": 1
+}
+
+[resource]
+script = ExtResource("2_qbur2")
+operator_id = "lin"
+display_name = "林"
+profession = "术师"
+profession_id = "caster"
+branch = "阵法术师"
+max_health = 2048
+attack = 849
+defense = 242
+magic_resist = 15
+damage_type = "magical"
+attack_interval = 2.0
+block_count = 1
+initial_deploy_cost = 22
+deploy_cost = 24
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 2), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(0, -2)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_2vd76")
+talent_1 = SubResource("Resource_ou4b0")
+talent_2 = SubResource("Resource_fr5s0")
+skills = Array[ExtResource("3_lpm4a")]([SubResource("Resource_gk7rs"), SubResource("Resource_geguq"), SubResource("Resource_60jbp")])

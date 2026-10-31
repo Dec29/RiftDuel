@@ -1,0 +1,338 @@
+{
+  "version": "2026-10-23",
+  "parent_commit": "31c51cb3d7023d1de9bb67b70e4fa4fcbaa62e9d",
+  "source": "source_manifest.json",
+  "files": [
+    {
+      "file": "assets/battle/vfx/native_add.gdshader",
+      "bytes": 1657,
+      "sha256": "26c9ed748b31474b4b27b974115ca5e84595ae99bee195a294ac1a35c84618d1"
+    },
+    {
+      "file": "assets/battle/vfx/native_add.gdshader.uid",
+      "bytes": 20,
+      "sha256": "85bfc9a16be2d214f0edd82969e6833ec20bd0754e1546526e79b337e9aaa063"
+    },
+    {
+      "file": "assets/battle/vfx/native_mix.gdshader",
+      "bytes": 1657,
+      "sha256": "87acd19b1e1dd833e03ed7798d387d89d1449b14577acb860a70c42abd4e5343"
+    },
+    {
+      "file": "assets/battle/vfx/native_mix.gdshader.uid",
+      "bytes": 19,
+      "sha256": "eaf3ae6a4cd4888601a8b2bca46ade0b8b926cb615ab2c3203003878ffb4afd4"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/activate.res",
+      "bytes": 56722,
+      "sha256": "5964bf21cd02fc14c06230bda6d20e50f29d4fbd5b2e0cb5a6368118b2e4a972"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/animation-binding-gaps.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/aura.res",
+      "bytes": 2821601,
+      "sha256": "6716d8b8e6149c644c3a29eff2fedd39de65a88f0a0fa0bf63915b1af28104e8"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/build.json",
+      "bytes": 1111,
+      "sha256": "10083b0d5cf61cccd4bb90dda4f3e08017358db2b41866878e5e913a19f0d453"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/build_report.json",
+      "bytes": 664,
+      "sha256": "c95c99c559aadd195f31fbff1a6081996cc3400eda2c88079c44e693aaeee191"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/dependency-gaps.json",
+      "bytes": 1761,
+      "sha256": "85daef84bc73fa06d0258f842a3e8a6b80942cf0333370533d2600098070cd38"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/hit.res",
+      "bytes": 75240,
+      "sha256": "6098381315b100668d380a6a2362da2c542f2b9cffa15dc86eddaa2f0cec9c56"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/review.json",
+      "bytes": 823,
+      "sha256": "218ec0e9e0f33d2fb2ed13efc47409ecfee7d9a200a750824be8f2b8e9ed554b"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/slash.res",
+      "bytes": 1529276,
+      "sha256": "a443d0352a2e283be4423ee661099240f53b717cb3c7cd9c177c36a6848a0e83"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/source_manifest.json",
+      "bytes": 11172,
+      "sha256": "c9277f8e2b37097925a6498d7086ca975f74ed2d0409adf8f3b13e70cd2bcf58"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/source_pack.json",
+      "bytes": 808303,
+      "sha256": "7dd4e86e025b0ad71a275b9d799c163e927f6220d1fe75795fb11b8ad14613fd"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-1512fc0efbde6852b5d5a28ec9cec589_-2727532356714157465.png",
+      "bytes": 2883,
+      "sha256": "c6bfd49a5aeccff0396da77e657b4cd739338b5f51073026b7028962ee76634d"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-1512fc0efbde6852b5d5a28ec9cec589_-2727532356714157465.png.import",
+      "bytes": 1114,
+      "sha256": "c64bad49d5503f862bacb38c9fa499a4b5ed499be2817af7235cdecfdb2edb78"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-1074696917881622342.png",
+      "bytes": 6284,
+      "sha256": "f74fe25ec860fd1893d58227f19ee76b6edd827f53f60f8f84801c934c5e71bc"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-1074696917881622342.png.import",
+      "bytes": 1115,
+      "sha256": "30ee7c0ac9e62e420ee3b98f82e1334ac8786f279e67b6d2469b57f7b07f17e5"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-490322365950258742.png",
+      "bytes": 25569,
+      "sha256": "c7353f6c22ad38a872120acda78856bc9543e080fb9319718419eb6e566c3ec4"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-490322365950258742.png.import",
+      "bytes": 1112,
+      "sha256": "4338eb20353c1d429bb7613af6a9aaeba105d1b447a7a667270b4663355510bc"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-7115701973194135445.png",
+      "bytes": 14064,
+      "sha256": "098c7fbe9f115debf49dc72ad6c4ce8de6600f788012686c4603cfeed7044229"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-7115701973194135445.png.import",
+      "bytes": 1114,
+      "sha256": "0a36534cb2a184dbd741f7e3da3b0e0f76fbedf753eb297d42a9a739b50986ca"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-7700247273027960271.png",
+      "bytes": 5875,
+      "sha256": "1c60043bc8f18abb7e7c462b5d95e7e89b66127d31983d419013ed7e40793a40"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-7700247273027960271.png.import",
+      "bytes": 1115,
+      "sha256": "b904d83f9e5c1bcb4b78811b321b79c72f1adcd30662707c8c905f70b45c31de"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_4895119931700019937.png",
+      "bytes": 9400,
+      "sha256": "cc1517acf28d5f5e5d9183c7092e42600926504850770a5771a18f526cd76da3"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_4895119931700019937.png.import",
+      "bytes": 1112,
+      "sha256": "e4a2c8ed9b7827d398115d66a68accc1722760faf2acb36a960aed10cdc47cd9"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-6e47d0dfcfa4cc129053ffbdb337bf30_-1883988582699147747.png",
+      "bytes": 1885,
+      "sha256": "5a8f661c1ddbd8eed08f262830258f49c0fceaf3b54cae515cea651568c7f28c"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-6e47d0dfcfa4cc129053ffbdb337bf30_-1883988582699147747.png.import",
+      "bytes": 1115,
+      "sha256": "37a4fd5b3c472f706ff75aae9c374e8af2b0401e455ffa7dc5e5b3de0dbff989"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-6e47d0dfcfa4cc129053ffbdb337bf30_-5865403016598297811.png",
+      "bytes": 1619,
+      "sha256": "e684dd67dcdcdd89ec6f4f2fe141d4a5da560d078003d461bd84b05506b0356d"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-6e47d0dfcfa4cc129053ffbdb337bf30_-5865403016598297811.png.import",
+      "bytes": 1115,
+      "sha256": "14543ca3ee89ad5a2239d02a3584055e201d420666930686a9a19bcb337a9b57"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-6e47d0dfcfa4cc129053ffbdb337bf30_416679827846209337.png",
+      "bytes": 3580,
+      "sha256": "c9fe1812043d65212f05190091808aba73b56adb65731c4bd9616e3e582db1a5"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-6e47d0dfcfa4cc129053ffbdb337bf30_416679827846209337.png.import",
+      "bytes": 1108,
+      "sha256": "9708f54b3ffdcffc3b33c282388bf1164b2a4259954c6a0b33dead78f503266b"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-895a9c6afcb47c5c7f43c8589b1fe2fc_-2706779508106823341.png",
+      "bytes": 7093,
+      "sha256": "da9bde28851c9a57a6c9c7d84b9cc654a3c082ace0d55b57f4d1fb48f3edd310"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-895a9c6afcb47c5c7f43c8589b1fe2fc_-2706779508106823341.png.import",
+      "bytes": 1115,
+      "sha256": "68a5f7c6a17d19dc4f8f43b53902bf677fb88144a0cd3658346e72852823da9c"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-92fdf60cd1676328e17f73f0bf852e97_-7761801520791614040.png",
+      "bytes": 848,
+      "sha256": "42ca76ff5f67e54e9bac0e82222bd458ddf15b48b945f247ffdf57e73c93ebe3"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-92fdf60cd1676328e17f73f0bf852e97_-7761801520791614040.png.import",
+      "bytes": 1115,
+      "sha256": "e1cb3e963184daefb93ba76625d4f31c8db257634123ebd2e6ec20644d15cdae"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_-5167899338068653716.png",
+      "bytes": 81922,
+      "sha256": "13009f49e42831a9b0d7f96aff09d8b0b125ceb43b7d06ad67e8b0fbafb592a9"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_-5167899338068653716.png.import",
+      "bytes": 1115,
+      "sha256": "95a37bf12214be53712ef8a2a31554fb184d15ce36aaab20804e34480b8cbba7"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-9033574108148208245.png",
+      "bytes": 25019,
+      "sha256": "576771fe06ac83ebb137fab52476536aca002d87f678662e6663c18318ca8dfc"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-9033574108148208245.png.import",
+      "bytes": 1115,
+      "sha256": "e8cffc3933fd01525835bf1919a7c490505d6502899d293d5190cd070ce6d007"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_1329491080043089029.png",
+      "bytes": 28733,
+      "sha256": "8b90b774e25851a512683495053b0741074ea44412c228c1fb5ca5c97069c55b"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_1329491080043089029.png.import",
+      "bytes": 1111,
+      "sha256": "45cf5b2cf63c399554f0a91041f47d0da4619eab18cc8af45f504395d7124e07"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-d78082c54cca29d82a1f4895c6b873e6_1151801759286928301.png",
+      "bytes": 25363,
+      "sha256": "a7be5735e003e80ddcf806d7e7f6083beedc7b30ca66372be6d1ae54171d5e32"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-d78082c54cca29d82a1f4895c6b873e6_1151801759286928301.png.import",
+      "bytes": 1112,
+      "sha256": "f2dd4c374091b0a31f80dba9663bcf3e25800c77d536b1ec43c2dca8ea0f3b5d"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-7887427954279609538.png",
+      "bytes": 2875,
+      "sha256": "c3d27b0165fb0e84fc74c4c4d2cf1ccf67e9d056fd2474e4ab70314f37c74484"
+    },
+    {
+      "file": "assets/battle/vfx/silverash_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-7887427954279609538.png.import",
+      "bytes": 1115,
+      "sha256": "4ece3a3df64502cf438854b709f98f3790719e311548b1f784f237660ddc5c43"
+    },
+    {
+      "file": "Docs/original_vfx.md",
+      "bytes": 7335,
+      "sha256": "6744f01b7e9d7cf9813289615cb5ddf3b6ffd6bd613c5c2468feaba1acee2102"
+    },
+    {
+      "file": "Docs/silverash_s3_vfx.md",
+      "bytes": 9400,
+      "sha256": "096b8558953ffcdddfd26f02a88d36a794ce89c03307ad332ab5767df5f78eb6"
+    },
+    {
+      "file": "tools/audit_original_vfx.py",
+      "bytes": 6495,
+      "sha256": "242f0147d11d41eb2ec43d5de7425c9b9cbfe101089a726b1ea31a8a5d487419"
+    },
+    {
+      "file": "tools/build_original_vfx.gd",
+      "bytes": 2885,
+      "sha256": "ffc3b4b43d37e3026bca53938ca3b1aaf0a327bd3ccba64b55646199bec92bf4"
+    },
+    {
+      "file": "tools/build_original_vfx.gd.uid",
+      "bytes": 19,
+      "sha256": "8816e8c8205c1a9cfdf8ff200bef9dd5fa2b15ada146f65eb36107ac8c62ca1f"
+    },
+    {
+      "file": "tools/export_original_vfx.py",
+      "bytes": 8798,
+      "sha256": "de36b67c6259e13adbdeeb55010fa1616fbe8e059443b18dd5ea2e94a682f4a3"
+    },
+    {
+      "file": "tools/original_vfx_sampler.gd",
+      "bytes": 20493,
+      "sha256": "a61dcd893923b27b9a93b2a3b9a3dc3a334829a20e187d6c2854b5e7857dbd46"
+    },
+    {
+      "file": "tools/original_vfx_sampler.gd.uid",
+      "bytes": 20,
+      "sha256": "8806df9b83194792a5fd02aa4ff449693f3141d87ab82336e819f9ef0ba5d2d2"
+    },
+    {
+      "file": "tools/package_original_vfx_check.gd",
+      "bytes": 2030,
+      "sha256": "bc5a1cf509e36cec59829ddfb8038fa829221d6cd78915e5d2477ee98a33dcc1"
+    },
+    {
+      "file": "tools/test_original_vfx.gd",
+      "bytes": 10030,
+      "sha256": "5432ffb8ec92179a6efdcb33a5d7da1cafa6a5756c10641f5456d45b744248b3"
+    },
+    {
+      "file": "tools/test_original_vfx.gd.uid",
+      "bytes": 19,
+      "sha256": "756a276f1b7d5a12af2c267c64e348ea302afda8e07735e526b550a4067a059d"
+    },
+    {
+      "file": "tools/test_original_vfx_board.gd",
+      "bytes": 5722,
+      "sha256": "5b9c9d34faf66e2d158f4f10316387c8dfe7d2986849568c5b4f7cf1ea348682"
+    },
+    {
+      "file": "tools/test_original_vfx_board.gd.uid",
+      "bytes": 20,
+      "sha256": "742bb9d8297dcc673d8a18b6e8cfd7db91e4a1380211d00f5670ab1392b2c955"
+    },
+    {
+      "file": "view/original_vfx_clip.gd",
+      "bytes": 653,
+      "sha256": "8ccdae85fd66c31769fafef3f92ba249c4e677cecd9f577887c305e0fdc3f86f"
+    },
+    {
+      "file": "view/original_vfx_clip.gd.uid",
+      "bytes": 20,
+      "sha256": "4cb3ffc2266d462c551714636aee4bd5df0f03b173e6ce97d3a85ae650e79c8e"
+    },
+    {
+      "file": "view/original_vfx_frame.gd",
+      "bytes": 132,
+      "sha256": "0b9c9bdfdf4058250d1d6cdf13e8eba47830f8b2986beabdca715b80dabeae25"
+    },
+    {
+      "file": "view/original_vfx_frame.gd.uid",
+      "bytes": 20,
+      "sha256": "3c0d8b51d55eeb0c901a9eaa290273e3b68552f9dfa90e588c29acceb22ff4c6"
+    },
+    {
+      "file": "view/original_vfx_player.gd",
+      "bytes": 1376,
+      "sha256": "89e9a8d5ddce052ba9e1fd965b2cdce1782f1856e160eb77188cd003ff845268"
+    },
+    {
+      "file": "view/original_vfx_player.gd.uid",
+      "bytes": 20,
+      "sha256": "97d8edce28de0729bdc92cd90fdac2cd57508b4af118d56b01259c0df9235d12"
+    }
+  ],
+  "note": "Current SilverAsh revision snapshot; unchanged Weedy M129 manifest retains its original shared-tool revision. Does not include ignored QA media/PCK."
+}

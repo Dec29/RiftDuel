@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://73miuk1stymd"
+path="res://.godot/imported/char_109_fmout.atlas-bfa2944cd586de6bb201a0ddbc798e7f.tres"
+
+[deps]
+
+source_file="res://assets/operators/gitano/front/char_109_fmout.atlas"
+dest_files=["res://.godot/imported/char_109_fmout.atlas-bfa2944cd586de6bb201a0ddbc798e7f.tres"]
+
+[params]
+
+normal_map_prefix="n"

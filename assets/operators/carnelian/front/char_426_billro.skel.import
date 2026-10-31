@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dcugnd0e1fs8h"
+path="res://.godot/imported/char_426_billro.skel-79f2bf91fdf5412f64df57ba15e55494.tres"
+
+[deps]
+
+source_file="res://assets/operators/carnelian/front/char_426_billro.skel"
+dest_files=["res://.godot/imported/char_426_billro.skel-79f2bf91fdf5412f64df57ba15e55494.tres"]
+
+[params]

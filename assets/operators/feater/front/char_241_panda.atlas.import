@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cyq1g1xkasvie"
+path="res://.godot/imported/char_241_panda.atlas-171bb781d4e76234d16ad466c01d537d.tres"
+
+[deps]
+
+source_file="res://assets/operators/feater/front/char_241_panda.atlas"
+dest_files=["res://.godot/imported/char_241_panda.atlas-171bb781d4e76234d16ad466c01d537d.tres"]
+
+[params]
+
+normal_map_prefix="n"

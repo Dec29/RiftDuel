@@ -5,11 +5,15 @@ signal changed
 signal failed(message: String)
 signal match_requested
 
-const PROTOCOL := 1
+const PROTOCOL := 7
 const PORT := 24770
 const CONNECT_TIMEOUT_MS := 8000
 const DISCOVERY_PORT := 24771
 const INPUT_DELAY := 4
+
+var _copy_ids: PackedStringArray
+var _command_ids: PackedStringArray
+var _summon_owners: Dictionary
 
 var peer: ENetMultiplayerPeer
 var side := 0
@@ -20,10 +24,24 @@ var remote_id := 0
 var build_id := ""
 var local_ready := false
 var remote_ready := false
+var local_returned := false
+var remote_returned := false
+var local_squad := PackedStringArray()
+var remote_squad := PackedStringArray()
+var local_skills := PackedInt32Array()
+var remote_skills := PackedInt32Array()
 var match_seed := 0
 var announced_result := 0
 var finish_tick := -1
 var bilateral_finish := false
+var rules := MatchRules.pvp_default()
+var match_rules := MatchRules.pvp_default()
+var rules_revision := 1
+var rules_pending := false
+var round_number := 0
+var series := SeriesState.new()
+var draft: DraftRoom
+
 var discovery: PacketPeerUDP
 var _host_port := PORT
 var _discovery_port := DISCOVERY_PORT
@@ -41,6 +59,14 @@ var _received_through := INPUT_DELAY - 1
 var _consumed := 0
 var _deadline := 0
 var _hello_sent := false
+
+
+func _init(content: Dictionary) -> void:
+	_command_ids = content["ids"].duplicate()
+	_summon_owners = content["summon_owners"].duplicate()
+	draft = DraftRoom.new(self,content["skill_counts"])
+	for id in _command_ids:
+		if not _summon_owners.has(id):_copy_ids.append(id)
 
 
 func _ready() -> void:
@@ -152,17 +178,72 @@ func join_code(code: String, discovery_port: int = DISCOVERY_PORT) -> void:
 	changed.emit()
 
 
+func can_edit_rules() -> bool:
+	return side==0 and phase in ["hosting","room"] and round_number==0 and not rules_pending
+
+
+func set_rules(value: Dictionary) -> void:
+	assert(can_edit_rules())
+	var error := MatchRules.validate(value)
+	if not error.is_empty():
+		_fail(error)
+		return
+	_apply_rules(value,rules_revision+1)
+	if phase=="room":_send({"type":"rules","rules":rules.to_wire(),"revision":rules_revision})
+	changed.emit()
+
+
+func _apply_rules(value: Dictionary, revision: int) -> void:
+	rules=MatchRules.from_wire(value)
+	rules_revision=revision
+	rules_pending=false
+	local_ready=false
+	remote_ready=false
+	status="规则已更新，双方请重新准备"
+
+
+func record_round(result: int) -> void:
+	series.record(round_number,result)
+
+
+func series_wins() -> PackedInt32Array:
+	return series.wins()
+
+
+func has_next_round() -> bool:
+	return round_number>0 and round_number<match_rules.rounds
+
+
+func _continue_series() -> void:
+	if side==0 and phase=="room" and local_ready and remote_ready:start_match()
+
+
 func set_ready(ready: bool) -> void:
-	assert(phase == "room")
+	assert(phase == "room" and round_number==0 and not rules_pending)
+	if ready:
+		if local_squad.is_empty():
+			local_squad = PackedStringArray(preload("res://data/config.gd").DEFAULT_SQUAD_IDS)
+			local_skills.resize(local_squad.size())
+		var validation := SquadConfig.validate_loadout(local_squad, local_skills)
+		if not validation.is_empty():
+			_fail(validation)
+			return
+		_send({"type": "squad", "operators": Array(local_squad), "skills": Array(local_skills), "revision":rules_revision})
 	local_ready = ready
-	_send({"type": "ready", "ready": ready})
+	_send({"type": "ready", "ready": ready, "revision":rules_revision})
 	changed.emit()
 
 
 func start_match() -> void:
-	assert(side == 0 and phase == "room" and local_ready and remote_ready)
+	assert(side == 0 and phase == "room" and local_ready and remote_ready and not remote_squad.is_empty())
+	assert(not rules_pending)
+	if rules.draft_enabled and round_number==0 and not draft.completed:
+		draft.begin()
+		return
+	round_number+=1
+	match_rules=rules.copy()
 	match_seed = RNG.new(Time.get_ticks_usec()).next_u32()
-	_send({"type": "start", "seed": match_seed})
+	_send({"type": "start", "seed": match_seed,"rules":match_rules.to_wire(),"revision":rules_revision,"round":round_number})
 	phase = "loading"
 	_deadline = Time.get_ticks_msec() + CONNECT_TIMEOUT_MS
 	match_requested.emit()
@@ -215,7 +296,44 @@ func completed() -> void:
 	_deadline = 0
 
 
+func return_to_room() -> void:
+	assert(phase == "running" and finish_tick > 0 and not local_returned)
+	local_returned = true
+	phase = "returning"
+	status = "已返回原房间，等待对方结束结算"
+	_send({"type": "return_room"})
+	if remote_returned:_reset_match()
+	changed.emit()
+
+
+func _reset_match() -> void:
+	var continuing := has_next_round()
+	phase = "room"
+	status = "正在加载下一局" if continuing else "双方已返回原房间，请重新准备"
+	local_ready = continuing
+	remote_ready = continuing
+	if not continuing:
+		draft.reset()
+		round_number=0
+		series.results.clear()
+	else:call_deferred("_continue_series")
+	local_returned = false
+	remote_returned = false
+	match_seed = 0
+	finish_tick = -1
+	announced_result = 0
+	_local_loaded = false
+	_remote_loaded = false
+	_local_frames.clear()
+	_remote_frames.clear()
+	_sealed_through = INPUT_DELAY - 1
+	_received_through = INPUT_DELAY - 1
+	_consumed = 0
+	_deadline = 0
+
+
 func _process(_delta: float) -> void:
+	draft.poll()
 	if discovery != null:
 		_poll_discovery()
 	if peer == null:
@@ -245,6 +363,15 @@ func _receive(message: Dictionary) -> void:
 	if not message.get("type") is String:
 		_fail("网络消息类型无效")
 		return
+	if draft.receive(message): return
+	if message.type in ["squad","ready","start"] and phase=="room":
+		if not CommandCodec.is_integer(message.get("revision"),1,1000000000):
+			_fail("规则版本无效")
+			return
+		if int(message.revision)<rules_revision:return
+		if int(message.revision)!=rules_revision:
+			_fail("规则版本未同步")
+			return
 	if message.type == "hello" and phase == "hosting":
 		if message.get("protocol") != PROTOCOL or message.get("build") != build_id or message.get("code") != room_code:
 			_send({"type": "reject", "reason": "版本、数据或配对码不一致"})
@@ -252,7 +379,7 @@ func _receive(message: Dictionary) -> void:
 			status = "拒绝加入：版本、数据或配对码不一致"
 			changed.emit()
 			return
-		_send({"type": "welcome", "protocol": PROTOCOL, "build": build_id})
+		_send({"type": "welcome", "protocol": PROTOCOL, "build": build_id,"rules":rules.to_wire(),"revision":rules_revision})
 		phase = "room"
 		status = "玩家已加入"
 		_deadline = 0
@@ -261,16 +388,36 @@ func _receive(message: Dictionary) -> void:
 		if message.get("protocol") != PROTOCOL or message.get("build") != build_id:
 			_fail("房主版本或数据不一致")
 			return
+		if not MatchRules.validate(message.get("rules")).is_empty() or not CommandCodec.is_integer(message.get("revision"),1,1000000000):
+			_fail("房间规则无效")
+			return
+		_apply_rules(message.rules,int(message.revision))
 		phase = "room"
 		status = "已加入房间"
 		_deadline = 0
 		changed.emit()
 	elif message.type == "reject" and message.get("reason") is String:
 		_fail(message.reason)
-	elif message.type == "ready" and phase == "room" and message.get("ready") is bool:
+	elif message.type=="rules" and message.size()==3 and phase=="room" and side==1 and round_number==0 and CommandCodec.is_integer(message.get("revision"),rules_revision+1,rules_revision+1) and MatchRules.validate(message.get("rules")).is_empty():
+		_apply_rules(message.rules,int(message.revision))
+		changed.emit()
+	elif message.type == "squad" and phase == "room" and not remote_ready and message.size() == 4:
+		var validation := SquadConfig.validate_loadout(message.get("operators"), message.get("skills"))
+		if not validation.is_empty():
+			_fail(validation)
+			return
+		remote_squad = PackedStringArray(message.operators)
+		remote_skills = PackedInt32Array(message.skills)
+		changed.emit()
+	elif message.type == "ready" and phase == "room" and message.get("ready") is bool and (not message.ready or not remote_squad.is_empty()):
 		remote_ready = message.ready
 		changed.emit()
 	elif message.type == "start" and phase == "room" and side == 1 and local_ready and remote_ready and CommandCodec.is_integer(message.get("seed"), 0, 4294967295):
+		if message.size()!=5 or not MatchRules.validate(message.get("rules")).is_empty() or MatchRules.from_wire(message.rules).to_wire()!=rules.to_wire() or not CommandCodec.is_integer(message.get("round"),round_number+1,round_number+1) or round_number>=rules.rounds:
+			_fail("开局规则或局数无效")
+			return
+		round_number=int(message.round)
+		match_rules=rules.copy()
 		match_seed = int(message.seed)
 		phase = "loading"
 		_deadline = Time.get_ticks_msec() + CONNECT_TIMEOUT_MS
@@ -282,19 +429,27 @@ func _receive(message: Dictionary) -> void:
 			_begin()
 	elif message.type == "begin" and phase == "loading" and side == 1 and _local_loaded:
 		_begin()
-	elif message.type == "frame" and phase == "running":
+	elif message.type == "frame" and phase in ["running", "returning"]:
 		if not CommandCodec.is_integer(message.get("tick"), _received_through + 1, _received_through + 1) or int(message.tick) > _consumed + INPUT_DELAY * 2 + 1:
 			_fail("输入帧重复、过期或超出缓冲")
 			return
-		var decoded := CommandCodec.decode(message.get("commands"), int(message.tick))
+		var decoded := CommandCodec.decode(message.get("commands"), int(message.tick), _command_ids, _copy_ids)
 		if decoded.has("error"):
 			_fail(decoded.error)
 			return
+		var squad_error := validate_squad_commands(decoded.commands)
+		if not squad_error.is_empty():
+			_fail(squad_error)
+			return
 		_received_through = int(message.tick)
 		_remote_frames[_received_through] = decoded.commands
-	elif message.type == "finish" and phase == "running" and side == 1 and CommandCodec.is_integer(message.get("tick"), 1, 1000000000) and CommandCodec.is_integer(message.get("result"), 1, 3) and finish_tick == -1:
+	elif message.type == "finish" and phase == "running" and side == 1 and CommandCodec.is_integer(message.get("tick"), 1, match_rules.max_input_ticks()) and CommandCodec.is_integer(message.get("result"), 1, 3) and finish_tick == -1:
 		finish_tick = int(message.tick)
 		announced_result = int(message.result)
+	elif message.type == "return_room" and message.size() == 1 and phase in ["running", "returning"] and finish_tick > 0 and not remote_returned:
+		remote_returned = true
+		if local_returned:_reset_match()
+		changed.emit()
 	elif message.type == "leave":
 		_fail("对方已离开对局")
 	else:
@@ -316,6 +471,13 @@ func close() -> void:
 	if discovery != null:
 		discovery.close()
 	discovery = null
+	draft.reset()
+	rules=MatchRules.pvp_default()
+	match_rules=rules.copy()
+	rules_revision=1
+	rules_pending=false
+	round_number=0
+	series.results.clear()
 	phase = "idle"
 	status = ""
 	room_code = ""
@@ -325,6 +487,12 @@ func close() -> void:
 	_hello_sent = false
 	local_ready = false
 	remote_ready = false
+	local_returned = false
+	remote_returned = false
+	local_squad.clear()
+	remote_squad.clear()
+	local_skills.clear()
+	remote_skills.clear()
 	_local_loaded = false
 	_remote_loaded = false
 	_local_frames.clear()
@@ -337,8 +505,19 @@ func close() -> void:
 	finish_tick = -1
 
 
+func validate_squad_commands(commands: Array[InputCommand]) -> String:
+	for command in commands:
+		if command.kind == InputCommand.Kind.DEPLOY:
+			if _summon_owners.has(command.operator_id):
+				if _summon_owners[command.operator_id] not in remote_squad:
+					return "编队未携带召唤物所属干员"
+			elif command.operator_id not in remote_squad:
+				return "输入包含未携带干员"
+	return ""
+
+
 func leave() -> void:
-	if peer != null and remote_id > 0 and phase in ["room", "loading", "running"]:
+	if peer != null and remote_id > 0 and phase in ["room", "draft", "loading", "running", "returning"]:
 		_send({"type": "leave"})
 		peer.poll()
 	close()

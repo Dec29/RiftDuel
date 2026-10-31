@@ -1,0 +1,249 @@
+{
+  "copyright": "Arknights / Hypergryph and respective rightsholders. Local non-commercial fan-project testing is not a new license. Repository code license does not cover game art.",
+  "sources": [
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\battle\\prefabs\\effects\\ines.ab",
+      "bytes": 2050096,
+      "sha256": "90fa8d25102ee7b2ff4c1c09ef43d089cc2b9a57553b700d03c9a0ad9601e7d1"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\Resources\\unity default resources",
+      "bytes": 4832808,
+      "sha256": "c162b36ea191fb5990ec98906e9c3097c2a2bfed250bf71ad3650e65df291eb0"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\sharedbattle.ab",
+      "bytes": 3492990,
+      "sha256": "e410dbd41ff68ffd678794cb3b9974cc43111c347925c0e645f5c016f75a4fd9"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\refs\\fx\\material.ab",
+      "bytes": 63148,
+      "sha256": "53e01422e18f06641dd8e893d61aa9914fb65f7058767f7ea7c47b85ccfd7eff"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\[uc]shaders.ab",
+      "bytes": 443792,
+      "sha256": "668663dccbada9272f30092c5fe5a5b3594a24da56b43527fd65212146860e0a"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\flow.ab",
+      "bytes": 13817256,
+      "sha256": "f60b60836874c9f629303d5f750c119abe191e81582a335ffe52572b3666e4d5"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\star.ab",
+      "bytes": 6518666,
+      "sha256": "d8512b0e687726df11cb77dff8260443ccecbe7dbef507075a041508d11117fc"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\object.ab",
+      "bytes": 9439743,
+      "sha256": "29696096cbf917d3039b0cc3b3f7fe0ecd39513354e22c3ab7d5ad30f20d7fdd"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\mask.ab",
+      "bytes": 3953135,
+      "sha256": "6e1c5a448c5b74271f484f186e29f08c553bcef31e4d890bd1d36d4b96b68f7f"
+    }
+  ],
+  "prefabs": [
+    {
+      "name": "ines_label_01",
+      "original_cab": "CAB-eeda8283d130d4f958772051c57e40bd",
+      "game_object_path_id": "-263292560998238590"
+    },
+    {
+      "name": "ines_label_start_01",
+      "original_cab": "CAB-eeda8283d130d4f958772051c57e40bd",
+      "game_object_path_id": "4751817110558869644"
+    }
+  ],
+  "textures": [
+    {
+      "file": "textures/CAB-38dfd52763d3e93a929240c854b1fb51_-1339425037013770825.png",
+      "original_cab": "CAB-38dfd52763d3e93a929240c854b1fb51",
+      "original_path_id": "-1339425037013770825",
+      "bytes": 13935,
+      "sha256": "33d4564913714309f86fd3b6adf1f5da94280c46e8f559aaae4c0a7dbdb5962a"
+    },
+    {
+      "file": "textures/CAB-38dfd52763d3e93a929240c854b1fb51_-7148604214243877625.png",
+      "original_cab": "CAB-38dfd52763d3e93a929240c854b1fb51",
+      "original_path_id": "-7148604214243877625",
+      "bytes": 15040,
+      "sha256": "80ae4578e55eeac1a25240876d34a024dc53e87f3e7dc916980d30526c3ae26f"
+    },
+    {
+      "file": "textures/CAB-38dfd52763d3e93a929240c854b1fb51_4906405342130830807.png",
+      "original_cab": "CAB-38dfd52763d3e93a929240c854b1fb51",
+      "original_path_id": "4906405342130830807",
+      "bytes": 16299,
+      "sha256": "4519782bb5a1a9beea52df520085b4cbdee46ffb7090a2b9943769b289154414"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-1074696917881622342.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-1074696917881622342",
+      "bytes": 6284,
+      "sha256": "f74fe25ec860fd1893d58227f19ee76b6edd827f53f60f8f84801c934c5e71bc"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-6676820809169620918.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-6676820809169620918",
+      "bytes": 2694,
+      "sha256": "68f83d3b4f3ef4a3bcfb9e7816eee8bface0423413f6c88d0428b2ea4df3570a"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_1189108376795520739.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "1189108376795520739",
+      "bytes": 3201,
+      "sha256": "56f4ae9a6f0b3b17057c4953af16883bfd4e77c3854573136f0b40373e3c9b0a"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_6385664579077255288.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "6385664579077255288",
+      "bytes": 551,
+      "sha256": "43e0b573b20c8ee2c47005449ee1fdf9cf6a3d7db16d19403434efce7c38c68d"
+    },
+    {
+      "file": "textures/CAB-5edea5af85bbd22eb07df1eb29c4f175_5263801844287840603.png",
+      "original_cab": "CAB-5edea5af85bbd22eb07df1eb29c4f175",
+      "original_path_id": "5263801844287840603",
+      "bytes": 13385,
+      "sha256": "4a7324871f3a03097042ba5508248899368381b8f84f93817622fb2fc7ffa65f"
+    },
+    {
+      "file": "textures/CAB-92fdf60cd1676328e17f73f0bf852e97_-9047848340541360941.png",
+      "original_cab": "CAB-92fdf60cd1676328e17f73f0bf852e97",
+      "original_path_id": "-9047848340541360941",
+      "bytes": 840,
+      "sha256": "4e9e44e278c8463244e99bf26349d4d3bd31a78e752a2d7eae7e93ccfa391a66"
+    },
+    {
+      "file": "textures/CAB-92fdf60cd1676328e17f73f0bf852e97_2744111543284256367.png",
+      "original_cab": "CAB-92fdf60cd1676328e17f73f0bf852e97",
+      "original_path_id": "2744111543284256367",
+      "bytes": 7818,
+      "sha256": "fcdea3cbe61d5f7ce33454b080624b3bed3078a8f086e81249302d3b76524bbf"
+    },
+    {
+      "file": "textures/CAB-92fdf60cd1676328e17f73f0bf852e97_282143581252583402.png",
+      "original_cab": "CAB-92fdf60cd1676328e17f73f0bf852e97",
+      "original_path_id": "282143581252583402",
+      "bytes": 866,
+      "sha256": "2cf15e07f98eeb771e6fa9ba7e93ae7989a0db7e9d405ca071aa6e8a8feb49c7"
+    },
+    {
+      "file": "textures/CAB-92fdf60cd1676328e17f73f0bf852e97_5755921275089968269.png",
+      "original_cab": "CAB-92fdf60cd1676328e17f73f0bf852e97",
+      "original_path_id": "5755921275089968269",
+      "bytes": 462,
+      "sha256": "4ab43877b21dbba983f68e4dbbed97d61e3d94f9eaf336a3f426d17f6ed2d732"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-4064428261868403559.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "-4064428261868403559",
+      "bytes": 13649,
+      "sha256": "7e6fc120dde66779c37718d4aff600d707596c54c7f6f2c6b094e8c56f60946c"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-5485948985838053847.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "-5485948985838053847",
+      "bytes": 15888,
+      "sha256": "c90455f42ff713ab89dd53983dc0630d73abd87a8b30cecc753319ffac6a5b16"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_1405532575406939152.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "1405532575406939152",
+      "bytes": 55407,
+      "sha256": "729ccc18dbec2a9ae87f387e6d62ff04a484e505cd0b5a51fabf2c5905d5913a"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_3266127543813571043.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "3266127543813571043",
+      "bytes": 42063,
+      "sha256": "7f9c95adc355ced4c00028c27a924a58c9c2b90226575178c52dbd6c5dcdc617"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_3290307498704296944.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "3290307498704296944",
+      "bytes": 52609,
+      "sha256": "6c22a6f954d9a8683aa5ee510528eed2777d1d8c8304e6bcf31b967a7149a580"
+    },
+    {
+      "file": "textures/CAB-eeda8283d130d4f958772051c57e40bd_-6032942347593697448.png",
+      "original_cab": "CAB-eeda8283d130d4f958772051c57e40bd",
+      "original_path_id": "-6032942347593697448",
+      "bytes": 13649,
+      "sha256": "7e6fc120dde66779c37718d4aff600d707596c54c7f6f2c6b094e8c56f60946c"
+    },
+    {
+      "file": "textures/CAB-eeda8283d130d4f958772051c57e40bd_-7304015543619164215.png",
+      "original_cab": "CAB-eeda8283d130d4f958772051c57e40bd",
+      "original_path_id": "-7304015543619164215",
+      "bytes": 1031,
+      "sha256": "dc777b03bf978f398a328cac4a8bd302d46dca2dfdcf35b4218c01d5f0288035"
+    },
+    {
+      "file": "textures/CAB-eeda8283d130d4f958772051c57e40bd_1756146406155572972.png",
+      "original_cab": "CAB-eeda8283d130d4f958772051c57e40bd",
+      "original_path_id": "1756146406155572972",
+      "bytes": 6284,
+      "sha256": "f74fe25ec860fd1893d58227f19ee76b6edd827f53f60f8f84801c934c5e71bc"
+    },
+    {
+      "file": "textures/CAB-eeda8283d130d4f958772051c57e40bd_5831906194667879223.png",
+      "original_cab": "CAB-eeda8283d130d4f958772051c57e40bd",
+      "original_path_id": "5831906194667879223",
+      "bytes": 18988,
+      "sha256": "99f82579b3fbd636a055043c44e0efcbed43e80732a78f3e765b03e5818fcfac"
+    },
+    {
+      "file": "textures/CAB-eeda8283d130d4f958772051c57e40bd_6215185708624137130.png",
+      "original_cab": "CAB-eeda8283d130d4f958772051c57e40bd",
+      "original_path_id": "6215185708624137130",
+      "bytes": 41080,
+      "sha256": "c3215af067ad3c39952385e219bed0dc460a319890986c4e65c5d2eae8716de3"
+    },
+    {
+      "file": "textures/CAB-eeda8283d130d4f958772051c57e40bd_7594013706301875108.png",
+      "original_cab": "CAB-eeda8283d130d4f958772051c57e40bd",
+      "original_path_id": "7594013706301875108",
+      "bytes": 1031,
+      "sha256": "dc777b03bf978f398a328cac4a8bd302d46dca2dfdcf35b4218c01d5f0288035"
+    },
+    {
+      "file": "textures/CAB-eeda8283d130d4f958772051c57e40bd_937257357394673399.png",
+      "original_cab": "CAB-eeda8283d130d4f958772051c57e40bd",
+      "original_path_id": "937257357394673399",
+      "bytes": 8094,
+      "sha256": "9204bb0b934ff6f7186dee1f3ddd593a4b2c7d6de24cf71f4768b7aa43421fc7"
+    }
+  ],
+  "source_pack_bytes": 1036582,
+  "source_pack_sha256": "86bcd2020d5170b0e23e94dc77a151caeec4f18cde3a772a4b539a20916865cf",
+  "decoder": {
+    "unitypy": "1.25.4",
+    "unpacker_commit": "4a4b9efc6be4690b68b70b4a16578950baa066d3",
+    "lz4ak_source_sha256": "55832b28aefe510880bfcf54c0628138b0ee561b46b3fb8830f58fddadcd475a"
+  },
+  "animation_binding_gaps": [],
+  "runtime_files": [
+    {
+      "path": "res://assets/battle/props/ines_shadow/shadow.res",
+      "bytes": 23988657,
+      "sha256": "ba4f231c06d89be99ac63910d9322fe606d2dc0e71f6446248343ea27521a19c"
+    }
+  ],
+  "build_config": "res://assets/battle/props/ines_shadow/build.json",
+  "adaptation_note": "Original component/texture/mesh/animation conversion. Ines uses persistent ines_label_01 only; label_start retained as source research but not mapped. Unity scripting/camera/postprocessing not reconstructed. Flag native cloth bones, trails and UV driver restored; existing simulation landing path retained."
+}

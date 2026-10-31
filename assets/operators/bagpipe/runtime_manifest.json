@@ -1,0 +1,300 @@
+{
+  "source": "User-supplied SpineBridge Windows bundle under E:/Spine",
+  "files": [
+    {
+      "file": "addons/spine_bridge/editor/preview/localized_property_editor.gd",
+      "size": 8458,
+      "sha256": "f75a42d737745da09dcfcddc2ee05da4dbe26281607c227146a52a5386cced05"
+    },
+    {
+      "file": "addons/spine_bridge/editor/preview/localized_property_editor.gd.uid",
+      "size": 20,
+      "sha256": "a833a8c32e591ca7ff80f25efb0f9cd6f11abc54bbd39363cd6d254a664c3645"
+    },
+    {
+      "file": "addons/spine_bridge/editor/preview/mix_editor_property.gd",
+      "size": 7477,
+      "sha256": "68bc9d1ea905faef5ced54cfe8e407b6dd95760726bf694792b59cbe1b0517b5"
+    },
+    {
+      "file": "addons/spine_bridge/editor/preview/mix_editor_property.gd.uid",
+      "size": 20,
+      "sha256": "c94d82c4a6d9a82db29e40946b1b50f33b0462ea4a7d352288c71f5b8e5e13c8"
+    },
+    {
+      "file": "addons/spine_bridge/editor/preview/mix_inspector_plugin.gd",
+      "size": 7891,
+      "sha256": "cad34f8e62b7e3fe20429fcd0fce6271a293212508fa44aaa05002a2d1cdcc79"
+    },
+    {
+      "file": "addons/spine_bridge/editor/preview/mix_inspector_plugin.gd.uid",
+      "size": 20,
+      "sha256": "c4a60ea6a8ff12f5e4535c73658fb1426100cea9a0ae2c28b250cca5e039ad13"
+    },
+    {
+      "file": "addons/spine_bridge/editor/preview/plugin.cfg",
+      "size": 171,
+      "sha256": "3855d11f500bec96c54269f80709ea9da449ee3ab5a72911e57b427f9af147eb"
+    },
+    {
+      "file": "addons/spine_bridge/editor/preview/plugin.gd",
+      "size": 740,
+      "sha256": "bf5a34a7774dc50df12d3a7a50460760e7b4b0ff3b3f2f097610a3aa9c536335"
+    },
+    {
+      "file": "addons/spine_bridge/editor/preview/plugin.gd.uid",
+      "size": 20,
+      "sha256": "8b3b3df16a7011e23e23eba3f313ff641da8f583affccbc5862a2d9a80d7ec6f"
+    },
+    {
+      "file": "addons/spine_bridge/editor/transform/plugin.cfg",
+      "size": 188,
+      "sha256": "d05ff747261b4380926364c6d796f33cda56924c31aca09743ea4d8e8d376436"
+    },
+    {
+      "file": "addons/spine_bridge/editor/transform/plugin.gd",
+      "size": 23358,
+      "sha256": "ce91afdb667ed01e835b78416b9a69382ba74249b68378576984c30c7df158f5"
+    },
+    {
+      "file": "addons/spine_bridge/editor/transform/plugin.gd.uid",
+      "size": 20,
+      "sha256": "12f2cfa6726e1ce3bc43d7f1933846858f368c61abb0aa3e3944b686e3372a85"
+    },
+    {
+      "file": "addons/spine_bridge/editor/transform/README.md",
+      "size": 1498,
+      "sha256": "096ec2512e4d8c67d6868dca0b593ebf7c907889421dca01046507f8a5b447e1"
+    },
+    {
+      "file": "addons/spine_bridge/editor/transform/tests/runner.gd",
+      "size": 9461,
+      "sha256": "bf5a9321a5eeb6ab477a6df0615e8d750192d98ed0d60ff44e161e6f60eb5a48"
+    },
+    {
+      "file": "addons/spine_bridge/editor/transform/tests/runner.gd.uid",
+      "size": 20,
+      "sha256": "ab999173fd5f52d7e9457f69e5c9289ecab0c42126978daa8e8244d5e88f81c8"
+    },
+    {
+      "file": "addons/spine_bridge/editor/transform/transform_math.gd",
+      "size": 1418,
+      "sha256": "7bf956c0d013b78d04f5e40c8209c69f51f3e1b5060e29f8b113e71eeb6d547c"
+    },
+    {
+      "file": "addons/spine_bridge/editor/transform/transform_math.gd.uid",
+      "size": 20,
+      "sha256": "e9dc2680c6913eea6b00afaaa0e20402885c69c7603f29fd5a63bb2abd7b5909"
+    },
+    {
+      "file": "addons/spine_bridge/GODOT-CPP-LICENSE.md",
+      "size": 1093,
+      "sha256": "26a5b210d90760156ce886267ce9df235787dcc6cebfd7ecd95ef5b6fdcc95bf"
+    },
+    {
+      "file": "addons/spine_bridge/plugin.cfg",
+      "size": 149,
+      "sha256": "b28cc36bb1c7d7aa6b143e5778cf4efd8f2584aeb07e7f7ceceda71c0bfd0c22"
+    },
+    {
+      "file": "addons/spine_bridge/plugin.gd",
+      "size": 661,
+      "sha256": "a222d98e9181aa43aae9a100ba4efd38159a6759ad47adbac6d36a2c0e909da9"
+    },
+    {
+      "file": "addons/spine_bridge/plugin.gd.uid",
+      "size": 20,
+      "sha256": "f817215575bb2c63d9a21cc74f09b3a4c0dfdf2bc11572ced3b070a4cd12708b"
+    },
+    {
+      "file": "addons/spine_bridge/providers.json",
+      "size": 7496,
+      "sha256": "5a54c42532fe33ce79ebe43504cac3336b80e337e2a90d08b634a4cef8a71296"
+    },
+    {
+      "file": "addons/spine_bridge/README.md",
+      "size": 1965,
+      "sha256": "21e8082e9004e345306d6b9b6ee4ae5bf873ec74a4cc6f0cfafc4846172e9abd"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_animation_track.gd",
+      "size": 22042,
+      "sha256": "8d1135a50a23081067bb5750edc1bd6c1de833ce49600dede6d8440f22889476"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_animation_track.gd.uid",
+      "size": 20,
+      "sha256": "8fd7dbac8c7bd44c2cc8fa4dd7c74a118aed2a3a306ef4da8c3a8eef3ac06590"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_bone_node.gd",
+      "size": 4935,
+      "sha256": "32d78cf4d70c47d51d596b5141f900c76b5e0bf72e46f091fb608e485b5fc596"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_bone_node.gd.uid",
+      "size": 19,
+      "sha256": "bca609342dd4fd673359999fa26db3eed18df23dc500785d5018cfbd8bc15562"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_bridge.gd",
+      "size": 21495,
+      "sha256": "7437cfc542387157cfb0158a38db2db3c1e967dd6bdc0df42c61842b9860ecbe"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_bridge.gd.uid",
+      "size": 20,
+      "sha256": "4d74e811796079dd0cb70c792587713fd6a9caf2743de90e47251eb6babf5d31"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_render_shaders.gd",
+      "size": 11904,
+      "sha256": "f9eb23e3a3425fc1160bdcd290412e3a8bbbb4ec33aeee5e331f5d642e78d88e"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_render_shaders.gd.uid",
+      "size": 19,
+      "sha256": "90e42a00f195e9bd1186dde99fe2f6b2add85ec88d5f5fc44a5a687cd1cf67e7"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_render_shaders_3d.gd",
+      "size": 11446,
+      "sha256": "da7676e9fbf7ea76fa33dec449d097b0018fc464177d04224f60f6e772ae9717"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_render_shaders_3d.gd.uid",
+      "size": 20,
+      "sha256": "9cd827bfe8b9de88aaff742926016b9ad73097b9838c17f0deb390ffc3e48559"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_slot_node.gd",
+      "size": 6431,
+      "sha256": "77aef8431a09995d814978a8db4f95082d8a0c1f80959f9862eccf1cdd774275"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_slot_node.gd.uid",
+      "size": 20,
+      "sha256": "130aa06a0a3b78a24e0364d63c50500fbb98f2fa677310ccbbab704772f038ee"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_slot_node_3d.gd",
+      "size": 14285,
+      "sha256": "20bfa6fad4162821223c952b43e3b961e1e7be048613752a255437e857630b7c"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_slot_node_3d.gd.uid",
+      "size": 20,
+      "sha256": "5a5c825e7788dbb65115f8c523701e8dd7927676702b481039fd19ac4c321bc2"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_sprite.gd",
+      "size": 3031,
+      "sha256": "6414a56fdc58b2030a70d2b8ed8feb6dc42f0a63328c61fe4f0756c4b87c9282"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_sprite.gd.uid",
+      "size": 20,
+      "sha256": "ded71b035f0292a2640052aa16f0203898e9b78a5b11b26cccb928af5bbae82b"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_sprite_3d.gd",
+      "size": 39094,
+      "sha256": "8123f11fe4691d0561e0199c404c1b9fec25f518efbc8e75caf6987612303649"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_sprite_3d.gd.uid",
+      "size": 19,
+      "sha256": "4b1e14bc42262f498e24bcc6714e5dd5720dd1006bbcc89d74f938c2ec32eaba"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_sprite_core.gd",
+      "size": 97849,
+      "sha256": "79035132817b52aa2e48299d6b8097d05fd443b43531279857dee557e0e31be4"
+    },
+    {
+      "file": "addons/spine_bridge/scripts/spine_sprite_core.gd.uid",
+      "size": 19,
+      "sha256": "8db34efd754651e2b4cecc95e275c7b1f47f7f8bb2be4518f75f1af0a0320439"
+    },
+    {
+      "file": "addons/spine_bridge/SPINE-RUNTIMES-LICENSE.txt",
+      "size": 1469,
+      "sha256": "b9d50158f6c23a704d123fd0200cc00633a693ccf9b0aacb15e5d5b9cf6c0d58"
+    },
+    {
+      "file": "addons/spine_bridge/spine_bridge.gdextension",
+      "size": 2250,
+      "sha256": "256107862b72974b2525b78eaf82dda448a735b9cc3f1d37cd8c5da9ec7957ec"
+    },
+    {
+      "file": "addons/spine_bridge/spine_bridge.gdextension.uid",
+      "size": 20,
+      "sha256": "2ef4ef6f0b537ec7adb93543e2b184e167022065a2715850e962fe9887dff299"
+    },
+    {
+      "file": "addons/spine_bridge/windows/libspine_bridge.windows.editor.x86_64.dll",
+      "size": 2130944,
+      "sha256": "9f81213187bdea1fdd1bb90d27ec622cadf49363b8b431725a4cafedd8b72cde"
+    },
+    {
+      "file": "addons/spine_bridge/windows/libspine_bridge.windows.template_debug.x86_64.dll",
+      "size": 2025984,
+      "sha256": "0170623e7c524be052c06e618f49e83bf2422d864b459cba2956be813bb579ad"
+    },
+    {
+      "file": "addons/spine_bridge/windows/libspine_bridge.windows.template_release.x86_64.dll",
+      "size": 1363456,
+      "sha256": "8d1f8382ebff94d01900d237722f116cbb1014eebf654f04925e944434d5edc5"
+    },
+    {
+      "file": "addons/spine_bridge/windows/spine_provider_38.windows.editor.x86_64.dll",
+      "size": 618496,
+      "sha256": "68e37ea1cb4094872c1bdcd63a4eab4c997cdabc2b15f484cad9ee7eec8221f2"
+    },
+    {
+      "file": "addons/spine_bridge/windows/spine_provider_38.windows.template_release.x86_64.dll",
+      "size": 592384,
+      "sha256": "76355d6f96bfb435b835eeebfd951e27d6fb8fb819bd235d0197148c73e4799f"
+    },
+    {
+      "file": "addons/spine_bridge/windows/spine_provider_40.windows.editor.x86_64.dll",
+      "size": 669696,
+      "sha256": "cedf81edb709a8d61cd5825784d70ab9f5a6da6e5016d9c0ce0137cee270ace2"
+    },
+    {
+      "file": "addons/spine_bridge/windows/spine_provider_40.windows.template_release.x86_64.dll",
+      "size": 644096,
+      "sha256": "a8d21bed6072aff3801f554cb8613ae1782d4bbbe0445679b25d097060bb5677"
+    },
+    {
+      "file": "addons/spine_bridge/windows/spine_provider_41.windows.editor.x86_64.dll",
+      "size": 686592,
+      "sha256": "e21fb7157c1f1420609d72a9a322429f37cda57975478f5faaddb17bf69849ff"
+    },
+    {
+      "file": "addons/spine_bridge/windows/spine_provider_41.windows.template_release.x86_64.dll",
+      "size": 662016,
+      "sha256": "795bfdec031789f284b89af51d284c89cb72a280972d5f5aa48342cbc70e1478"
+    },
+    {
+      "file": "addons/spine_bridge/windows/spine_provider_42.windows.editor.x86_64.dll",
+      "size": 885248,
+      "sha256": "f4b8d41cd36b0a1cb2b2233bd72f402147cc9723d0c4891248675409d2e3fae0"
+    },
+    {
+      "file": "addons/spine_bridge/windows/spine_provider_42.windows.template_release.x86_64.dll",
+      "size": 832512,
+      "sha256": "1111a1096b375f946825d3049bf569fe4f26bfb7ec92ce51723460bc45210033"
+    },
+    {
+      "file": "addons/spine_bridge/windows/spine_provider_43.windows.editor.x86_64.dll",
+      "size": 1004544,
+      "sha256": "394f1cb59906b1c79947c9afc86e8ba1fc3c0b8a51850994ccbccb0c8cece78e"
+    },
+    {
+      "file": "addons/spine_bridge/windows/spine_provider_43.windows.template_release.x86_64.dll",
+      "size": 945664,
+      "sha256": "a9efadb93fcf205c9d07b0b5562dbfdfdc5db5060161c894db62dd5e6f574298"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://cq7ohbmq7mqcj"
+path="res://.godot/imported/char_197_poca.skel-3f89df301796614dee29e556bad83b83.tres"
+
+[deps]
+
+source_file="res://assets/operators/rosa/front/char_197_poca.skel"
+dest_files=["res://.godot/imported/char_197_poca.skel-3f89df301796614dee29e556bad83b83.tres"]
+
+[params]

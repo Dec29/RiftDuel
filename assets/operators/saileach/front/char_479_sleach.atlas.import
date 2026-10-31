@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://liyr54bct3f6"
+path="res://.godot/imported/char_479_sleach.atlas-b17e83c95f08fd8df2121e4a468fc0f9.tres"
+
+[deps]
+
+source_file="res://assets/operators/saileach/front/char_479_sleach.atlas"
+dest_files=["res://.godot/imported/char_479_sleach.atlas-b17e83c95f08fd8df2121e4a468fc0f9.tres"]
+
+[params]
+
+normal_map_prefix="n"

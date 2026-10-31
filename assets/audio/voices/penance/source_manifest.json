@@ -1,0 +1,67 @@
+{
+  "operator_id": "penance",
+  "char_id": "char_4065_judge",
+  "display_name": "斥罪",
+  "files": [
+    {
+      "category": "voice",
+      "tag": "023",
+      "language": "ja",
+      "path": "assets/audio/voices/penance/cn_023.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4065_judge/cn_023.mp3",
+      "bytes": 25304,
+      "sha256": "55c249f78074d64c068b69b70988814f7b20640170b0bfe8140bcdce434799c8"
+    },
+    {
+      "category": "voice",
+      "tag": "024",
+      "language": "ja",
+      "path": "assets/audio/voices/penance/cn_024.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4065_judge/cn_024.mp3",
+      "bytes": 55397,
+      "sha256": "fdd1c7d13abaeac74762f020d358fa0436cfe2f0d512decc62d59cdbe486055d"
+    },
+    {
+      "category": "voice",
+      "tag": "025",
+      "language": "ja",
+      "path": "assets/audio/voices/penance/cn_025.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4065_judge/cn_025.mp3",
+      "bytes": 24886,
+      "sha256": "173af0e19e96992ea9346f5522db472150aaff87979f414a469ba0004ea17aba"
+    },
+    {
+      "category": "voice",
+      "tag": "026",
+      "language": "ja",
+      "path": "assets/audio/voices/penance/cn_026.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4065_judge/cn_026.mp3",
+      "bytes": 41813,
+      "sha256": "b023ff2986bbf3983701affc1a0d27177cb5cc6eb21748c71eddf0c5d79649c1"
+    },
+    {
+      "category": "voice",
+      "tag": "027",
+      "language": "ja",
+      "path": "assets/audio/voices/penance/cn_027.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4065_judge/cn_027.mp3",
+      "bytes": 42649,
+      "sha256": "19713ffe37420f555ba3e4b886d33130cfd55019e5ea0cdb095e3dfdc4e187ef"
+    },
+    {
+      "category": "voice",
+      "tag": "028",
+      "language": "ja",
+      "path": "assets/audio/voices/penance/cn_028.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4065_judge/cn_028.mp3",
+      "bytes": 30111,
+      "sha256": "76fa68dbda5a7e0e2f8e45362cf356869db2e44b8034320cc6d6040c7e2134ed"
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified."
+}

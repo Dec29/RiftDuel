@@ -1,0 +1,73 @@
+{
+  "operator_id": "saria",
+  "display_name": "塞雷娅",
+  "char_id": "char_202_demkni",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/saria/front/char_202_demkni.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_202_demkni/front/char_202_demkni.skel",
+      "sha256": "2b9adb87ef6fd1137271f13f920d48f73fe5c7817c752bc63879e21e97b39775",
+      "size": 163353
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/saria/front/char_202_demkni.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_202_demkni/front/char_202_demkni.atlas",
+      "sha256": "27876a624e20bd79169eab9217549fa540a6162afafb33071dcb4c3c76ed85ae",
+      "size": 5017
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/saria/front/char_202_demkni.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_202_demkni/front/char_202_demkni.png",
+      "sha256": "807e2018d4ac6fd5303833b07edd733861acf3d6d86c3d4f5c392a4ce63b4952",
+      "size": 81039
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/saria/back/char_202_demkni.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_202_demkni/back/char_202_demkni.skel",
+      "sha256": "89f67465d1ec39d76038f55e6693174da282e48622e903c4baa8b6dd5fd509ac",
+      "size": 69838
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/saria/back/char_202_demkni.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_202_demkni/back/char_202_demkni.atlas",
+      "sha256": "75795fcb6058ddbc61e6b98053990da8e44e9c3a44a4276fd12f0e2dab773735",
+      "size": 3472
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/saria/back/char_202_demkni.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_202_demkni/back/char_202_demkni.png",
+      "sha256": "689dabe9deb1f8a3059df069f503485ba97daacf5a6039366493a584baafae7f",
+      "size": 65011
+    }
+  ],
+  "export_version": "3.8.99",
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.1666666666666667,
+      "Attack_2": 1.0,
+      "Idle": 2.0,
+      "Start": 0.8333333333333334,
+      "Skill_Begin": 0.7,
+      "Skill_Loop": 0.4,
+      "Skill_End": 0.5,
+      "Die": 1.0
+    },
+    "back": {
+      "Attack": 1.1666666666666667,
+      "Attack_2": 1.0,
+      "Idle": 2.0,
+      "Start": 0.8333333333333334
+    }
+  },
+  "animation_note": "Native 3.8 completed events measured per side. Attack is physical shield attack; visible syringe healing uses Attack_2. S3 front maintained Skill_Begin/Loop, native back has no maintained skill family and stays Idle. Animation events never drive simulation."
+}

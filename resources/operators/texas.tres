@@ -1,0 +1,79 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_ag16u"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_g5mci"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_recrn"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_nbvwq"]
+
+[sub_resource type="Resource" id="Resource_w0xk2"]
+script = ExtResource("1_ag16u")
+trait_name = "尖兵"
+description = "能够阻挡两个敌人；本作无自主移动阻挡对象。"
+effect_type = "prioritize_blocked"
+
+[sub_resource type="Resource" id="Resource_o5euu"]
+script = ExtResource("3_recrn")
+skill_name = "冲锋号令·γ型"
+initial_sp = 20
+trigger_type = "auto"
+sp_required = 35
+sp_recharge_type = "time"
+description = "立即获得12点部署费用。"
+effect_type = "instant_cost"
+effect_params = {
+"cost_add": 12
+}
+
+[sub_resource type="Resource" id="Resource_gvc2j"]
+script = ExtResource("3_recrn")
+skill_name = "剑雨"
+initial_sp = 30
+sp_required = 40
+sp_recharge_type = "time"
+description = "立即获得12费用；同一tick内对范围内全部敌人造成两段170%法术伤害及3秒眩晕，同时对所有箱子各打击两次，并对静止球施加两次原始推力。各类目标互不排斥，视觉同时爆发，无目标也可开启。"
+effect_type = "texas_sword_rain"
+effect_params = {
+"attack_mult": 1.7,
+"cost_add": 12,
+"shot_count": 2,
+"stun_ticks": 90
+}
+attack_range_override = Array[Vector2i]([Vector2i(0, -2), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(0, 2)])
+
+[sub_resource type="Resource" id="Resource_d8nb5"]
+script = ExtResource("4_nbvwq")
+talent_name = "战术快递"
+description = "编入队伍后，本方初始部署费用+2；本场只在初始化时生效。"
+effect_type = "initial_cost"
+effect_params = {
+"cost_add": 2
+}
+
+[sub_resource type="Resource" id="Resource_71ha1"]
+script = ExtResource("4_nbvwq")
+talent_name = "无第二天赋"
+description = "原作仅有一个天赋，不额外添加天赋。"
+effect_type = "none"
+
+[resource]
+script = ExtResource("2_g5mci")
+operator_id = "texas"
+display_name = "德克萨斯"
+profession = "先锋"
+profession_id = "vanguard"
+branch = "尖兵"
+max_health = 1950
+attack = 500
+defense = 343
+damage_type = "physical"
+attack_interval = 1.05
+block_count = 2
+initial_deploy_cost = 11
+deploy_cost = 13
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_w0xk2")
+talent_1 = SubResource("Resource_d8nb5")
+talent_2 = SubResource("Resource_71ha1")
+skills = Array[ExtResource("3_recrn")]([SubResource("Resource_o5euu"), SubResource("Resource_gvc2j")])

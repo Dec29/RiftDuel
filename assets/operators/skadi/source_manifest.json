@@ -1,0 +1,64 @@
+{
+  "operator_id": "skadi",
+  "display_name": "斯卡蒂",
+  "char_id": "char_263_skadi",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/skadi/front/char_263_skadi.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_263_skadi/front/char_263_skadi.skel",
+      "sha256": "b1e4b1e201814722e913748461f954e53246b6ee64391821fcef278aaa32e012",
+      "size": 131647
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/skadi/front/char_263_skadi.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_263_skadi/front/char_263_skadi.atlas",
+      "sha256": "c5ae52555f5bc2d65cec00f9debaa13808fcd97878ebdc422b26a4dce29325d6",
+      "size": 8131
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/skadi/front/char_263_skadi.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_263_skadi/front/char_263_skadi.png",
+      "sha256": "b83518e9568e0b934a45c65ba7d746f63ac91e874f25acfc1e3b580c702263d5",
+      "size": 119294
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/skadi/back/char_263_skadi.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_263_skadi/back/char_263_skadi.skel",
+      "sha256": "9c73a97b85daa04e64be402890bd4ab06723844d9c6547af499a24fa5d6bf85c",
+      "size": 118091
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/skadi/back/char_263_skadi.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_263_skadi/back/char_263_skadi.atlas",
+      "sha256": "c5ae52555f5bc2d65cec00f9debaa13808fcd97878ebdc422b26a4dce29325d6",
+      "size": 8131
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/skadi/back/char_263_skadi.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_263_skadi/back/char_263_skadi.png",
+      "sha256": "b83518e9568e0b934a45c65ba7d746f63ac91e874f25acfc1e3b580c702263d5",
+      "size": 119294
+    }
+  ],
+  "export_version": "3.8.99",
+  "atlas_page_size": "512x512",
+  "normal_blend_verified": true,
+  "animation_mapping": {
+    "Idle": 2.0,
+    "Attack": 1.5,
+    "Attack_Begin": 0.16666666666666666,
+    "Attack_End": 0.16666666666666666,
+    "Start": 1.0
+  },
+  "animation_note": "Both sides measured with native 3.8 completion events, rounded to original 30 fps frame boundaries. Use the full Attack clip for all three stat-enhancement skills; no dedicated numbered skill clip exists. Attack_Begin/End are not assumed to be skill numbers."
+}

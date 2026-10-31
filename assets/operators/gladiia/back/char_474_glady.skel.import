@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://cagkudl67s4ms"
+path="res://.godot/imported/char_474_glady.skel-660b50eb94e922e8e23df17bfde81754.tres"
+
+[deps]
+
+source_file="res://assets/operators/gladiia/back/char_474_glady.skel"
+dest_files=["res://.godot/imported/char_474_glady.skel-660b50eb94e922e8e23df17bfde81754.tres"]
+
+[params]

@@ -1,0 +1,104 @@
+{
+	"clips": [
+		{
+			"bake_ms": 2011,
+			"duration_seconds": 4.0,
+			"file": "res://assets/battle/vfx/chen_alter_s3/buff_01.res",
+			"frames": 480,
+			"id": "buff_01"
+		},
+		{
+			"bake_ms": 326,
+			"duration_seconds": 4.0,
+			"file": "res://assets/battle/vfx/chen_alter_s3/buff_01_b.res",
+			"frames": 480,
+			"id": "buff_01_b"
+		},
+		{
+			"bake_ms": 960,
+			"duration_seconds": 2.0,
+			"file": "res://assets/battle/vfx/chen_alter_s3/buff_02.res",
+			"frames": 240,
+			"id": "buff_02"
+		},
+		{
+			"bake_ms": 871,
+			"duration_seconds": 2.0,
+			"file": "res://assets/battle/vfx/chen_alter_s3/buff_02_b.res",
+			"frames": 240,
+			"id": "buff_02_b"
+		},
+		{
+			"bake_ms": 414,
+			"duration_seconds": 2.0,
+			"file": "res://assets/battle/vfx/chen_alter_s3/buff_03.res",
+			"frames": 240,
+			"id": "buff_03"
+		},
+		{
+			"bake_ms": 471,
+			"duration_seconds": 2.0,
+			"file": "res://assets/battle/vfx/chen_alter_s3/buff_03_b.res",
+			"frames": 240,
+			"id": "buff_03_b"
+		},
+		{
+			"bake_ms": 598,
+			"duration_seconds": 4.5,
+			"file": "res://assets/battle/vfx/chen_alter_s3/debuff.res",
+			"frames": 540,
+			"id": "debuff"
+		},
+		{
+			"bake_ms": 531,
+			"duration_seconds": 2.9,
+			"file": "res://assets/battle/vfx/chen_alter_s3/hit_01.res",
+			"frames": 348,
+			"id": "hit_01"
+		},
+		{
+			"bake_ms": 10606,
+			"duration_seconds": 6.0,
+			"file": "res://assets/battle/vfx/chen_alter_s3/range_01.res",
+			"frames": 720,
+			"id": "range_01"
+		},
+		{
+			"bake_ms": 702,
+			"duration_seconds": 2.5,
+			"file": "res://assets/battle/vfx/chen_alter_s3/start_01.res",
+			"frames": 300,
+			"id": "start_01"
+		},
+		{
+			"bake_ms": 616,
+			"duration_seconds": 2.5,
+			"file": "res://assets/battle/vfx/chen_alter_s3/start_01_b.res",
+			"frames": 300,
+			"id": "start_01_b"
+		},
+		{
+			"bake_ms": 241,
+			"duration_seconds": 2.5,
+			"file": "res://assets/battle/vfx/chen_alter_s3/start_02.res",
+			"frames": 300,
+			"id": "start_02"
+		},
+		{
+			"bake_ms": 141,
+			"duration_seconds": 2.5,
+			"file": "res://assets/battle/vfx/chen_alter_s3/start_02_b.res",
+			"frames": 300,
+			"id": "start_02_b"
+		},
+		{
+			"bake_ms": 546,
+			"duration_seconds": 2.5,
+			"file": "res://assets/battle/vfx/chen_alter_s3/start_03.res",
+			"frames": 300,
+			"id": "start_03"
+		}
+	],
+	"facing_count": 4,
+	"fps": 30.0
+}

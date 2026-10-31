@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_qwdly"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_isjb5"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_ttm2h"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_tqxlf"]
+
+[sub_resource type="Resource" id="Resource_4m12b"]
+script = ExtResource("1_qwdly")
+trait_name = "行医"
+description = "恢复友方单位生命，并回复相当于攻击力50%的元素损伤（可以回复未受伤友方单位的元素损伤）"
+effect_type = "wandering_medic"
+effect_params = {
+"elemental_heal_percent": 50
+}
+
+[sub_resource type="Resource" id="Resource_8s7ws"]
+script = ExtResource("3_ttm2h")
+skill_name = "无声润物"
+trigger_type = "auto"
+sp_required = 60
+sp_recharge_type = "time"
+description = "攻击+40%，每次治疗2人，持续无限；范围内8%攻击力每秒元素回复保留数值，当前无元素损伤对象。"
+effect_type = "eyja_permanent"
+effect_params = {
+"attack_mult": 1.4,
+"elemental_regen_attack_percent": 8,
+"target_count": 2
+}
+duration = -1.0
+
+[sub_resource type="Resource" id="Resource_xkyx1"]
+script = ExtResource("3_ttm2h")
+skill_name = "云霭荫佑"
+sp_required = 20
+sp_recharge_type = "time"
+description = "立即治疗范围内全部友军一次；生成20秒、900%攻击力的范围元素屏障。当前无元素伤害，不转换为生命屏障。"
+effect_type = "eyja_elemental_barrier"
+effect_params = {
+"attack_mult": 1.0,
+"barrier_ticks": 600,
+"elemental_barrier_attack_percent": 900
+}
+
+[sub_resource type="Resource" id="Resource_x6s6e"]
+script = ExtResource("3_ttm2h")
+skill_name = "火山回响"
+initial_sp = 40
+sp_required = 60
+sp_recharge_type = "time"
+description = "50秒全场范围，每轮进行5次60%攻击力治疗，优先不同目标；第二天赋效果提升至5倍。"
+effect_type = "eyja_volcano"
+effect_params = {
+"attack_mult": 1.0,
+"heal_count": 5,
+"heal_percent": 60,
+"talent_multiplier": 5
+}
+duration = 50.0
+
+[sub_resource type="Resource" id="Resource_ko63p"]
+script = ExtResource("4_tqxlf")
+talent_name = "氤氲"
+description = "普通治疗叠加每秒10%本次治疗量，持续6秒，最多3层；叠加刷新全层持续与缓存。元素回复数值保留。"
+effect_type = "eyja_mist"
+effect_params = {
+"duration_ticks": 180,
+"heal_percent": 10,
+"max_stacks": 3
+}
+
+[sub_resource type="Resource" id="Resource_iggko"]
+script = ExtResource("4_tqxlf")
+talent_name = "火山灰疗愈"
+description = "范围内友军生命上限+6%、元素损伤降低12%；当前无元素损伤。"
+effect_type = "eyja_health_aura"
+effect_params = {
+"elemental_resistance_percent": 12,
+"health_percent": 6
+}
+
+[resource]
+script = ExtResource("2_isjb5")
+operator_id = "eyjafjalla_alter"
+display_name = "纯烬艾雅法拉"
+profession = "医疗"
+profession_id = "medic"
+branch = "行医"
+max_health = 1439
+attack = 424
+defense = 109
+magic_resist = 10
+damage_type = "healing"
+attack_interval = 2.85
+block_count = 1
+initial_deploy_cost = 14
+deploy_cost = 16
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(1, 2), Vector2i(2, 2), Vector2i(3, 2), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(3, 1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(3, -1), Vector2i(1, -2), Vector2i(2, -2), Vector2i(3, -2)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_4m12b")
+talent_1 = SubResource("Resource_ko63p")
+talent_2 = SubResource("Resource_iggko")
+skills = Array[ExtResource("3_ttm2h")]([SubResource("Resource_8s7ws"), SubResource("Resource_xkyx1"), SubResource("Resource_x6s6e")])

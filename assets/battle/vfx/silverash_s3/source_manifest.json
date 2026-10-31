@@ -1,0 +1,310 @@
+{
+  "copyright": "Arknights / Hypergryph and respective rightsholders. Local non-commercial fan-project testing is not a new license. Repository code license does not cover game art.",
+  "sources": [
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\battle\\prefabs\\effects\\svrash.ab",
+      "bytes": 742920,
+      "sha256": "40e59b1e952e34b3af5cdb7cf2cda752884bc87a8594ecec722756f906befe46"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\refs\\fx\\material.ab",
+      "bytes": 63148,
+      "sha256": "53e01422e18f06641dd8e893d61aa9914fb65f7058767f7ea7c47b85ccfd7eff"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\[uc]shaders.ab",
+      "bytes": 443792,
+      "sha256": "668663dccbada9272f30092c5fe5a5b3594a24da56b43527fd65212146860e0a"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\star.ab",
+      "bytes": 6516985,
+      "sha256": "c601419ffde815547c7563a64c444ac2b4f8fab6b329d11b68ae9c659516c63b"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\trail.ab",
+      "bytes": 10859786,
+      "sha256": "4c6613ca58d886b5be224d0067658f8d3c99b6083c5c3f3659fb1652c9ed4125"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\smoke.ab",
+      "bytes": 3453973,
+      "sha256": "3a12e1947eaa79c539a2b04759bdad8697d01dda5b655db2da9fca91254df36b"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\mask.ab",
+      "bytes": 3953135,
+      "sha256": "6e1c5a448c5b74271f484f186e29f08c553bcef31e4d890bd1d36d4b96b68f7f"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\refs\\fx\\texture\\water.ab",
+      "bytes": 2768231,
+      "sha256": "18af6197f0351f1056f8bdca8abc4325a2f55a18639ce4f4911bf7e1347040a0"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\flow.ab",
+      "bytes": 13817256,
+      "sha256": "f60b60836874c9f629303d5f750c119abe191e81582a335ffe52572b3666e4d5"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\ray.ab",
+      "bytes": 4311287,
+      "sha256": "54ddc50fa3b31055060cabc721455a66dc7c8feb60c16058b0f6d0eff0b96a6f"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\refs\\fx\\texture\\fire.ab",
+      "bytes": 1776680,
+      "sha256": "9fdefad60641f862cd7a87a839ea65990b99dd11a00261cfdac5743d810a5360"
+    }
+  ],
+  "prefabs": [
+    {
+      "name": "svrash_skill_03_start_01",
+      "game_object_path_id": "5775166075256426825",
+      "original_cab": "CAB-6e47d0dfcfa4cc129053ffbdb337bf30"
+    },
+    {
+      "name": "svrash_skill_03_start_02",
+      "game_object_path_id": "151254933621959125",
+      "original_cab": "CAB-6e47d0dfcfa4cc129053ffbdb337bf30"
+    },
+    {
+      "name": "svrash_skill_03_hit",
+      "game_object_path_id": "712073975910260560",
+      "original_cab": "CAB-6e47d0dfcfa4cc129053ffbdb337bf30"
+    },
+    {
+      "name": "svrash_skill_03_buff",
+      "game_object_path_id": "-7626716784412564966",
+      "original_cab": "CAB-6e47d0dfcfa4cc129053ffbdb337bf30"
+    }
+  ],
+  "textures": [
+    {
+      "file": "textures/CAB-1512fc0efbde6852b5d5a28ec9cec589_-2727532356714157465.png",
+      "original_cab": "CAB-1512fc0efbde6852b5d5a28ec9cec589",
+      "original_path_id": "-2727532356714157465",
+      "bytes": 2883,
+      "sha256": "c6bfd49a5aeccff0396da77e657b4cd739338b5f51073026b7028962ee76634d"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-1074696917881622342.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-1074696917881622342",
+      "bytes": 6284,
+      "sha256": "f74fe25ec860fd1893d58227f19ee76b6edd827f53f60f8f84801c934c5e71bc"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-490322365950258742.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-490322365950258742",
+      "bytes": 25569,
+      "sha256": "c7353f6c22ad38a872120acda78856bc9543e080fb9319718419eb6e566c3ec4"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-7115701973194135445.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-7115701973194135445",
+      "bytes": 14064,
+      "sha256": "098c7fbe9f115debf49dc72ad6c4ce8de6600f788012686c4603cfeed7044229"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-7700247273027960271.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-7700247273027960271",
+      "bytes": 5875,
+      "sha256": "1c60043bc8f18abb7e7c462b5d95e7e89b66127d31983d419013ed7e40793a40"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_4895119931700019937.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "4895119931700019937",
+      "bytes": 9400,
+      "sha256": "cc1517acf28d5f5e5d9183c7092e42600926504850770a5771a18f526cd76da3"
+    },
+    {
+      "file": "textures/CAB-6e47d0dfcfa4cc129053ffbdb337bf30_-1883988582699147747.png",
+      "original_cab": "CAB-6e47d0dfcfa4cc129053ffbdb337bf30",
+      "original_path_id": "-1883988582699147747",
+      "bytes": 1885,
+      "sha256": "5a8f661c1ddbd8eed08f262830258f49c0fceaf3b54cae515cea651568c7f28c"
+    },
+    {
+      "file": "textures/CAB-6e47d0dfcfa4cc129053ffbdb337bf30_-5865403016598297811.png",
+      "original_cab": "CAB-6e47d0dfcfa4cc129053ffbdb337bf30",
+      "original_path_id": "-5865403016598297811",
+      "bytes": 1619,
+      "sha256": "e684dd67dcdcdd89ec6f4f2fe141d4a5da560d078003d461bd84b05506b0356d"
+    },
+    {
+      "file": "textures/CAB-6e47d0dfcfa4cc129053ffbdb337bf30_416679827846209337.png",
+      "original_cab": "CAB-6e47d0dfcfa4cc129053ffbdb337bf30",
+      "original_path_id": "416679827846209337",
+      "bytes": 3580,
+      "sha256": "c9fe1812043d65212f05190091808aba73b56adb65731c4bd9616e3e582db1a5"
+    },
+    {
+      "file": "textures/CAB-895a9c6afcb47c5c7f43c8589b1fe2fc_-2706779508106823341.png",
+      "original_cab": "CAB-895a9c6afcb47c5c7f43c8589b1fe2fc",
+      "original_path_id": "-2706779508106823341",
+      "bytes": 7093,
+      "sha256": "da9bde28851c9a57a6c9c7d84b9cc654a3c082ace0d55b57f4d1fb48f3edd310"
+    },
+    {
+      "file": "textures/CAB-92fdf60cd1676328e17f73f0bf852e97_-7761801520791614040.png",
+      "original_cab": "CAB-92fdf60cd1676328e17f73f0bf852e97",
+      "original_path_id": "-7761801520791614040",
+      "bytes": 848,
+      "sha256": "42ca76ff5f67e54e9bac0e82222bd458ddf15b48b945f247ffdf57e73c93ebe3"
+    },
+    {
+      "file": "textures/CAB-b2739f24071ea30492cad3b1c540173a_-5167899338068653716.png",
+      "original_cab": "CAB-b2739f24071ea30492cad3b1c540173a",
+      "original_path_id": "-5167899338068653716",
+      "bytes": 81922,
+      "sha256": "13009f49e42831a9b0d7f96aff09d8b0b125ceb43b7d06ad67e8b0fbafb592a9"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-9033574108148208245.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "-9033574108148208245",
+      "bytes": 25019,
+      "sha256": "576771fe06ac83ebb137fab52476536aca002d87f678662e6663c18318ca8dfc"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_1329491080043089029.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "1329491080043089029",
+      "bytes": 28733,
+      "sha256": "8b90b774e25851a512683495053b0741074ea44412c228c1fb5ca5c97069c55b"
+    },
+    {
+      "file": "textures/CAB-d78082c54cca29d82a1f4895c6b873e6_1151801759286928301.png",
+      "original_cab": "CAB-d78082c54cca29d82a1f4895c6b873e6",
+      "original_path_id": "1151801759286928301",
+      "bytes": 25363,
+      "sha256": "a7be5735e003e80ddcf806d7e7f6083beedc7b30ca66372be6d1ae54171d5e32"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-7887427954279609538.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "-7887427954279609538",
+      "bytes": 2875,
+      "sha256": "c3d27b0165fb0e84fc74c4c4d2cf1ccf67e9d056fd2474e4ab70314f37c74484"
+    }
+  ],
+  "source_pack_bytes": 808303,
+  "source_pack_sha256": "7dd4e86e025b0ad71a275b9d799c163e927f6220d1fe75795fb11b8ad14613fd",
+  "decoder": {
+    "unitypy": "1.25.4",
+    "unpacker_commit": "4a4b9efc6be4690b68b70b4a16578950baa066d3",
+    "lz4ak_source_sha256": "55832b28aefe510880bfcf54c0628138b0ee561b46b3fb8830f58fddadcd475a"
+  },
+  "animation_binding_gaps": [],
+  "visual_reference": {
+    "page": "https://k.sina.cn/article_6642289354_18be94aca00100gjkw.html",
+    "title": "明日方舟：特效就能吹爆的干员，阿能打谁都抛光？真理怒撕爱书",
+    "page_date": "2019-08-03",
+    "publisher": "新浪网（原作者署名以页面为准）",
+    "media_url": "https://n.sinaimg.cn/sinacn20190803ac/234/w550h484/20190803/cf57-iatixpk7628489.gif",
+    "file": "silverash-s3-original.gif",
+    "bytes": 4119712,
+    "sha256": "3daeb59d85a959f385ae25b72fde5790af7ad6f44b90ec194093e84826a60a69",
+    "frames": 51,
+    "size": [
+      550,
+      484
+    ],
+    "durations_ms": [
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50,
+      50
+    ],
+    "scope": "Default costume active-S3 repeated slash/hit/fade visual reference. Does not show initial skill activation or final skill termination. No rule/timing claims inferred.",
+    "copyright": "Arknights / Hypergryph and respective rightsholders. Source article remains credited; local comparison only, no public redistribution.",
+    "comparison": "One swing uses original frames4-12 (0.40s), compared to Godot fixture0.40-2.00s. Original GIF attack-speed/recording multiplier unknown. No timing equivalence asserted. Static stages approximate; tile scale about128px to80px."
+  },
+  "dependency_audit": {
+    "objects": 165,
+    "missing_references": 9,
+    "report": "dependency-gaps.json",
+    "note": "Unresolved external script/lifecycle references; visual renderer meshes/materials/textures used here resolved. Does not establish original script lifecycle."
+  },
+  "runtime_storage": {
+    "version": 2,
+    "engine": "Godot 4.7.2",
+    "source_sample_rate_hz": 30,
+    "geometry": "Exact source surface arrays plus offline-packed 2D GPU buffers; only degenerate padding added, no visible layers removed. Player-owned bounded buffers avoid eager ArrayMesh RID allocation.",
+    "proof": ".ai/vfx-release-20261027/packed-buffer-conversion-final.json"
+  },
+  "runtime_files": [
+    {
+      "file": "activate.res",
+      "bytes": 124151,
+      "sha256": "c654452ac811285d167cecdc7d4277546c1a4b9b23b5d3ce09a8da39695bcba4"
+    },
+    {
+      "file": "aura.res",
+      "bytes": 5848355,
+      "sha256": "6c35d580777910f88a117de0df5bf4cd50e544e50dc3df617d1985b3050cf537"
+    },
+    {
+      "file": "hit.res",
+      "bytes": 155481,
+      "sha256": "332785238571c35eac4ac1ae53d4285f2c508699671f01529036776e87edeabd"
+    },
+    {
+      "file": "slash.res",
+      "bytes": 3320637,
+      "sha256": "1e3d2ae1cffbc35ba7590e291982d96f44e955d7e0ee7fc4dc1690b31f13148d"
+    }
+  ]
+}

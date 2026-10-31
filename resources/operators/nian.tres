@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_egyke"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_7krij"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_4esk0"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_eikiq"]
+
+[sub_resource type="Resource" id="Resource_rm87l"]
+script = ExtResource("1_egyke")
+trait_name = "铁卫"
+description = "能够阻挡三个敌人。"
+effect_type = "prioritize_blocked"
+
+[sub_resource type="Resource" id="Resource_278vd"]
+script = ExtResource("3_4esk0")
+skill_name = "锡灼"
+initial_sp = 10
+sp_required = 30
+sp_recharge_type = "time"
+description = "防御力+70%，攻击力+45%，普通攻击造成法术伤害，持续30秒。"
+effect_type = "nian_magic"
+effect_params = {
+"attack_mult": 1.45,
+"defense_mult": 1.7
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_ptwsl"]
+script = ExtResource("3_4esk0")
+skill_name = "铜印"
+initial_sp = 35
+sp_required = 50
+sp_recharge_type = "time"
+description = "停止攻击，防御力+130%、阻挡+1；每次受到有来源的攻击时向攻击者反击90%攻击力的法术伤害并沉默5秒；护盾抵挡仍可触发，反伤不递归。持续35秒。"
+effect_type = "nian_copper"
+effect_params = {
+"block_count_add": 1,
+"defense_mult": 2.3,
+"reflect_attack_percent": 90,
+"silence_ticks": 150
+}
+duration = 35.0
+
+[sub_resource type="Resource" id="Resource_a1xse"]
+script = ExtResource("3_4esk0")
+skill_name = "铁御"
+initial_sp = 70
+sp_required = 85
+sp_recharge_type = "time"
+description = "自身攻击+120%；周围其他友方防御+80%、阻挡+1，获得抵抗，使新施加的晕眩持续时间减半，不影响停顿／束缚及外力位移；自身不获得后述友方增益。持续45秒，普通攻击范围不变。"
+effect_type = "nian_iron"
+effect_params = {
+"ally_block_add": 1,
+"ally_defense_percent": 80,
+"attack_mult": 2.2
+}
+duration = 45.0
+attack_range_override = Array[Vector2i]([Vector2i(-1, -2), Vector2i(0, -2), Vector2i(1, -2), Vector2i(-2, -1), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-2, 1), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(-1, 2), Vector2i(0, 2), Vector2i(1, 2)])
+
+[sub_resource type="Resource" id="Resource_2f8t3"]
+script = ExtResource("4_eikiq")
+talent_name = "积甲成山"
+description = "编入队伍时所有己方重装生命上限+16%，不要求在场；按现行队伍天赋沉默规则。"
+effect_type = "profession_health_aura"
+effect_params = {
+"health_percent": 16,
+"profession_id": "defender"
+}
+
+[sub_resource type="Resource" id="Resource_4ba50"]
+script = ExtResource("4_eikiq")
+talent_name = "干明可鉴"
+description = "部署后获得3层护盾，每层抵挡一次非零伤害，包括真实伤害；不增加模组效果。"
+effect_type = "deploy_shield_layers"
+effect_params = {
+"shield_count": 3
+}
+
+[resource]
+script = ExtResource("2_7krij")
+operator_id = "nian"
+display_name = "年"
+profession = "重装"
+profession_id = "defender"
+branch = "铁卫"
+max_health = 3699
+attack = 619
+defense = 726
+damage_type = "physical"
+attack_interval = 1.5
+block_count = 3
+initial_deploy_cost = 19
+deploy_cost = 23
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_rm87l")
+talent_1 = SubResource("Resource_2f8t3")
+talent_2 = SubResource("Resource_4ba50")
+skills = Array[ExtResource("3_4esk0")]([SubResource("Resource_278vd"), SubResource("Resource_ptwsl"), SubResource("Resource_a1xse")])

@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://b0tom8paw6vyi"
+path="res://.godot/imported/char_181_flower.skel-bbfa9b9af78270672b1db5b04ec6bccf.tres"
+
+[deps]
+
+source_file="res://assets/operators/perfumer/front/char_181_flower.skel"
+dest_files=["res://.godot/imported/char_181_flower.skel-bbfa9b9af78270672b1db5b04ec6bccf.tres"]
+
+[params]

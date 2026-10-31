@@ -1,0 +1,44 @@
+{
+  "operator_id": "magallan_drone_l",
+  "token_id": "token_10005_mgllan_drone2",
+  "model_kind": "single facing-neutral battle skeleton",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "file": "res://assets/operators/magallan_drone_l/token_10005_mgllan_drone2.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10005_mgllan_drone2/token_10005_mgllan_drone2.skel",
+      "sha256": "6082f7339d7d2118294df2a8aaebe0296eee549260cf64176e8928bc18115a8d",
+      "size": 6437,
+      "side": "single"
+    },
+    {
+      "file": "res://assets/operators/magallan_drone_l/token_10005_mgllan_drone2.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10005_mgllan_drone2/token_10005_mgllan_drone2.atlas",
+      "sha256": "f41a0918e24012f9693a5d88d4651f93875dd801131acbd7dce87396000cddd7",
+      "size": 869,
+      "side": "single"
+    },
+    {
+      "file": "res://assets/operators/magallan_drone_l/token_10005_mgllan_drone2.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10005_mgllan_drone2/token_10005_mgllan_drone2.png",
+      "sha256": "f043ada0f11f7757b7b827123f62d6ead36e25a7e438b7f7446d198a67ffcf47",
+      "size": 8867,
+      "side": "single"
+    }
+  ],
+  "export_version": "3.8.99",
+  "normal_blend_verified": true,
+  "normal_slot_count": 5,
+  "atlas_page_size": [
+    128,
+    128
+  ],
+  "animation_seconds": {
+    "Attack": 1.0,
+    "Default": 0.0,
+    "Die": 0.5,
+    "Idle": 1.0,
+    "Start": 0.5
+  },
+  "animation_note": "Single source skeleton reused for four facings with projection mirror; no separate back model exists. F only idles; L/A use measured Attack. Native events sampled at1/300s and rounded to30fps; presentation only."
+}

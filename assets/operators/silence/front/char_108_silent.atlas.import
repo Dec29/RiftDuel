@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bdoc5fs4h4ldb"
+path="res://.godot/imported/char_108_silent.atlas-1c6dbf3a065f8c4e6997d65c6f408fd1.tres"
+
+[deps]
+
+source_file="res://assets/operators/silence/front/char_108_silent.atlas"
+dest_files=["res://.godot/imported/char_108_silent.atlas-1c6dbf3a065f8c4e6997d65c6f408fd1.tres"]
+
+[params]
+
+normal_map_prefix="n"

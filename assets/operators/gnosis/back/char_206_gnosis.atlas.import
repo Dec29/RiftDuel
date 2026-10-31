@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://breppscny3yok"
+path="res://.godot/imported/char_206_gnosis.atlas-6158f47e0c7b3961f56c6f49c047cdea.tres"
+
+[deps]
+
+source_file="res://assets/operators/gnosis/back/char_206_gnosis.atlas"
+dest_files=["res://.godot/imported/char_206_gnosis.atlas-6158f47e0c7b3961f56c6f49c047cdea.tres"]
+
+[params]
+
+normal_map_prefix="n"

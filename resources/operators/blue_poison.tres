@@ -1,0 +1,81 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_6mleh"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_6dny5"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_r8wxt"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_kwk5w"]
+
+[sub_resource type="Resource" id="Resource_ihqka"]
+script = ExtResource("1_6mleh")
+trait_name = "速射手"
+description = "优先攻击空中单位，本作无空中目标。"
+effect_type = "prioritize_flying"
+
+[sub_resource type="Resource" id="Resource_ndqep"]
+script = ExtResource("3_r8wxt")
+skill_name = "二重射击·自动"
+trigger_type = "attack"
+sp_required = 2
+sp_recharge_type = "on_hit"
+description = "攻击回复2，下一次攻击为200%攻击力并额外攻击一个不同敌人；无敌人时仅对箱子或静止球进行一次强化攻击。"
+effect_type = "blue_double"
+effect_params = {
+"attack_mult": 2.0,
+"target_count": 2
+}
+
+[sub_resource type="Resource" id="Resource_ljbga"]
+script = ExtResource("3_r8wxt")
+skill_name = "毒液散射"
+initial_sp = 25
+sp_required = 40
+sp_recharge_type = "time"
+description = "攻击+50%，最多攻击3名不同敌人，主目标额外攻击一次；无敌人时对箱子或静止球结算两段。"
+effect_type = "blue_venom"
+effect_params = {
+"attack_mult": 1.5,
+"primary_shots": 2,
+"target_count": 3
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_g76t4"]
+script = ExtResource("4_kwk5w")
+talent_name = "神经毒素"
+description = "实际命中使目标中毒3秒，每秒75原始法伤，按狙击系数折算；重复命中刷新、不叠层，离场后保留至到期。"
+effect_type = "neurotoxin"
+effect_params = {
+"damage": 75,
+"duration_ticks": 90,
+"pulse_ticks": 30
+}
+
+[sub_resource type="Resource" id="Resource_ebdug"]
+script = ExtResource("4_kwk5w")
+talent_name = "无第二天赋"
+description = "原作仅有一个天赋，不额外添加天赋。"
+effect_type = "none"
+
+[resource]
+script = ExtResource("2_6dny5")
+operator_id = "blue_poison"
+display_name = "蓝毒"
+profession = "狙击"
+profession_id = "sniper"
+branch = "速射手"
+max_health = 1230
+attack = 535
+defense = 130
+magic_resist = 5
+damage_type = "physical"
+attack_interval = 1.0
+block_count = 1
+initial_deploy_cost = 11
+deploy_cost = 13
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(3, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(3, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_ihqka")
+talent_1 = SubResource("Resource_g76t4")
+talent_2 = SubResource("Resource_ebdug")
+skills = Array[ExtResource("3_r8wxt")]([SubResource("Resource_ndqep"), SubResource("Resource_ljbga")])

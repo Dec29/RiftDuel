@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://2ui2obxw0qxq"
+path="res://.godot/imported/token_10002_kalts_mon3tr.skel-c4b8bf187173c581b6635427c27f903f.tres"
+
+[deps]
+
+source_file="res://assets/operators/mon3tr/single/token_10002_kalts_mon3tr.skel"
+dest_files=["res://.godot/imported/token_10002_kalts_mon3tr.skel-c4b8bf187173c581b6635427c27f903f.tres"]
+
+[params]

@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_6j2hc"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_svni8"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_fr1w0"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_821er"]
+
+[sub_resource type="Resource" id="Resource_vymcf"]
+script = ExtResource("1_6j2hc")
+trait_name = "尖兵"
+description = "能够阻挡两个敌人；本作无自主移动阻挡对象。"
+effect_type = "prioritize_blocked"
+
+[sub_resource type="Resource" id="Resource_kuxx1"]
+script = ExtResource("3_fr1w0")
+skill_name = "冲锋号令·γ型"
+initial_sp = 20
+trigger_type = "auto"
+sp_required = 35
+sp_recharge_type = "time"
+description = "立即获得12点部署费用。"
+effect_type = "instant_cost"
+effect_params = {
+"cost_add": 12
+}
+
+[sub_resource type="Resource" id="Resource_n3x5a"]
+script = ExtResource("3_fr1w0")
+skill_name = "跃空锤"
+initial_sp = 10
+trigger_type = "attack"
+sp_required = 10
+sp_recharge_type = "time"
+description = "下一次攻击对周围四格所有敌人造成340%物理伤害，获得3费用；可充能3次。"
+effect_type = "pioneer_hammer"
+effect_params = {
+"attack_mult": 3.4,
+"charge_count": 3,
+"cost_add": 3
+}
+attack_range_override = Array[Vector2i]([Vector2i(0, -1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(0, 1)])
+
+[sub_resource type="Resource" id="Resource_h2vfm"]
+script = ExtResource("3_fr1w0")
+skill_name = "碎颅击"
+initial_sp = 25
+sp_required = 30
+sp_recharge_type = "time"
+description = "攻击间隔增加1秒，每次攻击造成380%物理伤害，40%概率令目标晕眩1.5秒，持续25秒。"
+effect_type = "pioneer_skull"
+effect_params = {
+"attack_interval_add": 1.0,
+"attack_mult": 3.8,
+"stun_chance_percent": 40,
+"stun_ticks": 45
+}
+duration = 25.0
+
+[sub_resource type="Resource" id="Resource_x7pff"]
+script = ExtResource("4_821er")
+talent_name = "万兽之王"
+description = "在场时所有己方先锋攻击力和防御力各+8%。"
+effect_type = "profession_atk_def_aura"
+effect_params = {
+"attack_percent": 8,
+"defense_percent": 8,
+"profession_id": "vanguard"
+}
+
+[sub_resource type="Resource" id="Resource_yli75"]
+script = ExtResource("4_821er")
+talent_name = "粉碎"
+description = "周围四格有敌人倒下时获得1点技力，技能期间仍可获得。"
+effect_type = "adjacent_death_sp"
+effect_params = {
+"sp_add": 1
+}
+
+[resource]
+script = ExtResource("2_svni8")
+operator_id = "siege"
+display_name = "推进之王"
+profession = "先锋"
+profession_id = "vanguard"
+branch = "尖兵"
+max_health = 2251
+attack = 515
+defense = 384
+damage_type = "physical"
+attack_interval = 1.05
+block_count = 2
+initial_deploy_cost = 12
+deploy_cost = 14
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_vymcf")
+talent_1 = SubResource("Resource_x7pff")
+talent_2 = SubResource("Resource_yli75")
+skills = Array[ExtResource("3_fr1w0")]([SubResource("Resource_kuxx1"), SubResource("Resource_n3x5a"), SubResource("Resource_h2vfm")])

@@ -1,0 +1,87 @@
+[gd_resource type="Resource" load_steps=11 format=3]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "武者"
+description = "不成为其他角色治疗目标；每次输出伤害后回复自身70生命，本作治疗50%为35，不以球/箱触发"
+effect_type = "musha"
+effect_params = {"heal_per_hit": 70}
+
+[sub_resource type="Resource" id="Talent1"]
+script = ExtResource("3")
+talent_name = "月盈星亏"
+description = "损失生命线性提高攻击速度，损失70%达到+100，每秒四次取样"
+effect_type = "health_attack_speed"
+effect_params = {"max_attack_speed": 100, "loss_cap_percent": 70, "samples_per_second": 4}
+
+[sub_resource type="Resource" id="Talent2"]
+script = ExtResource("3")
+talent_name = "运筹帷幄"
+description = "未阻挡敌人时每秒回复60生命，本作50%为30"
+effect_type = "unblocked_regeneration"
+effect_params = {"heal_per_second": 60}
+
+[sub_resource type="Resource" id="Skill1"]
+script = ExtResource("4")
+skill_name = "新月"
+initial_sp = 0
+sp_required = 2
+sp_recharge_type = "on_hit"
+trigger_type = "attack"
+duration = 0.0
+description = "下次攻击连续两段175%物理伤害"
+effect_type = "multi_shot"
+effect_params = {"attack_mult": 1.75, "shot_count": 2}
+
+[sub_resource type="Resource" id="Skill2"]
+script = ExtResource("4")
+skill_name = "弦月"
+initial_sp = 15
+sp_required = 25
+sp_recharge_type = "time"
+trigger_type = "manual"
+duration = 13.0
+description = "攻击力+80%，攻击变二连击，物理闪避75%，持续13秒"
+effect_type = "musha_double"
+effect_params = {"attack_mult": 1.8, "shot_count": 2, "dodge_percent": 75}
+
+[sub_resource type="Resource" id="Skill3"]
+script = ExtResource("4")
+skill_name = "满月"
+initial_sp = 15
+sp_required = 35
+sp_recharge_type = "time"
+trigger_type = "manual"
+duration = 15.0
+description = "攻击力+100%，范围向前延长2格，最多同时攻击3目标，持续15秒"
+effect_type = "multi_target_boost"
+effect_params = {"attack_mult": 2.0, "defense_mult": 1.0, "target_count": 3, "ignore_ranged_penalty": true}
+attack_range_override = Array[Vector2i]([Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(3,0)])
+
+[resource]
+script = ExtResource("1")
+operator_id = "hellagur"
+display_name = "赫拉格"
+profession = "近卫"
+profession_id = "guard"
+branch = "武者"
+max_health = 3825
+attack = 762
+defense = 334
+magic_resist = 0
+damage_type = "physical"
+attack_interval = 1.2
+block_count = 1
+initial_deploy_cost = 22
+deploy_cost = 26
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0,0), Vector2i(1,0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent1")
+talent_2 = SubResource("Talent2")
+skills = Array[ExtResource("4")]([SubResource("Skill1"), SubResource("Skill2"), SubResource("Skill3")])

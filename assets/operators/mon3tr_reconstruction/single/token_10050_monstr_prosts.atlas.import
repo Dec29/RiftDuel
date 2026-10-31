@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bnrdvnk0x8w3a"
+path="res://.godot/imported/token_10050_monstr_prosts.atlas-4a6b3dd4ba8f86d9b1f0bed9cb280f61.tres"
+
+[deps]
+
+source_file="res://assets/operators/mon3tr_reconstruction/single/token_10050_monstr_prosts.atlas"
+dest_files=["res://.godot/imported/token_10050_monstr_prosts.atlas-4a6b3dd4ba8f86d9b1f0bed9cb280f61.tres"]
+
+[params]
+
+normal_map_prefix="n"

@@ -1,0 +1,89 @@
+{
+  "operator_id": "stainless_cannon",
+  "char_id": "token_10027_ironmn_pile3",
+  "commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "views": [
+    "single"
+  ],
+  "files": [
+    {
+      "path": "assets/operators/stainless_cannon/single/token_10027_ironmn_pile3.skel",
+      "side": "single",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10027_ironmn_pile3/token_10027_ironmn_pile3.skel",
+      "bytes": 54719,
+      "sha256": "e7b3526fed9d7e82d679389d639f8da63f3fe4b0892f6056f85ba2cc2cb4caab"
+    },
+    {
+      "path": "assets/operators/stainless_cannon/single/token_10027_ironmn_pile3.atlas",
+      "side": "single",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10027_ironmn_pile3/token_10027_ironmn_pile3.atlas",
+      "bytes": 3639,
+      "sha256": "7151aa1dfa6882707c60fc65cf92d27fec385fefb70bdf9cba0679ed584cd08e"
+    },
+    {
+      "path": "assets/operators/stainless_cannon/single/token_10027_ironmn_pile3.png",
+      "side": "single",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10027_ironmn_pile3/token_10027_ironmn_pile3.png",
+      "bytes": 27955,
+      "sha256": "eb1cff6bc07fb0f61e271bb315207fcdb90ac5554ad91ea6abfeacfccdd65ff3"
+    }
+  ],
+  "export_version": "3.8.99",
+  "animation_seconds": {
+    "single": {
+      "Attack": 0.333333333333333,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 1.0,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "single": {
+      "width": 256,
+      "height": 256,
+      "straight_alpha": true,
+      "slot_blend_modes": {
+        "C_Head_03": 0,
+        "C_Leg_12": 0,
+        "C_Leg_11": 0,
+        "C_Leg_10": 0,
+        "C_Head_02": 0,
+        "C_Tube_03": 0,
+        "C_Tube_02": 0,
+        "C_Body_03": 0,
+        "C_Body_02": 0,
+        "C_Head_01": 0,
+        "C_Line_02": 0,
+        "C_Tube_01": 0,
+        "C_Leg_09": 0,
+        "C_Leg_08": 0,
+        "C_Leg_07": 0,
+        "C_Weapon": 0,
+        "C_Body_01": 0,
+        "C_Leg_06": 0,
+        "C_Leg_05": 0,
+        "C_Leg_04": 0,
+        "C_Line_01": 0,
+        "C_Leg_03": 0,
+        "C_Leg_02": 0,
+        "C_Leg_01": 0,
+        "F_Bug_13": 0,
+        "F_Bug_12": 0,
+        "F_Bug_11": 0,
+        "F_Bug_10": 0,
+        "F_Bug_09": 0,
+        "F_Bug_08": 0,
+        "F_Bug_07": 0,
+        "F_Bug_06": 0,
+        "F_Bug_03": 0,
+        "F_Bug_02": 0,
+        "F_Bug_01": 0,
+        "F_Bug_05": 0,
+        "F_Bug_04": 0
+      }
+    }
+  },
+  "normal_blend_verified": true,
+  "animation_measurement": "Native Spine 3.8 completion events sampled at 1/300 s and rounded to original 30 fps boundaries; presentation only."
+}

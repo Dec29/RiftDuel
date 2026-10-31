@@ -1,0 +1,67 @@
+{
+  "operator_id": "texas_alter",
+  "char_id": "char_1028_texas2",
+  "display_name": "缄默德克萨斯",
+  "files": [
+    {
+      "category": "voice",
+      "tag": "023",
+      "language": "ja",
+      "path": "assets/audio/voices/texas_alter/cn_023.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1028_texas2/cn_023.mp3",
+      "bytes": 10258,
+      "sha256": "5532bfc88dffa22218e94007b67d3291c760759c31c41d3d52b667f2d174d4c0"
+    },
+    {
+      "category": "voice",
+      "tag": "024",
+      "language": "ja",
+      "path": "assets/audio/voices/texas_alter/cn_024.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1028_texas2/cn_024.mp3",
+      "bytes": 19871,
+      "sha256": "5df972ee07e17248d73f349ec90b6f203cd8ed763b2e59547c2688926dd495b8"
+    },
+    {
+      "category": "voice",
+      "tag": "025",
+      "language": "ja",
+      "path": "assets/audio/voices/texas_alter/cn_025.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1028_texas2/cn_025.mp3",
+      "bytes": 15482,
+      "sha256": "c7bc5617bb2109973af9a60996fc315efa14e0c10a305871b35d07cb413ec085"
+    },
+    {
+      "category": "voice",
+      "tag": "026",
+      "language": "ja",
+      "path": "assets/audio/voices/texas_alter/cn_026.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1028_texas2/cn_026.mp3",
+      "bytes": 12556,
+      "sha256": "573760c97576dfa3fe6a566f1ea53abdefb073138aa78c308d79247d6bc8846b"
+    },
+    {
+      "category": "voice",
+      "tag": "027",
+      "language": "ja",
+      "path": "assets/audio/voices/texas_alter/cn_027.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1028_texas2/cn_027.mp3",
+      "bytes": 20080,
+      "sha256": "c7285b9779f80cf1b869ec45af4f28d1b2d8aa22de9e9a1d050e4ca44d748a28"
+    },
+    {
+      "category": "voice",
+      "tag": "028",
+      "language": "ja",
+      "path": "assets/audio/voices/texas_alter/cn_028.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1028_texas2/cn_028.mp3",
+      "bytes": 13601,
+      "sha256": "0da7327b0f66013c8e40ab7430419edc8ba70c67938acb21e2b3f19ee875c072"
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified."
+}

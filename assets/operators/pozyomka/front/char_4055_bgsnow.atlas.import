@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://d3k4hbi6vtkvf"
+path="res://.godot/imported/char_4055_bgsnow.atlas-75b98c8fa2b1de8966dbd4aadec209a4.tres"
+
+[deps]
+
+source_file="res://assets/operators/pozyomka/front/char_4055_bgsnow.atlas"
+dest_files=["res://.godot/imported/char_4055_bgsnow.atlas-75b98c8fa2b1de8966dbd4aadec209a4.tres"]
+
+[params]
+
+normal_map_prefix="n"

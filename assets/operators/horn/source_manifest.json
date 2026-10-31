@@ -1,0 +1,56 @@
+{
+  "operator_id": "horn",
+  "display_name": "号角",
+  "char_id": "char_4039_horn",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "atlas_page_size": "512x512",
+  "note": "Ark-Models 的基建小人不是战斗来源，未使用。原始骨架经 tools/import_operator_visual.gd 生成压缩资源。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/horn/back/char_4039_horn.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4039_horn/back/char_4039_horn.atlas",
+      "sha256": "a04958c9493a3373c0b029491682ab41cdabdc20c89adb03dea64a45e7babd90",
+      "size": 4529
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/horn/back/char_4039_horn.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4039_horn/back/char_4039_horn.png",
+      "sha256": "2b7b45e764e95d88c274762eb65dd51804055f7fa05c77222d7e234d3df031b8",
+      "size": 75739
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/horn/back/char_4039_horn.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4039_horn/back/char_4039_horn.skel",
+      "sha256": "cafdca394882d49b1b798be54849507386891c981dcd6ee2a5a1369794c18910",
+      "size": 488750
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/horn/front/char_4039_horn.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4039_horn/front/char_4039_horn.atlas",
+      "sha256": "4d8a1efae5d857c1ddd6941e60fe1466d6c80b98944effcd6d6317d4055dc97c",
+      "size": 9502
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/horn/front/char_4039_horn.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4039_horn/front/char_4039_horn.png",
+      "sha256": "7954fef03bc54e32704982aceecef74045008b423c38f9b3caf2a84eaa07aed2",
+      "size": 103276
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/horn/front/char_4039_horn.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4039_horn/front/char_4039_horn.skel",
+      "sha256": "27be169c8080d405c6e323620bee2bb2428366babc9b05beb0d061b7266614b1",
+      "size": 1316948
+    }
+  ]
+}

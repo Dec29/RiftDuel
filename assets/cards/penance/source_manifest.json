@@ -1,0 +1,33 @@
+{
+  "operator_id": "penance",
+  "char_id": "char_4065_judge",
+  "display_name": "斥罪",
+  "files": [
+    {
+      "category": "cards",
+      "kind": "portrait",
+      "path": "assets/cards/penance/portrait.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/portrait/char_4065_judge_1.png",
+      "bytes": 107805,
+      "sha256": "8425245e3cdee88eba7853630efa566447cdcece39113b9bd71aecf60d249f25",
+      "width": 180,
+      "height": 360
+    },
+    {
+      "category": "cards",
+      "kind": "avatar",
+      "path": "assets/cards/penance/avatar.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_4065_judge.png",
+      "bytes": 53009,
+      "sha256": "8a2d5f47af5d3a0696004c3d75539b60364915ec21bf1626531a01a00ba52aed",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified."
+}

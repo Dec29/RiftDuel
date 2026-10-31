@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://b1wpw6sgrqwex"
+path="res://.godot/imported/token_10028_vigil_wolf.atlas-5c6a2b3861b08088af58a2f8fe9be962.tres"
+
+[deps]
+
+source_file="res://assets/operators/vigil_wolf/single/token_10028_vigil_wolf.atlas"
+dest_files=["res://.godot/imported/token_10028_vigil_wolf.atlas-5c6a2b3861b08088af58a2f8fe9be962.tres"]
+
+[params]
+
+normal_map_prefix="n"

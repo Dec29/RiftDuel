@@ -1,0 +1,86 @@
+{
+  "operator_id": "skyfire",
+  "display_name": "天火",
+  "char_id": "char_166_skfire",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/skyfire/front/char_166_skfire.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_166_skfire/front/char_166_skfire.skel",
+      "sha256": "7b9b7b74decbe99ef5b4b99294835b402c9d801170d365a482c0f52b493692ee",
+      "size": 68790
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/skyfire/front/char_166_skfire.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_166_skfire/front/char_166_skfire.atlas",
+      "sha256": "8160b55f07784e59ce046d27d6fbcb92671db86a331a978bb984c05b18615feb",
+      "size": 4204
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/skyfire/front/char_166_skfire.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_166_skfire/front/char_166_skfire.png",
+      "sha256": "09432d7aa8f127f3d126542796adc879262985d337c9a1b2b6f2eaf98ab861a5",
+      "size": 43427
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/skyfire/back/char_166_skfire.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_166_skfire/back/char_166_skfire.skel",
+      "sha256": "99b7a3705c6ee9683bff96f92b5c703889e45b0256659522e0cccb4387319d22",
+      "size": 47689
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/skyfire/back/char_166_skfire.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_166_skfire/back/char_166_skfire.atlas",
+      "sha256": "044064cce701a1bff07316e4d4e7dd7ac93e95c29ec60b825cf8711bcdccb599",
+      "size": 2562
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/skyfire/back/char_166_skfire.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_166_skfire/back/char_166_skfire.png",
+      "sha256": "c5806a93c2ca69e50b1d41e4263476080408d274968912206da2adef57418607",
+      "size": 32098
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 2.6666666666666665,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 1.0,
+      "Skill": 2.0,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 2.6666666666666665,
+      "Default": 0.0,
+      "Idle": 1.0,
+      "Skill": 2.0,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 256,
+      "height": 256,
+      "mode": "straight alpha",
+      "normal_slots": 41
+    },
+    "back": {
+      "width": 256,
+      "height": 256,
+      "mode": "straight alpha",
+      "normal_slots": 26
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

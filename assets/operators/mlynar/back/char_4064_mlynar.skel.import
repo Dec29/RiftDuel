@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://ba30ttulk86sv"
+path="res://.godot/imported/char_4064_mlynar.skel-c83d23fa6748bf4071e4ad63d886848b.tres"
+
+[deps]
+
+source_file="res://assets/operators/mlynar/back/char_4064_mlynar.skel"
+dest_files=["res://.godot/imported/char_4064_mlynar.skel-c83d23fa6748bf4071e4ad63d886848b.tres"]
+
+[params]

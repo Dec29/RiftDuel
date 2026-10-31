@@ -25,9 +25,24 @@ try {
     }
     if ($Client.ExitCode -ne 0) { throw "Relay test exited with $($Client.ExitCode)." }
     if ((Get-Content -LiteralPath $Log -Raw) -notmatch "Relay OK:") { throw "Relay test did not report success." }
+    $ReturnLog = Join-Path $ProjectRoot ".godot\room-return-relay.log"
+    $Client = Start-Process -FilePath $Godot -ArgumentList @("--headless", "--path", $ProjectRoot, "--script", "tools/test_room_return.gd", "--log-file", $ReturnLog, "--", "ws://127.0.0.1:24860/ws") -WindowStyle Hidden -PassThru
+    if (-not $Client.WaitForExit(120000)) { throw "Room return relay fixture exceeded deadline." }
+    if ($Client.ExitCode -ne 0 -or (Select-String -LiteralPath $ReturnLog -Pattern "SCRIPT ERROR|Parse Error|Failed to load script|^ERROR:" -Quiet)) { throw "Room return relay fixture failed." }
+    if ((Get-Content -LiteralPath $ReturnLog -Raw) -notmatch "ROOM_RETURN_OK:") { throw "Room return relay fixture did not report success." }
+    $ItemLog = Join-Path $ProjectRoot ".godot\tactical-relay-client.log"
+    $Client = Start-Process -FilePath $Godot -ArgumentList @("--headless", "--path", $ProjectRoot, "--script", "tools/test_tactical_items_network.gd", "--log-file", $ItemLog, "--", "ws://127.0.0.1:24860/ws") -WindowStyle Hidden -PassThru
+    if (-not $Client.WaitForExit(45000)) { throw "Tactical relay fixture exceeded deadline." }
+    if ($Client.ExitCode -ne 0 -or (Select-String -LiteralPath $ItemLog -Pattern "SCRIPT ERROR|Parse Error|Failed to load script|^ERROR:" -Quiet)) { throw "Tactical relay fixture failed." }
+    if ((Get-Content -LiteralPath $ItemLog -Raw) -notmatch "Tactical relay OK:") { throw "Tactical relay fixture did not report success." }
+    $SkillLog = Join-Path $ProjectRoot ".godot\skill-loadout-relay.log"
+    $Client = Start-Process -FilePath $Godot -ArgumentList @("--headless", "--path", $ProjectRoot, "--script", "tools/test_skill_loadout_network.gd", "--log-file", $SkillLog, "--", "ws://127.0.0.1:24860/ws") -WindowStyle Hidden -PassThru
+    if (-not $Client.WaitForExit(45000)) { throw "Skill loadout relay fixture exceeded deadline." }
+    if ($Client.ExitCode -ne 0 -or (Select-String -LiteralPath $SkillLog -Pattern "SCRIPT ERROR|Parse Error|Failed to load script|^ERROR:" -Quiet)) { throw "Skill loadout relay fixture failed." }
+    if ((Get-Content -LiteralPath $SkillLog -Raw) -notmatch "Skill loadout network OK:") { throw "Skill loadout relay fixture did not report success." }
     if ($Graphics) {
         $Verifier = Join-Path $ProjectRoot "tools\verify_multiplayer.ps1"
-        foreach ($Case in @(@("-Mode", "battle", "-Port", "24870"), @("-Mode", "battle", "-DelayMs", "200", "-Port", "24880"), @("-Mode", "endurance", "-Ticks", "9000", "-Port", "24890"))) {
+        foreach ($Case in @(@("-Mode", "battle", "-Port", "24870"), @("-Mode", "battle", "-DelayMs", "200", "-Port", "24880"), @("-Mode", "endurance", "-Ticks", "8100", "-Port", "24890"))) {
             $Arguments = @("-ExecutionPolicy", "Bypass", "-File", $Verifier, "-Graphics", "-Endpoint", "ws://127.0.0.1:24860/ws") + $Case
             $Peers = Start-Process -FilePath "powershell" -ArgumentList $Arguments -NoNewWindow -Wait -PassThru
             if ($Peers.ExitCode -ne 0) { throw "Relay graphical case failed." }

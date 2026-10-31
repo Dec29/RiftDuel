@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_ulx6s"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_oc7jh"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_hlv6f"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_tk3nu"]
+
+[sub_resource type="Resource" id="Resource_lb5ur"]
+script = ExtResource("1_ulx6s")
+trait_name = "中坚术师"
+description = "普通攻击造成法术伤害。"
+effect_type = "magical_attack"
+
+[sub_resource type="Resource" id="Resource_4m2ss"]
+script = ExtResource("3_hlv6f")
+skill_name = "战术咏唱·γ型"
+initial_sp = 15
+sp_required = 30
+sp_recharge_type = "time"
+description = "攻速+90，持续30秒。"
+effect_type = "atk_spd_boost"
+effect_params = {
+"attack_mult": 1.0,
+"attack_speed_add": 90
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_ivo4l"]
+script = ExtResource("3_hlv6f")
+skill_name = "精神爆发"
+trigger_type = "auto"
+sp_required = 100
+sp_recharge_type = "time"
+description = "每次攻击用模拟随机逐段向范围内敌人发射8次60%法伤，可重复选择；无敌人时箱子→静止球结算8段。25秒后自晕10秒。"
+effect_type = "amiya_burst"
+effect_params = {
+"attack_mult": 1.0,
+"damage_scale": 0.6,
+"end_stun_ticks": 300,
+"shot_count": 8
+}
+duration = 25.0
+
+[sub_resource type="Resource" id="Resource_5dq61"]
+script = ExtResource("3_hlv6f")
+skill_name = "奇美拉"
+sp_required = 120
+sp_recharge_type = "time"
+description = "攻击+230%、生命上限+100%、扩大范围、攻击改为真实伤害，30秒后强制退场不返费，按普通退场进入再部署冷却。"
+effect_type = "amiya_chimera"
+effect_params = {
+"attack_mult": 3.3,
+"health_percent": 100
+}
+duration = 30.0
+attack_range_override = Array[Vector2i]([Vector2i(0, -2), Vector2i(1, -2), Vector2i(2, -2), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(3, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(3, 1), Vector2i(0, 2), Vector2i(1, 2), Vector2i(2, 2)])
+
+[sub_resource type="Resource" id="Resource_2u68h"]
+script = ExtResource("4_tk3nu")
+talent_name = "情绪吸收"
+description = "实际攻击敌人额外回复2技力、击杀额外回复8技力；技能期间不获得，箱子及球不给额外技力。"
+effect_type = "emotional_absorption"
+effect_params = {
+"attack_sp": 2,
+"kill_sp": 8
+}
+
+[sub_resource type="Resource" id="Resource_l5pqu"]
+script = ExtResource("4_tk3nu")
+talent_name = "无第二天赋"
+description = "原作仅有一个天赋，不额外添加天赋。"
+effect_type = "none"
+
+[resource]
+script = ExtResource("2_oc7jh")
+operator_id = "amiya"
+display_name = "阿米娅"
+profession = "术师"
+profession_id = "caster"
+branch = "中坚术师"
+max_health = 1480
+attack = 612
+defense = 121
+magic_resist = 20
+damage_type = "magical"
+attack_interval = 1.6
+block_count = 1
+initial_deploy_cost = 18
+deploy_cost = 20
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_lb5ur")
+talent_1 = SubResource("Resource_2u68h")
+talent_2 = SubResource("Resource_l5pqu")
+skills = Array[ExtResource("3_hlv6f")]([SubResource("Resource_4m2ss"), SubResource("Resource_ivo4l"), SubResource("Resource_5dq61")])

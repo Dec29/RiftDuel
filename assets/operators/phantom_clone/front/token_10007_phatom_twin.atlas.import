@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://be7qe0j82cv6m"
+path="res://.godot/imported/token_10007_phatom_twin.atlas-5824a455cfc687e5cd57a355c9dd2504.tres"
+
+[deps]
+
+source_file="res://assets/operators/phantom_clone/front/token_10007_phatom_twin.atlas"
+dest_files=["res://.godot/imported/token_10007_phatom_twin.atlas-5824a455cfc687e5cd57a355c9dd2504.tres"]
+
+[params]
+
+normal_map_prefix="n"

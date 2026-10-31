@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://bxdhg8cowuxdc"
+path="res://.godot/imported/token_10050_monstr_prosts.skel-2e3812f6942955e6ca07467130ac17d0.tres"
+
+[deps]
+
+source_file="res://assets/operators/mon3tr_reconstruction/single/token_10050_monstr_prosts.skel"
+dest_files=["res://.godot/imported/token_10050_monstr_prosts.skel-2e3812f6942955e6ca07467130ac17d0.tres"]
+
+[params]

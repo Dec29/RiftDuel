@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://0qvam2w35f1"
+path="res://.godot/imported/char_202_demkni.atlas-aed417c531c7b3192b7b279544c1d219.tres"
+
+[deps]
+
+source_file="res://assets/operators/saria/front/char_202_demkni.atlas"
+dest_files=["res://.godot/imported/char_202_demkni.atlas-aed417c531c7b3192b7b279544c1d219.tres"]
+
+[params]
+
+normal_map_prefix="n"

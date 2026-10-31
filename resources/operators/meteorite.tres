@@ -1,0 +1,74 @@
+[gd_resource type="Resource" load_steps=10 format=3]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "炮手"
+description = "攻击造成群体物理伤害，溅射半径1格"
+effect_type = "physical_splash"
+effect_params = {"splash_radius_squared": 1}
+
+[sub_resource type="Resource" id="Talent1"]
+script = ExtResource("3")
+talent_name = "爆破附着改装"
+description = "普通攻击或技能释放30%概率当次攻击力加算60%，每包只掷一次模拟RNG"
+effect_type = "explosive_attack"
+effect_params = {"chance_percent": 30, "attack_bonus_percent": 60}
+
+[sub_resource type="Resource" id="Talent2"]
+script = ExtResource("3")
+talent_name = ""
+description = ""
+effect_type = "none"
+effect_params = {}
+
+[sub_resource type="Resource" id="Skill1"]
+script = ExtResource("4")
+skill_name = "霰射弹头"
+initial_sp = 0
+sp_required = 3
+sp_recharge_type = "on_hit"
+trigger_type = "attack"
+duration = 0.0
+description = "下次攻击215%物理，爆炸半径扩大为2格，天赋加算在倍率前"
+effect_type = "splash_shell"
+effect_params = {"attack_mult": 2.15, "splash_radius_squared": 4}
+
+[sub_resource type="Resource" id="Skill2"]
+script = ExtResource("4")
+skill_name = "高爆弹头"
+initial_sp = 0
+sp_required = 20
+sp_recharge_type = "time"
+trigger_type = "manual"
+duration = 0.0
+description = "立即300%物理火焰弹，命中目标防御-330持续10秒；候选半径1与先伤害后减防／普通攻击计时适配待确认"
+effect_type = "defense_shell"
+effect_params = {"attack_mult": 3.0, "splash_radius_squared": 1, "defense_reduce": 330, "debuff_ticks": 300}
+
+[resource]
+script = ExtResource("1")
+operator_id = "meteorite"
+display_name = "陨星"
+profession = "狙击"
+profession_id = "sniper"
+branch = "炮手"
+max_health = 1505
+attack = 865
+defense = 116
+magic_resist = 0
+damage_type = "physical"
+attack_interval = 2.8
+block_count = 1
+initial_deploy_cost = 24
+deploy_cost = 28
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0,1), Vector2i(1,1), Vector2i(2,1), Vector2i(3,1), Vector2i(4,1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(3,0), Vector2i(4,0), Vector2i(0,-1), Vector2i(1,-1), Vector2i(2,-1), Vector2i(3,-1), Vector2i(4,-1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent1")
+talent_2 = SubResource("Talent2")
+skills = Array[ExtResource("4")]([SubResource("Skill1"), SubResource("Skill2")])

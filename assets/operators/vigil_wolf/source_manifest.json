@@ -1,0 +1,49 @@
+{
+  "operator_id": "vigil_wolf",
+  "char_id": "token_10028_vigil_wolf",
+  "commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "path": "assets/operators/vigil_wolf/single/token_10028_vigil_wolf.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10028_vigil_wolf/token_10028_vigil_wolf.skel",
+      "side": "single",
+      "bytes": 47662,
+      "sha256": "247aff3ee8506f28294ba918f5ce2b97e8c6680bb12ee48679243cb524fae929"
+    },
+    {
+      "path": "assets/operators/vigil_wolf/single/token_10028_vigil_wolf.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10028_vigil_wolf/token_10028_vigil_wolf.atlas",
+      "side": "single",
+      "bytes": 1716,
+      "sha256": "c57ec47ac6120b112b9cf28f5f6934544bcc0dcf4358b9dfc9838b09d20f0d0a"
+    },
+    {
+      "path": "assets/operators/vigil_wolf/single/token_10028_vigil_wolf.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10028_vigil_wolf/token_10028_vigil_wolf.png",
+      "side": "single",
+      "bytes": 21886,
+      "sha256": "bc7126cf6323e75a52f4147cd8167eedbf1dda9827745f1d3f9f5b55da5c8eff"
+    }
+  ],
+  "animation_seconds": {
+    "single": {
+      "Attack": 1.26666666666667,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle_1": 2.0,
+      "Idle_2": 0.0,
+      "Start": 1.0,
+      "Stun": 2.06666666666667
+    }
+  },
+  "animation_mapping": {
+    "idle_clip": "Idle_1",
+    "idle_seconds": 2.0,
+    "attack_clip": "Attack",
+    "attack_seconds": 1.26666666666667,
+    "deploy_seconds": 1.0
+  },
+  "non_normal_slots": {},
+  "native_pages": 1,
+  "pma": false
+}

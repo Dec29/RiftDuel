@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://cl6fg363k704p"
+path="res://.godot/imported/char_134_ifrit.skel-82831849331621c65bf6c653c973438a.tres"
+
+[deps]
+
+source_file="res://assets/operators/ifrit/front/char_134_ifrit.skel"
+dest_files=["res://.godot/imported/char_134_ifrit.skel-82831849331621c65bf6c653c973438a.tres"]
+
+[params]

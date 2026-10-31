@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bf3fl3w3f0qih"
+path="res://.godot/imported/char_129_bluep.atlas-744bac154591055d8739a058b2f7c249.tres"
+
+[deps]
+
+source_file="res://assets/operators/blue_poison/front/char_129_bluep.atlas"
+dest_files=["res://.godot/imported/char_129_bluep.atlas-744bac154591055d8739a058b2f7c249.tres"]
+
+[params]
+
+normal_map_prefix="n"

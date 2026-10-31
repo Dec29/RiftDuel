@@ -1,12 +1,54 @@
 extends Node
+const SQUAD_MAX_OPERATORS := 12
+const DRAFT_BAN_SECONDS := 20
+const DRAFT_PICK_SECONDS := 100
+const DRAFT_SKILL_SECONDS := 30
+const DRAFT_FIRST_BANS := 3
+const DRAFT_TOTAL_BANS := 5
+const DRAFT_FIRST_PICKS := 6
+const DEFAULT_SQUAD_IDS := ["angelina", "bagpipe", "blaze", "ceobe", "exusiai", "hoshiguma", "nightingale", "swire_alter"]
 
 const GRID_COLUMNS := 21
 const GRID_ROWS := 11
 const BALL_START_CELL := Vector2i(10, 5)
 
+# Adapted gameplay speed for newly simulated basic projectiles; not a source-Unity claim.
+const BASIC_PROJECTILE_SPEED_CELLS_PER_SECOND := 10
+const ATTACK_ACTION_WINDOW_PERCENT := 85
 const TICK_RATE := 30
-const MATCH_TICKS := 9000
-const OVERTIME_TICKS := 1800
+const PHYSICS_TICK_RATE := 90
+const PHYSICS_TICKS_PER_SIMULATION_TICK := 4
+const MATCH_TICKS := 6750
+const OVERTIME_TICKS := 1350
+const AI_SKILL_REACTION_TICKS := 9
+const AI_DECISION_INTERVAL_TICKS := 18
+const BOX_FIRST_SPAWN_TICKS := 60 * TICK_RATE
+const BOX_WARNING_TICKS := 5 * TICK_RATE
+const BOX_INTERVAL_MIN_TICKS := 40 * TICK_RATE
+const BOX_INTERVAL_MAX_TICKS := 70 * TICK_RATE
+const BOX_REQUIRED_HITS := 3
+const BOX_HALF_BASE_WEIGHT := 100
+const BOX_HALF_DEFICIT_WEIGHT := 100
+const TACTICAL_ITEM_CRANE := 0
+const TACTICAL_ITEM_PLATFORM := 1
+const TACTICAL_ITEM_STUN := 2
+const TACTICAL_ITEM_SUPPORT_DRONE := 3
+const TACTICAL_ITEM_COUNT := 4
+const ITEM_SUPPORT_DRONE_TICKS := 30 * TICK_RATE
+const ITEM_SUPPORT_SPEED_PERCENT := 20
+const GOAL_RECOVERY_COST := 50
+const GOAL_RECOVERY_OPERATORS := 3
+const GOAL_RECOVERY_SECONDS := 15
+const GOAL_RECOVERY_INPUT_TICKS := (GOAL_RECOVERY_SECONDS * PHYSICS_TICK_RATE + PHYSICS_TICKS_PER_SIMULATION_TICK - 1) / PHYSICS_TICKS_PER_SIMULATION_TICK
+const PLATFORM_DROP_LIMIT := 3
+const ITEM_CRANE_REDEPLOY_TICKS := 5 * TICK_RATE
+const ITEM_STUN_WINDUP_TICKS := TICK_RATE
+const ITEM_FEEDBACK_TICKS := 18
+const ITEM_STUN_TICKS := 12 * TICK_RATE
+const STATUS_RESISTANCE_DURATION_PERCENT := 50
+const SLOW_INTERRUPT_COOLDOWN_TICKS := 3 * TICK_RATE
+const SLOW_INTERRUPT_DELAY_TICKS := 12
+const BIND_IMMUNITY_TICKS := TICK_RATE
 
 const COST_INITIAL := 10
 const COST_MAX := 99
@@ -20,7 +62,7 @@ const UNIT_DAMAGE_PERCENT_BY_PROFESSION := {
 	"defender": 17,
 	"sniper": 25,
 	"caster": 30,
-	"medic": 0,
+	"medic": 30,
 	"supporter": 20,
 	"specialist": 25,
 	"summon": 0,
@@ -30,3 +72,10 @@ const UNIT_MIN_DAMAGE_PERCENT := 5
 const UNIT_HEAL_PERCENT := 50
 const BLOCK_BALL_MIN := 3
 const BALL_MOVE_TICKS := 8
+const UNIT_DISPLACEMENT_TICKS_PER_CELL := 4
+const UNIT_WEIGHT_BY_PROFESSION := {
+	"vanguard": 1, "guard": 2, "defender": 3, "sniper": 1,
+	"caster": 1, "medic": 1, "supporter": 1, "specialist": 1, "summon": 1,
+}
+const UNIT_WEIGHT_REDUCTION_BY_TRAIT := {"fast_redeploy": 1, "executor_clone": 1}
+const WATER_CANNON_BASE_SHIFT_FORCE := 1

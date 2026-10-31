@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://ddn87g4kbg2w5"
+path="res://.godot/imported/token_10020_ling_soul2.skel-21909ef251365cb3dbc69db67fc08a7f.tres"
+
+[deps]
+
+source_file="res://assets/operators/ling_soul2/single/token_10020_ling_soul2.skel"
+dest_files=["res://.godot/imported/token_10020_ling_soul2.skel-21909ef251365cb3dbc69db67fc08a7f.tres"]
+
+[params]

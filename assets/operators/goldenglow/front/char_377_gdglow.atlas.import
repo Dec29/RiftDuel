@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cdwj37s74k57t"
+path="res://.godot/imported/char_377_gdglow.atlas-542940b8bd26c88458af147fb7f29c78.tres"
+
+[deps]
+
+source_file="res://assets/operators/goldenglow/front/char_377_gdglow.atlas"
+dest_files=["res://.godot/imported/char_377_gdglow.atlas-542940b8bd26c88458af147fb7f29c78.tres"]
+
+[params]
+
+normal_map_prefix="n"

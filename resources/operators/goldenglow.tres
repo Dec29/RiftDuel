@@ -1,0 +1,163 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="operator"]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="trait"]
+
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="talent"]
+
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="skill"]
+
+[sub_resource type="Resource" id="trait"]
+
+script = ExtResource("trait")
+
+trait_name = "驭械术师"
+
+description = "操作浮游单元对敌人造成法术伤害\n浮游单元连续攻击同一敌人时伤害提升（最高造成干员110%攻击力的伤害）"
+
+effect_type = "mechanical_float"
+
+effect_params = {"initial_attack_percent":20,"attack_step_percent":15,"max_attack_percent":110}
+
+[sub_resource type="Resource" id="talent0"]
+
+script = ExtResource("talent")
+
+talent_name = "信标的愤怒"
+
+description = "技能开启后浮游单元攻击时有10%概率自爆（回到干员身边）对小范围敌人造成澄闪300%攻击力的法术伤害\n自爆按原作独立递增概率：初始每层1.5%，未触发加一层，达到40层后的下一击必定自爆；自爆后回到本体并重置。"
+
+effect_type = "drone_explosion"
+
+effect_params = {"probability_step_basis_points":150,"max_stacks":40,"attack_percent":300,"splash_radius_squared":1}
+
+[sub_resource type="Resource" id="talent1"]
+
+script = ExtResource("talent")
+
+talent_name = "精准导流"
+
+description = "自身与浮游单元无视敌人15点法术抗性"
+
+effect_type = "flat_resist_penetration"
+
+effect_params = {"resist_ignore":15}
+
+[sub_resource type="Resource" id="skill0"]
+
+script = ExtResource("skill")
+
+skill_name = "火花四溅"
+
+description = "浮游单元+1，释放浮游单元锁定敌人攻击，攻击力+40%，攻击速度+50\n浮游单元锁敌后直至敌人被击杀、自爆或技能结束后返回干员身边"
+
+effect_type = "goldenglow_sparks"
+
+effect_params = {"attack_mult":1.4,"attack_speed_add":50,"drone_count":2}
+
+duration = 25.0
+
+trigger_type = "manual"
+
+initial_sp = 20
+
+sp_required = 35
+
+sp_recharge_type = "time"
+
+attack_range_override = Array[Vector2i]([])
+
+[sub_resource type="Resource" id="skill1"]
+
+script = ExtResource("skill")
+
+skill_name = "电流翻涌"
+
+description = "浮游单元+1，释放浮游单元锁定敌人攻击，攻击范围扩大，攻击力+60%\n浮游单元锁敌后直至敌人被击杀或自爆后返回干员身边\n持续时间无限"
+
+effect_type = "goldenglow_current"
+
+effect_params = {"attack_mult":1.6,"drone_count":2}
+
+duration = -1.0
+
+trigger_type = "auto"
+
+initial_sp = 0
+
+sp_required = 70
+
+sp_recharge_type = "time"
+
+attack_range_override = Array[Vector2i]([Vector2i(0,2), Vector2i(1,2), Vector2i(0,1), Vector2i(1,1), Vector2i(2,1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(3,0), Vector2i(0,-1), Vector2i(1,-1), Vector2i(2,-1), Vector2i(0,-2), Vector2i(1,-2)])
+
+[sub_resource type="Resource" id="skill2"]
+
+script = ExtResource("skill")
+
+skill_name = "澄净闪耀"
+
+description = "停止攻击，浮游单元+2，释放浮游单元锁定敌人攻击，攻击范围扩大至整个战场，攻击力+80%，浮游单元攻击附带0.5秒停顿\n浮游单元锁敌后直至敌人被击杀、自爆或技能结束后返回干员身边\n本作适配：全场范围只用于敌方单位；箱子与球仅在本体基础范围内索敌。"
+
+effect_type = "goldenglow_global"
+
+effect_params = {"attack_mult":1.8,"drone_count":3,"slow_ticks":15}
+
+duration = 30.0
+
+trigger_type = "manual"
+
+initial_sp = 17
+
+sp_required = 35
+
+sp_recharge_type = "time"
+
+attack_range_override = Array[Vector2i]([])
+
+[resource]
+
+script = ExtResource("operator")
+
+operator_id = "goldenglow"
+
+display_name = "澄闪"
+
+profession = "术师"
+
+profession_id = "caster"
+
+branch = "驭械术师"
+
+max_health = 1480
+
+attack = 331
+
+defense = 125
+
+magic_resist = 20
+
+damage_type = "magical"
+
+block_count = 1
+
+attack_interval = 1.3
+
+initial_deploy_cost = 20
+
+deploy_cost = 22
+
+redeploy_time = 70.0
+
+attack_range = Array[Vector2i]([Vector2i(0,1), Vector2i(1,1), Vector2i(2,1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(3,0), Vector2i(0,-1), Vector2i(1,-1), Vector2i(2,-1)])
+
+terrain_requirement = "high"
+
+branch_trait = SubResource("trait")
+
+talent_1 = SubResource("talent0")
+
+talent_2 = SubResource("talent1")
+
+skills = Array[ExtResource("skill")]([SubResource("skill0"),SubResource("skill1"),SubResource("skill2")])

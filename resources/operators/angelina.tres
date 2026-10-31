@@ -16,7 +16,9 @@ effect_params = {
 
 [sub_resource type="Resource" id="Resource_he7gp"]
 script = ExtResource("3_p0hff")
-skill_name = "技能1"
+initial_sp = 0
+trigger_type = "auto"
+skill_name = "秘杖·速充模式"
 sp_required = 10
 sp_recharge_type = "on_hit"
 description = "攻击力+110%；技能会自动开启"
@@ -44,6 +46,39 @@ effect_params = {
 "heal_per_second": 20
 }
 
+[sub_resource type="Resource" id="Skill_1"]
+script = ExtResource("3_p0hff")
+skill_name = "秘杖·微粒模式"
+initial_sp = 10
+sp_required = 15
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "攻击间隔缩短至15%，每次造成45%攻击力的法术伤害，持续30秒；技能未开启时无法普通攻击"
+effect_type = "rapid_magic"
+effect_params = {
+"attack_mult": 1.0,
+"damage_scale": 0.45,
+"attack_interval_mult": 0.15
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Skill_2"]
+script = ExtResource("3_p0hff")
+skill_name = "秘杖·反重力模式"
+initial_sp = 10
+sp_required = 25
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "全场敌方单位重量−1，最低0，不影响球；范围扩大，攻击力+150%，最多攻击5名敌人，持续25秒；技能未开启时无法普通攻击"
+effect_type = "weightless_multi_target"
+effect_params = {
+"attack_mult": 2.5,
+"target_count": 5,
+"weight_reduction": 1
+}
+duration = 25.0
+attack_range_override = Array[Vector2i]([Vector2i(-1, -2), Vector2i(0, -2), Vector2i(1, -2), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(-1, 2), Vector2i(0, 2), Vector2i(1, 2)])
+
 [resource]
 script = ExtResource("2_aus6n")
 operator_id = "angelina"
@@ -58,6 +93,7 @@ magic_resist = 25
 damage_type = "magical"
 attack_interval = 1.9
 block_count = 1
+initial_deploy_cost = 14
 deploy_cost = 16
 redeploy_time = 70.0
 attack_range = Array[Vector2i]([Vector2i(-1, -1), Vector2i(-1, 0), Vector2i(-1, 1), Vector2i(0, -1), Vector2i(0, 0), Vector2i(0, 1), Vector2i(1, -1), Vector2i(1, 0), Vector2i(1, 1), Vector2i(2, -1), Vector2i(2, 0), Vector2i(2, 1)])
@@ -65,4 +101,4 @@ terrain_requirement = "high"
 branch_trait = SubResource("Resource_kfvf8")
 talent_1 = SubResource("Resource_lrd48")
 talent_2 = SubResource("Resource_5ru1l")
-skills = Array[ExtResource("3_p0hff")]([SubResource("Resource_he7gp")])
+skills = Array[ExtResource("3_p0hff")]([SubResource("Resource_he7gp"), SubResource("Skill_1"), SubResource("Skill_2")])

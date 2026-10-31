@@ -1,0 +1,45 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "诅咒娃娃"
+description = "不可受伤、不攻击、不挡球；周围原作九格内敌人攻防各降低50%，15秒自动销毁；本体离场一并退场。"
+effect_type = "curse_doll"
+effect_params = {"lifetime_ticks":450,"attack_remaining_percent":50,"defense_remaining_percent":50}
+[sub_resource type="Resource" id="Talent"]
+script = ExtResource("3")
+talent_name = "无独立天赋"
+description = "继承巫恋所携带技能的娃娃效果。"
+effect_type = "none"
+[sub_resource type="Resource" id="Skill"]
+script = ExtResource("4")
+trigger_type = "passive"
+skill_name = "无主动技能"
+sp_recharge_type = "passive"
+description = "诅咒娃娃的减益由部署后自动生效。"
+effect_type = "no_skill"
+[resource]
+script = ExtResource("1")
+operator_id = "curse_doll"
+display_name = "诅咒娃娃"
+profession = "召唤物"
+profession_id = "summon"
+branch = "巫恋附带装置"
+max_health = 1000
+attack = 100
+defense = 0
+magic_resist = 0
+damage_type = "physical"
+attack_interval = 1.0
+block_count = 0
+deploy_cost = 5
+redeploy_time = 5.0
+attack_range = Array[Vector2i]([Vector2i(-1,-1),Vector2i(0,-1),Vector2i(1,-1),Vector2i(-1,0),Vector2i(0,0),Vector2i(1,0),Vector2i(-1,1),Vector2i(0,1),Vector2i(1,1)])
+terrain_requirement = "both"
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent")
+talent_2 = SubResource("Talent")
+skills = Array[ExtResource("4")]([SubResource("Skill")])

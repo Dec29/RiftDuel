@@ -1,0 +1,136 @@
+{
+  "operator_id": "pozyomka",
+  "char_id": "char_4055_bgsnow",
+  "display_name": "鸿雪",
+  "files": [
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/pozyomka/front/char_4055_bgsnow.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4055_bgsnow/front/char_4055_bgsnow.atlas",
+      "bytes": 13003,
+      "sha256": "ddc3896cc835fca2a7d6bb8f5d17e2d31377b7a4eefafa20c379ce118efe020e"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/pozyomka/front/char_4055_bgsnow.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4055_bgsnow/front/char_4055_bgsnow.skel",
+      "bytes": 835507,
+      "sha256": "466e25d0e2ca592ff7813e6adf7d8d5e7793f71d56b46e678fc57d610045d63d",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/pozyomka/front/char_4055_bgsnow.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4055_bgsnow/front/char_4055_bgsnow.png",
+      "bytes": 110575,
+      "sha256": "a1a817a3fe76b5851d2c3b4036bc446d2bc2397fa380363bf357963764fb9357",
+      "width": 512,
+      "height": 256
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/pozyomka/back/char_4055_bgsnow.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4055_bgsnow/back/char_4055_bgsnow.atlas",
+      "bytes": 7715,
+      "sha256": "fe8094c540bd8b75ce23bf169c6b6e226b8604960488ed3f77866eba547e7d3d"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/pozyomka/back/char_4055_bgsnow.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4055_bgsnow/back/char_4055_bgsnow.skel",
+      "bytes": 483635,
+      "sha256": "59a3097bac343371681b8b2a5e4852b8fa5430f68362dde66f9fc2f8f800df65",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/pozyomka/back/char_4055_bgsnow.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4055_bgsnow/back/char_4055_bgsnow.png",
+      "bytes": 87973,
+      "sha256": "85e84d1b04206e26432a0bc934a1a2e8ec5613d68675a208a5d0a8aca4531c62",
+      "width": 512,
+      "height": 256
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified.",
+  "animation_seconds": {
+    "front": {
+      "Attack_Begin": 0.5,
+      "Attack_End": 0.5,
+      "Attack_Loop": 1.6,
+      "Attack_Loop_Down": 1.6,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.0,
+      "Skill_1_Begin": 0.5,
+      "Skill_1_Idle": 2.0,
+      "Skill_1_Loop": 1.6,
+      "Skill_1_Loop_Down": 1.6,
+      "Skill_2": 1.6,
+      "Skill_2_Down": 1.6,
+      "Skill_3_Begin": 0.666666666666667,
+      "Skill_3_End": 0.5,
+      "Skill_3_Idle": 2.0,
+      "Skill_3_Loop": 1.0,
+      "Skill_3_Loop_Down": 1.0,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack_Begin": 0.5,
+      "Attack_End": 0.5,
+      "Attack_Loop": 1.6,
+      "Default": 0.0,
+      "Idle": 2.0,
+      "Skill_1_Begin": 0.5,
+      "Skill_1_End": 0.5,
+      "Skill_1_Idle": 2.0,
+      "Skill_1_Loop": 1.6,
+      "Skill_2": 1.6,
+      "Skill_3_Begin": 0.666666666666667,
+      "Skill_3_End": 0.5,
+      "Skill_3_Idle": 2.0,
+      "Skill_3_Loop": 1.0,
+      "Start": 1.0
+    }
+  },
+  "animation_mapping": {
+    "attack_clip": "Attack_Loop",
+    "attack_seconds": 1.6,
+    "idle_seconds": 2.0,
+    "deploy_seconds": 1.0,
+    "chain_seconds": "0.5,1.6,0.5",
+    "down_clip": "Attack_Loop_Down",
+    "down_seconds": 1.6
+  },
+  "animation_measurement": "Native 3.8 completion events sampled at1/300s and rounded to30fps; only presentation, never simulation.",
+  "normal_blend_verified": true,
+  "skill_animation_mapping": [
+    {
+      "begin": "Skill_1_Begin",
+      "idle": "Skill_1_Idle",
+      "attack": "Skill_1_Loop",
+      "down": "Skill_1_Loop_Down"
+    },
+    {
+      "cast": "Skill_2"
+    },
+    {
+      "begin": "Skill_3_Begin",
+      "idle": "Skill_3_Idle",
+      "attack": "Skill_3_Loop",
+      "down": "Skill_3_Loop_Down",
+      "end": "Skill_3_End"
+    }
+  ]
+}

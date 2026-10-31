@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cuxn3fq6kmd6l"
+path="res://.godot/imported/char_485_pallas.atlas-d6da7f53c708fd26e717e7ea535bad4a.tres"
+
+[deps]
+
+source_file="res://assets/operators/pallas/front/char_485_pallas.atlas"
+dest_files=["res://.godot/imported/char_485_pallas.atlas-d6da7f53c708fd26e717e7ea535bad4a.tres"]
+
+[params]
+
+normal_map_prefix="n"

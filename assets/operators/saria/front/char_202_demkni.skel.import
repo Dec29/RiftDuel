@@ -1,0 +1,14 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dncsc0eo487fi"
+path="res://.godot/imported/char_202_demkni.skel-a335f2949f2609449c3e5da4ebbf2cd3.tres"
+
+[deps]
+
+source_file="res://assets/operators/saria/front/char_202_demkni.skel"
+dest_files=["res://.godot/imported/char_202_demkni.skel-a335f2949f2609449c3e5da4ebbf2cd3.tres"]
+
+[params]
+

@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://civ6nmxvceiu0"
+path="res://.godot/imported/token_10015_dusk_drgn.atlas-0874b86c1c7f45c263a97c8876e7046c.tres"
+
+[deps]
+
+source_file="res://assets/operators/dusk_freeling/single/token_10015_dusk_drgn.atlas"
+dest_files=["res://.godot/imported/token_10015_dusk_drgn.atlas-0874b86c1c7f45c263a97c8876e7046c.tres"]
+
+[params]
+
+normal_map_prefix="n"

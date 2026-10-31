@@ -13,6 +13,8 @@ config_version=5
 config/name="RiftDuel"
 run/main_scene="res://view/start_menu.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
+config/icon="res://assets/icons/application/riftduel.png"
+config/windows_native_icon="res://assets/icons/application/riftduel.ico"
 
 [autoload]
 
@@ -23,15 +25,15 @@ OperatorDB="*res://data/operator_db.gd"
 
 window/size/viewport_width=1280
 window/size/viewport_height=720
-window/size/window_width_override=1280
-window/size/window_height_override=720
+window/size/window_width_override=1600
+window/size/window_height_override=900
 window/stretch/mode="canvas_items"
 
 [physics]
 
-common/physics_ticks_per_second=30
+common/physics_ticks_per_second=90
 
 [rendering]
 
 textures/canvas_textures/default_texture_filter=0
-rendering_device/driver.windows="d3d12"
+rendering_device/driver.windows="vulkan"

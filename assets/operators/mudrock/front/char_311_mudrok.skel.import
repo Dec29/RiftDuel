@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dnqbg6nji61aa"
+path="res://.godot/imported/char_311_mudrok.skel-799f56d93cd1686609fba6569a4095bb.tres"
+
+[deps]
+
+source_file="res://assets/operators/mudrock/front/char_311_mudrok.skel"
+dest_files=["res://.godot/imported/char_311_mudrok.skel-799f56d93cd1686609fba6569a4095bb.tres"]
+
+[params]

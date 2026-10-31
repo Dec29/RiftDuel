@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://ckkvgam02ikdo"
+path="res://.godot/imported/char_115_headbr.skel-207ad5828ddf56e65191addfc557c349.tres"
+
+[deps]
+
+source_file="res://assets/operators/zima/front/char_115_headbr.skel"
+dest_files=["res://.godot/imported/char_115_headbr.skel-207ad5828ddf56e65191addfc557c349.tres"]
+
+[params]

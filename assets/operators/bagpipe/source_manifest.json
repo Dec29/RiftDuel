@@ -1,0 +1,38 @@
+[
+  {
+    "file": "front/char_222_bpipe.atlas",
+    "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_222_bpipe/front/char_222_bpipe.atlas",
+    "sha256": "44421bfde15bddc81266e58c96f0088a8b40951eab90d51efd0b2bee5394af4a",
+    "size": 7563
+  },
+  {
+    "file": "front/char_222_bpipe.png",
+    "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_222_bpipe/front/char_222_bpipe.png",
+    "sha256": "cde4c10a15236632973d02197f1911cf141d9e820dfd5ad7905f188a6233f917",
+    "size": 74073
+  },
+  {
+    "file": "front/char_222_bpipe.skel",
+    "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_222_bpipe/front/char_222_bpipe.skel",
+    "sha256": "926f2336114a45c076eb4b9ece8a4680bff4ddd6a017533a15ccc6a642906f0c",
+    "size": 247735
+  },
+  {
+    "file": "back/char_222_bpipe.atlas",
+    "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_222_bpipe/back/char_222_bpipe.atlas",
+    "sha256": "281444a6a1691ece77d28fa79f41009c6164f1fa38e20c954607d66f621c0e02",
+    "size": 3499
+  },
+  {
+    "file": "back/char_222_bpipe.png",
+    "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_222_bpipe/back/char_222_bpipe.png",
+    "sha256": "0e2354acfcfcb9251c7940afc33a9187b3fc04b9ac7c9e8ea2b5cb0dab9e0648",
+    "size": 55818
+  },
+  {
+    "file": "back/char_222_bpipe.skel",
+    "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_222_bpipe/back/char_222_bpipe.skel",
+    "sha256": "94cab4a1c905b3cd6339111c0242a2db007d9021b48e92448c85f823e1093988",
+    "size": 118965
+  }
+]

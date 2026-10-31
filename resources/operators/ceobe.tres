@@ -13,10 +13,12 @@ effect_type = "prioritize_flying"
 
 [sub_resource type="Resource" id="Resource_i8udo"]
 script = ExtResource("3_6kg3h")
-skill_name = "技能1"
+initial_sp = 0
+trigger_type = "attack"
+skill_name = "“很冰的斧”"
 sp_required = 6
 sp_recharge_type = "time"
-description = "下次攻击造成相当于攻击力210%的法术伤害，并令目标束缚3秒；可充能3次；优先攻击没有被阻挡的目标"
+description = "下次攻击造成相当于攻击力210%的法术伤害，并令目标束缚3秒（禁普攻与普通治疗，不续期且结束后免疫1秒）；可充能3次；优先攻击没有被阻挡的目标"
 effect_type = "charge_shot"
 effect_params = {
 "attack_mult": 2.1,
@@ -43,6 +45,31 @@ effect_params = {
 "attack_speed_add": 8
 }
 
+[sub_resource type="Resource" id="Skill_1"]
+script = ExtResource("3_6kg3h")
+skill_name = "“很热的刀”"
+initial_sp = 25
+sp_required = 40
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "攻击间隔缩短至33%，优先攻击实际防御最高的目标，持续40秒"
+effect_type = "defense_priority_fast"
+effect_params = {"attack_mult":1.0, "attack_interval_mult":0.33}
+duration = 40.0
+
+[sub_resource type="Resource" id="Skill_2"]
+script = ExtResource("3_6kg3h")
+skill_name = "“很重的枪”"
+initial_sp = 55
+sp_required = 80
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "攻击范围扩大，攻击力+210%，主攻击变为物理，优先攻击实际防御最低的目标，并施加5秒沉默；剥壳附加伤害仍为法术，持续60秒"
+effect_type = "defense_priority_physical"
+effect_params = {"attack_mult":3.1, "silence_ticks":150}
+duration = 60.0
+attack_range_override = Array[Vector2i]([Vector2i(0,-1), Vector2i(1,-1), Vector2i(2,-1), Vector2i(3,-1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(3,0), Vector2i(0,1), Vector2i(1,1), Vector2i(2,1), Vector2i(3,1)])
+
 [resource]
 script = ExtResource("2_2rf8b")
 operator_id = "ceobe"
@@ -57,6 +84,7 @@ magic_resist = 20
 damage_type = "magical"
 attack_interval = 1.6
 block_count = 1
+initial_deploy_cost = 19
 deploy_cost = 21
 redeploy_time = 70.0
 attack_range = Array[Vector2i]([Vector2i(0, -1), Vector2i(0, 0), Vector2i(0, 1), Vector2i(1, -1), Vector2i(1, 0), Vector2i(1, 1), Vector2i(2, -1), Vector2i(2, 0), Vector2i(2, 1), Vector2i(3, 0)])
@@ -64,4 +92,4 @@ terrain_requirement = "high"
 branch_trait = SubResource("Resource_1tinh")
 talent_1 = SubResource("Resource_tl2cc")
 talent_2 = SubResource("Resource_21e23")
-skills = Array[ExtResource("3_6kg3h")]([SubResource("Resource_i8udo")])
+skills = Array[ExtResource("3_6kg3h")]([SubResource("Resource_i8udo"), SubResource("Skill_1"), SubResource("Skill_2")])

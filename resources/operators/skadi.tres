@@ -1,0 +1,96 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_hd8rm"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_pf4qm"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_xndia"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_juqyo"]
+
+[sub_resource type="Resource" id="Resource_w2po8"]
+script = ExtResource("1_hd8rm")
+trait_name = "无畏者"
+description = "能够阻挡一个敌人；本作固定站位，优先阻挡无独立适用对象。"
+effect_type = "prioritize_blocked"
+
+[sub_resource type="Resource" id="Resource_55iqv"]
+script = ExtResource("3_xndia")
+skill_name = "迅捷打击·γ型"
+initial_sp = 15
+sp_required = 35
+sp_recharge_type = "time"
+description = "攻击力+45%，攻击速度+45，持续35秒。"
+effect_type = "atk_spd_boost"
+effect_params = {
+"attack_mult": 1.45,
+"attack_speed_add": 45
+}
+duration = 35.0
+
+[sub_resource type="Resource" id="Resource_kmp8a"]
+script = ExtResource("3_xndia")
+skill_name = "跃浪击"
+trigger_type = "passive"
+sp_recharge_type = "passive"
+description = "部署后30秒内攻击力+170%；无需手动开启，再次部署重新计时。"
+effect_type = "deploy_atk_boost"
+effect_params = {
+"attack_mult": 2.7
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_vxx86"]
+script = ExtResource("3_xndia")
+skill_name = "涌潮悲歌"
+initial_sp = 70
+sp_required = 90
+sp_recharge_type = "time"
+description = "攻击力、防御力和生命上限各+130%，持续50秒；生命上限变化按本作既有比例规则调整当前生命，不算治疗。"
+effect_type = "atk_def_health_boost"
+effect_params = {
+"attack_mult": 2.3,
+"defense_mult": 2.3,
+"health_percent": 130
+}
+duration = 50.0
+
+[sub_resource type="Resource" id="Resource_02gwg"]
+script = ExtResource("4_juqyo")
+talent_name = "深海掠食者"
+description = "编入队伍时，所有【深海猎人】干员的攻击力+14%，不需要斯卡蒂在场。"
+effect_type = "group_attack_aura"
+effect_params = {
+"attack_percent": 14,
+"group_id": "abyssal"
+}
+
+[sub_resource type="Resource" id="Resource_gc57g"]
+script = ExtResource("4_juqyo")
+talent_name = "迅捷出击"
+description = "自身再部署时间-10秒。"
+effect_type = "redeploy_reduction"
+effect_params = {
+"reduction_seconds": 10
+}
+
+[resource]
+script = ExtResource("2_pf4qm")
+operator_id = "skadi"
+display_name = "斯卡蒂"
+profession = "近卫"
+profession_id = "guard"
+branch = "无畏者"
+group_id = "abyssal"
+max_health = 3866
+attack = 1015
+defense = 263
+damage_type = "physical"
+attack_interval = 1.5
+block_count = 1
+initial_deploy_cost = 17
+deploy_cost = 19
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_w2po8")
+talent_1 = SubResource("Resource_02gwg")
+talent_2 = SubResource("Resource_gc57g")
+skills = Array[ExtResource("3_xndia")]([SubResource("Resource_55iqv"), SubResource("Resource_kmp8a"), SubResource("Resource_vxx86")])

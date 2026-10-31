@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bm3okpetwjc0i"
+path="res://.godot/imported/char_128_plosis.atlas-ac3b6e71de9d79dddebe9376f14fbc8b.tres"
+
+[deps]
+
+source_file="res://assets/operators/ptilopsis/back/char_128_plosis.atlas"
+dest_files=["res://.godot/imported/char_128_plosis.atlas-ac3b6e71de9d79dddebe9376f14fbc8b.tres"]
+
+[params]
+
+normal_map_prefix="n"

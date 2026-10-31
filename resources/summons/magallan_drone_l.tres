@@ -1,0 +1,51 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "龙腾无人机"
+description = "不挡球，不接受直接治疗；技能模块由本体携带技能决定，本体离场一并退场；伤害按辅助折算"
+effect_type = "summoner_drone"
+effect_params = {"source_profession_id":"supporter", "module_index":2, "splash_radius_squared":0}
+[sub_resource type="Resource" id="Talent1"]
+script = ExtResource("3")
+talent_name = "模块功能"
+description = "攻击模块由本体技能及当前状态控制"
+effect_type = "none"
+[sub_resource type="Resource" id="Talent2"]
+script = ExtResource("3")
+talent_name = "光学折射配件"
+description = "部署后20秒隐匿，范围伤害仍可命中，银灰可反隐"
+effect_type = "drone_concealment"
+effect_params = {"hidden_ticks":600}
+[sub_resource type="Resource" id="Skill"]
+script = ExtResource("4")
+trigger_type = "passive"
+skill_name = "本体控制模块"
+sp_recharge_type = "passive"
+description = "无独立技能按钮；本体技能结束回收在场无人机并返还库存，手动撤退或击毁不返还"
+effect_type = "no_skill"
+[resource]
+script = ExtResource("1")
+operator_id = "magallan_drone_l"
+display_name = "龙腾.L"
+profession = "召唤物"
+profession_id = "summon"
+branch = "麦哲伦无人机"
+max_health = 2000
+attack = 509
+defense = 200
+magic_resist = 0
+damage_type = "magical"
+attack_interval = 1.0
+block_count = 0
+deploy_cost = 7
+redeploy_time = 10.0
+attack_range = Array[Vector2i]([Vector2i(0,0),Vector2i(1,0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent1")
+talent_2 = SubResource("Talent2")
+skills = Array[ExtResource("4")]([SubResource("Skill")])

@@ -1,0 +1,85 @@
+{
+  "id": "chen_alter_s3",
+  "title": "假日威龙陈S3 · 分段素材诊断（非技能组合）",
+  "operator_id": "chen_alter",
+  "asset_root": "res://assets/battle/vfx/chen_alter_s3/",
+  "output": "res://.ai/chen-alter-s3-20261026/component/",
+  "clip_ids": [
+    "buff_01",
+    "buff_01_b",
+    "buff_02",
+    "buff_02_b",
+    "buff_03",
+    "buff_03_b",
+    "debuff",
+    "hit_01",
+    "range_01",
+    "start_01",
+    "start_01_b",
+    "start_02",
+    "start_02_b",
+    "start_03"
+  ],
+  "start_times": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "anchors": [
+    "source",
+    "source",
+    "source",
+    "source",
+    "source",
+    "source",
+    "source",
+    "source",
+    "source",
+    "source",
+    "source",
+    "source",
+    "source",
+    "source"
+  ],
+  "actor_attack_clip": "Skill_2_Loop",
+  "target_distance_units": 2.8,
+  "projectile_seconds": 0.65,
+  "loop_seconds": 12.0,
+  "performance_cycle_seconds": 12.0,
+  "board_times": [
+    0.2,
+    0.6,
+    2.0
+  ],
+  "verify_times": [
+    0.15,
+    0.6,
+    1.5,
+    3.0,
+    5.2,
+    7.0,
+    11.0
+  ],
+  "hit_verify_time": 0.6,
+  "capture_ranges": [
+    [
+      0.0,
+      2.0
+    ],
+    [
+      4.5,
+      6.5
+    ]
+  ]
+}

@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cywt0qpr4cjb8"
+path="res://.godot/imported/char_420_flamtl.atlas-afbe6259f351186dd888ace092661018.tres"
+
+[deps]
+
+source_file="res://assets/operators/flametail/front/char_420_flamtl.atlas"
+dest_files=["res://.godot/imported/char_420_flamtl.atlas-afbe6259f351186dd888ace092661018.tres"]
+
+[params]
+
+normal_map_prefix="n"

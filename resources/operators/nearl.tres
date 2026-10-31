@@ -1,0 +1,76 @@
+[gd_resource type="Resource" load_steps=10 format=3]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "守护者"
+description = "技能可以治疗友方单位，优先攻击自己阻挡的敌人"
+effect_type = "guardian"
+effect_params = {}
+
+[sub_resource type="Resource" id="Talent1"]
+script = ExtResource("3")
+talent_name = "天马光环"
+description = "在场时全场友方单位输出治疗效果提高10%，不影响生命回复速度"
+effect_type = "healing_output_aura"
+effect_params = {"healing_bonus_percent": 10}
+
+[sub_resource type="Resource" id="Talent2"]
+script = ExtResource("3")
+talent_name = ""
+description = ""
+effect_type = "none"
+effect_params = {}
+
+[sub_resource type="Resource" id="Skill1"]
+script = ExtResource("4")
+skill_name = "急救"
+initial_sp = 0
+sp_required = 4
+sp_recharge_type = "time"
+trigger_type = "auto"
+duration = 0.0
+description = "下一次攻击改为治疗周围血量不高于50%的单个友军，180%攻击力，可充能3次"
+effect_type = "guardian_aid"
+effect_params = {"heal_percent": 180, "charge_count": 3, "hp_threshold_percent": 50}
+attack_range_override = Array[Vector2i]([Vector2i(-1,1), Vector2i(0,1), Vector2i(1,1), Vector2i(-1,0), Vector2i(0,0), Vector2i(1,0), Vector2i(-1,-1), Vector2i(0,-1), Vector2i(1,-1)])
+
+[sub_resource type="Resource" id="Skill2"]
+script = ExtResource("4")
+skill_name = "急救模式"
+initial_sp = 30
+sp_required = 40
+sp_recharge_type = "time"
+trigger_type = "manual"
+duration = 40.0
+description = "攻击力+80%，停止攻击并对周围受伤友方进行普通治疗，基础间隔1.3秒，持续40秒"
+effect_type = "guardian_mode"
+effect_params = {"attack_mult": 1.8, "heal_percent": 100, "attack_interval": 1.3}
+attack_range_override = Array[Vector2i]([Vector2i(-1,1), Vector2i(0,1), Vector2i(1,1), Vector2i(-1,0), Vector2i(0,0), Vector2i(1,0), Vector2i(-1,-1), Vector2i(0,-1), Vector2i(1,-1)])
+
+[resource]
+script = ExtResource("1")
+operator_id = "nearl"
+display_name = "临光"
+profession = "重装"
+profession_id = "defender"
+branch = "守护者"
+max_health = 2780
+attack = 462
+defense = 575
+magic_resist = 10
+damage_type = "physical"
+attack_interval = 1.2
+block_count = 3
+initial_deploy_cost = 17
+deploy_cost = 21
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0,0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent1")
+talent_2 = SubResource("Talent2")
+skills = Array[ExtResource("4")]([SubResource("Skill1"), SubResource("Skill2")])

@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://b2m70rlm2ass2"
+path="res://.godot/imported/char_002_amiya.atlas-d27338134df766202b1c6a3df53c67b8.tres"
+
+[deps]
+
+source_file="res://assets/operators/amiya/front/char_002_amiya.atlas"
+dest_files=["res://.godot/imported/char_002_amiya.atlas-d27338134df766202b1c6a3df53c67b8.tres"]
+
+[params]
+
+normal_map_prefix="n"

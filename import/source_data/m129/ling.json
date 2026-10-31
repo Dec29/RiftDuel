@@ -1,0 +1,2378 @@
+{
+  "repository": "Kengxxiao/ArknightsGameData",
+  "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "table_sha256": {
+    "character_table.json": "e523c7c83c36e2d76697121079e17d0282da1a94d59a55e1cc55616edf0b41c4",
+    "skill_table.json": "b6559b845efea6042e23f1d976185f12e13de3d749464543f5c2c17a7d2fa280",
+    "range_table.json": "4d974598394630a1ad465b954321254397f514c7fb26cba944d320ac18b874d0"
+  },
+  "operator_id": "ling",
+  "char_id": "char_2023_ling",
+  "name": "令",
+  "rarity": "TIER_6",
+  "profession": "SUPPORT",
+  "sub_profession": "summoner",
+  "profile": "E2 maximum level, zero trust/potential bonuses, no module, skills M3",
+  "character": {
+    "name": "令",
+    "description": "攻击造成<@ba.kw>法术伤害</>\\n可以使用<@ba.kw>召唤物</>协助作战",
+    "sortIndex": 618,
+    "spTargetType": "NONE",
+    "spTargetId": null,
+    "canUseGeneralPotentialItem": true,
+    "canUseActivityPotentialItem": false,
+    "potentialItemId": "p_char_2023_ling",
+    "activityPotentialItemId": null,
+    "classicPotentialItemId": null,
+    "nationId": "yan",
+    "groupId": "sui",
+    "teamId": null,
+    "mainPower": {
+      "nationId": "yan",
+      "groupId": "sui",
+      "teamId": null
+    },
+    "subPower": null,
+    "displayNumber": "NM03",
+    "appellation": "Ling",
+    "position": "RANGED",
+    "tagList": [
+      "召唤",
+      "支援",
+      "控场"
+    ],
+    "itemUsage": "来自炎国的诗人令，洒脱无羁，纵情快意，只要有酒，一切皆可入诗。",
+    "itemDesc": "你问写诗的笔在哪儿？注意看她的尾巴。",
+    "itemObtainApproach": "招募寻访",
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 5,
+    "rarity": "TIER_6",
+    "profession": "SUPPORT",
+    "subProfessionId": "summoner",
+    "trait": null,
+    "phases": [
+      {
+        "characterPrefabKey": "char_2023_ling",
+        "rangeId": "3-6",
+        "maxLevel": 50,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 485,
+              "atk": 212,
+              "def": 59,
+              "magicResistance": 15.0,
+              "cost": 10,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.6,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 50,
+            "data": {
+              "maxHp": 656,
+              "atk": 304,
+              "def": 85,
+              "magicResistance": 15.0,
+              "cost": 10,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.6,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": null
+      },
+      {
+        "characterPrefabKey": "char_2023_ling",
+        "rangeId": "3-1",
+        "maxLevel": 80,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 656,
+              "atk": 304,
+              "def": 85,
+              "magicResistance": 20.0,
+              "cost": 12,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.6,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 80,
+            "data": {
+              "maxHp": 852,
+              "atk": 406,
+              "def": 114,
+              "magicResistance": 20.0,
+              "cost": 12,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.6,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": [
+          {
+            "id": "3271",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30032",
+            "count": 10,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30052",
+            "count": 3,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "characterPrefabKey": "char_2023_ling",
+        "rangeId": "3-1",
+        "maxLevel": 90,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 852,
+              "atk": 406,
+              "def": 114,
+              "magicResistance": 20.0,
+              "cost": 12,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.6,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 90,
+            "data": {
+              "maxHp": 1079,
+              "atk": 473,
+              "def": 138,
+              "magicResistance": 20.0,
+              "cost": 12,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.6,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": [
+          {
+            "id": "3273",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30135",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31034",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "skillId": "skchr_ling_1",
+        "overridePrefabKey": null,
+        "overrideTokenKey": "token_10020_ling_soul1",
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31024",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30103",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31054",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30064",
+                "count": 6,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30115",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31024",
+                "count": 6,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skchr_ling_2",
+        "overridePrefabKey": null,
+        "overrideTokenKey": "token_10020_ling_soul2",
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30044",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31043",
+                "count": 3,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31044",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31014",
+                "count": 9,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30145",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30014",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skchr_ling_3",
+        "overridePrefabKey": null,
+        "overrideTokenKey": "token_10020_ling_soul3",
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30054",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31013",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30014",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30094",
+                "count": 9,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30135",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31014",
+                "count": 6,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_2",
+          "level": 1
+        }
+      }
+    ],
+    "displayTokenDict": {
+      "token_10020_ling_soul1": true,
+      "token_10020_ling_soul2": true,
+      "token_10020_ling_soul3": true
+    },
+    "talents": [
+      {
+        "candidates": [
+          {
+            "unlockCondition": {
+              "phase": "PHASE_0",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "挑灯问梦",
+            "description": "可以使用3个召唤物（最多同时部署3个），功能随技能选择而改变",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "cnt",
+                "value": 3.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_1",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "挑灯问梦",
+            "description": "可以使用4个召唤物（最多同时部署3个），功能随技能选择而改变",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "cnt",
+                "value": 4.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "挑灯问梦",
+            "description": "可以使用5个召唤物（最多同时部署3个），功能随技能选择而改变",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "cnt",
+                "value": 5.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          }
+        ]
+      },
+      {
+        "candidates": [
+          {
+            "unlockCondition": {
+              "phase": "PHASE_1",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "2",
+            "name": "随付笺咏醉屠苏",
+            "description": "召唤物被击倒/吸收/回收时令额外获得2点技力、攻击力+2%（攻击力加成最多叠加5层）",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "max_stack_cnt",
+                "value": 5.0,
+                "valueStr": null
+              },
+              {
+                "key": "sp",
+                "value": 2.0,
+                "valueStr": null
+              },
+              {
+                "key": "atk",
+                "value": 0.02,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_1",
+              "level": 1
+            },
+            "requiredPotentialRank": 4,
+            "prefabKey": "2",
+            "name": "随付笺咏醉屠苏",
+            "description": "召唤物被击倒/吸收/回收时令额外获得3<@ba.talpu>(+1)</>点技力、攻击力+2%（攻击力加成最多叠加5层）",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "max_stack_cnt",
+                "value": 5.0,
+                "valueStr": null
+              },
+              {
+                "key": "sp",
+                "value": 3.0,
+                "valueStr": null
+              },
+              {
+                "key": "atk",
+                "value": 0.02,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "2",
+            "name": "随付笺咏醉屠苏",
+            "description": "召唤物被击倒/吸收/回收时令额外获得3点技力、攻击力+3%（攻击力加成最多叠加5层）",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "max_stack_cnt",
+                "value": 5.0,
+                "valueStr": null
+              },
+              {
+                "key": "sp",
+                "value": 3.0,
+                "valueStr": null
+              },
+              {
+                "key": "atk",
+                "value": 0.03,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 4,
+            "prefabKey": "2",
+            "name": "随付笺咏醉屠苏",
+            "description": "召唤物被击倒/吸收/回收时令额外获得4<@ba.talpu>(+1)</>点技力、攻击力+3%（攻击力加成最多叠加5层）",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "max_stack_cnt",
+                "value": 5.0,
+                "valueStr": null
+              },
+              {
+                "key": "sp",
+                "value": 4.0,
+                "valueStr": null
+              },
+              {
+                "key": "atk",
+                "value": 0.03,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          }
+        ]
+      }
+    ],
+    "potentialRanks": [
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "再部署时间-4秒",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "RESPAWN_TIME",
+                "formulaItem": "ADDITION",
+                "value": -4.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "攻击力+24",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "ATK",
+                "formulaItem": "ADDITION",
+                "value": 24.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "CUSTOM",
+        "description": "第二天赋效果增强",
+        "buff": null,
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      }
+    ],
+    "favorKeyFrames": [
+      {
+        "level": 0,
+        "data": {
+          "maxHp": 0,
+          "atk": 0,
+          "def": 0,
+          "magicResistance": 0.0,
+          "cost": 0,
+          "blockCnt": 0,
+          "moveSpeed": 0.0,
+          "attackSpeed": 0.0,
+          "baseAttackTime": 0.0,
+          "respawnTime": 0,
+          "hpRecoveryPerSec": 0.0,
+          "spRecoveryPerSec": 0.0,
+          "maxDeployCount": 0,
+          "maxDeckStackCnt": 0,
+          "tauntLevel": 0,
+          "massLevel": 0,
+          "baseForceLevel": 0,
+          "stunImmune": false,
+          "silenceImmune": false,
+          "sleepImmune": false,
+          "frozenImmune": false,
+          "levitateImmune": false,
+          "disarmedCombatImmune": false,
+          "fearedImmune": false,
+          "palsyImmune": false,
+          "attractImmune": false,
+          "teleportImmune": false,
+          "groundBoundImmune": false
+        }
+      },
+      {
+        "level": 50,
+        "data": {
+          "maxHp": 350,
+          "atk": 35,
+          "def": 0,
+          "magicResistance": 0.0,
+          "cost": 0,
+          "blockCnt": 0,
+          "moveSpeed": 0.0,
+          "attackSpeed": 0.0,
+          "baseAttackTime": 0.0,
+          "respawnTime": 0,
+          "hpRecoveryPerSec": 0.0,
+          "spRecoveryPerSec": 0.0,
+          "maxDeployCount": 0,
+          "maxDeckStackCnt": 0,
+          "tauntLevel": 0,
+          "massLevel": 0,
+          "baseForceLevel": 0,
+          "stunImmune": false,
+          "silenceImmune": false,
+          "sleepImmune": false,
+          "frozenImmune": false,
+          "levitateImmune": false,
+          "disarmedCombatImmune": false,
+          "fearedImmune": false,
+          "palsyImmune": false,
+          "attractImmune": false,
+          "teleportImmune": false,
+          "groundBoundImmune": false
+        }
+      }
+    ],
+    "allSkillLvlup": [
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3301",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3301",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30051",
+            "count": 6,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30011",
+            "count": 4,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30062",
+            "count": 3,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30012",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30062",
+            "count": 3,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31053",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3303",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30013",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30063",
+            "count": 4,
+            "type": "MATERIAL"
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "skchr_ling_1": {
+      "skillId": "skchr_ling_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": [
+        {
+          "name": "重进酒",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，召唤物伤害类型变为<@ba.vup>法术</>\\n<@ba.rem>技能开启时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 40,
+            "initSp": 5,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_1",
+          "duration": 25.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.2,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 20.0,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "重进酒",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，召唤物伤害类型变为<@ba.vup>法术</>\\n<@ba.rem>技能开启时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 40,
+            "initSp": 5,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_1",
+          "duration": 25.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.23,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 23.0,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "重进酒",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，召唤物伤害类型变为<@ba.vup>法术</>\\n<@ba.rem>技能开启时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 40,
+            "initSp": 5,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_1",
+          "duration": 25.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.26,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 26.0,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "重进酒",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，召唤物伤害类型变为<@ba.vup>法术</>\\n<@ba.rem>技能开启时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 35,
+            "initSp": 10,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_1",
+          "duration": 25.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.29,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 29.0,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "重进酒",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，召唤物伤害类型变为<@ba.vup>法术</>\\n<@ba.rem>技能开启时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 35,
+            "initSp": 10,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_1",
+          "duration": 25.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.32,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 32.0,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "重进酒",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，召唤物伤害类型变为<@ba.vup>法术</>\\n<@ba.rem>技能开启时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 35,
+            "initSp": 10,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_1",
+          "duration": 25.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.35,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 35.0,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "重进酒",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，召唤物伤害类型变为<@ba.vup>法术</>\\n<@ba.rem>技能开启时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 30,
+            "initSp": 10,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_1",
+          "duration": 25.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.38,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 38.0,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "重进酒",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，召唤物伤害类型变为<@ba.vup>法术</>\\n<@ba.rem>技能开启时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 30,
+            "initSp": 15,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_1",
+          "duration": 25.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.42,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 42.0,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "重进酒",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，召唤物伤害类型变为<@ba.vup>法术</>\\n<@ba.rem>技能开启时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 30,
+            "initSp": 15,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_1",
+          "duration": 25.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.46,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 46.0,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "重进酒",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，召唤物伤害类型变为<@ba.vup>法术</>\\n<@ba.rem>技能开启时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 25,
+            "initSp": 15,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_1",
+          "duration": 25.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 50.0,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        }
+      ]
+    },
+    "skchr_ling_2": {
+      "skillId": "skchr_ling_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": [
+        {
+          "name": "笑鸣瑟",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在远程位，攻击造成<@ba.vup>法术</>伤害\\n开启：令与召唤物对攻击范围内<@ba.vup>两名</>敌人造成<@ba.vup>{atk_scale:0%}</>攻击力的法术伤害并<$ba.root>束缚</><@ba.vup>{ling_s2_unmovable.duration}</>秒\\n<@ba.rem>技能结束时回收生命值低于一半的召唤物。可充能{value}次</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 18,
+            "initSp": 0,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_2",
+          "duration": -1.0,
+          "blackboard": [
+            {
+              "key": "atk_scale",
+              "value": 2.5,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            },
+            {
+              "key": "ling_s2_unmovable.duration",
+              "value": 1.5,
+              "valueStr": null
+            },
+            {
+              "key": "value",
+              "value": 1.0,
+              "valueStr": null
+            },
+            {
+              "key": "hp_ratio",
+              "value": 0.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "笑鸣瑟",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在远程位，攻击造成<@ba.vup>法术</>伤害\\n开启：令与召唤物对攻击范围内<@ba.vup>两名</>敌人造成<@ba.vup>{atk_scale:0%}</>攻击力的法术伤害并<$ba.root>束缚</><@ba.vup>{ling_s2_unmovable.duration}</>秒\\n<@ba.rem>技能结束时回收生命值低于一半的召唤物。可充能{value}次</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 18,
+            "initSp": 0,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_2",
+          "duration": -1.0,
+          "blackboard": [
+            {
+              "key": "atk_scale",
+              "value": 2.7,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            },
+            {
+              "key": "ling_s2_unmovable.duration",
+              "value": 1.5,
+              "valueStr": null
+            },
+            {
+              "key": "value",
+              "value": 1.0,
+              "valueStr": null
+            },
+            {
+              "key": "hp_ratio",
+              "value": 0.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "笑鸣瑟",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在远程位，攻击造成<@ba.vup>法术</>伤害\\n开启：令与召唤物对攻击范围内<@ba.vup>两名</>敌人造成<@ba.vup>{atk_scale:0%}</>攻击力的法术伤害并<$ba.root>束缚</><@ba.vup>{ling_s2_unmovable.duration}</>秒\\n<@ba.rem>技能结束时回收生命值低于一半的召唤物。可充能{value}次</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 18,
+            "initSp": 0,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_2",
+          "duration": -1.0,
+          "blackboard": [
+            {
+              "key": "atk_scale",
+              "value": 2.9,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            },
+            {
+              "key": "ling_s2_unmovable.duration",
+              "value": 1.5,
+              "valueStr": null
+            },
+            {
+              "key": "value",
+              "value": 1.0,
+              "valueStr": null
+            },
+            {
+              "key": "hp_ratio",
+              "value": 0.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "笑鸣瑟",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在远程位，攻击造成<@ba.vup>法术</>伤害\\n开启：令与召唤物对攻击范围内<@ba.vup>两名</>敌人造成<@ba.vup>{atk_scale:0%}</>攻击力的法术伤害并<$ba.root>束缚</><@ba.vup>{ling_s2_unmovable.duration}</>秒\\n<@ba.rem>技能结束时回收生命值低于一半的召唤物。可充能{value}次</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 2,
+            "spCost": 17,
+            "initSp": 0,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_2",
+          "duration": -1.0,
+          "blackboard": [
+            {
+              "key": "atk_scale",
+              "value": 3.1,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            },
+            {
+              "key": "ling_s2_unmovable.duration",
+              "value": 2.0,
+              "valueStr": null
+            },
+            {
+              "key": "value",
+              "value": 2.0,
+              "valueStr": null
+            },
+            {
+              "key": "hp_ratio",
+              "value": 0.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "笑鸣瑟",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在远程位，攻击造成<@ba.vup>法术</>伤害\\n开启：令与召唤物对攻击范围内<@ba.vup>两名</>敌人造成<@ba.vup>{atk_scale:0%}</>攻击力的法术伤害并<$ba.root>束缚</><@ba.vup>{ling_s2_unmovable.duration}</>秒\\n<@ba.rem>技能结束时回收生命值低于一半的召唤物。可充能{value}次</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 2,
+            "spCost": 17,
+            "initSp": 0,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_2",
+          "duration": -1.0,
+          "blackboard": [
+            {
+              "key": "atk_scale",
+              "value": 3.3,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            },
+            {
+              "key": "ling_s2_unmovable.duration",
+              "value": 2.0,
+              "valueStr": null
+            },
+            {
+              "key": "value",
+              "value": 2.0,
+              "valueStr": null
+            },
+            {
+              "key": "hp_ratio",
+              "value": 0.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "笑鸣瑟",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在远程位，攻击造成<@ba.vup>法术</>伤害\\n开启：令与召唤物对攻击范围内<@ba.vup>两名</>敌人造成<@ba.vup>{atk_scale:0%}</>攻击力的法术伤害并<$ba.root>束缚</><@ba.vup>{ling_s2_unmovable.duration}</>秒\\n<@ba.rem>技能结束时回收生命值低于一半的召唤物。可充能{value}次</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 2,
+            "spCost": 17,
+            "initSp": 0,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_2",
+          "duration": -1.0,
+          "blackboard": [
+            {
+              "key": "atk_scale",
+              "value": 3.5,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            },
+            {
+              "key": "ling_s2_unmovable.duration",
+              "value": 2.0,
+              "valueStr": null
+            },
+            {
+              "key": "value",
+              "value": 2.0,
+              "valueStr": null
+            },
+            {
+              "key": "hp_ratio",
+              "value": 0.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "笑鸣瑟",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在远程位，攻击造成<@ba.vup>法术</>伤害\\n开启：令与召唤物对攻击范围内<@ba.vup>两名</>敌人造成<@ba.vup>{atk_scale:0%}</>攻击力的法术伤害并<$ba.root>束缚</><@ba.vup>{ling_s2_unmovable.duration}</>秒\\n<@ba.rem>技能结束时回收生命值低于一半的召唤物。可充能{value}次</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 2,
+            "spCost": 16,
+            "initSp": 5,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_2",
+          "duration": -1.0,
+          "blackboard": [
+            {
+              "key": "atk_scale",
+              "value": 3.7,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            },
+            {
+              "key": "ling_s2_unmovable.duration",
+              "value": 2.5,
+              "valueStr": null
+            },
+            {
+              "key": "value",
+              "value": 2.0,
+              "valueStr": null
+            },
+            {
+              "key": "hp_ratio",
+              "value": 0.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "笑鸣瑟",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在远程位，攻击造成<@ba.vup>法术</>伤害\\n开启：令与召唤物对攻击范围内<@ba.vup>两名</>敌人造成<@ba.vup>{atk_scale:0%}</>攻击力的法术伤害并<$ba.root>束缚</><@ba.vup>{ling_s2_unmovable.duration}</>秒\\n<@ba.rem>技能结束时回收生命值低于一半的召唤物。可充能{value}次</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 2,
+            "spCost": 15,
+            "initSp": 5,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_2",
+          "duration": -1.0,
+          "blackboard": [
+            {
+              "key": "atk_scale",
+              "value": 3.9,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            },
+            {
+              "key": "ling_s2_unmovable.duration",
+              "value": 2.5,
+              "valueStr": null
+            },
+            {
+              "key": "value",
+              "value": 2.0,
+              "valueStr": null
+            },
+            {
+              "key": "hp_ratio",
+              "value": 0.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "笑鸣瑟",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在远程位，攻击造成<@ba.vup>法术</>伤害\\n开启：令与召唤物对攻击范围内<@ba.vup>两名</>敌人造成<@ba.vup>{atk_scale:0%}</>攻击力的法术伤害并<$ba.root>束缚</><@ba.vup>{ling_s2_unmovable.duration}</>秒\\n<@ba.rem>技能结束时回收生命值低于一半的召唤物。可充能{value}次</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 2,
+            "spCost": 14,
+            "initSp": 5,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_2",
+          "duration": -1.0,
+          "blackboard": [
+            {
+              "key": "atk_scale",
+              "value": 4.2,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            },
+            {
+              "key": "ling_s2_unmovable.duration",
+              "value": 2.5,
+              "valueStr": null
+            },
+            {
+              "key": "value",
+              "value": 2.0,
+              "valueStr": null
+            },
+            {
+              "key": "hp_ratio",
+              "value": 0.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "笑鸣瑟",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在远程位，攻击造成<@ba.vup>法术</>伤害\\n开启：令与召唤物对攻击范围内<@ba.vup>两名</>敌人造成<@ba.vup>{atk_scale:0%}</>攻击力的法术伤害并<$ba.root>束缚</><@ba.vup>{ling_s2_unmovable.duration}</>秒\\n<@ba.rem>技能结束时回收生命值低于一半的召唤物。可充能{value}次</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 2,
+            "spCost": 13,
+            "initSp": 5,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_2",
+          "duration": -1.0,
+          "blackboard": [
+            {
+              "key": "atk_scale",
+              "value": 4.5,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            },
+            {
+              "key": "ling_s2_unmovable.duration",
+              "value": 3.0,
+              "valueStr": null
+            },
+            {
+              "key": "value",
+              "value": 2.0,
+              "valueStr": null
+            },
+            {
+              "key": "hp_ratio",
+              "value": 0.5,
+              "valueStr": null
+            }
+          ]
+        }
+      ]
+    },
+    "skchr_ling_3": {
+      "skillId": "skchr_ling_3",
+      "iconId": null,
+      "hidden": false,
+      "levels": [
+        {
+          "name": "宁作吾",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位且攻击范围内存在其他召唤物时与其合并为<@ba.vup>高级</>形态\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，召唤物每<@ba.vup>{interval}</>秒对周围四格敌人造成<@ba.vup>{atk_scale:0%}</>令攻击力的法术伤害\\n<@ba.rem>技能结束时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 55,
+            "initSp": 10,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_3",
+          "duration": 20.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.4,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.4,
+              "valueStr": null
+            },
+            {
+              "key": "atk_scale",
+              "value": 0.2,
+              "valueStr": null
+            },
+            {
+              "key": "interval",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "宁作吾",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位且攻击范围内存在其他召唤物时与其合并为<@ba.vup>高级</>形态\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，召唤物每<@ba.vup>{interval}</>秒对周围四格敌人造成<@ba.vup>{atk_scale:0%}</>令攻击力的法术伤害\\n<@ba.rem>技能结束时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 55,
+            "initSp": 10,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_3",
+          "duration": 20.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.45,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.4,
+              "valueStr": null
+            },
+            {
+              "key": "atk_scale",
+              "value": 0.2,
+              "valueStr": null
+            },
+            {
+              "key": "interval",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "宁作吾",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位且攻击范围内存在其他召唤物时与其合并为<@ba.vup>高级</>形态\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，召唤物每<@ba.vup>{interval}</>秒对周围四格敌人造成<@ba.vup>{atk_scale:0%}</>令攻击力的法术伤害\\n<@ba.rem>技能结束时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 55,
+            "initSp": 10,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_3",
+          "duration": 20.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.4,
+              "valueStr": null
+            },
+            {
+              "key": "atk_scale",
+              "value": 0.2,
+              "valueStr": null
+            },
+            {
+              "key": "interval",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "宁作吾",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位且攻击范围内存在其他召唤物时与其合并为<@ba.vup>高级</>形态\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，召唤物每<@ba.vup>{interval}</>秒对周围四格敌人造成<@ba.vup>{atk_scale:0%}</>令攻击力的法术伤害\\n<@ba.rem>技能结束时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 50,
+            "initSp": 12,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_3",
+          "duration": 25.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.55,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "atk_scale",
+              "value": 0.2,
+              "valueStr": null
+            },
+            {
+              "key": "interval",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "宁作吾",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位且攻击范围内存在其他召唤物时与其合并为<@ba.vup>高级</>形态\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，召唤物每<@ba.vup>{interval}</>秒对周围四格敌人造成<@ba.vup>{atk_scale:0%}</>令攻击力的法术伤害\\n<@ba.rem>技能结束时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 50,
+            "initSp": 12,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_3",
+          "duration": 25.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.6,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "atk_scale",
+              "value": 0.2,
+              "valueStr": null
+            },
+            {
+              "key": "interval",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "宁作吾",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位且攻击范围内存在其他召唤物时与其合并为<@ba.vup>高级</>形态\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，召唤物每<@ba.vup>{interval}</>秒对周围四格敌人造成<@ba.vup>{atk_scale:0%}</>令攻击力的法术伤害\\n<@ba.rem>技能结束时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 50,
+            "initSp": 12,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_3",
+          "duration": 25.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.65,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "atk_scale",
+              "value": 0.2,
+              "valueStr": null
+            },
+            {
+              "key": "interval",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "宁作吾",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位且攻击范围内存在其他召唤物时与其合并为<@ba.vup>高级</>形态\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，召唤物每<@ba.vup>{interval}</>秒对周围四格敌人造成<@ba.vup>{atk_scale:0%}</>令攻击力的法术伤害\\n<@ba.rem>技能结束时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 45,
+            "initSp": 15,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_3",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.7,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.6,
+              "valueStr": null
+            },
+            {
+              "key": "atk_scale",
+              "value": 0.2,
+              "valueStr": null
+            },
+            {
+              "key": "interval",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "宁作吾",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位且攻击范围内存在其他召唤物时与其合并为<@ba.vup>高级</>形态\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，召唤物每<@ba.vup>{interval}</>秒对周围四格敌人造成<@ba.vup>{atk_scale:0%}</>令攻击力的法术伤害\\n<@ba.rem>技能结束时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 44,
+            "initSp": 15,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_3",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.8,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.7,
+              "valueStr": null
+            },
+            {
+              "key": "atk_scale",
+              "value": 0.2,
+              "valueStr": null
+            },
+            {
+              "key": "interval",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "宁作吾",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位且攻击范围内存在其他召唤物时与其合并为<@ba.vup>高级</>形态\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，召唤物每<@ba.vup>{interval}</>秒对周围四格敌人造成<@ba.vup>{atk_scale:0%}</>令攻击力的法术伤害\\n<@ba.rem>技能结束时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 42,
+            "initSp": 15,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_3",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.9,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.85,
+              "valueStr": null
+            },
+            {
+              "key": "atk_scale",
+              "value": 0.2,
+              "valueStr": null
+            },
+            {
+              "key": "interval",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "宁作吾",
+          "rangeId": null,
+          "description": "被动：召唤物可部署在近战位且攻击范围内存在其他召唤物时与其合并为<@ba.vup>高级</>形态\\n开启：自身与召唤物攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，召唤物每<@ba.vup>{interval}</>秒对周围四格敌人造成<@ba.vup>{atk_scale:0%}</>令攻击力的法术伤害\\n<@ba.rem>技能结束时获得1个召唤物</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 40,
+            "initSp": 15,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ling_3",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 1.0,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 1.0,
+              "valueStr": null
+            },
+            {
+              "key": "atk_scale",
+              "value": 0.2,
+              "valueStr": null
+            },
+            {
+              "key": "interval",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "cnt",
+              "value": 1.0,
+              "valueStr": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ranges": {
+    "3-1": {
+      "id": "3-1",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": -1,
+          "col": 0
+        },
+        {
+          "row": -1,
+          "col": 1
+        },
+        {
+          "row": -1,
+          "col": 2
+        }
+      ]
+    },
+    "3-6": {
+      "id": "3-6",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": -1,
+          "col": 0
+        },
+        {
+          "row": -1,
+          "col": 1
+        },
+        {
+          "row": -1,
+          "col": 2
+        }
+      ]
+    }
+  }
+}

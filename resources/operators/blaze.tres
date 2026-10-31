@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="OperatorData" format=3 uid="uid://bc8h3nmd44ham"]
+[gd_resource type="Resource" format=3 uid="uid://bc8h3nmd44ham"]
 
 [ext_resource type="Script" uid="uid://cqgm23k7jg1a1" path="res://data/trait_resource.gd" id="1_txfo8"]
 [ext_resource type="Script" uid="uid://c33aieax8g07p" path="res://data/operator_data.gd" id="2_52d2v"]
@@ -13,6 +13,8 @@ effect_type = "attack_all_blocked"
 
 [sub_resource type="Resource" id="Resource_3gk3n"]
 script = ExtResource("3_ckev0")
+initial_sp = 0
+trigger_type = "attack"
 skill_name = "技能1"
 sp_required = 2
 sp_recharge_type = "on_hit"
@@ -43,6 +45,33 @@ effect_params = {
 "warmup_seconds": 15
 }
 
+[sub_resource type="Resource" id="Skill_blaze_2"]
+script = ExtResource("3_ckev0")
+initial_sp = 0
+trigger_type = "auto"
+skill_name = "链锯延伸模块"
+sp_required = 70
+sp_recharge_type = "time"
+description = "攻击力+100%，防御力+35%，攻击距离加长，持续无限。"
+effect_type = "permanent_atk_def_boost"
+effect_params = {"attack_mult": 2.0, "defense_mult": 1.35}
+duration = -1.0
+attack_range_override = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0)])
+
+[sub_resource type="Resource" id="Skill_blaze_3"]
+script = ExtResource("3_ckev0")
+initial_sp = 25
+trigger_type = "manual"
+skill_name = "沸腾爆裂"
+sp_required = 35
+sp_recharge_type = "time"
+description = "九阶段等分渐增攻防至+80%；前8秒每秒切割自身及前1格，第9秒流失最大生命25%（非致死，生命保护与急救有效），再在前方3×3终爆，倍率400%；每次优先敌人，其次箱子一击，再推球。持续10秒。"
+effect_type = "ramp_burst"
+effect_params = {"attack_bonus_percent": 80, "defense_bonus_percent": 80, "burst_attack_percent": 400, "hp_loss_percent": 25, "ramp_steps": 9, "pulse_interval_ticks": 30}
+duration = 10.0
+attack_range_override = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+burst_range_override = Array[Vector2i]([Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1)])
+
 [resource]
 script = ExtResource("2_52d2v")
 operator_id = "blaze"
@@ -56,6 +85,7 @@ defense = 370
 damage_type = "physical"
 attack_interval = 1.2
 block_count = 3
+initial_deploy_cost = 20
 deploy_cost = 24
 redeploy_time = 70.0
 attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
@@ -63,4 +93,4 @@ terrain_requirement = "ground"
 branch_trait = SubResource("Resource_xs4bv")
 talent_1 = SubResource("Resource_qxreb")
 talent_2 = SubResource("Resource_4cr8a")
-skills = Array[ExtResource("3_ckev0")]([SubResource("Resource_3gk3n")])
+skills = Array[ExtResource("3_ckev0")]([SubResource("Resource_3gk3n"), SubResource("Skill_blaze_2"), SubResource("Skill_blaze_3")])

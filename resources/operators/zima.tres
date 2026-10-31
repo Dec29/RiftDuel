@@ -1,0 +1,81 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_0kcv6"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_f1n1n"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_53rq5"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_uu4tb"]
+
+[sub_resource type="Resource" id="Resource_kjbon"]
+script = ExtResource("1_0kcv6")
+trait_name = "尖兵"
+description = "阻挡2；沿用本作固定站位与索敌。"
+effect_type = "prioritize_blocked"
+
+[sub_resource type="Resource" id="Resource_sgnba"]
+script = ExtResource("3_53rq5")
+skill_name = "冲锋号令·γ型"
+initial_sp = 20
+trigger_type = "auto"
+sp_required = 35
+sp_recharge_type = "time"
+description = "立即获得12费用；自然回复、自动开启。"
+effect_type = "instant_cost"
+effect_params = {
+"cost_add": 12
+}
+
+[sub_resource type="Resource" id="Resource_274uw"]
+script = ExtResource("3_53rq5")
+skill_name = "乌萨斯战吼"
+initial_sp = 20
+sp_required = 35
+sp_recharge_type = "time"
+description = "10秒内分摊回复12费用，本方在场先锋攻击和防御+60%，先锋击杀敌人额外获得1费用；源被沉默则增益暂停。"
+effect_type = "zima_warcry"
+effect_params = {
+"attack_mult": 1.0,
+"attack_percent": 60,
+"defense_percent": 60,
+"kill_cost": 1,
+"total_cost": 12
+}
+duration = 10.0
+
+[sub_resource type="Resource" id="Resource_ocotx"]
+script = ExtResource("4_uu4tb")
+talent_name = "冲锋领袖"
+description = "编入队伍后，本方普通先锋部署费用-1；无需在场，不叠加。"
+effect_type = "vanguard_cost"
+effect_params = {
+"cost_reduction": 1
+}
+
+[sub_resource type="Resource" id="Resource_326gy"]
+script = ExtResource("4_uu4tb")
+talent_name = "无第二天赋"
+description = "原作仅有一个天赋，不额外添加天赋。"
+effect_type = "none"
+
+[resource]
+script = ExtResource("2_f1n1n")
+operator_id = "zima"
+group_id = "ursus_student"
+display_name = "凛冬"
+profession = "先锋"
+profession_id = "vanguard"
+branch = "尖兵"
+max_health = 2150
+attack = 470
+defense = 350
+damage_type = "physical"
+attack_interval = 1.05
+block_count = 2
+initial_deploy_cost = 11
+deploy_cost = 13
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_kjbon")
+talent_1 = SubResource("Resource_ocotx")
+talent_2 = SubResource("Resource_326gy")
+skills = Array[ExtResource("3_53rq5")]([SubResource("Resource_sgnba"), SubResource("Resource_274uw")])

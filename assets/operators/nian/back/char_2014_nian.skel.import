@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://bbttttgw21wrw"
+path="res://.godot/imported/char_2014_nian.skel-59902d3d9d61a1aac95b728bb1d95726.tres"
+
+[deps]
+
+source_file="res://assets/operators/nian/back/char_2014_nian.skel"
+dest_files=["res://.godot/imported/char_2014_nian.skel-59902d3d9d61a1aac95b728bb1d95726.tres"]
+
+[params]

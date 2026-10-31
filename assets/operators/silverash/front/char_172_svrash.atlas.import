@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://b0lw4sqim52e3"
+path="res://.godot/imported/char_172_svrash.atlas-5d4a66c62be63cc2a78e6ccddeb9d64f.tres"
+
+[deps]
+
+source_file="res://assets/operators/silverash/front/char_172_svrash.atlas"
+dest_files=["res://.godot/imported/char_172_svrash.atlas-5d4a66c62be63cc2a78e6ccddeb9d64f.tres"]
+
+[params]
+
+normal_map_prefix="n"

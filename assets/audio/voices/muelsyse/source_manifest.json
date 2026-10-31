@@ -1,0 +1,62 @@
+{
+  "operator_id": "muelsyse",
+  "char_id": "char_249_mlyss",
+  "commit": "33a5327f9c01512f0c14a9407de303920db16125",
+  "files": [
+    {
+      "category": "voice",
+      "tag": "023",
+      "language": "ja",
+      "path": "assets/audio/voices/muelsyse/cn_023.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_249_mlyss/cn_023.mp3",
+      "bytes": 17154,
+      "sha256": "488ac1aa41d9690f2d3ee644c51d6ce4683fc7710f0b4839cbedff583acdda68"
+    },
+    {
+      "category": "voice",
+      "tag": "024",
+      "language": "ja",
+      "path": "assets/audio/voices/muelsyse/cn_024.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_249_mlyss/cn_024.mp3",
+      "bytes": 10258,
+      "sha256": "c35cbb4122b1ddcd84b773be10768430d49233b23d6bd3f1dbe111e5028e6e76"
+    },
+    {
+      "category": "voice",
+      "tag": "025",
+      "language": "ja",
+      "path": "assets/audio/voices/muelsyse/cn_025.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_249_mlyss/cn_025.mp3",
+      "bytes": 15691,
+      "sha256": "e7e832200f74f6a0e430475115b81f8526bb32e1270f7a16ef09adb930cdc350"
+    },
+    {
+      "category": "voice",
+      "tag": "026",
+      "language": "ja",
+      "path": "assets/audio/voices/muelsyse/cn_026.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_249_mlyss/cn_026.mp3",
+      "bytes": 18826,
+      "sha256": "e2d23ab023ec94b11dbf72b59b13bea3a7804ff1c9749d9e20574373d291fe1b"
+    },
+    {
+      "category": "voice",
+      "tag": "027",
+      "language": "ja",
+      "path": "assets/audio/voices/muelsyse/cn_027.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_249_mlyss/cn_027.mp3",
+      "bytes": 25722,
+      "sha256": "bab8859bcc8b776ffa7da76f7c0a3e990d788825d68c426a98260609d6401d17"
+    },
+    {
+      "category": "voice",
+      "tag": "028",
+      "language": "ja",
+      "path": "assets/audio/voices/muelsyse/cn_028.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_249_mlyss/cn_028.mp3",
+      "bytes": 24468,
+      "sha256": "9705aa38c8db98b848a64c9eb720806ed725aab0d78892c8511ee0c6ddb6e0ed"
+    }
+  ],
+  "missing_tags": []
+}

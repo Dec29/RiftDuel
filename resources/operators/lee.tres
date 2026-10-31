@@ -1,0 +1,163 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="operator"]
+
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="skill"]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="trait"]
+
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="talent"]
+
+[sub_resource type="Resource" id="trait"]
+
+script = ExtResource("trait")
+
+trait_name = "行商"
+
+description = "再部署时间减少，撤退时不返还部署费用，在场时每3秒消耗3点部署费用（不足时自动撤退）"
+
+effect_type = "cost_drain"
+
+effect_params = {"drain_amount": 3, "drain_interval": 3.0}
+
+[sub_resource type="Resource" id="talent0"]
+
+script = ExtResource("talent")
+
+talent_name = "和气生财"
+
+description = "阻挡目标攻速-14，自身+14；八邻仅一敌时加倍。"
+
+effect_type = "lee_block_speed"
+
+effect_params = {"attack_speed_add": 14, "enemy_attack_speed_reduce": 14}
+
+[sub_resource type="Resource" id="talent1"]
+
+script = ExtResource("talent")
+
+talent_name = "有备无患"
+
+description = "特性扣费足够时消耗5费，抵消下一次晕眩或冻结并反晕来源3秒。"
+
+effect_type = "lee_control_charm"
+
+effect_params = {"drain_amount": 5, "stun_ticks": 90}
+
+[sub_resource type="Resource" id="skill0"]
+
+script = ExtResource("skill")
+
+skill_name = "小惩大诫"
+
+effect_type = "lee_admonition"
+
+effect_params = {"attack_mult": 1.6, "dodge_percent": 40}
+
+initial_sp = 0
+
+sp_required = 7
+
+sp_recharge_type = "time"
+
+trigger_type = "auto"
+
+duration = -1.0
+
+attack_range_override = Array[Vector2i]([])
+
+description = "攻击力+60%，40%法术闪避；持续无限。"
+
+[sub_resource type="Resource" id="skill1"]
+
+script = ExtResource("skill")
+
+skill_name = "驱凶辟邪"
+
+effect_type = "lee_paper"
+
+effect_params = {"attack_mult": 1.0, "attack_speed_add": 30, "base_attack_percent": 300, "stack_attack_percent": 20, "max_stacks": 30, "mark_ticks": 150, "splash_radius_squared": 1}
+
+initial_sp = 0
+
+sp_required = 7
+
+sp_recharge_type = "time"
+
+trigger_type = "manual"
+
+duration = 0.0
+
+attack_range_override = Array[Vector2i]([])
+
+description = "携带时攻速+30；标记目标5秒，基础300%法术爆炸，每次友方伤害增加20%攻击力，最多30次；半径1。"
+
+[sub_resource type="Resource" id="skill2"]
+
+script = ExtResource("skill")
+
+skill_name = "贵客盈门"
+
+effect_type = "lee_guest"
+
+effect_params = {"attack_mult": 1.5, "defense_mult": 1.5, "dodge_percent": 70, "shift_force": 1}
+
+initial_sp = 0
+
+sp_required = 7
+
+sp_recharge_type = "time"
+
+trigger_type = "auto"
+
+duration = -1.0
+
+attack_range_override = Array[Vector2i]([Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1)])
+
+description = "扩大范围，攻击与防御+50%，嘲讽+1，攻击推开范围内其他敌人；范围外物理法术伤害70%闪避；持续无限。"
+
+[resource]
+
+script = ExtResource("operator")
+
+operator_id = "lee"
+
+display_name = "老鲤"
+
+profession = "特种"
+
+profession_id = "specialist"
+
+branch = "行商"
+
+max_health = 2427
+
+attack = 789
+
+defense = 465
+
+magic_resist = 0
+
+damage_type = "physical"
+
+attack_interval = 1.0
+
+block_count = 1
+
+initial_deploy_cost = 7
+
+deploy_cost = 9
+
+redeploy_time = 25.0
+
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+
+terrain_requirement = "ground"
+
+branch_trait = SubResource("trait")
+
+talent_1 = SubResource("talent0")
+
+talent_2 = SubResource("talent1")
+
+skills = Array[ExtResource("skill")]([SubResource("skill0"), SubResource("skill1"), SubResource("skill2")])

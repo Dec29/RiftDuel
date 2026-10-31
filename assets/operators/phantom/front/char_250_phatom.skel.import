@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://j5u7dbhujlah"
+path="res://.godot/imported/char_250_phatom.skel-68118081fa0aea88a04bbae1548f666c.tres"
+
+[deps]
+
+source_file="res://assets/operators/phantom/front/char_250_phatom.skel"
+dest_files=["res://.godot/imported/char_250_phatom.skel-68118081fa0aea88a04bbae1548f666c.tres"]
+
+[params]

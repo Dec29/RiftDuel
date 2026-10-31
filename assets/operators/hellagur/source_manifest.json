@@ -1,0 +1,55 @@
+{
+  "operator_id": "hellagur",
+  "display_name": "赫拉格",
+  "char_id": "char_188_helage",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "note": "原始素材按固定提交与SHA校验；已由3.8原生提供器生成运行资源，动作时长以实际完成事件核定，映射见OperatorSpineMap。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/hellagur/back/char_188_helage.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_188_helage/back/char_188_helage.atlas",
+      "sha256": "9571a09ada99c7ce776bbb7f46b4af6f0cc97cd6903c57b0f16367e3f4173a22",
+      "size": 3788
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/hellagur/back/char_188_helage.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_188_helage/back/char_188_helage.png",
+      "sha256": "6d9589c949becbaac2b82a4e6ddcf11d1b10cce3b2cb49d03748b0f1c1dd0e7a",
+      "size": 79760
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/hellagur/back/char_188_helage.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_188_helage/back/char_188_helage.skel",
+      "sha256": "3bd3a7aff9fa57188b803eb10883a461f60a2435756f0c99b65d43921720a5cc",
+      "size": 151548
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/hellagur/front/char_188_helage.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_188_helage/front/char_188_helage.atlas",
+      "sha256": "2db6cd8ec5c341b8ae2d2ec11ecb06d96cb59a02d89385c443a8b7c66f4e33bf",
+      "size": 7104
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/hellagur/front/char_188_helage.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_188_helage/front/char_188_helage.png",
+      "sha256": "775f5c6ad93527870d5c9b4176e0ff2d76cb90c41405f0ccaf2b7f65cc93a8fd",
+      "size": 102203
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/hellagur/front/char_188_helage.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_188_helage/front/char_188_helage.skel",
+      "sha256": "0e301cb09e4adb67f1221529caeb19b7357536652330cb90c9bbd3fdec22c4a2",
+      "size": 218585
+    }
+  ]
+}

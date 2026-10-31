@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://d0vom1qa1c14p"
+path="res://.godot/imported/char_4042_lumen.atlas-a9d7a87238a5ab55b60f66cf272ffbbe.tres"
+
+[deps]
+
+source_file="res://assets/operators/lumen/back/char_4042_lumen.atlas"
+dest_files=["res://.godot/imported/char_4042_lumen.atlas-a9d7a87238a5ab55b60f66cf272ffbbe.tres"]
+
+[params]
+
+normal_map_prefix="n"

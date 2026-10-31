@@ -1,0 +1,55 @@
+{
+  "operator_id": "myrtle",
+  "display_name": "桃金娘",
+  "char_id": "char_151_myrtle",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "note": "原始素材按固定提交与SHA校验；已由3.8原生提供器生成运行资源，动作时长以实际完成事件核定，映射见OperatorSpineMap。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/myrtle/back/char_151_myrtle.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_151_myrtle/back/char_151_myrtle.atlas",
+      "sha256": "4c34c60264c001e92c93ff4e9fe55dfbca7f90cd4e224fd689609bb48a9ab1cd",
+      "size": 10092
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/myrtle/back/char_151_myrtle.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_151_myrtle/back/char_151_myrtle.png",
+      "sha256": "ffa97c086e761e7dd6fd2e067538322cfa16b97ac17eab691580c1622c2f1f9b",
+      "size": 134053
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/myrtle/back/char_151_myrtle.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_151_myrtle/back/char_151_myrtle.skel",
+      "sha256": "cbb0b58063046b551f8d77260ceb263204ab6fdcfe2cb7ab593a1d0510456be3",
+      "size": 150576
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/myrtle/front/char_151_myrtle.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_151_myrtle/front/char_151_myrtle.atlas",
+      "sha256": "4c34c60264c001e92c93ff4e9fe55dfbca7f90cd4e224fd689609bb48a9ab1cd",
+      "size": 10092
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/myrtle/front/char_151_myrtle.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_151_myrtle/front/char_151_myrtle.png",
+      "sha256": "ffa97c086e761e7dd6fd2e067538322cfa16b97ac17eab691580c1622c2f1f9b",
+      "size": 134053
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/myrtle/front/char_151_myrtle.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_151_myrtle/front/char_151_myrtle.skel",
+      "sha256": "463ff7341b194a9a1f3dc30f092b7d5263c01b71b38753d10aed33da4dfa2519",
+      "size": 174391
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "operator_id": "typhon",
+  "display_name": "提丰",
+  "char_id": "char_2012_typhon",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/typhon/front/char_2012_typhon.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_2012_typhon/front/char_2012_typhon.skel",
+      "sha256": "4f979f42922405d6ce338060bf6e1cca6f690adbe75afa6e97415dbaa637e578",
+      "size": 1565580
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/typhon/front/char_2012_typhon.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_2012_typhon/front/char_2012_typhon.atlas",
+      "sha256": "9855b25ea894d8178b2b32d1857e026b336abdc46ac6536652af644c3fef914c",
+      "size": 11514
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/typhon/front/char_2012_typhon.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_2012_typhon/front/char_2012_typhon.png",
+      "sha256": "a2a8b7dbba5bf562366312cfeb9783a44750e81e121942199926483a8f0938bc",
+      "size": 140760
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/typhon/back/char_2012_typhon.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_2012_typhon/back/char_2012_typhon.skel",
+      "sha256": "3231fe035552e30f6b3ce99a52f14ed54bd72c14717ad86c384bfc7afd755335",
+      "size": 435114
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/typhon/back/char_2012_typhon.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_2012_typhon/back/char_2012_typhon.atlas",
+      "sha256": "a4a6c9e10a50498bcf2b8155852bfca7f17d0d60eb836365528552a40d074907",
+      "size": 6665
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/typhon/back/char_2012_typhon.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_2012_typhon/back/char_2012_typhon.png",
+      "sha256": "22905b545687b446c2f1940202009e1dd02efa5a389a5b3cd4ae24ce90d99691",
+      "size": 118665
+    }
+  ],
+  "export_version": "3.8.99",
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack_Begin": 0.16666666666666666,
+      "Attack_Down_Begin": 0.16666666666666666,
+      "Attack_Down_End": 0.3333333333333333,
+      "Attack_Down_Loop": 2.4,
+      "Attack_End": 0.3333333333333333,
+      "Attack_Loop": 2.4,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 6.0,
+      "Skill_2_1_Begin": 0.16666666666666666,
+      "Skill_2_1_End": 0.3333333333333333,
+      "Skill_2_1_Loop": 2.4,
+      "Skill_2_2_Begin": 0.6666666666666666,
+      "Skill_2_2_Idle": 8.0,
+      "Skill_2_2_Loop": 2.4,
+      "Skill_3_Begin": 1.0,
+      "Skill_3_End": 0.6666666666666666,
+      "Skill_3_Idle": 8.0,
+      "Skill_3_Loop": 4.8,
+      "Skill_Down_2_1_Begin": 0.16666666666666666,
+      "Skill_Down_2_1_End": 0.3333333333333333,
+      "Skill_Down_2_1_Loop": 2.4,
+      "Skill_Down_2_2_Begin": 0.6666666666666666,
+      "Skill_Down_2_2_Idle": 8.0,
+      "Skill_Down_2_2_Loop": 2.4,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack_Begin": 0.16666666666666666,
+      "Attack_End": 0.3333333333333333,
+      "Attack_Loop": 2.4,
+      "Default": 0.0,
+      "Idle": 2.0,
+      "Skill_2_1_Begin": 0.16666666666666666,
+      "Skill_2_1_End": 0.3333333333333333,
+      "Skill_2_1_Loop": 2.4,
+      "Skill_2_2_Begin": 0.6666666666666666,
+      "Skill_2_2_Idle": 2.0,
+      "Skill_2_2_Loop": 2.4,
+      "Skill_3_Begin": 1.0,
+      "Skill_3_End": 0.6666666666666666,
+      "Skill_3_Idle": 2.6666666666666665,
+      "Skill_3_Loop": 4.8,
+      "Start": 1.0
+    }
+  },
+  "atlas_page_sizes": {
+    "front": [
+      512,
+      512
+    ],
+    "back": [
+      512,
+      512
+    ]
+  },
+  "animation_mapping_note": "Typhon: S2 first/permanent native families and S3 verified; native clip numbers are not generalized to other operators."
+}

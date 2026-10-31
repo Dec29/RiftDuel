@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://b8h7hp5i5qurt"
+path="res://.godot/imported/char_377_gdglow.skel-80d1dd4be7871231e07d283dfc132d01.tres"
+
+[deps]
+
+source_file="res://assets/operators/goldenglow/front/char_377_gdglow.skel"
+dest_files=["res://.godot/imported/char_377_gdglow.skel-80d1dd4be7871231e07d283dfc132d01.tres"]
+
+[params]

@@ -1,0 +1,86 @@
+{
+  "operator_id": "platinum",
+  "display_name": "白金",
+  "char_id": "char_204_platnm",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/platinum/front/char_204_platnm.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_204_platnm/front/char_204_platnm.skel",
+      "sha256": "90ec69121a4719cd16a56d3830a4ae912834be9d9ec8ab636faea018b6c65f7b",
+      "size": 128455
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/platinum/front/char_204_platnm.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_204_platnm/front/char_204_platnm.atlas",
+      "sha256": "ff221517afd843d7c730d8934b223b98a2105a363238651319464b56dc688bbf",
+      "size": 5969
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/platinum/front/char_204_platnm.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_204_platnm/front/char_204_platnm.png",
+      "sha256": "d8e7ba39437f0941b9ce339af8b29235a62afe8cf27afc07079ccae36f6c7443",
+      "size": 79864
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/platinum/back/char_204_platnm.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_204_platnm/back/char_204_platnm.skel",
+      "sha256": "98385ddf4de925403f2e736d9cf6053eff33c05a528901040279efa749094ffb",
+      "size": 90585
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/platinum/back/char_204_platnm.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_204_platnm/back/char_204_platnm.atlas",
+      "sha256": "ceab496487d145b6635bea79525ad980f03171184b422986d3d05cc47c1851a4",
+      "size": 4930
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/platinum/back/char_204_platnm.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_204_platnm/back/char_204_platnm.png",
+      "sha256": "fa0237f57781259cab6dc99d21fc2cb17ae2c035a4bc06239578938ae011c2c3",
+      "size": 67579
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.0,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.0,
+      "Skill": 1.5,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.0,
+      "Default": 0.0,
+      "Idle": 2.0,
+      "Skill": 1.5,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 63
+    },
+    "back": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 50
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

@@ -1,0 +1,667 @@
+{
+  "copyright": "Arknights / Hypergryph and respective rightsholders. Local non-commercial fan-project testing is not a new license. Repository code license does not cover game art.",
+  "sources": [
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\battle\\prefabs\\effects\\chen2.ab",
+      "bytes": 2448938,
+      "sha256": "d401adc5217c2905dc7187660dd4c044ad1182f6f4cb639a3f48d8442f6347a1"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\refs\\fx\\material.ab",
+      "bytes": 63148,
+      "sha256": "53e01422e18f06641dd8e893d61aa9914fb65f7058767f7ea7c47b85ccfd7eff"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\sharedbattle.ab",
+      "bytes": 3492457,
+      "sha256": "a97e9f2a1f6bfec3f8e8f28c71f30e3eb0fecf8ac70f49c2e948c10a3c3d9c95"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\[uc]shaders.ab",
+      "bytes": 443792,
+      "sha256": "668663dccbada9272f30092c5fe5a5b3594a24da56b43527fd65212146860e0a"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\refs\\fx\\texture\\water.ab",
+      "bytes": 2768231,
+      "sha256": "18af6197f0351f1056f8bdca8abc4325a2f55a18639ce4f4911bf7e1347040a0"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\mask.ab",
+      "bytes": 3953135,
+      "sha256": "6e1c5a448c5b74271f484f186e29f08c553bcef31e4d890bd1d36d4b96b68f7f"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\flow.ab",
+      "bytes": 13817256,
+      "sha256": "f60b60836874c9f629303d5f750c119abe191e81582a335ffe52572b3666e4d5"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\star.ab",
+      "bytes": 6516985,
+      "sha256": "c601419ffde815547c7563a64c444ac2b4f8fab6b329d11b68ae9c659516c63b"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\trail.ab",
+      "bytes": 10859786,
+      "sha256": "4c6613ca58d886b5be224d0067658f8d3c99b6083c5c3f3659fb1652c9ed4125"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\ray.ab",
+      "bytes": 4311287,
+      "sha256": "54ddc50fa3b31055060cabc721455a66dc7c8feb60c16058b0f6d0eff0b96a6f"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\smoke.ab",
+      "bytes": 3453973,
+      "sha256": "3a12e1947eaa79c539a2b04759bdad8697d01dda5b655db2da9fca91254df36b"
+    }
+  ],
+  "prefabs": [
+    {
+      "name": "chen2_skill_03_buff_01",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "game_object_path_id": "1578198952832588147"
+    },
+    {
+      "name": "chen2_skill_03_buff_01_b",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "game_object_path_id": "-2467032361772773909"
+    },
+    {
+      "name": "chen2_skill_03_buff_02",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "game_object_path_id": "-2724253865277200357"
+    },
+    {
+      "name": "chen2_skill_03_buff_02_b",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "game_object_path_id": "-4675557798590622039"
+    },
+    {
+      "name": "chen2_skill_03_buff_03",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "game_object_path_id": "7915249879608132251"
+    },
+    {
+      "name": "chen2_skill_03_buff_03_b",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "game_object_path_id": "-5603037941786586603"
+    },
+    {
+      "name": "chen2_skill_03_debuff",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "game_object_path_id": "9171171612668966628"
+    },
+    {
+      "name": "chen2_skill_03_hit_01",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "game_object_path_id": "-2848501600390910269"
+    },
+    {
+      "name": "chen2_skill_03_range_01",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "game_object_path_id": "-1957541949375106134"
+    },
+    {
+      "name": "chen2_skill_03_start_01",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "game_object_path_id": "-3252841995435748289"
+    },
+    {
+      "name": "chen2_skill_03_start_01_b",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "game_object_path_id": "-8463382006077977618"
+    },
+    {
+      "name": "chen2_skill_03_start_02",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "game_object_path_id": "-5448530567680615978"
+    },
+    {
+      "name": "chen2_skill_03_start_02_b",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "game_object_path_id": "5224113761824428713"
+    },
+    {
+      "name": "chen2_skill_03_start_03",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "game_object_path_id": "6547851455891380390"
+    }
+  ],
+  "textures": [
+    {
+      "file": "textures/CAB-1512fc0efbde6852b5d5a28ec9cec589_8683614952483785193.png",
+      "original_cab": "CAB-1512fc0efbde6852b5d5a28ec9cec589",
+      "original_path_id": "8683614952483785193",
+      "bytes": 16447,
+      "sha256": "43a61c87405932b27223f30ca3ffedd3b14db6861c0ff6393db107d33ab747eb"
+    },
+    {
+      "file": "textures/CAB-1a70a49dc173a149d904a3ea8b7165b3_-2633732039816285512.png",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_path_id": "-2633732039816285512",
+      "bytes": 26744,
+      "sha256": "9ac945377edf742f4434e80cfc44eb54a4379a5f0187847abde34e3446cba641"
+    },
+    {
+      "file": "textures/CAB-1a70a49dc173a149d904a3ea8b7165b3_-4101453536774970305.png",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_path_id": "-4101453536774970305",
+      "bytes": 15188,
+      "sha256": "f37861121412aff1e8566a449dd5248d4ef5ea035467affc53d2db089a83b2b6"
+    },
+    {
+      "file": "textures/CAB-1a70a49dc173a149d904a3ea8b7165b3_-7044638986276578978.png",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_path_id": "-7044638986276578978",
+      "bytes": 1712,
+      "sha256": "523abc555f2aa4cb4466ba4fd68abf8b1560a30f0871f18cfc33446606e5b18b"
+    },
+    {
+      "file": "textures/CAB-1a70a49dc173a149d904a3ea8b7165b3_-7495731096632535010.png",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_path_id": "-7495731096632535010",
+      "bytes": 3934,
+      "sha256": "9338c58882d9f661527495c3a63adfdf87e03eff6cef6a5e63b8608e8c61f60c"
+    },
+    {
+      "file": "textures/CAB-1a70a49dc173a149d904a3ea8b7165b3_6725158568953748691.png",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_path_id": "6725158568953748691",
+      "bytes": 842,
+      "sha256": "b64d87f4bc27161af43a9ddb0ba73237df78334ead8f4333b110a5f798359935"
+    },
+    {
+      "file": "textures/CAB-1a70a49dc173a149d904a3ea8b7165b3_6839857805348664394.png",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_path_id": "6839857805348664394",
+      "bytes": 6951,
+      "sha256": "4ac067c9641cbde8f12e4cae56107e085bccba7efa108660410b155c5730edd0"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-1074696917881622342.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-1074696917881622342",
+      "bytes": 6284,
+      "sha256": "f74fe25ec860fd1893d58227f19ee76b6edd827f53f60f8f84801c934c5e71bc"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-4242876697011006229.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-4242876697011006229",
+      "bytes": 5578,
+      "sha256": "949cbdfd0ac62b26d17763e7e4cc39e8c7edafc3e019263987e7a2d806b74df9"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-5389456641130647957.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-5389456641130647957",
+      "bytes": 9215,
+      "sha256": "2da0f554363ea9693122aef16df9c9b66f0b21d1abcaa3469b0662c61f82a7e9"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-5610505625847371847.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-5610505625847371847",
+      "bytes": 4781,
+      "sha256": "a5df99d4ba549c605f14e8d423a40009366e056bb86f7664e6ba19cd165a2343"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_6023218541789590512.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "6023218541789590512",
+      "bytes": 9125,
+      "sha256": "c8dc41df69dac6100c6c2373fc23ec644c9468a6afebdda70d574321755ce99f"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_7107970947093450673.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "7107970947093450673",
+      "bytes": 3168,
+      "sha256": "b77e7e0cb7c993c850ed7d1722740758648e3366861c275c3bfccee30b3f34d7"
+    },
+    {
+      "file": "textures/CAB-895a9c6afcb47c5c7f43c8589b1fe2fc_7471833991530452034.png",
+      "original_cab": "CAB-895a9c6afcb47c5c7f43c8589b1fe2fc",
+      "original_path_id": "7471833991530452034",
+      "bytes": 322178,
+      "sha256": "1560cd2687c85d6e2fb33f24872dd05b95a2905e9df10b9fbdfa764105245b67"
+    },
+    {
+      "file": "textures/CAB-92fdf60cd1676328e17f73f0bf852e97_-7224873363839504994.png",
+      "original_cab": "CAB-92fdf60cd1676328e17f73f0bf852e97",
+      "original_path_id": "-7224873363839504994",
+      "bytes": 616,
+      "sha256": "cbb2271ce0225c6c64347aab6743707b27f2af1b20b4422ba7144ed3f5749f29"
+    },
+    {
+      "file": "textures/CAB-92fdf60cd1676328e17f73f0bf852e97_-8229412089251420980.png",
+      "original_cab": "CAB-92fdf60cd1676328e17f73f0bf852e97",
+      "original_path_id": "-8229412089251420980",
+      "bytes": 29118,
+      "sha256": "bf0dd274340106b13471318296e4f746002fbbfe6ee627ae31bec37bb73cc30c"
+    },
+    {
+      "file": "textures/CAB-92fdf60cd1676328e17f73f0bf852e97_1475945865705079393.png",
+      "original_cab": "CAB-92fdf60cd1676328e17f73f0bf852e97",
+      "original_path_id": "1475945865705079393",
+      "bytes": 28165,
+      "sha256": "bdc096d4d3f4eaf5d862b90079d0fffaf366f835eb49ad2c43fb0f4ec1d60a2e"
+    },
+    {
+      "file": "textures/CAB-92fdf60cd1676328e17f73f0bf852e97_2483703146644653867.png",
+      "original_cab": "CAB-92fdf60cd1676328e17f73f0bf852e97",
+      "original_path_id": "2483703146644653867",
+      "bytes": 50536,
+      "sha256": "212d158f5a0697932b9602688cbafc22ae8941932b5f59c5a0746614d754b106"
+    },
+    {
+      "file": "textures/CAB-92fdf60cd1676328e17f73f0bf852e97_8028144555607332086.png",
+      "original_cab": "CAB-92fdf60cd1676328e17f73f0bf852e97",
+      "original_path_id": "8028144555607332086",
+      "bytes": 9214,
+      "sha256": "613f745f6a16b0cc51951455479056de5e179ba499ea7cc800546e1772167d84"
+    },
+    {
+      "file": "textures/CAB-b2739f24071ea30492cad3b1c540173a_-2219398644440204255.png",
+      "original_cab": "CAB-b2739f24071ea30492cad3b1c540173a",
+      "original_path_id": "-2219398644440204255",
+      "bytes": 13233,
+      "sha256": "0d54a9d0a3c19518170f0d732167ea535488ea934fdf3b7f3fed045255d87a86"
+    },
+    {
+      "file": "textures/CAB-b2739f24071ea30492cad3b1c540173a_-6810031212037220222.png",
+      "original_cab": "CAB-b2739f24071ea30492cad3b1c540173a",
+      "original_path_id": "-6810031212037220222",
+      "bytes": 23795,
+      "sha256": "842829794f574e2aef1852dc44b763c2dabc48f11f69456373ebcec1ac77c8c0"
+    },
+    {
+      "file": "textures/CAB-b2739f24071ea30492cad3b1c540173a_-8555003939630181993.png",
+      "original_cab": "CAB-b2739f24071ea30492cad3b1c540173a",
+      "original_path_id": "-8555003939630181993",
+      "bytes": 25633,
+      "sha256": "fdbc9ffa8fb5847c09820cbf9c867133ba874bade99ed17e2fdb26b5fa4e214a"
+    },
+    {
+      "file": "textures/CAB-b2739f24071ea30492cad3b1c540173a_1024654054040370538.png",
+      "original_cab": "CAB-b2739f24071ea30492cad3b1c540173a",
+      "original_path_id": "1024654054040370538",
+      "bytes": 10903,
+      "sha256": "0156bc62be3ffe7e2795a0b0a3db9d63c5c5bdf3bfd84b072d47eb70cfaa92c8"
+    },
+    {
+      "file": "textures/CAB-b2739f24071ea30492cad3b1c540173a_2087560198498836617.png",
+      "original_cab": "CAB-b2739f24071ea30492cad3b1c540173a",
+      "original_path_id": "2087560198498836617",
+      "bytes": 3539,
+      "sha256": "b4ce90e8b6033afd63f4b23da9a473f4839fb8946b6cb995ed84f2afec96118b"
+    },
+    {
+      "file": "textures/CAB-b2739f24071ea30492cad3b1c540173a_2317274692054236736.png",
+      "original_cab": "CAB-b2739f24071ea30492cad3b1c540173a",
+      "original_path_id": "2317274692054236736",
+      "bytes": 3320,
+      "sha256": "eeb45d355df9677086793286461dc67a0b7313c57c3b1e07c880a0fbd7fa3cee"
+    },
+    {
+      "file": "textures/CAB-b2739f24071ea30492cad3b1c540173a_2508740004784662955.png",
+      "original_cab": "CAB-b2739f24071ea30492cad3b1c540173a",
+      "original_path_id": "2508740004784662955",
+      "bytes": 23425,
+      "sha256": "1b4db34f236c9eb097174f48b0c04c60ee0494fed39feff859b09dd77e7f62d3"
+    },
+    {
+      "file": "textures/CAB-b2739f24071ea30492cad3b1c540173a_2654317351537282643.png",
+      "original_cab": "CAB-b2739f24071ea30492cad3b1c540173a",
+      "original_path_id": "2654317351537282643",
+      "bytes": 66651,
+      "sha256": "e3b924de385ce3c49d8bfbcfc1c1a13ac60cc16f9672e8a1c449dd4348d42131"
+    },
+    {
+      "file": "textures/CAB-b2739f24071ea30492cad3b1c540173a_7177583521970594469.png",
+      "original_cab": "CAB-b2739f24071ea30492cad3b1c540173a",
+      "original_path_id": "7177583521970594469",
+      "bytes": 6337,
+      "sha256": "9946504a635f6a950d0c8dcbec8daa232d1f323ca2786ba98b66c51647f1639f"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-5060444074246962377.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "-5060444074246962377",
+      "bytes": 13307,
+      "sha256": "66d435a3693b88fc6133ae530e13a25e46689284298d984b55415aa57ed2d5cb"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-515439467106562996.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "-515439467106562996",
+      "bytes": 14795,
+      "sha256": "07fa56b8e896e30df831011f98ba5a192709c8baee4cd237365f76e860f48dff"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_4249621393576650867.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "4249621393576650867",
+      "bytes": 13936,
+      "sha256": "5d5bd420cb4ae2690d5fd1e892cb1f19318ab2cbb1c560151f64146ed6fc53f2"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_786820213512963680.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "786820213512963680",
+      "bytes": 20784,
+      "sha256": "03603b715d9196deda128b165c1b4a9799a9c3e51fafa537f58e047ca5da0ed3"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_858965052297824575.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "858965052297824575",
+      "bytes": 28185,
+      "sha256": "c6f7eab87279b4c4f9688a629e60d49231f2fa7cb65d9cc3ee78d495bfb3885b"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-1306121938919333102.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "-1306121938919333102",
+      "bytes": 4096,
+      "sha256": "3a58789d2409692e36a168202c5fc4ef54bd883a50db204704c2d598ea09a6fe"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-6060243664169934541.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "-6060243664169934541",
+      "bytes": 11164,
+      "sha256": "8d9d2ea1a83411a2ff29f25b134124a9223da44b80a858f692832f36ec02aa5f"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-6196499685929875963.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "-6196499685929875963",
+      "bytes": 7200,
+      "sha256": "f50f3982d7de35209c299f757ee1ef2369ebe535cb4cb0c2df56209312830f15"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_3025164182849307215.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "3025164182849307215",
+      "bytes": 3368,
+      "sha256": "a78e42e0b506166de4883847939ff7549a6eb334bfe200eed8d57b401b093be4"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_5951859417419177679.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "5951859417419177679",
+      "bytes": 10728,
+      "sha256": "a28e7a3a8c8e9c0c13ab4f2ce104c345ea69e5dcf8b19569d93934bd73b3e3cf"
+    }
+  ],
+  "source_pack_bytes": 5035863,
+  "source_pack_sha256": "f368ccced51139d39c78861618fad81c90cf21dc8b309dca0af8a42235dfc101",
+  "decoder": {
+    "unitypy": "1.25.4",
+    "unpacker_commit": "4a4b9efc6be4690b68b70b4a16578950baa066d3",
+    "lz4ak_source_sha256": "55832b28aefe510880bfcf54c0628138b0ee561b46b3fb8830f58fddadcd475a"
+  },
+  "animation_binding_gaps": [],
+  "attachment_evidence_sources": [
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\charpack\\char_1013_chen2.ab",
+      "bytes": 35732,
+      "sha256": "37efc8056cf59c5e43458d8a8372a06b26afc47ec9076b3cdb2685d0e44f97ca"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\chararts\\char_1013_chen2.ab",
+      "bytes": 4006256,
+      "sha256": "6eaa47a7aeb54977049247ac37d46658277599a3ce181e181dfb4d2b4e9c56ad"
+    }
+  ],
+  "derived_clips": [
+    {
+      "file": "buff_01.res",
+      "original_prefab": "chen2_skill_03_buff_01",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_game_object_path_id": "1578198952832588147",
+      "bytes": 4453533,
+      "sha256": "7ab6afeb96ee2091bf371e30be9245c4815a80fe13e8905e2c0ba2f8e73df513",
+      "loop_from_seconds": 1,
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; offline 30Hz four-facing geometry; declared short loops with instance UV battle-age clock"
+    },
+    {
+      "file": "buff_01_b.res",
+      "original_prefab": "chen2_skill_03_buff_01_b",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_game_object_path_id": "-2467032361772773909",
+      "bytes": 821707,
+      "sha256": "221c549d14835cb6a7a089c251f54198705b6135f7d17be6f0b86b9dacd2b5d5",
+      "loop_from_seconds": 1,
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; offline 30Hz four-facing geometry; declared short loops with instance UV battle-age clock"
+    },
+    {
+      "file": "buff_02.res",
+      "original_prefab": "chen2_skill_03_buff_02",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_game_object_path_id": "-2724253865277200357",
+      "bytes": 4483569,
+      "sha256": "b14279950a811455f41ba19464bd4d77fa63af1d39b19e36963784dd5ed9742b",
+      "loop_from_seconds": 0,
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; offline 30Hz four-facing geometry; declared short loops with instance UV battle-age clock"
+    },
+    {
+      "file": "buff_02_b.res",
+      "original_prefab": "chen2_skill_03_buff_02_b",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_game_object_path_id": "-4675557798590622039",
+      "bytes": 4252752,
+      "sha256": "d14dfd37bcb6e3e57f4adb57c0754b6e6f0c579cccf2a6a049fc2a44ec9d3504",
+      "loop_from_seconds": 0,
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; offline 30Hz four-facing geometry; declared short loops with instance UV battle-age clock"
+    },
+    {
+      "file": "buff_03.res",
+      "original_prefab": "chen2_skill_03_buff_03",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_game_object_path_id": "7915249879608132251",
+      "bytes": 2110955,
+      "sha256": "585dce957e63782ca64206e2805be7bf180b1090b0cfc7fafd4b0e48d2b36571",
+      "loop_from_seconds": 0,
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; offline 30Hz four-facing geometry; declared short loops with instance UV battle-age clock"
+    },
+    {
+      "file": "buff_03_b.res",
+      "original_prefab": "chen2_skill_03_buff_03_b",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_game_object_path_id": "-5603037941786586603",
+      "bytes": 2109346,
+      "sha256": "b6dfffb9b34d9882ae92623ed42f863987a9f91f608cfbf9312283cc12151d57",
+      "loop_from_seconds": 0,
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; offline 30Hz four-facing geometry; declared short loops with instance UV battle-age clock"
+    },
+    {
+      "file": "debuff.res",
+      "original_prefab": "chen2_skill_03_debuff",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_game_object_path_id": "9171171612668966628",
+      "bytes": 1295278,
+      "sha256": "bb7d58a9fc8afe101748e0f81292aaad4b7f2bf7fddd7673be79d14d1a285855",
+      "loop_from_seconds": 1.5,
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; offline 30Hz four-facing geometry; declared short loops with instance UV battle-age clock"
+    },
+    {
+      "file": "hit_01.res",
+      "original_prefab": "chen2_skill_03_hit_01",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_game_object_path_id": "-2848501600390910269",
+      "bytes": 825789,
+      "sha256": "3f86bad547565075c1cee0d58b2f76ae66572bbc5872762ce83f1b18f7deaaf6",
+      "loop_from_seconds": -1,
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; offline 30Hz four-facing geometry; declared short loops with instance UV battle-age clock"
+    },
+    {
+      "file": "range_01.res",
+      "original_prefab": "chen2_skill_03_range_01",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_game_object_path_id": "-1957541949375106134",
+      "bytes": 32683736,
+      "sha256": "dd28303e63204bc03b70ed0d562fcccabbfbcfd88bd5df144c9ac7f9bd6d186c",
+      "loop_from_seconds": -1,
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; offline 30Hz four-facing geometry; declared short loops with instance UV battle-age clock"
+    },
+    {
+      "file": "start_01.res",
+      "original_prefab": "chen2_skill_03_start_01",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_game_object_path_id": "-3252841995435748289",
+      "bytes": 1445347,
+      "sha256": "5401ba2fe25b7ae0176590e96a057b75aebbf640785fd5d13642228463a87f42",
+      "loop_from_seconds": -1,
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; offline 30Hz four-facing geometry; declared short loops with instance UV battle-age clock"
+    },
+    {
+      "file": "start_01_b.res",
+      "original_prefab": "chen2_skill_03_start_01_b",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_game_object_path_id": "-8463382006077977618",
+      "bytes": 1440306,
+      "sha256": "139199a235ff6047cdc9f2081f2a74ee52292aa70579dd9f9336f1f65550c85d",
+      "loop_from_seconds": -1,
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; offline 30Hz four-facing geometry; declared short loops with instance UV battle-age clock"
+    },
+    {
+      "file": "start_02.res",
+      "original_prefab": "chen2_skill_03_start_02",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_game_object_path_id": "-5448530567680615978",
+      "bytes": 341455,
+      "sha256": "40ba17671bde2b861f23f6c4b033e9bd3d7230fcd39bce8cc5f8374a14ec28b8",
+      "loop_from_seconds": -1,
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; offline 30Hz four-facing geometry; declared short loops with instance UV battle-age clock"
+    },
+    {
+      "file": "start_02_b.res",
+      "original_prefab": "chen2_skill_03_start_02_b",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_game_object_path_id": "5224113761824428713",
+      "bytes": 210642,
+      "sha256": "1d9a6753492dad3fdc49f655092edd335fea53ef60d9278b532c9728e5b7d337",
+      "loop_from_seconds": -1,
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; offline 30Hz four-facing geometry; declared short loops with instance UV battle-age clock"
+    },
+    {
+      "file": "start_03.res",
+      "original_prefab": "chen2_skill_03_start_03",
+      "original_cab": "CAB-1a70a49dc173a149d904a3ea8b7165b3",
+      "original_game_object_path_id": "6547851455891380390",
+      "bytes": 987141,
+      "sha256": "45060f7ece7f4d5865845d0d5651d29418df4ca85524073fac78e7d7773f4c18",
+      "loop_from_seconds": -1,
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; offline 30Hz four-facing geometry; declared short loops with instance UV battle-age clock"
+    }
+  ],
+  "shader_adaptations": [
+    {
+      "file": "../native_disturb_add.gdshader",
+      "source_cab": "CAB-1b70e77fd118dea4a32415ac87839ac6",
+      "source_path_id": "-9132903776273544528",
+      "bytes": 1082,
+      "sha256": "a9930ecd5a19d7202a2077480afdd00b8037e9a330c1be8509f915d9174e08f5",
+      "conversion": "System D3DDisassemble of audited native DXBC; see task disturb-shader and uvtween-shader manifests"
+    },
+    {
+      "file": "../native_disturb_mix.gdshader",
+      "source_cab": "CAB-1b70e77fd118dea4a32415ac87839ac6",
+      "source_path_id": "-9132903776273544528",
+      "bytes": 1082,
+      "sha256": "fc56f31cc7771e1f914f4afa6a01357d8f19b5eb0a61421f0d3e8bd5319529aa",
+      "conversion": "System D3DDisassemble of audited native DXBC; see task disturb-shader and uvtween-shader manifests"
+    },
+    {
+      "file": "../native_uvtween_add.gdshader",
+      "source_cab": "CAB-1b70e77fd118dea4a32415ac87839ac6",
+      "source_path_id": "-6667198903730111120",
+      "bytes": 1857,
+      "sha256": "245dca6b2666c600af1d45b6dec217e244440e98cfe0a588d7be9ec12494ed7d",
+      "conversion": "System D3DDisassemble of audited native DXBC; see task disturb-shader and uvtween-shader manifests"
+    }
+  ],
+  "runtime_storage": {
+    "version": 2,
+    "engine": "Godot 4.7.2",
+    "source_sample_rate_hz": 30,
+    "geometry": "Exact source surface arrays plus offline-packed 2D GPU buffers; only degenerate padding added, no visible layers removed. Player-owned bounded buffers avoid eager ArrayMesh RID allocation.",
+    "proof": ".ai/vfx-release-20261027/packed-buffer-conversion-final.json"
+  },
+  "runtime_files": [
+    {
+      "file": "buff_01.res",
+      "bytes": 4453533,
+      "sha256": "7ab6afeb96ee2091bf371e30be9245c4815a80fe13e8905e2c0ba2f8e73df513"
+    },
+    {
+      "file": "buff_01_b.res",
+      "bytes": 821707,
+      "sha256": "221c549d14835cb6a7a089c251f54198705b6135f7d17be6f0b86b9dacd2b5d5"
+    },
+    {
+      "file": "buff_02.res",
+      "bytes": 4483569,
+      "sha256": "b14279950a811455f41ba19464bd4d77fa63af1d39b19e36963784dd5ed9742b"
+    },
+    {
+      "file": "buff_02_b.res",
+      "bytes": 4252752,
+      "sha256": "d14dfd37bcb6e3e57f4adb57c0754b6e6f0c579cccf2a6a049fc2a44ec9d3504"
+    },
+    {
+      "file": "buff_03.res",
+      "bytes": 2110955,
+      "sha256": "585dce957e63782ca64206e2805be7bf180b1090b0cfc7fafd4b0e48d2b36571"
+    },
+    {
+      "file": "buff_03_b.res",
+      "bytes": 2109346,
+      "sha256": "b6dfffb9b34d9882ae92623ed42f863987a9f91f608cfbf9312283cc12151d57"
+    },
+    {
+      "file": "debuff.res",
+      "bytes": 1295278,
+      "sha256": "bb7d58a9fc8afe101748e0f81292aaad4b7f2bf7fddd7673be79d14d1a285855"
+    },
+    {
+      "file": "hit_01.res",
+      "bytes": 825789,
+      "sha256": "3f86bad547565075c1cee0d58b2f76ae66572bbc5872762ce83f1b18f7deaaf6"
+    },
+    {
+      "file": "range_01.res",
+      "bytes": 32683736,
+      "sha256": "dd28303e63204bc03b70ed0d562fcccabbfbcfd88bd5df144c9ac7f9bd6d186c"
+    },
+    {
+      "file": "start_01.res",
+      "bytes": 1445347,
+      "sha256": "5401ba2fe25b7ae0176590e96a057b75aebbf640785fd5d13642228463a87f42"
+    },
+    {
+      "file": "start_01_b.res",
+      "bytes": 1440306,
+      "sha256": "139199a235ff6047cdc9f2081f2a74ee52292aa70579dd9f9336f1f65550c85d"
+    },
+    {
+      "file": "start_02.res",
+      "bytes": 341455,
+      "sha256": "40ba17671bde2b861f23f6c4b033e9bd3d7230fcd39bce8cc5f8374a14ec28b8"
+    },
+    {
+      "file": "start_02_b.res",
+      "bytes": 210642,
+      "sha256": "1d9a6753492dad3fdc49f655092edd335fea53ef60d9278b532c9728e5b7d337"
+    },
+    {
+      "file": "start_03.res",
+      "bytes": 987141,
+      "sha256": "45060f7ece7f4d5865845d0d5651d29418df4ca85524073fac78e7d7773f4c18"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://sqj2gi27rajv"
+path="res://.godot/imported/char_151_myrtle.skel-465256da0419671868c9740b96c41a05.tres"
+
+[deps]
+
+source_file="res://assets/operators/myrtle/back/char_151_myrtle.skel"
+dest_files=["res://.godot/imported/char_151_myrtle.skel-465256da0419671868c9740b96c41a05.tres"]
+
+[params]

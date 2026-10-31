@@ -1,0 +1,81 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_8kohk"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_d4drq"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_s60re"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_rb4dp"]
+
+[sub_resource type="Resource" id="Resource_q6bk7"]
+script = ExtResource("1_8kohk")
+trait_name = "速射手"
+description = "优先攻击空中单位；本作没有飞行单位，沿用正常索敌。"
+effect_type = "prioritize_flying"
+
+[sub_resource type="Resource" id="Resource_10fwq"]
+script = ExtResource("3_s60re")
+skill_name = "攻击力强化·γ型"
+initial_sp = 15
+sp_required = 30
+sp_recharge_type = "time"
+description = "攻击力+100%，持续30秒。"
+effect_type = "attack_up"
+effect_params = {
+"attack_mult": 2.0
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_m2ms3"]
+script = ExtResource("3_s60re")
+skill_name = "天马视域"
+trigger_type = "auto"
+sp_required = 50
+sp_recharge_type = "time"
+description = "攻击力+100%，攻速-20，攻击范围扩大，持续无限；自然回复、自动开启。蓄力倍率另按实际攻击间隔结算。"
+effect_type = "platinum_sight"
+effect_params = {
+"attack_mult": 2.0,
+"attack_speed_reduce": 20
+}
+duration = -1.0
+attack_range_override = Array[Vector2i]([Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(3, -1), Vector2i(4, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(4, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(3, 1), Vector2i(4, 1)])
+
+[sub_resource type="Resource" id="Resource_d7wjo"]
+script = ExtResource("4_rb4dp")
+talent_name = "蓄力攻击"
+description = "从部署或上次实际攻击起蓄力，1秒内100%、2.5秒达180%，中间线性增长；敌人、箱子、球的实际攻击均重置，空闲或眩晕继续蓄力。"
+effect_type = "charged_attack"
+effect_params = {
+"max_attack_percent": 180,
+"max_ticks": 75,
+"min_ticks": 30
+}
+
+[sub_resource type="Resource" id="Resource_ta8l7"]
+script = ExtResource("4_rb4dp")
+talent_name = "无第二天赋"
+description = "原作仅有一个天赋，不额外添加天赋。"
+effect_type = "none"
+
+[resource]
+script = ExtResource("2_d4drq")
+operator_id = "platinum"
+group_id = "kazimierz"
+display_name = "白金"
+profession = "狙击"
+profession_id = "sniper"
+branch = "速射手"
+max_health = 1550
+attack = 505
+defense = 165
+damage_type = "physical"
+attack_interval = 1.0
+block_count = 1
+initial_deploy_cost = 11
+deploy_cost = 13
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(3, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(3, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_q6bk7")
+talent_1 = SubResource("Resource_d7wjo")
+talent_2 = SubResource("Resource_ta8l7")
+skills = Array[ExtResource("3_s60re")]([SubResource("Resource_10fwq"), SubResource("Resource_m2ms3")])

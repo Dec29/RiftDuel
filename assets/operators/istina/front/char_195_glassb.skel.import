@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://qo2m32avx5pq"
+path="res://.godot/imported/char_195_glassb.skel-2daec6d672d781667cb5ba087b1755ed.tres"
+
+[deps]
+
+source_file="res://assets/operators/istina/front/char_195_glassb.skel"
+dest_files=["res://.godot/imported/char_195_glassb.skel-2daec6d672d781667cb5ba087b1755ed.tres"]
+
+[params]

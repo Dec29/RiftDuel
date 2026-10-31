@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <title>RiftDuel — rotationally symmetric icon</title>
+  <desc>Two congruent polygons rotated 180 degrees about (512,512), on a flat charcoal tile. Transparent exterior.</desc>
+  <defs>
+    <path id="half" d="M531 136 586 216 461 479 344 501 456 600 396 768 172 506Z"/>
+  </defs>
+  <rect x="48" y="48" width="928" height="928" rx="164" fill="#1A1E24"/>
+  <use xlink:href="#half" fill="#5E9CD3"/>
+  <use xlink:href="#half" fill="#BF616A" transform="rotate(180 512 512)"/>
+</svg>

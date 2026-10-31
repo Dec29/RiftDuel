@@ -1,0 +1,33 @@
+{
+  "operator_id": "carnelian",
+  "char_id": "char_426_billro",
+  "display_name": "卡涅利安",
+  "files": [
+    {
+      "category": "cards",
+      "kind": "portrait",
+      "path": "assets/cards/carnelian/portrait.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/portrait/char_426_billro_1.png",
+      "bytes": 115646,
+      "sha256": "4da9ba3aa8f0f114661d981b2491ea641edc7a05aa084127642186a633006e34",
+      "width": 180,
+      "height": 360
+    },
+    {
+      "category": "cards",
+      "kind": "avatar",
+      "path": "assets/cards/carnelian/avatar.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_426_billro.png",
+      "bytes": 61608,
+      "sha256": "40f5752f59acb7316a634b357b0bf27b5c252c36f6ac08067d67711bd3671026",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified."
+}

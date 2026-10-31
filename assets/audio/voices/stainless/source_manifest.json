@@ -1,0 +1,62 @@
+{
+  "operator_id": "stainless",
+  "char_id": "char_4072_ironmn",
+  "commit": "33a5327f9c01512f0c14a9407de303920db16125",
+  "files": [
+    {
+      "category": "voice",
+      "tag": "023",
+      "language": "ja",
+      "path": "assets/audio/voices/stainless/cn_023.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4072_ironmn/cn_023.mp3",
+      "bytes": 14646,
+      "sha256": "74c45428d6cf987c9411683c98feebbf1b305c8c42b0e46c1b15885d37545089"
+    },
+    {
+      "category": "voice",
+      "tag": "024",
+      "language": "ja",
+      "path": "assets/audio/voices/stainless/cn_024.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4072_ironmn/cn_024.mp3",
+      "bytes": 12974,
+      "sha256": "16a65ae70d1cd0305fe7cef8c737b9ac35e2616eb5a68bb0df361a9e984c5d82"
+    },
+    {
+      "category": "voice",
+      "tag": "025",
+      "language": "ja",
+      "path": "assets/audio/voices/stainless/cn_025.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4072_ironmn/cn_025.mp3",
+      "bytes": 9004,
+      "sha256": "a188e944423129bc7f684ebd204eb73aa0621a9e3c97b128a8d03d5c29c09f85"
+    },
+    {
+      "category": "voice",
+      "tag": "026",
+      "language": "ja",
+      "path": "assets/audio/voices/stainless/cn_026.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4072_ironmn/cn_026.mp3",
+      "bytes": 7541,
+      "sha256": "88c2609006ea0d276072a885ce2915a4c660e2f7164d23545f8163fb572d29b7"
+    },
+    {
+      "category": "voice",
+      "tag": "027",
+      "language": "ja",
+      "path": "assets/audio/voices/stainless/cn_027.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4072_ironmn/cn_027.mp3",
+      "bytes": 11093,
+      "sha256": "362b824ae7cbb40b07e69dd10dd1c0fb855151b9509d91fc79895fc52b3a5028"
+    },
+    {
+      "category": "voice",
+      "tag": "028",
+      "language": "ja",
+      "path": "assets/audio/voices/stainless/cn_028.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4072_ironmn/cn_028.mp3",
+      "bytes": 21333,
+      "sha256": "6a50da80da09a99e2cebbb4b58dd850c03cbfb3dec64b5dca0c8e7b29a022d9d"
+    }
+  ],
+  "missing_tags": []
+}

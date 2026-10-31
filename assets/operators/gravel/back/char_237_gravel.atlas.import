@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://crkwpuegfn324"
+path="res://.godot/imported/char_237_gravel.atlas-c564b929e87c51b5c4b31c66cb51915d.tres"
+
+[deps]
+
+source_file="res://assets/operators/gravel/back/char_237_gravel.atlas"
+dest_files=["res://.godot/imported/char_237_gravel.atlas-c564b929e87c51b5c4b31c66cb51915d.tres"]
+
+[params]
+
+normal_map_prefix="n"

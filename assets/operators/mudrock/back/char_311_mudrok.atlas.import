@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cctmw6v1ti8w5"
+path="res://.godot/imported/char_311_mudrok.atlas-386a03df15848ff81a5b138333ca194d.tres"
+
+[deps]
+
+source_file="res://assets/operators/mudrock/back/char_311_mudrok.atlas"
+dest_files=["res://.godot/imported/char_311_mudrok.atlas-386a03df15848ff81a5b138333ca194d.tres"]
+
+[params]
+
+normal_map_prefix="n"

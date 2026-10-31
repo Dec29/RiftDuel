@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dmhs4hqvdneq1"
+path="res://.godot/imported/char_248_mgllan.skel-564683981a0450d191dfacfac52f3a66.tres"
+
+[deps]
+
+source_file="res://assets/operators/magallan/front/char_248_mgllan.skel"
+dest_files=["res://.godot/imported/char_248_mgllan.skel-564683981a0450d191dfacfac52f3a66.tres"]
+
+[params]

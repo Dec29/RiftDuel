@@ -1,0 +1,86 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_78t2e"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_5qnnw"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_jgkti"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_dxyn4"]
+
+[sub_resource type="Resource" id="Resource_7dveq"]
+script = ExtResource("1_78t2e")
+trait_name = "守护者"
+description = "技能可以治疗友方单位"
+effect_type = "guardian"
+
+[sub_resource type="Resource" id="Resource_v5dbl"]
+script = ExtResource("3_jgkti")
+skill_name = "备用军粮"
+trigger_type = "auto"
+sp_required = 4
+sp_recharge_type = "time"
+description = "下次普通动作改为治疗附近生命未满的友方，恢复160%攻击力生命；可充能3次。"
+effect_type = "guardian_aid"
+effect_params = {
+"charge_count": 3,
+"heal_percent": 160,
+"hp_threshold_percent": 100
+}
+attack_range_override = Array[Vector2i]([Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1)])
+
+[sub_resource type="Resource" id="Resource_ayi7n"]
+script = ExtResource("3_jgkti")
+skill_name = "食粮烹制"
+initial_sp = 20
+sp_required = 30
+sp_recharge_type = "time"
+description = "先用10秒烹饪（防御+80%、停止普通动作），再专注治疗附近友方30秒（攻击+80%、基础间隔乘230%），实际总持续40秒。"
+effect_type = "guardian_cook"
+effect_params = {
+"attack_interval_mult": 2.3,
+"attack_mult": 1.8,
+"defense_mult": 1.8,
+"warmup_ticks": 300
+}
+duration = 40.0
+attack_range_override = Array[Vector2i]([Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1)])
+
+[sub_resource type="Resource" id="Resource_p6xax"]
+script = ExtResource("4_dxyn4")
+talent_name = "平底锅专精"
+description = "攻击时，15%几率当次攻击的攻击力提升至200%，并晕眩敌人1秒"
+effect_type = "stun_attack_proc"
+effect_params = {
+"attack_percent": 200,
+"chance_percent": 15,
+"stun_ticks": 30
+}
+
+[sub_resource type="Resource" id="Resource_0v7ap"]
+script = ExtResource("4_dxyn4")
+talent_name = "无第二天赋"
+description = "原作仅有一个天赋。"
+effect_type = "none"
+
+[resource]
+script = ExtResource("2_5qnnw")
+operator_id = "gummy"
+display_name = "古米"
+profession = "重装"
+profession_id = "defender"
+branch = "守护者"
+group_id = "ursus_student"
+max_health = 2550
+attack = 435
+defense = 562
+magic_resist = 10
+damage_type = "physical"
+attack_interval = 1.2
+block_count = 3
+initial_deploy_cost = 16
+deploy_cost = 20
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_7dveq")
+talent_1 = SubResource("Resource_p6xax")
+talent_2 = SubResource("Resource_0v7ap")
+skills = Array[ExtResource("3_jgkti")]([SubResource("Resource_v5dbl"), SubResource("Resource_ayi7n")])

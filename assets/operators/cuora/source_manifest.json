@@ -1,0 +1,87 @@
+{
+  "operator_id": "cuora",
+  "display_name": "蛇屠箱",
+  "char_id": "char_150_snakek",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/cuora/front/char_150_snakek.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_150_snakek/front/char_150_snakek.skel",
+      "sha256": "ee2cdfee124fc930d5f69a822012e1637866dcfe9d5cc053e38573ea934d1235",
+      "size": 102785
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/cuora/front/char_150_snakek.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_150_snakek/front/char_150_snakek.atlas",
+      "sha256": "cd0682c5988c4375a18b01718d8563fb2a1b3951b6e7f6df762f9b730f91fbea",
+      "size": 5540
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/cuora/front/char_150_snakek.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_150_snakek/front/char_150_snakek.png",
+      "sha256": "dde0299255c77828c299e9d48170297efa820cb79e8040389c5c124028267d89",
+      "size": 76377
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/cuora/back/char_150_snakek.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_150_snakek/back/char_150_snakek.skel",
+      "sha256": "8b10fd9e1f5062f3c38ff282c21bfbbc36bfe74c4461613150dbcff22a8c7296",
+      "size": 38045
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/cuora/back/char_150_snakek.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_150_snakek/back/char_150_snakek.atlas",
+      "sha256": "541bbf11d1e797f71fdadcd095d1cc2e598859419e427ca9511c7fc40b249b58",
+      "size": 2902
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/cuora/back/char_150_snakek.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_150_snakek/back/char_150_snakek.png",
+      "sha256": "aeec743db9f676714f4818d1d237c45907f3f0cb044209ebae7c836de5cd7c7f",
+      "size": 58888
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.0,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.0,
+      "Skill_Begin": 0.4,
+      "Skill_End": 0.4666666666666667,
+      "Skill_Loop": 0.8,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.0,
+      "Default": 0.0,
+      "Idle": 1.0,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 42
+    },
+    "back": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 28
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

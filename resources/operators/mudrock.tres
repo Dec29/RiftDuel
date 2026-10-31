@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_kjxtv"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_jnhxa"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_drdoj"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_q6n5f"]
+
+[sub_resource type="Resource" id="Resource_po2u5"]
+script = ExtResource("1_kjxtv")
+trait_name = "不屈者"
+description = "无法被友方角色治疗"
+effect_type = "unyield"
+
+[sub_resource type="Resource" id="Resource_6ut56"]
+script = ExtResource("3_drdoj")
+skill_name = "防御力强化·γ型"
+initial_sp = 15
+sp_required = 30
+sp_recharge_type = "time"
+description = "40秒防御+100%。"
+effect_type = "defense_up"
+effect_params = {
+"defense_mult": 2.0
+}
+duration = 40.0
+
+[sub_resource type="Resource" id="Resource_lh2y6"]
+script = ExtResource("3_drdoj")
+skill_name = "岩崩锤"
+trigger_type = "auto"
+sp_required = 4
+sp_recharge_type = "on_damaged"
+description = "技力足够且周围有目标时立即恢复最大生命6%，对周围所有地面敌人造成270%物伤，分别30%概率眩晕1.2秒；箱子与静止球独立受击，治疗按本作系数折算。"
+effect_type = "shield_hammer"
+effect_params = {
+"attack_mult": 2.7,
+"heal_percent": 6,
+"stun_chance_percent": 30,
+"stun_ticks": 36
+}
+attack_range_override = Array[Vector2i]([Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1)])
+
+[sub_resource type="Resource" id="Resource_s47tt"]
+script = ExtResource("3_drdoj")
+skill_name = "秽壤的血脉"
+initial_sp = 15
+sp_required = 25
+sp_recharge_type = "time"
+description = "总计30秒：先静止无敌且阻挡0持续10秒，周围敌人攻速降低60%（移速适配）；随后眩晕周围地面敌人5秒，20秒内攻击+140%、防御+80%、基础间隔乘70%，攻击范围内最多当前阻挡数的地面敌人。"
+effect_type = "unyield_awakening"
+effect_params = {
+"attack_interval_mult": 0.7,
+"attack_mult": 2.4,
+"attack_speed_reduce": 60,
+"defense_mult": 1.8,
+"rest_ticks": 300,
+"stun_ticks": 150
+}
+duration = 30.0
+attack_range_override = Array[Vector2i]([Vector2i(0, -2), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(0, 2)])
+
+[sub_resource type="Resource" id="Resource_dtjqv"]
+script = ExtResource("4_q6n5f")
+talent_name = "沃土予身"
+description = "每9秒获得1层护盾（最多3层，部署后立即获得1层），每层护盾破裂时恢复自身20%最大生命"
+effect_type = "regenerating_shield"
+effect_params = {
+"heal_percent": 20,
+"initial_layers": 1,
+"interval_ticks": 270,
+"max_layers": 3
+}
+
+[sub_resource type="Resource" id="Resource_yue64"]
+script = ExtResource("4_q6n5f")
+talent_name = "手足相惜"
+description = "受到来自【萨卡兹】敌人的伤害降低30%"
+effect_type = "sarkaz_damage_reduction"
+effect_params = {
+"damage_remaining_percent": 70
+}
+
+[resource]
+script = ExtResource("2_jnhxa")
+operator_id = "mudrock"
+display_name = "泥岩"
+profession = "重装"
+profession_id = "defender"
+branch = "不屈者"
+race_id = "sarkaz"
+max_health = 3928
+attack = 882
+defense = 602
+magic_resist = 10
+damage_type = "physical"
+attack_interval = 1.6
+block_count = 3
+initial_deploy_cost = 32
+deploy_cost = 36
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_po2u5")
+talent_1 = SubResource("Resource_dtjqv")
+talent_2 = SubResource("Resource_yue64")
+skills = Array[ExtResource("3_drdoj")]([SubResource("Resource_6ut56"), SubResource("Resource_lh2y6"), SubResource("Resource_s47tt")])

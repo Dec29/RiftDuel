@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://c8msich8stdx2"
+path="res://.godot/imported/char_171_bldsk.skel-2832afa972d767cb576cd25610f148e1.tres"
+
+[deps]
+
+source_file="res://assets/operators/warfarin/back/char_171_bldsk.skel"
+dest_files=["res://.godot/imported/char_171_bldsk.skel-2832afa972d767cb576cd25610f148e1.tres"]
+
+[params]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://602pqsrlcwi3"
+path="res://.godot/imported/char_291_aglina.atlas-5723edfa362e8a2b97567425cd2aa3ee.tres"
+
+[deps]
+
+source_file="res://assets/operators/angelina/back/char_291_aglina.atlas"
+dest_files=["res://.godot/imported/char_291_aglina.atlas-5723edfa362e8a2b97567425cd2aa3ee.tres"]
+
+[params]
+
+normal_map_prefix="n"

@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cpsd3k7y3y7h0"
+path="res://.godot/imported/char_249_mlyss.atlas-c9722504f1cd4e530cd4e2473b80f808.tres"
+
+[deps]
+
+source_file="res://assets/operators/muelsyse/back/char_249_mlyss.atlas"
+dest_files=["res://.godot/imported/char_249_mlyss.atlas-c9722504f1cd4e530cd4e2473b80f808.tres"]
+
+[params]
+
+normal_map_prefix="n"

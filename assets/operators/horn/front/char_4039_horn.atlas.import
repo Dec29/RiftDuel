@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://d3n21qkojp054"
+path="res://.godot/imported/char_4039_horn.atlas-bbea6061b33054b9dddcd7dd4391bbc6.tres"
+
+[deps]
+
+source_file="res://assets/operators/horn/front/char_4039_horn.atlas"
+dest_files=["res://.godot/imported/char_4039_horn.atlas-bbea6061b33054b9dddcd7dd4391bbc6.tres"]
+
+[params]
+
+normal_map_prefix="n"

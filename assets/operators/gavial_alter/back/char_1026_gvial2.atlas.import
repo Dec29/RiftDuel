@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bg4ini26by0vc"
+path="res://.godot/imported/char_1026_gvial2.atlas-4ea3d9bd1c006d8cc84dce3eeca1e192.tres"
+
+[deps]
+
+source_file="res://assets/operators/gavial_alter/back/char_1026_gvial2.atlas"
+dest_files=["res://.godot/imported/char_1026_gvial2.atlas-4ea3d9bd1c006d8cc84dce3eeca1e192.tres"]
+
+[params]
+
+normal_map_prefix="n"

@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://coqa4y42yl2hb"
+path="res://.godot/imported/char_4056_titi.skel-3e39e08fe51ba5af4f25fa9c89ba81cb.tres"
+
+[deps]
+
+source_file="res://assets/operators/titi/front/char_4056_titi.skel"
+dest_files=["res://.godot/imported/char_4056_titi.skel-3e39e08fe51ba5af4f25fa9c89ba81cb.tres"]
+
+[params]

@@ -1,0 +1,14 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://d2qcg736hmae6"
+path="res://.godot/imported/char_222_bpipe.skel-e1de1d08aefe5fcf891638562e02294c.tres"
+
+[deps]
+
+source_file="res://assets/operators/bagpipe/back/char_222_bpipe.skel"
+dest_files=["res://.godot/imported/char_222_bpipe.skel-e1de1d08aefe5fcf891638562e02294c.tres"]
+
+[params]
+

@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://cutuwmr5dp68n"
+path="res://.godot/imported/char_423_blemsh.skel-d55bae0c94571055b9b92378dab22983.tres"
+
+[deps]
+
+source_file="res://assets/operators/blemishine/back/char_423_blemsh.skel"
+dest_files=["res://.godot/imported/char_423_blemsh.skel-d55bae0c94571055b9b92378dab22983.tres"]
+
+[params]

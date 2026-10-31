@@ -1,0 +1,34 @@
+{
+	"clips": [
+		{
+			"bake_ms": 1094,
+			"duration_seconds": 4.0,
+			"file": "res://assets/battle/vfx/fiammetta_s3/buff.res",
+			"frames": 480,
+			"id": "buff"
+		},
+		{
+			"bake_ms": 262,
+			"duration_seconds": 8.0,
+			"file": "res://assets/battle/vfx/fiammetta_s3/buff_02.res",
+			"frames": 960,
+			"id": "buff_02"
+		},
+		{
+			"bake_ms": 14521,
+			"duration_seconds": 8.0,
+			"file": "res://assets/battle/vfx/fiammetta_s3/hit.res",
+			"frames": 960,
+			"id": "hit"
+		},
+		{
+			"bake_ms": 5956,
+			"duration_seconds": 7.0,
+			"file": "res://assets/battle/vfx/fiammetta_s3/start.res",
+			"frames": 840,
+			"id": "start"
+		}
+	],
+	"facing_count": 4,
+	"fps": 30.0
+}

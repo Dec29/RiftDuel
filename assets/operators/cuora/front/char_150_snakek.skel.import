@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dnwkqx4ilfuf0"
+path="res://.godot/imported/char_150_snakek.skel-ff951d6cb89802e16a39192a3fe889b9.tres"
+
+[deps]
+
+source_file="res://assets/operators/cuora/front/char_150_snakek.skel"
+dest_files=["res://.godot/imported/char_150_snakek.skel-ff951d6cb89802e16a39192a3fe889b9.tres"]
+
+[params]

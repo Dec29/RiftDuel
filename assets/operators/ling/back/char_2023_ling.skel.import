@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://cyr1joai8xjht"
+path="res://.godot/imported/char_2023_ling.skel-de4cbdd446a0299cdc829236874b789a.tres"
+
+[deps]
+
+source_file="res://assets/operators/ling/back/char_2023_ling.skel"
+dest_files=["res://.godot/imported/char_2023_ling.skel-de4cbdd446a0299cdc829236874b789a.tres"]
+
+[params]

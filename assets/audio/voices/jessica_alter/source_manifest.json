@@ -1,0 +1,62 @@
+{
+  "operator_id": "jessica_alter",
+  "char_id": "char_1034_jesca2",
+  "commit": "33a5327f9c01512f0c14a9407de303920db16125",
+  "files": [
+    {
+      "category": "voice",
+      "tag": "023",
+      "language": "ja",
+      "path": "assets/audio/voices/jessica_alter/cn_023.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1034_jesca2/cn_023.mp3",
+      "bytes": 14019,
+      "sha256": "39202c5750a01e1af2252cd07effa6cf6c56dd869195cf1b19d474afdccbaedc"
+    },
+    {
+      "category": "voice",
+      "tag": "024",
+      "language": "ja",
+      "path": "assets/audio/voices/jessica_alter/cn_024.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1034_jesca2/cn_024.mp3",
+      "bytes": 29275,
+      "sha256": "d42ef10fda4ad49b3b8521eeecbe0a0575ce79e12bfd1e5dd962b2219d437242"
+    },
+    {
+      "category": "voice",
+      "tag": "025",
+      "language": "ja",
+      "path": "assets/audio/voices/jessica_alter/cn_025.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1034_jesca2/cn_025.mp3",
+      "bytes": 13392,
+      "sha256": "c44134e514c03ce1ba78e806d9bc24d5af596c65da9351a487441761dfd169e3"
+    },
+    {
+      "category": "voice",
+      "tag": "026",
+      "language": "ja",
+      "path": "assets/audio/voices/jessica_alter/cn_026.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1034_jesca2/cn_026.mp3",
+      "bytes": 13810,
+      "sha256": "0d3305f5483c64e001709c63d8fdd8878606c3d75a7c29733b0321c82f6b5d9f"
+    },
+    {
+      "category": "voice",
+      "tag": "027",
+      "language": "ja",
+      "path": "assets/audio/voices/jessica_alter/cn_027.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1034_jesca2/cn_027.mp3",
+      "bytes": 13183,
+      "sha256": "51f0754e7d21de0bf7e6896f810b90932b2dd3d597d2a3649a6ccf6d75a84170"
+    },
+    {
+      "category": "voice",
+      "tag": "028",
+      "language": "ja",
+      "path": "assets/audio/voices/jessica_alter/cn_028.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1034_jesca2/cn_028.mp3",
+      "bytes": 30111,
+      "sha256": "6d844c5284412ffbc83d686d39222abdeed6ed8f4dea415a117d7d5523a44afd"
+    }
+  ],
+  "missing_tags": []
+}

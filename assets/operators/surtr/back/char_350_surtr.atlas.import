@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://jkmxgpss3gjx"
+path="res://.godot/imported/char_350_surtr.atlas-0eaadb660093ca638396a90dfff73e10.tres"
+
+[deps]
+
+source_file="res://assets/operators/surtr/back/char_350_surtr.atlas"
+dest_files=["res://.godot/imported/char_350_surtr.atlas-0eaadb660093ca638396a90dfff73e10.tres"]
+
+[params]
+
+normal_map_prefix="n"

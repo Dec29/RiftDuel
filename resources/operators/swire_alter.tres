@@ -17,6 +17,8 @@ effect_params = {
 
 [sub_resource type="Resource" id="Resource_lkyw7"]
 script = ExtResource("3_rps0i")
+initial_sp = 0
+trigger_type = "passive"
 skill_name = "仗义疏财"
 sp_recharge_type = "passive"
 description = "消耗1枚金币，替代当次攻击，为周围八格内生命低于70%的一名友军恢复当前攻击力80%的生命；金币上限3，无需手动开启"
@@ -52,6 +54,33 @@ effect_params = {
 "cost_multiplier": 2
 }
 
+
+[sub_resource type="Resource" id="Resource_swire1"]
+script = ExtResource("3_rps0i")
+initial_sp = 0
+trigger_type = "passive"
+skill_name = "“见面礼”"
+sp_required = 0
+sp_recharge_type = "passive"
+description = "消耗金币在自身十字八格可部署地面布置香槟炸弹；首触敌人受200%物理伤害与2秒停顿，满3秒额外一段；金币上限5。落地1.5秒首布置，此后最快1秒一次。退场清弹，沉默禁止新布置。"
+effect_type = "champagne_traps"
+duration = -1.0
+effect_params = {"attack_mult": 1.0, "coin_limit": 5, "bomb_attack_percent": 200, "slow_ticks": 60, "mature_ticks": 90, "first_plant_ticks": 45, "plant_interval_ticks": 30, "plant_attack_delay_ticks": 1}
+burst_range_override = Array[Vector2i]([Vector2i(0, -2), Vector2i(0, -1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(0, 1), Vector2i(0, 2)])
+
+[sub_resource type="Resource" id="Resource_swire2"]
+script = ExtResource("3_rps0i")
+initial_sp = 0
+trigger_type = "auto"
+skill_name = "千金一掷"
+sp_required = 5
+sp_recharge_type = "time"
+description = "自动开启，攻击二连击，击杀获得1枚金币；主动关闭标记面前一格地面敌人，消耗全部金币随机追击，每枚150%物理伤害并中等力度推开。金币上限10；每0.2秒投币为本作适配。"
+effect_type = "coin_barrage"
+duration = -1.0
+effect_params = {"attack_mult": 1.0, "coin_limit": 10, "shot_count": 2, "coin_attack_percent": 150, "coin_interval_ticks": 6, "shift_force": 2}
+burst_range_override = Array[Vector2i]([Vector2i(1, 0)])
+
 [resource]
 script = ExtResource("2_50wnr")
 operator_id = "swire_alter"
@@ -65,6 +94,7 @@ defense = 457
 damage_type = "physical"
 attack_interval = 1.0
 block_count = 1
+initial_deploy_cost = 7
 deploy_cost = 9
 redeploy_time = 25.0
 attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
@@ -72,4 +102,4 @@ terrain_requirement = "ground"
 branch_trait = SubResource("Resource_ymp21")
 talent_1 = SubResource("Resource_qxrhl")
 talent_2 = SubResource("Resource_4dm00")
-skills = Array[ExtResource("3_rps0i")]([SubResource("Resource_lkyw7")])
+skills = Array[ExtResource("3_rps0i")]([SubResource("Resource_lkyw7"), SubResource("Resource_swire1"), SubResource("Resource_swire2")])

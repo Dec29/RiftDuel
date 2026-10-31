@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://lvp7oen2lmft"
+path="res://.godot/imported/char_180_amgoat.skel-917a682d1abe26d26ed571f81ca061c0.tres"
+
+[deps]
+
+source_file="res://assets/operators/eyjafjalla/front/char_180_amgoat.skel"
+dest_files=["res://.godot/imported/char_180_amgoat.skel-917a682d1abe26d26ed571f81ca061c0.tres"]
+
+[params]

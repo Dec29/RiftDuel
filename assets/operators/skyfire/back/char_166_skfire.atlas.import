@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://k571xrode0xw"
+path="res://.godot/imported/char_166_skfire.atlas-4cd917295188ba8469c9c153b0f83d38.tres"
+
+[deps]
+
+source_file="res://assets/operators/skyfire/back/char_166_skfire.atlas"
+dest_files=["res://.godot/imported/char_166_skfire.atlas-4cd917295188ba8469c9c153b0f83d38.tres"]
+
+[params]
+
+normal_map_prefix="n"

@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://jwoy66seaiek"
+path="res://.godot/imported/char_147_shining.skel-dfed0d66a0f9bbbf453b5eacfc436ea9.tres"
+
+[deps]
+
+source_file="res://assets/operators/shining/back/char_147_shining.skel"
+dest_files=["res://.godot/imported/char_147_shining.skel-dfed0d66a0f9bbbf453b5eacfc436ea9.tres"]
+
+[params]

@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://46pk8vgjuhpv"
+path="res://.godot/imported/char_4179_monstr.skel-4aefbcbc1eeaf3038131b26bd470338f.tres"
+
+[deps]
+
+source_file="res://assets/operators/mon3tr_operator/front/char_4179_monstr.skel"
+dest_files=["res://.godot/imported/char_4179_monstr.skel-4aefbcbc1eeaf3038131b26bd470338f.tres"]
+
+[params]

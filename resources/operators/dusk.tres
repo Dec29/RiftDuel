@@ -1,0 +1,163 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="operator"]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="trait"]
+
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="talent"]
+
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="skill"]
+
+[sub_resource type="Resource" id="trait"]
+
+script = ExtResource("trait")
+
+trait_name = "扩散术师"
+
+description = "攻击造成群体法术伤害"
+
+effect_type = "magic_splash"
+
+effect_params = {"splash_radius_squared":1}
+
+[sub_resource type="Resource" id="talent0"]
+
+script = ExtResource("talent")
+
+talent_name = "化境"
+
+description = "夕与\"小自在\"击杀一名敌人时，夕获得2%攻击力，最多可叠加15层"
+
+effect_type = "dusk_kill_stacks"
+
+effect_params = {"attack_percent_per_kill":2,"max_stacks":15}
+
+[sub_resource type="Resource" id="talent1"]
+
+script = ExtResource("talent")
+
+talent_name = "点睛"
+
+description = "部署后首次攻击敌人时，在目标位置（可部署地面）召唤一个“小自在”（持续25秒）\n本作适配：在命中点附近、本体当前范围内选择己方合法空地；无空地不生成并消耗本次部署机会。"
+
+effect_type = "dusk_first_freeling"
+
+effect_params = {"lifetime_ticks":750}
+
+[sub_resource type="Resource" id="skill0"]
+
+script = ExtResource("skill")
+
+skill_name = "工笔入化"
+
+description = "下一次攻击溅射范围扩大，造成相当于攻击力250%的法术伤害\n可充能3次"
+
+effect_type = "dusk_paint"
+
+effect_params = {"attack_mult":2.5,"charge_count":3,"splash_radius_squared":2}
+
+duration = 0.0
+
+trigger_type = "attack"
+
+initial_sp = 0
+
+sp_required = 5
+
+sp_recharge_type = "time"
+
+attack_range_override = Array[Vector2i]([])
+
+[sub_resource type="Resource" id="skill1"]
+
+script = ExtResource("skill")
+
+skill_name = "泼墨淋漓"
+
+description = "攻击范围扩大，攻击力+55%，攻击速度+55，攻击范围内的所有敌人且对生命值低于一半的敌人造成的法术伤害提升至130%"
+
+effect_type = "dusk_ink"
+
+effect_params = {"attack_mult":1.55,"attack_speed_add":55,"hp_threshold_percent":50,"low_health_damage_percent":130}
+
+duration = 20.0
+
+trigger_type = "manual"
+
+initial_sp = 25
+
+sp_required = 38
+
+sp_recharge_type = "time"
+
+attack_range_override = Array[Vector2i]([Vector2i(0,1), Vector2i(1,1), Vector2i(2,1), Vector2i(3,1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(3,0), Vector2i(0,-1), Vector2i(1,-1), Vector2i(2,-1), Vector2i(3,-1)])
+
+[sub_resource type="Resource" id="skill2"]
+
+script = ExtResource("skill")
+
+skill_name = "写意胜形"
+
+description = "攻击间隔增大，优先攻击未阻挡的敌人，攻击范围与溅射范围扩大，攻击力+120%，每次攻击时在目标位置（可部署地面）召唤/刷新一个\"小自在\"（持续25秒）\n小自在刷新恢复原100%最大生命治疗量，按本作50%治疗系数折算；无合法空地时本次不生成。"
+
+effect_type = "dusk_freehand"
+
+effect_params = {"attack_mult":2.2,"attack_interval_mult":1.4,"splash_radius_squared":2,"lifetime_ticks":750}
+
+duration = 60.0
+
+trigger_type = "manual"
+
+initial_sp = 70
+
+sp_required = 100
+
+sp_recharge_type = "time"
+
+attack_range_override = Array[Vector2i]([Vector2i(0,2), Vector2i(1,2), Vector2i(2,2), Vector2i(0,1), Vector2i(1,1), Vector2i(2,1), Vector2i(3,1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(3,0), Vector2i(0,-1), Vector2i(1,-1), Vector2i(2,-1), Vector2i(3,-1), Vector2i(0,-2), Vector2i(1,-2), Vector2i(2,-2)])
+
+[resource]
+
+script = ExtResource("operator")
+
+operator_id = "dusk"
+
+display_name = "夕"
+
+profession = "术师"
+
+profession_id = "caster"
+
+branch = "扩散术师"
+
+max_health = 1801
+
+attack = 918
+
+defense = 127
+
+magic_resist = 20
+
+damage_type = "magical"
+
+block_count = 1
+
+attack_interval = 2.9
+
+initial_deploy_cost = 31
+
+deploy_cost = 34
+
+redeploy_time = 70.0
+
+attack_range = Array[Vector2i]([Vector2i(0,1), Vector2i(1,1), Vector2i(2,1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(0,-1), Vector2i(1,-1), Vector2i(2,-1)])
+
+terrain_requirement = "high"
+
+branch_trait = SubResource("trait")
+
+talent_1 = SubResource("talent0")
+
+talent_2 = SubResource("talent1")
+
+skills = Array[ExtResource("skill")]([SubResource("skill0"),SubResource("skill1"),SubResource("skill2")])

@@ -1,0 +1,84 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_8dplr"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_x5og0"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_hqad7"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_oqie4"]
+
+[sub_resource type="Resource" id="Resource_847hi"]
+script = ExtResource("1_8dplr")
+trait_name = "凝滞师"
+description = "攻击造成法术伤害，并对敌人造成短暂的停顿"
+effect_type = "slow_on_hit"
+effect_params = {
+"slow_duration": 0.8
+}
+
+[sub_resource type="Resource" id="Resource_84ylh"]
+script = ExtResource("3_hqad7")
+skill_name = "花香疗法"
+initial_sp = 10
+sp_required = 25
+sp_recharge_type = "time"
+description = "25秒攻击+60%，普通攻击改为对范围内友方进行单体治疗。"
+effect_type = "healing_mode"
+effect_params = {
+"attack_mult": 1.6
+}
+duration = 25.0
+
+[sub_resource type="Resource" id="Resource_kt51l"]
+script = ExtResource("3_hqad7")
+skill_name = "孢子扩散"
+initial_sp = 10
+sp_required = 23
+sp_recharge_type = "time"
+description = "向当前范围敌人→箱子→静止球的位置投掷孢子云，持续6秒；云内敌人停顿、沉默，每秒受80%攻击力法伤，箱子与静止球独立受击。"
+effect_type = "silence_cloud"
+effect_params = {
+"attack_mult": 1.0,
+"lifetime_ticks": 180,
+"pulse_attack_percent": 80,
+"pulse_ticks": 30,
+"splash_radius_squared": 0
+}
+
+[sub_resource type="Resource" id="Resource_d6cil"]
+script = ExtResource("4_oqie4")
+talent_name = "园丁"
+description = "在场时，所有【辅助】干员攻击力+9%"
+effect_type = "attack_aura"
+effect_params = {
+"attack_percent": 9,
+"profession_id": "supporter"
+}
+
+[sub_resource type="Resource" id="Resource_kvqwa"]
+script = ExtResource("4_oqie4")
+talent_name = "无第二天赋"
+description = "原作仅有一个天赋。"
+effect_type = "none"
+
+[resource]
+script = ExtResource("2_x5og0")
+operator_id = "podenco"
+display_name = "波登可"
+profession = "辅助"
+profession_id = "supporter"
+branch = "凝滞师"
+max_health = 1163
+attack = 492
+defense = 96
+magic_resist = 20
+damage_type = "magical"
+attack_interval = 1.9
+block_count = 1
+initial_deploy_cost = 12
+deploy_cost = 14
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_847hi")
+talent_1 = SubResource("Resource_d6cil")
+talent_2 = SubResource("Resource_kvqwa")
+skills = Array[ExtResource("3_hqad7")]([SubResource("Resource_84ylh"), SubResource("Resource_kt51l")])

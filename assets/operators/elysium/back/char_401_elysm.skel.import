@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://c5bit6cg8gkbg"
+path="res://.godot/imported/char_401_elysm.skel-d662ad7c7331ffbe20f7015405c48ff9.tres"
+
+[deps]
+
+source_file="res://assets/operators/elysium/back/char_401_elysm.skel"
+dest_files=["res://.godot/imported/char_401_elysm.skel-d662ad7c7331ffbe20f7015405c48ff9.tres"]
+
+[params]

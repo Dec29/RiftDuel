@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_yq8w2"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_0nqa4"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_2et77"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_lhl6q"]
+
+[sub_resource type="Resource" id="Resource_y4l2p"]
+script = ExtResource("1_yq8w2")
+trait_name = "轰击术师"
+description = "攻击范围内所有敌人，造成超远距离的群体法术伤害。"
+effect_type = "line_magic"
+
+[sub_resource type="Resource" id="Resource_m1nsk"]
+script = ExtResource("3_2et77")
+skill_name = "狂热"
+initial_sp = 20
+sp_required = 40
+sp_recharge_type = "time"
+description = "攻击力+20%，攻击速度+80，持续20秒。"
+effect_type = "atk_spd_boost"
+effect_params = {
+"attack_mult": 1.2,
+"attack_speed_add": 80
+}
+duration = 20.0
+
+[sub_resource type="Resource" id="Resource_i2jad"]
+script = ExtResource("3_2et77")
+skill_name = "炎爆"
+trigger_type = "attack"
+sp_required = 7
+sp_recharge_type = "time"
+description = "下次攻击对直线内所有敌人造成250%法术伤害，防御-300并灼烧3秒，每秒33%当前攻击；可充能3次。"
+effect_type = "flame_charge"
+effect_params = {
+"attack_mult": 2.5,
+"burn_attack_percent": 33,
+"burn_ticks": 90,
+"charge_count": 3,
+"defense_reduce": 300
+}
+
+[sub_resource type="Resource" id="Resource_yss52"]
+script = ExtResource("3_2et77")
+skill_name = "灼地"
+sp_required = 28
+sp_recharge_type = "time"
+description = "每秒对直线范围内所有地面敌人造成140%法术伤害，命中法抗-20持续1秒；自身每秒流失最大生命2%，持续20秒。"
+effect_type = "flame_ground"
+effect_params = {
+"attack_mult": 1.4,
+"hp_loss_percent": 2,
+"pulse_ticks": 30,
+"resist_reduce": 20,
+"resist_ticks": 30
+}
+duration = 20.0
+
+[sub_resource type="Resource" id="Resource_fu0c3"]
+script = ExtResource("4_lhl6q")
+talent_name = "精神融解"
+description = "攻击范围内敌人的法术抗性降低40%。"
+effect_type = "enemy_resist_aura"
+effect_params = {
+"resist_reduce_percent": 40
+}
+
+[sub_resource type="Resource" id="Resource_r7c36"]
+script = ExtResource("4_lhl6q")
+talent_name = "莱茵回路"
+description = "每6秒额外回复2点技力。"
+effect_type = "periodic_sp"
+effect_params = {
+"interval_ticks": 180,
+"sp_add": 2
+}
+
+[resource]
+script = ExtResource("2_0nqa4")
+group_id = "rhine"
+operator_id = "ifrit"
+display_name = "伊芙利特"
+profession = "术师"
+profession_id = "caster"
+branch = "轰击术师"
+max_health = 1680
+attack = 870
+defense = 130
+magic_resist = 20
+damage_type = "magical"
+attack_interval = 2.9
+block_count = 1
+initial_deploy_cost = 31
+deploy_cost = 34
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(4, 0), Vector2i(5, 0)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_y4l2p")
+talent_1 = SubResource("Resource_fu0c3")
+talent_2 = SubResource("Resource_r7c36")
+skills = Array[ExtResource("3_2et77")]([SubResource("Resource_m1nsk"), SubResource("Resource_i2jad"), SubResource("Resource_yss52")])

@@ -22,7 +22,7 @@ grow_vertical = 2
 [node name="Panel" type="VBoxContainer" parent="Center"]
 custom_minimum_size = Vector2(620, 0)
 layout_mode = 2
-theme_override_constants/separation = 16
+theme_override_constants/separation = 12
 
 [node name="Title" type="Label" parent="Center/Panel"]
 layout_mode = 2
@@ -31,7 +31,7 @@ text = "设置"
 horizontal_alignment = 1
 
 [node name="Tabs" type="TabContainer" parent="Center/Panel"]
-custom_minimum_size = Vector2(0, 260)
+custom_minimum_size = Vector2(0, 340)
 layout_mode = 2
 current_tab = 0
 
@@ -60,8 +60,36 @@ placeholder_text = "wss://服务器/ws"
 [node name="Display" type="VBoxContainer" parent="Center/Panel/Tabs"]
 visible = false
 layout_mode = 2
-theme_override_constants/separation = 16
+theme_override_constants/separation = 8
 metadata/_tab_name = "显示"
+
+[node name="ModeLabel" type="Label" parent="Center/Panel/Tabs/Display"]
+layout_mode = 2
+text = "显示模式"
+
+[node name="WindowMode" type="OptionButton" parent="Center/Panel/Tabs/Display"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+item_count = 3
+selected = 0
+popup/item_0/text = "窗口"
+popup/item_0/id = 0
+popup/item_1/text = "无边框全屏"
+popup/item_1/id = 1
+popup/item_2/text = "全屏"
+popup/item_2/id = 2
+
+[node name="ResolutionLabel" type="Label" parent="Center/Panel/Tabs/Display"]
+layout_mode = 2
+text = "分辨率"
+
+[node name="Resolution" type="OptionButton" parent="Center/Panel/Tabs/Display"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+
+[node name="ResolutionHint" type="Label" parent="Center/Panel/Tabs/Display"]
+layout_mode = 2
+autowrap_mode = 3
 
 [node name="Label" type="Label" parent="Center/Panel/Tabs/Display"]
 layout_mode = 2
@@ -83,8 +111,83 @@ layout_mode = 2
 text = "仅调整本机视角，不改变阵营、地图规则或对手的画面。"
 autowrap_mode = 3
 
+[node name="Audio" type="VBoxContainer" parent="Center/Panel/Tabs"]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 8
+metadata/_tab_name = "音频"
+
+[node name="MusicLabel" type="Label" parent="Center/Panel/Tabs/Audio"]
+layout_mode = 2
+text = "音乐"
+
+[node name="Music" type="HSlider" parent="Center/Panel/Tabs/Audio"]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+max_value = 100.0
+step = 1.0
+
+[node name="SFXLabel" type="Label" parent="Center/Panel/Tabs/Audio"]
+layout_mode = 2
+text = "音效"
+
+[node name="SFX" type="HSlider" parent="Center/Panel/Tabs/Audio"]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+max_value = 100.0
+step = 1.0
+
+[node name="VoiceLabel" type="Label" parent="Center/Panel/Tabs/Audio"]
+layout_mode = 2
+text = "语音"
+
+[node name="Voice" type="HSlider" parent="Center/Panel/Tabs/Audio"]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+max_value = 100.0
+step = 1.0
+
+[node name="VoiceSidesLabel" type="Label" parent="Center/Panel/Tabs/Audio"]
+layout_mode = 2
+text = "干员部署与技能语音"
+
+[node name="VoiceSides" type="OptionButton" parent="Center/Panel/Tabs/Audio"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+item_count = 2
+selected = 0
+popup/item_0/text = "双方干员"
+popup/item_0/id = 0
+popup/item_1/text = "仅己方干员"
+popup/item_1/id = 1
+
+[node name="Hint" type="Label" parent="Center/Panel/Tabs/Audio"]
+layout_mode = 2
+text = "即时生效并自动保存。"
+
+[node name="Keys" type="VBoxContainer" parent="Center/Panel/Tabs"]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 12
+metadata/_tab_name = "按键"
+
+[node name="Hint" type="Label" parent="Center/Panel/Tabs/Keys"]
+layout_mode = 2
+text = "点击按钮后按新快捷键，支持键盘组合键与鼠标右／中／侧键。
+Esc取消录入；左键与滚轮保留用于操作界面。"
+autowrap_mode = 3
+
+[node name="Bindings" type="VBoxContainer" parent="Center/Panel/Tabs/Keys"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Reset" type="Button" parent="Center/Panel/Tabs/Keys"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+text = "恢复默认按键"
+
 [node name="Status" type="Label" parent="Center/Panel"]
-custom_minimum_size = Vector2(0, 48)
+custom_minimum_size = Vector2(0, 32)
 layout_mode = 2
 autowrap_mode = 3
 horizontal_alignment = 1

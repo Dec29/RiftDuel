@@ -1,5 +1,6 @@
 extends SceneTree
 
+const CONFIG := preload("res://data/config.gd")
 const DIRECTIONS := [Vector2.RIGHT, Vector2.DOWN, Vector2.LEFT, Vector2.UP]
 const DEPLOY_CELL := Vector2i(11, 5)
 
@@ -15,17 +16,24 @@ func _run() -> void:
 	var state: MatchState = main.match_state
 	var input: LocalInput = main.local_input
 	var view: MatchView = main.match_view
+	var fixture_data := {}
+	for id in CONFIG.DEFAULT_SQUAD_IDS:
+		fixture_data[id] = root.get_node("OperatorDB").get_data(id)
+	for side in 2:
+		state.squad_ids[side] = PackedStringArray(CONFIG.DEFAULT_SQUAD_IDS)
+	main.ai_input = AIInput.new(1, fixture_data)
+	view.bind(state, input, fixture_data)
 	view.mirror_board = false
 	state.sides[0].cost = 99
-	var center := view._cell_rect(DEPLOY_CELL).get_center()
+	var center := view.projection.cell_rect(DEPLOY_CELL).get_center()
 	for facing in DIRECTIONS.size():
 		var before := state.state_hash()
 		_begin_deploy(view, DEPLOY_CELL)
 		if not _check(view._deploy_phase == MatchView.DeployPhase.FACING and input.take_commands().is_empty() and state.state_hash() == before, "Dropping a card must enter facing preview without deploying"):
 			return
 		_mouse(view, center, true)
-		_motion(view, center + DIRECTIONS[facing] * view._cell_rect(DEPLOY_CELL).size.x * 2)
-		_mouse(view, center + DIRECTIONS[facing] * view._cell_rect(DEPLOY_CELL).size.x * 2, false)
+		_motion(view, center + DIRECTIONS[facing] * view.projection.cell_rect(DEPLOY_CELL).size.x * 2)
+		_mouse(view, center + DIRECTIONS[facing] * view.projection.cell_rect(DEPLOY_CELL).size.x * 2, false)
 		var commands := input.take_commands()
 		if not _check(commands.size() == 1 and commands[0].kind == InputCommand.Kind.DEPLOY and commands[0].facing == facing and commands[0].cell == DEPLOY_CELL and state.state_hash() == before, "Direction %d must queue exactly one deploy command and preserve state" % facing):
 			return
@@ -45,7 +53,7 @@ func _run() -> void:
 	state.sides[0].cost = 0
 	var before := state.state_hash()
 	_mouse(view, view._card_rect(view._operator_ids.find("bagpipe")).get_center(), true)
-	if not _check(view._deploy_phase == MatchView.DeployPhase.IDLE and input.selected_operator_id.is_empty() and input.take_commands().is_empty() and state.state_hash() == before, "Insufficient-cost card must not begin deployment"):
+	if not _check(view._deploy_phase == MatchView.DeployPhase.IDLE and input.selected_operator_id == "bagpipe" and input.take_commands().is_empty() and state.state_hash() == before, "Insufficient-cost card must show information without beginning deployment"):
 		return
 	state.sides[0].cost = 99
 	before = state.state_hash()
@@ -82,8 +90,8 @@ func _run() -> void:
 	state.ball.cell = Vector2i(12, 5)
 	before = state.state_hash()
 	_mouse(view, center, true)
-	_motion(view, center + Vector2.LEFT * view._cell_rect(DEPLOY_CELL).size.x * 2)
-	_mouse(view, center + Vector2.LEFT * view._cell_rect(DEPLOY_CELL).size.x * 2, false)
+	_motion(view, center + Vector2.LEFT * view.projection.cell_rect(DEPLOY_CELL).size.x * 2)
+	_mouse(view, center + Vector2.LEFT * view.projection.cell_rect(DEPLOY_CELL).size.x * 2, false)
 	if not _check(input.take_commands().is_empty() and state.state_hash() == before, "Moving deployment line must revalidate a pending cell before direction commit"):
 		return
 	view._unhandled_input(escape)
@@ -92,7 +100,7 @@ func _run() -> void:
 	var first_card := view._card_rect(0)
 	var last_card := view._card_rect(7)
 	var canvas: Vector2i = ViewPalette.SCREEN_SIZE
-	if not _check(last_card.end.x <= canvas.x and last_card.end.x > canvas.x * 0.9 and first_card.position.y > canvas.y * 0.75 and last_card.end.y <= canvas.y and view._cost_rect().end.y <= first_card.position.y, "Expected cards at lower right and cost above: canvas=%s root=%s first=%s last=%s cost=%s" % [canvas, root.size, first_card, last_card, view._cost_rect()]):
+	if not _check(last_card.end.x <= canvas.x and last_card.end.x > canvas.x * 0.9 and first_card.position.y > canvas.y * 0.75 and last_card.end.y <= canvas.y and not view._cost_rect().intersects(first_card) and not view._cost_rect().intersects(last_card), "Expected cards at lower right with separate cost card: canvas=%s root=%s first=%s last=%s cost=%s" % [canvas, root.size, first_card, last_card, view._cost_rect()]):
 		return
 	for index in 7:
 		if not _check(view._card_rect(index).position.y == last_card.position.y and view._card_rect(index).end.x <= view._card_rect(index + 1).position.x, "Eight deployment cards must form a nonoverlapping horizontal row"):
@@ -137,8 +145,8 @@ func _run() -> void:
 
 func _begin_deploy(view: MatchView, cell: Vector2i) -> void:
 	_mouse(view, view._card_rect(view._tray_operator_ids().find("bagpipe")).get_center(), true)
-	_motion(view, view._cell_rect(cell).get_center())
-	_mouse(view, view._cell_rect(cell).get_center(), false)
+	_motion(view, view.projection.cell_rect(cell).get_center())
+	_mouse(view, view.projection.cell_rect(cell).get_center(), false)
 
 
 func _mouse(view: MatchView, position: Vector2, pressed: bool, button: int = MOUSE_BUTTON_LEFT) -> void:

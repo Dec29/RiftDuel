@@ -1,0 +1,94 @@
+{
+  "operator_id": "weedy_cannon",
+  "display_name": "工程蓄水炮",
+  "char_id": "token_10009_weedy_cannon",
+  "costume": "默认",
+  "model_kind": "battle front/root and back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/weedy_cannon/front/token_10009_weedy_cannon.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10009_weedy_cannon/token_10009_weedy_cannon.atlas",
+      "sha256": "ed892af2f2b89b324fca6257658af97bdf6da0927da9b3d58de80f23899a9107",
+      "size": 1413
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/weedy_cannon/front/token_10009_weedy_cannon.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10009_weedy_cannon/token_10009_weedy_cannon.png",
+      "sha256": "639188e3f15a6bccb2b0ac80f8a1794d84b80b8422515e39ddc6e8df90af5f59",
+      "size": 25980
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/weedy_cannon/front/token_10009_weedy_cannon.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10009_weedy_cannon/token_10009_weedy_cannon.skel",
+      "sha256": "558a4c52e90e1fde72123e585027b8bd497487334f1cde6433270ca558a39837",
+      "size": 106271
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/weedy_cannon/back/token_10009_weedy_cannon.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10009_weedy_cannon/back/token_10009_weedy_cannon.atlas",
+      "sha256": "ed892af2f2b89b324fca6257658af97bdf6da0927da9b3d58de80f23899a9107",
+      "size": 1413
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/weedy_cannon/back/token_10009_weedy_cannon.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10009_weedy_cannon/back/token_10009_weedy_cannon.png",
+      "sha256": "639188e3f15a6bccb2b0ac80f8a1794d84b80b8422515e39ddc6e8df90af5f59",
+      "size": 25980
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/weedy_cannon/back/token_10009_weedy_cannon.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10009_weedy_cannon/back/token_10009_weedy_cannon.skel",
+      "sha256": "c4b25885d50999ffa67fcae425d4adc877b6a22c28bcbd3af1dcbcf18b052e1d",
+      "size": 87149
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack_Begin": 0.16666666666666666,
+      "Attack_Down_Begin": 0.16666666666666666,
+      "Attack_Down_End": 0.16666666666666666,
+      "Attack_Down_Loop": 3.966666666666667,
+      "Attack_End": 0.16666666666666666,
+      "Attack_Loop": 3.966666666666667,
+      "Default": 0.0,
+      "Idle": 5.4,
+      "Skill": 0.8666666666666667,
+      "Skill_Down": 0.8666666666666667,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack_Begin": 0.16666666666666666,
+      "Attack_End": 0.16666666666666666,
+      "Attack_Loop": 3.966666666666667,
+      "Default": 0.0,
+      "Idle": 3.4,
+      "Skill": 0.8666666666666667,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 256,
+      "height": 256,
+      "mode": "straight alpha",
+      "normal_slots": 14
+    },
+    "back": {
+      "width": 256,
+      "height": 256,
+      "mode": "straight alpha",
+      "normal_slots": 14
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation.",
+  "animation_note": "Native token root(front)/back, attack Begin/Loop/End1/6,119/30,1/6; front Down family; Skill26/30; Idle5.4/3.4. Own body0.65cell; no voice cloning."
+}

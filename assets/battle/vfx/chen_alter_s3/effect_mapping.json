@@ -1,0 +1,35 @@
+{
+  "activation": [
+    "buff_01",
+    "buff_02",
+    "buff_03"
+  ],
+  "actual_release": [
+    "start_01",
+    "start_02",
+    "start_03"
+  ],
+  "actual_payload_arrival": "hit_01: snapshot the current visible live-unit position on arrival, then freeze in canonical BoardProjection coordinates; departed targets keep the released ground snapshot, not confirmed damage",
+  "actual_chen_slime": "range_01",
+  "actual_ground_debuff": "debuff",
+  "native_skill_3_cast_fx_component": "charpack/char_1013_chen2.ab:4333461015771245637",
+  "front_attachments": {
+    "buff_02/start_01": "Pazooka_A (native Special2)",
+    "buff_03/start_02": "Pazooka_A2 (native Special1)"
+  },
+  "back_attachments": {
+    "buff_02_b/start_01_b": "Pazooka_U (native Special2)",
+    "buff_03_b/start_02_b": "Pazooka_U2 (native Special1)"
+  },
+  "attachment_limit": "Special1/2 bone names verified from default skin. Numeric mountPointType6/8 assignment remains inferred; front/back and four-facing/mirror post-deployment mounting visually checked.",
+  "ground_projection": "Native facing0 plane mapped by BoardProjection neighbor axes; affine approximation across the actual area, not an exact perspective warp.",
+  "known_limits": [
+    "Native event codes2/4 are retained in raw evidence; local shot release is the confirmed trigger, not restored Unity dispatcher code.",
+    "Fixed particle samples loop over a steady interval; instance stochastic evolution is not native Unity RNG.",
+    "Original UV global-time initial phase and lifecycle protection/cleanup flags are not fully equivalent.",
+    "Finite muzzle layers close when skill guns are removed; final shot/cleanup captured, but the reference does not establish exact original end timing.",
+    "Departed targets keep the released ground snapshot; dodge/death/retreat are not proof of an actual hit.",
+    "Base source/PCK graphics and source five-unit runtime passed before object coalescing; the latest coalescing has CPU acceptance only; no full original fidelity, exported-package sustained performance, physical-input or full-match acceptance."
+  ],
+  "impact_coalescing": "One splash per source_id/release_tick/target_kind/target_id, including paired object payloads whose attack_event flags are both true; all damage payloads stay untouched."
+}

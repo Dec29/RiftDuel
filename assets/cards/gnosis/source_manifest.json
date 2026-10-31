@@ -1,0 +1,33 @@
+{
+  "operator_id": "gnosis",
+  "char_id": "char_206_gnosis",
+  "display_name": "灵知",
+  "files": [
+    {
+      "category": "cards",
+      "kind": "portrait",
+      "path": "assets/cards/gnosis/portrait.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/portrait/char_206_gnosis_1.png",
+      "bytes": 116658,
+      "sha256": "6d2128e12fe40da4c03ff63c78b09e86841d9b76e1ce72965855d122c16c7de2",
+      "width": 180,
+      "height": 360
+    },
+    {
+      "category": "cards",
+      "kind": "avatar",
+      "path": "assets/cards/gnosis/avatar.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_206_gnosis.png",
+      "bytes": 57200,
+      "sha256": "18e4cb9efb3786e2b7479b47662eb4e1d7be9ec9c26bc38287ff30330ca291f1",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified."
+}

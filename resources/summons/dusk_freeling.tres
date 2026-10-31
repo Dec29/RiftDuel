@@ -1,0 +1,45 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "小自在"
+description = "攻击造成法术伤害，不能接受常规治疗，可接受生命回复；自动生成，25秒消失，本体离场同退"
+effect_type = "dusk_freeling"
+effect_params = {"source_profession_id":"caster"}
+[sub_resource type="Resource" id="Talent"]
+script = ExtResource("3")
+effect_type = "none"
+effect_params = {}
+[sub_resource type="Resource" id="Skill"]
+script = ExtResource("4")
+skill_name = "画中生灵"
+description = "无独立主动技能，由夕的首次攻击及三技能自动生成"
+effect_type = "no_skill"
+effect_params = {}
+sp_recharge_type = "passive"
+trigger_type = "passive"
+[resource]
+script = ExtResource("1")
+operator_id = "dusk_freeling"
+display_name = "小自在"
+profession = "召唤物"
+profession_id = "summon"
+branch = "夕的召唤物"
+max_health = 1997
+attack = 398
+defense = 302
+magic_resist = 50
+damage_type = "magical"
+attack_interval = 1.9
+block_count = 2
+deploy_cost = 0
+redeploy_time = 10.0
+attack_range = Array[Vector2i]([Vector2i(0,1),Vector2i(-1,0),Vector2i(0,0),Vector2i(1,0),Vector2i(0,-1)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent")
+talent_2 = SubResource("Talent")
+skills = Array[ExtResource("4")]([SubResource("Skill")])

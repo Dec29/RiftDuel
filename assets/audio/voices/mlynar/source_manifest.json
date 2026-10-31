@@ -1,0 +1,62 @@
+{
+  "operator_id": "mlynar",
+  "char_id": "char_4064_mlynar",
+  "commit": "33a5327f9c01512f0c14a9407de303920db16125",
+  "files": [
+    {
+      "category": "voice",
+      "tag": "023",
+      "language": "ja",
+      "path": "assets/audio/voices/mlynar/cn_023.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4064_mlynar/cn_023.mp3",
+      "bytes": 25095,
+      "sha256": "a1f8734882840e48e935f217313db167833712337b9819bad0c3dcc9bb392e3b"
+    },
+    {
+      "category": "voice",
+      "tag": "024",
+      "language": "ja",
+      "path": "assets/audio/voices/mlynar/cn_024.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4064_mlynar/cn_024.mp3",
+      "bytes": 20707,
+      "sha256": "414fe4398fa8256f81767fc142986ad6d9547c7c642504c0114284d9d5033856"
+    },
+    {
+      "category": "voice",
+      "tag": "025",
+      "language": "ja",
+      "path": "assets/audio/voices/mlynar/cn_025.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4064_mlynar/cn_025.mp3",
+      "bytes": 14437,
+      "sha256": "dd6c76ba7e0bd45cf6ce21ad204e9c9f1217037757b1fc1217a25f1b93b37202"
+    },
+    {
+      "category": "voice",
+      "tag": "026",
+      "language": "ja",
+      "path": "assets/audio/voices/mlynar/cn_026.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4064_mlynar/cn_026.mp3",
+      "bytes": 14855,
+      "sha256": "8b5d8e9dfc7b19fe08f8946ee42dde0748f4b476e1ca44d224f0e838de1b59a7"
+    },
+    {
+      "category": "voice",
+      "tag": "027",
+      "language": "ja",
+      "path": "assets/audio/voices/mlynar/cn_027.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4064_mlynar/cn_027.mp3",
+      "bytes": 5033,
+      "sha256": "8cbc39d61ab5c5ed3534f905651fe0577197f95cc7daed6800b756761265d0b7"
+    },
+    {
+      "category": "voice",
+      "tag": "028",
+      "language": "ja",
+      "path": "assets/audio/voices/mlynar/cn_028.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4064_mlynar/cn_028.mp3",
+      "bytes": 28648,
+      "sha256": "a7851e81677e00c5106c8b51ec6c3331e9eabd6afe555fc27a2cfa112e9c5b36"
+    }
+  ],
+  "missing_tags": []
+}

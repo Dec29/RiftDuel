@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dtn5fgn8nu5od"
+path="res://.godot/imported/char_427_vigil.atlas-1e1a7c5039118d6e281d3abd6e53fbbf.tres"
+
+[deps]
+
+source_file="res://assets/operators/vigil/back/char_427_vigil.atlas"
+dest_files=["res://.godot/imported/char_427_vigil.atlas-1e1a7c5039118d6e281d3abd6e53fbbf.tres"]
+
+[params]
+
+normal_map_prefix="n"

@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bbym6gqt4uwhy"
+path="res://.godot/imported/char_136_hsguma.atlas-8e16e07947681908414d44bd28157521.tres"
+
+[deps]
+
+source_file="res://assets/operators/hoshiguma/back/char_136_hsguma.atlas"
+dest_files=["res://.godot/imported/char_136_hsguma.atlas-8e16e07947681908414d44bd28157521.tres"]
+
+[params]
+
+normal_map_prefix="n"

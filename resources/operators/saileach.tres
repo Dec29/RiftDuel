@@ -1,0 +1,93 @@
+[gd_resource type="Resource" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "执旗手"
+description = "技能开启期间停止攻击，阻挡数变为0"
+effect_type = "flag_bearer"
+effect_params = {}
+
+[sub_resource type="Resource" id="Talent1"]
+script = ExtResource("3")
+talent_name = "不退之旗"
+description = "军旗周围八格不含军旗格：友方攻击速度+10，敌方攻击速度-10；二三技能期间锚定投旗地块；来源自身不受攻速加成"
+effect_type = "flag_attack_speed_aura"
+effect_params = {"ally_attack_speed_add": 10, "enemy_attack_speed_reduce": 10}
+
+[sub_resource type="Resource" id="Talent2"]
+script = ExtResource("3")
+talent_name = "精神感召"
+description = "每次成功部署后，下次普通干员部署费用-2；不叠层，召唤物不享受也不消耗"
+effect_type = "next_deploy_discount"
+effect_params = {"deploy_cost_reduction": 2}
+
+[sub_resource type="Resource" id="Skill1"]
+script = ExtResource("4")
+initial_sp = 15
+trigger_type = "manual"
+skill_name = "支援号令·γ型"
+description = "停止攻击，阻挡数变为0，8秒内共回复18点部署费用，手动开启"
+sp_required = 26
+sp_recharge_type = "time"
+effect_type = "cost_regen"
+effect_params = {"total_cost": 18}
+duration = 8.0
+
+[sub_resource type="Resource" id="Skill2"]
+script = ExtResource("4")
+skill_name = "信仰传承"
+initial_sp = 15
+sp_required = 29
+sp_recharge_type = "time"
+trigger_type = "manual"
+duration = 15.0
+description = "停止攻击，15秒内回复20费用；投旗至范围内生命比例最低的普通友军所在地块，该格普通友军防御+50%，每秒恢复琴柳攻击力50%的生命，按本作回复50%折算；技能结束收旗"
+effect_type = "flag_heal"
+effect_params = {"attack_mult": 1.0, "total_cost": 20, "defense_percent": 50, "regen_attack_percent": 50}
+attack_range_override = Array[Vector2i]([Vector2i(2,0), Vector2i(1,-1), Vector2i(1,0), Vector2i(1,1), Vector2i(0,-2), Vector2i(0,-1), Vector2i(0,0), Vector2i(0,1), Vector2i(0,2), Vector2i(-1,-1), Vector2i(-1,0), Vector2i(-1,1), Vector2i(-2,0)])
+
+[sub_resource type="Resource" id="Skill3"]
+script = ExtResource("4")
+skill_name = "光辉旗帜"
+initial_sp = 7
+sp_required = 20
+sp_recharge_type = "time"
+trigger_type = "manual"
+duration = 10.0
+description = "停止攻击，立即回复10费用；投旗至范围内地面敌人所在地块，1秒后落旗格及周围八格敌人受到300%物理伤害与3.5秒眩晕；这九格自投旗起停顿与30%脆弱，持续10秒；不攻击箱子或推球"
+effect_type = "flag_burst"
+effect_params = {"attack_mult": 1.0, "burst_attack_percent": 300, "stun_ticks": 105, "landing_ticks": 30, "fragile_percent": 30, "instant_cost": 10}
+attack_range_override = Array[Vector2i]([Vector2i(0,2), Vector2i(0,1), Vector2i(1,1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(0,-1), Vector2i(1,-1), Vector2i(0,-2)])
+
+[resource]
+script = ExtResource("1")
+operator_id = "saileach"
+display_name = "琴柳"
+profession = "先锋"
+profession_id = "vanguard"
+branch = "执旗手"
+max_health = 1835
+attack = 546
+defense = 367
+magic_resist = 0
+damage_type = "physical"
+attack_interval = 1.3
+block_count = 1
+initial_deploy_cost = 10
+deploy_cost = 12
+redeploy_time = 70.0
+dodge_physical = 0
+dodge_magical = 0
+attack_range = Array[Vector2i]([Vector2i(0,0),Vector2i(1,0)])
+terrain_requirement = "ground"
+ignore_deploy_line = false
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent1")
+talent_2 = SubResource("Talent2")
+skills = Array[ExtResource("4")]([SubResource("Skill1"), SubResource("Skill2"), SubResource("Skill3")])
+equipped_skill_index = 0

@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dpfardm4dj7"
+path="res://.godot/imported/char_1026_gvial2.skel-c481c90c9e68798bd844b5953849084c.tres"
+
+[deps]
+
+source_file="res://assets/operators/gavial_alter/back/char_1026_gvial2.skel"
+dest_files=["res://.godot/imported/char_1026_gvial2.skel-c481c90c9e68798bd844b5953849084c.tres"]
+
+[params]

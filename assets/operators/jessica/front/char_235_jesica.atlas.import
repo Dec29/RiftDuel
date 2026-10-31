@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://daq7pi5t3idav"
+path="res://.godot/imported/char_235_jesica.atlas-da9e64ec262cdf40a18204f2cadcbd0e.tres"
+
+[deps]
+
+source_file="res://assets/operators/jessica/front/char_235_jesica.atlas"
+dest_files=["res://.godot/imported/char_235_jesica.atlas-da9e64ec262cdf40a18204f2cadcbd0e.tres"]
+
+[params]
+
+normal_map_prefix="n"

@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dqwm8g4gayrjo"
+path="res://.godot/imported/char_237_gravel.skel-77c5215627fd62a6f6891b4298340187.tres"
+
+[deps]
+
+source_file="res://assets/operators/gravel/front/char_237_gravel.skel"
+dest_files=["res://.godot/imported/char_237_gravel.skel-77c5215627fd62a6f6891b4298340187.tres"]
+
+[params]

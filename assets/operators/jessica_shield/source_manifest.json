@@ -1,0 +1,55 @@
+{
+  "operator_id": "jessica_shield",
+  "char_id": "token_10032_jesca2_jckshd",
+  "commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "views": [
+    "single"
+  ],
+  "files": [
+    {
+      "path": "assets/operators/jessica_shield/single/token_10032_jesca2_jckshd.skel",
+      "side": "single",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10032_jesca2_jckshd/token_10032_jesca2_jckshd.skel",
+      "bytes": 4718,
+      "sha256": "9dfcec475f29204f840a1a63cffcb4c52239753ab00c81c345f5ef848887f535"
+    },
+    {
+      "path": "assets/operators/jessica_shield/single/token_10032_jesca2_jckshd.atlas",
+      "side": "single",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10032_jesca2_jckshd/token_10032_jesca2_jckshd.atlas",
+      "bytes": 475,
+      "sha256": "edafeb0311b2e58ed37de123a0800505ca96bff1ad54a239894daf41c2b330da"
+    },
+    {
+      "path": "assets/operators/jessica_shield/single/token_10032_jesca2_jckshd.png",
+      "side": "single",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10032_jesca2_jckshd/token_10032_jesca2_jckshd.png",
+      "bytes": 7483,
+      "sha256": "cb9d7d47cf604200cf20b9d76fa634b034d731bfb4f98c114d0779f9ea1f0154"
+    }
+  ],
+  "export_version": "3.8.99",
+  "animation_seconds": {
+    "single": {
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 1.0,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "single": {
+      "width": 256,
+      "height": 256,
+      "straight_alpha": true,
+      "slot_blend_modes": {
+        "C_Bag_Bd": 0,
+        "C_Bag_Bc": 0,
+        "C_Bag_Bb": 0,
+        "C_Bag_Ba": 0
+      }
+    }
+  },
+  "normal_blend_verified": true,
+  "animation_measurement": "Native Spine 3.8 completion events sampled at 1/300 s and rounded to original 30 fps boundaries; presentation only."
+}

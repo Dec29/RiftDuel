@@ -1,0 +1,34 @@
+{
+	"clips": [
+		{
+			"bake_ms": 1348,
+			"duration_seconds": 2.0,
+			"file": "res://assets/battle/vfx/weedy_s3/start.res",
+			"frames": 240,
+			"id": "start"
+		},
+		{
+			"bake_ms": 3064,
+			"duration_seconds": 1.5,
+			"file": "res://assets/battle/vfx/weedy_s3/flight.res",
+			"frames": 180,
+			"id": "flight"
+		},
+		{
+			"bake_ms": 3862,
+			"duration_seconds": 3.0,
+			"file": "res://assets/battle/vfx/weedy_s3/hit.res",
+			"frames": 360,
+			"id": "hit"
+		},
+		{
+			"bake_ms": 4944,
+			"duration_seconds": 10.0,
+			"file": "res://assets/battle/vfx/weedy_s3/buff.res",
+			"frames": 1200,
+			"id": "buff"
+		}
+	],
+	"facing_count": 4,
+	"fps": 30.0
+}

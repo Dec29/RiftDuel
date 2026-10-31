@@ -16,6 +16,10 @@ func _run() -> void:
 	var battle := current_scene
 	var menu := battle.get_node("PauseLayer/PauseMenu")
 	var state: MatchState = battle.match_state
+	for side in 2:
+		state.squad_ids[side] = PackedStringArray(Config.DEFAULT_SQUAD_IDS)
+		state.squad_skills[side].resize(Config.DEFAULT_SQUAD_IDS.size())
+		state.squad_skills[side].fill(0)
 	var view: MatchView = battle.match_view
 	var operator: OperatorData = root.get_node("OperatorDB").get_data("bagpipe")
 	state.units = [UnitState.new(0, 0, "bagpipe", Vector2i(12, 5), operator.max_health, 0, 20)]
@@ -34,6 +38,10 @@ func _run() -> void:
 		await process_frame
 	if not _check(paused and menu.menu_open and not battle.can_process() and not view.can_process() and menu.can_process() and state.state_hash() == frozen, "Pause must freeze ticks, cost, skills, AI and battle rendering"):
 		return
+	click.position = menu._pause_rect().get_center()
+	menu._input(click)
+	if not _check(paused and menu.menu_open and state.state_hash() == frozen, "Hidden upper-right button cannot resume a paused battle"):
+		return
 	click.position = view._cancel_rect().get_center()
 	Input.parse_input_event(click)
 	await process_frame
@@ -48,8 +56,9 @@ func _run() -> void:
 	menu._input(click)
 	click.pressed = false
 	menu._input(click)
-	await physics_frame
-	await process_frame
+	for frame in Config.PHYSICS_TICKS_PER_SIMULATION_TICK:
+		await physics_frame
+		await process_frame
 	if not _check(not paused and not menu.menu_open and state.tick > tick and state.units[0].skill_ticks_left < 600, "Continue must resume the same battle and skill countdown"):
 		return
 	click.pressed = true
@@ -66,7 +75,10 @@ func _run() -> void:
 	await process_frame
 	await physics_frame
 	await process_frame
-	if not _check(not paused and current_scene.match_state.tick > 0 and current_scene.get_node("PauseLayer/PauseMenu").menu_open == false, "A new single-player battle must start unpaused"):
+	for frame in Config.PHYSICS_TICKS_PER_SIMULATION_TICK:
+		await physics_frame
+	await process_frame
+	if not _check(not paused and current_scene.match_state.tick > 0 and current_scene.get_node("PauseLayer/PauseMenu").menu_open == false, "A new single-player battle must start unpaused after a simulation interval"):
 		return
 	print("Pause menu OK: frozen state and inputs, continue same battle, home transition, new battle unpaused")
 	quit(0)

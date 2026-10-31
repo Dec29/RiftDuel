@@ -1,0 +1,55 @@
+{
+  "id": "eyjafjalla_s3",
+  "title": "艾雅法拉默认S3",
+  "operator_id": "eyjafjalla",
+  "asset_root": "res://assets/battle/vfx/eyjafjalla_s3/",
+  "output": "res://.ai/eyja-s3-20261023/evidence/",
+  "clip_ids": [
+    "buff",
+    "flight",
+    "hit",
+    "end"
+  ],
+  "start_times": [
+    0,
+    0.5,
+    0.75,
+    15
+  ],
+  "anchors": [
+    "source",
+    "projectile",
+    "target",
+    "source"
+  ],
+  "target_distance_units": 2.8,
+  "projectile_seconds": 0.25,
+  "loop_seconds": 18,
+  "verify_times": [
+    0.2,
+    0.6,
+    0.95,
+    2.1,
+    14.9,
+    15.6,
+    17.5
+  ],
+  "hit_verify_time": 0.95,
+  "capture_ranges": [
+    [
+      0,
+      3
+    ],
+    [
+      14.5,
+      17.5
+    ]
+  ],
+  "actor_attack_clip": "",
+  "board_times": [
+    0.3,
+    0.6,
+    1.2
+  ],
+  "performance_cycle_seconds": 2.5
+}

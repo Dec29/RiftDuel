@@ -1,0 +1,108 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_gt1p3"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_1n75j"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_jn8ac"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_8c3xv"]
+
+[sub_resource type="Resource" id="Resource_ny64u"]
+script = ExtResource("1_gt1p3")
+trait_name = "教官"
+description = "攻击自身未阻挡的敌人时攻击力提升至120%；按统一四邻阻挡判定。"
+effect_type = "mentor"
+effect_params = {
+"unblocked_attack_mult": 1.2
+}
+
+[sub_resource type="Resource" id="Resource_k48qq"]
+script = ExtResource("3_jn8ac")
+skill_name = "胜利的连击"
+trigger_type = "attack"
+sp_required = 2
+sp_recharge_type = "on_hit"
+description = "下次攻击造成攻击力175%的物理伤害，连续攻击两次。"
+effect_type = "multi_shot"
+effect_params = {
+"attack_mult": 1.75,
+"shot_count": 2
+}
+
+[sub_resource type="Resource" id="Resource_ec1og"]
+script = ExtResource("3_jn8ac")
+skill_name = "信念的长鞭"
+initial_sp = 10
+sp_required = 25
+sp_recharge_type = "time"
+description = "攻击范围向前延伸一格，攻击力+80%，每次攻击85%几率使目标眩晕0.2秒。"
+effect_type = "pallas_whip"
+effect_params = {
+"attack_mult": 1.8,
+"chance_percent": 85,
+"stun_ticks": 6
+}
+duration = 25.0
+attack_range_override = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0)])
+
+[sub_resource type="Resource" id="Resource_jwgn8"]
+script = ExtResource("3_jn8ac")
+skill_name = "英勇的祝福"
+initial_sp = 35
+sp_required = 50
+sp_recharge_type = "time"
+description = "自身攻击+100%、额外攻击两个目标；身前近战位友军（否则自身）获得50%精力充沛、防御+35%、阻挡+1，随部署退场转移。"
+effect_type = "pallas_blessing"
+effect_params = {
+"attack_mult": 2.0,
+"block_count_add": 1,
+"check_interval_ticks": 3,
+"defense_percent": 35,
+"hp_threshold_percent": 80,
+"target_count": 3,
+"vigor_attack_percent": 50
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_s8bfb"]
+script = ExtResource("4_8c3xv")
+talent_name = "英雄的诞生"
+description = "在场时，所有米诺斯干员生命高于80%时获得25%攻击力的精力充沛，同类取最高。"
+effect_type = "minos_vigor"
+effect_params = {
+"attack_percent": 25,
+"check_interval_ticks": 3,
+"group_id": "minos",
+"hp_threshold_percent": 80
+}
+
+[sub_resource type="Resource" id="Resource_ctbs5"]
+script = ExtResource("4_8c3xv")
+talent_name = "女神的振奋"
+description = "每攻击一名敌人为自身与身前一格友军恢复40点生命，继承当前治疗系数。"
+effect_type = "mentor_heal"
+effect_params = {
+"heal_per_hit": 40
+}
+
+[resource]
+script = ExtResource("2_1n75j")
+operator_id = "pallas"
+display_name = "帕拉斯"
+profession = "近卫"
+profession_id = "guard"
+branch = "教官"
+group_id = "minos"
+max_health = 1963
+attack = 687
+defense = 455
+damage_type = "physical"
+attack_interval = 1.05
+block_count = 2
+initial_deploy_cost = 15
+deploy_cost = 17
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_ny64u")
+talent_1 = SubResource("Resource_s8bfb")
+talent_2 = SubResource("Resource_ctbs5")
+skills = Array[ExtResource("3_jn8ac")]([SubResource("Resource_k48qq"), SubResource("Resource_ec1og"), SubResource("Resource_jwgn8")])

@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://ci6cpl6iotp11"
+path="res://.godot/imported/char_420_flamtl.skel-60d3aa7a6dfcf2345f4aed8d76eec2b8.tres"
+
+[deps]
+
+source_file="res://assets/operators/flametail/front/char_420_flamtl.skel"
+dest_files=["res://.godot/imported/char_420_flamtl.skel-60d3aa7a6dfcf2345f4aed8d76eec2b8.tres"]
+
+[params]

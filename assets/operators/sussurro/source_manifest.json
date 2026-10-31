@@ -1,0 +1,187 @@
+{
+  "operator_id": "sussurro",
+  "display_name": "苏苏洛",
+  "char_id": "char_298_susuro",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/sussurro/front/char_298_susuro.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_298_susuro/front/char_298_susuro.skel",
+      "sha256": "497a2a1ea0267677c90e5b0cb5171b56059993909f74e469728147ebf5ad8024",
+      "size": 79168
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/sussurro/front/char_298_susuro.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_298_susuro/front/char_298_susuro.atlas",
+      "sha256": "7d5f141a394430da88519bf01a2d7b2ac28fa60168cc213518410156dd0f1bc1",
+      "size": 7722
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/sussurro/front/char_298_susuro.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_298_susuro/front/char_298_susuro.png",
+      "sha256": "64d51992f8da84eb4aadda325de41bb262844cd19123131903c17387e23bba2a",
+      "size": 66755
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/sussurro/back/char_298_susuro.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_298_susuro/back/char_298_susuro.skel",
+      "sha256": "86a4dd06317b3ac843ac6dbadb97d11d89aa4689e1da1913b7f92a4aed6130b6",
+      "size": 45179
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/sussurro/back/char_298_susuro.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_298_susuro/back/char_298_susuro.atlas",
+      "sha256": "bca8863a86921393f8dcd809a4821385eef74936021a6fc5dd10c001732e5488",
+      "size": 3256
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/sussurro/back/char_298_susuro.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_298_susuro/back/char_298_susuro.png",
+      "sha256": "15bbfe1d2755aab3be8a8f39cd7d408f226fc587feadca4ffec6c1b83004352f",
+      "size": 45122
+    }
+  ],
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "pages": 1,
+      "pma": false
+    },
+    "back": {
+      "width": 256,
+      "height": 256,
+      "pages": 1,
+      "pma": false
+    }
+  },
+  "slot_blend_modes": {
+    "front": {
+      "F_Coat_B": 0,
+      "F_Hat_B": 0,
+      "F_Tail": 0,
+      "F_R_Forearm": 0,
+      "F_R_Hand": 0,
+      "F_Weapon": 0,
+      "F_R_Fingers": 0,
+      "F_R_Arm": 0,
+      "F_R_Calf": 0,
+      "F_R_Foot": 0,
+      "F_R_Thigh": 0,
+      "F_L_Calf": 0,
+      "F_L_Foot": 0,
+      "F_L_Thigh": 0,
+      "F_Waist": 0,
+      "F_Chest": 0,
+      "F_Bag_II": 0,
+      "F_L_Hand": 0,
+      "F_L_Forearm": 0,
+      "F_L_Arm": 0,
+      "F_Bag": 0,
+      "F_Bag_Tail": 0,
+      "F_Bag_Pendant": 0,
+      "F_Coat_Tail": 0,
+      "F_R_Coat_II": 0,
+      "F_R_Sleeve": 0,
+      "F_R_Coat_I": 0,
+      "F_R_Hat_II": 0,
+      "F_R_Hat": 0,
+      "F_R_Collar": 0,
+      "F_R_Card": 0,
+      "F_L_Coat_II": 0,
+      "F_L_Collar_II": 0,
+      "F_L_Hat_II": 0,
+      "F_L_Sleeve": 0,
+      "F_L_Coat_I": 0,
+      "F_L_Hat": 0,
+      "F_L_Collar": 0,
+      "F_L_Pendant": 0,
+      "F_R_Ear": 0,
+      "F_R_Hair_II": 0,
+      "F_Head": 0,
+      "F_R_Sclera": 0,
+      "F_L_Sclera": 0,
+      "F_Hair_U": 0,
+      "F_L_Hair_III": 0,
+      "F_R_Hair": 0,
+      "F_L_Ear": 0,
+      "F_L_Hair": 0,
+      "F_L_Hair_II": 0,
+      "F_Bangs": 0,
+      "F_R_Bangs": 0,
+      "F_AhoHair": 0,
+      "F_Mouth": 0,
+      "F_R_Eye": 0,
+      "F_L_Eye": 0,
+      "F_R_Brow": 0,
+      "F_L_Brow": 0
+    },
+    "back": {
+      "B_R_Sleeve_III": 0,
+      "B_L_Hand": 0,
+      "B_L_Fingers": 0,
+      "B_L_Forearm": 0,
+      "B_L_Arm": 0,
+      "B_R_Calf": 0,
+      "B_R_Foot": 0,
+      "B_R_Thigh": 0,
+      "B_L_Calf": 0,
+      "B_L_Foot": 0,
+      "B_L_Thigh": 0,
+      "B_Waist": 0,
+      "B_Chest": 0,
+      "B_Bag_II": 0,
+      "B_Bag": 0,
+      "B_Bag_Tail": 0,
+      "B_Bag_Pendant": 0,
+      "B_Tail": 0,
+      "B_L_Ear": 0,
+      "B_AhoHair": 0,
+      "B_R_Hair_II": 0,
+      "B_Head": 0,
+      "B_R_Hair": 0,
+      "B_R_Ear": 0,
+      "B_L_Sleeve": 0,
+      "B_Coat_B": 0,
+      "B_R_Sleeve_II": 0,
+      "B_R_Forearm": 0,
+      "B_Weapon": 0,
+      "B_R_Hand": 0,
+      "B_R_Arm": 0,
+      "B_R_Sleeve": 0,
+      "B_Hat_B": 0
+    }
+  },
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.0,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.0,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.0,
+      "Default": 0.0,
+      "Idle": 2.0,
+      "Start": 1.0
+    }
+  },
+  "animation_mapping": {
+    "attack_clip": "Attack",
+    "attack_seconds": 1.0,
+    "idle_seconds": 2.0,
+    "deploy_seconds": 1.0
+  },
+  "animation_note": "普通攻击与属性强化使用已测量的完整攻击动作；不以骨架动作后缀猜测技能编号。时长由原生完成事件测量，表现不影响模拟。"
+}

@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_wktht"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_uw8k5"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_1cirf"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_h3dps"]
+
+[sub_resource type="Resource" id="Resource_c7fle"]
+script = ExtResource("1_wktht")
+trait_name = "伏击客"
+description = "对攻击范围内所有敌人造成伤害；拥有50%的物理和法术闪避且不容易成为敌人的攻击目标"
+effect_type = "ambusher"
+effect_params = {
+"dodge_percent": 50
+}
+
+[sub_resource type="Resource" id="Resource_1jdok"]
+script = ExtResource("3_1cirf")
+skill_name = "唤醒"
+trigger_type = "attack"
+sp_required = 7
+sp_recharge_type = "time"
+description = "下次攻击对范围内所有敌人造成300%攻击力物伤，第一天赋伤害提高至3倍；可充能3次。范围内箱子与静止球独立受击。"
+effect_type = "ambush_charge"
+effect_params = {
+"attack_mult": 3.0,
+"charge_count": 3,
+"talent_multiplier": 3
+}
+
+[sub_resource type="Resource" id="Resource_snt2u"]
+script = ExtResource("3_1cirf")
+skill_name = "囚徒困境"
+initial_sp = 10
+sp_required = 15
+sp_recharge_type = "time"
+description = "21秒基础间隔-1.5秒、攻击+30%；第一天赋额外攻击1名最低生命敌人，并施加1.3秒束缚，沿用束缚结束后1秒免疫。"
+effect_type = "ambush_bind"
+effect_params = {
+"attack_interval_add": -1.5,
+"attack_mult": 1.3,
+"bind_ticks": 39,
+"extra_target_count": 1
+}
+duration = 21.0
+
+[sub_resource type="Resource" id="Resource_ei3ux"]
+script = ExtResource("3_1cirf")
+skill_name = "镜花水月"
+initial_sp = 30
+sp_required = 60
+sp_recharge_type = "time"
+description = "30秒扩大范围、攻击+150%；第一天赋额外攻击2名最低生命敌人并眩晕1秒。每次攻击不足3名敌人时流失最大生命12%，可致死；箱子与静止球独立受击且不充当敌人数。"
+effect_type = "ambush_stun"
+effect_params = {
+"attack_mult": 2.5,
+"extra_target_count": 2,
+"hp_loss_percent": 12,
+"required_targets": 3,
+"stun_ticks": 30
+}
+duration = 30.0
+attack_range_override = Array[Vector2i]([Vector2i(-1, -2), Vector2i(0, -2), Vector2i(1, -2), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(-1, 2), Vector2i(0, 2), Vector2i(1, 2)])
+
+[sub_resource type="Resource" id="Resource_gq7pl"]
+script = ExtResource("4_h3dps")
+talent_name = "创伤性癔症"
+description = "攻击时对攻击目标中生命值最少的敌人额外造成相当于攻击力50%的法术伤害"
+effect_type = "lowest_health_arts"
+effect_params = {
+"attack_percent": 50,
+"target_count": 1
+}
+
+[sub_resource type="Resource" id="Resource_ly40e"]
+script = ExtResource("4_h3dps")
+talent_name = "反移情"
+description = "攻击范围内存在生命值低于一半的敌人时，攻击力+10%"
+effect_type = "wounded_enemy_attack"
+effect_params = {
+"attack_percent": 10,
+"hp_threshold_percent": 50
+}
+
+[resource]
+script = ExtResource("2_uw8k5")
+operator_id = "mizuki"
+display_name = "水月"
+profession = "特种"
+profession_id = "specialist"
+branch = "伏击客"
+max_health = 1758
+attack = 865
+defense = 356
+magic_resist = 30
+damage_type = "physical"
+attack_interval = 3.5
+initial_deploy_cost = 19
+deploy_cost = 21
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_c7fle")
+talent_1 = SubResource("Resource_gq7pl")
+talent_2 = SubResource("Resource_ly40e")
+skills = Array[ExtResource("3_1cirf")]([SubResource("Resource_1jdok"), SubResource("Resource_snt2u"), SubResource("Resource_ei3ux")])

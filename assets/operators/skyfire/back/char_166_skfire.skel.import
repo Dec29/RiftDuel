@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://bdybbt4cyacag"
+path="res://.godot/imported/char_166_skfire.skel-ec1f404134c53cf1d2490ef300b7a619.tres"
+
+[deps]
+
+source_file="res://assets/operators/skyfire/back/char_166_skfire.skel"
+dest_files=["res://.godot/imported/char_166_skfire.skel-ec1f404134c53cf1d2490ef300b7a619.tres"]
+
+[params]

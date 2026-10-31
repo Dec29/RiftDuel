@@ -1,0 +1,34 @@
+{
+	"clips": [
+		{
+			"bake_ms": 264,
+			"duration_seconds": 1.5,
+			"file": "res://assets/battle/vfx/silverash_s3/activate.res",
+			"frames": 180,
+			"id": "activate"
+		},
+		{
+			"bake_ms": 1658,
+			"duration_seconds": 1.6,
+			"file": "res://assets/battle/vfx/silverash_s3/slash.res",
+			"frames": 192,
+			"id": "slash"
+		},
+		{
+			"bake_ms": 320,
+			"duration_seconds": 1.6,
+			"file": "res://assets/battle/vfx/silverash_s3/hit.res",
+			"frames": 192,
+			"id": "hit"
+		},
+		{
+			"bake_ms": 10737,
+			"duration_seconds": 31.5,
+			"file": "res://assets/battle/vfx/silverash_s3/aura.res",
+			"frames": 3780,
+			"id": "aura"
+		}
+	],
+	"facing_count": 4,
+	"fps": 30.0
+}

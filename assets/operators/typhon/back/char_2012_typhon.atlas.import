@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dhsnpjqhgfgtq"
+path="res://.godot/imported/char_2012_typhon.atlas-0e536e7a72f5296b7ac18e31fb73bd5c.tres"
+
+[deps]
+
+source_file="res://assets/operators/typhon/back/char_2012_typhon.atlas"
+dest_files=["res://.godot/imported/char_2012_typhon.atlas-0e536e7a72f5296b7ac18e31fb73bd5c.tres"]
+
+[params]
+
+normal_map_prefix="n"

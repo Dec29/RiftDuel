@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://riskmjda84n1"
+path="res://.godot/imported/char_174_slbell.atlas-8ede278e5e7467e421926de9419788c9.tres"
+
+[deps]
+
+source_file="res://assets/operators/pramanix/front/char_174_slbell.atlas"
+dest_files=["res://.godot/imported/char_174_slbell.atlas-8ede278e5e7467e421926de9419788c9.tres"]
+
+[params]
+
+normal_map_prefix="n"

@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://rd1vfheslr5w"
+path="res://.godot/imported/char_4042_lumen.skel-ff26c6fe5e7bdcfedc4e6c7db7d8ecee.tres"
+
+[deps]
+
+source_file="res://assets/operators/lumen/front/char_4042_lumen.skel"
+dest_files=["res://.godot/imported/char_4042_lumen.skel-ff26c6fe5e7bdcfedc4e6c7db7d8ecee.tres"]
+
+[params]

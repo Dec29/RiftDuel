@@ -1,0 +1,84 @@
+{
+  "operator_id": "perfumer",
+  "display_name": "调香师",
+  "char_id": "char_181_flower",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/perfumer/front/char_181_flower.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_181_flower/front/char_181_flower.skel",
+      "sha256": "a99c9055db0ee7ac73a74fa7ab0e425b54c7e86a4c26dd4f0f8327093182ba9a",
+      "size": 68195
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/perfumer/front/char_181_flower.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_181_flower/front/char_181_flower.atlas",
+      "sha256": "6af311775a813d54a56eedf0b14825928615627d01e835343b7a0faa97681bdd",
+      "size": 3745
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/perfumer/front/char_181_flower.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_181_flower/front/char_181_flower.png",
+      "sha256": "56702b0c1db296084a1a4956e3b60e8128e97ab69020ce3cdc7b044aaf63faa7",
+      "size": 65000
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/perfumer/back/char_181_flower.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_181_flower/back/char_181_flower.skel",
+      "sha256": "66672cd9e19fc40aafe34648c84812a9348535b0555cccdccd2b2525da5ba77c",
+      "size": 47745
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/perfumer/back/char_181_flower.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_181_flower/back/char_181_flower.atlas",
+      "sha256": "c8b62ac04d40cdef0692e680b2b272076fa9a8d6d52ce24c25c2cd1599d0c9b8",
+      "size": 2688
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/perfumer/back/char_181_flower.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_181_flower/back/char_181_flower.png",
+      "sha256": "5fba9ba57fd55938b68d099758e6db54b0f3b312c1e30bcdc06be292741785ae",
+      "size": 56117
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 3.0,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 3.0,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 3.0,
+      "Default": 0.0,
+      "Idle": 3.0,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 35
+    },
+    "back": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 27
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

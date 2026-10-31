@@ -16,7 +16,9 @@ effect_params = {
 
 [sub_resource type="Resource" id="Resource_1g0pb"]
 script = ExtResource("3_4gw8g")
-skill_name = "技能1"
+initial_sp = 20
+trigger_type = "manual"
+skill_name = "治疗强化·γ型"
 sp_required = 30
 sp_recharge_type = "time"
 description = "攻击力+90%"
@@ -45,10 +47,36 @@ effect_params = {
 "stock_limit": 3
 }
 
+[sub_resource type="Resource" id="Skill2"]
+script = ExtResource("3_4gw8g")
+skill_name = "法术护盾"
+initial_sp = 0
+sp_required = 8
+trigger_type = "auto"
+effect_type = "heal_magic_barrier"
+effect_params = {"shield_attack_percent": 90, "charge_count": 3, "magic_resist_add": 20, "barrier_duration_ticks": 150}
+duration = 0.0
+description = "下次治疗为至多三个受伤友方目标施加持续5秒的法术屏障，吸收当前攻击力90%的法术伤害并使法抗+20；可充能3次，整轮治疗仅消耗一份充能。"
+sp_recharge_type = "time"
+
+[sub_resource type="Resource" id="Skill3"]
+script = ExtResource("3_4gw8g")
+skill_name = "圣域"
+initial_sp = 115
+sp_required = 120
+trigger_type = "manual"
+effect_type = "heal_magic_aura"
+effect_params = {"attack_mult": 1.8, "magic_resist_percent": 150, "dodge_magical_add": 25}
+duration = 60.0
+description = "攻击力+80%，治疗及天赋范围扩大；范围内友方单位法抗+150%并获得25%法术闪避，持续60秒。治疗沿用本作50%折算。"
+sp_recharge_type = "time"
+attack_range_override = Array[Vector2i]([Vector2i(-1, 2), Vector2i(0, 2), Vector2i(1, 2), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(-1, -2), Vector2i(0, -2), Vector2i(1, -2)])
+
 [resource]
 script = ExtResource("2_o26w4")
 operator_id = "nightingale"
 profession_id = "medic"
+race_id = "sarkaz"
 display_name = "夜莺"
 profession = "医疗"
 branch = "群愈师"
@@ -59,6 +87,7 @@ magic_resist = 5
 damage_type = "healing"
 attack_interval = 2.85
 block_count = 1
+initial_deploy_cost = 16
 deploy_cost = 18
 redeploy_time = 70.0
 attack_range = Array[Vector2i]([Vector2i(-1, -1), Vector2i(-1, 0), Vector2i(-1, 1), Vector2i(0, -1), Vector2i(0, 0), Vector2i(0, 1), Vector2i(1, -1), Vector2i(1, 0), Vector2i(1, 1), Vector2i(2, -1), Vector2i(2, 0), Vector2i(2, 1)])
@@ -66,5 +95,4 @@ terrain_requirement = "high"
 branch_trait = SubResource("Resource_jrfp8")
 talent_1 = SubResource("Resource_te8j6")
 talent_2 = SubResource("Resource_a5xxx")
-skills = Array[ExtResource("3_4gw8g")]([SubResource("Resource_1g0pb")])
-initial_sp = 20
+skills = Array[ExtResource("3_4gw8g")]([SubResource("Resource_1g0pb"), SubResource("Skill2"), SubResource("Skill3")])

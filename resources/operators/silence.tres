@@ -1,0 +1,75 @@
+[gd_resource type="Resource" load_steps=10 format=3]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "医师"
+description = "恢复一名友方单位的生命。"
+effect_type = "single_target_heal"
+effect_params = {}
+
+[sub_resource type="Resource" id="Talent1"]
+script = ExtResource("3")
+talent_name = "强化注射"
+description = "在场时所有友方医疗职业干员攻速+12。"
+effect_type = "profession_attack_speed_aura"
+effect_params = {"profession_id": "medic", "attack_speed_add": 12}
+
+[sub_resource type="Resource" id="Talent2"]
+script = ExtResource("3")
+talent_name = ""
+description = ""
+effect_type = "none"
+effect_params = {}
+
+[sub_resource type="Resource" id="Skill1"]
+script = ExtResource("4")
+skill_name = "治疗强化·γ型"
+initial_sp = 20
+sp_required = 30
+sp_recharge_type = "time"
+trigger_type = "manual"
+duration = 30.0
+description = "攻击力+90%。"
+effect_type = "heal_boost"
+effect_params = {"attack_mult": 1.9}
+
+[sub_resource type="Resource" id="Skill2"]
+script = ExtResource("4")
+skill_name = "医疗无人机"
+initial_sp = 0
+sp_required = 18
+sp_recharge_type = "time"
+trigger_type = "auto"
+duration = 0.0
+description = "获得一台医疗无人机，库存最多1；满库存阻止自然及外部技力回复。"
+effect_type = "medical_drone_supply"
+effect_params = {"stock_limit": 1}
+
+[resource]
+script = ExtResource("1")
+group_id = "rhine"
+operator_id = "silence"
+display_name = "赫默"
+profession = "医疗"
+profession_id = "medic"
+branch = "医师"
+max_health = 1595
+attack = 482
+defense = 142
+magic_resist = 0
+damage_type = "healing"
+attack_interval = 2.85
+block_count = 1
+initial_deploy_cost = 17
+deploy_cost = 19
+redeploy_time = 70
+attack_range = Array[Vector2i]([Vector2i(0,1), Vector2i(1,1), Vector2i(2,1), Vector2i(3,1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(3,0), Vector2i(0,-1), Vector2i(1,-1), Vector2i(2,-1), Vector2i(3,-1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent1")
+talent_2 = SubResource("Talent2")
+skills = Array[ExtResource("4")]([SubResource("Skill1"), SubResource("Skill2")])
