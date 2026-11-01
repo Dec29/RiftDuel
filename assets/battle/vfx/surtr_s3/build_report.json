@@ -1,0 +1,76 @@
+{
+	"clips": [
+		{
+			"bake_ms": 2306,
+			"duration_seconds": 7.86666666666667,
+			"file": "res://assets/battle/vfx/surtr_s3/buff.res",
+			"frames": 944,
+			"id": "buff"
+		},
+		{
+			"bake_ms": 8363,
+			"duration_seconds": 6.0,
+			"file": "res://assets/battle/vfx/surtr_s3/buff_02.res",
+			"frames": 720,
+			"id": "buff_02"
+		},
+		{
+			"bake_ms": 1886,
+			"duration_seconds": 4.0,
+			"file": "res://assets/battle/vfx/surtr_s3/buff_03.res",
+			"frames": 480,
+			"id": "buff_03"
+		},
+		{
+			"bake_ms": 22,
+			"duration_seconds": 4.0,
+			"file": "res://assets/battle/vfx/surtr_s3/buff_03_b.res",
+			"frames": 480,
+			"id": "buff_03_b"
+		},
+		{
+			"bake_ms": 1705,
+			"duration_seconds": 4.0,
+			"file": "res://assets/battle/vfx/surtr_s3/buff_04.res",
+			"frames": 480,
+			"id": "buff_04"
+		},
+		{
+			"bake_ms": 22,
+			"duration_seconds": 4.0,
+			"file": "res://assets/battle/vfx/surtr_s3/buff_04_b.res",
+			"frames": 480,
+			"id": "buff_04_b"
+		},
+		{
+			"bake_ms": 831,
+			"duration_seconds": 3.0,
+			"file": "res://assets/battle/vfx/surtr_s3/range.res",
+			"frames": 360,
+			"id": "range"
+		},
+		{
+			"bake_ms": 202,
+			"duration_seconds": 4.5,
+			"file": "res://assets/battle/vfx/surtr_s3/start.res",
+			"frames": 540,
+			"id": "start"
+		},
+		{
+			"bake_ms": 248,
+			"duration_seconds": 4.5,
+			"file": "res://assets/battle/vfx/surtr_s3/start_02.res",
+			"frames": 540,
+			"id": "start_02"
+		},
+		{
+			"bake_ms": 256,
+			"duration_seconds": 3.0,
+			"file": "res://assets/battle/vfx/surtr_s3/hit.res",
+			"frames": 360,
+			"id": "hit"
+		}
+	],
+	"facing_count": 4,
+	"fps": 30.0
+}

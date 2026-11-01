@@ -1,0 +1,49 @@
+{
+  "status": "CPU experimental integration; graphics and reference not accepted",
+  "activation": [
+    "buff at native sword",
+    "buff_02 at owner ground",
+    "buff_03 at original giant weapon",
+    "buff_04 at original giant face"
+  ],
+  "mounts": {
+    "front": [
+      "F_Weapon2",
+      "F_Rb_Weapon2",
+      "F_Face_Default_j"
+    ],
+    "back": [
+      "B_Weapon2"
+    ],
+    "original_skin_nodes": [
+      "SpecialPoint0",
+      "SpecialPoint1",
+      "SpecialPoint2"
+    ],
+    "numeric_mounts": [
+      6,
+      8,
+      9
+    ],
+    "numeric_enum_status": "Inferred assignment; bone names verified, graphical alignment pending"
+  },
+  "native_cast_fx_component": "charpack/char_350_surtr.ab:-1948283120245038837",
+  "attack_release": [
+    "surtr_skill_03_start mounted at sword",
+    "surtr_skill_03_start_02 source foot",
+    "surtr_skill_01_hit primary target",
+    "surtr_skill_03_range primary target"
+  ],
+  "original_empty_back_variants": [
+    "buff_03_b",
+    "buff_04_b"
+  ],
+  "timing": "Local actual release is the trigger; original Unity events2/3 and start_02 delayTime0.35 are retained as evidence but dispatcher/lifecycle meaning not fully recovered. No invented extra delay applied.",
+  "known_limits": [
+    "No verified complete default-outfit dynamic reference yet; downloaded reference-image samples are static text infographics, not gameplay references.",
+    "Graphics, mounted alignment, four-facing composition, transparency, exported-pack cold start and sustained performance pending GPU resources.",
+    "Only the known primary destination is rendered; other simultaneous instantaneous hits are not inferred from changed post-hit state.",
+    "Looped fixed particle samples are an approximation; source UV age remains supplied by simulation.",
+    "Velocity clamp and enabled noise approximations are inherited and counted in component-coverage.json; no equivalent native Unity controller/post-processing claim."
+  ]
+}

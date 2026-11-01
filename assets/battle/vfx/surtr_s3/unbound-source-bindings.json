@@ -1,0 +1,158 @@
+[
+  {
+    "prefab": "surtr_skill_03_start",
+    "clip": "surtr_skill_03_start",
+    "animator_path": "",
+    "binding": {
+      "path": 236321625,
+      "type": 4,
+      "attribute": 1,
+      "channel": 0,
+      "count": 3
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "surtr_skill_03_start",
+    "clip": "surtr_skill_03_start",
+    "animator_path": "",
+    "binding": {
+      "path": 3162781185,
+      "type": 4,
+      "attribute": 1,
+      "channel": 3,
+      "count": 3
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "surtr_skill_03_start",
+    "clip": "surtr_skill_03_start",
+    "animator_path": "",
+    "binding": {
+      "path": 236321625,
+      "type": 4,
+      "attribute": 3,
+      "channel": 9,
+      "count": 3
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "surtr_skill_03_start",
+    "clip": "surtr_skill_03_start",
+    "animator_path": "",
+    "binding": {
+      "path": 236321625,
+      "type": 23,
+      "attribute": 1895888582,
+      "channel": 18,
+      "count": 1
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "surtr_skill_03_start",
+    "clip": "surtr_skill_03_start",
+    "animator_path": "",
+    "binding": {
+      "path": 3162781185,
+      "type": 23,
+      "attribute": 2151584503,
+      "channel": 19,
+      "count": 1
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "surtr_skill_03_start",
+    "clip": "surtr_skill_03_start",
+    "animator_path": "",
+    "binding": {
+      "path": 3162781185,
+      "type": 23,
+      "attribute": 1359017670,
+      "channel": 20,
+      "count": 1
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "surtr_skill_03_start",
+    "clip": "surtr_skill_03_start",
+    "animator_path": "",
+    "binding": {
+      "path": 3162781185,
+      "type": 23,
+      "attribute": 1895888582,
+      "channel": 21,
+      "count": 1
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "surtr_skill_03_start",
+    "clip": "surtr_skill_03_start",
+    "animator_path": "",
+    "binding": {
+      "path": 236321625,
+      "type": 23,
+      "attribute": 1090582214,
+      "channel": 29,
+      "count": 1
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "surtr_skill_03_start",
+    "clip": "surtr_skill_03_start",
+    "animator_path": "",
+    "binding": {
+      "path": 236321625,
+      "type": 23,
+      "attribute": 1359017670,
+      "channel": 30,
+      "count": 1
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "surtr_skill_03_start",
+    "clip": "surtr_skill_03_start",
+    "animator_path": "",
+    "binding": {
+      "path": 236321625,
+      "type": 23,
+      "attribute": 1627453126,
+      "channel": 31,
+      "count": 1
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "surtr_skill_03_start",
+    "clip": "surtr_skill_03_start",
+    "animator_path": "",
+    "binding": {
+      "path": 3162781185,
+      "type": 23,
+      "attribute": 1090582214,
+      "channel": 32,
+      "count": 1
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "surtr_skill_03_start",
+    "clip": "surtr_skill_03_start",
+    "animator_path": "",
+    "binding": {
+      "path": 3162781185,
+      "type": 23,
+      "attribute": 1627453126,
+      "channel": 33,
+      "count": 1
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  }
+]
