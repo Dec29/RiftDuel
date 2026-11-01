@@ -1,0 +1,97 @@
+{
+  "status": "integrated_runtime; current acceptance and limitations in Docs/vfx_release.md",
+  "baseline": "eb98de4e8a913b8770403f73ac3c0dea2d4755ed",
+  "prefabs": [
+    {
+      "name": "mlynar_skill_03_buff_01",
+      "nodes": 11,
+      "meshes": 0,
+      "particles": 8,
+      "clips": 0
+    },
+    {
+      "name": "mlynar_skill_03_buff_02",
+      "nodes": 19,
+      "meshes": 6,
+      "particles": 5,
+      "clips": 0
+    },
+    {
+      "name": "mlynar_skill_03_buff_03",
+      "nodes": 10,
+      "meshes": 1,
+      "particles": 6,
+      "clips": 0
+    },
+    {
+      "name": "mlynar_skill_03_hit_01",
+      "nodes": 14,
+      "meshes": 0,
+      "particles": 9,
+      "clips": 0
+    },
+    {
+      "name": "mlynar_skill_03_range_01",
+      "nodes": 15,
+      "meshes": 3,
+      "particles": 7,
+      "clips": 1
+    },
+    {
+      "name": "mlynar_skill_03_start_01",
+      "nodes": 5,
+      "meshes": 0,
+      "particles": 2,
+      "clips": 1
+    }
+  ],
+  "required_component_adapters": [
+    {
+      "prefab": "mlynar_skill_03_buff_02",
+      "path": "/mlynar_skill_03_buff_02/static_offset/rotation_y/ctrl/jingli_dm",
+      "feature": "particle_trails",
+      "component_id": "4201265441720009258"
+    },
+    {
+      "prefab": "mlynar_skill_03_buff_02",
+      "path": "/mlynar_skill_03_buff_02/static_offset/rotation_y/ctrl/star_01d_dm",
+      "feature": "birth_sub_emitters",
+      "component_id": "-4013251598294023638"
+    },
+    {
+      "prefab": "mlynar_skill_03_buff_03",
+      "path": "/mlynar_skill_03_buff_03/static_offset/rotation_z/star_01d_dm",
+      "feature": "birth_sub_emitters",
+      "component_id": "7052432457049675292"
+    }
+  ],
+  "source_event_component_id": "2723825257858527523",
+  "source_event_object": "BigAttack",
+  "source_event_fields": {
+    "hit": "mlynar_skill_03_hit_01",
+    "cast_start_2": [
+      "mlynar_skill_03_buff_01",
+      "mlynar_skill_03_start_01"
+    ],
+    "cast_start_4": [
+      "mlynar_skill_03_range_01"
+    ]
+  },
+  "reference_status": "Default-outfit original operator preview republished at https://smartgamecap.net/?p=39008 ; reference.gif SHA256 8519e8c058a936c93616d90aeef2ba838983963b93b44d8b57bd21bce3b5cb93 ; 74 frames, partial skill window.",
+  "visual_tested": true,
+  "simulation_modified": false,
+  "component_adapters": {
+    "particle_trails": "None renderer emits only trail material slot 1; tiled UV; prewarm restored",
+    "birth_sub_emitters": "two source birth relationships, normalized path targets",
+    "mesh_shape": "area-weighted triangle emission with original normals and colors",
+    "ground_plane": "buff_03 source XY converted to ground and fitted to BoardProjection local basis"
+  },
+  "known_approximations": [
+    "One NoiseModule not modeled",
+    "Ten ClampVelocity modules use 60Hz-equivalent damping approximation",
+    "Fixed visual seed and four-facing 30Hz geometry sampling, affine ground projection",
+    "Unity custom finish scripts and .5s finish semantics are not fully reproduced; held fields close at observed real skill end",
+    "Only publicly observable primary target gets hit_01; no invented secondary hit events"
+  ],
+  "evidence_root": ".ai/mlynar-s3-20261027"
+}

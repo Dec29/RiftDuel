@@ -1,0 +1,48 @@
+{
+	"clips": [
+		{
+			"bake_ms": 2273,
+			"duration_seconds": 3.0,
+			"file": "res://assets/battle/vfx/mlynar_s3/buff_01.res",
+			"frames": 360,
+			"id": "buff_01"
+		},
+		{
+			"bake_ms": 20043,
+			"duration_seconds": 10.0,
+			"file": "res://assets/battle/vfx/mlynar_s3/buff_02.res",
+			"frames": 1200,
+			"id": "buff_02"
+		},
+		{
+			"bake_ms": 8422,
+			"duration_seconds": 10.0,
+			"file": "res://assets/battle/vfx/mlynar_s3/buff_03.res",
+			"frames": 1200,
+			"id": "buff_03"
+		},
+		{
+			"bake_ms": 168,
+			"duration_seconds": 3.0,
+			"file": "res://assets/battle/vfx/mlynar_s3/hit_01.res",
+			"frames": 360,
+			"id": "hit_01"
+		},
+		{
+			"bake_ms": 1476,
+			"duration_seconds": 3.5,
+			"file": "res://assets/battle/vfx/mlynar_s3/range_01.res",
+			"frames": 420,
+			"id": "range_01"
+		},
+		{
+			"bake_ms": 79,
+			"duration_seconds": 3.5,
+			"file": "res://assets/battle/vfx/mlynar_s3/start_01.res",
+			"frames": 420,
+			"id": "start_01"
+		}
+	],
+	"facing_count": 4,
+	"fps": 30.0
+}

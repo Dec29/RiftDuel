@@ -1,0 +1,60 @@
+{
+  "actor_attack_clip": "Skill_3_Loop",
+  "board_times": [
+    0.25,
+    0.55,
+    0.8
+  ],
+  "performance_cycle_seconds": 5.0,
+  "id": "mlynar_s3",
+  "title": "玛恩纳默认S3 · 原作分层",
+  "operator_id": "mlynar",
+  "asset_root": "res://assets/battle/vfx/mlynar_s3/",
+  "output": "res://.ai/mlynar-s3-20261027/component-review/",
+  "clip_ids": [
+    "buff_02",
+    "buff_03",
+    "buff_01",
+    "start_01",
+    "range_01",
+    "hit_01"
+  ],
+  "start_times": [
+    0.0,
+    0.0,
+    0.0,
+    0.25,
+    0.65,
+    0.65
+  ],
+  "anchors": [
+    "source",
+    "source",
+    "source",
+    "source",
+    "source",
+    "target"
+  ],
+  "target_distance_units": 2.8,
+  "projectile_seconds": 0.65,
+  "loop_seconds": 11.0,
+  "verify_times": [
+    0.15,
+    0.4,
+    0.8,
+    1.2,
+    3.5,
+    10.5
+  ],
+  "hit_verify_time": 0.8,
+  "capture_ranges": [
+    [
+      0.0,
+      4.5
+    ],
+    [
+      10.0,
+      10.5
+    ]
+  ]
+}
