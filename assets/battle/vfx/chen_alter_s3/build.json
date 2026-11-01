@@ -1,0 +1,204 @@
+{
+  "source_pack": "res://assets/battle/vfx/chen_alter_s3/source_pack.json",
+  "output": "res://assets/battle/vfx/chen_alter_s3",
+  "frames_per_second": 30,
+  "discard_invisible": true,
+  "clips": [
+    {
+      "id": "buff_01",
+      "prefab": 0,
+      "role": "attached",
+      "emission_seconds": 4,
+      "duration_seconds": 4,
+      "loop_from_seconds": 1,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "buff_01_b",
+      "prefab": 1,
+      "role": "attached",
+      "emission_seconds": 4,
+      "duration_seconds": 4,
+      "loop_from_seconds": 1,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "buff_02",
+      "prefab": 2,
+      "role": "attached",
+      "emission_seconds": 2,
+      "duration_seconds": 2,
+      "loop_from_seconds": 0,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "buff_02_b",
+      "prefab": 3,
+      "role": "attached",
+      "emission_seconds": 2,
+      "duration_seconds": 2,
+      "loop_from_seconds": 0,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "buff_03",
+      "prefab": 4,
+      "role": "attached",
+      "emission_seconds": 2,
+      "duration_seconds": 2,
+      "loop_from_seconds": 0,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "buff_03_b",
+      "prefab": 5,
+      "role": "attached",
+      "emission_seconds": 2,
+      "duration_seconds": 2,
+      "loop_from_seconds": 0,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "debuff",
+      "prefab": 6,
+      "role": "attached",
+      "emission_seconds": 4.5,
+      "duration_seconds": 4.5,
+      "loop_from_seconds": 1.5,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hit_01",
+      "prefab": 7,
+      "role": "hit",
+      "emission_seconds": 0.65,
+      "duration_seconds": 2.9,
+      "loop_from_seconds": -1,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "range_01",
+      "prefab": 8,
+      "role": "start",
+      "emission_seconds": 5,
+      "duration_seconds": 6,
+      "loop_from_seconds": -1,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "start_01",
+      "prefab": 9,
+      "role": "start",
+      "emission_seconds": 0.65,
+      "duration_seconds": 2.5,
+      "loop_from_seconds": -1,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "start_01_b",
+      "prefab": 10,
+      "role": "start",
+      "emission_seconds": 0.65,
+      "duration_seconds": 2.5,
+      "loop_from_seconds": -1,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "start_02",
+      "prefab": 11,
+      "role": "start",
+      "emission_seconds": 0.65,
+      "duration_seconds": 2.5,
+      "loop_from_seconds": -1,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "start_02_b",
+      "prefab": 12,
+      "role": "start",
+      "emission_seconds": 0.65,
+      "duration_seconds": 2.5,
+      "loop_from_seconds": -1,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "start_03",
+      "prefab": 13,
+      "role": "start",
+      "emission_seconds": 0.65,
+      "duration_seconds": 2.5,
+      "loop_from_seconds": -1,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

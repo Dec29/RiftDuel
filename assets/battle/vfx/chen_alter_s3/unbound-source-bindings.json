@@ -1,0 +1,578 @@
+[
+  {
+    "prefab": "chen2_skill_03_buff_02_b",
+    "clip": "chen2_skill_03_buff_02",
+    "animator_path": "",
+    "binding": {
+      "path": 892015914,
+      "type": 23,
+      "attribute": 1420917795,
+      "channel": 0,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_02_b",
+    "clip": "chen2_skill_03_buff_02",
+    "animator_path": "",
+    "binding": {
+      "path": 892015914,
+      "type": 23,
+      "attribute": 963418312,
+      "channel": 1,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        1
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_02_b",
+    "clip": "chen2_skill_03_buff_02",
+    "animator_path": "",
+    "binding": {
+      "path": 892015914,
+      "type": 23,
+      "attribute": 1225157703,
+      "channel": 2,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        2
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_02_b",
+    "clip": "chen2_skill_03_buff_02",
+    "animator_path": "",
+    "binding": {
+      "path": 892015914,
+      "type": 23,
+      "attribute": 3490659837,
+      "channel": 3,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        3
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_02_b",
+    "clip": "chen2_skill_03_buff_02",
+    "animator_path": "",
+    "binding": {
+      "path": 3695751199,
+      "type": 23,
+      "attribute": 1420917795,
+      "channel": 4,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_02_b",
+    "clip": "chen2_skill_03_buff_02",
+    "animator_path": "",
+    "binding": {
+      "path": 3695751199,
+      "type": 23,
+      "attribute": 963418312,
+      "channel": 5,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        1
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_02_b",
+    "clip": "chen2_skill_03_buff_02",
+    "animator_path": "",
+    "binding": {
+      "path": 3695751199,
+      "type": 23,
+      "attribute": 1225157703,
+      "channel": 6,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        2
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_02_b",
+    "clip": "chen2_skill_03_buff_02",
+    "animator_path": "",
+    "binding": {
+      "path": 3695751199,
+      "type": 23,
+      "attribute": 3490659837,
+      "channel": 7,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        3
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_03",
+    "clip": "chen2_skill_03_buff_03",
+    "animator_path": "",
+    "binding": {
+      "path": 3695751199,
+      "type": 23,
+      "attribute": 1420917795,
+      "channel": 4,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_03",
+    "clip": "chen2_skill_03_buff_03",
+    "animator_path": "",
+    "binding": {
+      "path": 3695751199,
+      "type": 23,
+      "attribute": 963418312,
+      "channel": 5,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        1
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_03",
+    "clip": "chen2_skill_03_buff_03",
+    "animator_path": "",
+    "binding": {
+      "path": 3695751199,
+      "type": 23,
+      "attribute": 1225157703,
+      "channel": 6,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        2
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_03",
+    "clip": "chen2_skill_03_buff_03",
+    "animator_path": "",
+    "binding": {
+      "path": 3695751199,
+      "type": 23,
+      "attribute": 3490659837,
+      "channel": 7,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        3
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_03_b",
+    "clip": "chen2_skill_03_buff_03",
+    "animator_path": "",
+    "binding": {
+      "path": 892015914,
+      "type": 23,
+      "attribute": 1420917795,
+      "channel": 0,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_03_b",
+    "clip": "chen2_skill_03_buff_03",
+    "animator_path": "",
+    "binding": {
+      "path": 892015914,
+      "type": 23,
+      "attribute": 963418312,
+      "channel": 1,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        1
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_03_b",
+    "clip": "chen2_skill_03_buff_03",
+    "animator_path": "",
+    "binding": {
+      "path": 892015914,
+      "type": 23,
+      "attribute": 1225157703,
+      "channel": 2,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        2
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_03_b",
+    "clip": "chen2_skill_03_buff_03",
+    "animator_path": "",
+    "binding": {
+      "path": 892015914,
+      "type": 23,
+      "attribute": 3490659837,
+      "channel": 3,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        3
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_03_b",
+    "clip": "chen2_skill_03_buff_03",
+    "animator_path": "",
+    "binding": {
+      "path": 3695751199,
+      "type": 23,
+      "attribute": 1420917795,
+      "channel": 4,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_03_b",
+    "clip": "chen2_skill_03_buff_03",
+    "animator_path": "",
+    "binding": {
+      "path": 3695751199,
+      "type": 23,
+      "attribute": 963418312,
+      "channel": 5,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        1
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_03_b",
+    "clip": "chen2_skill_03_buff_03",
+    "animator_path": "",
+    "binding": {
+      "path": 3695751199,
+      "type": 23,
+      "attribute": 1225157703,
+      "channel": 6,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        2
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_buff_03_b",
+    "clip": "chen2_skill_03_buff_03",
+    "animator_path": "",
+    "binding": {
+      "path": 3695751199,
+      "type": 23,
+      "attribute": 3490659837,
+      "channel": 7,
+      "count": 1,
+      "property": [
+        "colors",
+        "_TintColor",
+        3
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_start_03",
+    "clip": "chen2_attack_start_02",
+    "animator_path": "",
+    "binding": {
+      "path": 132824241,
+      "type": 199,
+      "attribute": 2707347542,
+      "channel": 0,
+      "count": 1,
+      "property": [
+        "floats",
+        "_Amount",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_start_03",
+    "clip": "chen2_attack_start_02",
+    "animator_path": "",
+    "binding": {
+      "path": 132824241,
+      "type": 199,
+      "attribute": 1820449388,
+      "channel": 1,
+      "count": 1,
+      "property": [
+        "floats",
+        "_BorderWidth",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_start_03",
+    "clip": "chen2_attack_start_02",
+    "animator_path": "",
+    "binding": {
+      "path": 2796869547,
+      "type": 199,
+      "attribute": 2707347542,
+      "channel": 2,
+      "count": 1,
+      "property": [
+        "floats",
+        "_Amount",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_start_03",
+    "clip": "chen2_attack_start_02",
+    "animator_path": "",
+    "binding": {
+      "path": 2796869547,
+      "type": 199,
+      "attribute": 1820449388,
+      "channel": 3,
+      "count": 1,
+      "property": [
+        "floats",
+        "_BorderWidth",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_start_03",
+    "clip": "chen2_attack_start_02",
+    "animator_path": "",
+    "binding": {
+      "path": 3518228285,
+      "type": 199,
+      "attribute": 1820449388,
+      "channel": 4,
+      "count": 1,
+      "property": [
+        "floats",
+        "_BorderWidth",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_start_03",
+    "clip": "chen2_attack_start_02",
+    "animator_path": "",
+    "binding": {
+      "path": 3518228285,
+      "type": 199,
+      "attribute": 2707347542,
+      "channel": 5,
+      "count": 1,
+      "property": [
+        "floats",
+        "_Amount",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_start_03",
+    "clip": "chen2_attack_start_02",
+    "animator_path": "",
+    "binding": {
+      "path": 1339519646,
+      "type": 199,
+      "attribute": 2707347542,
+      "channel": 6,
+      "count": 1,
+      "property": [
+        "floats",
+        "_Amount",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_start_03",
+    "clip": "chen2_attack_start_02",
+    "animator_path": "",
+    "binding": {
+      "path": 1339519646,
+      "type": 199,
+      "attribute": 1820449388,
+      "channel": 7,
+      "count": 1,
+      "property": [
+        "floats",
+        "_BorderWidth",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_start_03",
+    "clip": "chen2_attack_start_02",
+    "animator_path": "",
+    "binding": {
+      "path": 3781789189,
+      "type": 199,
+      "attribute": 2707347542,
+      "channel": 8,
+      "count": 1,
+      "property": [
+        "floats",
+        "_Amount",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_start_03",
+    "clip": "chen2_attack_start_02",
+    "animator_path": "",
+    "binding": {
+      "path": 3781789189,
+      "type": 199,
+      "attribute": 1820449388,
+      "channel": 9,
+      "count": 1,
+      "property": [
+        "floats",
+        "_BorderWidth",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_start_03",
+    "clip": "chen2_attack_start_02",
+    "animator_path": "",
+    "binding": {
+      "path": 3856988855,
+      "type": 199,
+      "attribute": 2707347542,
+      "channel": 10,
+      "count": 1,
+      "property": [
+        "floats",
+        "_Amount",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  },
+  {
+    "prefab": "chen2_skill_03_start_03",
+    "clip": "chen2_attack_start_02",
+    "animator_path": "",
+    "binding": {
+      "path": 3856988855,
+      "type": 199,
+      "attribute": 1820449388,
+      "channel": 11,
+      "count": 1,
+      "property": [
+        "floats",
+        "_BorderWidth",
+        0
+      ]
+    },
+    "reason": "Source clip target absent from this prefab animator subtree; Unity has no target to bind."
+  }
+]
