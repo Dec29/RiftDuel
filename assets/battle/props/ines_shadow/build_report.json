@@ -1,0 +1,13 @@
+{
+	"clips": [
+		{
+			"bake_ms": 12127,
+			"duration_seconds": 4.0,
+			"file": "res://assets/battle/props/ines_shadow/shadow.res",
+			"frames": 480,
+			"id": "shadow"
+		}
+	],
+	"facing_count": 4,
+	"fps": 30.0
+}

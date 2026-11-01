@@ -1,0 +1,132 @@
+{
+  "copyright": "Arknights / Hypergryph and respective rightsholders. Local non-commercial fan-project testing is not a new license. Repository code license does not cover game art.",
+  "sources": [
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\battle\\prefabs\\effects\\sleach.ab",
+      "bytes": 1234990,
+      "sha256": "a52a5099a7acb72958bac8aeff0a0150b447ce3407ac57932004a75646e88016"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\sharedbattle.ab",
+      "bytes": 3492990,
+      "sha256": "e410dbd41ff68ffd678794cb3b9974cc43111c347925c0e645f5c016f75a4fd9"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\Resources\\unity default resources",
+      "bytes": 4832808,
+      "sha256": "c162b36ea191fb5990ec98906e9c3097c2a2bfed250bf71ad3650e65df291eb0"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\[uc]shaders.ab",
+      "bytes": 443792,
+      "sha256": "668663dccbada9272f30092c5fe5a5b3594a24da56b43527fd65212146860e0a"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\trail.ab",
+      "bytes": 10859786,
+      "sha256": "4c6613ca58d886b5be224d0067658f8d3c99b6083c5c3f3659fb1652c9ed4125"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\flow.ab",
+      "bytes": 13817256,
+      "sha256": "f60b60836874c9f629303d5f750c119abe191e81582a335ffe52572b3666e4d5"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\star.ab",
+      "bytes": 6518666,
+      "sha256": "d8512b0e687726df11cb77dff8260443ccecbe7dbef507075a041508d11117fc"
+    }
+  ],
+  "prefabs": [
+    {
+      "name": "sleach_skill_02_flag_01",
+      "original_cab": "CAB-2c15dc6a9d3eadbb5fdad29d1a131415",
+      "game_object_path_id": "-7998155884311215760"
+    },
+    {
+      "name": "sleach_skill_03_flag_01",
+      "original_cab": "CAB-2c15dc6a9d3eadbb5fdad29d1a131415",
+      "game_object_path_id": "-2711331902936306244"
+    }
+  ],
+  "textures": [
+    {
+      "file": "textures/CAB-2c15dc6a9d3eadbb5fdad29d1a131415_-5081262331432683864.png",
+      "original_cab": "CAB-2c15dc6a9d3eadbb5fdad29d1a131415",
+      "original_path_id": "-5081262331432683864",
+      "bytes": 76009,
+      "sha256": "54be1a23670ec74941c533b3e0b059f48a706b0a43ce40d9830a23ecf638cb0f"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-8734964437028579685.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-8734964437028579685",
+      "bytes": 12484,
+      "sha256": "259915b7a32638fddf0b283492f975e4ea2328d1e8d43f9fd2994662b38be2df"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-4487102536378500135.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "-4487102536378500135",
+      "bytes": 13827,
+      "sha256": "8fa88e4669415409a9f135dd3c4a2bf7c41ec1981150b8061474e3d0377f783e"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-5378185702619682049.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "-5378185702619682049",
+      "bytes": 35155,
+      "sha256": "9dac72ad273183ccd9f027c7f6dfd633bd3d9f7e7099c4296d47f1130aa55e39"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_1583154087628402932.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "1583154087628402932",
+      "bytes": 41196,
+      "sha256": "ca35639e016cf097d6da765559ece3c2a4463438c1ea78210485df0d1280212f"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_9192749268993603338.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "9192749268993603338",
+      "bytes": 55188,
+      "sha256": "3265ad4440e3415d365a14993b27ddf963b27e9f5337cf89b5192c6f4a5ab328"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-4134500593374077677.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "-4134500593374077677",
+      "bytes": 8456,
+      "sha256": "9ade2eeec9d0aceb962c3828f161f5069f3df8698c3e90e4e0eeeb8cb32b9cb7"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_8832196874372967933.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "8832196874372967933",
+      "bytes": 4946,
+      "sha256": "bb146c080953f177e80caf99b52a12ecb71ada5cfa4c57bd323cb2a5d396bfbf"
+    }
+  ],
+  "source_pack_bytes": 379377,
+  "source_pack_sha256": "871741fdd46ed2b5b5e2c06a0d3cffca63adb1c231fd373c6160a2088c16f011",
+  "decoder": {
+    "unitypy": "1.25.4",
+    "unpacker_commit": "4a4b9efc6be4690b68b70b4a16578950baa066d3",
+    "lz4ak_source_sha256": "55832b28aefe510880bfcf54c0628138b0ee561b46b3fb8830f58fddadcd475a"
+  },
+  "animation_binding_gaps": [],
+  "runtime_files": [
+    {
+      "path": "res://assets/battle/props/saileach_flag/flag_02.res",
+      "bytes": 1431784,
+      "sha256": "1db8b98fea695c167077b909798f68a6c841130d9386c9ec2baf79f1e1b936f0"
+    },
+    {
+      "path": "res://assets/battle/props/saileach_flag/flag_03.res",
+      "bytes": 2364618,
+      "sha256": "e1372f52ae8cec00489b77392bd490d2e89a87e35f332c4eba3042683209844d"
+    }
+  ],
+  "build_config": "res://assets/battle/props/saileach_flag/build.json",
+  "adaptation_note": "Original component/texture/mesh/animation conversion. Ines uses persistent ines_label_01 only; label_start retained as source research but not mapped. Unity scripting/camera/postprocessing not reconstructed. Flag native cloth bones, trails and UV driver restored; existing simulation landing path retained."
+}

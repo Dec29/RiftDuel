@@ -1,0 +1,23 @@
+{
+  "source_pack": "res://assets/battle/props/ines_shadow/source_pack.json",
+  "output": "res://assets/battle/props/ines_shadow",
+  "frames_per_second": 30,
+  "discard_invisible": true,
+  "restore_prewarm": true,
+  "clips": [
+    {
+      "id": "shadow",
+      "prefab": 0,
+      "duration_seconds": 4.0,
+      "loop_from_seconds": 2.0,
+      "role": "attached",
+      "emission_seconds": 4.0,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}
