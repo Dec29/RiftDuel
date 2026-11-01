@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://cqv4h15hjga2e"
+path="res://.godot/imported/char_254_vodfox.skel-6e15ff10d0c5781ec15485a18bc9f87c.tres"
+
+[deps]
+
+source_file="res://assets/operators/shamare/front/char_254_vodfox.skel"
+dest_files=["res://.godot/imported/char_254_vodfox.skel-6e15ff10d0c5781ec15485a18bc9f87c.tres"]
+
+[params]

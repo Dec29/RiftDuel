@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bgu5gam8e8gnc"
+path="res://.godot/imported/char_213_mostma.atlas-2428e133bb76dec827ddf9265f6f0835.tres"
+
+[deps]
+
+source_file="res://assets/operators/mostima/back/char_213_mostma.atlas"
+dest_files=["res://.godot/imported/char_213_mostma.atlas-2428e133bb76dec827ddf9265f6f0835.tres"]
+
+[params]
+
+normal_map_prefix="n"

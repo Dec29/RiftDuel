@@ -1,0 +1,86 @@
+{
+  "operator_id": "magallan",
+  "display_name": "麦哲伦",
+  "char_id": "char_248_mgllan",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/magallan/front/char_248_mgllan.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_248_mgllan/front/char_248_mgllan.skel",
+      "sha256": "1c0ee53b71756634e51d9245bb84844dbc59ae66beedf6c9a9bded50348d45d1",
+      "size": 127122
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/magallan/front/char_248_mgllan.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_248_mgllan/front/char_248_mgllan.atlas",
+      "sha256": "1e0a017f4356bacda4b4c0e385c56792cca804f5cf8b8ee9043888399c193775",
+      "size": 9233
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/magallan/front/char_248_mgllan.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_248_mgllan/front/char_248_mgllan.png",
+      "sha256": "a7e0152c1277157aa6e2bfa1c0f90045ce093c2c2e551b377646d2d0dbf5e696",
+      "size": 81256
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/magallan/back/char_248_mgllan.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_248_mgllan/back/char_248_mgllan.skel",
+      "sha256": "8b354e45c7a9914e4b00925af69b262b5825c03431820a3cf1c9b814b105d130",
+      "size": 74074
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/magallan/back/char_248_mgllan.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_248_mgllan/back/char_248_mgllan.atlas",
+      "sha256": "6c12727b894339a4675f55ccea5586eae1cf32b41102334b0cf4a2bf3a27c45c",
+      "size": 4891
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/magallan/back/char_248_mgllan.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_248_mgllan/back/char_248_mgllan.png",
+      "sha256": "7184867e1ec56b33569d871fcaf190e735e70a2b53c235742ac20b818fa87316",
+      "size": 58246
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.1,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.0,
+      "Skill": 1.0,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.1,
+      "Default": 0.0,
+      "Idle": 1.0,
+      "Skill": 1.0,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 67
+    },
+    "back": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 47
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

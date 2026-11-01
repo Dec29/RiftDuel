@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://brv6gln1wm0ll"
+path="res://.godot/imported/char_4039_horn.skel-0b486489739f353fc3d71fbabfde31e2.tres"
+
+[deps]
+
+source_file="res://assets/operators/horn/front/char_4039_horn.skel"
+dest_files=["res://.godot/imported/char_4039_horn.skel-0b486489739f353fc3d71fbabfde31e2.tres"]
+
+[params]

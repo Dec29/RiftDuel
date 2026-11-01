@@ -1,0 +1,53 @@
+{
+  "operator_id": "mon3tr",
+  "display_name": "Mon3tr",
+  "char_id": "token_10002_kalts_mon3tr",
+  "costume": "默认服装",
+  "model_kind": "single root skeleton; shared four facings with projection mirror",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "single",
+      "file": "res://assets/operators/mon3tr/single/token_10002_kalts_mon3tr.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10002_kalts_mon3tr/token_10002_kalts_mon3tr.skel",
+      "sha256": "05741d06435144ac2537788b0ced779c654d22ef2a984fc7a7af911d5c359bbb",
+      "size": 46958
+    },
+    {
+      "side": "single",
+      "file": "res://assets/operators/mon3tr/single/token_10002_kalts_mon3tr.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10002_kalts_mon3tr/token_10002_kalts_mon3tr.atlas",
+      "sha256": "bb278fb7d60aa8088cc6b1114dd2b69a1973a4d647a668e4571a239643f2d042",
+      "size": 2550
+    },
+    {
+      "side": "single",
+      "file": "res://assets/operators/mon3tr/single/token_10002_kalts_mon3tr.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10002_kalts_mon3tr/token_10002_kalts_mon3tr.png",
+      "sha256": "74d80843c708da58b4337a1a3480a831fa9c803d1c53a5b518505ca0bcadaff3",
+      "size": 76371
+    }
+  ],
+  "export_version": "3.8.99",
+  "animation_seconds": {
+    "single": {
+      "Attack": 0.9333333333333333,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 1.3333333333333333,
+      "Skill": 1.0,
+      "Skill_2": 1.2666666666666666,
+      "Start": 1.6666666666666667
+    }
+  },
+  "atlas_pages": {
+    "single": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha"
+    }
+  },
+  "rendered_normal_blend_verified": true,
+  "blend_note": "All25 setup slots are normal blend; one actual root skeleton used in all four facings, with projection mirror. No independent back source exists.",
+  "animation_measurement": "Native completion events sampled1/300s, rounded original30fps; events never drive simulation."
+}

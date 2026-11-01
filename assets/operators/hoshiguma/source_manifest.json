@@ -1,0 +1,56 @@
+{
+  "operator_id": "hoshiguma",
+  "display_name": "星熊",
+  "char_id": "char_136_hsguma",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "atlas_page_size": "512x512",
+  "note": "Ark-Models 的基建小人不是战斗来源，未使用。原始骨架经 tools/import_operator_visual.gd 生成压缩资源。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/hoshiguma/back/char_136_hsguma.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_136_hsguma/back/char_136_hsguma.atlas",
+      "sha256": "5e30140abbc964cac3aedc50cd2536520cd4b87692078f84298175833142d47e",
+      "size": 2102
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/hoshiguma/back/char_136_hsguma.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_136_hsguma/back/char_136_hsguma.png",
+      "sha256": "99edf78c15c3fb7893e3dc56a8d260e733beec49b56b1112456316cba01a1d8d",
+      "size": 37180
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/hoshiguma/back/char_136_hsguma.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_136_hsguma/back/char_136_hsguma.skel",
+      "sha256": "f62e29789bab43f9f54817ae4f52a42460406af51ae38d140ae5497e5d54085e",
+      "size": 76432
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/hoshiguma/front/char_136_hsguma.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_136_hsguma/front/char_136_hsguma.atlas",
+      "sha256": "79fb5fe8408e52ee3574dc39a327b4d4b03772c880da9255754c75879b23ff96",
+      "size": 4458
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/hoshiguma/front/char_136_hsguma.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_136_hsguma/front/char_136_hsguma.png",
+      "sha256": "42e27ed590f5b84ff06879162c12c383b974e181fec1b51204f8d8ff0795dd0f",
+      "size": 62620
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/hoshiguma/front/char_136_hsguma.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_136_hsguma/front/char_136_hsguma.skel",
+      "sha256": "446346ecd9ad7bd8b2bf554c8fb917d5edc9796c7d530e6c23cd883b6916f91e",
+      "size": 174663
+    }
+  ]
+}

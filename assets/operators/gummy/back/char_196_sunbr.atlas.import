@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dhift1vtp6gcr"
+path="res://.godot/imported/char_196_sunbr.atlas-d7b0dceb148133c831875dfd3e342489.tres"
+
+[deps]
+
+source_file="res://assets/operators/gummy/back/char_196_sunbr.atlas"
+dest_files=["res://.godot/imported/char_196_sunbr.atlas-d7b0dceb148133c831875dfd3e342489.tres"]
+
+[params]
+
+normal_map_prefix="n"

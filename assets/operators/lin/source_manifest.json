@@ -1,0 +1,139 @@
+{
+  "operator_id": "lin",
+  "char_id": "char_4080_lin",
+  "display_name": "林",
+  "files": [
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/lin/front/char_4080_lin.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4080_lin/front/char_4080_lin.atlas",
+      "bytes": 15422,
+      "sha256": "5f2651c8d409eb278f0a9a4f64de4a50e75526ee1007b2c3f0523ea5ea327bf0"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/lin/front/char_4080_lin.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4080_lin/front/char_4080_lin.skel",
+      "bytes": 755694,
+      "sha256": "b3173458e00b8f0ba1dc6c2eb73241c18cdb717d6873051105274532fb281768",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/lin/front/char_4080_lin.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4080_lin/front/char_4080_lin.png",
+      "bytes": 154270,
+      "sha256": "b8124f239fea2efba8a4407321ea4c410b4c0e00150b3f76379f3f08a3df0af0",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/lin/back/char_4080_lin.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4080_lin/back/char_4080_lin.atlas",
+      "bytes": 15422,
+      "sha256": "5f2651c8d409eb278f0a9a4f64de4a50e75526ee1007b2c3f0523ea5ea327bf0"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/lin/back/char_4080_lin.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4080_lin/back/char_4080_lin.skel",
+      "bytes": 790234,
+      "sha256": "f8b3f9fd87445c6922990fcdc91ae7555dda682b6f319c9e1019a0b20cc7556a",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/lin/back/char_4080_lin.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4080_lin/back/char_4080_lin.png",
+      "bytes": 154270,
+      "sha256": "b8124f239fea2efba8a4407321ea4c410b4c0e00150b3f76379f3f08a3df0af0",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified.",
+  "animation_seconds": {
+    "front": {
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 3.0,
+      "Skill_1_Begin": 0.333333333333333,
+      "Skill_1_End": 2.0,
+      "Skill_1_Idle": 3.0,
+      "Skill_1_Loop": 3.0,
+      "Skill_2_Begin": 0.333333333333333,
+      "Skill_2_End": 1.0,
+      "Skill_2_Loop": 2.33333333333333,
+      "Skill_3_Attack_A": 2.0,
+      "Skill_3_Attack_B": 2.0,
+      "Skill_3_Attack_C": 2.0,
+      "Skill_3_Begin": 0.266666666666667,
+      "Skill_3_End": 2.0,
+      "Skill_3_Idle": 3.0,
+      "Start": 1.0
+    },
+    "back": {
+      "Default": 0.0,
+      "Idle": 3.0,
+      "Skill_1_Begin": 0.333333333333333,
+      "Skill_1_End": 2.0,
+      "Skill_1_Idle": 3.0,
+      "Skill_1_Loop": 3.0,
+      "Skill_2_Begin": 0.333333333333333,
+      "Skill_2_End": 1.0,
+      "Skill_2_Loop": 2.33333333333333,
+      "Skill_3_Attack_A": 2.0,
+      "Skill_3_Attack_B": 2.0,
+      "Skill_3_Attack_C": 2.0,
+      "Skill_3_Begin": 0.266666666666667,
+      "Skill_3_End": 2.0,
+      "Skill_3_Idle": 3.0,
+      "Start": 1.0
+    }
+  },
+  "animation_mapping": {
+    "attack_clip": "Skill_1_Loop",
+    "attack_seconds": 3.0,
+    "idle_seconds": 3.0,
+    "deploy_seconds": 1.0,
+    "additive_slots": [
+      "C_FX_Light"
+    ],
+    "additive_slots_back": [
+      "C_FX_Light"
+    ]
+  },
+  "animation_measurement": "Native 3.8 completion events sampled at1/300s and rounded to30fps; only presentation, never simulation.",
+  "normal_blend_verified": false,
+  "skill_animation_mapping": [
+    {
+      "begin": "Skill_1_Begin",
+      "idle": "Skill_1_Idle",
+      "attack": "Skill_1_Loop",
+      "end": "Skill_1_End"
+    },
+    {
+      "begin": "Skill_2_Begin",
+      "loop": "Skill_2_Loop",
+      "end": "Skill_2_End"
+    },
+    {
+      "begin": "Skill_3_Begin",
+      "idle": "Skill_3_Idle",
+      "attack": "Skill_3_Attack_A",
+      "end": "Skill_3_End"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://blc8wopo2qfjq"
+path="res://.godot/imported/char_472_pasngr.skel-c1bbcda32541448511e0159603c280cd.tres"
+
+[deps]
+
+source_file="res://assets/operators/passenger/front/char_472_pasngr.skel"
+dest_files=["res://.godot/imported/char_472_pasngr.skel-c1bbcda32541448511e0159603c280cd.tres"]
+
+[params]

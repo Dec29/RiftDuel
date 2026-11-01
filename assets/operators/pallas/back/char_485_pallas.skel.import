@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://cj73d1wl1b2wj"
+path="res://.godot/imported/char_485_pallas.skel-ab890869392ad641ddfc7f81343b44ac.tres"
+
+[deps]
+
+source_file="res://assets/operators/pallas/back/char_485_pallas.skel"
+dest_files=["res://.godot/imported/char_485_pallas.skel-ab890869392ad641ddfc7f81343b44ac.tres"]
+
+[params]

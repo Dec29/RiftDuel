@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://nh6qghsutcc7"
+path="res://.godot/imported/char_4065_judge.atlas-08fd27b2251a81f09cdb94ee445c0ac3.tres"
+
+[deps]
+
+source_file="res://assets/operators/penance/back/char_4065_judge.atlas"
+dest_files=["res://.godot/imported/char_4065_judge.atlas-08fd27b2251a81f09cdb94ee445c0ac3.tres"]
+
+[params]
+
+normal_map_prefix="n"

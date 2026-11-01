@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://44ybqj8drx88"
+path="res://.godot/imported/token_10000_silent_healrb.skel-d497167c049851a7cdf796126f9ab5aa.tres"
+
+[deps]
+
+source_file="res://assets/operators/medical_drone/single/token_10000_silent_healrb.skel"
+dest_files=["res://.godot/imported/token_10000_silent_healrb.skel-d497167c049851a7cdf796126f9ab5aa.tres"]
+
+[params]

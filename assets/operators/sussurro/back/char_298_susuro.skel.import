@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://r6idbckewyub"
+path="res://.godot/imported/char_298_susuro.skel-f996997800a0795b4dfbc32c8af773be.tres"
+
+[deps]
+
+source_file="res://assets/operators/sussurro/back/char_298_susuro.skel"
+dest_files=["res://.godot/imported/char_298_susuro.skel-f996997800a0795b4dfbc32c8af773be.tres"]
+
+[params]

@@ -1,0 +1,87 @@
+{
+  "operator_id": "istina",
+  "display_name": "真理",
+  "char_id": "char_195_glassb",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/istina/front/char_195_glassb.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_195_glassb/front/char_195_glassb.skel",
+      "sha256": "802cc19f73f086c33963422493ada0d34f811586b011a7abdccf5d0343b7a973",
+      "size": 117064
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/istina/front/char_195_glassb.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_195_glassb/front/char_195_glassb.atlas",
+      "sha256": "ef50874b659618140cf6fde1758b50d19e77a3bead6b777e3d7d8963b6cf7da2",
+      "size": 7479
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/istina/front/char_195_glassb.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_195_glassb/front/char_195_glassb.png",
+      "sha256": "352de4eaa8e157be44bbe457c5c9ddfee4d630912f47ec742e30367c791e2d9e",
+      "size": 71869
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/istina/back/char_195_glassb.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_195_glassb/back/char_195_glassb.skel",
+      "sha256": "002e2d0d890ca4c5ef236334fca15c3ea1e546723ebe25bc13ca75692cd68bbd",
+      "size": 63935
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/istina/back/char_195_glassb.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_195_glassb/back/char_195_glassb.atlas",
+      "sha256": "061a621e912bf0cf1fe0e8efa8f07b07794cc4da6f527f158cb3e418ffa46ae4",
+      "size": 4832
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/istina/back/char_195_glassb.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_195_glassb/back/char_195_glassb.png",
+      "sha256": "a19623ac6a5f80f62e40320a10becc029e90d269f03a738c6b6b0a796ef4b00b",
+      "size": 53765
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.2,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.0,
+      "Skill_End": 0.36666666666666664,
+      "Skill_Loop": 1.3333333333333333,
+      "Skill_Start": 0.36666666666666664,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.2,
+      "Default": 0.0,
+      "Idle": 2.0,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 59
+    },
+    "back": {
+      "width": 256,
+      "height": 256,
+      "mode": "straight alpha",
+      "normal_slots": 43
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

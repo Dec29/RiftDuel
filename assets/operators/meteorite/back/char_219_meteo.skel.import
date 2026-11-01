@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://bf0fsxlh18sx5"
+path="res://.godot/imported/char_219_meteo.skel-ba21b87ea611f4945337c896c2e2e8dd.tres"
+
+[deps]
+
+source_file="res://assets/operators/meteorite/back/char_219_meteo.skel"
+dest_files=["res://.godot/imported/char_219_meteo.skel-ba21b87ea611f4945337c896c2e2e8dd.tres"]
+
+[params]

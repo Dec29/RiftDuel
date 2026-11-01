@@ -1,0 +1,98 @@
+{
+  "operator_id": "saga",
+  "display_name": "嵯峨",
+  "char_id": "char_362_saga",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/saga/front/char_362_saga.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_362_saga/front/char_362_saga.skel",
+      "sha256": "8f676094cd773ee1955948af4e5218d0fa820da6cad93e4f5833219e2dc2b4a1",
+      "size": 311333
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/saga/front/char_362_saga.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_362_saga/front/char_362_saga.atlas",
+      "sha256": "e14198b0f5aee1e1716b0bb2a3bf0fa4601672574b0cdf0fca9d284d96124d89",
+      "size": 10488
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/saga/front/char_362_saga.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_362_saga/front/char_362_saga.png",
+      "sha256": "a72a66f442ea08b11faf2c3ecf58bdfe15508a4b04fd159591d306b7a268b899",
+      "size": 97671
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/saga/back/char_362_saga.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_362_saga/back/char_362_saga.skel",
+      "sha256": "86a1a9a0d4c55cbdc6a874aa02ae100db291921539c0241715e6586f8d606ce6",
+      "size": 191850
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/saga/back/char_362_saga.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_362_saga/back/char_362_saga.atlas",
+      "sha256": "9373aba84197b475ee02ee4ca54a2aefe22d3057d39db723db161cce6e89ac77",
+      "size": 5292
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/saga/back/char_362_saga.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_362_saga/back/char_362_saga.png",
+      "sha256": "617e0bad06bf5e96f843dda91730156f76457ea0508684282094f86c4c74caa4",
+      "size": 68447
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack_Begin": 0.13333333333333333,
+      "Attack_End": 0.13333333333333333,
+      "Attack_Loop": 1.0,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 4.0,
+      "Skill": 0.8333333333333334,
+      "Skill_2_Begin": 0.13333333333333333,
+      "Skill_2_End": 0.13333333333333333,
+      "Skill_2_Idle": 4.0,
+      "Skill_2_Loop": 1.0,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack_Begin": 0.13333333333333333,
+      "Attack_End": 0.13333333333333333,
+      "Attack_Loop": 1.0,
+      "Default": 0.0,
+      "Idle": 4.0,
+      "Skill": 0.8333333333333334,
+      "Skill_2_Begin": 0.13333333333333333,
+      "Skill_2_End": 0.13333333333333333,
+      "Skill_2_Idle": 4.0,
+      "Skill_2_Loop": 1.0,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 89
+    },
+    "back": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 62
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

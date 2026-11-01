@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://obh482upn6s8"
+path="res://.godot/imported/char_101_sora.atlas-cc7171d43027ac857154123602770646.tres"
+
+[deps]
+
+source_file="res://assets/operators/sora/back/char_101_sora.atlas"
+dest_files=["res://.godot/imported/char_101_sora.atlas-cc7171d43027ac857154123602770646.tres"]
+
+[params]
+
+normal_map_prefix="n"

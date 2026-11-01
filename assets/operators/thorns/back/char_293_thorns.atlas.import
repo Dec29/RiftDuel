@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cy3xmri3h3psj"
+path="res://.godot/imported/char_293_thorns.atlas-f059dfccea07c9973e26aa8bbc60e980.tres"
+
+[deps]
+
+source_file="res://assets/operators/thorns/back/char_293_thorns.atlas"
+dest_files=["res://.godot/imported/char_293_thorns.atlas-f059dfccea07c9973e26aa8bbc60e980.tres"]
+
+[params]
+
+normal_map_prefix="n"

@@ -1,0 +1,56 @@
+{
+  "operator_id": "swire_alter",
+  "display_name": "琳琅诗怀雅",
+  "char_id": "char_1033_swire2",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "atlas_page_size": "512x512",
+  "note": "Ark-Models 的基建小人不是战斗来源，未使用。原始骨架经 tools/import_operator_visual.gd 生成压缩资源。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/swire_alter/back/char_1033_swire2.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1033_swire2/back/char_1033_swire2.atlas",
+      "sha256": "1ca78cd9c6f58141433fdc35781f4d080ca09187adc8c19e6085535cc5de2f07",
+      "size": 7637
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/swire_alter/back/char_1033_swire2.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1033_swire2/back/char_1033_swire2.png",
+      "sha256": "8fb1774262f69917ee1928cd4cfc0ca4250d3330db6ee35781d26bed41eeaa3b",
+      "size": 75183
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/swire_alter/back/char_1033_swire2.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1033_swire2/back/char_1033_swire2.skel",
+      "sha256": "bb3191e1a649185bf680a66a31561715ceeb9c629fea014ed6ef03819d7e47fd",
+      "size": 304654
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/swire_alter/front/char_1033_swire2.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1033_swire2/front/char_1033_swire2.atlas",
+      "sha256": "d19f6d226d585d244e0db3002296fd901e16e2f477a3a7648d63016871ce1cd1",
+      "size": 11482
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/swire_alter/front/char_1033_swire2.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1033_swire2/front/char_1033_swire2.png",
+      "sha256": "bc30899042a5a3585e3571cafa15d6677c32fbc48618aa4ba45caf510efcff6f",
+      "size": 97623
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/swire_alter/front/char_1033_swire2.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1033_swire2/front/char_1033_swire2.skel",
+      "sha256": "17c685a07ad389edc9cdab9ad64e39c6fda6bf1763fa9f7672c1c5a5aac77907",
+      "size": 515319
+    }
+  ]
+}

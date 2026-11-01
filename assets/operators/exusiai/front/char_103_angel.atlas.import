@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cf2n71yf46sxg"
+path="res://.godot/imported/char_103_angel.atlas-c343acb3fcb442f2980efce27450382c.tres"
+
+[deps]
+
+source_file="res://assets/operators/exusiai/front/char_103_angel.atlas"
+dest_files=["res://.godot/imported/char_103_angel.atlas-c343acb3fcb442f2980efce27450382c.tres"]
+
+[params]
+
+normal_map_prefix="n"

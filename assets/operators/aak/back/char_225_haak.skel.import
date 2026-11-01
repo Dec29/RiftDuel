@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://c57ex4sbhf6rf"
+path="res://.godot/imported/char_225_haak.skel-ddd6295db73a5d0371b1dd858bbf15da.tres"
+
+[deps]
+
+source_file="res://assets/operators/aak/back/char_225_haak.skel"
+dest_files=["res://.godot/imported/char_225_haak.skel-ddd6295db73a5d0371b1dd858bbf15da.tres"]
+
+[params]

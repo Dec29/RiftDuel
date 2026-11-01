@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://c2niikbs7cwu1"
+path="res://.godot/imported/char_2015_dusk.skel-b1ed1db035f5aa4efd8a0d9052d3d458.tres"
+
+[deps]
+
+source_file="res://assets/operators/dusk/back/char_2015_dusk.skel"
+dest_files=["res://.godot/imported/char_2015_dusk.skel-b1ed1db035f5aa4efd8a0d9052d3d458.tres"]
+
+[params]

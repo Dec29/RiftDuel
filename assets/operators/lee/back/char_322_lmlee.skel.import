@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://d1xych7f6yjsj"
+path="res://.godot/imported/char_322_lmlee.skel-7093389f3f5f9015edbfec2d5efcac7d.tres"
+
+[deps]
+
+source_file="res://assets/operators/lee/back/char_322_lmlee.skel"
+dest_files=["res://.godot/imported/char_322_lmlee.skel-7093389f3f5f9015edbfec2d5efcac7d.tres"]
+
+[params]

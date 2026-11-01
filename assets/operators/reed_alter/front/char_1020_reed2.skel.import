@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://t6mvj8ou6wdv"
+path="res://.godot/imported/char_1020_reed2.skel-15face842b98bd1bc4ba906e726b1b21.tres"
+
+[deps]
+
+source_file="res://assets/operators/reed_alter/front/char_1020_reed2.skel"
+dest_files=["res://.godot/imported/char_1020_reed2.skel-15face842b98bd1bc4ba906e726b1b21.tres"]
+
+[params]

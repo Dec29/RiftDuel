@@ -1,0 +1,125 @@
+{
+  "operator_id": "texas_alter",
+  "char_id": "char_1028_texas2",
+  "display_name": "缄默德克萨斯",
+  "files": [
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/texas_alter/front/char_1028_texas2.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1028_texas2/front/char_1028_texas2.atlas",
+      "bytes": 7595,
+      "sha256": "98f91f9d21d4d0f9ece3cb38635c3ff4dcecccc2e59fe3c900d0952dae9d9890"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/texas_alter/front/char_1028_texas2.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1028_texas2/front/char_1028_texas2.skel",
+      "bytes": 458890,
+      "sha256": "77cc6f440e531d84f35202288356228b2c77a3c3e9e4fe8bc3642c3623e41ae7",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/texas_alter/front/char_1028_texas2.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1028_texas2/front/char_1028_texas2.png",
+      "bytes": 87773,
+      "sha256": "ae14a2db4c4ddf76bf7e9c7dbdb63636919d84bed225b6206772d36f17710971",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/texas_alter/back/char_1028_texas2.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1028_texas2/back/char_1028_texas2.atlas",
+      "bytes": 5218,
+      "sha256": "d63162c281189c0b35b5cf0f327afb407cd2b8d937a50896834aa640deb80b18"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/texas_alter/back/char_1028_texas2.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1028_texas2/back/char_1028_texas2.skel",
+      "bytes": 286436,
+      "sha256": "0f68ebdf272702dbd4f37ae28bd4c40847e7889a10a38ec7cd72dba9934847ef",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/texas_alter/back/char_1028_texas2.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1028_texas2/back/char_1028_texas2.png",
+      "bytes": 65893,
+      "sha256": "695482171949d4abccea66a3603b42a1967ecfc0a9d1d817dff4501da03abd5d",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified.",
+  "animation_seconds": {
+    "front": {
+      "Attack": 0.933333333333333,
+      "Default": 0.0,
+      "Default_2": 0.0,
+      "Default_3": 0.0,
+      "Die": 1.0,
+      "Idle": 3.0,
+      "Skill_2_End": 0.1,
+      "Skill_2_Idle": 3.0,
+      "Skill_2_Loop": 0.933333333333333,
+      "Skill_3_End": 0.4,
+      "Skill_3_Idle": 3.0,
+      "Skill_3_Loop": 0.933333333333333,
+      "Start": 1.0,
+      "Start_2": 1.0,
+      "Start_3": 1.0,
+      "Start_3_2": 1.0
+    },
+    "back": {
+      "Attack": 0.933333333333333,
+      "Default": 0.0,
+      "Default_2": 0.0,
+      "Default_3": 0.0,
+      "Idle": 3.0,
+      "Skill_2_End": 0.1,
+      "Skill_2_Idle": 3.0,
+      "Skill_2_Loop": 0.933333333333333,
+      "Skill_3_End": 0.4,
+      "Skill_3_Idle": 3.0,
+      "Skill_3_Loop": 0.933333333333333,
+      "Start": 1.0,
+      "Start_2": 1.0,
+      "Start_3": 1.0,
+      "Start_3_2": 1.0
+    }
+  },
+  "animation_mapping": {
+    "attack_clip": "Attack",
+    "attack_seconds": 0.933333333333333,
+    "idle_seconds": 3.0,
+    "deploy_seconds": 1.0
+  },
+  "animation_measurement": "Native 3.8 completion events sampled at1/300s and rounded to30fps; only presentation, never simulation.",
+  "normal_blend_verified": true,
+  "skill_animation_mapping": [
+    {},
+    {
+      "idle": "Skill_2_Idle",
+      "attack": "Skill_2_Loop",
+      "end": "Skill_2_End"
+    },
+    {
+      "idle": "Skill_3_Idle",
+      "attack": "Skill_3_Loop",
+      "end": "Skill_3_End"
+    }
+  ]
+}

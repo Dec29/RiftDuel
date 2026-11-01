@@ -1,0 +1,56 @@
+{
+  "operator_id": "nightingale",
+  "display_name": "夜莺",
+  "char_id": "char_179_cgbird",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "atlas_page_size": "512x512",
+  "note": "Ark-Models 的基建小人不是战斗来源，未使用。原始骨架经 tools/import_operator_visual.gd 生成压缩资源。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/nightingale/back/char_179_cgbird.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_179_cgbird/back/char_179_cgbird.atlas",
+      "sha256": "c986e166a53b024a0bd3913d02ed92efb2b563f90a3e11911c9d857a74126420",
+      "size": 3401
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/nightingale/back/char_179_cgbird.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_179_cgbird/back/char_179_cgbird.png",
+      "sha256": "07da43e4e5eb39d224fc1d1245043f64c47785df1831c8c6c9e1e3d3766a0c46",
+      "size": 57925
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/nightingale/back/char_179_cgbird.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_179_cgbird/back/char_179_cgbird.skel",
+      "sha256": "071214f416e6c431bbcbe82d40b29d8b35d82f55a94c83c192c332429b294953",
+      "size": 52339
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/nightingale/front/char_179_cgbird.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_179_cgbird/front/char_179_cgbird.atlas",
+      "sha256": "f97bc0d4baad1f24105746e228920e076fa347fd753cd4c109b147d4bd7fec64",
+      "size": 5047
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/nightingale/front/char_179_cgbird.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_179_cgbird/front/char_179_cgbird.png",
+      "sha256": "d938c5a599e4cce153c6bb378f47f55a943f7ae1ec42c74ba9d33f620f6b14b5",
+      "size": 74516
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/nightingale/front/char_179_cgbird.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_179_cgbird/front/char_179_cgbird.skel",
+      "sha256": "3221f09f3d6dfda2738bbc76f23119e7481b85e13621e7f1eaa0b41bb9bd7882",
+      "size": 97712
+    }
+  ]
+}

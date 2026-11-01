@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://bl2uod3echtk4"
+path="res://.godot/imported/char_1033_swire2.skel-c19482a7c33b3b50f4806f0659b51545.tres"
+
+[deps]
+
+source_file="res://assets/operators/swire_alter/front/char_1033_swire2.skel"
+dest_files=["res://.godot/imported/char_1033_swire2.skel-c19482a7c33b3b50f4806f0659b51545.tres"]
+
+[params]

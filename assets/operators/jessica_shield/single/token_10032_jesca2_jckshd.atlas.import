@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://c5xkrkva6h3v5"
+path="res://.godot/imported/token_10032_jesca2_jckshd.atlas-35ccd893b3a6aa14cdee82af8caad5e4.tres"
+
+[deps]
+
+source_file="res://assets/operators/jessica_shield/single/token_10032_jesca2_jckshd.atlas"
+dest_files=["res://.godot/imported/token_10032_jesca2_jckshd.atlas-35ccd893b3a6aa14cdee82af8caad5e4.tres"]
+
+[params]
+
+normal_map_prefix="n"

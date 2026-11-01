@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bkwshnsoco1ay"
+path="res://.godot/imported/token_10008_cqbw_box.atlas-894707a86c1927e56a8f2c3b48047607.tres"
+
+[deps]
+
+source_file="res://assets/operators/w_mine/single/token_10008_cqbw_box.atlas"
+dest_files=["res://.godot/imported/token_10008_cqbw_box.atlas-894707a86c1927e56a8f2c3b48047607.tres"]
+
+[params]
+
+normal_map_prefix="n"

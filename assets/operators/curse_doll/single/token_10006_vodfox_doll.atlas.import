@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://32yyw17lr64v"
+path="res://.godot/imported/token_10006_vodfox_doll.atlas-dd620352fac7dc5580c0174350ab33f5.tres"
+
+[deps]
+
+source_file="res://assets/operators/curse_doll/single/token_10006_vodfox_doll.atlas"
+dest_files=["res://.godot/imported/token_10006_vodfox_doll.atlas-dd620352fac7dc5580c0174350ab33f5.tres"]
+
+[params]
+
+normal_map_prefix="n"

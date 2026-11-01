@@ -1,0 +1,56 @@
+{
+  "operator_id": "phantom",
+  "display_name": "傀影",
+  "char_id": "char_250_phatom",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "atlas_page_size": "512x512",
+  "note": "Ark-Models 的基建小人不是战斗来源，未使用。原始骨架经 tools/import_operator_visual.gd 生成压缩资源。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/phantom/back/char_250_phatom.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_250_phatom/back/char_250_phatom.atlas",
+      "sha256": "67494f14f3f014841986138a9c7801e00d5ee2b789e42fd6c3fa689bdb36d35a",
+      "size": 14832
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/phantom/back/char_250_phatom.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_250_phatom/back/char_250_phatom.png",
+      "sha256": "e01ec4b7967feb6e6abff3e74d7f0e4b6895f69364f5253353bea323a5a4a808",
+      "size": 119358
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/phantom/back/char_250_phatom.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_250_phatom/back/char_250_phatom.skel",
+      "sha256": "df8901b6d64c2914307d1a6e9fe824b2741c9a3bb9c318360a4b8c22f3dce52e",
+      "size": 196706
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/phantom/front/char_250_phatom.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_250_phatom/front/char_250_phatom.atlas",
+      "sha256": "67494f14f3f014841986138a9c7801e00d5ee2b789e42fd6c3fa689bdb36d35a",
+      "size": 14832
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/phantom/front/char_250_phatom.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_250_phatom/front/char_250_phatom.png",
+      "sha256": "e01ec4b7967feb6e6abff3e74d7f0e4b6895f69364f5253353bea323a5a4a808",
+      "size": 119358
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/phantom/front/char_250_phatom.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_250_phatom/front/char_250_phatom.skel",
+      "sha256": "61d723e16c0d10737554072d386d542c4f3103acd42ed98c003ea0b58886e4e8",
+      "size": 245745
+    }
+  ]
+}

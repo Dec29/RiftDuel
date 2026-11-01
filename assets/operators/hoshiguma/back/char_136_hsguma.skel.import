@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://d4aws1v58bk8w"
+path="res://.godot/imported/char_136_hsguma.skel-b1a05836d460ed9de8b6f6d9e703d8f5.tres"
+
+[deps]
+
+source_file="res://assets/operators/hoshiguma/back/char_136_hsguma.skel"
+dest_files=["res://.godot/imported/char_136_hsguma.skel-b1a05836d460ed9de8b6f6d9e703d8f5.tres"]
+
+[params]

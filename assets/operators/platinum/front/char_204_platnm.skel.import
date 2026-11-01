@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dmsury3mt6bek"
+path="res://.godot/imported/char_204_platnm.skel-be2fa7ce0a93c66a54e93e12540495f1.tres"
+
+[deps]
+
+source_file="res://assets/operators/platinum/front/char_204_platnm.skel"
+dest_files=["res://.godot/imported/char_204_platnm.skel-be2fa7ce0a93c66a54e93e12540495f1.tres"]
+
+[params]

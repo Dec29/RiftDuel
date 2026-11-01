@@ -1,0 +1,178 @@
+{
+  "operator_id": "gummy",
+  "display_name": "古米",
+  "char_id": "char_196_sunbr",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/gummy/front/char_196_sunbr.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_196_sunbr/front/char_196_sunbr.skel",
+      "sha256": "7bf9d7e014bf3402043639d4c348ca2409e89c7ab4cb0d794c52f4278d5c9d04",
+      "size": 90939
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/gummy/front/char_196_sunbr.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_196_sunbr/front/char_196_sunbr.atlas",
+      "sha256": "1c948269593b43c82ff33f8bdc191999858ff82ec21c262f66c5eac561f133de",
+      "size": 5387
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/gummy/front/char_196_sunbr.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_196_sunbr/front/char_196_sunbr.png",
+      "sha256": "a09cfc433995d9100f09486bdf6bfdd56dcb33c0eb34c6cd3e78eecf0ca98fbb",
+      "size": 71897
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/gummy/back/char_196_sunbr.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_196_sunbr/back/char_196_sunbr.skel",
+      "sha256": "09526db9b53f6fa54ac51219ce31e6cd3903e618d9a47781f230bf68de3edfb2",
+      "size": 32563
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/gummy/back/char_196_sunbr.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_196_sunbr/back/char_196_sunbr.atlas",
+      "sha256": "ece7202b3afe71908d0f074f66721015a65ea854eaf8e604f0c14b7455172daa",
+      "size": 2769
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/gummy/back/char_196_sunbr.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_196_sunbr/back/char_196_sunbr.png",
+      "sha256": "1b70298151319c1e9108f6a4474543bac6c225eb1349f447684bacd2e4b720c4",
+      "size": 42384
+    }
+  ],
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "pages": 1,
+      "pma": false
+    },
+    "back": {
+      "width": 256,
+      "height": 256,
+      "pages": 1,
+      "pma": false
+    }
+  },
+  "slot_blend_modes": {
+    "front": {
+      "F_L_Arm": 0,
+      "F_L_Hand": 0,
+      "F_Weapon": 0,
+      "F_L_Fingers": 0,
+      "F_L_Forearm": 0,
+      "F_Bag_B": 0,
+      "F_L_Leg": 0,
+      "F_L_Calf": 0,
+      "F_L_Foot": 0,
+      "F_R_Leg": 0,
+      "F_R_Calf": 0,
+      "F_R_Foot": 0,
+      "F_Waist": 0,
+      "F_L_Coat": 0,
+      "F_L_String": 0,
+      "F_L_Collar": 0,
+      "F_Tie": 0,
+      "F_R_Coat": 0,
+      "F_R_String": 0,
+      "F_R_Arm": 0,
+      "F_R_Hand": 0,
+      "F_R_Forearm": 0,
+      "F_R_Collar": 0,
+      "F_Belt_B": 0,
+      "F_Bag_A": 0,
+      "F_Belt_A": 0,
+      "F_L_Hair": 0,
+      "F_R_Hair": 0,
+      "F_L_Ear": 0,
+      "F_Head": 0,
+      "F_Front_Hair_C": 0,
+      "F_Front_Hair_B": 0,
+      "F_Front_Hair_A": 0,
+      "F_R_Ear": 0,
+      "F_Hairwear_D": 0,
+      "F_Hairwear_C": 0,
+      "F_Hairwear_B": 0,
+      "F_Hairwear_A": 0,
+      "F_Mouth": 0,
+      "F_Eye": 0,
+      "F_Eyebrow": 0,
+      "C_Angry_Mark": 0,
+      "F_Shield": 0,
+      "F_Stove": 0,
+      "F_Fire_A": 0,
+      "F_Fire_B": 0,
+      "F_Meat": 0,
+      "F_Meat2": 0,
+      "F_Meat3": 0
+    },
+    "back": {
+      "B_Belt_B": 0,
+      "B_L_Arm": 0,
+      "B_L_Hand": 0,
+      "B_L_Fingers": 0,
+      "B_Meat": 0,
+      "B_L_Forearm": 0,
+      "B_String": 0,
+      "B_L_Leg": 0,
+      "B_L_Calf": 0,
+      "B_L_Foot": 0,
+      "B_R_Leg": 0,
+      "B_R_Calf": 0,
+      "B_R_Foot": 0,
+      "B_Waist": 0,
+      "B_R_Arm": 0,
+      "B_Weapon": 0,
+      "B_R_Hand": 0,
+      "B_R_Forearm": 0,
+      "B_Bag": 0,
+      "B_Collar": 0,
+      "B_Belt_A": 0,
+      "B_L_Hair": 0,
+      "B_L_Ear": 0,
+      "B_Head": 0,
+      "B_R_Ear": 0,
+      "B_R_Hair": 0,
+      "B_Shield": 0,
+      "C_Angry_Mark2": 0
+    }
+  },
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.33333333333333,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 1.0,
+      "Skill": 1.33333333333333,
+      "Skill_2_Begin": 0.833333333333333,
+      "Skill_2_End": 1.16666666666667,
+      "Skill_2_Loop": 4.0,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.33333333333333,
+      "Default": 0.0,
+      "Idle": 1.0,
+      "Skill": 1.33333333333333,
+      "Start": 1.0
+    }
+  },
+  "animation_mapping": {
+    "attack_clip": "Attack",
+    "attack_seconds": 1.33333333333333,
+    "idle_seconds": 1.0,
+    "deploy_seconds": 1.0
+  },
+  "animation_note": "普通攻击与属性强化使用已测量的完整攻击动作；不以骨架动作后缀猜测技能编号。时长由原生完成事件测量，表现不影响模拟。"
+}

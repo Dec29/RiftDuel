@@ -1,0 +1,58 @@
+{
+  "operator_id": "mon3tr_reconstruction",
+  "char_id": "token_10050_monstr_prosts",
+  "commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "views": [
+    "single"
+  ],
+  "files": [
+    {
+      "path": "assets/operators/mon3tr_reconstruction/single/token_10050_monstr_prosts.skel",
+      "side": "single",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10050_monstr_prosts/token_10050_monstr_prosts.skel",
+      "bytes": 16696,
+      "sha256": "1b515f35f427d9e281055cabb218074beed5bbff48321a0ecc9d4e5e0dfdb82a"
+    },
+    {
+      "path": "assets/operators/mon3tr_reconstruction/single/token_10050_monstr_prosts.atlas",
+      "side": "single",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10050_monstr_prosts/token_10050_monstr_prosts.atlas",
+      "bytes": 284,
+      "sha256": "29c0d182d07bdebd6cebf9bb746b9bcaaa5ea7c0159de11b361443c35380d709"
+    },
+    {
+      "path": "assets/operators/mon3tr_reconstruction/single/token_10050_monstr_prosts.png",
+      "side": "single",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10050_monstr_prosts/token_10050_monstr_prosts.png",
+      "bytes": 11225,
+      "sha256": "b326da7c1c6e4ceae7efc614bc5980174f311a6068569fd921d5f0570c14678f"
+    }
+  ],
+  "export_version": "3.8.99",
+  "animation_seconds": {
+    "single": {
+      "Attack": 1.33333333333333,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.0,
+      "Skill_3": 0.0,
+      "Skill_3_Begin": 0.666666666666667,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "single": {
+      "width": 148,
+      "height": 148,
+      "straight_alpha": true,
+      "slot_blend_modes": {
+        "Token": 0,
+        "C_Weapon3": 0,
+        "C_Weapon2": 0,
+        "C_Weapon": 0
+      }
+    }
+  },
+  "normal_blend_verified": true,
+  "animation_measurement": "Native Spine 3.8 completion events sampled at 1/300 s and rounded to original 30 fps boundaries; presentation only."
+}

@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dod45h16kdmx"
+path="res://.godot/imported/token_10020_ling_soul3.atlas-3353c7d7cc0b4f04ae254a5feba13681.tres"
+
+[deps]
+
+source_file="res://assets/operators/ling_soul3/single/token_10020_ling_soul3.atlas"
+dest_files=["res://.godot/imported/token_10020_ling_soul3.atlas-3353c7d7cc0b4f04ae254a5feba13681.tres"]
+
+[params]
+
+normal_map_prefix="n"

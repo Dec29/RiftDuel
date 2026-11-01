@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dy8mica6n24he"
+path="res://.godot/imported/char_332_archet.skel-285c2cafea4d2723ab8ff8fcfe7b17f0.tres"
+
+[deps]
+
+source_file="res://assets/operators/archetto/front/char_332_archet.skel"
+dest_files=["res://.godot/imported/char_332_archet.skel-285c2cafea4d2723ab8ff8fcfe7b17f0.tres"]
+
+[params]

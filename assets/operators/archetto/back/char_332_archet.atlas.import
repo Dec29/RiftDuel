@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://33g7v20fsnmy"
+path="res://.godot/imported/char_332_archet.atlas-307e6cc1adf8cd4beb4604da7a519cd1.tres"
+
+[deps]
+
+source_file="res://assets/operators/archetto/back/char_332_archet.atlas"
+dest_files=["res://.godot/imported/char_332_archet.atlas-307e6cc1adf8cd4beb4604da7a519cd1.tres"]
+
+[params]
+
+normal_map_prefix="n"

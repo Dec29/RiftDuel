@@ -1,0 +1,94 @@
+{
+  "operator_id": "aak",
+  "display_name": "阿",
+  "char_id": "char_225_haak",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/aak/front/char_225_haak.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_225_haak/front/char_225_haak.skel",
+      "sha256": "c3f7e129a50344aff6df38af4223fb882ee2657e4069598c037ef845dc92ce1c",
+      "size": 180647
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/aak/front/char_225_haak.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_225_haak/front/char_225_haak.atlas",
+      "sha256": "e4d2e62facd2bc2d5dbd74e581b4217691abc746dee9e23107c0e9dcc52e297a",
+      "size": 5876
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/aak/front/char_225_haak.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_225_haak/front/char_225_haak.png",
+      "sha256": "de5cb386f7b6eca7c3579c7be74f5fd6e8b17f4830fdc9adf8f7537ebc1247ed",
+      "size": 63292
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/aak/back/char_225_haak.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_225_haak/back/char_225_haak.skel",
+      "sha256": "d36439b45b2b0a001af6e78e33701912f30197d643d32df3412d8a346577284d",
+      "size": 84553
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/aak/back/char_225_haak.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_225_haak/back/char_225_haak.atlas",
+      "sha256": "28f0bc27200ac3762af907eb9e0c984aa4f3a755cc6c07fcca0b33290842dd4c",
+      "size": 3851
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/aak/back/char_225_haak.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_225_haak/back/char_225_haak.png",
+      "sha256": "321cb7d0810f5cdc4196804328b6ea0fae0beea26fb1260b75b8861d2d8db4a5",
+      "size": 45629
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack_Begin": 0.3333333333333333,
+      "Attack_Down_Begin": 0.3333333333333333,
+      "Attack_Down_End": 0.23333333333333334,
+      "Attack_Down_Loop": 1.4,
+      "Attack_End": 0.23333333333333334,
+      "Attack_Loop": 1.4,
+      "Default": 0.0,
+      "Die": 0.7666666666666667,
+      "Idle": 3.2,
+      "Skill": 1.2666666666666666,
+      "Skill_Down": 1.2666666666666666,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack_Begin": 0.3333333333333333,
+      "Attack_End": 0.23333333333333334,
+      "Attack_Loop": 1.4,
+      "Default": 0.0,
+      "Idle": 3.2,
+      "Skill": 1.2666666666666666,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 56
+    },
+    "back": {
+      "width": 256,
+      "height": 256,
+      "mode": "straight alpha",
+      "normal_slots": 39
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://bo6b8h31rxhr3"
+path="res://.godot/imported/token_10029_slent2_protrb.skel-111c8cf42e116f68dab3dc5ccb78b977.tres"
+
+[deps]
+
+source_file="res://assets/operators/silence_alter_drone/single/token_10029_slent2_protrb.skel"
+dest_files=["res://.godot/imported/token_10029_slent2_protrb.skel-111c8cf42e116f68dab3dc5ccb78b977.tres"]
+
+[params]

@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dcntm7mctdtci"
+path="res://.godot/imported/char_400_weedy.skel-1bbb3fc2527c76b4202a8d57906b2310.tres"
+
+[deps]
+
+source_file="res://assets/operators/weedy/back/char_400_weedy.skel"
+dest_files=["res://.godot/imported/char_400_weedy.skel-1bbb3fc2527c76b4202a8d57906b2310.tres"]
+
+[params]

@@ -1,0 +1,84 @@
+{
+  "operator_id": "projekt_red",
+  "display_name": "红",
+  "char_id": "char_144_red",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/projekt_red/front/char_144_red.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_144_red/front/char_144_red.skel",
+      "sha256": "e46f449d9ceaa97ccb07905f6d3479a4757a356e60c87b449c2ea7912e37caa0",
+      "size": 128117
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/projekt_red/front/char_144_red.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_144_red/front/char_144_red.atlas",
+      "sha256": "9990aef925349f22eff0c4fcc938aa60376a9e9211a84360d8c4ed9a390bec31",
+      "size": 5499
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/projekt_red/front/char_144_red.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_144_red/front/char_144_red.png",
+      "sha256": "3cf2a66a1207886349276aac86b6287880138472746e922d2520287e8077e38c",
+      "size": 85925
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/projekt_red/back/char_144_red.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_144_red/back/char_144_red.skel",
+      "sha256": "5f9c311b16e51f1704da3954eaf375b5f6323171f0be43abe349807dfabdbae9",
+      "size": 62713
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/projekt_red/back/char_144_red.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_144_red/back/char_144_red.atlas",
+      "sha256": "31f96109fbf823076876ac62df6f7b774e13d6b421e74be31c2dae5162209420",
+      "size": 3286
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/projekt_red/back/char_144_red.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_144_red/back/char_144_red.png",
+      "sha256": "573d5558815f477f376c95e26617f08d33902018ebf946c81d65a1c9f6a15cf2",
+      "size": 54485
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.1666666666666667,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.0,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.1666666666666667,
+      "Default": 0.0,
+      "Idle": 2.0,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 56
+    },
+    "back": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 33
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

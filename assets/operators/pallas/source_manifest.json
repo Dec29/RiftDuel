@@ -1,0 +1,119 @@
+{
+  "operator_id": "pallas",
+  "char_id": "char_485_pallas",
+  "display_name": "帕拉斯",
+  "files": [
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/pallas/front/char_485_pallas.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_485_pallas/front/char_485_pallas.atlas",
+      "bytes": 10896,
+      "sha256": "7274d709845f4787de5e3fb27fa7d4020d25b21c31119346073b006ce69e26a1"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/pallas/front/char_485_pallas.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_485_pallas/front/char_485_pallas.skel",
+      "bytes": 677488,
+      "sha256": "95482cca9163355a06fc3fbcc2451cff586a799c1f7a1ee3a17616e6ed776311",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/pallas/front/char_485_pallas.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_485_pallas/front/char_485_pallas.png",
+      "bytes": 111183,
+      "sha256": "8bf0622cde5885b0b6388f2dfff5e179555b7285f36285f054cf441066970368",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/pallas/back/char_485_pallas.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_485_pallas/back/char_485_pallas.atlas",
+      "bytes": 7432,
+      "sha256": "21b1eb1f8fb8092dfd2a70f4ba5d2b87cbdab229ed0afc37d102306fa9adf49e"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/pallas/back/char_485_pallas.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_485_pallas/back/char_485_pallas.skel",
+      "bytes": 352120,
+      "sha256": "314373b841b475d213eb66fcda7f8544f358032ede24b8a01d792699e08b8851",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/pallas/back/char_485_pallas.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_485_pallas/back/char_485_pallas.png",
+      "bytes": 84613,
+      "sha256": "9895d9e73e9ab2ec46de2263487fa8b7d97414bcaa09868ef0603a812daf42e6",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified.",
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.33333333333333,
+      "Attack_Down": 1.33333333333333,
+      "Default": 0.0,
+      "Die": 1.16666666666667,
+      "Idle": 4.0,
+      "Skill_02": 1.33333333333333,
+      "Skill_02_Down": 1.33333333333333,
+      "Skill_03_Begin": 0.5,
+      "Skill_03_End": 0.5,
+      "Skill_03_Idle": 1.33333333333333,
+      "Skill_03_Loop": 1.33333333333333,
+      "Skill_03_Loop_Down": 1.33333333333333,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.33333333333333,
+      "Default": 0.0,
+      "Idle": 4.0,
+      "Skill_02": 1.33333333333333,
+      "Skill_03_Begin": 0.5,
+      "Skill_03_End": 0.5,
+      "Skill_03_Idle": 1.33333333333333,
+      "Skill_03_Loop": 1.33333333333333,
+      "Start": 1.0
+    }
+  },
+  "animation_mapping": {
+    "attack_clip": "Attack",
+    "attack_seconds": 1.33333333333333,
+    "idle_seconds": 4.0,
+    "deploy_seconds": 1.0,
+    "down_clip": "Attack_Down",
+    "down_seconds": 1.33333333333333
+  },
+  "animation_measurement": "Native 3.8 completion events sampled at1/300s and rounded to30fps; only presentation, never simulation.",
+  "normal_blend_verified": true,
+  "skill_animation_mapping": [
+    {},
+    {
+      "attack": "Skill_02",
+      "down": "Skill_02_Down"
+    },
+    {
+      "begin": "Skill_03_Begin",
+      "idle": "Skill_03_Idle",
+      "attack": "Skill_03_Loop",
+      "down": "Skill_03_Loop_Down",
+      "end": "Skill_03_End"
+    }
+  ]
+}

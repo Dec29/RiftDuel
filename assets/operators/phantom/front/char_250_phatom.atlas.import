@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://btmf07munemr5"
+path="res://.godot/imported/char_250_phatom.atlas-089ec159308cb699fe8b3786279b0a09.tres"
+
+[deps]
+
+source_file="res://assets/operators/phantom/front/char_250_phatom.atlas"
+dest_files=["res://.godot/imported/char_250_phatom.atlas-089ec159308cb699fe8b3786279b0a09.tres"]
+
+[params]
+
+normal_map_prefix="n"

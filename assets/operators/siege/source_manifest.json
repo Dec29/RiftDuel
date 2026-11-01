@@ -1,0 +1,71 @@
+{
+  "operator_id": "siege",
+  "display_name": "推进之王",
+  "char_id": "char_112_siege",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/siege/front/char_112_siege.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_112_siege/front/char_112_siege.skel",
+      "sha256": "2a60b64bfcf6d3ec24ba9d624f999079646a05eb21b5afc2ec12b3d817ff62d5",
+      "size": 108277
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/siege/front/char_112_siege.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_112_siege/front/char_112_siege.atlas",
+      "sha256": "178e25104c3570fd37b850ce914dafce272812d643b04ee1962d30d140d6bfd0",
+      "size": 4150
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/siege/front/char_112_siege.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_112_siege/front/char_112_siege.png",
+      "sha256": "ccfacb79400334fb626326c1ba86612bc369dbcfb91ff7be1780d97b96b32f41",
+      "size": 65283
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/siege/back/char_112_siege.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_112_siege/back/char_112_siege.skel",
+      "sha256": "e6789447869749c5076662a98499e364aa1de1f2bff294bad877f3641694a15c",
+      "size": 46975
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/siege/back/char_112_siege.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_112_siege/back/char_112_siege.atlas",
+      "sha256": "0735aa1d52b80c4cc778cf2f45ab7bc297ade018c571a79d945423be4d34a87d",
+      "size": 2780
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/siege/back/char_112_siege.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_112_siege/back/char_112_siege.png",
+      "sha256": "0e2e5dca0d56832a790b69aafb33951429597978ed20034b8fa0f2d391b5b00c",
+      "size": 54007
+    }
+  ],
+  "export_version": "3.8.99",
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.5,
+      "Attack_2": 1.8333333333333333,
+      "Idle": 2.0,
+      "Start": 0.8333333333333334,
+      "Skill": 1.6666666666666667,
+      "Die": 1.0
+    },
+    "back": {
+      "Attack": 1.5,
+      "Attack_2": 1.8333333333333333,
+      "Idle": 2.0,
+      "Start": 0.8333333333333334
+    }
+  },
+  "animation_note": "Native 3.8 completed events measured on both sides. Attack is used for normal and strengthened attacks; numbered variant-to-skill correspondence is unverified and is not guessed. Native events never drive simulation."
+}

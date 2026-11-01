@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dsdrte8uo186d"
+path="res://.godot/imported/char_010_chen.atlas-8f6fe42520248490af1d2c53422b3cff.tres"
+
+[deps]
+
+source_file="res://assets/operators/chen/front/char_010_chen.atlas"
+dest_files=["res://.godot/imported/char_010_chen.atlas-8f6fe42520248490af1d2c53422b3cff.tres"]
+
+[params]
+
+normal_map_prefix="n"

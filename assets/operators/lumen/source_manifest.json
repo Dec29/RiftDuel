@@ -1,0 +1,96 @@
+{
+  "operator_id": "lumen",
+  "display_name": "流明",
+  "char_id": "char_4042_lumen",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/lumen/front/char_4042_lumen.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4042_lumen/front/char_4042_lumen.skel",
+      "sha256": "c988709dd19caff2def81a0e1cd70896700389702f4633af21d31ad9666519fe",
+      "size": 422484
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/lumen/front/char_4042_lumen.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4042_lumen/front/char_4042_lumen.atlas",
+      "sha256": "b9ff7f98e9276ee65f37e4e20c2a55b9ba8cc61d9da40334322c01ade67278cf",
+      "size": 10976
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/lumen/front/char_4042_lumen.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4042_lumen/front/char_4042_lumen.png",
+      "sha256": "22d0ea7789c0c2a5f7000e8dbdaba6880b3906932ac80d904451e8f8f9f42c87",
+      "size": 103830
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/lumen/back/char_4042_lumen.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4042_lumen/back/char_4042_lumen.skel",
+      "sha256": "bdac2fe5a86b5ce3c79ddaa91eb798a63ec0eaa8b4c4391f39841af9f2cf91ca",
+      "size": 261997
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/lumen/back/char_4042_lumen.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4042_lumen/back/char_4042_lumen.atlas",
+      "sha256": "9f8b36487e61c93764af3c451cfddbbecb6b3f3318f7cec58bfd8e834f9079c7",
+      "size": 6475
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/lumen/back/char_4042_lumen.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_4042_lumen/back/char_4042_lumen.png",
+      "sha256": "0221f112b643c72be355159c2db058a5118ee25d09d9366446b6efe87511ba2e",
+      "size": 71469
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.3333333333333333,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 4.0,
+      "Skill_1": 1.3333333333333333,
+      "Skill_2": 1.3333333333333333,
+      "Skill_3_Begin": 0.3333333333333333,
+      "Skill_3_End": 0.26666666666666666,
+      "Skill_3_Idle": 4.0,
+      "Skill_3_Loop": 1.3333333333333333,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.3333333333333333,
+      "Default": 0.0,
+      "Idle": 1.3333333333333333,
+      "Skill_1": 1.3333333333333333,
+      "Skill_2": 1.3333333333333333,
+      "Skill_3_Begin": 0.3333333333333333,
+      "Skill_3_End": 0.3333333333333333,
+      "Skill_3_Idle": 1.3333333333333333,
+      "Skill_3_Loop": 1.3333333333333333,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 114
+    },
+    "back": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 65
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

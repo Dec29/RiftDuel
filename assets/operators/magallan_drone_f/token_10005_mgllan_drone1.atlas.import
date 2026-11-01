@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bnk8mnxqht32o"
+path="res://.godot/imported/token_10005_mgllan_drone1.atlas-6419dc0a544ae65b866f2cda3ff5ccba.tres"
+
+[deps]
+
+source_file="res://assets/operators/magallan_drone_f/token_10005_mgllan_drone1.atlas"
+dest_files=["res://.godot/imported/token_10005_mgllan_drone1.atlas-6419dc0a544ae65b866f2cda3ff5ccba.tres"]
+
+[params]
+
+normal_map_prefix="n"

@@ -1,0 +1,168 @@
+{
+  "operator_id": "warfarin",
+  "display_name": "华法琳",
+  "char_id": "char_171_bldsk",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/warfarin/front/char_171_bldsk.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_171_bldsk/front/char_171_bldsk.skel",
+      "sha256": "b4d7210cc1feb3caa4dc12c59c41ea035645fa66efb89123e69b128d5c392627",
+      "size": 81690
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/warfarin/front/char_171_bldsk.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_171_bldsk/front/char_171_bldsk.atlas",
+      "sha256": "d694b212dfe7ddb771559dc4fa2488afdd53511c6ce6f0447b7104ff0f70a158",
+      "size": 4332
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/warfarin/front/char_171_bldsk.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_171_bldsk/front/char_171_bldsk.png",
+      "sha256": "d631833d9410b2cce7db68ed3c967d388d6809881989f2ef4bf798165a4e2d31",
+      "size": 57036
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/warfarin/back/char_171_bldsk.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_171_bldsk/back/char_171_bldsk.skel",
+      "sha256": "2eb69c6e4d05f87e06c7032148951e4a759375b26f8b621b3b146d7073566aa1",
+      "size": 54590
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/warfarin/back/char_171_bldsk.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_171_bldsk/back/char_171_bldsk.atlas",
+      "sha256": "e6ed8421316d895109f6abc1ab0397d129fd4e849cc26c44492561b91e3e5c00",
+      "size": 2702
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/warfarin/back/char_171_bldsk.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_171_bldsk/back/char_171_bldsk.png",
+      "sha256": "9decaaae3ba86c8eb34d4bf58b6a2ee6a4218baf52328327aa8ddd1a34b351f5",
+      "size": 43554
+    }
+  ],
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "pages": 1,
+      "pma": false
+    },
+    "back": {
+      "width": 256,
+      "height": 256,
+      "pages": 1,
+      "pma": false
+    }
+  },
+  "slot_blend_modes": {
+    "front": {
+      "F_R_toufa": 0,
+      "F_L_toufa": 0,
+      "F_Shangti": 0,
+      "F_R_Shou1": 0,
+      "F_Tiejiaxia": 0,
+      "F_Guandao": 0,
+      "F_Tiejiaxia2": 0,
+      "F_Xuedai": 0,
+      "F_R_Shou2": 0,
+      "F_R_Shou3": 0,
+      "F_R_Shangb": 0,
+      "F_R_Xiabi": 0,
+      "F_R_Xiaotui": 0,
+      "F_R_Datui": 0,
+      "F_R_Xie": 0,
+      "F_Kua": 0,
+      "F_L_Xiaotui": 0,
+      "F_L_Datui": 0,
+      "F_L_Xiezi": 0,
+      "F_Xiasheng": 0,
+      "F_Shangti2": 0,
+      "F_L_Shouwo": 0,
+      "F_L_Xiab": 0,
+      "F_R_ear": 0,
+      "F_R_Rec": 0,
+      "F_Maozibh": 0,
+      "F_Maozi": 0,
+      "F_face": 0,
+      "F_L_Eyebrow": 0,
+      "F_L_eye": 0,
+      "F_R_eye2": 0,
+      "F_L_eye1": 0,
+      "F_Neckline": 0,
+      "F_Hair": 0,
+      "F_L_ear": 0,
+      "F_Shizijia": 0,
+      "F_Toufa1": 0,
+      "F_R_Eyebrow": 0,
+      "F_L_Eyebrow2": 0,
+      "F_Tiequan": 0,
+      "F_Backpack": 0,
+      "F_Tape": 0,
+      "F_Brand": 0,
+      "F_L_Shouzhang": 0,
+      "F_L_ShangB": 0
+    },
+    "back": {
+      "B_R_Youxiaotui": 0,
+      "B_R_Youxie": 0,
+      "B_R_Youdatui": 0,
+      "B_Kuabu": 0,
+      "B_L_Ziaot": 0,
+      "B_L_Zuoxie": 0,
+      "B_L_Datui": 0,
+      "B_L_Shoukai": 0,
+      "B_L_Shouwo": 0,
+      "B_L_Xiabi": 0,
+      "B_L_Shangb": 0,
+      "B_Bshangs": 0,
+      "B_Tiejiaxia": 0,
+      "B_Xueg": 0,
+      "B_Tiejia": 0,
+      "B_Xued": 0,
+      "B_R_Shangb": 0,
+      "B_R_Shouo": 0,
+      "B_R_Shouz": 0,
+      "B_R_Smallarms": 0,
+      "B_Neckline": 0,
+      "B_Backpack": 0,
+      "B_Tape": 0,
+      "B_Brand": 0,
+      "B_R_ear": 0,
+      "B_L_ear": 0,
+      "B_Hair": 0
+    }
+  },
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.16666666666667,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.0,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.16666666666667,
+      "Default": 0.0,
+      "Idle": 2.0,
+      "Start": 1.0
+    }
+  },
+  "animation_mapping": {
+    "attack_clip": "Attack",
+    "attack_seconds": 1.16666666666667,
+    "idle_seconds": 2.0,
+    "deploy_seconds": 1.0
+  },
+  "animation_note": "普通攻击与属性强化使用已测量的完整攻击动作；不以骨架动作后缀猜测技能编号。时长由原生完成事件测量，表现不影响模拟。"
+}

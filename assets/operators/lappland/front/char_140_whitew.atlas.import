@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://vwam1ngrb8w1"
+path="res://.godot/imported/char_140_whitew.atlas-ab33af5948ca005781406c9d310fd6bd.tres"
+
+[deps]
+
+source_file="res://assets/operators/lappland/front/char_140_whitew.atlas"
+dest_files=["res://.godot/imported/char_140_whitew.atlas-ab33af5948ca005781406c9d310fd6bd.tres"]
+
+[params]
+
+normal_map_prefix="n"

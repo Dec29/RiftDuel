@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://ds13hlhqxbetb"
+path="res://.godot/imported/char_358_lisa.skel-960edd03ca62e575260ef3fbe4b29087.tres"
+
+[deps]
+
+source_file="res://assets/operators/suzuran/front/char_358_lisa.skel"
+dest_files=["res://.godot/imported/char_358_lisa.skel-960edd03ca62e575260ef3fbe4b29087.tres"]
+
+[params]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cosxlen68v6qs"
+path="res://.godot/imported/char_171_bldsk.atlas-a426963166fb23734461518b7d0bbba5.tres"
+
+[deps]
+
+source_file="res://assets/operators/warfarin/front/char_171_bldsk.atlas"
+dest_files=["res://.godot/imported/char_171_bldsk.atlas-a426963166fb23734461518b7d0bbba5.tres"]
+
+[params]
+
+normal_map_prefix="n"

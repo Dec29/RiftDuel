@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://b8hj680eurgwx"
+path="res://.godot/imported/token_10017_skadi2_dedant.skel-27548d154e71853638ae5e0cce1a87d4.tres"
+
+[deps]
+
+source_file="res://assets/operators/seaborn/single/token_10017_skadi2_dedant.skel"
+dest_files=["res://.godot/imported/token_10017_skadi2_dedant.skel-27548d154e71853638ae5e0cce1a87d4.tres"]
+
+[params]

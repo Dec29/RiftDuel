@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://fpy5k6v44lay"
+path="res://.godot/imported/char_108_silent.skel-096227552cbb93a7ae74585d23ca8193.tres"
+
+[deps]
+
+source_file="res://assets/operators/silence/back/char_108_silent.skel"
+dest_files=["res://.godot/imported/char_108_silent.skel-096227552cbb93a7ae74585d23ca8193.tres"]
+
+[params]

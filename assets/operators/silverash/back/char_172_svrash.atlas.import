@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bykkmof322oil"
+path="res://.godot/imported/char_172_svrash.atlas-2be2a3ab3be1d442cf2ee99fd5403afe.tres"
+
+[deps]
+
+source_file="res://assets/operators/silverash/back/char_172_svrash.atlas"
+dest_files=["res://.godot/imported/char_172_svrash.atlas-2be2a3ab3be1d442cf2ee99fd5403afe.tres"]
+
+[params]
+
+normal_map_prefix="n"

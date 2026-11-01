@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cugo3yoja36rg"
+path="res://.godot/imported/char_181_flower.atlas-855b55478148bc9adf74e396c8897efc.tres"
+
+[deps]
+
+source_file="res://assets/operators/perfumer/back/char_181_flower.atlas"
+dest_files=["res://.godot/imported/char_181_flower.atlas-855b55478148bc9adf74e396c8897efc.tres"]
+
+[params]
+
+normal_map_prefix="n"

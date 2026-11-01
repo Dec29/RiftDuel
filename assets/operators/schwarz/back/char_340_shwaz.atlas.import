@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bdg03fmhoncu1"
+path="res://.godot/imported/char_340_shwaz.atlas-40b0b40e744e087f1aff0fa086bac4b1.tres"
+
+[deps]
+
+source_file="res://assets/operators/schwarz/back/char_340_shwaz.atlas"
+dest_files=["res://.godot/imported/char_340_shwaz.atlas-40b0b40e744e087f1aff0fa086bac4b1.tres"]
+
+[params]
+
+normal_map_prefix="n"

@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://budqe151kbe3j"
+path="res://.godot/imported/char_002_amiya.skel-566ee2c8d9954423641b90a71de7b863.tres"
+
+[deps]
+
+source_file="res://assets/operators/amiya/front/char_002_amiya.skel"
+dest_files=["res://.godot/imported/char_002_amiya.skel-566ee2c8d9954423641b90a71de7b863.tres"]
+
+[params]

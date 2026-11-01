@@ -1,0 +1,173 @@
+{
+  "operator_id": "haze",
+  "display_name": "夜烟",
+  "char_id": "char_141_nights",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/haze/front/char_141_nights.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_141_nights/front/char_141_nights.skel",
+      "sha256": "e69039b83b8b9cff2383ffd385015987b4513974f75bf049eaa55ae8bd2afa0a",
+      "size": 94453
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/haze/front/char_141_nights.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_141_nights/front/char_141_nights.atlas",
+      "sha256": "3e18bf0bf2ae1c4eb94f439b42607401694de359cec1d096860300a38a9c2124",
+      "size": 6703
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/haze/front/char_141_nights.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_141_nights/front/char_141_nights.png",
+      "sha256": "51166ff377151f0cbf1edb4b0d059e53d240ede3b993a67a1b738a4b153c8ea7",
+      "size": 68098
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/haze/back/char_141_nights.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_141_nights/back/char_141_nights.skel",
+      "sha256": "146fa17fd2bd3fc7425d06dcd579c525011838ba04560c613cceef34993c664b",
+      "size": 62596
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/haze/back/char_141_nights.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_141_nights/back/char_141_nights.atlas",
+      "sha256": "7052aecf57cf19ef5cd17504e1bb30a6a904bb99a156c3dc3e233085586ac73b",
+      "size": 3065
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/haze/back/char_141_nights.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_141_nights/back/char_141_nights.png",
+      "sha256": "dc3f926d29dff591e3e9f993789a84f1476a87d4d6001550d5989f193f6e35c5",
+      "size": 46009
+    }
+  ],
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "pages": 1,
+      "pma": false
+    },
+    "back": {
+      "width": 256,
+      "height": 256,
+      "pages": 1,
+      "pma": false
+    }
+  },
+  "slot_blend_modes": {
+    "front": {
+      "F_Chains": 0,
+      "F_Tail": 0,
+      "F_L_Hand": 0,
+      "F_L_Forearm": 0,
+      "F_L_Sleeve": 0,
+      "F_Weapon": 0,
+      "F_L_Finger": 0,
+      "F_L_Calf": 0,
+      "F_L_Foot": 0,
+      "F_L_Leg": 0,
+      "F_R_Calf": 0,
+      "F_R_Foot": 0,
+      "F_R_Leg": 0,
+      "F_Waist": 0,
+      "F_Chest": 0,
+      "F_Coat": 0,
+      "F_R_Arm": 0,
+      "F_R_Forearm": 0,
+      "F_R_Finger1": 0,
+      "F_R_Finger5": 0,
+      "F_R_Finger4": 0,
+      "F_R_Finger3": 0,
+      "F_R_Finger2": 0,
+      "F_R_Hand": 0,
+      "F_Hat_B": 0,
+      "F_Head": 0,
+      "F_Collar": 0,
+      "F_Hair_R2": 0,
+      "F_Hair_FR": 0,
+      "F_Hair_R1": 0,
+      "F_Hair_FL": 0,
+      "F_Hair_B": 0,
+      "F_Hair_R": 0,
+      "F_L_Ear": 0,
+      "F_Hat": 0,
+      "F_R_Ear": 0,
+      "F_Mouth": 0,
+      "F_R_Eye": 0,
+      "F_L_Eye": 0,
+      "F_L_Eyebrow": 0,
+      "F_R_Eyebrow": 0,
+      "F_Chains_Path": 0
+    },
+    "back": {
+      "B_Chains_Path": 0,
+      "B_Weapon": 0,
+      "B_L_Arm": 0,
+      "B_L_Forearm": 0,
+      "B_L_Finger2": 0,
+      "B_L_Finger3": 0,
+      "B_L_Finger4": 0,
+      "B_L_Finger5": 0,
+      "B_L_Finger1": 0,
+      "B_L_Hand": 0,
+      "B_L_Calf": 0,
+      "B_L_Foot": 0,
+      "B_L_Leg": 0,
+      "B_R_Calf": 0,
+      "B_R_Foot": 0,
+      "B_R_Leg": 0,
+      "B_Waist": 0,
+      "B_Chest": 0,
+      "B_Tail": 0,
+      "B_Coat": 0,
+      "B_R_Finger": 0,
+      "B_R_Hand": 0,
+      "B_R_Forearm": 0,
+      "B_R_Sleeve": 0,
+      "B_Chains": 0,
+      "B_Collar": 0,
+      "B_L_Ear": 0,
+      "B_Head": 0,
+      "B_Hat": 0,
+      "B_R_Ear": 0
+    }
+  },
+  "animation_seconds": {
+    "front": {
+      "Attack_Begin": 0.166666666666667,
+      "Attack_End": 0.166666666666667,
+      "Attack_Loop": 0.833333333333333,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.0,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack_Begin": 0.166666666666667,
+      "Attack_End": 0.166666666666667,
+      "Attack_Loop": 0.833333333333333,
+      "Default": 0.0,
+      "Idle": 2.0,
+      "Start": 1.0
+    }
+  },
+  "animation_mapping": {
+    "attack_clip": "Attack_Loop",
+    "attack_seconds": 0.833333333333333,
+    "idle_seconds": 2.0,
+    "deploy_seconds": 1.0,
+    "chain_seconds": "0.166666666666667,0.833333333333333,0.166666666666667"
+  },
+  "animation_note": "普通攻击与属性强化使用已测量的完整攻击动作；不以骨架动作后缀猜测技能编号。时长由原生完成事件测量，表现不影响模拟。"
+}

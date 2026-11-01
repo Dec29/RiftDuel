@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://b14nv7gyag74h"
+path="res://.godot/imported/char_291_aglina.skel-bd069df9ec6b782f2251279cc9d369b9.tres"
+
+[deps]
+
+source_file="res://assets/operators/angelina/front/char_291_aglina.skel"
+dest_files=["res://.godot/imported/char_291_aglina.skel-bd069df9ec6b782f2251279cc9d369b9.tres"]
+
+[params]

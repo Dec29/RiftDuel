@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://c48rhgvqwoi1o"
+path="res://.godot/imported/char_437_mizuki.atlas-e6dddf389525591fa779bb9a27bd3169.tres"
+
+[deps]
+
+source_file="res://assets/operators/mizuki/back/char_437_mizuki.atlas"
+dest_files=["res://.godot/imported/char_437_mizuki.atlas-e6dddf389525591fa779bb9a27bd3169.tres"]
+
+[params]
+
+normal_map_prefix="n"

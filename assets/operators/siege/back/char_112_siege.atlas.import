@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://63mg2peyx71o"
+path="res://.godot/imported/char_112_siege.atlas-8817f10f324cdd421e6d5f7cf53510a7.tres"
+
+[deps]
+
+source_file="res://assets/operators/siege/back/char_112_siege.atlas"
+dest_files=["res://.godot/imported/char_112_siege.atlas-8817f10f324cdd421e6d5f7cf53510a7.tres"]
+
+[params]
+
+normal_map_prefix="n"

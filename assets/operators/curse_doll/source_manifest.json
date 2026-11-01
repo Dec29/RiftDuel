@@ -1,0 +1,64 @@
+{
+  "operator_id": "curse_doll",
+  "display_name": "诅咒娃娃",
+  "char_id": "token_10006_vodfox_doll",
+  "costume": "原作独立召唤物",
+  "model_kind": "battle single",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "files": [
+    {
+      "side": "single",
+      "file": "res://assets/operators/curse_doll/single/token_10006_vodfox_doll.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10006_vodfox_doll/token_10006_vodfox_doll.skel",
+      "sha256": "372ffadef9a9fcd201a35fdd0247b8df492391d3750a623dfe8f1d465afa5589",
+      "size": 14830
+    },
+    {
+      "side": "single",
+      "file": "res://assets/operators/curse_doll/single/token_10006_vodfox_doll.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10006_vodfox_doll/token_10006_vodfox_doll.atlas",
+      "sha256": "6e45523737e394b57fbfe1e5f80f2951e3e9e5f48e50586338e1700933b0b384",
+      "size": 1134
+    },
+    {
+      "side": "single",
+      "file": "res://assets/operators/curse_doll/single/token_10006_vodfox_doll.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10006_vodfox_doll/token_10006_vodfox_doll.png",
+      "sha256": "9f4485daa9f7ea3127c14d0b98fa272a1d9e52a2dda4032ac0478c196d02d635",
+      "size": 14678
+    }
+  ],
+  "slot_blend_modes": {
+    "single": {
+      "C_Tail": 0,
+      "C_L_Hand": 0,
+      "C_L_Knife": 0,
+      "C_L_Finger": 0,
+      "C_R_Leg": 0,
+      "C_L_Leg": 0,
+      "C_Head": 0,
+      "C_Body": 0,
+      "C_R_Leg_SP": 0,
+      "C_L_Leg_SP": 0,
+      "C_R_Knife": 0,
+      "C_R_Hand": 0
+    }
+  },
+  "atlas_pages": {
+    "single": {
+      "width": 128,
+      "height": 128,
+      "pages": 1,
+      "pma": false
+    }
+  },
+  "note": "原始召唤物仅单向；四方向复用原生资源并按投影镜像，不伪造背面。",
+  "animation_seconds": {
+    "Default": 0.0,
+    "Die": 0.666666666666667,
+    "Idle": 0.933333333333333,
+    "Start": 1.0
+  }
+}

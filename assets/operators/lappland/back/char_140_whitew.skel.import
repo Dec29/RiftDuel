@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://co4wd3s5m74ha"
+path="res://.godot/imported/char_140_whitew.skel-20c2764ba8f882f8f22ec5955e24bc50.tres"
+
+[deps]
+
+source_file="res://assets/operators/lappland/back/char_140_whitew.skel"
+dest_files=["res://.godot/imported/char_140_whitew.skel-20c2764ba8f882f8f22ec5955e24bc50.tres"]
+
+[params]

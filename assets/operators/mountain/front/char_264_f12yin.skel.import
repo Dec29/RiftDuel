@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://drawouex3phta"
+path="res://.godot/imported/char_264_f12yin.skel-8228852fd4d48a0a99092f33b86a9349.tres"
+
+[deps]
+
+source_file="res://assets/operators/mountain/front/char_264_f12yin.skel"
+dest_files=["res://.godot/imported/char_264_f12yin.skel-8228852fd4d48a0a99092f33b86a9349.tres"]
+
+[params]

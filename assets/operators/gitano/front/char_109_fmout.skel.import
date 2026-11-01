@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://bok44u0oi1hel"
+path="res://.godot/imported/char_109_fmout.skel-bf8ec18cb16cfd8ae4eabb99c11e613a.tres"
+
+[deps]
+
+source_file="res://assets/operators/gitano/front/char_109_fmout.skel"
+dest_files=["res://.godot/imported/char_109_fmout.skel-bf8ec18cb16cfd8ae4eabb99c11e613a.tres"]
+
+[params]

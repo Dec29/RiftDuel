@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://c1durbr6nl8mo"
+path="res://.godot/imported/char_141_nights.skel-47c0e08aa5bac55cd177c032b4703741.tres"
+
+[deps]
+
+source_file="res://assets/operators/haze/back/char_141_nights.skel"
+dest_files=["res://.godot/imported/char_141_nights.skel-47c0e08aa5bac55cd177c032b4703741.tres"]
+
+[params]

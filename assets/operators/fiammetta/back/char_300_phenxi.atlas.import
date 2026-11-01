@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://kttd6hmksdg5"
+path="res://.godot/imported/char_300_phenxi.atlas-38032da585d6bce82164d6775c09a400.tres"
+
+[deps]
+
+source_file="res://assets/operators/fiammetta/back/char_300_phenxi.atlas"
+dest_files=["res://.godot/imported/char_300_phenxi.atlas-38032da585d6bce82164d6775c09a400.tres"]
+
+[params]
+
+normal_map_prefix="n"

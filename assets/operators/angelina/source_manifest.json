@@ -1,0 +1,56 @@
+{
+  "operator_id": "angelina",
+  "display_name": "安洁莉娜",
+  "char_id": "char_291_aglina",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "atlas_page_size": "512x512",
+  "note": "Ark-Models 的基建小人不是战斗来源，未使用。原始骨架经 tools/import_operator_visual.gd 生成压缩资源。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/angelina/back/char_291_aglina.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_291_aglina/back/char_291_aglina.atlas",
+      "sha256": "0c6bdf2105844f354e8f8d16e79be01d117e1f00a757ac2874b002cfe9ebf087",
+      "size": 7663
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/angelina/back/char_291_aglina.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_291_aglina/back/char_291_aglina.png",
+      "sha256": "c76784b53fd8e7577cacd17ee094e76c779b006029067f13d1d050d6685546bc",
+      "size": 98676
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/angelina/back/char_291_aglina.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_291_aglina/back/char_291_aglina.skel",
+      "sha256": "75a61e750bba28b6cbf18af359c95894212e707eae8428eb4275c0497193fa05",
+      "size": 238973
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/angelina/front/char_291_aglina.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_291_aglina/front/char_291_aglina.atlas",
+      "sha256": "0c6bdf2105844f354e8f8d16e79be01d117e1f00a757ac2874b002cfe9ebf087",
+      "size": 7663
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/angelina/front/char_291_aglina.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_291_aglina/front/char_291_aglina.png",
+      "sha256": "c76784b53fd8e7577cacd17ee094e76c779b006029067f13d1d050d6685546bc",
+      "size": 98676
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/angelina/front/char_291_aglina.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_291_aglina/front/char_291_aglina.skel",
+      "sha256": "75a61e750bba28b6cbf18af359c95894212e707eae8428eb4275c0497193fa05",
+      "size": 238973
+    }
+  ]
+}

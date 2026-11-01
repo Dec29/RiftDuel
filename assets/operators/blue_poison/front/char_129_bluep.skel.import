@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://ca5y31qqwua5r"
+path="res://.godot/imported/char_129_bluep.skel-d633f4043db076b847be5e884134b297.tres"
+
+[deps]
+
+source_file="res://assets/operators/blue_poison/front/char_129_bluep.skel"
+dest_files=["res://.godot/imported/char_129_bluep.skel-d633f4043db076b847be5e884134b297.tres"]
+
+[params]

@@ -1,0 +1,107 @@
+{
+  "operator_id": "archetto",
+  "char_id": "char_332_archet",
+  "display_name": "空弦",
+  "files": [
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/archetto/front/char_332_archet.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_332_archet/front/char_332_archet.atlas",
+      "bytes": 11014,
+      "sha256": "03b320d20ffff015677686333f7c4480071a66ba84d143ff74c8827cbabf425b"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/archetto/front/char_332_archet.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_332_archet/front/char_332_archet.skel",
+      "bytes": 314221,
+      "sha256": "6b534720eda4bc89136b6693243e8a9b976a3f7a1a0a3b152bdec427c134c4e8",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/archetto/front/char_332_archet.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_332_archet/front/char_332_archet.png",
+      "bytes": 176960,
+      "sha256": "d653c794ca255fa1613118687a0abe986414470336e0d25ab8806198346fd101",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/archetto/back/char_332_archet.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_332_archet/back/char_332_archet.atlas",
+      "bytes": 11014,
+      "sha256": "03b320d20ffff015677686333f7c4480071a66ba84d143ff74c8827cbabf425b"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/archetto/back/char_332_archet.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_332_archet/back/char_332_archet.skel",
+      "bytes": 275559,
+      "sha256": "f68a93976fa538dec8230ee38bd0ecc02bbe48bce15bce6986408ba84cefbe81",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/archetto/back/char_332_archet.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_332_archet/back/char_332_archet.png",
+      "bytes": 176960,
+      "sha256": "d653c794ca255fa1613118687a0abe986414470336e0d25ab8806198346fd101",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified.",
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.2,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 4.0,
+      "Skill_1": 1.2,
+      "Skill_2": 1.33333333333333,
+      "Skill_3": 1.23333333333333,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.2,
+      "Default": 0.0,
+      "Idle": 4.0,
+      "Skill_1": 1.2,
+      "Skill_2": 1.33333333333333,
+      "Skill_3": 1.23333333333333,
+      "Start": 1.0
+    }
+  },
+  "animation_mapping": {
+    "attack_clip": "Attack",
+    "attack_seconds": 1.2,
+    "idle_seconds": 4.0,
+    "deploy_seconds": 1.0
+  },
+  "animation_measurement": "Native 3.8 completion events sampled at1/300s and rounded to30fps; only presentation, never simulation.",
+  "normal_blend_verified": true,
+  "skill_animation_mapping": [
+    {
+      "cast": "Skill_1"
+    },
+    {
+      "cast": "Skill_2"
+    },
+    {
+      "attack": "Skill_3"
+    }
+  ]
+}

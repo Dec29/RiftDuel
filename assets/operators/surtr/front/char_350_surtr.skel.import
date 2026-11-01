@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dgiufmnveabtv"
+path="res://.godot/imported/char_350_surtr.skel-18bc0b514dfdb8d5e6ef3b9ec1713675.tres"
+
+[deps]
+
+source_file="res://assets/operators/surtr/front/char_350_surtr.skel"
+dest_files=["res://.godot/imported/char_350_surtr.skel-18bc0b514dfdb8d5e6ef3b9ec1713675.tres"]
+
+[params]

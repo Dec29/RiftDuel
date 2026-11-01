@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://be3maix6gdvlt"
+path="res://.godot/imported/char_112_siege.skel-84c126b11960a0008d4cd109f3e3e509.tres"
+
+[deps]
+
+source_file="res://assets/operators/siege/back/char_112_siege.skel"
+dest_files=["res://.godot/imported/char_112_siege.skel-84c126b11960a0008d4cd109f3e3e509.tres"]
+
+[params]

@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dx8751d4ac63b"
+path="res://.godot/imported/char_172_svrash.skel-edf744d55d2aed3e81588c24daa44ce8.tres"
+
+[deps]
+
+source_file="res://assets/operators/silverash/front/char_172_svrash.skel"
+dest_files=["res://.godot/imported/char_172_svrash.skel-edf744d55d2aed3e81588c24daa44ce8.tres"]
+
+[params]

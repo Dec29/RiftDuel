@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://bpfvx4l318gln"
+path="res://.godot/imported/char_174_slbell.skel-9e8e37d2663b53a8f3b823cdf6fe5b0c.tres"
+
+[deps]
+
+source_file="res://assets/operators/pramanix/back/char_174_slbell.skel"
+dest_files=["res://.godot/imported/char_174_slbell.skel-9e8e37d2663b53a8f3b823cdf6fe5b0c.tres"]
+
+[params]

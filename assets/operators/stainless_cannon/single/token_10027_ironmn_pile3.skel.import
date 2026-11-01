@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://d0vr80k23la7p"
+path="res://.godot/imported/token_10027_ironmn_pile3.skel-422f093dc7d949bd68dc111b8ced1c10.tres"
+
+[deps]
+
+source_file="res://assets/operators/stainless_cannon/single/token_10027_ironmn_pile3.skel"
+dest_files=["res://.godot/imported/token_10027_ironmn_pile3.skel-422f093dc7d949bd68dc111b8ced1c10.tres"]
+
+[params]

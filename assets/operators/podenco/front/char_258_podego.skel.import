@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://d18sylnlh57ud"
+path="res://.godot/imported/char_258_podego.skel-5b5db51343fa72bbe6a652882cbe6d09.tres"
+
+[deps]
+
+source_file="res://assets/operators/podenco/front/char_258_podego.skel"
+dest_files=["res://.godot/imported/char_258_podego.skel-5b5db51343fa72bbe6a652882cbe6d09.tres"]
+
+[params]

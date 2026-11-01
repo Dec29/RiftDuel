@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dtusjg54u62x8"
+path="res://.godot/imported/char_358_lisa.atlas-1b597115a624b595479b5c87047fb591.tres"
+
+[deps]
+
+source_file="res://assets/operators/suzuran/back/char_358_lisa.atlas"
+dest_files=["res://.godot/imported/char_358_lisa.atlas-1b597115a624b595479b5c87047fb591.tres"]
+
+[params]
+
+normal_map_prefix="n"

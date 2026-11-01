@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dgcm70ym1o40r"
+path="res://.godot/imported/char_103_angel.skel-639b7fc48a13ed23d1825a100b530a51.tres"
+
+[deps]
+
+source_file="res://assets/operators/exusiai/back/char_103_angel.skel"
+dest_files=["res://.godot/imported/char_103_angel.skel-639b7fc48a13ed23d1825a100b530a51.tres"]
+
+[params]

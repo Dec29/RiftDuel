@@ -1,0 +1,93 @@
+{
+  "operator_id": "w",
+  "display_name": "W",
+  "char_id": "char_113_cqbw",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/w/front/char_113_cqbw.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_113_cqbw/front/char_113_cqbw.skel",
+      "sha256": "3ab7ab21b507667118909c5622f9dca281cef127bb1b22377f250f730370a1c5",
+      "size": 219793
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/w/front/char_113_cqbw.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_113_cqbw/front/char_113_cqbw.atlas",
+      "sha256": "86c0013e12a8d70a0f32f05be8e400f2c7dffc5fa54074e31d410984df2fbdc2",
+      "size": 8432
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/w/front/char_113_cqbw.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_113_cqbw/front/char_113_cqbw.png",
+      "sha256": "d96e66f5d162f0daf1e85e840c3f44954a9d04a45b2c0dcf39c908972ab48fb1",
+      "size": 71631
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/w/back/char_113_cqbw.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_113_cqbw/back/char_113_cqbw.skel",
+      "sha256": "d2b358d778f6ccdc9547b9f2dc2eb247569b14823d55ff00317a81cb77fc8fc5",
+      "size": 154590
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/w/back/char_113_cqbw.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_113_cqbw/back/char_113_cqbw.atlas",
+      "sha256": "a9416e4bfecedf119ee03f034e6ecc618e20463e7bf63afdf8971942236ecf33",
+      "size": 5148
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/w/back/char_113_cqbw.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_113_cqbw/back/char_113_cqbw.png",
+      "sha256": "5125507665df24a911f0692ffbc2126f6b3df986d4808d00f449c72bacdae02a",
+      "size": 58118
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.4666666666666666,
+      "Attack_Down": 1.4666666666666666,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.6666666666666665,
+      "Skill_1": 1.4666666666666666,
+      "Skill_2": 2.8,
+      "Skill_3": 1.9333333333333333,
+      "Start": 1.0,
+      "Stun": 0.8333333333333334
+    },
+    "back": {
+      "Attack": 1.4666666666666666,
+      "Default": 0.0,
+      "Idle": 2.6666666666666665,
+      "Skill_1": 1.4666666666666666,
+      "Skill_2": 2.8,
+      "Skill_3": 1.9333333333333333,
+      "Start": 1.0,
+      "Stun": 0.8333333333333334
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 73
+    },
+    "back": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 62
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

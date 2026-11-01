@@ -1,0 +1,55 @@
+{
+  "operator_id": "cliffheart",
+  "display_name": "崖心",
+  "char_id": "char_173_slchan",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "note": "原始素材按固定提交与SHA校验；已由3.8原生提供器生成运行资源，动作时长以实际完成事件核定，映射见OperatorSpineMap。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/cliffheart/back/char_173_slchan.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_173_slchan/back/char_173_slchan.atlas",
+      "sha256": "df067a04e2632aa678ddc4d4c8fd063edee9d75d40eb9f526cb8f03ac414d99d",
+      "size": 3905
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/cliffheart/back/char_173_slchan.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_173_slchan/back/char_173_slchan.png",
+      "sha256": "e833821255f5f9b982410545477998a7a2d8f01092e5ada74349f484f7b2c513",
+      "size": 45660
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/cliffheart/back/char_173_slchan.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_173_slchan/back/char_173_slchan.skel",
+      "sha256": "198724b71158a5f1fbbee4fa323b4729ed9047a3a887c437c3ebfedaa762158b",
+      "size": 92855
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/cliffheart/front/char_173_slchan.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_173_slchan/front/char_173_slchan.atlas",
+      "sha256": "86e927f7bf66316dadf86dd97d8f270d4ce1ad5ff08a2b74f876dfb58e50f324",
+      "size": 6598
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/cliffheart/front/char_173_slchan.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_173_slchan/front/char_173_slchan.png",
+      "sha256": "2bb4d65366353f2893b5aad5fdb4ce67f09f664701184db738756d65f3f8d176",
+      "size": 61660
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/cliffheart/front/char_173_slchan.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_173_slchan/front/char_173_slchan.skel",
+      "sha256": "8f518aecfa95dbadd17410778e25dec14835497aadb1d42d6b583af0c526604b",
+      "size": 142879
+    }
+  ]
+}

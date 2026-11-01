@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://5lwucte58rk8"
+path="res://.godot/imported/token_10026_bgsnow_subbow.atlas-00440005db6ee4fb527ecc762ce7073b.tres"
+
+[deps]
+
+source_file="res://assets/operators/pozyomka_typewriter/single/token_10026_bgsnow_subbow.atlas"
+dest_files=["res://.godot/imported/token_10026_bgsnow_subbow.atlas-00440005db6ee4fb527ecc762ce7073b.tres"]
+
+[params]
+
+normal_map_prefix="n"

@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cw8tjyqmp2jll"
+path="res://.godot/imported/char_258_podego.atlas-b10a12b4c154f0c84b2ffbe6f0eee69a.tres"
+
+[deps]
+
+source_file="res://assets/operators/podenco/back/char_258_podego.atlas"
+dest_files=["res://.godot/imported/char_258_podego.atlas-b10a12b4c154f0c84b2ffbe6f0eee69a.tres"]
+
+[params]
+
+normal_map_prefix="n"

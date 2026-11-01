@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://b7mics63yyfl6"
+path="res://.godot/imported/char_277_sqrrel.atlas-6cd4fb60cea24db173d221871f8c3c69.tres"
+
+[deps]
+
+source_file="res://assets/operators/shaw/front/char_277_sqrrel.atlas"
+dest_files=["res://.godot/imported/char_277_sqrrel.atlas-6cd4fb60cea24db173d221871f8c3c69.tres"]
+
+[params]
+
+normal_map_prefix="n"

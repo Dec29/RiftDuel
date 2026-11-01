@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://ghdpjjprjpr8"
+path="res://.godot/imported/char_113_cqbw.skel-652b7ba6ee4c0ceda06b905df4a4550e.tres"
+
+[deps]
+
+source_file="res://assets/operators/w/front/char_113_cqbw.skel"
+dest_files=["res://.godot/imported/char_113_cqbw.skel-652b7ba6ee4c0ceda06b905df4a4550e.tres"]
+
+[params]

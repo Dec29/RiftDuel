@@ -1,0 +1,91 @@
+{
+  "operator_id": "liskarm",
+  "display_name": "雷蛇",
+  "char_id": "char_107_liskam",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/liskarm/front/char_107_liskam.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_107_liskam/front/char_107_liskam.skel",
+      "sha256": "d27540a6972c84f3ca96379520690c255a358bceaca66324707c498e6776171a",
+      "size": 121972
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/liskarm/front/char_107_liskam.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_107_liskam/front/char_107_liskam.atlas",
+      "sha256": "8f525dfd9fcf9b89392f7a21b79256e8ecec29aa63e3123f04c634fef4ffb9c6",
+      "size": 5765
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/liskarm/front/char_107_liskam.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_107_liskam/front/char_107_liskam.png",
+      "sha256": "0662696ac71d76a8c7668b5e2f5160b3908acd0d313502a0a34a6794f92dfc22",
+      "size": 59117
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/liskarm/back/char_107_liskam.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_107_liskam/back/char_107_liskam.skel",
+      "sha256": "44b2ec5262d06776f260ddbd36d2664e78bbc7bd5e15b7d6e489480b7514b59f",
+      "size": 58713
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/liskarm/back/char_107_liskam.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_107_liskam/back/char_107_liskam.atlas",
+      "sha256": "1193c1a901c0400c616b75bd30f00407c66a795b7cab024520cb3abf1868274f",
+      "size": 2761
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/liskarm/back/char_107_liskam.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_107_liskam/back/char_107_liskam.png",
+      "sha256": "713c623e6a941405d8360a885783c8c9db60ef0b5179015e49d88153d22ad126",
+      "size": 45495
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack_Begin": 0.3333333333333333,
+      "Attack_End": 0.3333333333333333,
+      "Attack_Loop": 1.2,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.0,
+      "Skill": 0.8666666666666667,
+      "Skill_Down": 0.8666666666666667,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack_Begin": 0.3333333333333333,
+      "Attack_End": 0.3333333333333333,
+      "Attack_Loop": 1.2,
+      "Default": 0.0,
+      "Idle": 2.0,
+      "Skill": 0.8666666666666667,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 60
+    },
+    "back": {
+      "width": 256,
+      "height": 256,
+      "mode": "straight alpha",
+      "normal_slots": 33
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

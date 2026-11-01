@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://buy0ugxsj1byb"
+path="res://.godot/imported/char_003_kalts.atlas-3be82092265163e25f6301e920fd241b.tres"
+
+[deps]
+
+source_file="res://assets/operators/kaltsit/back/char_003_kalts.atlas"
+dest_files=["res://.godot/imported/char_003_kalts.atlas-3be82092265163e25f6301e920fd241b.tres"]
+
+[params]
+
+normal_map_prefix="n"

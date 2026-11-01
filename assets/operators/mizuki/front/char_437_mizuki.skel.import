@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://cahk6i0bor63r"
+path="res://.godot/imported/char_437_mizuki.skel-96420c86702f3306b326fd8d05e97c12.tres"
+
+[deps]
+
+source_file="res://assets/operators/mizuki/front/char_437_mizuki.skel"
+dest_files=["res://.godot/imported/char_437_mizuki.skel-96420c86702f3306b326fd8d05e97c12.tres"]
+
+[params]

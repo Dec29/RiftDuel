@@ -1,0 +1,124 @@
+{
+  "operator_id": "carnelian",
+  "char_id": "char_426_billro",
+  "display_name": "卡涅利安",
+  "files": [
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/carnelian/front/char_426_billro.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_426_billro/front/char_426_billro.atlas",
+      "bytes": 8456,
+      "sha256": "6c6c73536db8d10b07447be8d9782553bcc9c24ce8ff2c6d3f4fe4e58638bc09"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/carnelian/front/char_426_billro.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_426_billro/front/char_426_billro.skel",
+      "bytes": 193876,
+      "sha256": "27c42ddd5b930c681636a8f2057eeb22705414fa574246225c84ec6385b66066",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/carnelian/front/char_426_billro.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_426_billro/front/char_426_billro.png",
+      "bytes": 81433,
+      "sha256": "96c27c45d6fdc9e5c4db757f0621c8d51b027917a3a5e2e31c324dfef93bda85",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/carnelian/back/char_426_billro.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_426_billro/back/char_426_billro.atlas",
+      "bytes": 3542,
+      "sha256": "897817fcacbf1940fd2f5b3abd4d6c8533289ea75b38796e2ff03d187e746b06"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/carnelian/back/char_426_billro.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_426_billro/back/char_426_billro.skel",
+      "bytes": 100147,
+      "sha256": "27bd973de92bc5a33e9b5e178e30f12e8e1b3510775aae4ce9f0712429c492ac",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/carnelian/back/char_426_billro.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_426_billro/back/char_426_billro.png",
+      "bytes": 45941,
+      "sha256": "f3ce1895f88524fdfc97d38d61db35cd119cc3b6612fce90d6e034ec651e37cf",
+      "width": 256,
+      "height": 256
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified.",
+  "animation_seconds": {
+    "front": {
+      "Default": 0.0,
+      "Die": 1.03333333333333,
+      "Idle": 4.0,
+      "Skill_2_Begin": 0.5,
+      "Skill_2_End": 0.5,
+      "Skill_2_Idle": 3.33333333333333,
+      "Skill_2_Loop": 1.06666666666667,
+      "Skill_Begin": 0.5,
+      "Skill_End": 0.5,
+      "Skill_Idle": 3.33333333333333,
+      "Skill_Loop": 1.06666666666667,
+      "Start": 1.0
+    },
+    "back": {
+      "Default": 0.0,
+      "Idle": 4.0,
+      "Skill_2_Begin": 0.5,
+      "Skill_2_End": 0.5,
+      "Skill_2_Idle": 3.33333333333333,
+      "Skill_2_Loop": 1.06666666666667,
+      "Skill_Begin": 0.5,
+      "Skill_End": 0.5,
+      "Skill_Idle": 3.33333333333333,
+      "Skill_Loop": 1.06666666666667,
+      "Start": 1.0
+    }
+  },
+  "animation_mapping": {
+    "attack_clip": "Skill_Loop",
+    "attack_seconds": 1.06666666666667,
+    "idle_seconds": 4.0,
+    "deploy_seconds": 1.0
+  },
+  "animation_measurement": "Native 3.8 completion events sampled at1/300s and rounded to30fps; only presentation, never simulation.",
+  "normal_blend_verified": true,
+  "skill_animation_mapping": [
+    {
+      "begin": "Skill_Begin",
+      "idle": "Skill_Idle",
+      "attack": "Skill_Loop",
+      "end": "Skill_End"
+    },
+    {
+      "begin": "Skill_Begin",
+      "idle": "Skill_Idle",
+      "attack": "Skill_Loop",
+      "end": "Skill_End"
+    },
+    {
+      "begin": "Skill_2_Begin",
+      "idle": "Skill_2_Idle",
+      "attack": "Skill_2_Loop",
+      "end": "Skill_2_End"
+    }
+  ]
+}

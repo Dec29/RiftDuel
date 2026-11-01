@@ -1,0 +1,87 @@
+{
+  "operator_id": "pramanix",
+  "display_name": "初雪",
+  "char_id": "char_174_slbell",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/pramanix/front/char_174_slbell.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_174_slbell/front/char_174_slbell.skel",
+      "sha256": "6bdb24f43b09acdf4fa3b51227f00dd2213692aa3c12947a4df0aac6df93857f",
+      "size": 222164
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/pramanix/front/char_174_slbell.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_174_slbell/front/char_174_slbell.atlas",
+      "sha256": "d56ba5f396f2accc92e4f96a2234b06fb3722fdb6e1ed4f1468bf2970839c9c1",
+      "size": 5314
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/pramanix/front/char_174_slbell.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_174_slbell/front/char_174_slbell.png",
+      "sha256": "c81932ac4bb388004a815fe8db1b1d69590c6d6b6d7b20ddc089357daafb6f36",
+      "size": 78462
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/pramanix/back/char_174_slbell.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_174_slbell/back/char_174_slbell.skel",
+      "sha256": "c97d10c8ed5aa511e3621ff5bd72edb0884dbf3f7256140fff86ed0511e7f796",
+      "size": 74934
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/pramanix/back/char_174_slbell.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_174_slbell/back/char_174_slbell.atlas",
+      "sha256": "092a11bac6acb9bf30b7d6c4f4da1227f49fbf91a6144feb2c9a147bd9c79297",
+      "size": 3972
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/pramanix/back/char_174_slbell.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_174_slbell/back/char_174_slbell.png",
+      "sha256": "9d8339643fb64dac60a4625fc7285c20c5c7d9dab84a513d4d5771528d176b2f",
+      "size": 63608
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.1666666666666667,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 2.0,
+      "Skill_End": 0.36666666666666664,
+      "Skill_Loop": 0.8,
+      "Skill_Start": 0.3333333333333333,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.1666666666666667,
+      "Default": 0.0,
+      "Idle": 2.0,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 55
+    },
+    "back": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 40
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

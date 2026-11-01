@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://xj4kb0p3gome"
+path="res://.godot/imported/char_148_nearl.atlas-4414d5fd2c02865fd35525993914ae95.tres"
+
+[deps]
+
+source_file="res://assets/operators/nearl/back/char_148_nearl.atlas"
+dest_files=["res://.godot/imported/char_148_nearl.atlas-4414d5fd2c02865fd35525993914ae95.tres"]
+
+[params]
+
+normal_map_prefix="n"

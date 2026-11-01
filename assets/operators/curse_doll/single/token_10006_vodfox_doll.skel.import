@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://cufdogdvddfn7"
+path="res://.godot/imported/token_10006_vodfox_doll.skel-35417153ebcf51c980d44b4a38ba4a2a.tres"
+
+[deps]
+
+source_file="res://assets/operators/curse_doll/single/token_10006_vodfox_doll.skel"
+dest_files=["res://.godot/imported/token_10006_vodfox_doll.skel-35417153ebcf51c980d44b4a38ba4a2a.tres"]
+
+[params]

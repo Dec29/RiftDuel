@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bdfxkfnd0rns6"
+path="res://.godot/imported/char_195_glassb.atlas-c6763b8199b7f42ba346dc545c8e9c8f.tres"
+
+[deps]
+
+source_file="res://assets/operators/istina/back/char_195_glassb.atlas"
+dest_files=["res://.godot/imported/char_195_glassb.atlas-c6763b8199b7f42ba346dc545c8e9c8f.tres"]
+
+[params]
+
+normal_map_prefix="n"

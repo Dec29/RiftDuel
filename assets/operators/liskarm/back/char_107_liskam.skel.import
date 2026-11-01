@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://c7an4o5y3l1uy"
+path="res://.godot/imported/char_107_liskam.skel-3b59810b34aff0a9293b9a697f55ad5a.tres"
+
+[deps]
+
+source_file="res://assets/operators/liskarm/back/char_107_liskam.skel"
+dest_files=["res://.godot/imported/char_107_liskam.skel-3b59810b34aff0a9293b9a697f55ad5a.tres"]
+
+[params]

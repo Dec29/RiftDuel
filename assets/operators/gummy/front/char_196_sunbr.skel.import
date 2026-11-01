@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://bnqqpmck8ppqd"
+path="res://.godot/imported/char_196_sunbr.skel-66ddda5768a4aa5449bccf69067c8bca.tres"
+
+[deps]
+
+source_file="res://assets/operators/gummy/front/char_196_sunbr.skel"
+dest_files=["res://.godot/imported/char_196_sunbr.skel-66ddda5768a4aa5449bccf69067c8bca.tres"]
+
+[params]

@@ -1,0 +1,113 @@
+{
+  "operator_id": "thorns",
+  "char_id": "char_293_thorns",
+  "display_name": "棘刺",
+  "files": [
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/thorns/front/char_293_thorns.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_293_thorns/front/char_293_thorns.atlas",
+      "bytes": 8526,
+      "sha256": "94998c1589556910fdead1303def4a96414abb9f43fc969e2320a35254960e2c"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/thorns/front/char_293_thorns.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_293_thorns/front/char_293_thorns.skel",
+      "bytes": 820307,
+      "sha256": "cae6abdacdc5a393160caa102e55b74b50f5dba434f592439e41be7b4df9af3b",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/thorns/front/char_293_thorns.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_293_thorns/front/char_293_thorns.png",
+      "bytes": 97697,
+      "sha256": "39a0ce9c1d2d2713488a9c04fbd8a21b66623504de4b35c55d4f047a06f7339f",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/thorns/back/char_293_thorns.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_293_thorns/back/char_293_thorns.atlas",
+      "bytes": 5126,
+      "sha256": "704b6f7dd9eb3f45178c3b6f6fbf46e23aafcf115b88ffe7695fc495ba603ab3"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/thorns/back/char_293_thorns.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_293_thorns/back/char_293_thorns.skel",
+      "bytes": 303784,
+      "sha256": "bbf404e1d61d5f40153661968081ba9c80612111aa5d2b60160a99e3596093ef",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/thorns/back/char_293_thorns.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_293_thorns/back/char_293_thorns.png",
+      "bytes": 63462,
+      "sha256": "132c06a0b496652012f8d4ba78a540714a78d6120aa9c7893488c1621766bd13",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified.",
+  "animation_seconds": {
+    "front": {
+      "Attack_1": 1.2,
+      "Attack_2": 1.2,
+      "Default": 0.0,
+      "Die": 0.866666666666667,
+      "Idle": 3.33333333333333,
+      "Skill1_1": 0.166666666666667,
+      "Skill1_2": 3.33333333333333,
+      "Skill1_3": 0.233333333333333,
+      "Skill2_1": 0.8,
+      "Skill2_2": 0.8,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack_1": 1.2,
+      "Attack_2": 1.2,
+      "Default": 0.0,
+      "Idle": 3.33333333333333,
+      "Skill1_1": 0.166666666666667,
+      "Skill1_2": 3.33333333333333,
+      "Skill1_3": 0.233333333333333,
+      "Skill2_1": 0.8,
+      "Start": 1.0
+    }
+  },
+  "animation_mapping": {
+    "attack_clip": "Attack_1",
+    "attack_seconds": 1.2,
+    "idle_seconds": 3.33333333333333,
+    "deploy_seconds": 1.0
+  },
+  "animation_measurement": "Native 3.8 completion events sampled at1/300s and rounded to30fps; only presentation, never simulation.",
+  "normal_blend_verified": true,
+  "skill_animation_mapping": [
+    {},
+    {
+      "begin": "Skill1_1",
+      "loop": "Skill1_2",
+      "end": "Skill1_3"
+    },
+    {
+      "begin": "Skill2_1",
+      "attack": "Attack_2"
+    }
+  ]
+}

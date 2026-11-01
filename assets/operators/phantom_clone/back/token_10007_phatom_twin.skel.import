@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://dsjy8m1e57xa0"
+path="res://.godot/imported/token_10007_phatom_twin.skel-fc4928b7bcffd23c4296add2891434ff.tres"
+
+[deps]
+
+source_file="res://assets/operators/phantom_clone/back/token_10007_phatom_twin.skel"
+dest_files=["res://.godot/imported/token_10007_phatom_twin.skel-fc4928b7bcffd23c4296add2891434ff.tres"]
+
+[params]

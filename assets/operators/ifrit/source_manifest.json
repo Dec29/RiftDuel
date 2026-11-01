@@ -1,0 +1,90 @@
+{
+  "operator_id": "ifrit",
+  "display_name": "伊芙利特",
+  "char_id": "char_134_ifrit",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/ifrit/front/char_134_ifrit.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_134_ifrit/front/char_134_ifrit.skel",
+      "sha256": "c5cd0f4081ee6ef91b6e95a6fdaddbbbae3a4c07a10d9b51beb1521a1b7e1ac4",
+      "size": 140092
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/ifrit/front/char_134_ifrit.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_134_ifrit/front/char_134_ifrit.atlas",
+      "sha256": "17fc6e1422ffc8db4e4b74b246b28bd2a19c030a0b3e7ae060a818ea9234cf45",
+      "size": 5518
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/ifrit/front/char_134_ifrit.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_134_ifrit/front/char_134_ifrit.png",
+      "sha256": "6592acd998f653677a74422b32b08e92ac93461a4ad568d6e31c9767bdaf0263",
+      "size": 71971
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/ifrit/back/char_134_ifrit.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_134_ifrit/back/char_134_ifrit.skel",
+      "sha256": "02f9a0e0bc0f8cad5ed22c3eb73640620ea02d91df38e4005b30537a765e3f8d",
+      "size": 47956
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/ifrit/back/char_134_ifrit.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_134_ifrit/back/char_134_ifrit.atlas",
+      "sha256": "619a9931181aa3fa2753aa15dad4d223f751172f41e5f34326e72dbd1fa0bc1a",
+      "size": 3071
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/ifrit/back/char_134_ifrit.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_134_ifrit/back/char_134_ifrit.png",
+      "sha256": "fd2e3f143f26c129140c348e1e583bddf324f26a2bbc0d5ef3052e9a2fdf913e",
+      "size": 58822
+    }
+  ],
+  "export_version": "3.8.99",
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.3,
+      "Attack_Down": 1.3,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 3.0,
+      "Skill_2_Begin": 0.7,
+      "Skill_2_End": 0.5,
+      "Skill_2_Loop": 0.4,
+      "Skill_Down_2_Begin": 0.7,
+      "Skill_Down_2_End": 0.5,
+      "Skill_Down_2_Loop": 0.4,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.3,
+      "Default": 0.0,
+      "Idle": 1.0,
+      "Skill_2_Begin": 0.7,
+      "Skill_2_End": 0.5,
+      "Skill_2_Loop": 0.4,
+      "Start": 1.0
+    }
+  },
+  "atlas_page_sizes": {
+    "front": [
+      512,
+      512
+    ],
+    "back": [
+      512,
+      512
+    ]
+  },
+  "animation_mapping_note": "Ifrit: S1/S2 use normal attacks; sustained S3 corresponds to native Skill_2_Begin/Loop/End, verified through the actual maintained flame motion."
+}

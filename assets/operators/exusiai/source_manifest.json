@@ -1,0 +1,56 @@
+{
+  "operator_id": "exusiai",
+  "display_name": "能天使",
+  "char_id": "char_103_angel",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "atlas_page_size": "256x256",
+  "note": "Ark-Models 的基建小人不是战斗来源，未使用。原始骨架经 tools/import_operator_visual.gd 生成压缩资源。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/exusiai/back/char_103_angel.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_103_angel/back/char_103_angel.atlas",
+      "sha256": "31e098992bc3c4f304bac32e4340fd3d97675ffc45567099cecfd7b1c61afcbf",
+      "size": 2653
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/exusiai/back/char_103_angel.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_103_angel/back/char_103_angel.png",
+      "sha256": "04359b9f547b944b53b034f30ced164fe45104e9a04c2e0d3146956ad4211c71",
+      "size": 34839
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/exusiai/back/char_103_angel.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_103_angel/back/char_103_angel.skel",
+      "sha256": "39892f2081c4d37eb599336602b248682099a58dba774ac06ea174eecfa52056",
+      "size": 29306
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/exusiai/front/char_103_angel.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_103_angel/front/char_103_angel.atlas",
+      "sha256": "00c875197f07d3496dd3725d28592bc1dc6e16412fa6082daf633570a7584f1a",
+      "size": 3721
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/exusiai/front/char_103_angel.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_103_angel/front/char_103_angel.png",
+      "sha256": "01260bc265e343a822fdffaa33641f7e3b659a6203519fe55c9edd16a9506635",
+      "size": 43090
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/exusiai/front/char_103_angel.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_103_angel/front/char_103_angel.skel",
+      "sha256": "b3d4b609b4124008f0e5a0bd6d0c9300aa3ce7826bc23d6236b101e5168ef20b",
+      "size": 52531
+    }
+  ]
+}

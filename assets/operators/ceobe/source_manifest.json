@@ -1,0 +1,56 @@
+{
+  "operator_id": "ceobe",
+  "display_name": "刻俄柏",
+  "char_id": "char_2013_cerber",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "atlas_page_size": "512x512",
+  "note": "Ark-Models 的基建小人不是战斗来源，未使用。原始骨架经 tools/import_operator_visual.gd 生成压缩资源。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/ceobe/back/char_2013_cerber.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_2013_cerber/back/char_2013_cerber.atlas",
+      "sha256": "966d32ee3bd221ad37339b55f154c1cd50c5b92fe4dd94e8604853a7b727563e",
+      "size": 5490
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/ceobe/back/char_2013_cerber.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_2013_cerber/back/char_2013_cerber.png",
+      "sha256": "13ac4ad3cc9c7d9e9ee57ebd20fdf345eddd8205e7c960df7fd3556d6b3d1a74",
+      "size": 88743
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/ceobe/back/char_2013_cerber.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_2013_cerber/back/char_2013_cerber.skel",
+      "sha256": "9f668f9532e00677822b1f6d7463ac6f2e73043a90b9db816354d3117d9e335e",
+      "size": 132320
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/ceobe/front/char_2013_cerber.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_2013_cerber/front/char_2013_cerber.atlas",
+      "sha256": "322a1bea6c7766a1456403e1c7cfbc9ad499dc297c554d6b2199798efbfb4c3a",
+      "size": 9250
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/ceobe/front/char_2013_cerber.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_2013_cerber/front/char_2013_cerber.png",
+      "sha256": "51f5b4082e030b850f483753cafdc37fe99ba1296b2c630449b4c4fbdfa8f915",
+      "size": 113361
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/ceobe/front/char_2013_cerber.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_2013_cerber/front/char_2013_cerber.skel",
+      "sha256": "bfc38924e0c779b8c23a14f060f88f2c8a51d46a8d1625a0c2db8fdbe343b6cd",
+      "size": 201005
+    }
+  ]
+}

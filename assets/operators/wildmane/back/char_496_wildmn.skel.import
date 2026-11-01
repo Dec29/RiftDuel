@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://uekg7wnf8x61"
+path="res://.godot/imported/char_496_wildmn.skel-fc5636b2d44f08acb3de2adc088e8b9b.tres"
+
+[deps]
+
+source_file="res://assets/operators/wildmane/back/char_496_wildmn.skel"
+dest_files=["res://.godot/imported/char_496_wildmn.skel-fc5636b2d44f08acb3de2adc088e8b9b.tres"]
+
+[params]

@@ -1,0 +1,116 @@
+{
+  "operator_id": "gnosis",
+  "char_id": "char_206_gnosis",
+  "display_name": "灵知",
+  "files": [
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/gnosis/front/char_206_gnosis.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_206_gnosis/front/char_206_gnosis.atlas",
+      "bytes": 9081,
+      "sha256": "e3dd80fb8b35c159fe469ed57dc27558c2bf6f5910394f6e202c982746a303de"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/gnosis/front/char_206_gnosis.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_206_gnosis/front/char_206_gnosis.skel",
+      "bytes": 198501,
+      "sha256": "b7b522f6255e0a28edf9f1195ed91d193a578951cf61df24d393c63864423292",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/gnosis/front/char_206_gnosis.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_206_gnosis/front/char_206_gnosis.png",
+      "bytes": 98711,
+      "sha256": "2904ee857cffe77ede1e18847d2f18ded9b2691ab785a5446d8f998ceaf9c813",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/gnosis/back/char_206_gnosis.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_206_gnosis/back/char_206_gnosis.atlas",
+      "bytes": 6107,
+      "sha256": "90c3c8b4fdf893ea0bc60af32fb29d29ee238d7314bc177ec09e0ae925ac11fe"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/gnosis/back/char_206_gnosis.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_206_gnosis/back/char_206_gnosis.skel",
+      "bytes": 139964,
+      "sha256": "da5dca0319bc69b5d6a9804f248536380caefe80b5632c5e65c133b1a2cfed58",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/gnosis/back/char_206_gnosis.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_206_gnosis/back/char_206_gnosis.png",
+      "bytes": 83820,
+      "sha256": "d01e5711f05c1b3965160146e91aae5266952a2d0e5bc91e69390f65b038e074",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified.",
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.26666666666667,
+      "Default": 0.0,
+      "Die": 1.23333333333333,
+      "Idle": 6.0,
+      "Skill": 0.833333333333333,
+      "Skill_2": 1.16666666666667,
+      "Skill_3": 1.16666666666667,
+      "Skill_4_Begin": 0.333333333333333,
+      "Skill_4_End": 0.666666666666667,
+      "Skill_4_Loop": 2.66666666666667,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.26666666666667,
+      "Default": 0.0,
+      "Idle": 2.0,
+      "Skill": 0.833333333333333,
+      "Skill_2": 1.16666666666667,
+      "Skill_3": 1.16666666666667,
+      "Skill_4_Begin": 0.333333333333333,
+      "Skill_4_End": 0.666666666666667,
+      "Skill_4_Loop": 2.66666666666667,
+      "Start": 1.0
+    }
+  },
+  "animation_mapping": {
+    "attack_clip": "Attack",
+    "attack_seconds": 1.26666666666667,
+    "idle_seconds": 6.0,
+    "deploy_seconds": 1.0,
+    "idle_seconds_back": 2.0
+  },
+  "animation_measurement": "Native 3.8 completion events sampled at1/300s and rounded to30fps; only presentation, never simulation.",
+  "normal_blend_verified": true,
+  "skill_animation_mapping": [
+    {
+      "cast": "Skill"
+    },
+    {
+      "cast": "Skill_2"
+    },
+    {
+      "begin": "Skill_4_Begin",
+      "loop": "Skill_4_Loop",
+      "end": "Skill_4_End"
+    }
+  ]
+}

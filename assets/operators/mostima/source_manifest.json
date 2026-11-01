@@ -1,0 +1,99 @@
+{
+  "operator_id": "mostima",
+  "display_name": "莫斯提马",
+  "char_id": "char_213_mostma",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/mostima/front/char_213_mostma.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_213_mostma/front/char_213_mostma.skel",
+      "sha256": "23dea975f11245253ca22d9a830aa52cfd7ed20e5cd9aa0e4c72c5cf9daa1199",
+      "size": 201010
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/mostima/front/char_213_mostma.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_213_mostma/front/char_213_mostma.atlas",
+      "sha256": "610b9a69510f43968728302e372a00509f5559062bc9ac498603157f73a4346d",
+      "size": 9119
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/mostima/front/char_213_mostma.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_213_mostma/front/char_213_mostma.png",
+      "sha256": "a7c42a998488a8615a83eae2edf19ca720657e1d51b560dfee273268123f2cbb",
+      "size": 83030
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/mostima/back/char_213_mostma.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_213_mostma/back/char_213_mostma.skel",
+      "sha256": "268aae01b12257fc1055017c91d3c10a1055e66f652a0a65592694a59f8f2c3e",
+      "size": 145655
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/mostima/back/char_213_mostma.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_213_mostma/back/char_213_mostma.atlas",
+      "sha256": "a28a7e52a08b735f6655c5d896879c8fb23f3cf9fe6552310fccce17d56801df",
+      "size": 4467
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/mostima/back/char_213_mostma.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_213_mostma/back/char_213_mostma.png",
+      "sha256": "4451e23fa5c76409fea93a2ac6a5f98becd6266984106f41c77c017b38f4eb68",
+      "size": 62345
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.7333333333333334,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 8.0,
+      "Skill_2_Begin": 0.6666666666666666,
+      "Skill_2_End": 0.26666666666666666,
+      "Skill_2_Idle": 4.0,
+      "Skill_2_Loop": 1.7666666666666666,
+      "Skill_Begin": 0.8333333333333334,
+      "Skill_End": 0.3333333333333333,
+      "Skill_Loop": 2.6666666666666665,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.7333333333333334,
+      "Default": 0.0,
+      "Idle": 8.0,
+      "Skill_2_Begin": 0.6666666666666666,
+      "Skill_2_End": 0.26666666666666666,
+      "Skill_2_Idle": 4.0,
+      "Skill_2_Loop": 1.7666666666666666,
+      "Skill_Begin": 0.8333333333333334,
+      "Skill_End": 0.3333333333333333,
+      "Skill_Loop": 2.6666666666666665,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 66
+    },
+    "back": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 44
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation.",
+  "animation_note": "Both native sides measured. Maintained non-attacking S2 adapted to Skill family, attacking S3 wave to Skill_2 family based on observed pose and attack-event presence, not numeric suffix. Independent Unity prefab mapping remains unverified; native events never drive combat."
+}

@@ -1,0 +1,56 @@
+{
+  "operator_id": "gitano",
+  "display_name": "远山",
+  "char_id": "char_109_fmout",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "note": "原始素材按固定提交与SHA校验；已由3.8原生提供器生成运行资源，动作时长以实际完成事件核定，映射见OperatorSpineMap。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/gitano/back/char_109_fmout.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_109_fmout/back/char_109_fmout.atlas",
+      "sha256": "4bc121245f468eb9e98d6267f0f983e49d3bc916c646183fac9804a0d96a41ab",
+      "size": 3685
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/gitano/back/char_109_fmout.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_109_fmout/back/char_109_fmout.png",
+      "sha256": "327a07cb90eb567a8899b6fb3be443937241c6c0f167c24cc2ffa07f5517e5ad",
+      "size": 60186
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/gitano/back/char_109_fmout.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_109_fmout/back/char_109_fmout.skel",
+      "sha256": "30bf5f15309dd0f21edd546e730ed3113ab01b2c48c157371601749566e42e0f",
+      "size": 54233
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/gitano/front/char_109_fmout.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_109_fmout/front/char_109_fmout.atlas",
+      "sha256": "9968386676a769972fce2990ace28ca656b28d704f4d8d87fc53cd2abc28be92",
+      "size": 7743
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/gitano/front/char_109_fmout.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_109_fmout/front/char_109_fmout.png",
+      "sha256": "7a3932a1deea97ac53bd86fcf9cc5a9c4314db629d85133697f966b128923da8",
+      "size": 80639
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/gitano/front/char_109_fmout.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_109_fmout/front/char_109_fmout.skel",
+      "sha256": "b91c67d39ced5192a4e8ca1ee8584de9dc7b7fed44f4280fa6a08bb081629317",
+      "size": 93427
+    }
+  ],
+  "blend_note": "正背面F_Ball_Rotation/B_Ball_Rotation为实际可见加算插槽，其他normal；共享画布预乘混合保留顺序。"
+}

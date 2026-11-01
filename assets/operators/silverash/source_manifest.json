@@ -1,0 +1,56 @@
+{
+  "operator_id": "silverash",
+  "display_name": "银灰",
+  "char_id": "char_172_svrash",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "atlas_page_size": "512x512",
+  "note": "Ark-Models 的基建小人不是战斗来源，未使用。原始骨架经 tools/import_operator_visual.gd 生成压缩资源。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/silverash/back/char_172_svrash.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_172_svrash/back/char_172_svrash.atlas",
+      "sha256": "2e7b36257607b06f3d2e498ffa97441d69f15729ad21c2daaee89f753fe1cd8b",
+      "size": 3099
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/silverash/back/char_172_svrash.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_172_svrash/back/char_172_svrash.png",
+      "sha256": "d711963a059b6c456c7bfa99f1aae41ba31d9dc356ed6149bb6abf6d70f2dacc",
+      "size": 54394
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/silverash/back/char_172_svrash.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_172_svrash/back/char_172_svrash.skel",
+      "sha256": "bcba1cbee21077d778ab8c42a6154ebde94625710257717bf0980bff10ab98a6",
+      "size": 119050
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/silverash/front/char_172_svrash.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_172_svrash/front/char_172_svrash.atlas",
+      "sha256": "b10f8f79144039d5fd207469c66b475297873d8b3576c78bca5febdf9dcdf8f1",
+      "size": 4966
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/silverash/front/char_172_svrash.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_172_svrash/front/char_172_svrash.png",
+      "sha256": "60a16fece7ad65d5203fd9beeaacf94cbd99fa3ffa6c12319b58c02213338085",
+      "size": 69259
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/silverash/front/char_172_svrash.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_172_svrash/front/char_172_svrash.skel",
+      "sha256": "429bf6148ab34a0eec349ef04a891e5211b48ecde179e8a6f307c1fff409e619",
+      "size": 147005
+    }
+  ]
+}

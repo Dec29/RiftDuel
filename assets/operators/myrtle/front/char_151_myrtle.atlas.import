@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://clejs1cs6hxh6"
+path="res://.godot/imported/char_151_myrtle.atlas-bfb5ac535cc041858e3775cd0f7aadf4.tres"
+
+[deps]
+
+source_file="res://assets/operators/myrtle/front/char_151_myrtle.atlas"
+dest_files=["res://.godot/imported/char_151_myrtle.atlas-bfb5ac535cc041858e3775cd0f7aadf4.tres"]
+
+[params]
+
+normal_map_prefix="n"

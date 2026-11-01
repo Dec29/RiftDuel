@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://d00a8vlr8t1i3"
+path="res://.godot/imported/char_249_mlyss.skel-783108cac925fd005f1dcf8d105baa27.tres"
+
+[deps]
+
+source_file="res://assets/operators/muelsyse/front/char_249_mlyss.skel"
+dest_files=["res://.godot/imported/char_249_mlyss.skel-783108cac925fd005f1dcf8d105baa27.tres"]
+
+[params]

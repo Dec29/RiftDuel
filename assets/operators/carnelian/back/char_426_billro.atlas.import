@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cvcpsg4jgyvip"
+path="res://.godot/imported/char_426_billro.atlas-3cd8742be46254f3e10084624612dcaf.tres"
+
+[deps]
+
+source_file="res://assets/operators/carnelian/back/char_426_billro.atlas"
+dest_files=["res://.godot/imported/char_426_billro.atlas-3cd8742be46254f3e10084624612dcaf.tres"]
+
+[params]
+
+normal_map_prefix="n"

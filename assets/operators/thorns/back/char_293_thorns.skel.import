@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://b8r7mywmuinjl"
+path="res://.godot/imported/char_293_thorns.skel-09622f528a2774bb983722ccc0e30b42.tres"
+
+[deps]
+
+source_file="res://assets/operators/thorns/back/char_293_thorns.skel"
+dest_files=["res://.godot/imported/char_293_thorns.skel-09622f528a2774bb983722ccc0e30b42.tres"]
+
+[params]

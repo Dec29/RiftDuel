@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cjaao84mkfyrx"
+path="res://.godot/imported/char_474_glady.atlas-104ae2ece470ccbc69df5cb82bed6fb7.tres"
+
+[deps]
+
+source_file="res://assets/operators/gladiia/front/char_474_glady.atlas"
+dest_files=["res://.godot/imported/char_474_glady.atlas-104ae2ece470ccbc69df5cb82bed6fb7.tres"]
+
+[params]
+
+normal_map_prefix="n"

@@ -1,0 +1,52 @@
+{
+  "operator_id": "pozyomka_typewriter",
+  "char_id": "token_10026_bgsnow_subbow",
+  "commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "path": "assets/operators/pozyomka_typewriter/single/token_10026_bgsnow_subbow.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10026_bgsnow_subbow/token_10026_bgsnow_subbow.skel",
+      "side": "single",
+      "bytes": 50707,
+      "sha256": "9daf8859c73a0c68f65aac62af030495d1066085aca0e4541d5e6827a376d012"
+    },
+    {
+      "path": "assets/operators/pozyomka_typewriter/single/token_10026_bgsnow_subbow.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10026_bgsnow_subbow/token_10026_bgsnow_subbow.atlas",
+      "side": "single",
+      "bytes": 2420,
+      "sha256": "369d973eace83e6475307594644cf6c7a738512be86ffb1cd39eee83e332f02b"
+    },
+    {
+      "path": "assets/operators/pozyomka_typewriter/single/token_10026_bgsnow_subbow.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10026_bgsnow_subbow/token_10026_bgsnow_subbow.png",
+      "side": "single",
+      "bytes": 49814,
+      "sha256": "1a26a4a14d59c75a443ddcc3aa9dd5a47b32730edd252b860d49d871a261a1fa"
+    }
+  ],
+  "animation_seconds": {
+    "single": {
+      "Attack": 1.6,
+      "Attack_Down": 1.6,
+      "Default": 0.0,
+      "Default_Down": 0.0,
+      "Idle": 0.333333333333333,
+      "Idle_Down": 0.333333333333333,
+      "Start": 0.666666666666667,
+      "Start_Down": 0.666666666666667
+    }
+  },
+  "animation_mapping": {
+    "idle_clip": "Idle",
+    "idle_seconds": 0.333333333333333,
+    "attack_clip": "Attack",
+    "attack_seconds": 1.6,
+    "deploy_seconds": 0.666666666666667,
+    "down_clip": "Attack_Down",
+    "down_seconds": 1.6
+  },
+  "non_normal_slots": {},
+  "native_pages": 1,
+  "pma": false
+}

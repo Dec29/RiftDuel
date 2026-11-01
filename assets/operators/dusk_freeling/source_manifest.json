@@ -1,0 +1,71 @@
+{
+  "operator_id": "dusk_freeling",
+  "char_id": "token_10015_dusk_drgn",
+  "commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "views": [
+    "single"
+  ],
+  "files": [
+    {
+      "path": "assets/operators/dusk_freeling/single/token_10015_dusk_drgn.skel",
+      "side": "single",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10015_dusk_drgn/token_10015_dusk_drgn.skel",
+      "bytes": 40490,
+      "sha256": "bfdc0e031f0168b6955ed4aa697f78448d6b09b235d6a8d51fc7f69b3061d87d"
+    },
+    {
+      "path": "assets/operators/dusk_freeling/single/token_10015_dusk_drgn.atlas",
+      "side": "single",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10015_dusk_drgn/token_10015_dusk_drgn.atlas",
+      "bytes": 1845,
+      "sha256": "133c6c2ed30d8a6e3aebfe4eb865d34642a69cd77018f6cc04799d46c2339523"
+    },
+    {
+      "path": "assets/operators/dusk_freeling/single/token_10015_dusk_drgn.png",
+      "side": "single",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10015_dusk_drgn/token_10015_dusk_drgn.png",
+      "bytes": 42822,
+      "sha256": "19f5168dc6f3b7ca078be210577c21ef4042409f78584fd0391affa3e8c619f1"
+    }
+  ],
+  "export_version": "3.8.99",
+  "animation_seconds": {
+    "single": {
+      "Attack": 1.0,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 4.0,
+      "Start": 0.666666666666667,
+      "Stun": 1.0
+    }
+  },
+  "atlas_pages": {
+    "single": {
+      "width": 256,
+      "height": 256,
+      "straight_alpha": true,
+      "slot_blend_modes": {
+        "F_R_Hand_e": 0,
+        "F_R_Hand_d": 0,
+        "F_R_Hand_c": 0,
+        "F_R_Hand_b": 0,
+        "F_R_Hand_a": 0,
+        "F_Tail_f": 0,
+        "F_Tail_e": 0,
+        "F_Tail_c": 0,
+        "F_Tail_b": 0,
+        "F_Tail_a": 0,
+        "F_Head_a": 0,
+        "F_Head_c": 0,
+        "F_Head_b": 0,
+        "F_L_Hand_e": 0,
+        "F_L_Hand_d": 0,
+        "F_L_Hand_c": 0,
+        "F_L_Hand_b": 0,
+        "F_L_Hand_a": 0
+      }
+    }
+  },
+  "normal_blend_verified": true,
+  "animation_measurement": "Native Spine 3.8 completion events sampled at 1/300 s and rounded to original 30 fps boundaries; presentation only."
+}

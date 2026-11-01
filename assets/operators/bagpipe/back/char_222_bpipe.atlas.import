@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bk2g333cfmef"
+path="res://.godot/imported/char_222_bpipe.atlas-c221cfea762026e8e6d7d65b94dbb067.tres"
+
+[deps]
+
+source_file="res://assets/operators/bagpipe/back/char_222_bpipe.atlas"
+dest_files=["res://.godot/imported/char_222_bpipe.atlas-c221cfea762026e8e6d7d65b94dbb067.tres"]
+
+[params]
+
+normal_map_prefix="n"

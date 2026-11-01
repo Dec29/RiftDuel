@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://b5v2jabeiilwd"
+path="res://.godot/imported/char_416_zumama.skel-e2c86612a1cbebe59be6f8b173501d6f.tres"
+
+[deps]
+
+source_file="res://assets/operators/eunectes/front/char_416_zumama.skel"
+dest_files=["res://.godot/imported/char_416_zumama.skel-e2c86612a1cbebe59be6f8b173501d6f.tres"]
+
+[params]

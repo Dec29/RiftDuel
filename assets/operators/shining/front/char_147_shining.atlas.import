@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://c5pipcom33nsf"
+path="res://.godot/imported/char_147_shining.atlas-126c02fcf62a70789e6d013987c4656c.tres"
+
+[deps]
+
+source_file="res://assets/operators/shining/front/char_147_shining.atlas"
+dest_files=["res://.godot/imported/char_147_shining.atlas-126c02fcf62a70789e6d013987c4656c.tres"]
+
+[params]
+
+normal_map_prefix="n"

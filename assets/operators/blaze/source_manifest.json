@@ -1,0 +1,56 @@
+{
+  "operator_id": "blaze",
+  "display_name": "煌",
+  "char_id": "char_017_huang",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "atlas_page_size": "512x512",
+  "note": "Ark-Models 的基建小人不是战斗来源，未使用。原始骨架经 tools/import_operator_visual.gd 生成压缩资源。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/blaze/back/char_017_huang.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_017_huang/back/char_017_huang.atlas",
+      "sha256": "9a45c3e518c129d3e4cba645ebf900d5108b55e179b132ceae71589b4e41ab53",
+      "size": 5652
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/blaze/back/char_017_huang.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_017_huang/back/char_017_huang.png",
+      "sha256": "60d69a458fa95540067fb3ab87002baaab01ee1a408ba7856b2162044abdb5ed",
+      "size": 73261
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/blaze/back/char_017_huang.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_017_huang/back/char_017_huang.skel",
+      "sha256": "29f5dda116a8da26252200f9b2652825fdd003462d8b94400811c7c94314329c",
+      "size": 204853
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/blaze/front/char_017_huang.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_017_huang/front/char_017_huang.atlas",
+      "sha256": "264215c89992604bd393e29dd8c5bdd0f0d70991c54631b3ccb48d9c9137f757",
+      "size": 9776
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/blaze/front/char_017_huang.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_017_huang/front/char_017_huang.png",
+      "sha256": "bd9c2344289d1be1c321727da4e7cc43f4c75c8c5db0b85ed19305ac666c76ef",
+      "size": 93880
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/blaze/front/char_017_huang.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_017_huang/front/char_017_huang.skel",
+      "sha256": "bddd47d64684a2b589640a0f919c2d3eb2e16bcf37146b3bc76be2a2014ab8f7",
+      "size": 516279
+    }
+  ]
+}

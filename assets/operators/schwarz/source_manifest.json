@@ -1,0 +1,56 @@
+{
+  "operator_id": "schwarz",
+  "display_name": "黑",
+  "char_id": "char_340_shwaz",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "atlas_page_size": "512x512",
+  "note": "Ark-Models 的基建小人不是战斗来源，未使用。原始骨架经 tools/import_operator_visual.gd 生成压缩资源。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/schwarz/back/char_340_shwaz.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_340_shwaz/back/char_340_shwaz.atlas",
+      "sha256": "e89f839226424ad0aaa2767fbba6b0513671009a325de218cc32a6e51c872cad",
+      "size": 9435
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/schwarz/back/char_340_shwaz.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_340_shwaz/back/char_340_shwaz.png",
+      "sha256": "7bcb5fb8863b9877c7bb42fea3234df5775e774bea46e308a332ec4e857fb311",
+      "size": 111146
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/schwarz/back/char_340_shwaz.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_340_shwaz/back/char_340_shwaz.skel",
+      "sha256": "d96a5abeaed5291c1825d75f20f5a7a9dc3c6bec5d99ee935a3a054c03f9b03f",
+      "size": 152301
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/schwarz/front/char_340_shwaz.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_340_shwaz/front/char_340_shwaz.atlas",
+      "sha256": "b971e75064e95f925b2c0f0b1be3a83fcff0e157b2c07bd4302de79df1be1028",
+      "size": 12877
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/schwarz/front/char_340_shwaz.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_340_shwaz/front/char_340_shwaz.png",
+      "sha256": "11b3ad892e6d8d4b38804a60fad72d73a161078395193cc64917cb520dcaf676",
+      "size": 136214
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/schwarz/front/char_340_shwaz.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_340_shwaz/front/char_340_shwaz.skel",
+      "sha256": "9caf86df9509198419d4e7c7c656768bd29a3c4301badbbb272d076e17a5c0d9",
+      "size": 213012
+    }
+  ]
+}

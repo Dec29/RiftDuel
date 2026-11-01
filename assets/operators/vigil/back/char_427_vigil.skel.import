@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://be4ryqf5lm1n0"
+path="res://.godot/imported/char_427_vigil.skel-c43ec2855676ade9a34328f234c0406a.tres"
+
+[deps]
+
+source_file="res://assets/operators/vigil/back/char_427_vigil.skel"
+dest_files=["res://.godot/imported/char_427_vigil.skel-c43ec2855676ade9a34328f234c0406a.tres"]
+
+[params]

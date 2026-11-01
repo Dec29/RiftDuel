@@ -1,0 +1,84 @@
+{
+  "operator_id": "blue_poison",
+  "display_name": "蓝毒",
+  "char_id": "char_129_bluep",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/blue_poison/front/char_129_bluep.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_129_bluep/front/char_129_bluep.skel",
+      "sha256": "816f575b1d3ec986e83d9f47bc246487f4f74a801063c4127001d3d3b3566746",
+      "size": 53799
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/blue_poison/front/char_129_bluep.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_129_bluep/front/char_129_bluep.atlas",
+      "sha256": "99edc4c28d517a77bc095bebdf45e7b3333b256ba830e05bbd034ba07bfb916d",
+      "size": 4417
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/blue_poison/front/char_129_bluep.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_129_bluep/front/char_129_bluep.png",
+      "sha256": "0ae200ba6f02b005553264f37a3b2e42a71f06ab5159f72d9047a6576c6deb94",
+      "size": 47303
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/blue_poison/back/char_129_bluep.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_129_bluep/back/char_129_bluep.skel",
+      "sha256": "b820d93b7955ba7d8fe82d7e16d9a9cb6a1cff6a4f15385718eee798709e7dd6",
+      "size": 22775
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/blue_poison/back/char_129_bluep.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_129_bluep/back/char_129_bluep.atlas",
+      "sha256": "ac4f6cd38c6f5cd5459951aaa8c93bb51851c10b1637c8eaed5bf02e4b1fc52b",
+      "size": 2294
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/blue_poison/back/char_129_bluep.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_129_bluep/back/char_129_bluep.png",
+      "sha256": "a0844d35862ae7a68476764e11ad36a0e3476d7a820c1baef8b1c0872e6148da",
+      "size": 30768
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.0,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 4.0,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.0,
+      "Default": 0.0,
+      "Idle": 1.0,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 256,
+      "height": 256,
+      "mode": "straight alpha",
+      "normal_slots": 38
+    },
+    "back": {
+      "width": 256,
+      "height": 256,
+      "mode": "straight alpha",
+      "normal_slots": 21
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

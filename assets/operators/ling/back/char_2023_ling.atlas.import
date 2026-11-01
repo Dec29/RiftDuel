@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://befgi164byduc"
+path="res://.godot/imported/char_2023_ling.atlas-131d61124f0617caf2e85f30ce74b455.tres"
+
+[deps]
+
+source_file="res://assets/operators/ling/back/char_2023_ling.atlas"
+dest_files=["res://.godot/imported/char_2023_ling.atlas-131d61124f0617caf2e85f30ce74b455.tres"]
+
+[params]
+
+normal_map_prefix="n"

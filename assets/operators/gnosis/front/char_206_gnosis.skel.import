@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://botq2jbnh2h0p"
+path="res://.godot/imported/char_206_gnosis.skel-7fdeaf8bd1d932eaf1c1b758fb86eec7.tres"
+
+[deps]
+
+source_file="res://assets/operators/gnosis/front/char_206_gnosis.skel"
+dest_files=["res://.godot/imported/char_206_gnosis.skel-7fdeaf8bd1d932eaf1c1b758fb86eec7.tres"]
+
+[params]

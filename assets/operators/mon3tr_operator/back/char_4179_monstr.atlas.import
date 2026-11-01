@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://21e0f60k64i8"
+path="res://.godot/imported/char_4179_monstr.atlas-91de591932764a3d2c70cb461ea4f20b.tres"
+
+[deps]
+
+source_file="res://assets/operators/mon3tr_operator/back/char_4179_monstr.atlas"
+dest_files=["res://.godot/imported/char_4179_monstr.atlas-91de591932764a3d2c70cb461ea4f20b.tres"]
+
+[params]
+
+normal_map_prefix="n"

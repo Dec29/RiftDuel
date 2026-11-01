@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://c33e43c3e8j7v"
+path="res://.godot/imported/token_10005_mgllan_drone2.skel-a979f799298db8df75a8ad0afeabd14e.tres"
+
+[deps]
+
+source_file="res://assets/operators/magallan_drone_l/token_10005_mgllan_drone2.skel"
+dest_files=["res://.godot/imported/token_10005_mgllan_drone2.skel-a979f799298db8df75a8ad0afeabd14e.tres"]
+
+[params]

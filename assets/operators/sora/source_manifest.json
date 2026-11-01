@@ -1,0 +1,55 @@
+{
+  "operator_id": "sora",
+  "display_name": "空",
+  "char_id": "char_101_sora",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "note": "原始素材按固定提交与SHA校验；已由3.8原生提供器生成运行资源，动作时长以实际完成事件核定，映射见OperatorSpineMap。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/sora/back/char_101_sora.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_101_sora/back/char_101_sora.atlas",
+      "sha256": "775a1ab59fd99f8f5e023192bb07dac259f160c8b58d737ff7c555e14e724337",
+      "size": 8496
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/sora/back/char_101_sora.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_101_sora/back/char_101_sora.png",
+      "sha256": "66493828ec0a59f431e967067f8e263201425f35cd72f947cd0079032a195ad7",
+      "size": 90487
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/sora/back/char_101_sora.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_101_sora/back/char_101_sora.skel",
+      "sha256": "6b49e1b4f0d5a59adc7db38039a43d6bc7ef3368357452ddb67dc07f9bb73456",
+      "size": 192912
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/sora/front/char_101_sora.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_101_sora/front/char_101_sora.atlas",
+      "sha256": "775a1ab59fd99f8f5e023192bb07dac259f160c8b58d737ff7c555e14e724337",
+      "size": 8496
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/sora/front/char_101_sora.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_101_sora/front/char_101_sora.png",
+      "sha256": "66493828ec0a59f431e967067f8e263201425f35cd72f947cd0079032a195ad7",
+      "size": 90487
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/sora/front/char_101_sora.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_101_sora/front/char_101_sora.skel",
+      "sha256": "6b49e1b4f0d5a59adc7db38039a43d6bc7ef3368357452ddb67dc07f9bb73456",
+      "size": 192912
+    }
+  ]
+}

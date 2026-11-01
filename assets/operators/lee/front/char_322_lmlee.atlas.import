@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cnpo3d52scxqp"
+path="res://.godot/imported/char_322_lmlee.atlas-5c30fc49e76a1d024d7a66b18192b67e.tres"
+
+[deps]
+
+source_file="res://assets/operators/lee/front/char_322_lmlee.atlas"
+dest_files=["res://.godot/imported/char_322_lmlee.atlas-5c30fc49e76a1d024d7a66b18192b67e.tres"]
+
+[params]
+
+normal_map_prefix="n"

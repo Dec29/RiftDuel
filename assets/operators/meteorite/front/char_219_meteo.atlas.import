@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dm54ylh8q6hhb"
+path="res://.godot/imported/char_219_meteo.atlas-0e9654079e8d03dc24e2019ddbe092c3.tres"
+
+[deps]
+
+source_file="res://assets/operators/meteorite/front/char_219_meteo.atlas"
+dest_files=["res://.godot/imported/char_219_meteo.atlas-0e9654079e8d03dc24e2019ddbe092c3.tres"]
+
+[params]
+
+normal_map_prefix="n"

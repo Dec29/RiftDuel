@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://c6p0qy716q0x7"
+path="res://.godot/imported/char_143_ghost.atlas-19e994986ebbec6e888fbe6c9ff0f158.tres"
+
+[deps]
+
+source_file="res://assets/operators/specter/front/char_143_ghost.atlas"
+dest_files=["res://.godot/imported/char_143_ghost.atlas-19e994986ebbec6e888fbe6c9ff0f158.tres"]
+
+[params]
+
+normal_map_prefix="n"

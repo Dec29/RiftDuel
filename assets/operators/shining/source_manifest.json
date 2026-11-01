@@ -1,0 +1,56 @@
+{
+  "operator_id": "shining",
+  "display_name": "闪灵",
+  "char_id": "char_147_shining",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "atlas_page_size": "512x512",
+  "note": "Ark-Models 的基建小人不是战斗来源，未使用。原始骨架经 tools/import_operator_visual.gd 生成压缩资源。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/shining/back/char_147_shining.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_147_shining/back/char_147_shining.atlas",
+      "sha256": "971d96ff1042d8abe2d7b09bf8a68dcfe7489b9f9ad83daa910913321019ee94",
+      "size": 2978
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/shining/back/char_147_shining.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_147_shining/back/char_147_shining.png",
+      "sha256": "3affe2d244844f4fc7ee943a31653cd135306e39f6827e6b37601fbe20411fdc",
+      "size": 50461
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/shining/back/char_147_shining.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_147_shining/back/char_147_shining.skel",
+      "sha256": "6d05910bdcb515cecdfa63cba5d00985d7abd960de49a2c16ec0f6047ec86eeb",
+      "size": 45929
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/shining/front/char_147_shining.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_147_shining/front/char_147_shining.atlas",
+      "sha256": "afdd15ece6e105fecfd842f3db28362b76bd74d510f1dbc5db68a130152d01c1",
+      "size": 4806
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/shining/front/char_147_shining.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_147_shining/front/char_147_shining.png",
+      "sha256": "2f5483abbc8ff15baa77bb7f45153195f7cf9635682c44fbc1b29fe20b7b6edd",
+      "size": 67644
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/shining/front/char_147_shining.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_147_shining/front/char_147_shining.skel",
+      "sha256": "8b9c6d4ebb9a5ef9dfe00ff252c6533feedc2d2b6632db68d05b73749cecdf4f",
+      "size": 108561
+    }
+  ]
+}

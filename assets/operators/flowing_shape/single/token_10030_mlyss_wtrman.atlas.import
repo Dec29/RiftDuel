@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cg3a6aq3gvheb"
+path="res://.godot/imported/token_10030_mlyss_wtrman.atlas-4afb982c63088e7197c79639db0210d5.tres"
+
+[deps]
+
+source_file="res://assets/operators/flowing_shape/single/token_10030_mlyss_wtrman.atlas"
+dest_files=["res://.godot/imported/token_10030_mlyss_wtrman.atlas-4afb982c63088e7197c79639db0210d5.tres"]
+
+[params]
+
+normal_map_prefix="n"

@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bvqqg8c3be5wj"
+path="res://.godot/imported/char_254_vodfox.atlas-333e3387d1a352ea5da7b3b4397efc7b.tres"
+
+[deps]
+
+source_file="res://assets/operators/shamare/back/char_254_vodfox.atlas"
+dest_files=["res://.godot/imported/char_254_vodfox.atlas-333e3387d1a352ea5da7b3b4397efc7b.tres"]
+
+[params]
+
+normal_map_prefix="n"

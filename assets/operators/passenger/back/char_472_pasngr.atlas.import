@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://c5xbeefyor27s"
+path="res://.godot/imported/char_472_pasngr.atlas-1af8f5ea57e1bf7698c325d2cc80ce2b.tres"
+
+[deps]
+
+source_file="res://assets/operators/passenger/back/char_472_pasngr.atlas"
+dest_files=["res://.godot/imported/char_472_pasngr.atlas-1af8f5ea57e1bf7698c325d2cc80ce2b.tres"]
+
+[params]
+
+normal_map_prefix="n"

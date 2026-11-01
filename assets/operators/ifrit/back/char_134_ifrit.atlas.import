@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://4d2jha56vq65"
+path="res://.godot/imported/char_134_ifrit.atlas-e2f460e3e55b20cfd50cc1ae88e6b305.tres"
+
+[deps]
+
+source_file="res://assets/operators/ifrit/back/char_134_ifrit.atlas"
+dest_files=["res://.godot/imported/char_134_ifrit.atlas-e2f460e3e55b20cfd50cc1ae88e6b305.tres"]
+
+[params]
+
+normal_map_prefix="n"

@@ -1,0 +1,50 @@
+{
+  "operator_id": "seaborn",
+  "display_name": "斯卡蒂的海嗣",
+  "char_id": "token_10017_skadi2_dedant",
+  "costume": "默认服装",
+  "model_kind": "single root skeleton",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "single",
+      "file": "res://assets/operators/seaborn/single/token_10017_skadi2_dedant.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10017_skadi2_dedant/token_10017_skadi2_dedant.skel",
+      "sha256": "593128ee8cc4c9340e3f9bcbe27735942b5d2c8cfca8bc96a2f6f61aee1ecde0",
+      "size": 51702
+    },
+    {
+      "side": "single",
+      "file": "res://assets/operators/seaborn/single/token_10017_skadi2_dedant.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10017_skadi2_dedant/token_10017_skadi2_dedant.atlas",
+      "sha256": "40f9dfcaea0fcbb28e4e0ae1b1335830686ece3ea371515e45b8d2b35e28b124",
+      "size": 1046
+    },
+    {
+      "side": "single",
+      "file": "res://assets/operators/seaborn/single/token_10017_skadi2_dedant.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/token/token_10017_skadi2_dedant/token_10017_skadi2_dedant.png",
+      "sha256": "00718658229db00f0a9eb85516a6ae69a6a4aed1a5785f6b4ba9c5e73bc3178f",
+      "size": 45427
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "single": {
+      "Default": 0.0,
+      "Idle": 1.3333333333333333,
+      "Skill": 1.0666666666666667,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "single": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 10
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

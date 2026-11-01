@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://cnt4vt81ai4lo"
+path="res://.godot/imported/char_4087_ines.skel-ea4bca124f93856a2a5cbabf8b741890.tres"
+
+[deps]
+
+source_file="res://assets/operators/ines/back/char_4087_ines.skel"
+dest_files=["res://.godot/imported/char_4087_ines.skel-ea4bca124f93856a2a5cbabf8b741890.tres"]
+
+[params]

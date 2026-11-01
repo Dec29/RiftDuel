@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dde0y7dokrxev"
+path="res://.godot/imported/char_2015_dusk.atlas-aee910567fbea312c3ff6846ac339e83.tres"
+
+[deps]
+
+source_file="res://assets/operators/dusk/front/char_2015_dusk.atlas"
+dest_files=["res://.godot/imported/char_2015_dusk.atlas-aee910567fbea312c3ff6846ac339e83.tres"]
+
+[params]
+
+normal_map_prefix="n"

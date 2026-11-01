@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dxguo37mtosqg"
+path="res://.godot/imported/char_141_nights.atlas-d38986c20db976128a9f59a6a0955119.tres"
+
+[deps]
+
+source_file="res://assets/operators/haze/front/char_141_nights.atlas"
+dest_files=["res://.godot/imported/char_141_nights.atlas-d38986c20db976128a9f59a6a0955119.tres"]
+
+[params]
+
+normal_map_prefix="n"

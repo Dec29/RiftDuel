@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://crmgdsppgwcef"
+path="res://.godot/imported/token_10009_weedy_cannon.atlas-35e587c537880004ee5a1772a156fc41.tres"
+
+[deps]
+
+source_file="res://assets/operators/weedy_cannon/front/token_10009_weedy_cannon.atlas"
+dest_files=["res://.godot/imported/token_10009_weedy_cannon.atlas-35e587c537880004ee5a1772a156fc41.tres"]
+
+[params]
+
+normal_map_prefix="n"

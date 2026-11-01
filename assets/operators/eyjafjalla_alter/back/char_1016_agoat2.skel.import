@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://3kpkj1ep4r6o"
+path="res://.godot/imported/char_1016_agoat2.skel-c8172d7340b44d7fe733c251e224a121.tres"
+
+[deps]
+
+source_file="res://assets/operators/eyjafjalla_alter/back/char_1016_agoat2.skel"
+dest_files=["res://.godot/imported/char_1016_agoat2.skel-c8172d7340b44d7fe733c251e224a121.tres"]
+
+[params]

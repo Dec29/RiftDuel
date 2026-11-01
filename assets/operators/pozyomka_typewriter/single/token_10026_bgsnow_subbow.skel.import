@@ -1,0 +1,13 @@
+[remap]
+
+importer="curvature.spine.binary"
+type="SpineSkeletonFileResource"
+uid="uid://bmwudvx35prrb"
+path="res://.godot/imported/token_10026_bgsnow_subbow.skel-1dedb6d7302d8d899bd16f8e8dfe6689.tres"
+
+[deps]
+
+source_file="res://assets/operators/pozyomka_typewriter/single/token_10026_bgsnow_subbow.skel"
+dest_files=["res://.godot/imported/token_10026_bgsnow_subbow.skel-1dedb6d7302d8d899bd16f8e8dfe6689.tres"]
+
+[params]

@@ -1,0 +1,122 @@
+{
+  "operator_id": "eyjafjalla_alter",
+  "char_id": "char_1016_agoat2",
+  "display_name": "纯烬艾雅法拉",
+  "files": [
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/eyjafjalla_alter/front/char_1016_agoat2.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1016_agoat2/front/char_1016_agoat2.atlas",
+      "bytes": 11593,
+      "sha256": "d0f09e44d543f5fbeee858b557f67909919f53b2632da480a8e2ad09d72bee7d"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/eyjafjalla_alter/front/char_1016_agoat2.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1016_agoat2/front/char_1016_agoat2.skel",
+      "bytes": 384453,
+      "sha256": "f119dc41521804a70bd45461d3f46167fd35f1de3aec8b6bf1fe69368b064240",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "front",
+      "path": "assets/operators/eyjafjalla_alter/front/char_1016_agoat2.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1016_agoat2/front/char_1016_agoat2.png",
+      "bytes": 116853,
+      "sha256": "b29360b9d13e880d093d27e1c172403bda7950acd4ca18568d0bf3e1abf46d36",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/eyjafjalla_alter/back/char_1016_agoat2.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1016_agoat2/back/char_1016_agoat2.atlas",
+      "bytes": 7009,
+      "sha256": "27e2d652f343a6dc8efadf65a7bf698fd877abfcc731bfe5e75ed63a2f43da63"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/eyjafjalla_alter/back/char_1016_agoat2.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1016_agoat2/back/char_1016_agoat2.skel",
+      "bytes": 263075,
+      "sha256": "e44d2b8ceafab684dd74e96e26f011019220c6a776f3cd71a95933da7a81466f",
+      "export_version": "3.8.99"
+    },
+    {
+      "category": "spine",
+      "side": "back",
+      "path": "assets/operators/eyjafjalla_alter/back/char_1016_agoat2.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_1016_agoat2/back/char_1016_agoat2.png",
+      "bytes": 94907,
+      "sha256": "4813a2c21ea9f4677214622d45ea863f345b20ab928504a43496636134dad397",
+      "width": 512,
+      "height": 512
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified.",
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.33333333333333,
+      "Default": 0.0,
+      "Die": 0.666666666666667,
+      "Idle": 2.66666666666667,
+      "Skill_1_Begin": 0.5,
+      "Skill_1_Idle": 2.66666666666667,
+      "Skill_1_Loop": 1.33333333333333,
+      "Skill_2": 1.0,
+      "Skill_3_Begin": 0.4,
+      "Skill_3_End": 0.333333333333333,
+      "Skill_3_Idle": 2.66666666666667,
+      "Skill_3_Loop": 2.83333333333333,
+      "Start": 1.0
+    },
+    "back": {
+      "Attack": 1.33333333333333,
+      "Default": 0.0,
+      "Idle": 2.66666666666667,
+      "Skill_1_Begin": 0.5,
+      "Skill_1_Idle": 2.66666666666667,
+      "Skill_1_Loop": 1.33333333333333,
+      "Skill_2": 1.0,
+      "Skill_3_Begin": 0.4,
+      "Skill_3_End": 0.333333333333333,
+      "Skill_3_Idle": 2.66666666666667,
+      "Skill_3_Loop": 2.83333333333333,
+      "Start": 1.0
+    }
+  },
+  "animation_mapping": {
+    "attack_clip": "Attack",
+    "attack_seconds": 1.33333333333333,
+    "idle_seconds": 2.66666666666667,
+    "deploy_seconds": 1.0
+  },
+  "animation_measurement": "Native 3.8 completion events sampled at1/300s and rounded to30fps; only presentation, never simulation.",
+  "normal_blend_verified": true,
+  "skill_animation_mapping": [
+    {
+      "begin": "Skill_1_Begin",
+      "idle": "Skill_1_Idle",
+      "attack": "Skill_1_Loop"
+    },
+    {
+      "cast": "Skill_2"
+    },
+    {
+      "begin": "Skill_3_Begin",
+      "idle": "Skill_3_Idle",
+      "attack": "Skill_3_Loop",
+      "end": "Skill_3_End"
+    }
+  ]
+}

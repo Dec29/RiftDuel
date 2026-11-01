@@ -1,0 +1,101 @@
+{
+  "operator_id": "amiya",
+  "display_name": "阿米娅",
+  "char_id": "char_002_amiya",
+  "costume": "默认服装",
+  "model_kind": "battle front/back",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "files": [
+    {
+      "side": "front",
+      "file": "res://assets/operators/amiya/front/char_002_amiya.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_002_amiya/front/char_002_amiya.skel",
+      "sha256": "db049b479a3812517419c60d29751a6d7193c174fd128718bcaecc67fe064284",
+      "size": 179880
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/amiya/front/char_002_amiya.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_002_amiya/front/char_002_amiya.atlas",
+      "sha256": "0ef28cf525cf0f21f42ba43180488195eef2a6c59d7555fb5b3cb8917615a580",
+      "size": 5610
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/amiya/front/char_002_amiya.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_002_amiya/front/char_002_amiya.png",
+      "sha256": "03645e44c3b421cc5be0de77bb597297f55a29de9aa8119322e482232dc4416f",
+      "size": 72545
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/amiya/back/char_002_amiya.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_002_amiya/back/char_002_amiya.skel",
+      "sha256": "b77967d964f2d7a3f363dddeef2d1d1b92ed55f985ff6fc3e5305fd6b470b40c",
+      "size": 115804
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/amiya/back/char_002_amiya.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_002_amiya/back/char_002_amiya.atlas",
+      "sha256": "cfa68d73f8c63b83145615a3225c64805b8879dfb35b9f348bf9c0f273bb048d",
+      "size": 3067
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/amiya/back/char_002_amiya.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_002_amiya/back/char_002_amiya.png",
+      "sha256": "6b0f584792d5aa1eb6b79cc57f74d5294a9d8d5a51d7a39db2c60ce1d78678ac",
+      "size": 40228
+    }
+  ],
+  "normal_blend_verified": true,
+  "animation_seconds": {
+    "front": {
+      "Attack": 1.7666666666666666,
+      "Attack_Begin": 0.13333333333333333,
+      "Attack_End": 0.13333333333333333,
+      "Default": 0.0,
+      "Die": 1.0,
+      "Idle": 1.0,
+      "Skill": 1.0,
+      "Skill_2": 0.4,
+      "Skill_2_Begin": 0.13333333333333333,
+      "Skill_2_End": 0.13333333333333333,
+      "Skill_Begin": 0.16666666666666666,
+      "Skill_End": 0.16666666666666666,
+      "Start": 1.0,
+      "Stun": 0.8
+    },
+    "back": {
+      "Attack": 1.7666666666666666,
+      "Attack_Begin": 0.13333333333333333,
+      "Attack_End": 0.13333333333333333,
+      "Default": 0.0,
+      "Idle": 1.0,
+      "Skill": 1.0,
+      "Skill_2": 0.4,
+      "Skill_2_Begin": 0.13333333333333333,
+      "Skill_2_End": 0.13333333333333333,
+      "Skill_Begin": 0.16666666666666666,
+      "Skill_End": 0.16666666666666666,
+      "Start": 1.0
+    }
+  },
+  "atlas_pages": {
+    "front": {
+      "width": 512,
+      "height": 512,
+      "mode": "straight alpha",
+      "normal_slots": 53
+    },
+    "back": {
+      "width": 256,
+      "height": 256,
+      "mode": "straight alpha",
+      "normal_slots": 38
+    }
+  },
+  "export_version": "3.8.99",
+  "animation_measurement": "Native 3.8 completion events sampled at1/300seconds; times rounded to original30fps frame boundaries. Events never drive simulation."
+}

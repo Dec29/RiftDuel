@@ -1,0 +1,55 @@
+{
+  "operator_id": "nearl",
+  "display_name": "临光",
+  "char_id": "char_148_nearl",
+  "costume": "默认服装（defaultskin）",
+  "model_kind": "battle front/back",
+  "repository": "https://github.com/PuppiizSunniiz/Arknights-Spines",
+  "pinned_commit": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+  "export_version": "3.8.99",
+  "note": "原始素材按固定提交与SHA校验；已由3.8原生提供器生成运行资源，动作时长以实际完成事件核定，映射见OperatorSpineMap。",
+  "files": [
+    {
+      "side": "back",
+      "file": "res://assets/operators/nearl/back/char_148_nearl.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_148_nearl/back/char_148_nearl.atlas",
+      "sha256": "b935253889d01dd95faa17bc19dea63d0ab10de947aedd35dd7d15521854c8ed",
+      "size": 3251
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/nearl/back/char_148_nearl.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_148_nearl/back/char_148_nearl.png",
+      "sha256": "3df8c04677e387a63c1e13aab1d1c581b17b495ca092a3269e4ce7e966b11db5",
+      "size": 51913
+    },
+    {
+      "side": "back",
+      "file": "res://assets/operators/nearl/back/char_148_nearl.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_148_nearl/back/char_148_nearl.skel",
+      "sha256": "7ec9a362f8cd64f6bbe265c035f39abc9d4490050a5d21f3d9694dd3ef3c5ad1",
+      "size": 52469
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/nearl/front/char_148_nearl.atlas",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_148_nearl/front/char_148_nearl.atlas",
+      "sha256": "3d44c5e7651c522bd10dfe4163cdd172563f23ecb2f29c5a2c770e4ded3ffb0f",
+      "size": 5398
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/nearl/front/char_148_nearl.png",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_148_nearl/front/char_148_nearl.png",
+      "sha256": "9c58903edc899b5dbbbafb39d4ab550c50dadf0da7990e550decd90cb972573a",
+      "size": 66054
+    },
+    {
+      "side": "front",
+      "file": "res://assets/operators/nearl/front/char_148_nearl.skel",
+      "url": "https://raw.githubusercontent.com/PuppiizSunniiz/Arknights-Spines/85f588ae805127ce93e8c47aa6dfcabc932f0a3e/spineassets/character/char_148_nearl/front/char_148_nearl.skel",
+      "sha256": "c44b4cc984381a70269efe15afbaa661dd62423f58f7ba5e4c1ca939030bad3f",
+      "size": 152860
+    }
+  ]
+}

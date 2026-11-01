@@ -1,0 +1,15 @@
+[remap]
+
+importer="curvature.spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dcijwl3cyhctp"
+path="res://.godot/imported/token_10000_silent_healrb.atlas-4fd9f9432b744b4d06c288dff4a0b35c.tres"
+
+[deps]
+
+source_file="res://assets/operators/medical_drone/single/token_10000_silent_healrb.atlas"
+dest_files=["res://.godot/imported/token_10000_silent_healrb.atlas-4fd9f9432b744b4d06c288dff4a0b35c.tres"]
+
+[params]
+
+normal_map_prefix="n"
