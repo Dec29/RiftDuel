@@ -1,0 +1,51 @@
+{
+  "actor_attack_clip": "",
+  "board_times": [
+    0.25,
+    0.65,
+    1.4
+  ],
+  "performance_cycle_seconds": 9.0,
+  "id": "fiammetta_s3",
+  "title": "菲亚梅塔默认S3（独立组件夹具）",
+  "operator_id": "fiammetta",
+  "asset_root": "res://assets/battle/vfx/fiammetta_s3/",
+  "output": "res://.ai/fiammetta-s3-20261026/visual-validation/",
+  "clip_ids": [
+    "buff",
+    "buff_02",
+    "start",
+    "hit"
+  ],
+  "start_times": [
+    0.0,
+    0.0,
+    0.4,
+    1.1
+  ],
+  "anchors": [
+    "source",
+    "source",
+    "source",
+    "target"
+  ],
+  "target_distance_units": 4.0,
+  "projectile_seconds": 0.7,
+  "loop_seconds": 10.0,
+  "verify_times": [
+    0.25,
+    0.65,
+    1.4,
+    2.4,
+    4.5,
+    6.5,
+    9.5
+  ],
+  "hit_verify_time": 1.4,
+  "capture_ranges": [
+    [
+      0.0,
+      10.0
+    ]
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "source_pack": "res://assets/battle/vfx/chen_s3/source_pack.json",
+  "output": "res://assets/battle/vfx/chen_s3",
+  "frames_per_second": 30,
+  "clips": [
+    {
+      "id": "hit_01",
+      "role": "hit",
+      "prefab": 0,
+      "emission_seconds": 0.9,
+      "duration_seconds": 1.4,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hit_02",
+      "role": "hit",
+      "prefab": 1,
+      "emission_seconds": 0.9,
+      "duration_seconds": 1.4,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hit_03",
+      "role": "hit",
+      "prefab": 2,
+      "emission_seconds": 0.9,
+      "duration_seconds": 1.4,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hit_04",
+      "role": "hit",
+      "prefab": 3,
+      "emission_seconds": 0.9,
+      "duration_seconds": 1.4,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hit_05",
+      "role": "hit",
+      "prefab": 4,
+      "emission_seconds": 0.9,
+      "duration_seconds": 1.4,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hit_06",
+      "role": "hit",
+      "prefab": 5,
+      "emission_seconds": 0.9,
+      "duration_seconds": 1.4,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hit_07",
+      "role": "hit",
+      "prefab": 6,
+      "emission_seconds": 0.9,
+      "duration_seconds": 1.4,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hit_08",
+      "role": "hit",
+      "prefab": 7,
+      "emission_seconds": 0.9,
+      "duration_seconds": 1.4,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hit_09",
+      "role": "hit",
+      "prefab": 8,
+      "emission_seconds": 0.9,
+      "duration_seconds": 1.4,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hit_10",
+      "role": "hit",
+      "prefab": 9,
+      "emission_seconds": 0.9,
+      "duration_seconds": 1.4,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "start",
+      "role": "start",
+      "prefab": 10,
+      "emission_seconds": 1.0,
+      "duration_seconds": 1.5,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "start_02",
+      "role": "start",
+      "prefab": 11,
+      "emission_seconds": 1.0,
+      "duration_seconds": 1.5,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "start_03",
+      "role": "start",
+      "prefab": 12,
+      "emission_seconds": 1.0,
+      "duration_seconds": 1.5,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "discard_invisible": true
+}

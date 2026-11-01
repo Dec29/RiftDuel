@@ -1,0 +1,59 @@
+{
+  "source_pack": "res://assets/battle/vfx/silverash_s3/source_pack.json",
+  "output": "res://assets/battle/vfx/silverash_s3",
+  "frames_per_second": 30,
+  "clips": [
+    {
+      "id": "activate",
+      "role": "start",
+      "prefab": 0,
+      "emission_seconds": 0.7,
+      "duration_seconds": 1.5,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "slash",
+      "role": "start",
+      "prefab": 1,
+      "emission_seconds": 0.8,
+      "duration_seconds": 1.6,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "hit",
+      "role": "hit",
+      "prefab": 2,
+      "emission_seconds": 1.0,
+      "duration_seconds": 1.6,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "aura",
+      "role": "attached",
+      "prefab": 3,
+      "emission_seconds": 30.0,
+      "duration_seconds": 31.5,
+      "travel_units": 0.0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

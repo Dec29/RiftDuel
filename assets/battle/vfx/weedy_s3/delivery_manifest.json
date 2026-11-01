@@ -1,0 +1,422 @@
+{
+  "version": "2026-10-22",
+  "source": "source_manifest.json",
+  "files": [
+    {
+      "file": "assets/battle/vfx/native_add.gdshader",
+      "bytes": 1657,
+      "sha256": "26c9ed748b31474b4b27b974115ca5e84595ae99bee195a294ac1a35c84618d1"
+    },
+    {
+      "file": "assets/battle/vfx/native_add.gdshader.uid",
+      "bytes": 20,
+      "sha256": "85bfc9a16be2d214f0edd82969e6833ec20bd0754e1546526e79b337e9aaa063"
+    },
+    {
+      "file": "assets/battle/vfx/native_mix.gdshader",
+      "bytes": 1657,
+      "sha256": "87acd19b1e1dd833e03ed7798d387d89d1449b14577acb860a70c42abd4e5343"
+    },
+    {
+      "file": "assets/battle/vfx/native_mix.gdshader.uid",
+      "bytes": 19,
+      "sha256": "eaf3ae6a4cd4888601a8b2bca46ade0b8b926cb615ab2c3203003878ffb4afd4"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/buff.res",
+      "bytes": 772549,
+      "sha256": "0f517b3b075ce699b5e2501625b54edf947d9c0d72ee2428628c957b30330756"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/build.json",
+      "bytes": 1113,
+      "sha256": "7d445c124375c98caea4cca7371d9f5d9bbd8890211e2164b76adac67b0590b4"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/build_report.json",
+      "bytes": 645,
+      "sha256": "2b9eb8d8d646bb61fa22eb81b1af344b9885e1cbaba713385c63cc48bab69e44"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/flight.res",
+      "bytes": 529750,
+      "sha256": "3ec5870e533c134d642cc4a5227ac4ef4ac2a2b641a51b25db2827fb5d5e6dec"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/hit.res",
+      "bytes": 1929250,
+      "sha256": "cac07a387d141fb66c17e1bf72e15fc874d957e9dc189adfb1556655b2c73bf5"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/source_manifest.json",
+      "bytes": 19336,
+      "sha256": "ed8f5cad8397bacfcdcb97355dde61f34af6a2d9a57d29cdee0a57f36c451c00"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/source_pack.json",
+      "bytes": 2766057,
+      "sha256": "729d9024635a126c5404002bc03d3062f72c5b14b0d72254a83896d7b5726b6b"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/start.res",
+      "bytes": 821839,
+      "sha256": "8e93002f4f2724c1ced7be06dd1980cfd35786ba552c0e569cb45dd88810cc74"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-1512fc0efbde6852b5d5a28ec9cec589_-1307787635616248012.png",
+      "bytes": 7482,
+      "sha256": "00241b13dc98db8081d06afa7187bdc6a25d82b4274c4680cc0c3723db50cae1"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-1512fc0efbde6852b5d5a28ec9cec589_-1307787635616248012.png.import",
+      "bytes": 1110,
+      "sha256": "f029c0276ef3e5f2f95155fcadb1cd7574e920d47653b9e99280b909be81c260"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-1512fc0efbde6852b5d5a28ec9cec589_-4877114944970820492.png",
+      "bytes": 20356,
+      "sha256": "2169f5ef4fbe9b22d2d6996b7f66f69ee52953d0ae203a27009e9a32a960401e"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-1512fc0efbde6852b5d5a28ec9cec589_-4877114944970820492.png.import",
+      "bytes": 1111,
+      "sha256": "6d8ac2ba02d3adee740f2673c71c2c767e1afe1941dd7a1107ad3b56804c0aad"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-1512fc0efbde6852b5d5a28ec9cec589_205151483379320451.png",
+      "bytes": 9128,
+      "sha256": "b6bcc04f45faa52bb8e96bcd5e16a6ac988290a39e946e04f7d231936791b3f1"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-1512fc0efbde6852b5d5a28ec9cec589_205151483379320451.png.import",
+      "bytes": 1105,
+      "sha256": "68ea9044d76feaa18c1fa3ff56de9aee60584c1df71b08e1e549baafb7c106db"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-1512fc0efbde6852b5d5a28ec9cec589_6296098954770389335.png",
+      "bytes": 5508,
+      "sha256": "c1e93f90d82a6d6321cde076df76b256c4e04776f51640b74ba91c74e823a92d"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-1512fc0efbde6852b5d5a28ec9cec589_6296098954770389335.png.import",
+      "bytes": 1108,
+      "sha256": "12be9f3f7f673bca52621524a1e4f3b2f7d3542b7fde86c8fe179ebb08131dfb"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-1512fc0efbde6852b5d5a28ec9cec589_7120098812528674917.png",
+      "bytes": 10530,
+      "sha256": "8dfa67e1b50b5678f38445dacd03df08ff0891eb42617b29d6bd5c34074bed53"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-1512fc0efbde6852b5d5a28ec9cec589_7120098812528674917.png.import",
+      "bytes": 1108,
+      "sha256": "e104d20ea69ff0b7827bfbf239d7564c3d10aad88fbc57d62a57434307a54687"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-38dfd52763d3e93a929240c854b1fb51_-6580331189602727444.png",
+      "bytes": 30400,
+      "sha256": "a7f2d08f0efe54cf106ae54ce731c3789cc42e90426fd73990d28ae18d753613"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-38dfd52763d3e93a929240c854b1fb51_-6580331189602727444.png.import",
+      "bytes": 1111,
+      "sha256": "ddd8a22fc5e1ecf1f8a4dee354b52ed19e3412748f322080155f889a6f6b01e5"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-38dfd52763d3e93a929240c854b1fb51_483601320613051295.png",
+      "bytes": 4014,
+      "sha256": "a1a3b397162d2bb921d88333590a6857258aedeae70da81ff88b1edc53128ada"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-38dfd52763d3e93a929240c854b1fb51_483601320613051295.png.import",
+      "bytes": 1105,
+      "sha256": "df580c5ad6ce9bd136b85f0f00efe61b2eb80b0935445f3ed8600e9c1632a015"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-1074696917881622342.png",
+      "bytes": 6284,
+      "sha256": "f74fe25ec860fd1893d58227f19ee76b6edd827f53f60f8f84801c934c5e71bc"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-1074696917881622342.png.import",
+      "bytes": 1111,
+      "sha256": "b560e84a70924c5ceacf1de31a705193c43f3d73590832b8318685f3de320e71"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-2837235076904816243.png",
+      "bytes": 6821,
+      "sha256": "e8d912f4ba896f5db2969cb4207510b0c71f987ee9f9733813c67428eaa851b8"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-2837235076904816243.png.import",
+      "bytes": 1111,
+      "sha256": "072c076e6c413c95770091a186afd86915a5902bb4c6436f58e9a03574232417"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-2932685330625441424.png",
+      "bytes": 6777,
+      "sha256": "56b0d4f9b5e20322548804b5f3cd67f4c3b431c3de2409c3a9902a83ec35ba6c"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-2932685330625441424.png.import",
+      "bytes": 1111,
+      "sha256": "38c2ae886f5f5d1462f64ac9cf241c91d8fdf5761db3fbff26f53fb56001e5c3"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-6521634554791918860.png",
+      "bytes": 21070,
+      "sha256": "acaad13bf20db7fa55cee4a49a9351db4b53415b01941ce1671a1a2f518b30e6"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-6521634554791918860.png.import",
+      "bytes": 1111,
+      "sha256": "2918a78f36731a7929ec03d7a4cda298d9767649c2800e37d6c34e218df293a6"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_5319023822968148357.png",
+      "bytes": 4540,
+      "sha256": "d36889e429bdc516dc3740362ed113fda748a2ccbaca1fc6f6fdb8c27839b78d"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_5319023822968148357.png.import",
+      "bytes": 1107,
+      "sha256": "9b049320550fcee3374765707a2b6b9eb6d9d05af08fde163fb3aed2c00efb77"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-895a9c6afcb47c5c7f43c8589b1fe2fc_-4350925073696678326.png",
+      "bytes": 7732,
+      "sha256": "65b15412b491ccbe1bc7d8b846214a608c9119b4b551250e53ade328a67977c9"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-895a9c6afcb47c5c7f43c8589b1fe2fc_-4350925073696678326.png.import",
+      "bytes": 1111,
+      "sha256": "6e983c8b7a4318c42044582e7ff157d22e4361173cf066c0d105e4b7a409acab"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-895a9c6afcb47c5c7f43c8589b1fe2fc_2466398176992565060.png",
+      "bytes": 160136,
+      "sha256": "56407fa4d7778d41f6fe9c3c6c6453d36c67831ae12d0d3636e350a5180f9fea"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-895a9c6afcb47c5c7f43c8589b1fe2fc_2466398176992565060.png.import",
+      "bytes": 1108,
+      "sha256": "06c0d56eb7a2cf9336c0e9148ccd818bb573a328d28767f3559ce10ff489036b"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-92fdf60cd1676328e17f73f0bf852e97_-8229412089251420980.png",
+      "bytes": 29118,
+      "sha256": "bf0dd274340106b13471318296e4f746002fbbfe6ee627ae31bec37bb73cc30c"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-92fdf60cd1676328e17f73f0bf852e97_-8229412089251420980.png.import",
+      "bytes": 1111,
+      "sha256": "03a4ad2ecd0281197197f3733d2497f35974a4cd0a3419b9228c79313439d9b3"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-92fdf60cd1676328e17f73f0bf852e97_3940603697482644286.png",
+      "bytes": 666,
+      "sha256": "fdf74b4a3bd542f2898b896da85d01469ad2caa71d2c1352741a4870f6342314"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-92fdf60cd1676328e17f73f0bf852e97_3940603697482644286.png.import",
+      "bytes": 1108,
+      "sha256": "6d204a3dbe49ef480846dab0628fc1da3fdcb18586ae3d5098c69a34de0bfeaf"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_-5167899338068653716.png",
+      "bytes": 81922,
+      "sha256": "13009f49e42831a9b0d7f96aff09d8b0b125ceb43b7d06ad67e8b0fbafb592a9"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_-5167899338068653716.png.import",
+      "bytes": 1110,
+      "sha256": "d6ee45b4e82e40b1f0b04fdf18fec94f7e3a626924d19701488650d7c3ead52c"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_1024654054040370538.png",
+      "bytes": 10903,
+      "sha256": "0156bc62be3ffe7e2795a0b0a3db9d63c5c5bdf3bfd84b072d47eb70cfaa92c8"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_1024654054040370538.png.import",
+      "bytes": 1108,
+      "sha256": "af1364fa6bc2275db2a2e099288ebeb6956e1ef252c918f089156a628a80560e"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_115954569950360381.png",
+      "bytes": 9895,
+      "sha256": "cf80f55d9bba2e0e42ece64c1976c9176b283ad4448077a9e7face278612b7b3"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_115954569950360381.png.import",
+      "bytes": 1105,
+      "sha256": "de498c12a6b5c527b7338d88c5dca74d661652144fbbaadde37e9df5aacfde0d"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_1619560528124571021.png",
+      "bytes": 15662,
+      "sha256": "1da0657d39519bdfdc6d686ea263c17e46365b6ff3c242b71c89296f47f6bf5e"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_1619560528124571021.png.import",
+      "bytes": 1106,
+      "sha256": "7a7a0594eaec7b005cbf19d6d0f615c89511ab5c13288ff29afcb5200121d200"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_1897271219764348464.png",
+      "bytes": 79755,
+      "sha256": "76488821b5ec166904a2417ec977069502e72bb286ea3521d46d21591c6d561f"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_1897271219764348464.png.import",
+      "bytes": 1108,
+      "sha256": "89414361f5fd165c2cea592a3226c0ade92b8d2e90b2b48afc35215eba698419"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_4955946025760829166.png",
+      "bytes": 2256,
+      "sha256": "ed4dda3686f8518466d8b5cd09af6346e7f49c1c8022a55c424c3b306026d759"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_4955946025760829166.png.import",
+      "bytes": 1108,
+      "sha256": "dbefce582e1ca29d47a6457022873b335772ab990cc512be7b9767e2eb0d648e"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_7055764720654323568.png",
+      "bytes": 2840,
+      "sha256": "c994b0d8d8b2e22e893fe6b672e7898462ed27a7bcfdf090affd67148205e209"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_7055764720654323568.png.import",
+      "bytes": 1108,
+      "sha256": "208104ced9a004800ad35bb3db5071dfec611acb55734c5c774d0d819f3cf1ed"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_966414270833893286.png",
+      "bytes": 10675,
+      "sha256": "56f67fcde0c7c547b89fd65ec42a4df9561b91cb76553c0cb4b5d9f1cb39a9d1"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_966414270833893286.png.import",
+      "bytes": 1105,
+      "sha256": "295d7bea78d4eb418a2eb993db7e48e3caacc75361b660a83dc6ca526337a33b"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-4487102536378500135.png",
+      "bytes": 13827,
+      "sha256": "8fa88e4669415409a9f135dd3c4a2bf7c41ec1981150b8061474e3d0377f783e"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-4487102536378500135.png.import",
+      "bytes": 1111,
+      "sha256": "d88ab598b0ebb8b8bd8642b35613c0381d7044881d1cba76dbd1df594d726766"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-4151556773646468338.png",
+      "bytes": 14250,
+      "sha256": "07bd090f7425b9175bc018c668412b854ac647e1c7194746a15a205063c06aa5"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-4151556773646468338.png.import",
+      "bytes": 1111,
+      "sha256": "c0e542e63436419b0c64988f1395d0718d6db037116a2dfb7389757b5f601361"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-7183847958211705556.png",
+      "bytes": 7506,
+      "sha256": "c871d3550800f841e5a5b21f6eeecb7b443e114ea4b20c843e2d7e54fd01c990"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-7183847958211705556.png.import",
+      "bytes": 1110,
+      "sha256": "e27f665d29675d7d5d0e66a8fbf8496a9430fc9c9771d10522e1247fa267685e"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-7887427954279609538.png",
+      "bytes": 2875,
+      "sha256": "c3d27b0165fb0e84fc74c4c4d2cf1ccf67e9d056fd2474e4ab70314f37c74484"
+    },
+    {
+      "file": "assets/battle/vfx/weedy_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-7887427954279609538.png.import",
+      "bytes": 1111,
+      "sha256": "28bf00265c70971d37b3342f1aaa2281847df200300f7af63cc61d60b4bf5265"
+    },
+    {
+      "file": "Docs/original_vfx.md",
+      "bytes": 6378,
+      "sha256": "f70005643620050eaa54d52185ae25772613de6d3c723923a6d6beb37bf1feba"
+    },
+    {
+      "file": "tools/build_original_vfx.gd",
+      "bytes": 2885,
+      "sha256": "ffc3b4b43d37e3026bca53938ca3b1aaf0a327bd3ccba64b55646199bec92bf4"
+    },
+    {
+      "file": "tools/build_original_vfx.gd.uid",
+      "bytes": 19,
+      "sha256": "8816e8c8205c1a9cfdf8ff200bef9dd5fa2b15ada146f65eb36107ac8c62ca1f"
+    },
+    {
+      "file": "tools/original_vfx_sampler.gd",
+      "bytes": 19894,
+      "sha256": "699d38dc2a1326c146031aee5ca63798d196dab344f2f847b06c04cc5e6e23b3"
+    },
+    {
+      "file": "tools/original_vfx_sampler.gd.uid",
+      "bytes": 20,
+      "sha256": "8806df9b83194792a5fd02aa4ff449693f3141d87ab82336e819f9ef0ba5d2d2"
+    },
+    {
+      "file": "tools/test_original_vfx.gd",
+      "bytes": 8810,
+      "sha256": "92773e60e0d8e35acf0ee699cf3637334810e77fcc39663086edba80c9bf4bb3"
+    },
+    {
+      "file": "tools/test_original_vfx.gd.uid",
+      "bytes": 19,
+      "sha256": "756a276f1b7d5a12af2c267c64e348ea302afda8e07735e526b550a4067a059d"
+    },
+    {
+      "file": "tools/test_original_vfx_board.gd",
+      "bytes": 4792,
+      "sha256": "7e6a4360963ece9b6bc8555c2ac6d03029c228c25a96f9d39a73aeee34aa3988"
+    },
+    {
+      "file": "tools/test_original_vfx_board.gd.uid",
+      "bytes": 20,
+      "sha256": "742bb9d8297dcc673d8a18b6e8cfd7db91e4a1380211d00f5670ab1392b2c955"
+    },
+    {
+      "file": "view/original_vfx_clip.gd",
+      "bytes": 653,
+      "sha256": "8ccdae85fd66c31769fafef3f92ba249c4e677cecd9f577887c305e0fdc3f86f"
+    },
+    {
+      "file": "view/original_vfx_clip.gd.uid",
+      "bytes": 20,
+      "sha256": "4cb3ffc2266d462c551714636aee4bd5df0f03b173e6ce97d3a85ae650e79c8e"
+    },
+    {
+      "file": "view/original_vfx_frame.gd",
+      "bytes": 132,
+      "sha256": "0b9c9bdfdf4058250d1d6cdf13e8eba47830f8b2986beabdca715b80dabeae25"
+    },
+    {
+      "file": "view/original_vfx_frame.gd.uid",
+      "bytes": 20,
+      "sha256": "3c0d8b51d55eeb0c901a9eaa290273e3b68552f9dfa90e588c29acceb22ff4c6"
+    },
+    {
+      "file": "view/original_vfx_player.gd",
+      "bytes": 1376,
+      "sha256": "89e9a8d5ddce052ba9e1fd965b2cdce1782f1856e160eb77188cd003ff845268"
+    },
+    {
+      "file": "view/original_vfx_player.gd.uid",
+      "bytes": 20,
+      "sha256": "97d8edce28de0729bdc92cd90fdac2cd57508b4af118d56b01259c0df9235d12"
+    }
+  ],
+  "does_not_hash_itself": true
+}

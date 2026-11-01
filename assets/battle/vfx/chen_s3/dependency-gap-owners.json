@@ -1,0 +1,221 @@
+{
+  "owners": [
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_01",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 1149374055237060560
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_01",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 6196809664641094801
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_02",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 1149374055237060560
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_02",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 6196809664641094801
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_03",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 1149374055237060560
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_03",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 6196809664641094801
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_04",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 1149374055237060560
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_04",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 6196809664641094801
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_05",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 1149374055237060560
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_05",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 6196809664641094801
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_06",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 1149374055237060560
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_06",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 6196809664641094801
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_07",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 1149374055237060560
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_07",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 6196809664641094801
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_08",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 1149374055237060560
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_08",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 6196809664641094801
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_09",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 1149374055237060560
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_09",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 6196809664641094801
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_hit_10",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 6196809664641094801
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_start",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 1149374055237060560
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_start",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 6196809664641094801
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_start",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 8889037078861433556
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_start_02",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 4526430437831129839
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_start_02",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 1149374055237060560
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_start_02",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 6196809664641094801
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_start_03",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 4526430437831129839
+      }
+    },
+    {
+      "type": "MonoBehaviour",
+      "path": "/chen_skill_03_start_03",
+      "reference": {
+        "m_FileID": 1,
+        "m_PathID": 6196809664641094801
+      }
+    }
+  ],
+  "note": "Unresolved refs are retained as gaps; resolved render sources separately hashed."
+}

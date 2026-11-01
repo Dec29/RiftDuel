@@ -1,0 +1,287 @@
+[
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/adaptation.json",
+    "bytes": 5683,
+    "sha256": "eb680cb44be2496c8fb5100d5c9ac9acfed1408763ca700071981b36eb28c1ac"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/animation-binding-gaps.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/buff.res",
+    "bytes": 2210515,
+    "sha256": "3c105013763664347296774c51ed0e4d6de91376ca5dbbd07b1f7e19a97792d2"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/buff_02.res",
+    "bytes": 207973,
+    "sha256": "25f5f99c96716b4069bc7db38ea460fb64a1285f52ae707af54d7fd807137b93"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/build.json",
+    "bytes": 1327,
+    "sha256": "4cd69f3d9d13b0ab4dd7ad65a75fa39e3cdc4b318328b081ef10e65c0a7c1ea4"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/build_report.json",
+    "bytes": 661,
+    "sha256": "a794f5e5dc32747dc183b4d2747c66e87674f81e109c7647d509c2dd73d89c4b"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/hit.res",
+    "bytes": 2109851,
+    "sha256": "7b3e5d40ad5ed13254405a3aa7dd66982db99503a0d8b6ca554513358802cc3d"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/preview.json",
+    "bytes": 883,
+    "sha256": "56ac8e8aaa32e077c3b6401c41ca04c334aea8130657122e66af0f1b27eee74c"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/source_manifest.json",
+    "bytes": 16811,
+    "sha256": "9dd302f1fcbe0dc0a7b9d110f43d9ddb34436435f146b6765f4440424d74aa0a"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/source_pack.json",
+    "bytes": 1697708,
+    "sha256": "a9fabcce5e503c9a4571402fb793aa055ceabbeac8ed8e5c7c42037faa452a3b"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/start.res",
+    "bytes": 610211,
+    "sha256": "9daf3b8a667d83f14cc21a136d49a04a7f946da225a3026796fa9f349c14a831"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/unbound-source-bindings.json",
+    "bytes": 2,
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-01422adfd429a0d7b148a67bbe57015e_-2548426727787220984.png",
+    "bytes": 14136,
+    "sha256": "84be7fba1119b5740c28d0bf9dd869d388f1260a3c931ece7fad1044593598a2"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-01422adfd429a0d7b148a67bbe57015e_-4003898842304668968.png",
+    "bytes": 4150,
+    "sha256": "6037da4598bbbd2e844585853e69765e304c5f66b0f9f6e801eea344ca13f40e"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-01422adfd429a0d7b148a67bbe57015e_-4649731901107591679.png",
+    "bytes": 3275,
+    "sha256": "50a0234a01a6636c65d8c04d458a7a32e154f6c31970d49485a79f457ab6155b"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-01422adfd429a0d7b148a67bbe57015e_-5268702592170883909.png",
+    "bytes": 4523,
+    "sha256": "825100084eb5998369b25af941635ee07c4394dd137deb158915739155b9c5aa"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-01422adfd429a0d7b148a67bbe57015e_7504179812926848676.png",
+    "bytes": 23017,
+    "sha256": "91b3b62b1a77474a0a1f8680b32231c236cecd321dadff8b4d2cb16975241879"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-01422adfd429a0d7b148a67bbe57015e_8028604975292992855.png",
+    "bytes": 17269,
+    "sha256": "71b6ba9675258b30a34dbe781a83403ab79029de2ae46e813923b359799696b4"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-1512fc0efbde6852b5d5a28ec9cec589_4060294991387140686.png",
+    "bytes": 21155,
+    "sha256": "fd81c7bec5af16a197dde06706ef2a003a4514bc36d9d5e3a1390fe040e81ea7"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-38dfd52763d3e93a929240c854b1fb51_-3509038735332567895.png",
+    "bytes": 21153,
+    "sha256": "576ff070c6242512105973a3b3230b71cd21bb388581bdc496165fa9f8708e7f"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-38dfd52763d3e93a929240c854b1fb51_4058513982419752380.png",
+    "bytes": 15775,
+    "sha256": "2cb6c576eda09f02084b43c0a7db3b21c612b1d6ed90c9941766c71114b05cbe"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-1074696917881622342.png",
+    "bytes": 6284,
+    "sha256": "f74fe25ec860fd1893d58227f19ee76b6edd827f53f60f8f84801c934c5e71bc"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-5177635814654685401.png",
+    "bytes": 6196,
+    "sha256": "d54a8268c1bdf9bae9d6600bfb14681356402a5c876b660be673be7e5fe1eaa2"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-6042231430977390818.png",
+    "bytes": 27247,
+    "sha256": "422f1b5626970e9a9c6e7021b98efab682d671204d53c6dbb7c68aa070ff90b7"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-6521634554791918860.png",
+    "bytes": 21070,
+    "sha256": "acaad13bf20db7fa55cee4a49a9351db4b53415b01941ce1671a1a2f518b30e6"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-895a9c6afcb47c5c7f43c8589b1fe2fc_-1576986270873079282.png",
+    "bytes": 65179,
+    "sha256": "43aaae8072377bf5c608068a40c7685218bd8365e07333d6fd5717789c8816cb"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-895a9c6afcb47c5c7f43c8589b1fe2fc_-4350925073696678326.png",
+    "bytes": 7732,
+    "sha256": "65b15412b491ccbe1bc7d8b846214a608c9119b4b551250e53ade328a67977c9"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-92fdf60cd1676328e17f73f0bf852e97_-3532777167102240699.png",
+    "bytes": 2024,
+    "sha256": "7feac173b7b47f13c7acaed863b410caa5a9dcf54bee52fdc323dbd778a0d5b2"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-92fdf60cd1676328e17f73f0bf852e97_8056171844141743889.png",
+    "bytes": 8619,
+    "sha256": "6f5197ef5be0cb4738553d4e5b4935f3e58997121b7b8660a6a7686bc3016116"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-a1620becb3839aebe0c9da8f7cca77f8_-8053955477894095160.png",
+    "bytes": 27993,
+    "sha256": "95166db26b7c0c3632328be115b50c71939a0b4c83d69c5d5ddae1a6735a1a2c"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_115954569950360381.png",
+    "bytes": 9895,
+    "sha256": "cf80f55d9bba2e0e42ece64c1976c9176b283ad4448077a9e7face278612b7b3"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-b2739f24071ea30492cad3b1c540173a_966414270833893286.png",
+    "bytes": 10675,
+    "sha256": "56f67fcde0c7c547b89fd65ec42a4df9561b91cb76553c0cb4b5d9f1cb39a9d1"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-4487102536378500135.png",
+    "bytes": 13827,
+    "sha256": "8fa88e4669415409a9f135dd3c4a2bf7c41ec1981150b8061474e3d0377f783e"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-5378185702619682049.png",
+    "bytes": 35155,
+    "sha256": "9dac72ad273183ccd9f027c7f6dfd633bd3d9f7e7099c4296d47f1130aa55e39"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_1238721790937502438.png",
+    "bytes": 17124,
+    "sha256": "ea8c6a40ee27d7fd5af9948e64399aa8761f43fdda200083b604eefac39e3a8a"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_1329491080043089029.png",
+    "bytes": 28733,
+    "sha256": "8b90b774e25851a512683495053b0741074ea44412c228c1fb5ca5c97069c55b"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_3488265059112199666.png",
+    "bytes": 28338,
+    "sha256": "271c2fb24554daf59aa9feed2d59cb5726fa087867ed4b03bbb102f5b62c15e0"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_4249621393576650867.png",
+    "bytes": 13936,
+    "sha256": "5d5bd420cb4ae2690d5fd1e892cb1f19318ab2cbb1c560151f64146ed6fc53f2"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-d78082c54cca29d82a1f4895c6b873e6_-4310159272584695222.png",
+    "bytes": 104309,
+    "sha256": "a01b7c4cf4f73c008283dc31a7e9022eaa12da2b4d16f76f7f7fe7ecc2c8737a"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-d78082c54cca29d82a1f4895c6b873e6_549480829010599612.png",
+    "bytes": 109615,
+    "sha256": "e5a8707c05f287fee283994a91dc94aae9b9d1716eda93980f3d4f507346bb9b"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-d78082c54cca29d82a1f4895c6b873e6_995271004432177298.png",
+    "bytes": 23100,
+    "sha256": "228f7750046d4939dd75b382aa971349a9e98967f043d2a8ec0c958f821148c0"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-1078876861305473897.png",
+    "bytes": 20213,
+    "sha256": "cae614bcbb6156f269ad3985d1d8bddc8a4c4b4d307f9595a252b5709ad93b56"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-2445734264748420113.png",
+    "bytes": 14952,
+    "sha256": "d684ba022d05ebe0b07acc92b197439cbd7b7cae9de1ed5cc3cde83e902bd713"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-3597103339885153670.png",
+    "bytes": 5228,
+    "sha256": "00768f7934f81571df35e30f12d11ec519e6cbcd5f3b690ada69457b0c969e35"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-7887427954279609538.png",
+    "bytes": 2875,
+    "sha256": "c3d27b0165fb0e84fc74c4c4d2cf1ccf67e9d056fd2474e4ab70314f37c74484"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_4433187799854432094.png",
+    "bytes": 7190,
+    "sha256": "63690fef109d3a04887c611a82d8adf11197c16986c2fff71852c43831bb49a1"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_5157747962160573218.png",
+    "bytes": 16435,
+    "sha256": "76b473ea7ca76b00267e49f3fc13908dd34da27a81c6b315af0187d986cb02ed"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_5711092519389492231.png",
+    "bytes": 4830,
+    "sha256": "45dd75cb535a35905045e08ff7c6d37b262509e3894126cfeb181dd74ee5be23"
+  },
+  {
+    "file": "assets/battle/vfx/fiammetta_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_6228069663471925264.png",
+    "bytes": 6347,
+    "sha256": "665acd3886c8b229037a3e590f6e055fb4f226437e168f735e08049c3b5f00b2"
+  },
+  {
+    "file": "view/battle_original_vfx.gd",
+    "bytes": 12992,
+    "sha256": "fa9362f81bc9754e73668f9c20c2e6df56a55108e44f6b4ad39c1b5bb00512ce"
+  },
+  {
+    "file": "view/battle_renderer.gd",
+    "bytes": 41948,
+    "sha256": "9a0ab3ff407a28e0017bae555dc922978bac4ca58969426e2e6460de84c18be6"
+  },
+  {
+    "file": "view/operator_spine_visual.gd",
+    "bytes": 41162,
+    "sha256": "4e19ebcaa653dc6d52a10ae8ed51fe9c0116dddf5b6fc3e02f1d1d4dd89abd2a"
+  },
+  {
+    "file": "tools/test_fiammetta_original_vfx.gd",
+    "bytes": 6502,
+    "sha256": "2c4464c128d5daa5fee1e6536a7a33ed2347c8cd69aabed3c69ee3e4fa6d7ad0"
+  },
+  {
+    "file": "tools/export_original_vfx.py",
+    "bytes": 16775,
+    "sha256": "6817d410cf67d6a468e25a4d3e4763559e5fd9c2ad32909f46979269d1fcfc10"
+  },
+  {
+    "file": "tools/original_vfx_sampler.gd",
+    "bytes": 26960,
+    "sha256": "a4174245e4b3c523f4efa5e0b5a9afb83c1991434378140a7462e976de4d2ccc"
+  },
+  {
+    "file": "assets/battle/vfx/native_disturb_anchor_add.gdshader",
+    "bytes": 2476,
+    "sha256": "9952fa054ec87e2a939b5178d7b5c369b7881ed66e831d12f1180dca12ea375f"
+  },
+  {
+    "file": "assets/battle/vfx/native_disturb_anchor_mix.gdshader",
+    "bytes": 2476,
+    "sha256": "78ca055ad620cd4d861f274a7d4cac3fac70d6ab96eb6c7b824e3f996f36fd4e"
+  }
+]

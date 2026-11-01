@@ -1,0 +1,77 @@
+{
+  "id": "chen_s3",
+  "title": "陈默认S3",
+  "operator_id": "chen",
+  "asset_root": "res://assets/battle/vfx/chen_s3/",
+  "output": "res://.ai/chen-s3-20261025/component/",
+  "clip_ids": [
+    "hit_01",
+    "hit_02",
+    "hit_03",
+    "hit_04",
+    "hit_05",
+    "hit_06",
+    "hit_07",
+    "hit_08",
+    "hit_09",
+    "hit_10",
+    "start",
+    "start_02",
+    "start_03"
+  ],
+  "start_times": [
+    0.0,
+    0.18,
+    0.36,
+    0.54,
+    0.72,
+    0.8999999999999999,
+    1.08,
+    1.26,
+    1.44,
+    1.6199999999999999,
+    0,
+    0,
+    1.5
+  ],
+  "anchors": [
+    "target",
+    "target",
+    "target",
+    "target",
+    "target",
+    "target",
+    "target",
+    "target",
+    "target",
+    "target",
+    "source",
+    "source",
+    "source"
+  ],
+  "target_distance_units": 2.0,
+  "projectile_seconds": 0.25,
+  "loop_seconds": 4.0,
+  "verify_times": [
+    0.15,
+    0.5,
+    1.0,
+    1.8,
+    2.5,
+    3.5
+  ],
+  "hit_verify_time": 0.5,
+  "capture_ranges": [
+    [
+      0,
+      3.8
+    ]
+  ],
+  "actor_attack_clip": "Skill_3",
+  "board_times": [
+    0.2,
+    0.6,
+    1.2
+  ],
+  "performance_cycle_seconds": 4.0
+}

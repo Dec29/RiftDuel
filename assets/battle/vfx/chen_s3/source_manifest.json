@@ -1,0 +1,414 @@
+{
+  "copyright": "Arknights / Hypergryph and respective rightsholders. Local non-commercial fan-project testing is not a new license. Repository code license does not cover game art.",
+  "sources": [
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\battle\\prefabs\\effects\\chen.ab",
+      "bytes": 1800853,
+      "sha256": "df3cb26da9338b159f248ae2dc2ea2b9cfd83534be635f940f9ecb9d53707bac"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\refs\\fx\\material.ab",
+      "bytes": 63148,
+      "sha256": "53e01422e18f06641dd8e893d61aa9914fb65f7058767f7ea7c47b85ccfd7eff"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\sharedbattle.ab",
+      "bytes": 3492457,
+      "sha256": "a97e9f2a1f6bfec3f8e8f28c71f30e3eb0fecf8ac70f49c2e948c10a3c3d9c95"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\[uc]shaders.ab",
+      "bytes": 443792,
+      "sha256": "668663dccbada9272f30092c5fe5a5b3594a24da56b43527fd65212146860e0a"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\object.ab",
+      "bytes": 9436954,
+      "sha256": "87f549cfd79fdb19c576104f27cde8ec24c5f20cbbcfbd2bd8199c50c0979b94"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\star.ab",
+      "bytes": 6516985,
+      "sha256": "c601419ffde815547c7563a64c444ac2b4f8fab6b329d11b68ae9c659516c63b"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\trail.ab",
+      "bytes": 10859786,
+      "sha256": "4c6613ca58d886b5be224d0067658f8d3c99b6083c5c3f3659fb1652c9ed4125"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\smoke.ab",
+      "bytes": 3453973,
+      "sha256": "3a12e1947eaa79c539a2b04759bdad8697d01dda5b655db2da9fca91254df36b"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\mask.ab",
+      "bytes": 3953135,
+      "sha256": "6e1c5a448c5b74271f484f186e29f08c553bcef31e4d890bd1d36d4b96b68f7f"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\ray.ab",
+      "bytes": 4311287,
+      "sha256": "54ddc50fa3b31055060cabc721455a66dc7c8feb60c16058b0f6d0eff0b96a6f"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\flow.ab",
+      "bytes": 13817256,
+      "sha256": "f60b60836874c9f629303d5f750c119abe191e81582a335ffe52572b3666e4d5"
+    }
+  ],
+  "prefabs": [
+    {
+      "name": "chen_skill_03_hit_01",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "game_object_path_id": "8757242712643147900"
+    },
+    {
+      "name": "chen_skill_03_hit_02",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "game_object_path_id": "-7068335715109742944"
+    },
+    {
+      "name": "chen_skill_03_hit_03",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "game_object_path_id": "503304359221981817"
+    },
+    {
+      "name": "chen_skill_03_hit_04",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "game_object_path_id": "-8675948128486739464"
+    },
+    {
+      "name": "chen_skill_03_hit_05",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "game_object_path_id": "-1350824217371242713"
+    },
+    {
+      "name": "chen_skill_03_hit_06",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "game_object_path_id": "127268578597353982"
+    },
+    {
+      "name": "chen_skill_03_hit_07",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "game_object_path_id": "8029372770952826690"
+    },
+    {
+      "name": "chen_skill_03_hit_08",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "game_object_path_id": "-6695616532794013280"
+    },
+    {
+      "name": "chen_skill_03_hit_09",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "game_object_path_id": "2746069335971091297"
+    },
+    {
+      "name": "chen_skill_03_hit_10",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "game_object_path_id": "-8552843208026346314"
+    },
+    {
+      "name": "chen_skill_03_start",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "game_object_path_id": "-5092478274160055085"
+    },
+    {
+      "name": "chen_skill_03_start_02",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "game_object_path_id": "4999577107407840040"
+    },
+    {
+      "name": "chen_skill_03_start_03",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "game_object_path_id": "-2009536715945681283"
+    }
+  ],
+  "textures": [
+    {
+      "file": "textures/CAB-1512fc0efbde6852b5d5a28ec9cec589_3216512357931363151.png",
+      "original_cab": "CAB-1512fc0efbde6852b5d5a28ec9cec589",
+      "original_path_id": "3216512357931363151",
+      "bytes": 5018,
+      "sha256": "ccf42dd536906aa9319f9ed800d162b95eee3011e528cceb3a185e9cdd14f7cc"
+    },
+    {
+      "file": "textures/CAB-2858a9a4c05901d568b7ce108f26c083_-6298523616920056734.png",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "original_path_id": "-6298523616920056734",
+      "bytes": 31239,
+      "sha256": "265c52537814150aae63aad09af9595d00519ef64f08025a079eb1cc8bf63424"
+    },
+    {
+      "file": "textures/CAB-2858a9a4c05901d568b7ce108f26c083_2139059149144382594.png",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "original_path_id": "2139059149144382594",
+      "bytes": 37229,
+      "sha256": "36d311d434433a422074281c26f4137a1e4ee5cf9f7a86333858f40d3b3bfab4"
+    },
+    {
+      "file": "textures/CAB-2858a9a4c05901d568b7ce108f26c083_2323105457683685923.png",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "original_path_id": "2323105457683685923",
+      "bytes": 41392,
+      "sha256": "6454c156902c71a892f7b87d50586af98edb4be1ddb9061c54719ce1a14dd7b5"
+    },
+    {
+      "file": "textures/CAB-2858a9a4c05901d568b7ce108f26c083_432777221571041397.png",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "original_path_id": "432777221571041397",
+      "bytes": 2036,
+      "sha256": "c826b9ddbc953486fdce3b96bf0b24102dbf46a84d87d021b8a4a110b202f686"
+    },
+    {
+      "file": "textures/CAB-2858a9a4c05901d568b7ce108f26c083_4626170953147877077.png",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "original_path_id": "4626170953147877077",
+      "bytes": 29795,
+      "sha256": "097ab1428f05ace5e695afb217b237c2d04cb2a21facec85da6ae2374bba9152"
+    },
+    {
+      "file": "textures/CAB-2858a9a4c05901d568b7ce108f26c083_5137752667275702187.png",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "original_path_id": "5137752667275702187",
+      "bytes": 13428,
+      "sha256": "f3aa51ec709c2b9ece4ae603f45f49341d6e0d80e681f199de9db9f0399c8d84"
+    },
+    {
+      "file": "textures/CAB-2858a9a4c05901d568b7ce108f26c083_7048890079187809744.png",
+      "original_cab": "CAB-2858a9a4c05901d568b7ce108f26c083",
+      "original_path_id": "7048890079187809744",
+      "bytes": 39635,
+      "sha256": "2f4f08b240c57d488961a9995126e94d9bd5dedd3c7a1952fcc9f9f5869cf4ad"
+    },
+    {
+      "file": "textures/CAB-38dfd52763d3e93a929240c854b1fb51_-154976517765366322.png",
+      "original_cab": "CAB-38dfd52763d3e93a929240c854b1fb51",
+      "original_path_id": "-154976517765366322",
+      "bytes": 102799,
+      "sha256": "af8fabbd27f6f99efd535d904bc81e0f5c5c29c8484cb7ea70c93efbdbc099be"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-1074696917881622342.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-1074696917881622342",
+      "bytes": 6284,
+      "sha256": "f74fe25ec860fd1893d58227f19ee76b6edd827f53f60f8f84801c934c5e71bc"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-1091873638239217159.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-1091873638239217159",
+      "bytes": 5451,
+      "sha256": "7fe6efc783a84725d11ae2d3e322f87accf2a33c493a7d9973f28b3fc4d46d95"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-8256834906091431619.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-8256834906091431619",
+      "bytes": 6377,
+      "sha256": "e235b3ae72fa6a5a3568993aee2056ebddcaa482b6bef64c6cfe6e402683447d"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_3772863405698627264.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "3772863405698627264",
+      "bytes": 3241,
+      "sha256": "aa88c48b6a365d83dc01a22e820660964a51f1906ef8e8c5fb507438421750e6"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_5319023822968148357.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "5319023822968148357",
+      "bytes": 4540,
+      "sha256": "d36889e429bdc516dc3740362ed113fda748a2ccbaca1fc6f6fdb8c27839b78d"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_7702885200178262269.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "7702885200178262269",
+      "bytes": 6001,
+      "sha256": "a5750d7096b8e546e6e4f811204f7e38620e05575f7f4bd6c668ad27048ccd21"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_80133884131010309.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "80133884131010309",
+      "bytes": 2126,
+      "sha256": "19848c2c1dbe38fae3540481d235ed1d5915ad9cf1a04c23268775e20fc44371"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_8114706353415590641.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "8114706353415590641",
+      "bytes": 6959,
+      "sha256": "60c8b69d025d0caccf579af05eb0150e8e7ac04c512b78aabf7afa69e8e29368"
+    },
+    {
+      "file": "textures/CAB-895a9c6afcb47c5c7f43c8589b1fe2fc_-4350925073696678326.png",
+      "original_cab": "CAB-895a9c6afcb47c5c7f43c8589b1fe2fc",
+      "original_path_id": "-4350925073696678326",
+      "bytes": 7732,
+      "sha256": "65b15412b491ccbe1bc7d8b846214a608c9119b4b551250e53ade328a67977c9"
+    },
+    {
+      "file": "textures/CAB-92fdf60cd1676328e17f73f0bf852e97_-2818978408637277934.png",
+      "original_cab": "CAB-92fdf60cd1676328e17f73f0bf852e97",
+      "original_path_id": "-2818978408637277934",
+      "bytes": 866,
+      "sha256": "2cf15e07f98eeb771e6fa9ba7e93ae7989a0db7e9d405ca071aa6e8a8feb49c7"
+    },
+    {
+      "file": "textures/CAB-92fdf60cd1676328e17f73f0bf852e97_3963863305383656795.png",
+      "original_cab": "CAB-92fdf60cd1676328e17f73f0bf852e97",
+      "original_path_id": "3963863305383656795",
+      "bytes": 87230,
+      "sha256": "5f167f281779277e3be7b01711f499ae9f92e9d38ada592088eaa384984dbcfd"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-4487102536378500135.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "-4487102536378500135",
+      "bytes": 13827,
+      "sha256": "8fa88e4669415409a9f135dd3c4a2bf7c41ec1981150b8061474e3d0377f783e"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_1329491080043089029.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "1329491080043089029",
+      "bytes": 28733,
+      "sha256": "8b90b774e25851a512683495053b0741074ea44412c228c1fb5ca5c97069c55b"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-1306121938919333102.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "-1306121938919333102",
+      "bytes": 4096,
+      "sha256": "3a58789d2409692e36a168202c5fc4ef54bd883a50db204704c2d598ea09a6fe"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-1652705746905304216.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "-1652705746905304216",
+      "bytes": 1908,
+      "sha256": "4d9ce63bb4e4c679e7283c5f501d6fe614e28ade5f3641e983dbfd46901ed784"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-4617581226512930796.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "-4617581226512930796",
+      "bytes": 5684,
+      "sha256": "bdeb340a4c6e1951fdac30b1512e6eabd42be105d680a5809693c1135a38e0b5"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-7887427954279609538.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "-7887427954279609538",
+      "bytes": 2875,
+      "sha256": "c3d27b0165fb0e84fc74c4c4d2cf1ccf67e9d056fd2474e4ab70314f37c74484"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-831660042601333128.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "-831660042601333128",
+      "bytes": 7795,
+      "sha256": "e77451c4d708ba95a5dc16cbc8cee7617a339470ba6a8a0a2b91e7a13b8d9b3c"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-8341173122533851548.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "-8341173122533851548",
+      "bytes": 9923,
+      "sha256": "b9a00948b05aa9218e9f5934261e7cbb9868281fc5a5333724752d3f1b758a63"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_6660848794687669575.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "6660848794687669575",
+      "bytes": 5676,
+      "sha256": "580e15e6179b67a1ec5ac68e9bcc36eca773f34dac59736e2ef3c257b7062ce6"
+    }
+  ],
+  "source_pack_bytes": 3639158,
+  "source_pack_sha256": "759f869ce5c767d70b910348aa025f8561cdba4d908aaf4b6ce1c72c4319207d",
+  "decoder": {
+    "unitypy": "1.25.4",
+    "unpacker_commit": "4a4b9efc6be4690b68b70b4a16578950baa066d3",
+    "lz4ak_source_sha256": "55832b28aefe510880bfcf54c0628138b0ee561b46b3fb8830f58fddadcd475a"
+  },
+  "animation_binding_gaps": [],
+  "runtime_storage": {
+    "version": 2,
+    "engine": "Godot 4.7.2",
+    "source_sample_rate_hz": 30,
+    "geometry": "Exact source surface arrays plus offline-packed 2D GPU buffers; only degenerate padding added, no visible layers removed. Player-owned bounded buffers avoid eager ArrayMesh RID allocation.",
+    "proof": ".ai/vfx-release-20261027/packed-buffer-conversion-final.json"
+  },
+  "runtime_files": [
+    {
+      "file": "hit_01.res",
+      "bytes": 494724,
+      "sha256": "121c4dff8ea17ebffdf6d17c468b2114fe21d981b1739f48da4190d59aece727"
+    },
+    {
+      "file": "hit_02.res",
+      "bytes": 630210,
+      "sha256": "36b7ad59e36c3a8824225e7ee8b217f7ab8939813e8e4df24a0e6db87d25cec8"
+    },
+    {
+      "file": "hit_03.res",
+      "bytes": 483728,
+      "sha256": "400fb6d124350849eacf859173ee71cc9959bf9cccd7a9306be460d6a6e02ac7"
+    },
+    {
+      "file": "hit_04.res",
+      "bytes": 480772,
+      "sha256": "e96374f3a072d7f771eee8d99c2fdf26c598f3b3e12d3fd414b3ababc90a9ae4"
+    },
+    {
+      "file": "hit_05.res",
+      "bytes": 470486,
+      "sha256": "613b33f528b1115a18f921af30798d97849be1dc39c68c0e62e88300dd2a703c"
+    },
+    {
+      "file": "hit_06.res",
+      "bytes": 437189,
+      "sha256": "9c1938de346cc4c16e7f77310eeafbf448d85ddd36cd6204d9b39da780f7672a"
+    },
+    {
+      "file": "hit_07.res",
+      "bytes": 420936,
+      "sha256": "313dc76e3598c2d24ea4d04ad70df60dd4c980c60d0ca08c76c01d14a10adc6a"
+    },
+    {
+      "file": "hit_08.res",
+      "bytes": 411033,
+      "sha256": "177059871fc78181ceb6f354a80164752ee74ae04c3678456962b23ed5c5e287"
+    },
+    {
+      "file": "hit_09.res",
+      "bytes": 390338,
+      "sha256": "7ade748746549ed292011cd366cff8349b5f413e9e032d09826cffe13440235a"
+    },
+    {
+      "file": "hit_10.res",
+      "bytes": 1924232,
+      "sha256": "e0297f4ee13cd3287647c5f1d28930de7380d9e7e2d2c071f0cde4d75607f88f"
+    },
+    {
+      "file": "start.res",
+      "bytes": 142359,
+      "sha256": "8d37981efb95454c68c883fa568cc5172a77f4ba22dcacb00152fc652fc420e0"
+    },
+    {
+      "file": "start_02.res",
+      "bytes": 170458,
+      "sha256": "5486d333de36107944153acbefff07a60f82c61d67693552423f3b95d4760d19"
+    },
+    {
+      "file": "start_03.res",
+      "bytes": 166577,
+      "sha256": "8b45d2b844286c309c0dc5f8e48ecf494ccfbbfc0063b15f93eee0ba32b49cad"
+    }
+  ]
+}

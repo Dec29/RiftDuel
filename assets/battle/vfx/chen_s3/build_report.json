@@ -1,0 +1,97 @@
+{
+	"clips": [
+		{
+			"bake_ms": 263,
+			"duration_seconds": 1.4,
+			"file": "res://assets/battle/vfx/chen_s3/hit_01.res",
+			"frames": 168,
+			"id": "hit_01"
+		},
+		{
+			"bake_ms": 308,
+			"duration_seconds": 1.4,
+			"file": "res://assets/battle/vfx/chen_s3/hit_02.res",
+			"frames": 168,
+			"id": "hit_02"
+		},
+		{
+			"bake_ms": 242,
+			"duration_seconds": 1.4,
+			"file": "res://assets/battle/vfx/chen_s3/hit_03.res",
+			"frames": 168,
+			"id": "hit_03"
+		},
+		{
+			"bake_ms": 231,
+			"duration_seconds": 1.4,
+			"file": "res://assets/battle/vfx/chen_s3/hit_04.res",
+			"frames": 168,
+			"id": "hit_04"
+		},
+		{
+			"bake_ms": 235,
+			"duration_seconds": 1.4,
+			"file": "res://assets/battle/vfx/chen_s3/hit_05.res",
+			"frames": 168,
+			"id": "hit_05"
+		},
+		{
+			"bake_ms": 200,
+			"duration_seconds": 1.4,
+			"file": "res://assets/battle/vfx/chen_s3/hit_06.res",
+			"frames": 168,
+			"id": "hit_06"
+		},
+		{
+			"bake_ms": 207,
+			"duration_seconds": 1.4,
+			"file": "res://assets/battle/vfx/chen_s3/hit_07.res",
+			"frames": 168,
+			"id": "hit_07"
+		},
+		{
+			"bake_ms": 250,
+			"duration_seconds": 1.4,
+			"file": "res://assets/battle/vfx/chen_s3/hit_08.res",
+			"frames": 168,
+			"id": "hit_08"
+		},
+		{
+			"bake_ms": 193,
+			"duration_seconds": 1.4,
+			"file": "res://assets/battle/vfx/chen_s3/hit_09.res",
+			"frames": 168,
+			"id": "hit_09"
+		},
+		{
+			"bake_ms": 998,
+			"duration_seconds": 1.4,
+			"file": "res://assets/battle/vfx/chen_s3/hit_10.res",
+			"frames": 168,
+			"id": "hit_10"
+		},
+		{
+			"bake_ms": 378,
+			"duration_seconds": 1.5,
+			"file": "res://assets/battle/vfx/chen_s3/start.res",
+			"frames": 180,
+			"id": "start"
+		},
+		{
+			"bake_ms": 321,
+			"duration_seconds": 1.5,
+			"file": "res://assets/battle/vfx/chen_s3/start_02.res",
+			"frames": 180,
+			"id": "start_02"
+		},
+		{
+			"bake_ms": 150,
+			"duration_seconds": 1.5,
+			"file": "res://assets/battle/vfx/chen_s3/start_03.res",
+			"frames": 180,
+			"id": "start_03"
+		}
+	],
+	"facing_count": 4,
+	"fps": 30.0
+}
