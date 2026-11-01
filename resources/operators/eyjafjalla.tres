@@ -1,0 +1,92 @@
+[gd_resource type="Resource" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "中坚术师"
+description = "攻击造成法术伤害"
+effect_type = "magical_attack"
+effect_params = {}
+
+[sub_resource type="Resource" id="Talent1"]
+script = ExtResource("3")
+talent_name = "炎息"
+description = "在场时所有友方术师干员攻击力+14%，包括自身"
+effect_type = "attack_aura"
+effect_params = {"profession_id": "caster", "attack_percent": 14}
+
+[sub_resource type="Resource" id="Talent2"]
+script = ExtResource("3")
+talent_name = "乱火"
+description = "每次部署时随机获得7～15点技力，受技能技力上限限制"
+effect_type = "random_initial_sp"
+effect_params = {"sp_min": 7, "sp_max_exclusive": 16}
+
+[sub_resource type="Resource" id="Skill1"]
+script = ExtResource("4")
+initial_sp = 25
+trigger_type = "manual"
+skill_name = "二重咏唱"
+description = "攻击速度+60；第二次及以后使用时额外攻击力+60%，重新部署重置使用次数"
+sp_required = 35
+sp_recharge_type = "time"
+effect_type = "atk_spd_boost_repeat"
+effect_params = {"attack_mult": 1.6, "attack_speed_add": 60}
+duration = 25.0
+
+[sub_resource type="Resource" id="Skill2"]
+script = ExtResource("4")
+skill_name = "点燃"
+initial_sp = 0
+sp_required = 5
+trigger_type = "attack"
+sp_recharge_type = "time"
+effect_type = "charge_magic_splash"
+effect_params = {"attack_mult": 3.7, "charge_count": 3, "splash_radius_squared": 2, "resist_remaining_percent": 75, "resist_duration_ticks": 180}
+duration = 0.0
+description = "下一次攻击先使主目标法抗降低25%持续6秒，再对其周围八格及自身造成半倍率法伤，最后对主目标再造成半倍率法伤；总倍率370%，可充能3次。箱子一轮一次，球只受主攻击推力。"
+
+[sub_resource type="Resource" id="Skill3"]
+script = ExtResource("4")
+skill_name = "火山"
+initial_sp = 55
+sp_required = 80
+trigger_type = "manual"
+sp_recharge_type = "time"
+effect_type = "random_multi_target"
+effect_params = {"attack_mult": 2.3, "target_count": 6, "attack_interval_add": -1.1}
+duration = 15.0
+description = "攻击力+130%，范围扩大，攻击间隔缩短1.1秒，随机攻击范围内至多6名不同敌人；持续15秒。沿用嘲讽优先级，敌人优先，其次箱子一击、再对球一次推力。"
+attack_range_override = Array[Vector2i]([Vector2i(0, 3), Vector2i(-1, 2), Vector2i(0, 2), Vector2i(1, 2), Vector2i(-2, 1), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(-3, 0), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(-2, -1), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(-1, -2), Vector2i(0, -2), Vector2i(1, -2), Vector2i(0, -3)])
+
+[resource]
+script = ExtResource("1")
+operator_id = "eyjafjalla"
+display_name = "艾雅法拉"
+profession = "术师"
+profession_id = "caster"
+branch = "中坚术师"
+max_health = 1743
+attack = 645
+defense = 122
+magic_resist = 20
+damage_type = "magical"
+attack_interval = 1.6
+block_count = 1
+initial_deploy_cost = 19
+deploy_cost = 21
+redeploy_time = 70.0
+dodge_physical = 0
+dodge_magical = 0
+attack_range = Array[Vector2i]([Vector2i(0,-1),Vector2i(0,0),Vector2i(0,1),Vector2i(1,-1),Vector2i(1,0),Vector2i(1,1),Vector2i(2,-1),Vector2i(2,0),Vector2i(2,1),Vector2i(3,0)])
+terrain_requirement = "high"
+ignore_deploy_line = false
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent1")
+talent_2 = SubResource("Talent2")
+skills = Array[ExtResource("4")]([SubResource("Skill1"), SubResource("Skill2"), SubResource("Skill3")])
+equipped_skill_index = 0

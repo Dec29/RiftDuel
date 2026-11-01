@@ -5,6 +5,10 @@ enum Kind {
 	DEPLOY,
 	SKILL,
 	RETREAT,
+	USE_ITEM,
+	COPY,
+	SKIP_RECOVERY,
+	RECOVERY_DEPLOY,
 }
 
 var tick: int
@@ -14,6 +18,7 @@ var unit_id: int
 var cell: Vector2i
 var skill_index: int
 var facing: int
+var item_kind: int
 
 
 func _init(
@@ -24,6 +29,7 @@ func _init(
 	command_cell: Vector2i = Vector2i.ZERO,
 	command_skill_index: int = -1,
 	command_facing: int = -1,
+	command_item_kind: int = -1,
 ) -> void:
 	tick = command_tick
 	kind = command_kind
@@ -32,3 +38,4 @@ func _init(
 	cell = command_cell
 	skill_index = command_skill_index
 	facing = command_facing
+	item_kind = command_item_kind

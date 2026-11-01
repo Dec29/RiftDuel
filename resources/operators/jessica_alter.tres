@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="skill"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="trait"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="talent"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="op"]
+
+[sub_resource type="Resource" id="trait"]
+script = ExtResource("trait")
+trait_name = "哨戒铁卫"
+description = "能够阻挡三个敌人，可以进行远程攻击"
+effect_type = "sentinel"
+effect_params = {}
+
+[sub_resource type="Resource" id="talent0"]
+script = ExtResource("talent")
+talent_name = "灵活应变"
+description = "可以使用一个持续50秒的机动盾牌，机动盾牌只能放置于涤火杰西卡四周，机动盾牌部署后，涤火杰西卡立刻转向盾牌且自身与身后的单位防御力+15%"
+effect_type = "jessica_shield_supply"
+effect_params = {"shield_lifetime_ticks":1500,"behind_defense_percent":15}
+
+[sub_resource type="Resource" id="talent1"]
+script = ExtResource("talent")
+talent_name = "蓄能释放"
+description = "机动盾牌受到伤害时，有50%的概率使涤火杰西卡获得1点技力"
+effect_type = "shield_damage_sp"
+effect_params = {"chance_percent":50,"sp_add":1}
+
+[sub_resource type="Resource" id="skill0"]
+script = ExtResource("skill")
+skill_name = "坚守阵线"
+initial_sp = 0
+sp_required = 70
+sp_recharge_type = "time"
+trigger_type = "auto"
+description = "自动开启、无限持续；攻击力+70%，本体与机动盾牌防御力+70%，盾牌寿命+30秒。"
+effect_type = "jessica_vigilance"
+effect_params = {"attack_mult":1.7,"defense_mult":1.7,"shield_defense_mult":1.7,"shield_duration_add_ticks":900}
+duration = -1.0
+attack_range_override = Array[Vector2i]([])
+
+[sub_resource type="Resource" id="skill1"]
+script = ExtResource("skill")
+skill_name = "掩蔽护卫"
+initial_sp = 25
+sp_required = 30
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "15秒攻击力+75%、攻击间隔-0.9秒，范围扩大、物理与法术闪避75%。"
+effect_type = "jessica_cover"
+effect_params = {"attack_mult":1.75,"attack_interval_add":-0.9,"dodge_percent":75}
+duration = 15.0
+attack_range_override = Array[Vector2i]([Vector2i(1,1),Vector2i(2,1),Vector2i(0,0),Vector2i(1,0),Vector2i(2,0),Vector2i(1,-1),Vector2i(2,-1)])
+
+[sub_resource type="Resource" id="skill2"]
+script = ExtResource("skill")
+skill_name = "饱和迸射"
+initial_sp = 30
+sp_required = 40
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "装填20发，可主动结束；攻击距离+1、攻击间隔+0.6秒、攻击力+310%、防御力+80%、盾牌防御力+170%；开技时已有盾牌或技能期间每次部署盾牌，向前发射一枚不耗弹炮弹，在首次敌人格或末端爆炸，250%物理伤害并眩晕6秒。"
+effect_type = "jessica_bombardment"
+effect_params = {"attack_mult":4.1,"defense_mult":1.8,"shield_defense_mult":2.7,"attack_interval_add":0.6,"ammo_count":20,"bomb_attack_mult":2.5,"bomb_stun_ticks":180,"splash_radius_squared":2}
+duration = -1.0
+attack_range_override = Array[Vector2i]([Vector2i(0,0),Vector2i(1,0),Vector2i(2,0),Vector2i(3,0)])
+
+[resource]
+script = ExtResource("op")
+operator_id = "jessica_alter"
+display_name = "涤火杰西卡"
+profession = "重装"
+profession_id = "defender"
+branch = "哨戒铁卫"
+group_id = ""
+max_health = 3608
+attack = 522
+defense = 716
+magic_resist = 0
+damage_type = "physical"
+attack_interval = 1.2
+block_count = 3
+initial_deploy_cost = 19
+deploy_cost = 23
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0,0),Vector2i(1,0),Vector2i(2,0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("trait")
+talent_1 = SubResource("talent0")
+talent_2 = SubResource("talent1")
+skills = Array[ExtResource("skill")]([SubResource("skill0"),SubResource("skill1"),SubResource("skill2")])

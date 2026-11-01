@@ -9,8 +9,8 @@ func _run() -> void:
 	var definitions := {}
 	for id in root.get_node("OperatorDB").all_ids():
 		definitions[id] = root.get_node("OperatorDB").get_data(id)
-	var host := NetSession.new()
-	var client := NetSession.new()
+	var host := NetSession.new(Engine.get_main_loop().root.get_node("OperatorDB").network_content())
+	var client := NetSession.new(Engine.get_main_loop().root.get_node("OperatorDB").network_content())
 	root.add_child(host)
 	root.add_child(client)
 	host.create_room(24779, "234567", 24780)
@@ -20,6 +20,12 @@ func _run() -> void:
 		await process_frame
 	if not _check(client.phase == "room", "Lockstep connection failed"):
 		return
+	host.local_squad = PackedStringArray(["swire_alter", "nightingale"])
+	host.local_skills = PackedInt32Array()
+	host.local_skills.resize(host.local_squad.size())
+	client.local_squad = PackedStringArray(["bagpipe"])
+	client.local_skills = PackedInt32Array()
+	client.local_skills.resize(client.local_squad.size())
 	host.set_ready(true)
 	client.set_ready(true)
 	deadline = Time.get_ticks_msec() + 3000
@@ -40,8 +46,11 @@ func _run() -> void:
 		await process_frame
 	if not _check(client.phase == "running", "Loaded exchange timed out"):
 		return
-	var first := MatchState.new(host.match_seed, definitions)
-	var second := MatchState.new(client.match_seed, definitions)
+	if not _check(host.remote_squad == client.local_squad and client.remote_squad == host.local_squad, "Asymmetric squads must be exchanged before loading"):
+		return
+	var squads: Array = [host.local_squad, host.remote_squad]
+	var first := MatchState.new(host.match_seed, definitions, MatchState.DEFAULT_BALL_DATA, MatchState.DEFAULT_ARENA, squads)
+	var second := MatchState.new(client.match_seed, definitions, MatchState.DEFAULT_BALL_DATA, MatchState.DEFAULT_ARENA, [client.remote_squad, client.local_squad])
 	var blue := LocalInput.new(0)
 	var red := LocalInput.new(1)
 	var schedule := {}
@@ -96,7 +105,7 @@ func _run() -> void:
 		await process_frame
 	if not _check(first.result == 1 and second.result == 1 and first.tick == second.tick and checked == first.tick and first.tick <= 9000, "Network match did not finish: ticks=%d/%d result=%d/%d checked=%d" % [first.tick, second.tick, first.result, second.result, checked]):
 		return
-	var replay := MatchState.new(host.match_seed, definitions)
+	var replay := MatchState.new(host.match_seed, definitions, MatchState.DEFAULT_BALL_DATA, MatchState.DEFAULT_ARENA, squads)
 	while replay.tick < first.tick:
 		var frame: Array = schedule.get(replay.tick, [[], []])
 		var blue_commands: Array[InputCommand] = []

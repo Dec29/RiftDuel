@@ -1,0 +1,112 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_453ga"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_4qpx3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_6yr2l"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_qwsmv"]
+
+[sub_resource type="Resource" id="Resource_08khc"]
+script = ExtResource("1_453ga")
+trait_name = "咒愈师"
+description = "攻击造成法术伤害，攻击敌人时为攻击范围内一名友方干员治疗相当于50%伤害的生命值"
+effect_type = "incantation_medic"
+effect_params = {
+"heal_damage_percent": 50
+}
+
+[sub_resource type="Resource" id="Resource_7dvog"]
+script = ExtResource("3_6yr2l")
+skill_name = "迅捷打击·γ型"
+initial_sp = 15
+sp_required = 35
+sp_recharge_type = "time"
+description = "攻击力+45%，攻击速度+45，持续35秒。"
+effect_type = "atk_spd_boost"
+effect_params = {
+"attack_mult": 1.45,
+"attack_speed_add": 45
+}
+duration = 35.0
+
+[sub_resource type="Resource" id="Resource_6tauq"]
+script = ExtResource("3_6yr2l")
+skill_name = "枯荣共息"
+initial_sp = 18
+sp_required = 27
+sp_recharge_type = "time"
+description = "优先范围内地面且最后部署的两名友军各获得3颗独立火球；每颗1.5秒命中冷却、240%攻击力法术伤害，仅治疗载体。持续20秒；本体或载体离场消失。"
+effect_type = "reed_fireballs"
+effect_params = {
+"attack_mult": 1.0,
+"ball_count": 3,
+"collision_radius_milli": 600,
+"cooldown_ticks": 45,
+"fireball_attack_mult": 2.4,
+"orbit_radius_milli": 500,
+"orbit_ticks": 72,
+"target_count": 2
+}
+duration = 20.0
+
+[sub_resource type="Resource" id="Resource_q5tth"]
+script = ExtResource("3_6yr2l")
+skill_name = "生命火种"
+initial_sp = 30
+sp_required = 40
+sp_recharge_type = "time"
+description = "攻击+60%，同时攻击两名敌人；灼痕概率100%，技能期间新灼痕每秒60%攻击力法伤，死亡后0.1秒在1.7格半径内140%法伤并传播。技能结束清除技能灼痕。"
+effect_type = "reed_lifeseed"
+effect_params = {
+"attack_mult": 1.6,
+"dot_attack_percent": 60,
+"explosion_attack_percent": 140,
+"explosion_delay_ticks": 3,
+"explosion_radius_squared": 2,
+"target_count": 2
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_tok07"]
+script = ExtResource("4_qwsmv")
+talent_name = "灼痕"
+description = "伤害时30%灼痕，攻击-20%、法术脆弱30%，持续6秒；当次生效，本体离场清除。"
+effect_type = "reed_cinder"
+effect_params = {
+"attack_reduce_percent": 20,
+"chance_percent": 30,
+"duration_ticks": 180,
+"magic_fragile_percent": 30
+}
+
+[sub_resource type="Resource" id="Resource_xqm0j"]
+script = ExtResource("4_qwsmv")
+talent_name = "映耀"
+description = "治疗其他友军时，自身同时享受50%治疗量。"
+effect_type = "reed_reflected_heal"
+effect_params = {
+"heal_percent": 50
+}
+
+[resource]
+script = ExtResource("2_4qpx3")
+operator_id = "reed_alter"
+display_name = "焰影苇草"
+profession = "医疗"
+profession_id = "medic"
+branch = "咒愈师"
+max_health = 1583
+attack = 550
+defense = 84
+magic_resist = 20
+damage_type = "magical"
+attack_interval = 1.6
+block_count = 1
+initial_deploy_cost = 15
+deploy_cost = 17
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(3, 1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(3, -1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_08khc")
+talent_1 = SubResource("Resource_tok07")
+talent_2 = SubResource("Resource_xqm0j")
+skills = Array[ExtResource("3_6yr2l")]([SubResource("Resource_7dvog"), SubResource("Resource_6tauq"), SubResource("Resource_q5tth")])

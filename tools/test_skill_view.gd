@@ -13,6 +13,10 @@ func _run() -> void:
 	var input: LocalInput = main.local_input
 	var view: MatchView = main.match_view
 	state.sides[0].cost = 99
+	for side in 2:
+		state.squad_ids[side] = PackedStringArray(Config.DEFAULT_SQUAD_IDS)
+		state.squad_skills[side].resize(Config.DEFAULT_SQUAD_IDS.size())
+		state.squad_skills[side].fill(0)
 	var deploy: Array[InputCommand] = [InputCommand.new(0, InputCommand.Kind.DEPLOY, "bagpipe", -1, Vector2i(19, 5))]
 	state.step(deploy, [])
 	for _tick in 600:

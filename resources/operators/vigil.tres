@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="skill"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="trait"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="talent"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="operator"]
+
+[sub_resource type="Resource" id="trait"]
+script = ExtResource("trait")
+trait_name = "战术家"
+description = "可以在攻击范围内选择一次战术点来召唤援军，自身攻击援军阻挡的敌人时攻击力提升至150%"
+effect_type = "tactician"
+effect_params = {"blocked_attack_percent": 150}
+
+[sub_resource type="Resource" id="talent0"]
+script = ExtResource("talent")
+talent_name = "狼群领袖"
+description = "可以在战术点召唤由初始两只“狼影”构成的狼群协助作战，“狼影”的数量每25秒增加一只（至多3只；每只“狼影”使狼群阻挡数+1且攻击额外造成一次伤害）"
+effect_type = "vigil_pack"
+effect_params = {"initial_layers": 2,"max_layers": 3,"regrow_ticks": 750}
+
+[sub_resource type="Resource" id="talent1"]
+script = ExtResource("talent")
+talent_name = "狼群天性"
+description = "敌人被狼群阻挡时，伺夜和狼群对其的攻击无视其175防御力"
+effect_type = "vigil_penetration"
+effect_params = {"defense_ignore": 175}
+
+[sub_resource type="Resource" id="skill0"]
+script = ExtResource("skill")
+skill_name = "领袖的呼唤"
+initial_sp = 5
+sp_required = 21
+sp_recharge_type = "time"
+trigger_type = "auto"
+description = "立即获得7费用，狼群增加1只狼影，最多3只。"
+effect_type = "vigil_call"
+effect_params = {"attack_mult": 1.0,"cost_add": 7}
+duration = 0.0
+attack_range_override = Array[Vector2i]([])
+
+[sub_resource type="Resource" id="skill1"]
+script = ExtResource("skill")
+skill_name = "领袖的馈赠"
+initial_sp = 4
+sp_required = 5
+sp_recharge_type = "time"
+trigger_type = "auto"
+description = "立即获得2费用；狼群恢复20%最大生命，下一次攻击倍率200%，该次击杀额外获得1费用。"
+effect_type = "vigil_hunt"
+effect_params = {"attack_mult": 1.0,"cost_add": 2,"wolf_attack_mult": 2.0,"wolf_heal_percent": 20,"kill_cost": 1}
+duration = 0.0
+attack_range_override = Array[Vector2i]([])
+
+[sub_resource type="Resource" id="skill2"]
+script = ExtResource("skill")
+skill_name = "领袖的尊严"
+initial_sp = 10
+sp_required = 35
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "15秒逐渐获得12费用，本体攻击变为3连击；本体与狼群伤害狼群阻挡的目标时，每段追加伺夜攻击力50%的法术伤害。"
+effect_type = "vigil_slaughter"
+effect_params = {"attack_mult": 1.0,"total_cost": 12,"shot_count": 3,"magic_attack_percent": 50}
+duration = 15.0
+attack_range_override = Array[Vector2i]([])
+
+[resource]
+script = ExtResource("operator")
+operator_id = "vigil"
+display_name = "伺夜"
+profession = "先锋"
+profession_id = "vanguard"
+branch = "战术家"
+max_health = 1755
+attack = 462
+defense = 154
+magic_resist = 0
+damage_type = "physical"
+attack_interval = 1.0
+block_count = 1
+initial_deploy_cost = 15
+deploy_cost = 17
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0,1),Vector2i(1,1),Vector2i(2,1),Vector2i(3,1),Vector2i(0,0),Vector2i(1,0),Vector2i(2,0),Vector2i(3,0),Vector2i(0,-1),Vector2i(1,-1),Vector2i(2,-1),Vector2i(3,-1)])
+terrain_requirement = "high"
+branch_trait = SubResource("trait")
+talent_1 = SubResource("talent0")
+talent_2 = SubResource("talent1")
+skills = Array[ExtResource("skill")]([SubResource("skill0"),SubResource("skill1"),SubResource("skill2")])

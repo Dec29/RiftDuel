@@ -1,0 +1,1933 @@
+{
+  "repository": "Kengxxiao/ArknightsGameData",
+  "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "table_sha256": {
+    "character_table.json": "e523c7c83c36e2d76697121079e17d0282da1a94d59a55e1cc55616edf0b41c4",
+    "skill_table.json": "b6559b845efea6042e23f1d976185f12e13de3d749464543f5c2c17a7d2fa280",
+    "range_table.json": "4d974598394630a1ad465b954321254397f514c7fb26cba944d320ac18b874d0"
+  },
+  "operator_id": "stainless",
+  "char_id": "char_4072_ironmn",
+  "name": "白铁",
+  "rarity": "TIER_6",
+  "profession": "SUPPORT",
+  "sub_profession": "craftsman",
+  "profile": "E2 maximum level, zero trust/potential bonuses, no module, skills M3",
+  "character": {
+    "name": "白铁",
+    "description": "能够阻挡两个敌人，使用<支援装置>协助作战",
+    "sortIndex": 39,
+    "spTargetType": "NONE",
+    "spTargetId": null,
+    "canUseGeneralPotentialItem": true,
+    "canUseActivityPotentialItem": false,
+    "potentialItemId": "p_char_4072_ironmn",
+    "activityPotentialItemId": null,
+    "classicPotentialItemId": null,
+    "nationId": "victoria",
+    "groupId": null,
+    "teamId": null,
+    "mainPower": {
+      "nationId": "victoria",
+      "groupId": null,
+      "teamId": null
+    },
+    "subPower": null,
+    "displayNumber": "VC17",
+    "appellation": "Stainless",
+    "position": "MELEE",
+    "tagList": [
+      "支援",
+      "输出"
+    ],
+    "itemUsage": "伦蒂尼姆市民自救军成员白铁，随时准备与你一起行动。",
+    "itemDesc": "他身上有淡淡的机油味，但他的笑容和双手很干净。",
+    "itemObtainApproach": "招募寻访",
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 5,
+    "rarity": "TIER_6",
+    "profession": "SUPPORT",
+    "subProfessionId": "craftsman",
+    "trait": null,
+    "phases": [
+      {
+        "characterPrefabKey": "char_4072_ironmn",
+        "rangeId": "1-1",
+        "maxLevel": 50,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1043,
+              "atk": 236,
+              "def": 190,
+              "magicResistance": 0.0,
+              "cost": 15,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.5,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 50,
+            "data": {
+              "maxHp": 1490,
+              "atk": 369,
+              "def": 274,
+              "magicResistance": 0.0,
+              "cost": 15,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.5,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": null
+      },
+      {
+        "characterPrefabKey": "char_4072_ironmn",
+        "rangeId": "1-1",
+        "maxLevel": 80,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1490,
+              "atk": 369,
+              "def": 274,
+              "magicResistance": 0.0,
+              "cost": 17,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.5,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 80,
+            "data": {
+              "maxHp": 2042,
+              "atk": 492,
+              "def": 354,
+              "magicResistance": 0.0,
+              "cost": 17,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.5,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": [
+          {
+            "id": "3271",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30042",
+            "count": 7,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30022",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "characterPrefabKey": "char_4072_ironmn",
+        "rangeId": "1-1",
+        "maxLevel": 90,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 2042,
+              "atk": 492,
+              "def": 354,
+              "magicResistance": 0.0,
+              "cost": 19,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.5,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 90,
+            "data": {
+              "maxHp": 2723,
+              "atk": 593,
+              "def": 421,
+              "magicResistance": 0.0,
+              "cost": 19,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.5,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": [
+          {
+            "id": "3273",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30115",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31044",
+            "count": 6,
+            "type": "MATERIAL"
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "skillId": "skchr_ironmn_1",
+        "overridePrefabKey": null,
+        "overrideTokenKey": "token_10027_ironmn_pile1",
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30084",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31013",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31044",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31054",
+                "count": 9,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30125",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30014",
+                "count": 6,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skchr_ironmn_2",
+        "overridePrefabKey": null,
+        "overrideTokenKey": "token_10027_ironmn_pile2",
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31054",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30093",
+                "count": 6,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31014",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31024",
+                "count": 9,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30135",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30074",
+                "count": 7,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skchr_ironmn_3",
+        "overridePrefabKey": null,
+        "overrideTokenKey": "token_10027_ironmn_pile3",
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31034",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30023",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30094",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30014",
+                "count": 10,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30145",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31054",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_2",
+          "level": 1
+        }
+      }
+    ],
+    "displayTokenDict": {
+      "token_10027_ironmn_pile1": true,
+      "token_10027_ironmn_pile2": true,
+      "token_10027_ironmn_pile3": true
+    },
+    "talents": [
+      {
+        "candidates": [
+          {
+            "unlockCondition": {
+              "phase": "PHASE_0",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "战地工程师",
+            "description": "可以携带2个<支援装置>(最多可部署1个)，效果根据技能改变而改变",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "cnt",
+                "value": 2.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_1",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "战地工程师",
+            "description": "可以携带2个<支援装置>(最多可部署2个)，效果根据技能改变而改变",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "cnt",
+                "value": 3.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "战地工程师",
+            "description": "可以携带3个<支援装置>(最多可部署2个)，效果根据技能改变而改变",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "cnt",
+                "value": 3.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          }
+        ]
+      },
+      {
+        "candidates": [
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "2",
+            "name": "节约经费",
+            "description": "当白铁周围8格的自身装置损毁时，有70%的几率回收使白铁额外获得1个装置",
+            "rangeId": "x-4",
+            "blackboard": [
+              {
+                "key": "prob",
+                "value": 0.7,
+                "valueStr": null
+              },
+              {
+                "key": "cnt",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 4,
+            "prefabKey": "2",
+            "name": "节约经费",
+            "description": "当白铁周围8格的自身装置损毁时，有80%<@ba.talpu>（+10%）</>的几率回收使白铁额外获得1个装置",
+            "rangeId": "x-4",
+            "blackboard": [
+              {
+                "key": "prob",
+                "value": 0.8,
+                "valueStr": null
+              },
+              {
+                "key": "cnt",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          }
+        ]
+      }
+    ],
+    "potentialRanks": [
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "再部署时间-6秒",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "RESPAWN_TIME",
+                "formulaItem": "ADDITION",
+                "value": -6.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "攻击力+25",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "ATK",
+                "formulaItem": "ADDITION",
+                "value": 25.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "CUSTOM",
+        "description": "第二天赋效果增强",
+        "buff": null,
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      }
+    ],
+    "favorKeyFrames": [
+      {
+        "level": 0,
+        "data": {
+          "maxHp": 0,
+          "atk": 0,
+          "def": 0,
+          "magicResistance": 0.0,
+          "cost": 0,
+          "blockCnt": 0,
+          "moveSpeed": 0.0,
+          "attackSpeed": 0.0,
+          "baseAttackTime": 0.0,
+          "respawnTime": 0,
+          "hpRecoveryPerSec": 0.0,
+          "spRecoveryPerSec": 0.0,
+          "maxDeployCount": 0,
+          "maxDeckStackCnt": 0,
+          "tauntLevel": 0,
+          "massLevel": 0,
+          "baseForceLevel": 0,
+          "stunImmune": false,
+          "silenceImmune": false,
+          "sleepImmune": false,
+          "frozenImmune": false,
+          "levitateImmune": false,
+          "disarmedCombatImmune": false,
+          "fearedImmune": false,
+          "palsyImmune": false,
+          "attractImmune": false,
+          "teleportImmune": false,
+          "groundBoundImmune": false
+        }
+      },
+      {
+        "level": 50,
+        "data": {
+          "maxHp": 0,
+          "atk": 40,
+          "def": 40,
+          "magicResistance": 0.0,
+          "cost": 0,
+          "blockCnt": 0,
+          "moveSpeed": 0.0,
+          "attackSpeed": 0.0,
+          "baseAttackTime": 0.0,
+          "respawnTime": 0,
+          "hpRecoveryPerSec": 0.0,
+          "spRecoveryPerSec": 0.0,
+          "maxDeployCount": 0,
+          "maxDeckStackCnt": 0,
+          "tauntLevel": 0,
+          "massLevel": 0,
+          "baseForceLevel": 0,
+          "stunImmune": false,
+          "silenceImmune": false,
+          "sleepImmune": false,
+          "frozenImmune": false,
+          "levitateImmune": false,
+          "disarmedCombatImmune": false,
+          "fearedImmune": false,
+          "palsyImmune": false,
+          "attractImmune": false,
+          "teleportImmune": false,
+          "groundBoundImmune": false
+        }
+      }
+    ],
+    "allSkillLvlup": [
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3301",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3301",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30051",
+            "count": 6,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30011",
+            "count": 4,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30062",
+            "count": 3,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30012",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30062",
+            "count": 3,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31043",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3303",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31033",
+            "count": 6,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30023",
+            "count": 4,
+            "type": "MATERIAL"
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "skchr_ironmn_1": {
+      "skillId": "skchr_ironmn_1",
+      "iconId": null,
+      "hidden": false,
+      "levels": [
+        {
+          "name": "极致火力",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员的攻击力<@ba.vup>+12%</>\\n开启时立即获得一个装置，攻击造成相当于<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，装置效果提升至<@ba.vup>{fake_scale}</>倍\\n<@ba.rem>技能结束时所有场上的装置被销毁</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 55,
+            "initSp": 10,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_1",
+          "duration": 15.0,
+          "blackboard": [
+            {
+              "key": "attack@atk_scale",
+              "value": 1.1,
+              "valueStr": null
+            },
+            {
+              "key": "fake_scale",
+              "value": 2.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "极致火力",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员的攻击力<@ba.vup>+12%</>\\n开启时立即获得一个装置，攻击造成相当于<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，装置效果提升至<@ba.vup>{fake_scale}</>倍\\n<@ba.rem>技能结束时所有场上的装置被销毁</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 55,
+            "initSp": 10,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_1",
+          "duration": 15.0,
+          "blackboard": [
+            {
+              "key": "attack@atk_scale",
+              "value": 1.2,
+              "valueStr": null
+            },
+            {
+              "key": "fake_scale",
+              "value": 2.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "极致火力",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员的攻击力<@ba.vup>+12%</>\\n开启时立即获得一个装置，攻击造成相当于<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，装置效果提升至<@ba.vup>{fake_scale}</>倍\\n<@ba.rem>技能结束时所有场上的装置被销毁</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 55,
+            "initSp": 10,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_1",
+          "duration": 15.0,
+          "blackboard": [
+            {
+              "key": "attack@atk_scale",
+              "value": 1.3,
+              "valueStr": null
+            },
+            {
+              "key": "fake_scale",
+              "value": 2.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "极致火力",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员的攻击力<@ba.vup>+12%</>\\n开启时立即获得一个装置，攻击造成相当于<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，装置效果提升至<@ba.vup>{fake_scale}</>倍\\n<@ba.rem>技能结束时所有场上的装置被销毁</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 50,
+            "initSp": 15,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_1",
+          "duration": 16.0,
+          "blackboard": [
+            {
+              "key": "attack@atk_scale",
+              "value": 1.4,
+              "valueStr": null
+            },
+            {
+              "key": "fake_scale",
+              "value": 2.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "极致火力",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员的攻击力<@ba.vup>+12%</>\\n开启时立即获得一个装置，攻击造成相当于<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，装置效果提升至<@ba.vup>{fake_scale}</>倍\\n<@ba.rem>技能结束时所有场上的装置被销毁</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 50,
+            "initSp": 15,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_1",
+          "duration": 16.0,
+          "blackboard": [
+            {
+              "key": "attack@atk_scale",
+              "value": 1.5,
+              "valueStr": null
+            },
+            {
+              "key": "fake_scale",
+              "value": 2.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "极致火力",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员的攻击力<@ba.vup>+12%</>\\n开启时立即获得一个装置，攻击造成相当于<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，装置效果提升至<@ba.vup>{fake_scale}</>倍\\n<@ba.rem>技能结束时所有场上的装置被销毁</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 50,
+            "initSp": 15,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_1",
+          "duration": 16.0,
+          "blackboard": [
+            {
+              "key": "attack@atk_scale",
+              "value": 1.6,
+              "valueStr": null
+            },
+            {
+              "key": "fake_scale",
+              "value": 2.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "极致火力",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员的攻击力<@ba.vup>+12%</>\\n开启时立即获得一个装置，攻击造成相当于<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，装置效果提升至<@ba.vup>{fake_scale}</>倍\\n<@ba.rem>技能结束时所有场上的装置被销毁</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 45,
+            "initSp": 20,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_1",
+          "duration": 17.0,
+          "blackboard": [
+            {
+              "key": "attack@atk_scale",
+              "value": 1.7,
+              "valueStr": null
+            },
+            {
+              "key": "fake_scale",
+              "value": 3.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "极致火力",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员的攻击力<@ba.vup>+12%</>\\n开启时立即获得一个装置，攻击造成相当于<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，装置效果提升至<@ba.vup>{fake_scale}</>倍\\n<@ba.rem>技能结束时所有场上的装置被销毁</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 45,
+            "initSp": 20,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_1",
+          "duration": 18.0,
+          "blackboard": [
+            {
+              "key": "attack@atk_scale",
+              "value": 1.8,
+              "valueStr": null
+            },
+            {
+              "key": "fake_scale",
+              "value": 3.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "极致火力",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员的攻击力<@ba.vup>+12%</>\\n开启时立即获得一个装置，攻击造成相当于<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，装置效果提升至<@ba.vup>{fake_scale}</>倍\\n<@ba.rem>技能结束时所有场上的装置被销毁</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 45,
+            "initSp": 20,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_1",
+          "duration": 19.0,
+          "blackboard": [
+            {
+              "key": "attack@atk_scale",
+              "value": 1.9,
+              "valueStr": null
+            },
+            {
+              "key": "fake_scale",
+              "value": 3.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "极致火力",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员的攻击力<@ba.vup>+12%</>\\n开启时立即获得一个装置，攻击造成相当于<@ba.vup>{attack@atk_scale:0%}</>的物理伤害，装置效果提升至<@ba.vup>{fake_scale}</>倍\\n<@ba.rem>技能结束时所有场上的装置被销毁</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 45,
+            "initSp": 20,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_1",
+          "duration": 20.0,
+          "blackboard": [
+            {
+              "key": "attack@atk_scale",
+              "value": 2.0,
+              "valueStr": null
+            },
+            {
+              "key": "fake_scale",
+              "value": 4.0,
+              "valueStr": null
+            }
+          ]
+        }
+      ]
+    },
+    "skchr_ironmn_2": {
+      "skillId": "skchr_ironmn_2",
+      "iconId": null,
+      "hidden": false,
+      "levels": [
+        {
+          "name": "高效补给",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 65,
+            "initSp": 15,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_2",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.1,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.1,
+              "valueStr": null
+            },
+            {
+              "key": "fake_interval",
+              "value": 3.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "高效补给",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 65,
+            "initSp": 15,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_2",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.15,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.15,
+              "valueStr": null
+            },
+            {
+              "key": "fake_interval",
+              "value": 3.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "高效补给",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 65,
+            "initSp": 15,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_2",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.2,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.2,
+              "valueStr": null
+            },
+            {
+              "key": "fake_interval",
+              "value": 3.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "高效补给",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 60,
+            "initSp": 20,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_2",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.25,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.25,
+              "valueStr": null
+            },
+            {
+              "key": "fake_interval",
+              "value": 2.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "高效补给",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 60,
+            "initSp": 20,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_2",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.3,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.3,
+              "valueStr": null
+            },
+            {
+              "key": "fake_interval",
+              "value": 2.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "高效补给",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 60,
+            "initSp": 20,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_2",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.35,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.35,
+              "valueStr": null
+            },
+            {
+              "key": "fake_interval",
+              "value": 2.5,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "高效补给",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 55,
+            "initSp": 20,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_2",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.4,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.4,
+              "valueStr": null
+            },
+            {
+              "key": "fake_interval",
+              "value": 2.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "高效补给",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 53,
+            "initSp": 25,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_2",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.45,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.45,
+              "valueStr": null
+            },
+            {
+              "key": "fake_interval",
+              "value": 2.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "高效补给",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 51,
+            "initSp": 25,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_2",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "fake_interval",
+              "value": 2.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "高效补给",
+          "rangeId": null,
+          "description": "携带此技能时：装置使一名我方干员每3.5秒获得<@ba.vup>1</>点技力\\n攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，攻击所有阻挡的敌人，装置强化为每<@ba.vup>{fake_interval}</>秒使目标获得<@ba.vup>1</>点技力但生命流失翻倍。\\n<@ba.rem>技能结束时获得一个装置</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 50,
+            "initSp": 25,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_2",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.6,
+              "valueStr": null
+            },
+            {
+              "key": "def",
+              "value": 0.6,
+              "valueStr": null
+            },
+            {
+              "key": "fake_interval",
+              "value": 2.0,
+              "valueStr": null
+            }
+          ]
+        }
+      ]
+    },
+    "skchr_ironmn_3": {
+      "skillId": "skchr_ironmn_3",
+      "iconId": null,
+      "hidden": false,
+      "levels": [
+        {
+          "name": "铁钳号·原型机",
+          "rangeId": null,
+          "description": "携带此技能时：装置可被我方干员攻击但不会受伤，可通过技能造成群体物理伤害但会流失生命\\n开启时立即获得一个装置，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 50,
+            "initSp": 10,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_3",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.1,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 10.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "铁钳号·原型机",
+          "rangeId": null,
+          "description": "携带此技能时：装置可被我方干员攻击但不会受伤，可通过技能造成群体物理伤害但会流失生命\\n开启时立即获得一个装置，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 50,
+            "initSp": 10,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_3",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.15,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 15.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "铁钳号·原型机",
+          "rangeId": null,
+          "description": "携带此技能时：装置可被我方干员攻击但不会受伤，可通过技能造成群体物理伤害但会流失生命\\n开启时立即获得一个装置，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 50,
+            "initSp": 10,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_3",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.2,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 20.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "铁钳号·原型机",
+          "rangeId": null,
+          "description": "携带此技能时：装置可被我方干员攻击但不会受伤，可通过技能造成群体物理伤害但会流失生命\\n开启时立即获得一个装置，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 45,
+            "initSp": 15,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_3",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.25,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 25.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "铁钳号·原型机",
+          "rangeId": null,
+          "description": "携带此技能时：装置可被我方干员攻击但不会受伤，可通过技能造成群体物理伤害但会流失生命\\n开启时立即获得一个装置，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 45,
+            "initSp": 15,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_3",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.3,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 30.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "铁钳号·原型机",
+          "rangeId": null,
+          "description": "携带此技能时：装置可被我方干员攻击但不会受伤，可通过技能造成群体物理伤害但会流失生命\\n开启时立即获得一个装置，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 45,
+            "initSp": 15,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_3",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.35,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 35.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "铁钳号·原型机",
+          "rangeId": null,
+          "description": "携带此技能时：装置可被我方干员攻击但不会受伤，可通过技能造成群体物理伤害但会流失生命\\n开启时立即获得一个装置，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 40,
+            "initSp": 20,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_3",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.4,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 40.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "铁钳号·原型机",
+          "rangeId": null,
+          "description": "携带此技能时：装置可被我方干员攻击但不会受伤，可通过技能造成群体物理伤害但会流失生命\\n开启时立即获得一个装置，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 35,
+            "initSp": 20,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_3",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.45,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 45.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "铁钳号·原型机",
+          "rangeId": null,
+          "description": "携带此技能时：装置可被我方干员攻击但不会受伤，可通过技能造成群体物理伤害但会流失生命\\n开启时立即获得一个装置，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 35,
+            "initSp": 20,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_3",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.5,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 50.0,
+              "valueStr": null
+            }
+          ]
+        },
+        {
+          "name": "铁钳号·原型机",
+          "rangeId": null,
+          "description": "携带此技能时：装置可被我方干员攻击但不会受伤，可通过技能造成群体物理伤害但会流失生命\\n开启时立即获得一个装置，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
+          "skillType": "MANUAL",
+          "durationType": "NONE",
+          "spData": {
+            "spType": "INCREASE_WITH_TIME",
+            "levelUpCost": null,
+            "maxChargeTime": 1,
+            "spCost": 35,
+            "initSp": 20,
+            "increment": 1.0
+          },
+          "prefabId": "skchr_ironmn_3",
+          "duration": 30.0,
+          "blackboard": [
+            {
+              "key": "atk",
+              "value": 0.55,
+              "valueStr": null
+            },
+            {
+              "key": "attack_speed",
+              "value": 55.0,
+              "valueStr": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ranges": {
+    "1-1": {
+      "id": "1-1",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        }
+      ]
+    }
+  }
+}

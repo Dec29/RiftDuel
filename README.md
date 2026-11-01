@@ -1,26 +1,45 @@
 # RiftDuel（逐界争锋）
 
-Godot 4.7 + GDScript的Windows双人PvP推球原型。部署八名干员，攻击球累积推力，推入对方整条底线获胜。正常5分钟，正中加时1分钟；包含单人AI、LAN房间／配对码、WSS互联网房间、设置与结算。
+Godot 4.7 + GDScript 的 Windows 双人 PvP 推球 Demo。一百零四名普通干员已按原作实装各自全部技能、特性、天赋和战斗骨骼；支持单人镜像 AI、LAN、WSS 房间、战术道具、推拉位移、编队、设置和结算。战斗为 0.75 倍速，正常有效现实时间 5 分钟，正中加时最多 1 分钟。
 
-## 运行
+## 运行与存档
 
-用Godot 4.7.2导入project.godot并运行。Windows发布包解压后同时保留RiftDuel.exe与RiftDuel.pck。联机双方必须使用同一ZIP；默认中继wss://134.175.45.75/ws，创建者分享一次性邀请码。自定义WSS与己方球门左右位置在设置中修改。编队入口未开放。
+用 Godot 4.7.2 导入 project.godot。发布使用 build/Demo/RiftDuel 完整文件夹或同级 ZIP，保留 EXE、PCK、Bridge DLL、addons 提供器和 licenses；.sha256 核对压缩包。联机双方使用相同包，默认互联网中继 wss://134.175.45.75/ws，六位配对码加入；LAN 在房间选项栏切换。
 
-## 工程
+单人模式先进入对局准备，默认限时积分，也可选择单球决胜与每局时长；单人和多人准备页均可直接调整编队，房内编辑会先取消本方准备，保留连接与配对码，返回后重新准备交换新名单。
 
-sim/是纯数据状态真源，decision/产生指令，net/只同步输入，view/只读渲染，server/是独立Go中继。resources/中的.tres为运行数据；import/operators.csv为规范化导入源，外部原始资料不随源码快照分发。资源、字段、玩法分别见[数据契约](Docs/data_contract.md)与[设计](Docs/GDD.md)。
+多人房间默认开启赛前禁选：双方各禁3人、各选6人、各禁2人、各选6人，再配置技能；双方可选同一干员，禁用全局去重，次轮不能禁已选干员。禁用每轮20秒、选人每轮100秒、技能30秒，双方确认可提前进入下一阶段；一场固定局数共用一次禁选，限时积分进球不重选。可由房主关闭，沿用自由编队。
 
-| 文档 | 用途 |
+一支自由编队携带 1–12 名干员，各选一个技能；编辑可空队，进入对局前须至少一人。编队与设置分别保存为 user://squad.cfg、user://preferences.cfg；Windows 默认位于 `%APPDATA%/Godot/app_userdata/RiftDuel/`，不在 build 中。
+
+## 工程结构
+
+| 路径 | 职责与主要入口 |
 |---|---|
-| [现行设计](Docs/GDD.md) | 规则、PoC验收边界、未定项 |
-| [数据契约](Docs/data_contract.md)、[被动](Docs/passives.md) | 字段／枚举／公式、干员机制 |
-| [联机协议](Docs/network_protocol.md) | LAN／WSS输入同步与安全边界 |
-| [视觉规范](Docs/visual_spec.md) | 配色、布局、交互 |
-| [编码规范](Docs/coding_standards.md) | 实现约束 |
-| [验证与发布](Docs/verification.md) | 环境、回归、导出、人工验收 |
-| [中继](server/README.md) | Go运行及服务器部署 |
+| project.godot、view/start_menu.tscn | 启动入口；Config、OperatorDB 两个 autoload |
+| main.gd／main.tscn | 对局装配、固定调度、收取双方指令后调用模拟 |
+| lobby.gd／lobby.tscn、view/draft_view.gd | 房间与赛前禁选流程，将会话交给对局 |
+| squad.gd、preferences.gd | 编队和设置的本地存档边界 |
+| sim/ | MatchState 持有状态并调度；command／attack／status／aura／tactical_rules 执行各阶段，effects 按跨阶段机制组织 |
+| decision/ | LocalInput／AIInput 只读模拟、生成 InputCommand |
+| net/ | 编解码、ENet／WebSocket 会话、输入 tick 对齐；不传状态 |
+| view/ | MatchView 统一输入与 HUD；BoardProjection、DeployInteraction、BattleRenderer、UnitInfo 分别负责投影、部署、场景绘制和信息 |
+| data/、resources/ | 资源校验由CSV导入与运行加载共用；OperatorDB登记内容，Config提供平衡参数；attack_action_data保存依赖模拟状态的动作查询 |
+| import/、Operator_Information.xlsx | CSV 导入源与原作资料表，游戏不直接读取 |
+| assets/、addons/spine_bridge/ | 美术源／运行骨骼、来源清单、原生库与许可文件 |
+| server/ | 独立 Go 房间和输入中继，部署模板在 server/deploy |
+| tools/ | 可复现测试、导入和构建；正式包排除，QA 导出保留 |
+| Docs/、AGENTS.md | 现行设计／契约与按模块读取的开发规则 |
+| build/、.godot/、.ai/ | 当前交付包、引擎缓存／验收产物、本地临时协作，均不提交 |
 
-## 验证与构建
+调用链：界面 → LocalInput → 单人或网络收齐指令 → MatchState.step；视图只读模拟。AI 使用相同指令接口，中继只转发。CSV 经 import_operators.gd 生成 .tres；骨架源经视觉导入工具生成 .res，再由视图装载。
+
+## 文档与验证
+
+- [设计与范围](Docs/GDD.md)、[数据契约索引](Docs/data_contract.md)、[天赋机制](Docs/passives.md)、[网络协议](Docs/network_protocol.md)。
+- [视觉](Docs/visual_spec.md)、[骨骼接入](Docs/spine_feasibility.md)、[编码规范](Docs/coding_standards.md)、[验证与发布](Docs/verification.md)、[中继运行](server/README.md)。
+
+按修改选择专项，命令与边界见[验证与发布](Docs/verification.md)。以下是基础套件与构建入口：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File tools/verify.ps1
@@ -28,8 +47,7 @@ go -C server test ./... -count=1
 powershell -ExecutionPolicy Bypass -File tools/build_windows.ps1
 ```
 
-预期返回0；Windows ZIP在build/生成。自动化不替代两设备／两网络真人验收与平衡试玩。Demo范围另行定义。
+返回码和实际证据决定验收结论；同机自动化不替代跨设备真人对局及平衡试玩。干员资料参考 PRTS，第三方模型与运行库按各自许可使用，公开素材分发另行确认；本项目不代授角色／素材许可。
 
-## 来源与使用边界
 
-干员数值／机制参考[PRTS](https://prts.wiki/)，地图素材来源与再分发许可须单独核对。此仓库不通过代码许可证授权第三方角色／素材，未设置开源许可证；不要假定可商用或公开再分发。
+多人房间中加入者准备后，房主直接点击“开始对局”；房主无需单独准备。客户端在开始时校验并发送房主当前编队，沿用有序控制消息与加载屏障；开局前仍可调整编队，取消BP后回到原房间。

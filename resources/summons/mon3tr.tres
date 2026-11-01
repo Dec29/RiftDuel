@@ -1,0 +1,62 @@
+[gd_resource type="Resource" script_class="OperatorData" load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "Mon3tr"
+description = "凯尔希的召唤物，伤害使用近卫系数；只有绑定凯尔希可直接治疗，范围外防御归0。"
+effect_type = "mon3tr"
+effect_params = {"source_profession_id": "guard"}
+
+[sub_resource type="Resource" id="None"]
+script = ExtResource("3")
+talent_name = "无"
+description = "无独立第一天赋。"
+effect_type = "none"
+effect_params = {}
+
+[sub_resource type="Resource" id="Death"]
+script = ExtResource("3")
+talent_name = "不毁重构"
+description = "被击倒时周围8格1200原始真实伤害与3秒晕眩；主动撤退和本体离场不触发。"
+effect_type = "death_rebuild"
+effect_params = {"damage": 1200, "stun_ticks": 90}
+
+[sub_resource type="Resource" id="Skill"]
+script = ExtResource("4")
+skill_name = "本体指令"
+initial_sp = 0
+trigger_type = "passive"
+sp_required = 0
+sp_recharge_type = "passive"
+description = "技能由凯尔希携带和开启，Mon3tr没有独立技力。"
+effect_type = "no_skill"
+effect_params = {}
+duration = 0.0
+
+[resource]
+script = ExtResource("1")
+operator_id = "mon3tr"
+display_name = "Mon3tr"
+profession = "召唤物"
+profession_id = "summon"
+branch = "Mon3tr"
+max_health = 5433
+attack = 1402
+defense = 405
+magic_resist = 0
+damage_type = "physical"
+attack_interval = 2.0
+block_count = 3
+deploy_cost = 10
+redeploy_time = 25.0
+attack_range = Array[Vector2i]([Vector2i(0,0),Vector2i(1,0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("None")
+talent_2 = SubResource("Death")
+skills = Array[ExtResource("4")]([SubResource("Skill")])

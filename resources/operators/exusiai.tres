@@ -13,7 +13,9 @@ effect_type = "prioritize_flying"
 
 [sub_resource type="Resource" id="Resource_wl4uy"]
 script = ExtResource("3_pionp")
-skill_name = "技能1"
+initial_sp = 0
+trigger_type = "attack"
+skill_name = "冲锋模式"
 sp_required = 4
 sp_recharge_type = "on_hit"
 description = "下次攻击变为3连射，每次射击造成相当于攻击力145%的伤害"
@@ -43,6 +45,38 @@ effect_params = {
 "target_count": 1
 }
 
+[sub_resource type="Resource" id="Resource_sweep"]
+script = ExtResource("3_pionp")
+initial_sp = 25
+trigger_type = "manual"
+skill_name = "扫射模式"
+sp_required = 35
+sp_recharge_type = "time"
+description = "攻击变为4连射，每次射击造成相当于攻击力125%的伤害，持续15秒"
+effect_type = "sustained_multi_shot"
+effect_params = {
+"attack_mult": 1.25,
+"shot_count": 4,
+"attack_interval_add": 0.0
+}
+duration = 15.0
+
+[sub_resource type="Resource" id="Resource_overload"]
+script = ExtResource("3_pionp")
+initial_sp = 20
+trigger_type = "auto"
+skill_name = "过载模式"
+sp_required = 30
+sp_recharge_type = "time"
+description = "技力充满时自动开启；攻击变为5连射，每次射击造成相当于攻击力110%的伤害，基础攻击间隔缩短0.22秒，持续15秒"
+effect_type = "sustained_multi_shot"
+effect_params = {
+"attack_mult": 1.1,
+"shot_count": 5,
+"attack_interval_add": -0.22
+}
+duration = 15.0
+
 [resource]
 script = ExtResource("2_c8531")
 operator_id = "exusiai"
@@ -56,6 +90,7 @@ defense = 161
 damage_type = "physical"
 attack_interval = 1.0
 block_count = 1
+initial_deploy_cost = 12
 deploy_cost = 14
 redeploy_time = 70.0
 attack_range = Array[Vector2i]([Vector2i(0, -1), Vector2i(0, 0), Vector2i(0, 1), Vector2i(1, -1), Vector2i(1, 0), Vector2i(1, 1), Vector2i(2, -1), Vector2i(2, 0), Vector2i(2, 1), Vector2i(3, -1), Vector2i(3, 0), Vector2i(3, 1)])
@@ -63,4 +98,4 @@ terrain_requirement = "high"
 branch_trait = SubResource("Resource_00vkh")
 talent_1 = SubResource("Resource_dytbk")
 talent_2 = SubResource("Resource_2po8r")
-skills = Array[ExtResource("3_pionp")]([SubResource("Resource_wl4uy")])
+skills = Array[ExtResource("3_pionp")]([SubResource("Resource_wl4uy"), SubResource("Resource_sweep"), SubResource("Resource_overload")])

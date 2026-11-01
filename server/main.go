@@ -24,7 +24,7 @@ func main() {
 	ctx, cancel := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
 	defer cancel()
 	go func() {
-		timer := time.NewTicker(time.Second)
+		timer := time.NewTicker(100 * time.Millisecond)
 		defer timer.Stop()
 		for {
 			select {

@@ -1,0 +1,1371 @@
+{
+  "repository": "Kengxxiao/ArknightsGameData",
+  "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "table_sha256": {
+    "character_table.json": "e523c7c83c36e2d76697121079e17d0282da1a94d59a55e1cc55616edf0b41c4",
+    "skill_table.json": "b6559b845efea6042e23f1d976185f12e13de3d749464543f5c2c17a7d2fa280",
+    "range_table.json": "4d974598394630a1ad465b954321254397f514c7fb26cba944d320ac18b874d0"
+  },
+  "operator_id": "thorns",
+  "char_id": "char_293_thorns",
+  "name": "棘刺",
+  "rarity": "TIER_6",
+  "profession": "WARRIOR",
+  "sub_profession": "lord",
+  "profile": "E2 maximum level, zero trust/potential bonuses, no module, skills M3",
+  "character": {
+    "name": "棘刺",
+    "description": "可以进行<@ba.kw>远程攻击</>，但此时攻击力降低至80%",
+    "sortIndex": 465,
+    "spTargetType": "NONE",
+    "spTargetId": null,
+    "canUseGeneralPotentialItem": true,
+    "canUseActivityPotentialItem": false,
+    "potentialItemId": "p_char_293_thorns",
+    "activityPotentialItemId": null,
+    "classicPotentialItemId": "class_p_char_293_thorns",
+    "nationId": "iberia",
+    "groupId": null,
+    "teamId": null,
+    "mainPower": {
+      "nationId": "iberia",
+      "groupId": null,
+      "teamId": null
+    },
+    "subPower": null,
+    "displayNumber": "II01",
+    "appellation": "Thorns",
+    "position": "MELEE",
+    "tagList": [
+      "输出",
+      "防护"
+    ],
+    "itemUsage": "罗德岛近卫干员棘刺，从不浪费力气，每一次攻击都经过精密计算。",
+    "itemDesc": "他往往会以自己的理解来配合指挥。",
+    "itemObtainApproach": "招募寻访",
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 5,
+    "rarity": "TIER_6",
+    "profession": "WARRIOR",
+    "subProfessionId": "lord",
+    "trait": {
+      "candidates": [
+        {
+          "unlockCondition": {
+            "phase": "PHASE_0",
+            "level": 1
+          },
+          "requiredPotentialRank": 0,
+          "blackboard": [
+            {
+              "key": "atk_scale",
+              "value": 0.8,
+              "valueStr": null
+            }
+          ],
+          "overrideDescripton": null,
+          "prefabKey": null,
+          "rangeId": null
+        }
+      ]
+    },
+    "phases": [
+      {
+        "characterPrefabKey": "char_293_thorns",
+        "rangeId": "2-3",
+        "maxLevel": 50,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1096,
+              "atk": 296,
+              "def": 191,
+              "magicResistance": 5.0,
+              "cost": 18,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.3,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 50,
+            "data": {
+              "maxHp": 1567,
+              "atk": 442,
+              "def": 263,
+              "magicResistance": 5.0,
+              "cost": 18,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.3,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": null
+      },
+      {
+        "characterPrefabKey": "char_293_thorns",
+        "rangeId": "3-12",
+        "maxLevel": 80,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1567,
+              "atk": 442,
+              "def": 263,
+              "magicResistance": 10.0,
+              "cost": 20,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.3,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 80,
+            "data": {
+              "maxHp": 2063,
+              "atk": 575,
+              "def": 333,
+              "magicResistance": 10.0,
+              "cost": 20,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.3,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": [
+          {
+            "id": "3221",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30042",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30052",
+            "count": 3,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "characterPrefabKey": "char_293_thorns",
+        "rangeId": "3-12",
+        "maxLevel": 90,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 2063,
+              "atk": 575,
+              "def": 333,
+              "magicResistance": 10.0,
+              "cost": 20,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.3,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 90,
+            "data": {
+              "maxHp": 2612,
+              "atk": 711,
+              "def": 402,
+              "magicResistance": 10.0,
+              "cost": 20,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.3,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": [
+          {
+            "id": "3223",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30115",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30044",
+            "count": 6,
+            "type": "MATERIAL"
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "skillId": "skcom_atk_up[3]",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30054",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31013",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31024",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30104",
+                "count": 8,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30115",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30084",
+                "count": 6,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skchr_thorns_2",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30074",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30053",
+                "count": 8,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30064",
+                "count": 3,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30044",
+                "count": 6,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30125",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30054",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skchr_thorns_3",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30094",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30073",
+                "count": 7,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30074",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30054",
+                "count": 8,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30125",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30104",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_2",
+          "level": 1
+        }
+      }
+    ],
+    "displayTokenDict": null,
+    "talents": [
+      {
+        "candidates": [
+          {
+            "unlockCondition": {
+              "phase": "PHASE_1",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "神经腐蚀",
+            "description": "攻击使目标中毒，在3秒内每秒受到65点法术伤害（对会远程攻击的目标伤害加倍）",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "damage[normal]",
+                "value": 65.0,
+                "valueStr": null
+              },
+              {
+                "key": "damage[ranged]",
+                "value": 130.0,
+                "valueStr": null
+              },
+              {
+                "key": "duration",
+                "value": 3.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_1",
+              "level": 1
+            },
+            "requiredPotentialRank": 4,
+            "prefabKey": "1",
+            "name": "神经腐蚀",
+            "description": "攻击使目标中毒，在3秒内每秒受到80<@ba.talpu>（+15）</>点法术伤害（对会远程攻击的目标伤害加倍）",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "damage[normal]",
+                "value": 80.0,
+                "valueStr": null
+              },
+              {
+                "key": "damage[ranged]",
+                "value": 160.0,
+                "valueStr": null
+              },
+              {
+                "key": "duration",
+                "value": 3.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "神经腐蚀",
+            "description": "攻击使目标中毒，在3秒内每秒受到125点法术伤害（对会远程攻击的目标伤害加倍）",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "damage[normal]",
+                "value": 125.0,
+                "valueStr": null
+              },
+              {
+                "key": "damage[ranged]",
+                "value": 250.0,
+                "valueStr": null
+              },
+              {
+                "key": "duration",
+                "value": 3.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 4,
+            "prefabKey": "1",
+            "name": "神经腐蚀",
+            "description": "攻击使目标中毒，在3秒内每秒受到140<@ba.talpu>（+15）</>点法术伤害（对会远程攻击的目标伤害加倍）",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "damage[normal]",
+                "value": 140.0,
+                "valueStr": null
+              },
+              {
+                "key": "damage[ranged]",
+                "value": 280.0,
+                "valueStr": null
+              },
+              {
+                "key": "duration",
+                "value": 3.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          }
+        ]
+      },
+      {
+        "candidates": [
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "2",
+            "name": "故土潮声",
+            "description": "如果2秒内没有主动攻击过，每秒恢复最大生命3.5%的生命",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "delay",
+                "value": 2.0,
+                "valueStr": null
+              },
+              {
+                "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                "value": 0.035,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 2,
+            "prefabKey": "2",
+            "name": "故土潮声",
+            "description": "如果2秒内没有主动攻击过，每秒恢复最大生命4%<@ba.talpu>（+0.5%）</>的生命",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "delay",
+                "value": 2.0,
+                "valueStr": null
+              },
+              {
+                "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                "value": 0.04,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          }
+        ]
+      }
+    ],
+    "potentialRanks": [
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "CUSTOM",
+        "description": "第二天赋效果增强",
+        "buff": null,
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "攻击力+26",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "ATK",
+                "formulaItem": "ADDITION",
+                "value": 26.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "CUSTOM",
+        "description": "第一天赋效果增强",
+        "buff": null,
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      }
+    ],
+    "favorKeyFrames": [
+      {
+        "level": 0,
+        "data": {
+          "maxHp": 0,
+          "atk": 0,
+          "def": 0,
+          "magicResistance": 0.0,
+          "cost": 0,
+          "blockCnt": 0,
+          "moveSpeed": 0.0,
+          "attackSpeed": 0.0,
+          "baseAttackTime": 0.0,
+          "respawnTime": 0,
+          "hpRecoveryPerSec": 0.0,
+          "spRecoveryPerSec": 0.0,
+          "maxDeployCount": 0,
+          "maxDeckStackCnt": 0,
+          "tauntLevel": 0,
+          "massLevel": 0,
+          "baseForceLevel": 0,
+          "stunImmune": false,
+          "silenceImmune": false,
+          "sleepImmune": false,
+          "frozenImmune": false,
+          "levitateImmune": false,
+          "disarmedCombatImmune": false,
+          "fearedImmune": false,
+          "palsyImmune": false,
+          "attractImmune": false,
+          "teleportImmune": false,
+          "groundBoundImmune": false
+        }
+      },
+      {
+        "level": 50,
+        "data": {
+          "maxHp": 0,
+          "atk": 30,
+          "def": 70,
+          "magicResistance": 0.0,
+          "cost": 0,
+          "blockCnt": 0,
+          "moveSpeed": 0.0,
+          "attackSpeed": 0.0,
+          "baseAttackTime": 0.0,
+          "respawnTime": 0,
+          "hpRecoveryPerSec": 0.0,
+          "spRecoveryPerSec": 0.0,
+          "maxDeployCount": 0,
+          "maxDeckStackCnt": 0,
+          "tauntLevel": 0,
+          "massLevel": 0,
+          "baseForceLevel": 0,
+          "stunImmune": false,
+          "silenceImmune": false,
+          "sleepImmune": false,
+          "frozenImmune": false,
+          "levitateImmune": false,
+          "disarmedCombatImmune": false,
+          "fearedImmune": false,
+          "palsyImmune": false,
+          "attractImmune": false,
+          "teleportImmune": false,
+          "groundBoundImmune": false
+        }
+      }
+    ],
+    "allSkillLvlup": [
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3301",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3301",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30041",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30021",
+            "count": 4,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30052",
+            "count": 4,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30062",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30032",
+            "count": 3,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30013",
+            "count": 8,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3303",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30053",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30073",
+            "count": 6,
+            "type": "MATERIAL"
+          }
+        ]
+      }
+    ]
+  },
+  "base": {
+    "maxHp": 2612,
+    "atk": 711,
+    "def": 402,
+    "magicResistance": 10.0,
+    "cost": 20,
+    "blockCnt": 2,
+    "moveSpeed": 1.0,
+    "attackSpeed": 100.0,
+    "baseAttackTime": 1.3,
+    "respawnTime": 70,
+    "hpRecoveryPerSec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "maxDeployCount": 1,
+    "maxDeckStackCnt": 0,
+    "tauntLevel": 0,
+    "massLevel": 0,
+    "baseForceLevel": 0,
+    "stunImmune": false,
+    "silenceImmune": false,
+    "sleepImmune": false,
+    "frozenImmune": false,
+    "levitateImmune": false,
+    "disarmedCombatImmune": false,
+    "fearedImmune": false,
+    "palsyImmune": false,
+    "attractImmune": false,
+    "teleportImmune": false,
+    "groundBoundImmune": false
+  },
+  "branch_description": "可以进行<@ba.kw>远程攻击</>，但此时攻击力降低至80%",
+  "talents": [
+    {
+      "unlockCondition": {
+        "phase": "PHASE_2",
+        "level": 1
+      },
+      "requiredPotentialRank": 0,
+      "prefabKey": "1",
+      "name": "神经腐蚀",
+      "description": "攻击使目标中毒，在3秒内每秒受到125点法术伤害（对会远程攻击的目标伤害加倍）",
+      "rangeId": null,
+      "blackboard": [
+        {
+          "key": "damage[normal]",
+          "value": 125.0,
+          "valueStr": null
+        },
+        {
+          "key": "damage[ranged]",
+          "value": 250.0,
+          "valueStr": null
+        },
+        {
+          "key": "duration",
+          "value": 3.0,
+          "valueStr": null
+        }
+      ],
+      "tokenKey": null,
+      "isHideTalent": false
+    },
+    {
+      "unlockCondition": {
+        "phase": "PHASE_2",
+        "level": 1
+      },
+      "requiredPotentialRank": 0,
+      "prefabKey": "2",
+      "name": "故土潮声",
+      "description": "如果2秒内没有主动攻击过，每秒恢复最大生命3.5%的生命",
+      "rangeId": null,
+      "blackboard": [
+        {
+          "key": "delay",
+          "value": 2.0,
+          "valueStr": null
+        },
+        {
+          "key": "hp_recovery_per_sec_by_max_hp_ratio",
+          "value": 0.035,
+          "valueStr": null
+        }
+      ],
+      "tokenKey": null,
+      "isHideTalent": false
+    }
+  ],
+  "skills": {
+    "skcom_atk_up[3]": {
+      "name": "攻击力强化·γ型",
+      "rangeId": null,
+      "description": "攻击力<@ba.vup>+{atk:0%}</>",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skcom_atk_up",
+      "duration": 30.0,
+      "blackboard": [
+        {
+          "key": "atk",
+          "value": 1.0,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_thorns_2": {
+      "name": "护身尖刺",
+      "rangeId": "3-1",
+      "description": "停止攻击，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>，受到敌人普通攻击时释放尖刺对前方最多<@ba.vup>{max_target}</>名敌人进行一次远程攻击（每<@ba.vup>{cooldown:0.0}</>秒最多触发一次）",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 25,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_thorns_2",
+      "duration": 40.0,
+      "blackboard": [
+        {
+          "key": "atk",
+          "value": 0.6,
+          "valueStr": null
+        },
+        {
+          "key": "def",
+          "value": 1.1,
+          "valueStr": null
+        },
+        {
+          "key": "cooldown",
+          "value": 0.6,
+          "valueStr": null
+        },
+        {
+          "key": "max_target",
+          "value": 4.0,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_thorns_3": {
+      "name": "至高之术",
+      "rangeId": "3-3",
+      "description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，远程攻击不再降低攻击力\\n<@ba.rem>第二次及以后使用时能力加成变为最初的两倍，且持续时间无限</>",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WHEN_ATTACK",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 15,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_thorns_3",
+      "duration": 30.0,
+      "blackboard": [
+        {
+          "key": "atk",
+          "value": 0.6,
+          "valueStr": null
+        },
+        {
+          "key": "attack_speed",
+          "value": 25.0,
+          "valueStr": null
+        },
+        {
+          "key": "thorns_s_3[b].atk",
+          "value": 1.2,
+          "valueStr": null
+        },
+        {
+          "key": "thorns_s_3[b].attack_speed",
+          "value": 50.0,
+          "valueStr": null
+        },
+        {
+          "key": "thorns_s_3[b].duration",
+          "value": -1.0,
+          "valueStr": null
+        }
+      ]
+    }
+  },
+  "ranges": {
+    "3-1": {
+      "id": "3-1",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": -1,
+          "col": 0
+        },
+        {
+          "row": -1,
+          "col": 1
+        },
+        {
+          "row": -1,
+          "col": 2
+        }
+      ]
+    },
+    "3-12": {
+      "id": "3-12",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": -1,
+          "col": 0
+        },
+        {
+          "row": -1,
+          "col": 1
+        }
+      ]
+    },
+    "3-3": {
+      "id": "3-3",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": -1,
+          "col": 0
+        },
+        {
+          "row": -1,
+          "col": 1
+        },
+        {
+          "row": -1,
+          "col": 2
+        },
+        {
+          "row": -1,
+          "col": 3
+        }
+      ]
+    }
+  },
+  "prts": "https://prts.wiki/w/棘刺"
+}

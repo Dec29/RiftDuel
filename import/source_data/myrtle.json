@@ -1,0 +1,195 @@
+{
+  "repository": "Kengxxiao/ArknightsGameData",
+  "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "paths": [
+    "zh_CN/gamedata/excel/character_table.json",
+    "zh_CN/gamedata/excel/skill_table.json",
+    "zh_CN/gamedata/excel/range_table.json"
+  ],
+  "char_id": "char_151_myrtle",
+  "base": {
+    "maxHp": 1565,
+    "atk": 520,
+    "def": 300,
+    "magicResistance": 0.0,
+    "cost": 10,
+    "blockCnt": 1,
+    "moveSpeed": 1.0,
+    "attackSpeed": 100.0,
+    "baseAttackTime": 1.3,
+    "respawnTime": 70,
+    "hpRecoveryPerSec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "maxDeployCount": 1,
+    "maxDeckStackCnt": 0,
+    "tauntLevel": 0,
+    "massLevel": 0,
+    "baseForceLevel": 0,
+    "stunImmune": false,
+    "silenceImmune": false,
+    "sleepImmune": false,
+    "frozenImmune": false,
+    "levitateImmune": false,
+    "disarmedCombatImmune": false,
+    "fearedImmune": false,
+    "palsyImmune": false,
+    "attractImmune": false,
+    "teleportImmune": false,
+    "groundBoundImmune": false
+  },
+  "skills": {
+    "skcom_assist_cost[2]": {
+      "name": "支援号令·β型",
+      "rangeId": null,
+      "description": "停止攻击，持续时间内回复总共<@ba.vup>{value}</>点部署费用",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 22,
+        "initSp": 13,
+        "increment": 1.0
+      },
+      "prefabId": null,
+      "duration": 8.0,
+      "blackboard": [
+        {
+          "key": "value",
+          "value": 14.0,
+          "valueStr": null
+        },
+        {
+          "key": "interval",
+          "value": 0.57,
+          "valueStr": null
+        },
+        {
+          "key": "cost",
+          "value": 1.0,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_myrtle_2": {
+      "name": "治愈之翼",
+      "rangeId": "x-4",
+      "description": "停止攻击，持续时间内回复总共<@ba.vup>{value}</>点部署费用，并每秒治疗周围一名友方单位相当于桃金娘攻击力<@ba.vup>{attack@heal_scale:0%}</>的生命",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 24,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_myrtle_2",
+      "duration": 16.0,
+      "blackboard": [
+        {
+          "key": "attack@heal_scale",
+          "value": 0.5,
+          "valueStr": null
+        },
+        {
+          "key": "interval",
+          "value": 1.0,
+          "valueStr": null
+        },
+        {
+          "key": "value",
+          "value": 16.0,
+          "valueStr": null
+        },
+        {
+          "key": "cost",
+          "value": 1.0,
+          "valueStr": null
+        }
+      ]
+    }
+  },
+  "range": {
+    "1-1": {
+      "id": "1-1",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        }
+      ]
+    },
+    "x-4": {
+      "id": "x-4",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 1,
+          "col": -1
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": -1
+        },
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": -1,
+          "col": -1
+        },
+        {
+          "row": -1,
+          "col": 0
+        },
+        {
+          "row": -1,
+          "col": 1
+        }
+      ]
+    }
+  },
+  "talent": {
+    "unlockCondition": {
+      "phase": "PHASE_2",
+      "level": 1
+    },
+    "requiredPotentialRank": 0,
+    "prefabKey": "1",
+    "name": "浮光跃金",
+    "description": "在场时，所有【先锋】干员每秒回复25点生命",
+    "rangeId": null,
+    "blackboard": [
+      {
+        "key": "hp_recovery_per_sec",
+        "value": 25.0,
+        "valueStr": null
+      }
+    ],
+    "tokenKey": null,
+    "isHideTalent": false
+  },
+  "prts": "https://prts.wiki/w/桃金娘",
+  "prts_revision": 435164
+}

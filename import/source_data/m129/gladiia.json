@@ -1,0 +1,1257 @@
+{
+  "operator_id": "gladiia",
+  "char_id": "char_474_glady",
+  "name": "歌蕾蒂娅",
+  "repository": "Kengxxiao/ArknightsGameData",
+  "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "character": {
+    "name": "歌蕾蒂娅",
+    "description": "技能可以使敌人产生<@ba.kw>位移</>\\n可以放置于远程位",
+    "sortIndex": 327,
+    "spTargetType": "NONE",
+    "spTargetId": null,
+    "canUseGeneralPotentialItem": true,
+    "canUseActivityPotentialItem": false,
+    "potentialItemId": "p_char_474_glady",
+    "activityPotentialItemId": null,
+    "classicPotentialItemId": null,
+    "nationId": "egir",
+    "groupId": "abyssal",
+    "teamId": null,
+    "mainPower": {
+      "nationId": "egir",
+      "groupId": "abyssal",
+      "teamId": null
+    },
+    "subPower": null,
+    "displayNumber": "AA05",
+    "appellation": "Gladiia",
+    "position": "MELEE",
+    "tagList": [
+      "位移",
+      "输出",
+      "控场"
+    ],
+    "itemUsage": "罗德岛阿戈尔事务负责人歌蕾蒂娅，现在会向你透露一些信息。",
+    "itemDesc": "言语包含的礼节习惯和性格的恶劣程度没有什么关联。",
+    "itemObtainApproach": "活动获得",
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 5,
+    "rarity": "TIER_6",
+    "profession": "SPECIAL",
+    "subProfessionId": "hookmaster",
+    "trait": null,
+    "phases": [
+      {
+        "characterPrefabKey": "char_474_glady",
+        "rangeId": "2-2",
+        "maxLevel": 50,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 999,
+              "atk": 344,
+              "def": 144,
+              "magicResistance": 0.0,
+              "cost": 14,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.8,
+              "respawnTime": 80,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 50,
+            "data": {
+              "maxHp": 1350,
+              "atk": 492,
+              "def": 213,
+              "magicResistance": 0.0,
+              "cost": 14,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.8,
+              "respawnTime": 80,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": null
+      },
+      {
+        "characterPrefabKey": "char_474_glady",
+        "rangeId": "3-2",
+        "maxLevel": 80,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1350,
+              "atk": 492,
+              "def": 213,
+              "magicResistance": 0.0,
+              "cost": 16,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.8,
+              "respawnTime": 80,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 80,
+            "data": {
+              "maxHp": 1754,
+              "atk": 640,
+              "def": 281,
+              "magicResistance": 0.0,
+              "cost": 16,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.8,
+              "respawnTime": 80,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": [
+          {
+            "id": "3281",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30052",
+            "count": 7,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30022",
+            "count": 4,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "characterPrefabKey": "char_474_glady",
+        "rangeId": "3-2",
+        "maxLevel": 90,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1754,
+              "atk": 640,
+              "def": 281,
+              "magicResistance": 0.0,
+              "cost": 16,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.8,
+              "respawnTime": 80,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 90,
+            "data": {
+              "maxHp": 2309,
+              "atk": 801,
+              "def": 331,
+              "magicResistance": 0.0,
+              "cost": 16,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.8,
+              "respawnTime": 80,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": [
+          {
+            "id": "3283",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30145",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31014",
+            "count": 6,
+            "type": "MATERIAL"
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "skillId": "skchr_glady_1",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31014",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30013",
+                "count": 11,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30064",
+                "count": 3,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30044",
+                "count": 6,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30135",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31014",
+                "count": 6,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skchr_glady_2",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31024",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30103",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30074",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30054",
+                "count": 8,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30145",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30014",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skchr_glady_3",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30044",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31023",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30084",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30054",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30125",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30064",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_2",
+          "level": 1
+        }
+      }
+    ],
+    "displayTokenDict": null,
+    "talents": [
+      {
+        "candidates": [
+          {
+            "unlockCondition": {
+              "phase": "PHASE_1",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "阿戈尔的波涛",
+            "description": "在场时，所有【深海猎人】干员每秒回复1.5%最大生命值且受到【海怪】敌人的物理与法术伤害降低15%",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                "value": 0.015,
+                "valueStr": null
+              },
+              {
+                "key": "damage_resistance",
+                "value": 0.15,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "阿戈尔的波涛",
+            "description": "在场时，所有【深海猎人】干员每秒回复2.5%最大生命值且受到【海怪】敌人的物理与法术伤害降低25%",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "hp_recovery_per_sec_by_max_hp_ratio",
+                "value": 0.025,
+                "valueStr": null
+              },
+              {
+                "key": "damage_resistance",
+                "value": 0.25,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          }
+        ]
+      },
+      {
+        "candidates": [
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "2",
+            "name": "弱肉强食",
+            "description": "攻击重量小于等于3的敌人时攻击力提升至130%",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "value",
+                "value": 3.0,
+                "valueStr": null
+              },
+              {
+                "key": "atk_scale",
+                "value": 1.3,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 4,
+            "prefabKey": "2",
+            "name": "弱肉强食",
+            "description": "攻击重量小于等于3的敌人时攻击力提升至136%<@ba.talpu>（+6%）</>",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "value",
+                "value": 3.0,
+                "valueStr": null
+              },
+              {
+                "key": "atk_scale",
+                "value": 1.36,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          }
+        ]
+      }
+    ],
+    "potentialRanks": [
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "再部署时间-10秒",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "RESPAWN_TIME",
+                "formulaItem": "ADDITION",
+                "value": -10.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "CUSTOM",
+        "description": "第二天赋效果增强",
+        "buff": null,
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      }
+    ],
+    "favorKeyFrames": [
+      {
+        "level": 0,
+        "data": {
+          "maxHp": 0,
+          "atk": 0,
+          "def": 0,
+          "magicResistance": 0.0,
+          "cost": 0,
+          "blockCnt": 0,
+          "moveSpeed": 0.0,
+          "attackSpeed": 0.0,
+          "baseAttackTime": 0.0,
+          "respawnTime": 0,
+          "hpRecoveryPerSec": 0.0,
+          "spRecoveryPerSec": 0.0,
+          "maxDeployCount": 0,
+          "maxDeckStackCnt": 0,
+          "tauntLevel": 0,
+          "massLevel": 0,
+          "baseForceLevel": 0,
+          "stunImmune": false,
+          "silenceImmune": false,
+          "sleepImmune": false,
+          "frozenImmune": false,
+          "levitateImmune": false,
+          "disarmedCombatImmune": false,
+          "fearedImmune": false,
+          "palsyImmune": false,
+          "attractImmune": false,
+          "teleportImmune": false,
+          "groundBoundImmune": false
+        }
+      },
+      {
+        "level": 50,
+        "data": {
+          "maxHp": 0,
+          "atk": 50,
+          "def": 50,
+          "magicResistance": 0.0,
+          "cost": 0,
+          "blockCnt": 0,
+          "moveSpeed": 0.0,
+          "attackSpeed": 0.0,
+          "baseAttackTime": 0.0,
+          "respawnTime": 0,
+          "hpRecoveryPerSec": 0.0,
+          "spRecoveryPerSec": 0.0,
+          "maxDeployCount": 0,
+          "maxDeckStackCnt": 0,
+          "tauntLevel": 0,
+          "massLevel": 0,
+          "baseForceLevel": 0,
+          "stunImmune": false,
+          "silenceImmune": false,
+          "sleepImmune": false,
+          "frozenImmune": false,
+          "levitateImmune": false,
+          "disarmedCombatImmune": false,
+          "fearedImmune": false,
+          "palsyImmune": false,
+          "attractImmune": false,
+          "teleportImmune": false,
+          "groundBoundImmune": false
+        }
+      }
+    ],
+    "allSkillLvlup": [
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3301",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3301",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30051",
+            "count": 6,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30011",
+            "count": 4,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30062",
+            "count": 3,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30012",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30062",
+            "count": 3,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31023",
+            "count": 6,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3303",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30043",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30093",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      }
+    ]
+  },
+  "base": {
+    "maxHp": 2309,
+    "atk": 801,
+    "def": 331,
+    "magicResistance": 0.0,
+    "cost": 16,
+    "blockCnt": 2,
+    "moveSpeed": 1.0,
+    "attackSpeed": 100.0,
+    "baseAttackTime": 1.8,
+    "respawnTime": 80,
+    "hpRecoveryPerSec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "maxDeployCount": 1,
+    "maxDeckStackCnt": 0,
+    "tauntLevel": 0,
+    "massLevel": 0,
+    "baseForceLevel": 0,
+    "stunImmune": false,
+    "silenceImmune": false,
+    "sleepImmune": false,
+    "frozenImmune": false,
+    "levitateImmune": false,
+    "disarmedCombatImmune": false,
+    "fearedImmune": false,
+    "palsyImmune": false,
+    "attractImmune": false,
+    "teleportImmune": false,
+    "groundBoundImmune": false
+  },
+  "talents": [
+    {
+      "unlockCondition": {
+        "phase": "PHASE_2",
+        "level": 1
+      },
+      "requiredPotentialRank": 0,
+      "prefabKey": "1",
+      "name": "阿戈尔的波涛",
+      "description": "在场时，所有【深海猎人】干员每秒回复2.5%最大生命值且受到【海怪】敌人的物理与法术伤害降低25%",
+      "rangeId": null,
+      "blackboard": [
+        {
+          "key": "hp_recovery_per_sec_by_max_hp_ratio",
+          "value": 0.025,
+          "valueStr": null
+        },
+        {
+          "key": "damage_resistance",
+          "value": 0.25,
+          "valueStr": null
+        }
+      ],
+      "tokenKey": null,
+      "isHideTalent": false
+    },
+    {
+      "unlockCondition": {
+        "phase": "PHASE_2",
+        "level": 1
+      },
+      "requiredPotentialRank": 0,
+      "prefabKey": "2",
+      "name": "弱肉强食",
+      "description": "攻击重量小于等于3的敌人时攻击力提升至130%",
+      "rangeId": null,
+      "blackboard": [
+        {
+          "key": "value",
+          "value": 3.0,
+          "valueStr": null
+        },
+        {
+          "key": "atk_scale",
+          "value": 1.3,
+          "valueStr": null
+        }
+      ],
+      "tokenKey": null,
+      "isHideTalent": false
+    }
+  ],
+  "skills": {
+    "skchr_glady_1": {
+      "name": "缺水的大洋裂断",
+      "rangeId": null,
+      "description": "下次攻击会将目标<@ba.vup>较大力度地</>拖拽至面前，并对其造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的物理伤害\\n<@ba.rem>可充能{cnt}次</>",
+      "skillType": "AUTO",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 3,
+        "spCost": 4,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_glady_1",
+      "duration": 0.0,
+      "blackboard": [
+        {
+          "key": "atk_scale",
+          "value": 2.1,
+          "valueStr": null
+        },
+        {
+          "key": "force",
+          "value": 2.0,
+          "valueStr": null
+        },
+        {
+          "key": "cnt",
+          "value": 3.0,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_glady_2": {
+      "name": "缺水的掌握怒海",
+      "rangeId": "3-14",
+      "description": "攻击间隔<@ba.vdown>增大</>，攻击范围扩大，每次攻击优先对被阻挡的两个目标造成相当于攻击力<@ba.vup>{attack@atk_scale:0%}</>的物理伤害且以<@ba.vup>较大力度地</>拖拽至自己面前",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 25,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_glady_2",
+      "duration": 20.0,
+      "blackboard": [
+        {
+          "key": "base_attack_time",
+          "value": 0.5,
+          "valueStr": null
+        },
+        {
+          "key": "attack@max_target",
+          "value": 2.0,
+          "valueStr": null
+        },
+        {
+          "key": "attack@atk_scale",
+          "value": 1.8,
+          "valueStr": null
+        },
+        {
+          "key": "attack@force",
+          "value": 2.0,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_glady_3": {
+      "name": "缺水的碎漩狂舞",
+      "rangeId": null,
+      "description": "对一个远处目标<$ba.root>束缚</>并制造一个龙卷风使周围敌人移动速度<@ba.vup>-{-move_speed:0%}</>，每<@ba.vup>{interval}</>秒造成<@ba.vup>{atk_scale:0%}</>攻击力的<@ba.vup>法术伤害</>并<@ba.vup>较大力度地</>拖拽至中心。技能结束时把目标地点周围的敌人<@ba.vup>较大力度地</>拖拽至面前",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 26,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_glady_3",
+      "duration": 8.0,
+      "blackboard": [
+        {
+          "key": "atk_scale",
+          "value": 1.3,
+          "valueStr": null
+        },
+        {
+          "key": "attack@force",
+          "value": 2.0,
+          "valueStr": null
+        },
+        {
+          "key": "force",
+          "value": 2.0,
+          "valueStr": null
+        },
+        {
+          "key": "projectile_delay_time",
+          "value": 9.0,
+          "valueStr": null
+        },
+        {
+          "key": "interval",
+          "value": 1.5,
+          "valueStr": null
+        },
+        {
+          "key": "hit_duration",
+          "value": 9.0,
+          "valueStr": null
+        },
+        {
+          "key": "move_speed",
+          "value": -0.5,
+          "valueStr": null
+        }
+      ]
+    }
+  },
+  "ranges": {
+    "3-2": {
+      "id": "3-2",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        }
+      ]
+    },
+    "3-14": {
+      "id": "3-14",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": -1,
+          "col": 1
+        },
+        {
+          "row": -1,
+          "col": 2
+        },
+        {
+          "row": -1,
+          "col": 3
+        }
+      ]
+    },
+    "2-2": {
+      "id": "2-2",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        }
+      ]
+    }
+  },
+  "profile": "E2 maximum level, zero trust/potential bonuses, no module, actual skills M3",
+  "table_sha256": {
+    "character_table.json": "e523c7c83c36e2d76697121079e17d0282da1a94d59a55e1cc55616edf0b41c4",
+    "skill_table.json": "b6559b845efea6042e23f1d976185f12e13de3d749464543f5c2c17a7d2fa280",
+    "range_table.json": "4d974598394630a1ad465b954321254397f514c7fb26cba944d320ac18b874d0"
+  }
+}

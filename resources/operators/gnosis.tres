@@ -1,0 +1,159 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+
+script = ExtResource("2")
+
+trait_name = "巫役"
+
+description = "攻击造成法术伤害。"
+
+effect_type = "magical_attack"
+
+effect_params = {}
+
+[sub_resource type="Resource" id="Talent1"]
+
+script = ExtResource("3")
+
+talent_name = "坚冰"
+
+description = "攻击造成1秒寒冷；范围内寒冷的敌人受到25%的脆弱，范围内冻结的敌人脆弱效果提升至2倍"
+
+effect_type = "cold_fragile"
+
+effect_params = {"cold_ticks": 30, "cold_fragile_percent": 25, "frozen_fragile_percent": 50}
+
+[sub_resource type="Resource" id="Talent2"]
+
+script = ExtResource("3")
+
+talent_name = "殊途同归"
+
+description = "灵知在场且部署后经过10秒时，使所有【谢拉格】干员获得抵抗"
+
+effect_type = "kjerag_resistance"
+
+effect_params = {"warmup_ticks": 300}
+
+[sub_resource type="Resource" id="Skill0"]
+
+script = ExtResource("4")
+
+skill_name = "高速思考"
+
+initial_sp = 0
+
+sp_required = 4
+
+sp_recharge_type = "time"
+
+trigger_type = "attack"
+
+description = "下次攻击连击两次，各造成170%法术伤害。"
+
+effect_type = "gnosis_double"
+
+effect_params = {"attack_mult": 1.7, "shot_count": 2}
+
+duration = 0.0
+
+[sub_resource type="Resource" id="Skill1"]
+
+script = ExtResource("4")
+
+skill_name = "零度爆发"
+
+initial_sp = 0
+
+sp_required = 6
+
+sp_recharge_type = "time"
+
+trigger_type = "manual"
+
+description = "范围内所有敌人受到200%法伤和4秒寒冷，完全蓄力额外一层寒冷。"
+
+effect_type = "gnosis_cold"
+
+effect_params = {"attack_mult": 2.0, "cold_ticks": 120, "charge_count": 2}
+
+duration = 0.0
+
+[sub_resource type="Resource" id="Skill2"]
+
+script = ExtResource("4")
+
+skill_name = "失温症"
+
+initial_sp = 25
+
+sp_required = 40
+
+sp_recharge_type = "time"
+
+trigger_type = "manual"
+
+description = "攻速+130，同时攻击2敌，优先未冻结目标；范围内冻结延长至技能结束，结束600%法伤并解冻。"
+
+effect_type = "gnosis_hypothermia"
+
+effect_params = {"attack_mult": 1.0, "attack_speed_add": 130, "target_count": 2, "end_attack_percent": 600}
+
+duration = 13.0
+
+[resource]
+
+script = ExtResource("1")
+
+operator_id = "gnosis"
+
+display_name = "灵知"
+
+profession = "辅助"
+
+profession_id = "supporter"
+
+branch = "巫役"
+
+group_id = "kjerag"
+
+max_health = 2035
+
+attack = 455
+
+defense = 132
+
+magic_resist = 25
+
+damage_type = "magical"
+
+attack_interval = 1.6
+
+block_count = 1
+
+deploy_cost = 13
+
+initial_deploy_cost = 11
+
+redeploy_time = 70.0
+
+terrain_requirement = "high"
+
+attack_range = Array[Vector2i]([Vector2i(0, 2), Vector2i(1, 2), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(0, -2), Vector2i(1, -2)])
+
+branch_trait = SubResource("Trait")
+
+talent_1 = SubResource("Talent1")
+
+talent_2 = SubResource("Talent2")
+
+skills = Array[ExtResource("4")]([SubResource("Skill0"), SubResource("Skill1"), SubResource("Skill2")])

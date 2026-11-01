@@ -1,0 +1,163 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="operator"]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="trait"]
+
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="talent"]
+
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="skill"]
+
+[sub_resource type="Resource" id="trait"]
+
+script = ExtResource("trait")
+
+trait_name = "炮手"
+
+description = "攻击造成群体物理伤害"
+
+effect_type = "physical_splash"
+
+effect_params = {"splash_radius_squared":1}
+
+[sub_resource type="Resource" id="talent0"]
+
+script = ExtResource("talent")
+
+talent_name = "陈述苦难"
+
+description = "自身生命会不断流失（该效果不会使生命降至0）；生命值高于50%时获得+25%攻击力的精力充沛；高于80%效果翻倍"
+
+effect_type = "fiammetta_suffering"
+
+effect_params = {"pulse_ticks":3,"loss_basis_points":50,"hp_threshold_percent":50,"attack_percent":25,"high_hp_threshold_percent":80,"high_attack_percent":50}
+
+[sub_resource type="Resource" id="talent1"]
+
+script = ExtResource("talent")
+
+talent_name = "宣告终局"
+
+description = "技能持续期间外，攻击速度+27"
+
+effect_type = "fiammetta_finale"
+
+effect_params = {"attack_speed_add":27}
+
+[sub_resource type="Resource" id="skill0"]
+
+script = ExtResource("skill")
+
+skill_name = "“你须直面”"
+
+description = "攻击距离+1，攻击力+100%"
+
+effect_type = "fiammetta_confront"
+
+effect_params = {"attack_mult":2.0,"range_extend":1}
+
+duration = 30.0
+
+trigger_type = "manual"
+
+initial_sp = 5
+
+sp_required = 10
+
+sp_recharge_type = "on_hit"
+
+attack_range_override = Array[Vector2i]([Vector2i(0,1), Vector2i(1,1), Vector2i(2,1), Vector2i(3,1), Vector2i(4,1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(3,0), Vector2i(4,0), Vector2i(0,-1), Vector2i(1,-1), Vector2i(2,-1), Vector2i(3,-1), Vector2i(4,-1), Vector2i(5,-1), Vector2i(5,0), Vector2i(5,1)])
+
+[sub_resource type="Resource" id="skill1"]
+
+script = ExtResource("skill")
+
+skill_name = "“你须愧悔”"
+
+description = "向前发射灼痕弹且每飞行一段距离在弹道上留下灼痕，到达攻击范围最远距离时爆炸造成400%的物理伤害；之后灼痕依次爆炸造成200%的物理伤害"
+
+effect_type = "fiammetta_repent"
+
+effect_params = {"attack_mult":1.0,"burst_attack_percent":400,"trail_attack_percent":200,"trail_distance_hundredths":66,"speed_cells_per_second":8,"trail_delay_ticks":24,"splash_radius_hundredths":150,"trail_radius_hundredths":110}
+
+duration = 0.0
+
+trigger_type = "manual"
+
+initial_sp = 0
+
+sp_required = 7
+
+sp_recharge_type = "on_hit"
+
+attack_range_override = Array[Vector2i]([])
+
+[sub_resource type="Resource" id="skill2"]
+
+script = ExtResource("skill")
+
+skill_name = "“你须偿还”"
+
+description = "持续固定攻击范围内正前方最远一格，爆炸范围扩大，攻击力提升至125%，对目标位置附近小范围内的敌人攻击力额外提升至220%\n持续时间无限，可主动关闭技能"
+
+effect_type = "fiammetta_repay"
+
+effect_params = {"attack_mult":1.25,"center_attack_mult":2.2,"splash_radius_squared":4,"center_radius_squared":1}
+
+duration = -1.0
+
+trigger_type = "manual"
+
+initial_sp = 0
+
+sp_required = 15
+
+sp_recharge_type = "on_hit"
+
+attack_range_override = Array[Vector2i]([])
+
+[resource]
+
+script = ExtResource("operator")
+
+operator_id = "fiammetta"
+
+display_name = "菲亚梅塔"
+
+profession = "狙击"
+
+profession_id = "sniper"
+
+branch = "炮手"
+
+max_health = 1926
+
+attack = 861
+
+defense = 156
+
+magic_resist = 0
+
+damage_type = "physical"
+
+block_count = 1
+
+attack_interval = 2.8
+
+initial_deploy_cost = 25
+
+deploy_cost = 29
+
+redeploy_time = 70.0
+
+attack_range = Array[Vector2i]([Vector2i(0,1), Vector2i(1,1), Vector2i(2,1), Vector2i(3,1), Vector2i(4,1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(3,0), Vector2i(4,0), Vector2i(0,-1), Vector2i(1,-1), Vector2i(2,-1), Vector2i(3,-1), Vector2i(4,-1)])
+
+terrain_requirement = "high"
+
+branch_trait = SubResource("trait")
+
+talent_1 = SubResource("talent0")
+
+talent_2 = SubResource("talent1")
+
+skills = Array[ExtResource("skill")]([SubResource("skill0"),SubResource("skill1"),SubResource("skill2")])

@@ -1,0 +1,111 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_fw171"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_2y8bo"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_btdgf"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_p5vw8"]
+
+[sub_resource type="Resource" id="Resource_dwlef"]
+script = ExtResource("1_fw171")
+trait_name = "链术师"
+description = "攻击造成法术伤害，最多在4名不同敌人间跳跃；跳跃距离1.7格，每跳伤害乘85%，命中施加0.5秒停顿。箱子与球不作为链式中转。"
+effect_type = "chain_magic"
+effect_params = {
+"damage_remaining_percent": 85,
+"jump_radius_squared": 2,
+"slow_ticks": 15,
+"target_count": 4
+}
+
+[sub_resource type="Resource" id="Resource_ahmct"]
+script = ExtResource("3_btdgf")
+skill_name = "电能之触"
+trigger_type = "attack"
+sp_required = 5
+sp_recharge_type = "time"
+description = "下次链式攻击为250%攻击力，最多4个敌人，停顿延长至1.5秒；敌人间1.7格内跳跃、不重复，每跳伤害乘85%，箱子与球不作中转。"
+effect_type = "chain_strike"
+effect_params = {
+"attack_mult": 2.5,
+"slow_ticks": 45,
+"target_count": 4
+}
+
+[sub_resource type="Resource" id="Resource_yelvv"]
+script = ExtResource("3_btdgf")
+skill_name = "聚焦指令"
+initial_sp = 20
+sp_required = 40
+sp_recharge_type = "time"
+description = "35秒攻击+30%、基础间隔乘50%、向前距离+1，最多跳跃5名敌人。"
+effect_type = "chain_focus"
+effect_params = {
+"attack_interval_mult": 0.5,
+"attack_mult": 1.3,
+"target_count": 5
+}
+duration = 35.0
+attack_range_override = Array[Vector2i]([Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(3, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(4, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(3, 1)])
+
+[sub_resource type="Resource" id="Resource_w1esy"]
+script = ExtResource("3_btdgf")
+skill_name = "辉煌裂片"
+sp_required = 30
+sp_recharge_type = "time"
+description = "在大范围生命最高敌人所在格生成4秒雷暴，每0.5秒以150%攻击力对区域内随机敌人发起链式攻击，箱子与静止球独立受击；无敌人时可落在箱子或静止球处。可充能2次，本体离场雷暴消失。"
+effect_type = "chain_storm"
+effect_params = {
+"attack_mult": 1.0,
+"charge_count": 2,
+"lifetime_ticks": 120,
+"pulse_attack_percent": 150,
+"pulse_ticks": 15,
+"target_count": 4
+}
+attack_range_override = Array[Vector2i]([Vector2i(0, -3), Vector2i(-1, -2), Vector2i(0, -2), Vector2i(1, -2), Vector2i(-2, -1), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(-3, 0), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(-2, 1), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(-1, 2), Vector2i(0, 2), Vector2i(1, 2), Vector2i(0, 3)])
+burst_range_override = Array[Vector2i]([Vector2i(0, -2), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(0, 2)])
+
+[sub_resource type="Resource" id="Resource_ghknc"]
+script = ExtResource("4_p5vw8")
+talent_name = "机理分析"
+description = "攻击命中生命值在80%以上的敌人时，3秒内异客对其造成的伤害提升20%"
+effect_type = "high_health_damage_mark"
+effect_params = {
+"damage_percent": 20,
+"duration_ticks": 90,
+"hp_threshold_percent": 80
+}
+
+[sub_resource type="Resource" id="Resource_ukn5q"]
+script = ExtResource("4_p5vw8")
+talent_name = "孤卒"
+description = "当周围4格没有敌人时，攻击力+8%"
+effect_type = "isolated_enemy_attack"
+effect_params = {
+"attack_percent": 8
+}
+
+[resource]
+script = ExtResource("2_2y8bo")
+operator_id = "passenger"
+display_name = "异客"
+group_id = "sargon"
+profession = "术师"
+profession_id = "caster"
+branch = "链术师"
+max_health = 1558
+attack = 689
+defense = 130
+magic_resist = 20
+damage_type = "magical"
+attack_interval = 2.3
+block_count = 1
+initial_deploy_cost = 30
+deploy_cost = 33
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_dwlef")
+talent_1 = SubResource("Resource_ghknc")
+talent_2 = SubResource("Resource_ukn5q")
+skills = Array[ExtResource("3_btdgf")]([SubResource("Resource_ahmct"), SubResource("Resource_yelvv"), SubResource("Resource_w1esy")])

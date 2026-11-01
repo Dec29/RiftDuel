@@ -22,11 +22,51 @@ func _run() -> void:
 	var view := InfoView.new()
 	view.bind(state, input, definitions)
 	root.add_child(view)
+	for cost in [99, 0]:
+		state.sides[0].cost = cost
+		var tray_hash := state.state_hash()
+		var click := InputEventMouseButton.new()
+		click.button_index = MOUSE_BUTTON_LEFT
+		click.position = view._card_rect(view._tray_operator_ids().find("bagpipe")).get_center()
+		click.pressed = true
+		view._unhandled_input(click)
+		click.pressed = false
+		view._unhandled_input(click)
+		if not _check(view._deploy_phase == MatchView.DeployPhase.IDLE and input.selected_operator_id == "bagpipe" and input.take_commands().is_empty(), "Card click must retain inspection for both sufficient and insufficient cost"):
+			return
+		for tab_index in [MatchView.InfoTab.SKILL,MatchView.InfoTab.TRAIT,MatchView.InfoTab.TALENT]:
+			click.pressed = true
+			click.position = view._tab_rect(tab_index).get_center()
+			view._unhandled_input(click)
+			view.labels.clear()
+			view.queue_redraw()
+			await process_frame
+			await process_frame
+			var expected: String = {MatchView.InfoTab.TRAIT:"职业：先锋 / 冲锋手", MatchView.InfoTab.TALENT:definitions["bagpipe"].talent_1.talent_name + "（部署后生效）", MatchView.InfoTab.SKILL:definitions["bagpipe"].skills[0].skill_name}[tab_index]
+			if not _check(view.labels.has(expected) and state.state_hash() == tray_hash and input.take_commands().is_empty(), "Tray information must share field-unit tabs and remain read-only: %s" % view.labels):
+				return
+	state.sides[0].cooldowns["bagpipe"] = 30
+	var cooldown_hash := state.state_hash()
+	view._info_tab = MatchView.InfoTab.COMMAND
+	view.labels.clear()
+	view.queue_redraw()
+	await process_frame
+	await process_frame
+	if not _check(view.labels.has("再部署冷却 1.0 秒") and state.state_hash() == cooldown_hash, "Cooldown inspection must show actual remaining time without changing simulation"):
+		return
+	var tray_capture_args := OS.get_cmdline_user_args()
+	if not tray_capture_args.is_empty():
+		await RenderingServer.frame_post_draw
+		if not _check(root.get_texture().get_image().save_png(tray_capture_args[0].get_basename() + "_tray.png") == OK, "Cannot save tray information capture"):
+			return
+	DeployInteraction.cancel(view)
+	state.sides[0].cooldowns.clear()
 	var unit := UnitState.new(0, 0, "bagpipe", Vector2i(12, 5), 2484, 35)
 	state.units = [unit]
 	state.tick = 3661
 	state.sides[0].cost = 99
 	input.select_unit(0)
+	view._details_open = true
 	var skill: SkillResource = definitions["bagpipe"].skills[0]
 	if not _check(is_equal_approx(view._skill_bar_ratio(unit, skill), 1.0), "Full SP must fill the bar"):
 		return
@@ -56,7 +96,7 @@ func _run() -> void:
 		view.queue_redraw()
 		await process_frame
 		await process_frame
-		if not _check(view.labels.has("TIME  02:02") and view.labels.has("MAX") and state.state_hash() == before, "Timer/MAX must be correct and drawing read-only: %s" % view.labels):
+		if not _check(view.labels.has("TIME  02:42") and view.labels.has("MAX") and state.state_hash() == before, "Timer/MAX must use real-time deadline and drawing stay read-only: %s" % view.labels):
 			return
 		if not capture_args.is_empty():
 			await RenderingServer.frame_post_draw
@@ -64,7 +104,7 @@ func _run() -> void:
 			var point := Vector2i(view._cost_rect().end) - Vector2i(24, 4)
 			if not _check(image.get_pixelv(point).is_equal_approx(MatchView.PALETTE.BLUE), "MAX bar must stay full for regen=%d: pixel=%s" % [regen, image.get_pixelv(point)]):
 				return
-	for tab_index in 4:
+	for tab_index in [MatchView.InfoTab.SKILL,MatchView.InfoTab.TRAIT,MatchView.InfoTab.TALENT]:
 		var click := InputEventMouseButton.new()
 		click.pressed = true
 		click.button_index = MOUSE_BUTTON_LEFT
@@ -74,7 +114,7 @@ func _run() -> void:
 		view.queue_redraw()
 		await process_frame
 		await process_frame
-		var expected: String = ["技能生效 · 剩余 18s", "职业：先锋 / 冲锋手", definitions["bagpipe"].talent_1.talent_name + "（已生效）", skill.skill_name][tab_index]
+		var expected: String = {MatchView.InfoTab.TRAIT:"职业：先锋 / 冲锋手", MatchView.InfoTab.TALENT:definitions["bagpipe"].talent_1.talent_name + "（已生效）", MatchView.InfoTab.SKILL:skill.skill_name}[tab_index]
 		if not _check(view._info_tab == tab_index and view.labels.has(expected) and state.state_hash() == before and input.take_commands().is_empty(), "Tab=%d must show expected information without writing state: %s" % [tab_index, view.labels]):
 			return
 		if not capture_args.is_empty():
@@ -82,10 +122,33 @@ func _run() -> void:
 			var path := capture_args[0].get_basename() + "_%d.png" % tab_index
 			if not _check(root.get_texture().get_image().save_png(path) == OK, "Cannot save screenshot: " + path):
 				return
+	# Shared live attributes refresh independently from the description tab.
+	view._info_tab = MatchView.InfoTab.TRAIT
+	unit.skill_ticks_left = 525
+	view.queue_redraw()
+	await process_frame
+	await process_frame
+	var boosted_attack := "攻击 %d"%SkillRules.attack_value(unit,definitions.bagpipe)
+	unit.skill_ticks_left = 0
+	var refreshed_hash := state.state_hash()
+	view.labels.clear()
+	view.queue_redraw()
+	await process_frame
+	await process_frame
+	if not _check(not view.labels.has(boosted_attack) and view.labels.has("攻击 %d"%SkillRules.attack_value(unit,definitions.bagpipe)) and state.state_hash() == refreshed_hash, "Expired buff must refresh shared attributes without view writes"):
+		return
+	input.select_operator("ceobe")
+	view.queue_redraw()
+	await process_frame
+	await process_frame
+	if not _check(view._info_layout_paragraphs.has("职业：术士 / 中坚术士") and state.state_hash() == refreshed_hash, "Selection change must refresh trait layout"):
+		return
+	input.select_unit(0)
+	view._info_tab = MatchView.InfoTab.SKILL
 	unit.skill_ticks_left = 0
 	unit.sp = 35
 	view._activate_selected_skill()
-	if not _check(input.take_commands().is_empty(), "Info tab must not activate a manual skill"):
+	if not _check(input.take_commands().size() == 1, "Default skill information page must allow its ready manual skill"):
 		return
 	view._info_tab = MatchView.InfoTab.COMMAND
 	view._activate_selected_skill()
@@ -97,11 +160,11 @@ func _run() -> void:
 	if not _check(input.take_commands().is_empty(), "Automatic skill must not create a manual command"):
 		return
 	unit.side = 1
-	view._info_tab = MatchView.InfoTab.PASSIVE
+	view._info_tab = MatchView.InfoTab.TALENT
 	var scroll := InputEventMouseButton.new()
 	scroll.pressed = true
 	scroll.button_index = MOUSE_BUTTON_WHEEL_DOWN
-	scroll.position = Vector2(MatchView.PALETTE.HUD_ORIGIN) + Vector2(80, 180)
+	scroll.position = view._info_body_rect().get_center()
 	view._unhandled_input(scroll)
 	if not _check(view._info_scroll == 36 and input.selected_unit_id == 0 and input.take_commands().is_empty(), "Enemy information scrolling must preserve selection without commands"):
 		return

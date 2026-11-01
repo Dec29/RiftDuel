@@ -1,0 +1,310 @@
+{
+  "repository": "Kengxxiao/ArknightsGameData",
+  "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "paths": [
+    "zh_CN/gamedata/excel/character_table.json",
+    "zh_CN/gamedata/excel/skill_table.json",
+    "zh_CN/gamedata/excel/range_table.json"
+  ],
+  "char_id": "char_188_helage",
+  "base": {
+    "maxHp": 3825,
+    "atk": 762,
+    "def": 334,
+    "magicResistance": 0.0,
+    "cost": 26,
+    "blockCnt": 1,
+    "moveSpeed": 1.0,
+    "attackSpeed": 100.0,
+    "baseAttackTime": 1.2,
+    "respawnTime": 70,
+    "hpRecoveryPerSec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "maxDeployCount": 1,
+    "maxDeckStackCnt": 0,
+    "tauntLevel": 0,
+    "massLevel": 0,
+    "baseForceLevel": 0,
+    "stunImmune": false,
+    "silenceImmune": false,
+    "sleepImmune": false,
+    "frozenImmune": false,
+    "levitateImmune": false,
+    "disarmedCombatImmune": false,
+    "fearedImmune": false,
+    "palsyImmune": false,
+    "attractImmune": false,
+    "teleportImmune": false,
+    "groundBoundImmune": false
+  },
+  "trait": {
+    "candidates": [
+      {
+        "unlockCondition": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "requiredPotentialRank": 0,
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 30.0,
+            "valueStr": null
+          }
+        ],
+        "overrideDescripton": "不成为其他角色的治疗目标，每次攻击到敌人后回复自身<@ba.kw>{value}</>生命（精英1后更新）",
+        "prefabKey": null,
+        "rangeId": null
+      },
+      {
+        "unlockCondition": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "requiredPotentialRank": 0,
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 50.0,
+            "valueStr": null
+          }
+        ],
+        "overrideDescripton": "不成为其他角色的治疗目标，每次攻击到敌人后回复自身<@ba.kw>{value}</>生命（精英2后更新）",
+        "prefabKey": null,
+        "rangeId": null
+      },
+      {
+        "unlockCondition": {
+          "phase": "PHASE_2",
+          "level": 1
+        },
+        "requiredPotentialRank": 0,
+        "blackboard": [
+          {
+            "key": "value",
+            "value": 70.0,
+            "valueStr": null
+          }
+        ],
+        "overrideDescripton": "不成为其他角色的治疗目标，每次攻击到敌人后回复自身<@ba.kw>{value}</>生命",
+        "prefabKey": null,
+        "rangeId": null
+      }
+    ]
+  },
+  "talents": [
+    {
+      "candidates": [
+        {
+          "unlockCondition": {
+            "phase": "PHASE_0",
+            "level": 1
+          },
+          "requiredPotentialRank": 0,
+          "prefabKey": "1",
+          "name": "月盈星亏",
+          "description": "在场时，自身获得最高+50攻击速度的<$ba.berserk>坚忍</>（损失50%生命值时达到最大加成）",
+          "rangeId": null,
+          "blackboard": [
+            {
+              "key": "min_attack_speed",
+              "value": 50.0,
+              "valueStr": null
+            },
+            {
+              "key": "min_hp_ratio",
+              "value": 0.5,
+              "valueStr": null
+            }
+          ],
+          "tokenKey": null,
+          "isHideTalent": false
+        },
+        {
+          "unlockCondition": {
+            "phase": "PHASE_1",
+            "level": 1
+          },
+          "requiredPotentialRank": 0,
+          "prefabKey": "1",
+          "name": "月盈星亏",
+          "description": "在场时，自身获得最高+75攻击速度的<$ba.berserk>坚忍</>（损失60%生命值时达到最大加成）",
+          "rangeId": null,
+          "blackboard": [
+            {
+              "key": "min_attack_speed",
+              "value": 75.0,
+              "valueStr": null
+            },
+            {
+              "key": "min_hp_ratio",
+              "value": 0.4,
+              "valueStr": null
+            }
+          ],
+          "tokenKey": null,
+          "isHideTalent": false
+        },
+        {
+          "unlockCondition": {
+            "phase": "PHASE_2",
+            "level": 1
+          },
+          "requiredPotentialRank": 0,
+          "prefabKey": "1",
+          "name": "月盈星亏",
+          "description": "在场时，自身获得最高+100攻击速度的<$ba.berserk>坚忍</>（损失70%生命值时达到最大加成）",
+          "rangeId": null,
+          "blackboard": [
+            {
+              "key": "min_attack_speed",
+              "value": 100.0,
+              "valueStr": null
+            },
+            {
+              "key": "min_hp_ratio",
+              "value": 0.3,
+              "valueStr": null
+            }
+          ],
+          "tokenKey": null,
+          "isHideTalent": false
+        }
+      ]
+    },
+    {
+      "candidates": [
+        {
+          "unlockCondition": {
+            "phase": "PHASE_2",
+            "level": 1
+          },
+          "requiredPotentialRank": 0,
+          "prefabKey": "2",
+          "name": "运筹帷幄",
+          "description": "未阻挡敌人时每秒回复60生命",
+          "rangeId": null,
+          "blackboard": [
+            {
+              "key": "hp_recovery_per_sec",
+              "value": 60.0,
+              "valueStr": null
+            }
+          ],
+          "tokenKey": null,
+          "isHideTalent": false
+        },
+        {
+          "unlockCondition": {
+            "phase": "PHASE_2",
+            "level": 1
+          },
+          "requiredPotentialRank": 4,
+          "prefabKey": "2",
+          "name": "运筹帷幄",
+          "description": "未阻挡敌人时每秒回复70<@ba.talpu>（+10）</>生命",
+          "rangeId": null,
+          "blackboard": [
+            {
+              "key": "hp_recovery_per_sec",
+              "value": 70.0,
+              "valueStr": null
+            }
+          ],
+          "tokenKey": null,
+          "isHideTalent": false
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "skchr_helage_1": {
+      "name": "新月",
+      "rangeId": null,
+      "description": "下次攻击的攻击力提升至<@ba.vup>{atk_scale:0%}</>，并连续攻击两次",
+      "skillType": "AUTO",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WHEN_ATTACK",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 2,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_helage_1",
+      "duration": 0.0,
+      "blackboard": [
+        {
+          "key": "atk_scale",
+          "value": 1.75,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_helage_2": {
+      "name": "弦月",
+      "rangeId": null,
+      "description": "攻击力<@ba.vup>+{atk:0%}</>，攻击变为二连击，获得<@ba.vup>{prob:0%}</>的物理闪避",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 25,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_helage_2",
+      "duration": 13.0,
+      "blackboard": [
+        {
+          "key": "atk",
+          "value": 0.8,
+          "valueStr": null
+        },
+        {
+          "key": "prob",
+          "value": 0.75,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_helage_3": {
+      "name": "满月",
+      "rangeId": null,
+      "description": "攻击力<@ba.vup>+{atk:0%}</>，攻击范围<@ba.vup>+{ability_range_forward_extend}</>格，最多可以同时攻击<@ba.vup>{attack@max_target}</>个目标",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 15,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_helage_3",
+      "duration": 15.0,
+      "blackboard": [
+        {
+          "key": "atk",
+          "value": 1.0,
+          "valueStr": null
+        },
+        {
+          "key": "ability_range_forward_extend",
+          "value": 2.0,
+          "valueStr": null
+        },
+        {
+          "key": "attack@max_target",
+          "value": 3.0,
+          "valueStr": null
+        }
+      ]
+    }
+  },
+  "prts": "https://prts.wiki/w/赫拉格"
+}

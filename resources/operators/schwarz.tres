@@ -1,0 +1,93 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="trait"]
+script = ExtResource("2")
+trait_name = "重射手"
+description = "高精度的近距离射击；短距离范围，造成物理伤害"
+effect_type = "close_range_shot"
+effect_params = {}
+
+[sub_resource type="Resource" id="talent1"]
+script = ExtResource("3")
+talent_name = "破甲"
+description = "攻击时20%概率使本次攻击力变为160%；命中结算后目标总防御最终乘80%，持续5秒，重复刷新不叠加"
+effect_type = "armor_break_proc"
+effect_params = {"chance_percent":20,"attack_percent":160,"defense_remaining_percent":80,"duration_ticks":150}
+
+[sub_resource type="Resource" id="talent2"]
+script = ExtResource("3")
+talent_name = "交叉火力"
+description = "自身与至少另一名友方狙击在场存活时，所有友方狙击攻击力+8%，包含自身"
+effect_type = "sniper_crossfire"
+effect_params = {"profession_id":"sniper","attack_percent":8}
+
+[sub_resource type="Resource" id="skill"]
+script = ExtResource("4")
+initial_sp = 0
+trigger_type = "attack"
+skill_name = "强弩"
+description = "自动下一次攻击变为220%攻击力，该次破甲触发概率替换为80%，与160%乘算"
+effect_type = "armor_break_single"
+effect_params = {"attack_mult":2.2,"talent_chance_percent":80}
+sp_required = 3
+sp_recharge_type = "on_hit"
+
+[sub_resource type="Resource" id="skill_schwarz2"]
+script = ExtResource("4")
+skill_name = "暮眼锐瞳"
+initial_sp = 20
+sp_required = 30
+sp_recharge_type = "time"
+description = "攻击力+130%，破甲箭头触发概率提高至50%。持续40秒。"
+effect_type = "armor_break_boost"
+effect_params = {
+"attack_interval_add": 0.0,
+"attack_mult": 2.3,
+"talent_chance_percent": 50
+}
+duration = 40.0
+
+[sub_resource type="Resource" id="skill_schwarz3"]
+script = ExtResource("4")
+skill_name = "战术的终结"
+initial_sp = 12
+sp_required = 25
+sp_recharge_type = "time"
+description = "攻击范围改为自身格与前方直线4格，攻击间隔增加0.4秒，攻击力+180%，破甲箭头触发概率提高至100%。持续25秒。"
+effect_type = "armor_break_boost"
+effect_params = {
+"attack_interval_add": 0.4,
+"attack_mult": 2.8,
+"talent_chance_percent": 100
+}
+duration = 25.0
+attack_range_override = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(4, 0)])
+
+[resource]
+script = ExtResource("1")
+operator_id = "schwarz"
+profession = "狙击"
+profession_id = "sniper"
+branch = "重射手"
+max_health = 1833
+attack = 840
+defense = 225
+magic_resist = 0
+damage_type = "physical"
+block_count = 1
+initial_deploy_cost = 16
+deploy_cost = 20
+redeploy_time = 70
+display_name = "黑"
+attack_interval = 1.6
+terrain_requirement = "high"
+attack_range = Array[Vector2i]([Vector2i(0,-1),Vector2i(0,0),Vector2i(0,1),Vector2i(1,-1),Vector2i(1,0),Vector2i(1,1),Vector2i(2,-1),Vector2i(2,0),Vector2i(2,1)])
+branch_trait = SubResource("trait")
+talent_1 = SubResource("talent1")
+talent_2 = SubResource("talent2")
+skills = Array[ExtResource("4")]([SubResource("skill"), SubResource("skill_schwarz2"), SubResource("skill_schwarz3")])

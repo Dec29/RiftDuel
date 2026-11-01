@@ -1,0 +1,163 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="operator"]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="trait"]
+
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="talent"]
+
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="skill"]
+
+[sub_resource type="Resource" id="trait"]
+
+script = ExtResource("trait")
+
+trait_name = "散射手"
+
+description = "攻击范围内的所有敌人，对自己前方一横排的敌人攻击力提升至150%"
+
+effect_type = "spread_shot"
+
+effect_params = {"front_attack_percent":150}
+
+[sub_resource type="Resource" id="talent0"]
+
+script = ExtResource("talent")
+
+talent_name = "节约风气"
+
+description = "在场时自身弹药类技能攻击时20%概率不消耗对应弹药，其他【狙击】干员的弹药类技能改为10%概率不消耗（同类效果取最高）"
+
+effect_type = "ammo_saving"
+
+effect_params = {"self_chance_percent":20,"ally_chance_percent":10}
+
+[sub_resource type="Resource" id="talent1"]
+
+script = ExtResource("talent")
+
+talent_name = "假日余韵"
+
+description = "攻击速度+8，当场地中存在水地形时改为攻击速度+12\n本作无水地形，常态攻速+8；黏液不视为水地形。"
+
+effect_type = "chen_holiday_speed"
+
+effect_params = {"attack_speed_add":8,"water_attack_speed_add":12}
+
+[sub_resource type="Resource" id="skill0"]
+
+script = ExtResource("skill")
+
+skill_name = "高压冲击"
+
+description = "攻击力+100%，攻击时对攻击范围内的所有敌人应用特性加成\n攻击装有4发弹药，打完后结束（可随时停止技能）"
+
+effect_type = "chen_water_pressure"
+
+effect_params = {"attack_mult":2.0,"ammo_count":4}
+
+duration = -1.0
+
+trigger_type = "auto"
+
+initial_sp = 0
+
+sp_required = 5
+
+sp_recharge_type = "on_hit"
+
+attack_range_override = Array[Vector2i]([])
+
+[sub_resource type="Resource" id="skill1"]
+
+script = ExtResource("skill")
+
+skill_name = "“堇青之夜”"
+
+description = "攻击力+80%，每次攻击在范围内生成持续5秒的粘液，地面敌人经过时移动速度-35%、防御力-170（不叠加），蓄力额外效果：改为20发弹药\n攻击装有8发弹药，打完后结束（可随时停止技能）\n本作适配：黏液移动减速同比转为攻击速度降低，保留地面限定与减防。"
+
+effect_type = "chen_violet_night"
+
+effect_params = {"attack_mult":1.8,"ammo_count":8,"charged_ammo_count":20,"charge_count":2,"slow_remaining_percent":65,"defense_reduce":170,"field_ticks":150}
+
+duration = -1.0
+
+trigger_type = "manual"
+
+initial_sp = 12
+
+sp_required = 20
+
+sp_recharge_type = "time"
+
+attack_range_override = Array[Vector2i]([])
+
+[sub_resource type="Resource" id="skill2"]
+
+script = ExtResource("skill")
+
+skill_name = "“假日风暴”"
+
+description = "攻击范围扩大，攻击力+100%，攻击造成两次伤害，对攻击范围内的所有敌人应用特性加成，每次攻击在范围内生成持续5秒的粘液，地面敌人经过时移动速度-45%、防御力-220（不叠加）\n攻击装有32发弹药，每次攻击消耗2发，打完后结束（可随时停止技能）\n本作适配：黏液移动减速同比转为攻击速度降低，保留地面限定与减防。"
+
+effect_type = "chen_holiday_storm"
+
+effect_params = {"attack_mult":2.0,"ammo_count":32,"ammo_per_attack":2,"shot_count":2,"slow_remaining_percent":55,"defense_reduce":220,"field_ticks":150}
+
+duration = -1.0
+
+trigger_type = "manual"
+
+initial_sp = 30
+
+sp_required = 55
+
+sp_recharge_type = "time"
+
+attack_range_override = Array[Vector2i]([Vector2i(2,2), Vector2i(1,1), Vector2i(2,1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(1,-1), Vector2i(2,-1), Vector2i(2,-2)])
+
+[resource]
+
+script = ExtResource("operator")
+
+operator_id = "chen_alter"
+
+display_name = "假日威龙陈"
+
+profession = "狙击"
+
+profession_id = "sniper"
+
+branch = "散射手"
+
+max_health = 2501
+
+attack = 773
+
+defense = 203
+
+magic_resist = 0
+
+damage_type = "physical"
+
+block_count = 1
+
+attack_interval = 2.3
+
+initial_deploy_cost = 29
+
+deploy_cost = 32
+
+redeploy_time = 70.0
+
+attack_range = Array[Vector2i]([Vector2i(1,1), Vector2i(2,1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(1,-1), Vector2i(2,-1)])
+
+terrain_requirement = "high"
+
+branch_trait = SubResource("trait")
+
+talent_1 = SubResource("talent0")
+
+talent_2 = SubResource("talent1")
+
+skills = Array[ExtResource("skill")]([SubResource("skill0"),SubResource("skill1"),SubResource("skill2")])

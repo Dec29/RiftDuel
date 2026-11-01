@@ -1,0 +1,59 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "“弦惊”"
+description = "攻击自身阻挡的所有敌人；绑定本体，不占编队，本体离场同退。"
+effect_type = "ling_summon"
+effect_params = {"source_profession_id": "supporter", "module_index": 3}
+[sub_resource type="Resource" id="Talent1"]
+script = ExtResource("3")
+talent_name = "高级形态"
+description = "合成后生命+100%、攻击防御+80%、法抗+100%、间隔+0.8秒、阻挡+2，改法术伤害。"
+effect_type = "ling_advanced_form"
+effect_params = {"health_percent":100,"attack_percent":80,"defense_percent":80,"resist_percent":100,"interval_add_ticks":24,"block_add":2}
+[sub_resource type="Resource" id="Talent2"]
+script = ExtResource("3")
+talent_name = "无独立天赋"
+description = "由本体控制"
+effect_type = "none"
+effect_params = {}
+[sub_resource type="Resource" id="Skill0"]
+script = ExtResource("4")
+skill_name = "本体控制"
+initial_sp = 0
+sp_required = 0
+sp_recharge_type = "passive"
+trigger_type = "passive"
+description = "没有独立技能，随本体携带技能变化。"
+effect_type = "no_skill"
+effect_params = {}
+duration = 0.0
+attack_range_override = Array[Vector2i]([])
+burst_range_override = Array[Vector2i]([])
+[resource]
+script = ExtResource("1")
+operator_id = "ling_soul3"
+display_name = "“弦惊”"
+profession = "召唤物"
+profession_id = "summon"
+branch = "令召唤物"
+max_health = 3607
+attack = 823
+defense = 423
+magic_resist = 10
+damage_type = "physical"
+attack_interval = 1.5
+block_count = 2
+initial_deploy_cost = 23
+deploy_cost = 23
+redeploy_time = 20.0
+attack_range = Array[Vector2i]([Vector2i(0,0),Vector2i(1,0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent1")
+talent_2 = SubResource("Talent2")
+skills = Array[ExtResource("4")]([SubResource("Skill0")])

@@ -1,0 +1,113 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="operator"]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="trait"]
+
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="talent"]
+
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="skill"]
+
+[sub_resource type="Resource" id="trait"]
+
+script = ExtResource("trait")
+
+trait_name = "支援装置"
+
+description = "禁普疗；火力/补给平台不受攻击；铁钳号受友方实际攻击充能，本体离场退场"
+
+effect_type = "stainless_device_3"
+
+effect_params = {"mode":3,"charge_sp":5,"primary_percent":300,"splash_percent":150,"splash_radius_squared":1,"heal_percent":1,"loss_basis_points":250,"physical_reduction_percent":20}
+
+[sub_resource type="Resource" id="talent0"]
+
+script = ExtResource("talent")
+
+talent_name = "无"
+
+description = "无"
+
+effect_type = "none"
+
+effect_params = {}
+
+[sub_resource type="Resource" id="talent1"]
+
+script = ExtResource("talent")
+
+talent_name = "无"
+
+description = "无"
+
+effect_type = "none"
+
+effect_params = {}
+
+[sub_resource type="Resource" id="skill0"]
+
+script = ExtResource("skill")
+
+skill_name = "无"
+
+description = "装置按本体携带技能运作"
+
+effect_type = "no_skill"
+
+effect_params = {}
+
+duration = 0.0
+
+trigger_type = "passive"
+
+initial_sp = 0
+
+sp_required = 0
+
+sp_recharge_type = "passive"
+
+attack_range_override = Array[Vector2i]([])
+
+[resource]
+
+script = ExtResource("operator")
+
+operator_id = "stainless_cannon"
+
+display_name = "铁钳号·原型机"
+
+branch = "支援装置"
+
+profession = "召唤物"
+
+profession_id = "summon"
+
+max_health = 6000
+
+attack = 100
+
+defense = 2000
+
+magic_resist = 0
+
+damage_type = "physical"
+
+attack_interval = 1.0
+
+block_count = 0
+
+deploy_cost = 10
+
+redeploy_time = 20.0
+
+attack_range = Array[Vector2i]([Vector2i(1,1), Vector2i(2,1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(3,0), Vector2i(1,-1), Vector2i(2,-1)])
+
+terrain_requirement = "ground"
+
+branch_trait = SubResource("trait")
+
+talent_1 = SubResource("talent0")
+
+talent_2 = SubResource("talent1")
+
+skills = Array[ExtResource("skill")]([SubResource("skill0")])

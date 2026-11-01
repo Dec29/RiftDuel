@@ -1,0 +1,1318 @@
+{
+  "operator_id": "gavial_alter",
+  "char_id": "char_1026_gvial2",
+  "name": "百炼嘉维尔",
+  "repository": "Kengxxiao/ArknightsGameData",
+  "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "character": {
+    "name": "百炼嘉维尔",
+    "description": "同时攻击阻挡的<@ba.kw>所有敌人</>",
+    "sortIndex": 36,
+    "spTargetType": "NONE",
+    "spTargetId": null,
+    "canUseGeneralPotentialItem": true,
+    "canUseActivityPotentialItem": false,
+    "potentialItemId": "p_char_1026_gvial2",
+    "activityPotentialItemId": null,
+    "classicPotentialItemId": null,
+    "nationId": "rhodes",
+    "groupId": null,
+    "teamId": null,
+    "mainPower": {
+      "nationId": "rhodes",
+      "groupId": null,
+      "teamId": null
+    },
+    "subPower": [
+      {
+        "nationId": "sargon",
+        "groupId": null,
+        "teamId": null
+      }
+    ],
+    "displayNumber": "RF22",
+    "appellation": "Gavial the Invincible",
+    "position": "MELEE",
+    "tagList": [
+      "爆发",
+      "输出",
+      "生存"
+    ],
+    "itemUsage": "你熟悉的嘉维尔，拿起了战斧。",
+    "itemDesc": "擅长使用肢体语言来表达对他人的热情，使他们感到舒适和温馨。",
+    "itemObtainApproach": "招募寻访",
+    "isNotObtainable": false,
+    "isSpChar": true,
+    "maxPotentialLevel": 5,
+    "rarity": "TIER_6",
+    "profession": "WARRIOR",
+    "subProfessionId": "centurion",
+    "trait": null,
+    "phases": [
+      {
+        "characterPrefabKey": "char_1026_gvial2",
+        "rangeId": "1-1",
+        "maxLevel": 50,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1325,
+              "atk": 309,
+              "def": 165,
+              "magicResistance": 0.0,
+              "cost": 20,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.2,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 50,
+            "data": {
+              "maxHp": 1699,
+              "atk": 430,
+              "def": 236,
+              "magicResistance": 0.0,
+              "cost": 20,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.2,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": null
+      },
+      {
+        "characterPrefabKey": "char_1026_gvial2",
+        "rangeId": "1-1",
+        "maxLevel": 80,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1699,
+              "atk": 430,
+              "def": 236,
+              "magicResistance": 0.0,
+              "cost": 22,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.2,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 80,
+            "data": {
+              "maxHp": 2179,
+              "atk": 582,
+              "def": 320,
+              "magicResistance": 0.0,
+              "cost": 22,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.2,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": [
+          {
+            "id": "3221",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30012",
+            "count": 12,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30052",
+            "count": 4,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "characterPrefabKey": "char_1026_gvial2",
+        "rangeId": "1-1",
+        "maxLevel": 90,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 2179,
+              "atk": 582,
+              "def": 320,
+              "magicResistance": 0.0,
+              "cost": 24,
+              "blockCnt": 3,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.2,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 90,
+            "data": {
+              "maxHp": 2906,
+              "atk": 766,
+              "def": 391,
+              "magicResistance": 0.0,
+              "cost": 24,
+              "blockCnt": 3,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.2,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": [
+          {
+            "id": "3223",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30125",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31014",
+            "count": 6,
+            "type": "MATERIAL"
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "skillId": "skchr_gvial2_1",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30044",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31043",
+                "count": 3,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31044",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31014",
+                "count": 9,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30145",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30014",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skchr_gvial2_2",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30054",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31013",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30014",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30094",
+                "count": 9,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30125",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30064",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skchr_gvial2_3",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30064",
+                "count": 3,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30043",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31014",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30014",
+                "count": 10,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30115",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30044",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_2",
+          "level": 1
+        }
+      }
+    ],
+    "displayTokenDict": null,
+    "talents": [
+      {
+        "candidates": [
+          {
+            "unlockCondition": {
+              "phase": "PHASE_1",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "战地巨斧",
+            "description": "攻击力和防御力提升5%，每再阻挡一个敌人提升3%",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "atk",
+                "value": 0.05,
+                "valueStr": null
+              },
+              {
+                "key": "def",
+                "value": 0.05,
+                "valueStr": null
+              },
+              {
+                "key": "atk_add",
+                "value": 0.03,
+                "valueStr": null
+              },
+              {
+                "key": "def_add",
+                "value": 0.03,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_1",
+              "level": 1
+            },
+            "requiredPotentialRank": 2,
+            "prefabKey": "1",
+            "name": "战地巨斧",
+            "description": "攻击力和防御力提升7%<@ba.talpu>（+2%）</>，每再阻挡一个敌人提升4%<@ba.talpu>（+1%）</>",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "atk",
+                "value": 0.07,
+                "valueStr": null
+              },
+              {
+                "key": "def",
+                "value": 0.07,
+                "valueStr": null
+              },
+              {
+                "key": "atk_add",
+                "value": 0.04,
+                "valueStr": null
+              },
+              {
+                "key": "def_add",
+                "value": 0.04,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "战地巨斧",
+            "description": "攻击力和防御力提升10%，每再阻挡一个敌人提升4%",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "atk",
+                "value": 0.1,
+                "valueStr": null
+              },
+              {
+                "key": "def",
+                "value": 0.1,
+                "valueStr": null
+              },
+              {
+                "key": "atk_add",
+                "value": 0.04,
+                "valueStr": null
+              },
+              {
+                "key": "def_add",
+                "value": 0.04,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 2,
+            "prefabKey": "1",
+            "name": "战地巨斧",
+            "description": "攻击力和防御力提升12%<@ba.talpu>（+2%）</>，每再阻挡一个敌人提升5%<@ba.talpu>（+1%）</>",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "atk",
+                "value": 0.12,
+                "valueStr": null
+              },
+              {
+                "key": "def",
+                "value": 0.12,
+                "valueStr": null
+              },
+              {
+                "key": "atk_add",
+                "value": 0.05,
+                "valueStr": null
+              },
+              {
+                "key": "def_add",
+                "value": 0.05,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          }
+        ]
+      },
+      {
+        "candidates": [
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "2",
+            "name": "医学背景",
+            "description": "受到的治疗效果提升20%，生命值低于一半时提升至40%",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "heal_scale_1",
+                "value": 1.2,
+                "valueStr": null
+              },
+              {
+                "key": "heal_scale_2",
+                "value": 1.4,
+                "valueStr": null
+              },
+              {
+                "key": "hp_ratio",
+                "value": 0.5,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 4,
+            "prefabKey": "2",
+            "name": "医学背景",
+            "description": "受到的治疗效果提升25%<@ba.talpu>（+5%）</>，生命值低于一半时提升至45%<@ba.talpu>（+5%）</>",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "heal_scale_1",
+                "value": 1.25,
+                "valueStr": null
+              },
+              {
+                "key": "heal_scale_2",
+                "value": 1.45,
+                "valueStr": null
+              },
+              {
+                "key": "hp_ratio",
+                "value": 0.5,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          }
+        ]
+      }
+    ],
+    "potentialRanks": [
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "CUSTOM",
+        "description": "第一天赋效果增强",
+        "buff": null,
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "攻击力+28",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "ATK",
+                "formulaItem": "ADDITION",
+                "value": 28.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "CUSTOM",
+        "description": "第二天赋效果增强",
+        "buff": null,
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      }
+    ],
+    "favorKeyFrames": [
+      {
+        "level": 0,
+        "data": {
+          "maxHp": 0,
+          "atk": 0,
+          "def": 0,
+          "magicResistance": 0.0,
+          "cost": 0,
+          "blockCnt": 0,
+          "moveSpeed": 0.0,
+          "attackSpeed": 0.0,
+          "baseAttackTime": 0.0,
+          "respawnTime": 0,
+          "hpRecoveryPerSec": 0.0,
+          "spRecoveryPerSec": 0.0,
+          "maxDeployCount": 0,
+          "maxDeckStackCnt": 0,
+          "tauntLevel": 0,
+          "massLevel": 0,
+          "baseForceLevel": 0,
+          "stunImmune": false,
+          "silenceImmune": false,
+          "sleepImmune": false,
+          "frozenImmune": false,
+          "levitateImmune": false,
+          "disarmedCombatImmune": false,
+          "fearedImmune": false,
+          "palsyImmune": false,
+          "attractImmune": false,
+          "teleportImmune": false,
+          "groundBoundImmune": false
+        }
+      },
+      {
+        "level": 50,
+        "data": {
+          "maxHp": 0,
+          "atk": 50,
+          "def": 60,
+          "magicResistance": 0.0,
+          "cost": 0,
+          "blockCnt": 0,
+          "moveSpeed": 0.0,
+          "attackSpeed": 0.0,
+          "baseAttackTime": 0.0,
+          "respawnTime": 0,
+          "hpRecoveryPerSec": 0.0,
+          "spRecoveryPerSec": 0.0,
+          "maxDeployCount": 0,
+          "maxDeckStackCnt": 0,
+          "tauntLevel": 0,
+          "massLevel": 0,
+          "baseForceLevel": 0,
+          "stunImmune": false,
+          "silenceImmune": false,
+          "sleepImmune": false,
+          "frozenImmune": false,
+          "levitateImmune": false,
+          "disarmedCombatImmune": false,
+          "fearedImmune": false,
+          "palsyImmune": false,
+          "attractImmune": false,
+          "teleportImmune": false,
+          "groundBoundImmune": false
+        }
+      }
+    ],
+    "allSkillLvlup": [
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3301",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3301",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30021",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30051",
+            "count": 4,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30032",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30042",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30022",
+            "count": 3,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30093",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3303",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30103",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31023",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      }
+    ]
+  },
+  "base": {
+    "maxHp": 2906,
+    "atk": 766,
+    "def": 391,
+    "magicResistance": 0.0,
+    "cost": 24,
+    "blockCnt": 3,
+    "moveSpeed": 1.0,
+    "attackSpeed": 100.0,
+    "baseAttackTime": 1.2,
+    "respawnTime": 70,
+    "hpRecoveryPerSec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "maxDeployCount": 1,
+    "maxDeckStackCnt": 0,
+    "tauntLevel": 0,
+    "massLevel": 0,
+    "baseForceLevel": 0,
+    "stunImmune": false,
+    "silenceImmune": false,
+    "sleepImmune": false,
+    "frozenImmune": false,
+    "levitateImmune": false,
+    "disarmedCombatImmune": false,
+    "fearedImmune": false,
+    "palsyImmune": false,
+    "attractImmune": false,
+    "teleportImmune": false,
+    "groundBoundImmune": false
+  },
+  "talents": [
+    {
+      "unlockCondition": {
+        "phase": "PHASE_2",
+        "level": 1
+      },
+      "requiredPotentialRank": 0,
+      "prefabKey": "1",
+      "name": "战地巨斧",
+      "description": "攻击力和防御力提升10%，每再阻挡一个敌人提升4%",
+      "rangeId": null,
+      "blackboard": [
+        {
+          "key": "atk",
+          "value": 0.1,
+          "valueStr": null
+        },
+        {
+          "key": "def",
+          "value": 0.1,
+          "valueStr": null
+        },
+        {
+          "key": "atk_add",
+          "value": 0.04,
+          "valueStr": null
+        },
+        {
+          "key": "def_add",
+          "value": 0.04,
+          "valueStr": null
+        }
+      ],
+      "tokenKey": null,
+      "isHideTalent": false
+    },
+    {
+      "unlockCondition": {
+        "phase": "PHASE_2",
+        "level": 1
+      },
+      "requiredPotentialRank": 0,
+      "prefabKey": "2",
+      "name": "医学背景",
+      "description": "受到的治疗效果提升20%，生命值低于一半时提升至40%",
+      "rangeId": null,
+      "blackboard": [
+        {
+          "key": "heal_scale_1",
+          "value": 1.2,
+          "valueStr": null
+        },
+        {
+          "key": "heal_scale_2",
+          "value": 1.4,
+          "valueStr": null
+        },
+        {
+          "key": "hp_ratio",
+          "value": 0.5,
+          "valueStr": null
+        }
+      ],
+      "tokenKey": null,
+      "isHideTalent": false
+    }
+  ],
+  "skills": {
+    "skchr_gvial2_1": {
+      "name": "精准痛击",
+      "rangeId": null,
+      "description": "攻击力<@ba.vup>+{atk:0%}</>，每次攻击治疗自身相当于造成伤害<@ba.vup>{heal_scale:0%}</>的生命值",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 25,
+        "initSp": 10,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_gvial2_1",
+      "duration": 25.0,
+      "blackboard": [
+        {
+          "key": "atk",
+          "value": 0.8,
+          "valueStr": null
+        },
+        {
+          "key": "heal_scale",
+          "value": 0.4,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_gvial2_2": {
+      "name": "链锯强袭",
+      "rangeId": "2-5",
+      "description": "攻击范围<@ba.vup>扩大</>，攻击力<@ba.vup>+{atk:0%}</>，防御力<@ba.vup>+{def:0%}</>；攻击到未被阻挡的敌人时，将其<@ba.vup>中等力度地</>拖拽至面前",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 25,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_gvial2_2",
+      "duration": 40.0,
+      "blackboard": [
+        {
+          "key": "atk",
+          "value": 1.8,
+          "valueStr": null
+        },
+        {
+          "key": "def",
+          "value": 0.5,
+          "valueStr": null
+        },
+        {
+          "key": "block_cnt",
+          "value": 0.0,
+          "valueStr": null
+        },
+        {
+          "key": "attack@force",
+          "value": 1.0,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_gvial2_3": {
+      "name": "丛林之魂",
+      "rangeId": null,
+      "description": "攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>，阻挡数<@ba.vup>+{block_cnt}</>，技能期间暂时只受到<@ba.vup>{damage_resistance:0%}</>的伤害，其余伤害延后至技能结束，变为持续<@ba.vup>{final_duration}</>秒等量的生命流失效果",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 25,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_gvial2_3",
+      "duration": 25.0,
+      "blackboard": [
+        {
+          "key": "atk",
+          "value": 1.4,
+          "valueStr": null
+        },
+        {
+          "key": "attack_speed",
+          "value": 100.0,
+          "valueStr": null
+        },
+        {
+          "key": "damage_resistance",
+          "value": 0.5,
+          "valueStr": null
+        },
+        {
+          "key": "final_duration",
+          "value": 20.0,
+          "valueStr": null
+        },
+        {
+          "key": "interval",
+          "value": 0.1,
+          "valueStr": null
+        },
+        {
+          "key": "priority",
+          "value": 1000.0,
+          "valueStr": null
+        },
+        {
+          "key": "block_cnt",
+          "value": 2.0,
+          "valueStr": null
+        }
+      ]
+    }
+  },
+  "ranges": {
+    "1-1": {
+      "id": "1-1",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        }
+      ]
+    },
+    "2-5": {
+      "id": "2-5",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": -1,
+          "col": 1
+        },
+        {
+          "row": -1,
+          "col": 2
+        }
+      ]
+    }
+  },
+  "profile": "E2 maximum level, zero trust/potential bonuses, no module, actual skills M3",
+  "table_sha256": {
+    "character_table.json": "e523c7c83c36e2d76697121079e17d0282da1a94d59a55e1cc55616edf0b41c4",
+    "skill_table.json": "b6559b845efea6042e23f1d976185f12e13de3d749464543f5c2c17a7d2fa280",
+    "range_table.json": "4d974598394630a1ad465b954321254397f514c7fb26cba944d320ac18b874d0"
+  }
+}

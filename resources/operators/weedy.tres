@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_25utw"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_ydwjv"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_hwwmm"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_01kie"]
+
+[sub_resource type="Resource" id="Resource_6a2sj"]
+script = ExtResource("1_25utw")
+trait_name = "推击手"
+description = "可部署地面和高台；同时攻击范围内最多等于阻挡数的敌人。"
+effect_type = "pusher"
+
+[sub_resource type="Resource" id="Resource_13h08"]
+script = ExtResource("3_hwwmm")
+skill_name = "炮管敲击"
+trigger_type = "attack"
+sp_required = 5
+sp_recharge_type = "time"
+description = "下次攻击造成150%物理伤害，以力度3推开目标并晕眩1.2秒；无目标保留技力。"
+effect_type = "pusher_strike"
+effect_params = {
+"attack_mult": 1.5,
+"shift_force": 3,
+"stun_ticks": 36
+}
+
+[sub_resource type="Resource" id="Resource_jilsy"]
+script = ExtResource("3_hwwmm")
+skill_name = "水炮模式"
+trigger_type = "auto"
+sp_required = 70
+sp_recharge_type = "time"
+description = "攻击力+200%，攻击间隔增大220%（乘3.2），攻击距离+2，切换为远程物理群攻并以力度2推开目标，持续无限。原作0.9格溅射在整数格距下只覆盖落点格。"
+effect_type = "pusher_cannon_mode"
+effect_params = {
+"attack_interval_mult": 3.2,
+"attack_mult": 3.0,
+"shift_force": 2
+}
+duration = -1.0
+attack_range_override = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0)])
+
+[sub_resource type="Resource" id="Resource_1bn4l"]
+script = ExtResource("3_hwwmm")
+skill_name = "液氮大炮"
+initial_sp = 20
+sp_required = 33
+sp_recharge_type = "time"
+description = "立即发射350%攻击力的群体法术炮，以力度4推开；命中敌人保留8秒标记，期间每次实际被推拉跨越一格，结算1200原始真实伤害，再按特种职业系数折算；受阻未跨格不计，球不受此真伤。四邻蓄水炮同时按温蒂攻击力发射、力度额外+1；球仍按现有重量推力结算。"
+effect_type = "nitrogen_blast"
+effect_params = {
+"attack_mult": 3.5,
+"rupture_damage_per_cell": 1200,
+"rupture_ticks": 240,
+"shift_force": 4,
+"splash_radius_squared": 1
+}
+attack_range_override = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(4, 0)])
+
+[sub_resource type="Resource" id="Resource_g2y2r"]
+script = ExtResource("4_01kie")
+talent_name = "工程蓄水炮"
+description = "可部署一个持续20秒、不受攻击且不挡球的蓄水炮；费用5，离场后独立冷却35秒。"
+effect_type = "summon_water_cannon"
+effect_params = {
+"max_count": 1
+}
+
+[sub_resource type="Resource" id="Resource_uj4rq"]
+script = ExtResource("4_01kie")
+talent_name = "蓄水炮强化"
+description = "蓄水炮普通攻击和技能推力+1；位于温蒂四邻时每3秒为温蒂回复1技力。"
+effect_type = "water_cannon_support"
+effect_params = {
+"shift_force_add": 1,
+"sp_add": 1,
+"sp_interval_ticks": 90
+}
+
+[resource]
+script = ExtResource("2_ydwjv")
+operator_id = "weedy"
+display_name = "温蒂"
+profession = "特种"
+profession_id = "specialist"
+branch = "推击手"
+max_health = 2133
+attack = 677
+defense = 394
+damage_type = "physical"
+attack_interval = 1.2
+block_count = 2
+initial_deploy_cost = 19
+deploy_cost = 21
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "both"
+branch_trait = SubResource("Resource_6a2sj")
+talent_1 = SubResource("Resource_g2y2r")
+talent_2 = SubResource("Resource_uj4rq")
+skills = Array[ExtResource("3_hwwmm")]([SubResource("Resource_13h08"), SubResource("Resource_jilsy"), SubResource("Resource_1bn4l")])

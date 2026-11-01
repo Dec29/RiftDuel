@@ -26,28 +26,54 @@ func _run() -> void:
 		return
 	for index in 4:
 		var button := entries[index] as Button
-		if not _check(button.text == expected[index] and button.disabled == (index == 2) and button.get_global_rect().get_center().x == 640, "Entry %d has wrong label, availability or alignment: %s" % [index, button.text]):
+		if not _check(button.text == expected[index] and not button.disabled and button.get_global_rect().get_center().x == 640, "Entry %d has wrong label, availability or alignment: %s" % [index, button.text]):
 			return
 		if index > 0 and not _check(button.position.y > entries[index - 1].position.y, "Entries must appear in requested vertical order"):
 			return
-	if not _check(root.get_node("OperatorDB").all_ids().size() == 8 and menu.get_child_count() == 3, "Menu must load data without creating a battle"):
+	if not _check(root.get_node("OperatorDB").all_ids().has("shining") and menu.get_child_count() == 3, "Menu must register Shining without creating a battle"):
 		return
 	var capture_args := OS.get_cmdline_user_args()
-	if not capture_args.is_empty():
+	if DisplayServer.get_name() != "headless":
 		await RenderingServer.frame_post_draw
-		if not _check(root.get_texture().get_image().save_png(capture_args[0]) == OK, "Cannot save start-menu screenshot"):
+		var first_image := root.get_texture().get_image()
+		if not capture_args.is_empty() and not _check(first_image.save_png(capture_args[0]) == OK, "Cannot save start-menu screenshot"):
 			return
+		await create_timer(1.0).timeout
+		await RenderingServer.frame_post_draw
+		var second_image := root.get_texture().get_image()
+		if not _check(first_image.get_region(Rect2i(360, 280, 560, 340)).get_data() != second_image.get_region(Rect2i(360, 280, 560, 340)).get_data(), "Polyhedron must visibly rotate between rendered frames"):
+			return
+		if not _check(first_image.get_region(Rect2i(448, 267, 384, 7)).get_data() != second_image.get_region(Rect2i(448, 267, 384, 7)).get_data(), "Title underline must visibly slide between rendered frames"):
+			return
+		if not capture_args.is_empty() and not _check(second_image.save_png(capture_args[0].get_basename() + "-animated.png") == OK, "Cannot save animated start-menu screenshot"):
+			return
+	for route in [["Settings", "res://view/settings_menu.tscn"], ["Squad", "res://view/squad_menu.tscn"], ["Multiplayer", "res://lobby.tscn"]]:
+		current_scene.get_node("Menu/" + route[0]).pressed.emit()
+		await process_frame
+		await process_frame
+		if not _check(current_scene.scene_file_path == route[1], "Animated menu must still open " + route[0]):
+			return
+		if not _check(change_scene_to_file(startup) == OK, "Cannot reopen start menu"):
+			return
+		await process_frame
+		await process_frame
+	entries = current_scene.get_node("Menu").get_children()
 	entries[0].pressed.emit()
 	await process_frame
 	await process_frame
-	if not _check(current_scene.scene_file_path == "res://main.tscn", "Single-player must open the existing test battle"):
+	if not _check(current_scene.scene_file_path == "res://solo_setup.tscn", "Single-player must open preparation"):
 		return
-	var battle := current_scene
-	await physics_frame
+	if not _check(current_scene.scene_file_path == "res://solo_setup.tscn" and current_scene.rules.mode == "score", "Single-player preparation defaults to timed score"): return
+	current_scene.get_node("RoomView/Center/Panel/Room/ReadyRow/Start").pressed.emit()
 	await process_frame
+	await process_frame
+	var battle := current_scene
+	var deadline := Time.get_ticks_msec()+15000
+	while battle.match_state.tick == 0 and Time.get_ticks_msec() < deadline:
+		await process_frame
 	if not _check(battle.match_state != null and battle.local_input.side == 0 and battle.ai_input.side == 1 and battle.match_state.tick > 0, "Single-player battle must run with local player and mirror AI"):
 		return
-	print("Start menu OK: startup, title, ordered placeholders, single-player transition and running battle")
+	print("Start menu OK: startup, title, rotating background, sliding underline, all four routes and running battle")
 	quit(0)
 
 

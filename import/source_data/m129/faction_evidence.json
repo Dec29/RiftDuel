@@ -1,0 +1,155 @@
+{
+  "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "entries": [
+    {
+      "id": "char_181_flower",
+      "name": "调香师",
+      "powers": {
+        "nationId": "rhodes",
+        "groupId": null,
+        "teamId": null,
+        "mainPower": {
+          "nationId": "rhodes",
+          "groupId": null,
+          "teamId": null
+        },
+        "subPower": [
+          {
+            "nationId": "minos",
+            "groupId": null,
+            "teamId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "char_4055_bgsnow",
+      "name": "鸿雪",
+      "powers": {
+        "nationId": "rhodes",
+        "groupId": null,
+        "teamId": null,
+        "mainPower": {
+          "nationId": "rhodes",
+          "groupId": null,
+          "teamId": null
+        },
+        "subPower": [
+          {
+            "nationId": "sargon",
+            "groupId": null,
+            "teamId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "char_472_pasngr",
+      "name": "异客",
+      "powers": {
+        "nationId": "sargon",
+        "groupId": null,
+        "teamId": null,
+        "mainPower": {
+          "nationId": "sargon",
+          "groupId": null,
+          "teamId": null
+        },
+        "subPower": null
+      }
+    },
+    {
+      "id": "char_426_billro",
+      "name": "卡涅利安",
+      "powers": {
+        "nationId": "leithanien",
+        "groupId": null,
+        "teamId": null,
+        "mainPower": {
+          "nationId": "leithanien",
+          "groupId": null,
+          "teamId": null
+        },
+        "subPower": [
+          {
+            "nationId": "sargon",
+            "groupId": null,
+            "teamId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "char_4056_titi",
+      "name": "缇缇",
+      "powers": {
+        "nationId": "sargon",
+        "groupId": null,
+        "teamId": null,
+        "mainPower": {
+          "nationId": "sargon",
+          "groupId": null,
+          "teamId": null
+        },
+        "subPower": [
+          {
+            "nationId": "minos",
+            "groupId": null,
+            "teamId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "char_1026_gvial2",
+      "name": "百炼嘉维尔",
+      "powers": {
+        "nationId": "rhodes",
+        "groupId": null,
+        "teamId": null,
+        "mainPower": {
+          "nationId": "rhodes",
+          "groupId": null,
+          "teamId": null
+        },
+        "subPower": [
+          {
+            "nationId": "sargon",
+            "groupId": null,
+            "teamId": null
+          }
+        ]
+      }
+    },
+    {
+      "id": "char_485_pallas",
+      "name": "帕拉斯",
+      "powers": {
+        "nationId": "minos",
+        "groupId": null,
+        "teamId": null,
+        "mainPower": {
+          "nationId": "minos",
+          "groupId": null,
+          "teamId": null
+        },
+        "subPower": null
+      }
+    },
+    {
+      "id": "trap_469_tpasngr",
+      "name": "异客",
+      "powers": {
+        "nationId": null,
+        "groupId": null,
+        "teamId": null,
+        "mainPower": {
+          "nationId": null,
+          "groupId": null,
+          "teamId": null
+        },
+        "subPower": null
+      }
+    }
+  ]
+}

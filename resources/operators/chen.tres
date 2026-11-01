@@ -1,0 +1,102 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_1xhl1"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_f8fum"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_w086i"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_irty3"]
+
+[sub_resource type="Resource" id="Resource_ovaqn"]
+script = ExtResource("1_1xhl1")
+trait_name = "剑豪"
+description = "普通攻击连续造成两次物理伤害；每轮普通攻击只回复一次攻击技力，鞘击替换为单击。"
+effect_type = "dual_strike"
+effect_params = {
+"hit_count": 2
+}
+
+[sub_resource type="Resource" id="Resource_ne2gb"]
+script = ExtResource("3_w086i")
+skill_name = "鞘击"
+trigger_type = "attack"
+sp_required = 4
+sp_recharge_type = "on_hit"
+description = "下次攻击改为一次320%物理伤害并晕眩1.5秒，替代剑豪普通双击；无目标不消耗技力。"
+effect_type = "sword_sheath"
+effect_params = {
+"attack_mult": 3.2,
+"stun_ticks": 45
+}
+
+[sub_resource type="Resource" id="Resource_s2qyq"]
+script = ExtResource("3_w086i")
+skill_name = "赤霄·拔刀"
+initial_sp = 20
+sp_required = 20
+sp_recharge_type = "on_hit"
+description = "对范围内最多7个敌人各造成一段500%物理及一段500%法术伤害；无敌人时按箱子→静止球结算两段。单位伤害按近卫系数，球推力不折算。"
+effect_type = "sword_draw"
+effect_params = {
+"attack_mult": 5.0,
+"target_count": 7
+}
+attack_range_override = Array[Vector2i]([Vector2i(0, -1), Vector2i(1, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(0, 1), Vector2i(1, 1)])
+
+[sub_resource type="Resource" id="Resource_l6rom"]
+script = ExtResource("3_w086i")
+skill_name = "赤霄·绝影"
+initial_sp = 20
+sp_required = 30
+sp_recharge_type = "on_hit"
+description = "本作适配：保持原格，每6tick一斩，最多10次320%物理伤害；最近敌人→箱子→静止球，敌人退场重选，无目标提前结束，最后一斩晕眩4秒。连斩期间免伤、不可被敌方选中、阻挡0、不受推拉，不瞬移。"
+effect_type = "sword_slashes"
+effect_params = {
+"attack_mult": 3.2,
+"slash_count": 10,
+"slash_interval_ticks": 6,
+"stun_ticks": 120
+}
+attack_range_override = Array[Vector2i]([Vector2i(0, -2), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(0, 2)])
+
+[sub_resource type="Resource" id="Resource_iwc7x"]
+script = ExtResource("4_irty3")
+talent_name = "呵斥"
+description = "在场时每4秒为全场友方攻击／受击回复技能增加1技力；技能生效中的目标不获得。"
+effect_type = "offensive_sp_aura"
+effect_params = {
+"interval_ticks": 120,
+"sp_add": 1
+}
+
+[sub_resource type="Resource" id="Resource_jm6cq"]
+script = ExtResource("4_irty3")
+talent_name = "持刀格斗术"
+description = "攻击力+5%，防御力+5%，物理闪避+10%；沉默期间失效。"
+effect_type = "sword_training"
+effect_params = {
+"attack_percent": 5,
+"defense_percent": 5,
+"dodge_physical_add": 10
+}
+
+[resource]
+script = ExtResource("2_f8fum")
+operator_id = "chen"
+display_name = "陈"
+profession = "近卫"
+profession_id = "guard"
+branch = "剑豪"
+max_health = 2880
+attack = 610
+defense = 352
+damage_type = "physical"
+attack_interval = 1.3
+block_count = 2
+initial_deploy_cost = 19
+deploy_cost = 23
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_ovaqn")
+talent_1 = SubResource("Resource_iwc7x")
+talent_2 = SubResource("Resource_jm6cq")
+skills = Array[ExtResource("3_w086i")]([SubResource("Resource_ne2gb"), SubResource("Resource_s2qyq"), SubResource("Resource_l6rom")])

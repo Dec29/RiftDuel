@@ -1,0 +1,51 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "辅助无人机"
+description = "不受攻击；周围友军享受淬羽赫默3倍第一天赋庇护，技能结束或本体离场销毁。"
+effect_type = "silence_drone"
+effect_params = {}
+
+[sub_resource type="Resource" id="Talent"]
+script = ExtResource("3")
+talent_name = "无独立天赋"
+description = "辅助装置，由本体技能提供庇护，不产生攻击或治疗。"
+effect_type = "none"
+
+[sub_resource type="Resource" id="Skill"]
+script = ExtResource("4")
+trigger_type = "passive"
+skill_name = "无主动技能"
+sp_recharge_type = "passive"
+description = "辅助无人机独立庇护装置"
+effect_type = "no_skill"
+
+[resource]
+script = ExtResource("1")
+operator_id = "silence_alter_drone"
+display_name = "辅助无人机"
+profession = "召唤物"
+profession_id = "summon"
+branch = "淬羽赫默附带装置"
+max_health = 1000
+attack = 0
+defense = 0
+magic_resist = 0
+damage_type = "healing"
+attack_interval = 0.5
+block_count = 0
+deploy_cost = 0
+redeploy_time = 5.0
+dodge_physical = 0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(-1, 0), Vector2i(0, 1), Vector2i(0, -1)])
+terrain_requirement = "both"
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent")
+talent_2 = SubResource("Talent")
+skills = Array[ExtResource("4")]([SubResource("Skill")])

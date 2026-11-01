@@ -3,6 +3,22 @@ extends SceneTree
 # 精英 2 基础范围：PRTS 干员页面及游戏 range_table 的 1-1 / 3-1 / 3-3 / y-2。
 # 所有坐标以干员向右为基准；自身格固定为 (0, 0)。
 const EXPECTED := {
+	"magallan": [Vector2i(0,-1),Vector2i(1,-1),Vector2i(2,-1),Vector2i(0,0),Vector2i(1,0),Vector2i(2,0),Vector2i(3,0),Vector2i(0,1),Vector2i(1,1),Vector2i(2,1)],
+	"weedy": [Vector2i.ZERO,Vector2i.RIGHT],
+	"mostima": [Vector2i(0,-1),Vector2i(1,-1),Vector2i(2,-1),Vector2i(0,0),Vector2i(1,0),Vector2i(2,0),Vector2i(0,1),Vector2i(1,1),Vector2i(2,1)],
+	"saria": [Vector2i.ZERO],
+	"siege": [Vector2i.ZERO,Vector2i.RIGHT],
+	"ifrit": [Vector2i(0,0),Vector2i(1,0),Vector2i(2,0),Vector2i(3,0),Vector2i(4,0),Vector2i(5,0)],
+	"typhon": [Vector2i(2,-2),Vector2i(3,-2),Vector2i(2,-1),Vector2i(3,-1),Vector2i(4,-1),Vector2i(2,0),Vector2i(3,0),Vector2i(4,0),Vector2i(2,1),Vector2i(3,1),Vector2i(4,1),Vector2i(2,2),Vector2i(3,2)],
+	"skadi": [Vector2i.ZERO,Vector2i.RIGHT],
+	"phantom": [Vector2i(0,0),Vector2i(1,0)],
+	"schwarz": [Vector2i(0,-1),Vector2i(0,0),Vector2i(0,1),Vector2i(1,-1),Vector2i(1,0),Vector2i(1,1),Vector2i(2,-1),Vector2i(2,0),Vector2i(2,1)],
+	"horn": [Vector2i(3,-1),Vector2i(3,0),Vector2i(3,1),Vector2i(4,-1),Vector2i(4,0),Vector2i(4,1),Vector2i(5,0)],
+	"saileach": [Vector2i(0,0),Vector2i(1,0)],
+	"suzuran": [Vector2i(-1,-1),Vector2i(-1,0),Vector2i(-1,1),Vector2i(0,-1),Vector2i(0,0),Vector2i(0,1),Vector2i(1,-1),Vector2i(1,0),Vector2i(1,1),Vector2i(2,-1),Vector2i(2,0),Vector2i(2,1)],
+	"eyjafjalla": [Vector2i(0,-1),Vector2i(0,0),Vector2i(0,1),Vector2i(1,-1),Vector2i(1,0),Vector2i(1,1),Vector2i(2,-1),Vector2i(2,0),Vector2i(2,1),Vector2i(3,0)],
+	"silverash": [Vector2i(0,-1),Vector2i(0,0),Vector2i(0,1),Vector2i(1,-1),Vector2i(1,0),Vector2i(1,1),Vector2i(2,0),Vector2i(3,0)],
+	"shining": [Vector2i(0,-1),Vector2i(0,0),Vector2i(0,1),Vector2i(1,-1),Vector2i(1,0),Vector2i(1,1),Vector2i(2,-1),Vector2i(2,0),Vector2i(2,1),Vector2i(3,-1),Vector2i(3,0),Vector2i(3,1)],
 	"bagpipe": [Vector2i(0, 0), Vector2i(1, 0)],
 	"blaze": [Vector2i(0, 0), Vector2i(1, 0)],
 	"hoshiguma": [Vector2i(0, 0), Vector2i(1, 0)],
@@ -13,6 +29,22 @@ const EXPECTED := {
 	"nightingale": [Vector2i(-1, -1), Vector2i(-1, 0), Vector2i(-1, 1), Vector2i(0, -1), Vector2i(0, 0), Vector2i(0, 1), Vector2i(1, -1), Vector2i(1, 0), Vector2i(1, 1), Vector2i(2, -1), Vector2i(2, 0), Vector2i(2, 1)],
 }
 const NAME_TO_ID := {
+	"麦哲伦": "magallan",
+	"温蒂": "weedy",
+	"莫斯提马": "mostima",
+	"塞雷娅": "saria",
+	"推进之王": "siege",
+	"伊芙利特": "ifrit",
+	"提丰": "typhon",
+	"斯卡蒂": "skadi",
+	"傀影": "phantom",
+	"黑": "schwarz",
+	"号角": "horn",
+	"琴柳": "saileach",
+	"铃兰": "suzuran",
+	"艾雅法拉": "eyjafjalla",
+	"银灰": "silverash",
+	"闪灵": "shining",
 	"风笛": "bagpipe",
 	"煌": "blaze",
 	"星熊": "hoshiguma",
@@ -55,5 +87,5 @@ func _initialize() -> void:
 		push_error("Expected %d CSV operators, got %s" % [EXPECTED.size(), checked_ids])
 		quit(1)
 		return
-	print("L1 OK: eight E2 attack ranges include own cell; resources and CSV agree")
+	print("Ranges OK: E2 resources and CSV agree; Fortress remote7 with independent self-cell query")
 	quit(0)

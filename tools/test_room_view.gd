@@ -19,6 +19,12 @@ func _run() -> void:
 		return
 	var view := lobby.get_node("RoomView")
 	var panel := view.get_node("Center/Panel")
+	if not _check(lobby.session is RelaySession and panel.get_node("Mode").selected == 0 and not panel.get_node("AddressRow").visible, "Multiplayer defaults to internet without LAN address row"):
+		return
+	panel.get_node("Mode").select(1)
+	panel.get_node("Mode").item_selected.emit(1)
+	if not _check(not lobby.session is RelaySession and panel.get_node("AddressRow").visible, "LAN remains available through mode selection"):
+		return
 	var capture_args := OS.get_cmdline_user_args()
 	if not capture_args.is_empty():
 		await RenderingServer.frame_post_draw
@@ -32,7 +38,7 @@ func _run() -> void:
 		await RenderingServer.frame_post_draw
 		if not _check(root.get_texture().get_image().save_png(capture_args[0].get_basename() + "_host.png") == OK, "Cannot save host screenshot"):
 			return
-	var client := NetSession.new()
+	var client := NetSession.new(Engine.get_main_loop().root.get_node("OperatorDB").network_content())
 	root.add_child(client)
 	client.join_code(lobby.session.room_code)
 	var deadline := Time.get_ticks_msec() + 4000
@@ -40,6 +46,9 @@ func _run() -> void:
 		await process_frame
 	if not _check(client.phase == "room" and lobby.session.phase == "room", "Room code could not join from UI-created room: %s / %s" % [lobby.session.status, client.status]):
 		return
+	panel.get_node("Room/Columns/Rules/Draft").set_pressed(false)
+	while client.rules.draft_enabled and Time.get_ticks_msec() < deadline: await process_frame
+	if not _check(not client.rules.draft_enabled,"Disabled draft setting reaches guest before readiness"): return
 	panel.get_node("Room/ReadyRow/Ready").pressed.emit()
 	client.set_ready(true)
 	deadline = Time.get_ticks_msec() + 2000
@@ -57,9 +66,10 @@ func _run() -> void:
 	var battle := current_scene
 	if not _check(battle.session != null and battle.ai_input == null and not battle.get_node("PauseLayer/PauseMenu").visible, "Multiplayer scene must reuse session, omit AI and disable pause"):
 		return
+	deadline = Time.get_ticks_msec() + 8000
 	while client.phase != "running" and Time.get_ticks_msec() < deadline:
 		await process_frame
-	if not _check(client.phase == "running" and battle.session.phase == "running", "Scene transition must preserve connection and loaded barrier"):
+	if not _check(client.phase == "running" and battle.session.phase == "running", "Scene transition must preserve connection and loaded barrier: %s / %s" % [client.status,battle.session.status]):
 		return
 	client.leave()
 	await process_frame

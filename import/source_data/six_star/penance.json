@@ -1,0 +1,1349 @@
+{
+  "repository": "Kengxxiao/ArknightsGameData",
+  "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "table_sha256": {
+    "character_table.json": "e523c7c83c36e2d76697121079e17d0282da1a94d59a55e1cc55616edf0b41c4",
+    "skill_table.json": "b6559b845efea6042e23f1d976185f12e13de3d749464543f5c2c17a7d2fa280",
+    "range_table.json": "4d974598394630a1ad465b954321254397f514c7fb26cba944d320ac18b874d0"
+  },
+  "operator_id": "penance",
+  "char_id": "char_4065_judge",
+  "name": "斥罪",
+  "rarity": "TIER_6",
+  "profession": "TANK",
+  "sub_profession": "unyield",
+  "profile": "E2 maximum level, zero trust/potential bonuses, no module, skills M3",
+  "character": {
+    "name": "斥罪",
+    "description": "<@ba.kw>无法</>被友方角色治疗",
+    "sortIndex": 157,
+    "spTargetType": "NONE",
+    "spTargetId": null,
+    "canUseGeneralPotentialItem": true,
+    "canUseActivityPotentialItem": false,
+    "potentialItemId": "p_char_4065_judge",
+    "activityPotentialItemId": null,
+    "classicPotentialItemId": null,
+    "nationId": "siracusa",
+    "groupId": null,
+    "teamId": null,
+    "mainPower": {
+      "nationId": "siracusa",
+      "groupId": null,
+      "teamId": null
+    },
+    "subPower": null,
+    "displayNumber": "SR35",
+    "appellation": "Penance",
+    "position": "MELEE",
+    "tagList": [
+      "生存",
+      "输出"
+    ],
+    "itemUsage": "叙拉古的原城邦法官，希望自己能坚守法律正义。",
+    "itemDesc": "在荆棘之上前行，开辟以前未有之路。",
+    "itemObtainApproach": "招募寻访",
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 5,
+    "rarity": "TIER_6",
+    "profession": "TANK",
+    "subProfessionId": "unyield",
+    "trait": null,
+    "phases": [
+      {
+        "characterPrefabKey": "char_4065_judge",
+        "rangeId": "1-1",
+        "maxLevel": 50,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1732,
+              "atk": 368,
+              "def": 234,
+              "magicResistance": 10.0,
+              "cost": 32,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.6,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 50,
+            "data": {
+              "maxHp": 2279,
+              "atk": 512,
+              "def": 355,
+              "magicResistance": 10.0,
+              "cost": 32,
+              "blockCnt": 2,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.6,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": null
+      },
+      {
+        "characterPrefabKey": "char_4065_judge",
+        "rangeId": "1-1",
+        "maxLevel": 80,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 2279,
+              "atk": 512,
+              "def": 355,
+              "magicResistance": 10.0,
+              "cost": 34,
+              "blockCnt": 3,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.6,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 80,
+            "data": {
+              "maxHp": 2960,
+              "atk": 683,
+              "def": 474,
+              "magicResistance": 10.0,
+              "cost": 34,
+              "blockCnt": 3,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.6,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": [
+          {
+            "id": "3231",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30062",
+            "count": 6,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30042",
+            "count": 3,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "characterPrefabKey": "char_4065_judge",
+        "rangeId": "1-1",
+        "maxLevel": 90,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 2960,
+              "atk": 683,
+              "def": 474,
+              "magicResistance": 10.0,
+              "cost": 36,
+              "blockCnt": 3,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.6,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 90,
+            "data": {
+              "maxHp": 4055,
+              "atk": 876,
+              "def": 616,
+              "magicResistance": 10.0,
+              "cost": 36,
+              "blockCnt": 3,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.6,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": [
+          {
+            "id": "3233",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30135",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30074",
+            "count": 8,
+            "type": "MATERIAL"
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "skillId": "skchr_judge_1",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31024",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30043",
+                "count": 6,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31064",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31044",
+                "count": 8,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30135",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30064",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skchr_judge_2",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31014",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30103",
+                "count": 6,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30084",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30104",
+                "count": 7,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30145",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31064",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skchr_judge_3",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30044",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30073",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30054",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30084",
+                "count": 7,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30155",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31014",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_2",
+          "level": 1
+        }
+      }
+    ],
+    "displayTokenDict": null,
+    "talents": [
+      {
+        "candidates": [
+          {
+            "unlockCondition": {
+              "phase": "PHASE_0",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "律法卫士",
+            "description": "部署后立即获得相当于生命上限30%的<$ba.barrier>屏障</>",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "max_hp_ratio",
+                "value": 3.0,
+                "valueStr": null
+              },
+              {
+                "key": "kill_hp_ratio",
+                "value": 0.0,
+                "valueStr": null
+              },
+              {
+                "key": "born_hp_ratio",
+                "value": 0.3,
+                "valueStr": null
+              },
+              {
+                "key": "higher_effect_hp_ratio",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_0",
+              "level": 1
+            },
+            "requiredPotentialRank": 2,
+            "prefabKey": "1",
+            "name": "律法卫士",
+            "description": "部署后立即获得相当于生命上限35%<@ba.talpu>（+5%）</>的<$ba.barrier>屏障</>",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "max_hp_ratio",
+                "value": 3.0,
+                "valueStr": null
+              },
+              {
+                "key": "kill_hp_ratio",
+                "value": 0.0,
+                "valueStr": null
+              },
+              {
+                "key": "born_hp_ratio",
+                "value": 0.35,
+                "valueStr": null
+              },
+              {
+                "key": "higher_effect_hp_ratio",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_1",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "律法卫士",
+            "description": "部署后立即获得相当于生命上限30%的<$ba.barrier>屏障</>，每击倒一名敌人时获得相当于生命上限6%的<$ba.barrier>屏障</>（最多不超过生命上限300%）",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "max_hp_ratio",
+                "value": 3.0,
+                "valueStr": null
+              },
+              {
+                "key": "kill_hp_ratio",
+                "value": 0.06,
+                "valueStr": null
+              },
+              {
+                "key": "born_hp_ratio",
+                "value": 0.3,
+                "valueStr": null
+              },
+              {
+                "key": "higher_effect_hp_ratio",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_1",
+              "level": 1
+            },
+            "requiredPotentialRank": 2,
+            "prefabKey": "1",
+            "name": "律法卫士",
+            "description": "部署后立即获得相当于生命上限35%<@ba.talpu>（+5%）</>的<$ba.barrier>屏障</>，每击倒一名敌人时获得相当于生命上限6%的<$ba.barrier>屏障</>（最多不超过生命上限300%）",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "max_hp_ratio",
+                "value": 3.0,
+                "valueStr": null
+              },
+              {
+                "key": "kill_hp_ratio",
+                "value": 0.06,
+                "valueStr": null
+              },
+              {
+                "key": "born_hp_ratio",
+                "value": 0.35,
+                "valueStr": null
+              },
+              {
+                "key": "higher_effect_hp_ratio",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "律法卫士",
+            "description": "部署后立即获得相当于生命上限50%的<$ba.barrier>屏障</>，每击倒一名敌人时获得相当于生命上限10%的<$ba.barrier>屏障</>（最多不超过生命上限300%）",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "max_hp_ratio",
+                "value": 3.0,
+                "valueStr": null
+              },
+              {
+                "key": "kill_hp_ratio",
+                "value": 0.1,
+                "valueStr": null
+              },
+              {
+                "key": "born_hp_ratio",
+                "value": 0.5,
+                "valueStr": null
+              },
+              {
+                "key": "higher_effect_hp_ratio",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 2,
+            "prefabKey": "1",
+            "name": "律法卫士",
+            "description": "部署后立即获得相当于生命上限55%<@ba.talpu>（+5%）</>的<$ba.barrier>屏障</>，每击倒一名敌人时获得相当于生命上限10%的<$ba.barrier>屏障</>（最多不超过生命上限300%）",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "max_hp_ratio",
+                "value": 3.0,
+                "valueStr": null
+              },
+              {
+                "key": "kill_hp_ratio",
+                "value": 0.1,
+                "valueStr": null
+              },
+              {
+                "key": "born_hp_ratio",
+                "value": 0.55,
+                "valueStr": null
+              },
+              {
+                "key": "higher_effect_hp_ratio",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          }
+        ]
+      },
+      {
+        "candidates": [
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "2",
+            "name": "荆棘环身",
+            "description": "拥有来源于自身的<$ba.barrier>屏障</>时，每次受到攻击对目标造成相当于斥罪攻击力50%的法术伤害",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "atk_scale",
+                "value": 0.5,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 4,
+            "prefabKey": "2",
+            "name": "荆棘环身",
+            "description": "拥有来源于自身的<$ba.barrier>屏障</>时，每次受到攻击对目标造成相当于斥罪攻击力53%<@ba.talpu>（+3%）</>的法术伤害",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "atk_scale",
+                "value": 0.53,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          }
+        ]
+      }
+    ],
+    "potentialRanks": [
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "CUSTOM",
+        "description": "第一天赋效果增强",
+        "buff": null,
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "攻击力+28",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "ATK",
+                "formulaItem": "ADDITION",
+                "value": 28.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "CUSTOM",
+        "description": "第二天赋效果增强",
+        "buff": null,
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      }
+    ],
+    "favorKeyFrames": [
+      {
+        "level": 0,
+        "data": {
+          "maxHp": 0,
+          "atk": 0,
+          "def": 0,
+          "magicResistance": 0.0,
+          "cost": 0,
+          "blockCnt": 0,
+          "moveSpeed": 0.0,
+          "attackSpeed": 0.0,
+          "baseAttackTime": 0.0,
+          "respawnTime": 0,
+          "hpRecoveryPerSec": 0.0,
+          "spRecoveryPerSec": 0.0,
+          "maxDeployCount": 0,
+          "maxDeckStackCnt": 0,
+          "tauntLevel": 0,
+          "massLevel": 0,
+          "baseForceLevel": 0,
+          "stunImmune": false,
+          "silenceImmune": false,
+          "sleepImmune": false,
+          "frozenImmune": false,
+          "levitateImmune": false,
+          "disarmedCombatImmune": false,
+          "fearedImmune": false,
+          "palsyImmune": false,
+          "attractImmune": false,
+          "teleportImmune": false,
+          "groundBoundImmune": false
+        }
+      },
+      {
+        "level": 50,
+        "data": {
+          "maxHp": 600,
+          "atk": 40,
+          "def": 0,
+          "magicResistance": 0.0,
+          "cost": 0,
+          "blockCnt": 0,
+          "moveSpeed": 0.0,
+          "attackSpeed": 0.0,
+          "baseAttackTime": 0.0,
+          "respawnTime": 0,
+          "hpRecoveryPerSec": 0.0,
+          "spRecoveryPerSec": 0.0,
+          "maxDeployCount": 0,
+          "maxDeckStackCnt": 0,
+          "tauntLevel": 0,
+          "massLevel": 0,
+          "baseForceLevel": 0,
+          "stunImmune": false,
+          "silenceImmune": false,
+          "sleepImmune": false,
+          "frozenImmune": false,
+          "levitateImmune": false,
+          "disarmedCombatImmune": false,
+          "fearedImmune": false,
+          "palsyImmune": false,
+          "attractImmune": false,
+          "teleportImmune": false,
+          "groundBoundImmune": false
+        }
+      }
+    ],
+    "allSkillLvlup": [
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3301",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3301",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30011",
+            "count": 6,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30061",
+            "count": 4,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30022",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30032",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30042",
+            "count": 4,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30093",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3303",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30083",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30053",
+            "count": 3,
+            "type": "MATERIAL"
+          }
+        ]
+      }
+    ]
+  },
+  "base": {
+    "maxHp": 4055,
+    "atk": 876,
+    "def": 616,
+    "magicResistance": 10.0,
+    "cost": 36,
+    "blockCnt": 3,
+    "moveSpeed": 1.0,
+    "attackSpeed": 100.0,
+    "baseAttackTime": 1.6,
+    "respawnTime": 70,
+    "hpRecoveryPerSec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "maxDeployCount": 1,
+    "maxDeckStackCnt": 0,
+    "tauntLevel": 0,
+    "massLevel": 0,
+    "baseForceLevel": 0,
+    "stunImmune": false,
+    "silenceImmune": false,
+    "sleepImmune": false,
+    "frozenImmune": false,
+    "levitateImmune": false,
+    "disarmedCombatImmune": false,
+    "fearedImmune": false,
+    "palsyImmune": false,
+    "attractImmune": false,
+    "teleportImmune": false,
+    "groundBoundImmune": false
+  },
+  "branch_description": "<@ba.kw>无法</>被友方角色治疗",
+  "talents": [
+    {
+      "unlockCondition": {
+        "phase": "PHASE_2",
+        "level": 1
+      },
+      "requiredPotentialRank": 0,
+      "prefabKey": "1",
+      "name": "律法卫士",
+      "description": "部署后立即获得相当于生命上限50%的<$ba.barrier>屏障</>，每击倒一名敌人时获得相当于生命上限10%的<$ba.barrier>屏障</>（最多不超过生命上限300%）",
+      "rangeId": null,
+      "blackboard": [
+        {
+          "key": "max_hp_ratio",
+          "value": 3.0,
+          "valueStr": null
+        },
+        {
+          "key": "kill_hp_ratio",
+          "value": 0.1,
+          "valueStr": null
+        },
+        {
+          "key": "born_hp_ratio",
+          "value": 0.5,
+          "valueStr": null
+        },
+        {
+          "key": "higher_effect_hp_ratio",
+          "value": 1.0,
+          "valueStr": null
+        }
+      ],
+      "tokenKey": null,
+      "isHideTalent": false
+    },
+    {
+      "unlockCondition": {
+        "phase": "PHASE_2",
+        "level": 1
+      },
+      "requiredPotentialRank": 0,
+      "prefabKey": "2",
+      "name": "荆棘环身",
+      "description": "拥有来源于自身的<$ba.barrier>屏障</>时，每次受到攻击对目标造成相当于斥罪攻击力50%的法术伤害",
+      "rangeId": null,
+      "blackboard": [
+        {
+          "key": "atk_scale",
+          "value": 0.5,
+          "valueStr": null
+        }
+      ],
+      "tokenKey": null,
+      "isHideTalent": false
+    }
+  ],
+  "skills": {
+    "skchr_judge_1": {
+      "name": "一锤定音",
+      "rangeId": null,
+      "description": "下次攻击额外造成相当于攻击力<@ba.vup>{atk_scale_2:0%}</>的法术伤害\\n<$ba.charged>蓄力</>额外效果：攻击时攻击力提升至<@ba.vup>{judge_s_1_enhance_checker.atk_scale:0%}</>并使目标<$ba.stun>晕眩</><@ba.vup>{stun}</>秒",
+      "skillType": "AUTO",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 2,
+        "spCost": 3,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_judge_1",
+      "duration": -1.0,
+      "blackboard": [
+        {
+          "key": "atk_scale_2",
+          "value": 2.0,
+          "valueStr": null
+        },
+        {
+          "key": "judge_s_1_enhance_checker.atk_scale",
+          "value": 2.0,
+          "valueStr": null
+        },
+        {
+          "key": "stun",
+          "value": 5.0,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_judge_2": {
+      "name": "坚心苦修",
+      "rangeId": "x-4",
+      "description": "停止攻击，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，每秒对周围所有地面敌人造成相当于攻击力<@ba.vup>{atk_scale:0%}</>的法术伤害，技能期间第一天赋的<$ba.barrier>屏障</>获取效果提升<@ba.vup>{shield_scale:0%}</>",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 30,
+        "initSp": 20,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_judge_2",
+      "duration": 20.0,
+      "blackboard": [
+        {
+          "key": "damage_resistance",
+          "value": 0.6,
+          "valueStr": null
+        },
+        {
+          "key": "atk_scale",
+          "value": 1.4,
+          "valueStr": null
+        },
+        {
+          "key": "shield_scale",
+          "value": 1.0,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_judge_3": {
+      "name": "披荆斩棘",
+      "rangeId": null,
+      "description": "立即获得相当于生命上限<@ba.vup>{hp_ratio:0%}</>的<$ba.barrier>屏障</>，攻击间隔<@ba.vdown>增大</>，攻击力<@ba.vup>+{atk:0%}</>，自身更容易受到敌人攻击",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WHEN_TAKEN_DAMAGE",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 20,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_judge_3",
+      "duration": 30.0,
+      "blackboard": [
+        {
+          "key": "hp_ratio",
+          "value": 1.3,
+          "valueStr": null
+        },
+        {
+          "key": "base_attack_time",
+          "value": 0.9,
+          "valueStr": null
+        },
+        {
+          "key": "atk",
+          "value": 4.0,
+          "valueStr": null
+        },
+        {
+          "key": "taunt_level",
+          "value": 1.0,
+          "valueStr": null
+        }
+      ]
+    }
+  },
+  "ranges": {
+    "1-1": {
+      "id": "1-1",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        }
+      ]
+    },
+    "x-4": {
+      "id": "x-4",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 1,
+          "col": -1
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": -1
+        },
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": -1,
+          "col": -1
+        },
+        {
+          "row": -1,
+          "col": 0
+        },
+        {
+          "row": -1,
+          "col": 1
+        }
+      ]
+    }
+  },
+  "prts": "https://prts.wiki/w/斥罪"
+}

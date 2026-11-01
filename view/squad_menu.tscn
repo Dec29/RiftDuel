@@ -1,0 +1,328 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://view/squad_menu.gd" id="1_squad"]
+
+[node name="SquadMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_squad")
+
+[node name="Margin" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 16
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 16
+
+[node name="Layout" type="VBoxContainer" parent="Margin"]
+layout_mode = 2
+theme_override_constants/separation = 16
+
+[node name="Header" type="HBoxContainer" parent="Margin/Layout"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Back" type="Button" parent="Margin/Layout/Header"]
+custom_minimum_size = Vector2(64, 44)
+layout_mode = 2
+tooltip_text = "返回"
+
+[node name="Title" type="Label" parent="Margin/Layout/Header"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 28
+text = "编队"
+
+[node name="Count" type="Label" parent="Margin/Layout/Header"]
+layout_mode = 2
+text = "已编入 8 / 12"
+
+[node name="Sorting" type="Button" parent="Margin/Layout/Header"]
+visible = false
+custom_minimum_size = Vector2(168, 0)
+layout_mode = 2
+text = "稀有度 ↓"
+tooltip_text = "排序"
+
+[node name="ProfessionFilter" type="Button" parent="Margin/Layout/Header"]
+visible = false
+layout_mode = 2
+text = "职业 ≡"
+
+[node name="Body" type="Control" parent="Margin/Layout"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Overview" type="GridContainer" parent="Margin/Layout/Body"]
+layout_mode = 1
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -456.0
+offset_right = 456.0
+theme_override_constants/h_separation = 24
+theme_override_constants/v_separation = 16
+columns = 6
+
+[node name="Picker" type="HBoxContainer" parent="Margin/Layout/Body"]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme_override_constants/separation = 16
+
+[node name="Details" type="PanelContainer" parent="Margin/Layout/Body/Picker"]
+custom_minimum_size = Vector2(316, 0)
+layout_mode = 2
+
+[node name="Content" type="VBoxContainer" parent="Margin/Layout/Body/Picker/Details"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Name" type="Label" parent="Margin/Layout/Body/Picker/Details/Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "选择干员"
+
+[node name="Profession" type="Label" parent="Margin/Layout/Body/Picker/Details/Content"]
+layout_mode = 2
+
+[node name="Range" type="Control" parent="Margin/Layout/Body/Picker/Details/Content"]
+custom_minimum_size = Vector2(0, 104)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Skills" type="HBoxContainer" parent="Margin/Layout/Body/Picker/Details/Content"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Skill1" type="Button" parent="Margin/Layout/Body/Picker/Details/Content/Skills"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+button_pressed = true
+text = "技能 1 · 已选"
+
+[node name="Skill2" type="Button" parent="Margin/Layout/Body/Picker/Details/Content/Skills"]
+custom_minimum_size = Vector2(64, 40)
+layout_mode = 2
+disabled = true
+toggle_mode = true
+tooltip_text = "技能 2 未开放"
+
+[node name="Skill3" type="Button" parent="Margin/Layout/Body/Picker/Details/Content/Skills"]
+custom_minimum_size = Vector2(64, 40)
+layout_mode = 2
+disabled = true
+toggle_mode = true
+tooltip_text = "技能 3 未开放"
+
+[node name="DetailTabs" type="HBoxContainer" parent="Margin/Layout/Body/Picker/Details/Content"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="Skill" type="Button" parent="Margin/Layout/Body/Picker/Details/Content/DetailTabs"]
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+button_pressed = true
+text = "技能"
+
+[node name="Passive" type="Button" parent="Margin/Layout/Body/Picker/Details/Content/DetailTabs"]
+layout_mode = 2
+size_flags_horizontal = 3
+toggle_mode = true
+text = "被动"
+
+[node name="Preview" type="Button" parent="Margin/Layout/Body/Picker/Details/Content/DetailTabs"]
+layout_mode = 2
+text = "技能范围"
+
+[node name="Text" type="RichTextLabel" parent="Margin/Layout/Body/Picker/Details/Content"]
+layout_mode = 2
+size_flags_vertical = 3
+bbcode_enabled = true
+scroll_following = false
+theme_override_font_sizes/normal_font_size = 16
+theme_override_constants/line_separation = 6
+
+[node name="RosterScroll" type="ScrollContainer" parent="Margin/Layout/Body/Picker"]
+layout_mode = 2
+size_flags_horizontal = 3
+horizontal_scroll_mode = 3
+vertical_scroll_mode = 0
+
+[node name="Roster" type="GridContainer" parent="Margin/Layout/Body/Picker/RosterScroll"]
+layout_mode = 2
+theme_override_constants/h_separation = 16
+theme_override_constants/v_separation = 16
+columns = 8
+
+[node name="SortSidebar" type="PanelContainer" parent="Margin/Layout/Body/Picker"]
+visible = false
+layout_mode = 2
+
+[node name="Options" type="VBoxContainer" parent="Margin/Layout/Body/Picker/SortSidebar"]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="ProfessionSidebar" type="PanelContainer" parent="Margin/Layout/Body/Picker"]
+visible = false
+layout_mode = 2
+
+[node name="Options" type="VBoxContainer" parent="Margin/Layout/Body/Picker/ProfessionSidebar"]
+layout_mode = 2
+theme_override_constants/separation = 0
+
+[node name="EmptyRoster" type="Label" parent="Margin/Layout/Body"]
+visible = false
+layout_mode = 1
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 332.0
+offset_top = -20.0
+offset_bottom = 20.0
+mouse_filter = 2
+text = "该职业暂无可选干员"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Actions" type="HBoxContainer" parent="Margin/Layout"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Remove" type="Button" parent="Margin/Layout/Actions"]
+visible = false
+custom_minimum_size = Vector2(180, 36)
+layout_mode = 2
+text = "移除本槽干员"
+
+[node name="ClearSelection" type="Button" parent="Margin/Layout/Actions"]
+visible = false
+custom_minimum_size = Vector2(180, 36)
+layout_mode = 2
+text = "清空选择"
+
+[node name="Status" type="Label" parent="Margin/Layout/Actions"]
+visible = false
+layout_mode = 2
+
+[node name="Spacer" type="Control" parent="Margin/Layout/Actions"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Clear" type="Button" parent="Margin/Layout/Actions"]
+custom_minimum_size = Vector2(180, 36)
+layout_mode = 2
+text = "清空编队"
+
+[node name="Quick" type="Button" parent="Margin/Layout/Actions"]
+custom_minimum_size = Vector2(220, 36)
+layout_mode = 2
+text = "快速编队"
+
+[node name="QuickConfirm" type="Button" parent="Margin/Layout/Actions"]
+visible = false
+custom_minimum_size = Vector2(220, 36)
+layout_mode = 2
+text = "确认"
+
+[node name="ExitPrompt" type="ColorRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0, 0, 0, 0.72)
+
+[node name="Center" type="CenterContainer" parent="ExitPrompt"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Panel" type="PanelContainer" parent="ExitPrompt/Center"]
+custom_minimum_size = Vector2(620, 0)
+layout_mode = 2
+
+[node name="Content" type="VBoxContainer" parent="ExitPrompt/Center/Panel"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Title" type="Label" parent="ExitPrompt/Center/Panel/Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "编队为空"
+
+[node name="Message" type="Label" parent="ExitPrompt/Center/Panel/Content"]
+layout_mode = 2
+text = "请至少编入一名干员后再退出编队。"
+autowrap_mode = 3
+
+[node name="Actions" type="HBoxContainer" parent="ExitPrompt/Center/Panel/Content"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Keep" type="Button" parent="ExitPrompt/Center/Panel/Content/Actions"]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "继续编队"
+
+[node name="ClearPrompt" type="ColorRect" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0, 0, 0, 0.72)
+
+[node name="Center" type="CenterContainer" parent="ClearPrompt"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Panel" type="PanelContainer" parent="ClearPrompt/Center"]
+custom_minimum_size = Vector2(620, 0)
+layout_mode = 2
+
+[node name="Content" type="VBoxContainer" parent="ClearPrompt/Center/Panel"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="Title" type="Label" parent="ClearPrompt/Center/Panel/Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "清空编队？"
+
+[node name="Message" type="Label" parent="ClearPrompt/Center/Panel/Content"]
+layout_mode = 2
+text = "将移除当前编队中的所有干员。清空后需要重新编入干员。"
+autowrap_mode = 3
+
+[node name="Actions" type="HBoxContainer" parent="ClearPrompt/Center/Panel/Content"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Cancel" type="Button" parent="ClearPrompt/Center/Panel/Content/Actions"]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "取消"
+
+[node name="Confirm" type="Button" parent="ClearPrompt/Center/Panel/Content/Actions"]
+custom_minimum_size = Vector2(0, 48)
+layout_mode = 2
+size_flags_horizontal = 3
+text = "确认清空"

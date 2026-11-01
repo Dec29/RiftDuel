@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_qhdbc"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_q73tt"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_041sj"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_uvmon"]
+
+[sub_resource type="Resource" id="Resource_rbwmu"]
+script = ExtResource("1_qhdbc")
+trait_name = "守护者"
+description = "技能可以治疗友方单位。"
+effect_type = "guardian"
+
+[sub_resource type="Resource" id="Resource_efxit"]
+script = ExtResource("3_041sj")
+skill_name = "光芒涌动"
+trigger_type = "attack"
+sp_required = 4
+sp_recharge_type = "time"
+description = "下次攻击260%物理伤害，并治疗周围一名友军相当于攻击力150%的生命；可充能三次。治疗范围与攻击范围分开。"
+effect_type = "blemishine_charge"
+effect_params = {
+"attack_mult": 2.6,
+"charge_count": 3,
+"heal_attack_percent": 150
+}
+burst_range_override = Array[Vector2i]([Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1)])
+
+[sub_resource type="Resource" id="Resource_yyngu"]
+script = ExtResource("3_041sj")
+skill_name = "慑敌辉光"
+sp_required = 12
+sp_recharge_type = "on_damaged"
+description = "攻击+110%；使自身格地面敌人与自身阻挡敌人沉睡10秒，周围友军每秒恢复20%攻击力的生命，属于生命回复。"
+effect_type = "blemishine_sleep"
+effect_params = {
+"attack_mult": 2.1,
+"regen_attack_percent": 20,
+"sleep_ticks": 300
+}
+duration = 10.0
+burst_range_override = Array[Vector2i]([Vector2i(0, 2), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(0, -2)])
+
+[sub_resource type="Resource" id="Resource_t7x24"]
+script = ExtResource("3_041sj")
+skill_name = "先贤化身"
+initial_sp = 15
+sp_required = 25
+sp_recharge_type = "on_damaged"
+description = "攻击+110%、防御+60%；每击追加100%攻击力法术伤害，并治疗周围一名其他友军100%攻击力的生命。"
+effect_type = "blemishine_radiance"
+effect_params = {
+"attack_mult": 2.1,
+"defense_mult": 1.6,
+"heal_attack_percent": 100,
+"magic_attack_mult": 1.0
+}
+duration = 30.0
+burst_range_override = Array[Vector2i]([Vector2i(0, 2), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(0, -2)])
+
+[sub_resource type="Resource" id="Resource_l10ug"]
+script = ExtResource("4_uvmon")
+talent_name = "剑盾骑士"
+description = "在场时同侧受击回复技能，普通攻击也回复1SP；每轮一次。"
+effect_type = "defensive_attack_sp"
+effect_params = {
+"sp_add": 1
+}
+
+[sub_resource type="Resource" id="Resource_mdav7"]
+script = ExtResource("4_uvmon")
+talent_name = "仁慈"
+description = "自身可以攻击并优先攻击沉睡目标，攻击力倍率140%；沉默时无效。"
+effect_type = "sleep_mercy"
+effect_params = {
+"attack_percent": 140
+}
+
+[resource]
+script = ExtResource("2_q73tt")
+operator_id = "blemishine"
+display_name = "瑕光"
+profession = "重装"
+profession_id = "defender"
+branch = "守护者"
+max_health = 3242
+attack = 491
+defense = 581
+magic_resist = 10
+damage_type = "physical"
+attack_interval = 1.2
+block_count = 3
+initial_deploy_cost = 20
+deploy_cost = 22
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_rbwmu")
+talent_1 = SubResource("Resource_l10ug")
+talent_2 = SubResource("Resource_mdav7")
+skills = Array[ExtResource("3_041sj")]([SubResource("Resource_efxit"), SubResource("Resource_yyngu"), SubResource("Resource_t7x24")])

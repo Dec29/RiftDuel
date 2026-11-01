@@ -7,18 +7,18 @@ func _initialize() -> void:
 
 func _run() -> void:
 	var commands: Array[InputCommand] = [InputCommand.new(12, 0, "bagpipe", -1, Vector2i(11, 5), -1, 3), InputCommand.new(12, 1, "", 7, Vector2i.ZERO, 0), InputCommand.new(12, 2, "", 9)]
-	var decoded := CommandCodec.decode(JSON.parse_string(JSON.stringify(CommandCodec.encode(commands))), 12)
+	var decoded := CommandCodec.decode(JSON.parse_string(JSON.stringify(CommandCodec.encode(commands))), 12, Engine.get_main_loop().root.get_node("OperatorDB").network_content()["ids"])
 	if not _check(decoded.has("commands") and decoded.commands.size() == 3 and decoded.commands[0].facing == 3 and decoded.commands[2].unit_id == 9, "Command roundtrip lost fields"):
 		return
 	var phantom: Array[InputCommand] = [InputCommand.new(12, InputCommand.Kind.DEPLOY, "nightingale_phantom", -1, Vector2i(11, 5), -1, 2)]
-	decoded = CommandCodec.decode(JSON.parse_string(JSON.stringify(CommandCodec.encode(phantom))), 12)
+	decoded = CommandCodec.decode(JSON.parse_string(JSON.stringify(CommandCodec.encode(phantom))), 12, Engine.get_main_loop().root.get_node("OperatorDB").network_content()["ids"])
 	if not _check(decoded.has("commands") and decoded.commands[0].operator_id == "nightingale_phantom", "Phantom deployment must use the existing command schema"):
 		return
-	for invalid: Variant in [null, [[12, 0]], [[12.5, 0, "bagpipe", -1, 11, 5, -1, 2]], [[12, 0, "unknown", -1, 11, 5, -1, 2]], [[12, 1, "", 0, 0, 0, 4, -1]]]:
-		if not _check(CommandCodec.decode(invalid, 12).has("error"), "Invalid packet accepted: " + str(invalid)):
+	for invalid: Variant in [null, [[12, 0]], [[12, 0, "bagpipe", -1, 11, 5, -1, 2]], [[12.5, 0, "bagpipe", -1, 11, 5, -1, 2, -1]], [[12, 0, "unknown", -1, 11, 5, -1, 2, -1]], [[12, 1, "", 0, 0, 0, 4, -1, -1]]]:
+		if not _check(CommandCodec.decode(invalid, 12, Engine.get_main_loop().root.get_node("OperatorDB").network_content()["ids"]).has("error"), "Invalid packet accepted: " + str(invalid)):
 			return
-	var host := NetSession.new()
-	var client := NetSession.new()
+	var host := NetSession.new(Engine.get_main_loop().root.get_node("OperatorDB").network_content())
+	var client := NetSession.new(Engine.get_main_loop().root.get_node("OperatorDB").network_content())
 	root.add_child(host)
 	root.add_child(client)
 	var paths := PackedStringArray()
@@ -32,7 +32,7 @@ func _run() -> void:
 		await process_frame
 	if not _check(host.phase == "room" and client.phase == "room" and host.side == 0 and client.side == 1, "Local ENet handshake failed: %s / %s" % [host.status, client.status]):
 		return
-	var visitor := NetSession.new()
+	var visitor := NetSession.new(Engine.get_main_loop().root.get_node("OperatorDB").network_content())
 	root.add_child(visitor)
 	visitor.join_code("123456")
 	deadline = Time.get_ticks_msec() + 3000

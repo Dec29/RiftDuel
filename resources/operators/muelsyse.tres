@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="skill"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="trait"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="talent"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="op"]
+
+[sub_resource type="Resource" id="trait"]
+script = ExtResource("trait")
+trait_name = "战术家"
+description = "可以在攻击范围内选择一次<@ba.kw>战术点</>来召唤援军，自身攻击援军阻挡的敌人时攻击力提升至150%"
+effect_type = "tactician"
+effect_params = {"blocked_attack_percent":150}
+
+[sub_resource type="Resource" id="talent0"]
+script = ExtResource("talent")
+talent_name = "净水即生命"
+description = "可召唤流形来复制待部署干员的大部分属性（生命上限、攻击、防御、法抗、阻挡数、攻击间隔、攻击范围、伤害类型、根据近/远程位获得特殊特性）协助作战，其被击败后会在25秒后自动刷新"
+effect_type = "flowing_shape_supply"
+effect_params = {"copy_percent":90,"refresh_ticks":750}
+
+[sub_resource type="Resource" id="talent1"]
+script = ExtResource("talent")
+talent_name = "开源节流"
+description = "携带时【莱茵生命】干员部署费用-2，首名【莱茵生命】干员部署费用额外-1"
+effect_type = "rhine_deploy_discount"
+effect_params = {"cost_reduction":2,"first_reduction":1}
+
+[sub_resource type="Resource" id="skill0"]
+script = ExtResource("skill")
+skill_name = "渐进性润化"
+initial_sp = 8
+sp_required = 28
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "15秒逐渐回复13费用，本体与流形攻击力+50%、攻速+50。"
+effect_type = "muelsyse_progress"
+effect_params = {"attack_mult":1.5,"attack_speed_add":50,"total_cost":13}
+duration = 15.0
+attack_range_override = Array[Vector2i]([])
+
+[sub_resource type="Resource" id="skill1"]
+script = ExtResource("skill")
+skill_name = "生态耦合"
+initial_sp = 18
+sp_required = 35
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "立即获得15费用，15秒本体与流形攻击力+50%；近战复制体每秒回复5%最大生命并获得25%庇护；远程复制体攻击二连击且随机选择范围内目标。"
+effect_type = "muelsyse_ecology"
+effect_params = {"attack_mult":1.5,"cost_add":15,"regen_health_percent":5,"sanctuary_percent":25,"shot_count":2}
+duration = 15.0
+attack_range_override = Array[Vector2i]([])
+
+[sub_resource type="Resource" id="skill2"]
+script = ExtResource("skill")
+skill_name = "浅层非熵适应"
+initial_sp = 18
+sp_required = 35
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "立即获得15费用，15秒本体与流形攻击力+50%；近战复制体每2秒将周围八格敌人小力1拖向自身并持续晕眩其阻挡目标；远程复制体刷新所有非战术点流形，攻击附加1.5秒束缚。"
+effect_type = "muelsyse_interaction"
+effect_params = {"attack_mult":1.5,"cost_add":15,"pull_interval_ticks":60,"shift_force":1,"bind_ticks":45}
+duration = 15.0
+attack_range_override = Array[Vector2i]([])
+
+[resource]
+script = ExtResource("op")
+operator_id = "muelsyse"
+display_name = "缪尔赛思"
+profession = "先锋"
+profession_id = "vanguard"
+branch = "战术家"
+group_id = "rhine"
+max_health = 1813
+attack = 497
+defense = 117
+magic_resist = 0
+damage_type = "physical"
+attack_interval = 1.0
+block_count = 1
+initial_deploy_cost = 13
+deploy_cost = 15
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0,1),Vector2i(1,1),Vector2i(2,1),Vector2i(3,1),Vector2i(0,0),Vector2i(1,0),Vector2i(2,0),Vector2i(3,0),Vector2i(0,-1),Vector2i(1,-1),Vector2i(2,-1),Vector2i(3,-1)])
+terrain_requirement = "high"
+branch_trait = SubResource("trait")
+talent_1 = SubResource("talent0")
+talent_2 = SubResource("talent1")
+skills = Array[ExtResource("skill")]([SubResource("skill0"),SubResource("skill1"),SubResource("skill2")])

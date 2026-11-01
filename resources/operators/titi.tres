@@ -1,0 +1,83 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "咒愈师"
+description = "攻击造成法术伤害，攻击敌人时为攻击范围内一名友方治疗相当于50%伤害的生命值"
+effect_type = "incantation_medic"
+effect_params = {"heal_damage_percent":50}
+[sub_resource type="Resource" id="Talent0"]
+script = ExtResource("3")
+talent_name = "凝固的时光"
+description = "可以攻击沉睡敌人；攻击无自主行走的敌方单位额外造成15%攻击力法伤；在场时全场沉睡敌人每秒受到30%攻击力法术持续伤害。推拉不取消非移动判定。"
+effect_type = "titi_frozen_time"
+effect_params = {"extra_attack_percent": 15, "dot_attack_percent": 30, "first_dot_ticks": 15, "dot_interval_ticks": 30}
+[sub_resource type="Resource" id="Talent1"]
+script = ExtResource("3")
+talent_name = "勇气的报偿"
+description = "在场时，米诺斯或萨尔贡干员生命高于50%时获得攻速+20的精力充沛，同类攻速加成取最高。"
+effect_type = "titi_courage"
+effect_params = {"attack_speed_add": 20, "hp_threshold_percent": 50}
+[sub_resource type="Resource" id="Skill0"]
+script = ExtResource("4")
+skill_name = "缓蚀"
+description = "攻击+100%，每次攻击50%概率使目标沉睡3秒，持续17秒。"
+effect_type = "titi_corrosion"
+effect_params = {"attack_mult": 2.0, "chance_percent": 50, "sleep_ticks": 90}
+initial_sp = 18
+sp_required = 40
+sp_recharge_type = "time"
+trigger_type = "manual"
+duration = 17.0
+attack_range_override = Array[Vector2i]([])
+[sub_resource type="Resource" id="Skill1"]
+script = ExtResource("4")
+skill_name = "封护"
+description = "停止攻击，攻击+180%；自身与范围内生命比例最低的友方干员进入小睡，直到技能结束。二者周围1.5格内敌人每0.1秒被施加0.3秒睡眠，第一天赋倍率提升至3.3倍。持续15秒，可主动关闭。"
+effect_type = "titi_sanctuary"
+effect_params = {"attack_mult": 2.8, "talent_scale_percent": 330, "pulse_ticks": 3, "sleep_ticks": 9, "radius_squared": 2}
+initial_sp = 15
+sp_required = 20
+sp_recharge_type = "time"
+trigger_type = "manual"
+duration = 15.0
+attack_range_override = Array[Vector2i]([])
+[sub_resource type="Resource" id="Skill2"]
+script = ExtResource("4")
+skill_name = "旧日绽放"
+description = "攻击+180%，同时攻击两名敌方单位；未沉睡目标被施加5秒睡眠。全场敌人睡醒时按累计睡眠时间产生100%至460%法伤，并向附近一名其他敌人传递5秒睡眠；睡中被击倒只传递睡眠、不产生伤害。范围内其他普通友军受致命伤时保留1生命并小睡，至回满生命、被解除或技能结束。持续25秒。"
+effect_type = "titi_bloom"
+effect_params = {"attack_mult": 2.8, "target_count": 2, "sleep_ticks": 150, "min_attack_percent": 100, "max_attack_percent": 460, "max_sleep_ticks": 150, "radius_squared": 2}
+initial_sp = 28
+sp_required = 37
+sp_recharge_type = "time"
+trigger_type = "manual"
+duration = 25.0
+attack_range_override = Array[Vector2i]([])
+[resource]
+script = ExtResource("1")
+operator_id = "titi"
+display_name = "缇缇"
+profession = "医疗"
+profession_id = "medic"
+branch = "咒愈师"
+group_id = "minos"
+max_health = 1405
+attack = 548
+defense = 117
+magic_resist = 20
+damage_type = "magical"
+attack_interval = 1.6
+block_count = 1
+initial_deploy_cost = 15
+deploy_cost = 17
+redeploy_time = 70.0
+terrain_requirement = "high"
+attack_range = Array[Vector2i]([Vector2i(0,1), Vector2i(1,1), Vector2i(2,1), Vector2i(3,1), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(3,0), Vector2i(0,-1), Vector2i(1,-1), Vector2i(2,-1), Vector2i(3,-1)])
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent0")
+talent_2 = SubResource("Talent1")
+skills = Array[ExtResource("4")]([SubResource("Skill0"),SubResource("Skill1"),SubResource("Skill2")])

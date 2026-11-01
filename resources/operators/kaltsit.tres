@@ -1,0 +1,95 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_xvat2"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_7it32"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_47ykn"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_bpa1o"]
+
+[sub_resource type="Resource" id="Resource_wtet2"]
+script = ExtResource("1_xvat2")
+trait_name = "医师"
+description = "单体治疗；优先自身与绑定Mon3tr，其余按生命比例和单位编号选择。"
+effect_type = "single_target_heal"
+
+[sub_resource type="Resource" id="Resource_j21sh"]
+script = ExtResource("3_47ykn")
+skill_name = "指令：结构加固"
+initial_sp = 10
+sp_required = 20
+sp_recharge_type = "time"
+description = "自身与Mon3tr防御+150%，自身获得50%物理格挡，持续40秒；无需Mon3tr在场也可开启。"
+effect_type = "kaltsit_guard"
+effect_params = {
+"defense_percent": 150,
+"physical_block_percent": 50
+}
+duration = 40.0
+
+[sub_resource type="Resource" id="Resource_328w2"]
+script = ExtResource("3_47ykn")
+skill_name = "指令：战术协同"
+sp_required = 8
+sp_recharge_type = "time"
+description = "自身攻速+100，Mon3tr攻击+90%，每次攻击范围内最多阻挡数个目标，持续20秒。与Mon3tr绑定：它不在场时强制结束、清空并停止回复技力。"
+effect_type = "kaltsit_tactical"
+effect_params = {
+"attack_speed_add": 100,
+"mon3tr_attack_percent": 90
+}
+duration = 20.0
+
+[sub_resource type="Resource" id="Resource_jg30o"]
+script = ExtResource("3_47ykn")
+skill_name = "指令：熔毁"
+sp_required = 15
+sp_recharge_type = "time"
+description = "Mon3tr防御+200%、真实伤害，攻击加成从+260%在20秒内线性降至0；期间未击杀敌人则结束时流失最大生命50%，可致死，击破箱子或推球不计击杀。绑定：Mon3tr不在场时强制结束、清空并停止回复技力。"
+effect_type = "kaltsit_meltdown"
+effect_params = {
+"attack_peak_percent": 260,
+"defense_percent": 200,
+"hp_loss_percent": 50
+}
+duration = 20.0
+
+[sub_resource type="Resource" id="Resource_opajd"]
+script = ExtResource("4_bpa1o")
+talent_name = "Mon3tr"
+description = "可使用和治疗1只Mon3tr：不占编队槽、10费、退场后独立25秒冷却，随本体离场且不触发爆炸；只有凯尔希可直接治疗，范围外防御归0。Mon3tr为召唤物，对单位伤害按近卫40%折算，球推力不折算。"
+effect_type = "mon3tr_control"
+effect_params = {
+"max_count": 1
+}
+
+[sub_resource type="Resource" id="Resource_34t6f"]
+script = ExtResource("4_bpa1o")
+talent_name = "不毁重构"
+description = "Mon3tr被击倒（不含撤退或本体离场）后，对周围8格敌人造成1200原始真实伤害及3秒晕眩；真实伤害按近卫40%折算。"
+effect_type = "death_rebuild"
+effect_params = {
+"damage": 1200,
+"stun_ticks": 90
+}
+
+[resource]
+script = ExtResource("2_7it32")
+operator_id = "kaltsit"
+display_name = "凯尔希"
+profession = "医疗"
+profession_id = "medic"
+branch = "医师"
+max_health = 1633
+attack = 490
+defense = 215
+damage_type = "healing"
+attack_interval = 2.85
+block_count = 1
+initial_deploy_cost = 18
+deploy_cost = 20
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(3, -1), Vector2i(4, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(4, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(3, 1), Vector2i(4, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_wtet2")
+talent_1 = SubResource("Resource_opajd")
+talent_2 = SubResource("Resource_34t6f")
+skills = Array[ExtResource("3_47ykn")]([SubResource("Resource_j21sh"), SubResource("Resource_328w2"), SubResource("Resource_jg30o")])

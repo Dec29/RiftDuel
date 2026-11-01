@@ -1,4 +1,4 @@
-[gd_resource type="Resource" script_class="OperatorData" format=3 uid="uid://eixekied51nt"]
+[gd_resource type="Resource" format=3 uid="uid://eixekied51nt"]
 
 [ext_resource type="Script" uid="uid://cqgm23k7jg1a1" path="res://data/trait_resource.gd" id="1_0moqr"]
 [ext_resource type="Script" uid="uid://c33aieax8g07p" path="res://data/operator_data.gd" id="2_usy53"]
@@ -16,7 +16,9 @@ effect_params = {
 
 [sub_resource type="Resource" id="Resource_24eb0"]
 script = ExtResource("3_0t3rk")
-skill_name = "技能1"
+initial_sp = 15
+trigger_type = "manual"
+skill_name = "迅捷打击·γ型"
 sp_required = 35
 sp_recharge_type = "time"
 description = "攻击力+45%，攻击速度+45"
@@ -48,6 +50,30 @@ effect_params = {
 "initial_sp_add": 6
 }
 
+[sub_resource type="Resource" id="Skill2"]
+script = ExtResource("3_0t3rk")
+initial_sp = 0
+trigger_type = "attack"
+skill_name = "高效冲击"
+sp_required = 4
+sp_recharge_type = "time"
+description = "下次攻击变为两连击，每段攻击力200%，逐段触发天赋；可充能3次。主目标死亡停止剩余段；箱子一轮只计一次。"
+effect_type = "charge_multi_shot"
+effect_params = {"attack_mult": 2.0, "shot_count": 2, "charge_count": 3}
+duration = 0.0
+
+[sub_resource type="Resource" id="Skill3"]
+script = ExtResource("3_0t3rk")
+initial_sp = 25
+trigger_type = "manual"
+skill_name = "闭膛连发"
+sp_required = 40
+sp_recharge_type = "time"
+description = "攻击间隔增加70%，阻挡数+1，攻击力与防御力+120%，攻击变为三连击，每段独立触发天赋，持续20秒；范围不变，箱子一轮只计一次。"
+effect_type = "burst_atk_def_boost"
+effect_params = {"attack_mult": 2.2, "defense_mult": 2.2, "shot_count": 3, "attack_interval_mult": 1.7, "block_count_add": 1}
+duration = 20.0
+
 [resource]
 script = ExtResource("2_usy53")
 operator_id = "bagpipe"
@@ -61,6 +87,7 @@ defense = 382
 damage_type = "physical"
 attack_interval = 1.0
 block_count = 1
+initial_deploy_cost = 11
 deploy_cost = 13
 redeploy_time = 70.0
 attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
@@ -68,5 +95,4 @@ terrain_requirement = "ground"
 branch_trait = SubResource("Resource_fuiac")
 talent_1 = SubResource("Resource_3fp0o")
 talent_2 = SubResource("Resource_sb7qh")
-skills = Array[ExtResource("3_0t3rk")]([SubResource("Resource_24eb0")])
-initial_sp = 15
+skills = Array[ExtResource("3_0t3rk")]([SubResource("Resource_24eb0"), SubResource("Skill2"), SubResource("Skill3")])

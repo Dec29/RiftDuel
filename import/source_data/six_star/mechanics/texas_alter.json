@@ -1,0 +1,19 @@
+{
+  "url": "https://prts.wiki/index.php?title=缄默德克萨斯&oldid=434984",
+  "revision": 434984,
+  "download_sha256": "79028e44cfe1f1d0001a331d05bd8f3cf2708b58c96f1ca3af3151193fc405f3",
+  "facts": {
+    "delayed_first_kill_opportunity": "Retained until silence or other activation restrictions expire.",
+    "skill_2_burst": "Damage occurs after attack stat increase; repeat resistance reduction refreshes duration.",
+    "skill_1_dot": "Magical damage-over-time attributed to Texas alter; refresh duration only.",
+    "skill_3_timing": "First sword rain approximately0.67 seconds including animation and fall; later falls have0to0.3 second random delay."
+  },
+  "simulation_quantization": {
+    "first_rain_ticks": 20,
+    "later_fall_delay_ticks_inclusive": [
+      0,
+      9
+    ],
+    "rng": "Existing deterministic simulation RNG; no claim of reproducing unpublished original random algorithm."
+  }
+}

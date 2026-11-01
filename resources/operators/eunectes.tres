@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="skill"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="trait"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="talent"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="op"]
+
+[sub_resource type="Resource" id="trait"]
+script = ExtResource("trait")
+trait_name = "决战者"
+description = "只有阻挡敌人时才能够回复技力"
+effect_type = "duelist"
+effect_params = {}
+
+[sub_resource type="Resource" id="talent0"]
+script = ExtResource("talent")
+talent_name = "勇冠三军"
+description = "生命值高于一半时，攻击造成115%伤害；生命值不高于一半时，获得20%的<$ba.protect>庇护</>"
+effect_type = "duelist_health"
+effect_params = {"hp_threshold_percent":50,"damage_percent":115,"sanctuary_percent":20}
+
+[sub_resource type="Resource" id="talent1"]
+script = ExtResource("talent")
+talent_name = "愈战愈勇"
+description = "阻挡敌人时技力回复速度+0.2/秒"
+effect_type = "duelist_sp"
+effect_params = {"sp_bonus_percent":20}
+
+[sub_resource type="Resource" id="skill0"]
+script = ExtResource("skill")
+skill_name = "轻型挂斧"
+initial_sp = 0
+sp_required = 0
+sp_recharge_type = "passive"
+trigger_type = "passive"
+description = "常驻攻击力与防御力+25%。"
+effect_type = "eunectes_passive"
+effect_params = {"attack_mult":1.25,"defense_mult":1.25}
+duration = -1.0
+attack_range_override = Array[Vector2i]([])
+
+[sub_resource type="Resource" id="skill1"]
+script = ExtResource("skill")
+skill_name = "震慑劈砍"
+initial_sp = 15
+sp_required = 28
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "18秒攻击力+180%，攻击间隔+0.4秒，持续眩晕自身按统一阻挡规则阻挡的敌人。"
+effect_type = "eunectes_stun"
+effect_params = {"attack_mult":2.8,"attack_interval_add":0.4}
+duration = 18.0
+attack_range_override = Array[Vector2i]([])
+
+[sub_resource type="Resource" id="skill2"]
+script = ExtResource("skill")
+skill_name = "钢铁意志"
+initial_sp = 25
+sp_required = 45
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "35秒攻击力+230%、防御力+160%、阻挡+2，每秒回复6%最大生命；结束眩晕自身5秒。"
+effect_type = "eunectes_engine"
+effect_params = {"attack_mult":3.3,"defense_mult":2.6,"block_count_add":2,"regen_health_percent":6,"end_stun_ticks":150}
+duration = 35.0
+attack_range_override = Array[Vector2i]([])
+
+[resource]
+script = ExtResource("op")
+operator_id = "eunectes"
+display_name = "森蚺"
+profession = "重装"
+profession_id = "defender"
+branch = "决战者"
+group_id = "sargon"
+max_health = 4468
+attack = 1007
+defense = 615
+magic_resist = 0
+damage_type = "physical"
+attack_interval = 1.6
+block_count = 1
+initial_deploy_cost = 29
+deploy_cost = 33
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0,0),Vector2i(1,0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("trait")
+talent_1 = SubResource("talent0")
+talent_2 = SubResource("talent1")
+skills = Array[ExtResource("skill")]([SubResource("skill0"),SubResource("skill1"),SubResource("skill2")])

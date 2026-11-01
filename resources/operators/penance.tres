@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_m2vs5"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_smpwa"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_n32k2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_60eun"]
+
+[sub_resource type="Resource" id="Resource_dg8oq"]
+script = ExtResource("1_m2vs5")
+trait_name = "不屈者"
+description = "无法被友方角色普通治疗，可以接受生命回复。"
+effect_type = "unyield"
+
+[sub_resource type="Resource" id="Resource_66qie"]
+script = ExtResource("3_n32k2")
+skill_name = "一锤定音"
+trigger_type = "attack"
+sp_required = 3
+sp_recharge_type = "time"
+description = "下次攻击追加200%法伤；完整蓄力额外攻击倍率200%并眩晕5秒，消耗全部技力；进入蓄力模式时重置攻击周期。"
+effect_type = "penance_hammer"
+effect_params = {
+"attack_mult": 1.0,
+"charge_count": 2,
+"charged_attack_mult": 2.0,
+"magic_attack_mult": 2.0,
+"stun_ticks": 150
+}
+
+[sub_resource type="Resource" id="Resource_4bb0o"]
+script = ExtResource("3_n32k2")
+skill_name = "坚心苦修"
+initial_sp = 20
+sp_required = 30
+sp_recharge_type = "time"
+description = "停止普攻、失去视野、60%庇护，每秒对九宫格全部地面敌人140%攻击力法伤；天赋屏障获取量翻倍。"
+effect_type = "penance_ascetic"
+effect_params = {
+"attack_mult": 1.0,
+"barrier_gain_bonus_percent": 100,
+"pulse_attack_mult": 1.4,
+"pulse_ticks": 30,
+"sanctuary_percent": 60
+}
+duration = 20.0
+burst_range_override = Array[Vector2i]([Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1)])
+
+[sub_resource type="Resource" id="Resource_dhc4g"]
+script = ExtResource("3_n32k2")
+skill_name = "披荆斩棘"
+sp_required = 20
+sp_recharge_type = "on_damaged"
+description = "立即补充130%最大生命的自身屏障，攻击+400%，间隔+0.9秒，嘲讽+1。"
+effect_type = "penance_bramble"
+effect_params = {
+"attack_interval_add": 0.9,
+"attack_mult": 5.0,
+"barrier_health_percent": 130
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_4on3c"]
+script = ExtResource("4_60eun")
+talent_name = "律法卫士"
+description = "部署获得当前生命上限50%自身屏障，每击杀敌人补充10%，最多300%；既有屏障不随生命上限变化。"
+effect_type = "penance_barrier"
+effect_params = {
+"cap_health_percent": 300,
+"deploy_health_percent": 50,
+"kill_health_percent": 10
+}
+
+[sub_resource type="Resource" id="Resource_m1cil"]
+script = ExtResource("4_60eun")
+talent_name = "荆棘环身"
+description = "拥有自身屏障时受到敌方攻击，对来源造成当前攻击力50%法术伤害；不递归。"
+effect_type = "barrier_reflect"
+effect_params = {
+"attack_percent": 50
+}
+
+[resource]
+script = ExtResource("2_smpwa")
+operator_id = "penance"
+display_name = "斥罪"
+profession = "重装"
+profession_id = "defender"
+branch = "不屈者"
+max_health = 4055
+attack = 876
+defense = 616
+magic_resist = 10
+damage_type = "physical"
+attack_interval = 1.6
+block_count = 3
+initial_deploy_cost = 32
+deploy_cost = 36
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_dg8oq")
+talent_1 = SubResource("Resource_4on3c")
+talent_2 = SubResource("Resource_m1cil")
+skills = Array[ExtResource("3_n32k2")]([SubResource("Resource_66qie"), SubResource("Resource_4bb0o"), SubResource("Resource_dhc4g")])

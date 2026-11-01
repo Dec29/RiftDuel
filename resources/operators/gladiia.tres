@@ -1,0 +1,91 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "钩索师"
+description = "技能可以使敌人产生位移；可以放置于远程位"
+effect_type = "puller"
+effect_params = {}
+
+[sub_resource type="Resource" id="Talent0"]
+script = ExtResource("3")
+talent_name = "阿戈尔的波涛"
+description = "在场时，所有【深海猎人】干员每秒回复2.5%最大生命值且受到【海怪】敌人的物理与法术伤害降低25%"
+effect_type = "gladiia_tide"
+effect_params = {"regen_max_health_permille": 25, "seaborn_damage_reduce_percent": 25}
+
+[sub_resource type="Resource" id="Talent1"]
+script = ExtResource("3")
+talent_name = "弱肉强食"
+description = "攻击重量小于等于3的敌人时攻击力提升至130%"
+effect_type = "gladiia_predation"
+effect_params = {"max_weight": 3, "attack_percent": 130}
+
+[sub_resource type="Resource" id="Skill0"]
+script = ExtResource("4")
+skill_name = "缺水的大洋裂断"
+initial_sp = 0
+sp_required = 4
+sp_recharge_type = "time"
+trigger_type = "attack"
+description = "下次攻击造成210%攻击力物理伤害，较大力度3拖拽最远目标；3次充能，角色目标锁定技力最多5秒。"
+effect_type = "gladiia_strike"
+effect_params = {"attack_mult": 1.0, "strike_mult": 2.1, "shift_force": 3, "charge_count": 3, "channel_ticks": 150}
+duration = 0.0
+attack_range_override = Array[Vector2i]([])
+
+[sub_resource type="Resource" id="Skill1"]
+script = ExtResource("4")
+skill_name = "缺水的掌握怒海"
+initial_sp = 20
+sp_required = 25
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "20秒范围扩大，间隔+0.5秒；优先被阻挡的2敌，每个180%物理、较大力度3拖拽；角色目标每轮拖拽期间停普通攻击最多5秒。"
+effect_type = "gladiia_tide_skill"
+effect_params = {"attack_mult": 1.0, "strike_mult": 1.8, "attack_interval_add": 0.5, "target_count": 2, "shift_force": 3, "channel_ticks": 150}
+duration = 20.0
+attack_range_override = Array[Vector2i]([Vector2i(1, 1), Vector2i(2, 1), Vector2i(3, 1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(1, -1), Vector2i(2, -1), Vector2i(3, -1)])
+
+[sub_resource type="Resource" id="Skill2"]
+script = ExtResource("4")
+skill_name = "缺水的碎漩狂舞"
+initial_sp = 26
+sp_required = 35
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "最远目标束缚8秒、落点半径1.5格漩涡；6次130%法伤和向中心较大力3拖拽，9秒第7次只拉并以落点半径1捕网拉回本体。原移速-50%按确认适配为攻速-50%。"
+effect_type = "gladiia_vortex"
+effect_params = {"attack_mult": 1.0, "pulse_attack_percent": 130, "shift_force": 3, "pulse_ticks": 45, "lifetime_ticks": 270, "damage_pulses": 6, "bind_ticks": 240, "radius_squared": 2, "catch_radius_squared": 1, "attack_speed_remaining_percent": 50}
+duration = 8.0
+attack_range_override = Array[Vector2i]([])
+
+[resource]
+script = ExtResource("1")
+operator_id = "gladiia"
+display_name = "歌蕾蒂娅"
+profession = "特种"
+profession_id = "specialist"
+branch = "钩索师"
+group_id = "abyssal"
+max_health = 2309
+attack = 801
+defense = 331
+magic_resist = 0
+damage_type = "physical"
+attack_interval = 1.8
+block_count = 2
+initial_deploy_cost = 14
+deploy_cost = 16
+redeploy_time = 80.0
+terrain_requirement = "both"
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0)])
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent0")
+talent_2 = SubResource("Talent1")
+skills = Array[ExtResource("4")]([SubResource("Skill0"), SubResource("Skill1"), SubResource("Skill2")])

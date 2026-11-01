@@ -1,0 +1,106 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_htpi8"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_yne2g"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_oh4uq"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_c56gd"]
+
+[sub_resource type="Resource" id="Resource_dn21j"]
+script = ExtResource("1_htpi8")
+trait_name = "怪杰"
+description = "每秒流失最大生命1%，不会致命，最低保留1生命；不受单位伤害系数影响。"
+effect_type = "geek"
+effect_params = {
+"life_loss_percent": 1
+}
+
+[sub_resource type="Resource" id="Resource_t1rls"]
+script = ExtResource("3_oh4uq")
+skill_name = "快速射击"
+initial_sp = 20
+sp_required = 30
+sp_recharge_type = "time"
+description = "攻击速度+100，持续30秒。"
+effect_type = "atk_spd_boost"
+effect_params = {
+"attack_mult": 1.0,
+"attack_speed_add": 100
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_xdkyu"]
+script = ExtResource("3_oh4uq")
+skill_name = "爆发剂·γ型"
+initial_sp = 25
+sp_required = 30
+sp_recharge_type = "time"
+description = "15发各500原始物理友伤，逐发经过防御、闪避、护盾及特种25%系数，可致死；攻击范围内优先正前方、再按距离选择友方普通干员，排除召唤物和装置。无目标不能开启；完整射击后自身及存活目标防御与生命上限+80%，持续30秒。"
+effect_type = "aak_defense"
+effect_params = {
+"defense_percent": 80,
+"health_percent": 80,
+"shot_attack": 500,
+"shot_count": 15
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_xew1d"]
+script = ExtResource("3_oh4uq")
+skill_name = "爆发剂·榴莲味"
+initial_sp = 30
+sp_required = 35
+sp_recharge_type = "time"
+description = "15发各500原始物理友伤，逐发经过防御、闪避、护盾及特种25%系数，可致死；攻击范围内优先正前方、再按距离选择友方普通干员，排除召唤物和装置。无目标不能开启；完整射击后自身及存活目标攻击+50%、攻速+50，持续20秒。"
+effect_type = "aak_offense"
+effect_params = {
+"attack_percent": 50,
+"attack_speed_add": 50,
+"shot_attack": 500,
+"shot_count": 15
+}
+duration = 20.0
+
+[sub_resource type="Resource" id="Resource_cecsr"]
+script = ExtResource("4_c56gd")
+talent_name = "混合药物射击"
+description = "每轮普通攻击等概率触发之一：自疗最大生命15%；本次攻击150%；目标停顿1.4秒；目标晕眩1秒。停顿打断普攻或普通治疗，每目标3秒内最多一次、最多延后0.4秒。友伤技能不触发。"
+effect_type = "mixed_drugs"
+effect_params = {
+"attack_percent": 150,
+"heal_percent": 15,
+"slow_ticks": 42,
+"stun_ticks": 30
+}
+
+[sub_resource type="Resource" id="Resource_r5ld4"]
+script = ExtResource("4_c56gd")
+talent_name = "药剂扩散"
+description = "自身受到的治疗量+20%，包括混合药物射击的自疗；不影响持续再生。"
+effect_type = "healing_received"
+effect_params = {
+"heal_percent": 120
+}
+
+[resource]
+script = ExtResource("2_yne2g")
+operator_id = "aak"
+display_name = "阿"
+profession = "特种"
+profession_id = "specialist"
+branch = "怪杰"
+max_health = 2034
+attack = 703
+defense = 152
+magic_resist = 10
+damage_type = "physical"
+attack_interval = 1.3
+block_count = 1
+initial_deploy_cost = 11
+deploy_cost = 13
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(3, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(3, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_dn21j")
+talent_1 = SubResource("Resource_cecsr")
+talent_2 = SubResource("Resource_r5ld4")
+skills = Array[ExtResource("3_oh4uq")]([SubResource("Resource_t1rls"), SubResource("Resource_xdkyu"), SubResource("Resource_xew1d")])

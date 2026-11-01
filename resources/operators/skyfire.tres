@@ -1,0 +1,82 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_pc51i"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_63sky"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_ogcgu"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_q3wdw"]
+
+[sub_resource type="Resource" id="Resource_jtq12"]
+script = ExtResource("1_pc51i")
+trait_name = "扩散术师"
+description = "普通攻击对主落点及四邻敌人造成法术伤害。"
+effect_type = "magic_splash"
+effect_params = {
+"splash_radius_squared": 1
+}
+
+[sub_resource type="Resource" id="Resource_kip6v"]
+script = ExtResource("3_ogcgu")
+skill_name = "攻击力强化·γ型"
+initial_sp = 15
+sp_required = 30
+sp_recharge_type = "time"
+description = "攻击+100%，持续30秒。"
+effect_type = "attack_up"
+effect_params = {
+"attack_mult": 2.0
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_w4wlp"]
+script = ExtResource("3_ogcgu")
+skill_name = "天坠之火"
+sp_required = 25
+sp_recharge_type = "time"
+description = "攻击间隔延长70%，每次攻击对落点周围造成240%法伤并眩晕1秒；本作溅射范围为落点自身及八邻格，落点内箱子和静止球同步受影响。"
+effect_type = "skyfire_meteor"
+effect_params = {
+"attack_interval_mult": 1.7,
+"attack_mult": 2.4,
+"splash_radius_squared": 3,
+"stun_ticks": 30
+}
+duration = 40.0
+
+[sub_resource type="Resource" id="Resource_u0alh"]
+script = ExtResource("4_q3wdw")
+talent_name = "法术狙击"
+description = "在场未沉默时，被本方存活、未眩晕、当前阻挡数大于0的地面干员四邻接敌的敌人，受到法伤+15%；本作阻挡适配，球不受影响。"
+effect_type = "blocked_magic_vulnerability"
+effect_params = {
+"damage_percent": 15
+}
+
+[sub_resource type="Resource" id="Resource_2hk2b"]
+script = ExtResource("4_q3wdw")
+talent_name = "无第二天赋"
+description = "原作仅有一个天赋，不额外添加天赋。"
+effect_type = "none"
+
+[resource]
+script = ExtResource("2_63sky")
+operator_id = "skyfire"
+display_name = "天火"
+profession = "术师"
+profession_id = "caster"
+branch = "扩散术师"
+max_health = 1620
+attack = 784
+defense = 122
+magic_resist = 20
+damage_type = "magical"
+attack_interval = 2.9
+block_count = 1
+initial_deploy_cost = 30
+deploy_cost = 33
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_jtq12")
+talent_1 = SubResource("Resource_u0alh")
+talent_2 = SubResource("Resource_2hk2b")
+skills = Array[ExtResource("3_ogcgu")]([SubResource("Resource_kip6v"), SubResource("Resource_w4wlp")])

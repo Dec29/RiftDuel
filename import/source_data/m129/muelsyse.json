@@ -1,0 +1,1240 @@
+{
+  "repository": "Kengxxiao/ArknightsGameData",
+  "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "profile": "E2 max, zero trust/potential, no module, M3",
+  "operator_id": "muelsyse",
+  "char_id": "char_249_mlyss",
+  "character": {
+    "name": "缪尔赛思",
+    "description": "可以在攻击范围内选择一次<@ba.kw>战术点</>来召唤援军，自身攻击援军阻挡的敌人时攻击力提升至150%",
+    "sortIndex": 706,
+    "spTargetType": "NONE",
+    "spTargetId": null,
+    "canUseGeneralPotentialItem": true,
+    "canUseActivityPotentialItem": false,
+    "potentialItemId": "p_char_249_mlyss",
+    "activityPotentialItemId": null,
+    "classicPotentialItemId": null,
+    "nationId": "columbia",
+    "groupId": "rhine",
+    "teamId": null,
+    "mainPower": {
+      "nationId": "columbia",
+      "groupId": "rhine",
+      "teamId": null
+    },
+    "subPower": null,
+    "displayNumber": "RL09",
+    "appellation": "Muelsyse",
+    "position": "RANGED",
+    "tagList": [
+      "费用回复",
+      "控场"
+    ],
+    "itemUsage": "莱茵生命合作干员缪尔赛思，古灵精怪的生态学家。",
+    "itemDesc": "留意些，站在你面前的，是她又不是她。",
+    "itemObtainApproach": "招募寻访",
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 5,
+    "rarity": "TIER_6",
+    "profession": "PIONEER",
+    "subProfessionId": "tactician",
+    "trait": {
+      "candidates": [
+        {
+          "unlockCondition": {
+            "phase": "PHASE_0",
+            "level": 1
+          },
+          "requiredPotentialRank": 0,
+          "blackboard": [
+            {
+              "key": "atk_scale",
+              "value": 1.5,
+              "valueStr": null
+            }
+          ],
+          "overrideDescripton": null,
+          "prefabKey": null,
+          "rangeId": null
+        }
+      ]
+    },
+    "phases": [
+      {
+        "characterPrefabKey": "char_249_mlyss",
+        "rangeId": "3-1",
+        "maxLevel": 50,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 811,
+              "atk": 210,
+              "def": 40,
+              "magicResistance": 0.0,
+              "cost": 13,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.0,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 50,
+            "data": {
+              "maxHp": 1159,
+              "atk": 309,
+              "def": 68,
+              "magicResistance": 0.0,
+              "cost": 13,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.0,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": null
+      },
+      {
+        "characterPrefabKey": "char_249_mlyss",
+        "rangeId": "3-3",
+        "maxLevel": 80,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1159,
+              "atk": 309,
+              "def": 68,
+              "magicResistance": 0.0,
+              "cost": 15,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.0,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 80,
+            "data": {
+              "maxHp": 1486,
+              "atk": 407,
+              "def": 98,
+              "magicResistance": 0.0,
+              "cost": 15,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.0,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": [
+          {
+            "id": "3211",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30022",
+            "count": 10,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30012",
+            "count": 6,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "characterPrefabKey": "char_249_mlyss",
+        "rangeId": "3-3",
+        "maxLevel": 90,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1486,
+              "atk": 407,
+              "def": 98,
+              "magicResistance": 0.0,
+              "cost": 15,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.0,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 90,
+            "data": {
+              "maxHp": 1813,
+              "atk": 497,
+              "def": 117,
+              "magicResistance": 0.0,
+              "cost": 15,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.0,
+              "respawnTime": 70,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": [
+          {
+            "id": "3213",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30125",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30094",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "skillId": "skchr_mlyss_1",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30014",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30093",
+                "count": 7,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31064",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31054",
+                "count": 8,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30145",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30044",
+                "count": 3,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skchr_mlyss_2",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30104",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30033",
+                "count": 6,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30014",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30074",
+                "count": 10,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30155",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31024",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skchr_mlyss_3",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30084",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30013",
+                "count": 7,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30044",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30094",
+                "count": 7,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30115",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30074",
+                "count": 7,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_2",
+          "level": 1
+        }
+      }
+    ],
+    "displayTokenDict": {
+      "token_10030_mlyss_wtrman": true
+    },
+    "talents": [
+      {
+        "candidates": [
+          {
+            "unlockCondition": {
+              "phase": "PHASE_0",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "净水即生命",
+            "description": "可召唤流形来复制待部署干员的少量属性（生命上限、攻击、防御、法抗、阻挡数、攻击间隔、攻击范围、伤害类型、根据近/远程位获得特殊特性）协助作战，其被击败后会在30秒后自动刷新",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "cnt",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": "token_10030_mlyss_wtrman",
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_1",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "净水即生命",
+            "description": "可召唤流形来复制待部署干员的部分属性（生命上限、攻击、防御、法抗、阻挡数、攻击间隔、攻击范围、伤害类型、根据近/远程位获得特殊特性）协助作战，其被击败后会在28秒后自动刷新",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "cnt",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": "token_10030_mlyss_wtrman",
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "净水即生命",
+            "description": "可召唤流形来复制待部署干员的大部分属性（生命上限、攻击、防御、法抗、阻挡数、攻击间隔、攻击范围、伤害类型、根据近/远程位获得特殊特性）协助作战，其被击败后会在25秒后自动刷新",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "cnt",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": "token_10030_mlyss_wtrman",
+            "isHideTalent": false
+          }
+        ]
+      },
+      {
+        "candidates": [
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "2",
+            "name": "开源节流",
+            "description": "携带时【莱茵生命】干员部署费用-2，首名【莱茵生命】干员部署费用额外-1",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "cost",
+                "value": -2.0,
+                "valueStr": null
+              },
+              {
+                "key": "runtime_cost",
+                "value": -1.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 4,
+            "prefabKey": "2",
+            "name": "开源节流",
+            "description": "携带时【莱茵生命】干员部署费用-2，首名【莱茵生命】干员部署费用额外-2<@ba.talpu>（+1）</>",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "cost",
+                "value": -2.0,
+                "valueStr": null
+              },
+              {
+                "key": "runtime_cost",
+                "value": -2.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          }
+        ]
+      }
+    ],
+    "potentialRanks": [
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "再部署时间-4秒",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "RESPAWN_TIME",
+                "formulaItem": "ADDITION",
+                "value": -4.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "攻击力+25",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "ATK",
+                "formulaItem": "ADDITION",
+                "value": 25.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "CUSTOM",
+        "description": "第二天赋效果增强",
+        "buff": null,
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      }
+    ],
+    "favorKeyFrames": [
+      {
+        "level": 0,
+        "data": {
+          "maxHp": 0,
+          "atk": 0,
+          "def": 0,
+          "magicResistance": 0.0,
+          "cost": 0,
+          "blockCnt": 0,
+          "moveSpeed": 0.0,
+          "attackSpeed": 0.0,
+          "baseAttackTime": 0.0,
+          "respawnTime": 0,
+          "hpRecoveryPerSec": 0.0,
+          "spRecoveryPerSec": 0.0,
+          "maxDeployCount": 0,
+          "maxDeckStackCnt": 0,
+          "tauntLevel": 0,
+          "massLevel": 0,
+          "baseForceLevel": 0,
+          "stunImmune": false,
+          "silenceImmune": false,
+          "sleepImmune": false,
+          "frozenImmune": false,
+          "levitateImmune": false,
+          "disarmedCombatImmune": false,
+          "fearedImmune": false,
+          "palsyImmune": false,
+          "attractImmune": false,
+          "teleportImmune": false,
+          "groundBoundImmune": false
+        }
+      },
+      {
+        "level": 50,
+        "data": {
+          "maxHp": 0,
+          "atk": 40,
+          "def": 40,
+          "magicResistance": 0.0,
+          "cost": 0,
+          "blockCnt": 0,
+          "moveSpeed": 0.0,
+          "attackSpeed": 0.0,
+          "baseAttackTime": 0.0,
+          "respawnTime": 0,
+          "hpRecoveryPerSec": 0.0,
+          "spRecoveryPerSec": 0.0,
+          "maxDeployCount": 0,
+          "maxDeckStackCnt": 0,
+          "tauntLevel": 0,
+          "massLevel": 0,
+          "baseForceLevel": 0,
+          "stunImmune": false,
+          "silenceImmune": false,
+          "sleepImmune": false,
+          "frozenImmune": false,
+          "levitateImmune": false,
+          "disarmedCombatImmune": false,
+          "fearedImmune": false,
+          "palsyImmune": false,
+          "attractImmune": false,
+          "teleportImmune": false,
+          "groundBoundImmune": false
+        }
+      }
+    ],
+    "allSkillLvlup": [
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3301",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3301",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30031",
+            "count": 6,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30041",
+            "count": 4,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30042",
+            "count": 4,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30052",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30012",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31013",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3303",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30063",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30013",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      }
+    ]
+  },
+  "base": {
+    "maxHp": 1813,
+    "atk": 497,
+    "def": 117,
+    "magicResistance": 0.0,
+    "cost": 15,
+    "blockCnt": 1,
+    "moveSpeed": 1.0,
+    "attackSpeed": 100.0,
+    "baseAttackTime": 1.0,
+    "respawnTime": 70,
+    "hpRecoveryPerSec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "maxDeployCount": 1,
+    "maxDeckStackCnt": 0,
+    "tauntLevel": 0,
+    "massLevel": 0,
+    "baseForceLevel": 0,
+    "stunImmune": false,
+    "silenceImmune": false,
+    "sleepImmune": false,
+    "frozenImmune": false,
+    "levitateImmune": false,
+    "disarmedCombatImmune": false,
+    "fearedImmune": false,
+    "palsyImmune": false,
+    "attractImmune": false,
+    "teleportImmune": false,
+    "groundBoundImmune": false
+  },
+  "talents": [
+    {
+      "unlockCondition": {
+        "phase": "PHASE_2",
+        "level": 1
+      },
+      "requiredPotentialRank": 0,
+      "prefabKey": "1",
+      "name": "净水即生命",
+      "description": "可召唤流形来复制待部署干员的大部分属性（生命上限、攻击、防御、法抗、阻挡数、攻击间隔、攻击范围、伤害类型、根据近/远程位获得特殊特性）协助作战，其被击败后会在25秒后自动刷新",
+      "rangeId": null,
+      "blackboard": [
+        {
+          "key": "cnt",
+          "value": 1.0,
+          "valueStr": null
+        }
+      ],
+      "tokenKey": "token_10030_mlyss_wtrman",
+      "isHideTalent": false
+    },
+    {
+      "unlockCondition": {
+        "phase": "PHASE_2",
+        "level": 1
+      },
+      "requiredPotentialRank": 0,
+      "prefabKey": "2",
+      "name": "开源节流",
+      "description": "携带时【莱茵生命】干员部署费用-2，首名【莱茵生命】干员部署费用额外-1",
+      "rangeId": null,
+      "blackboard": [
+        {
+          "key": "cost",
+          "value": -2.0,
+          "valueStr": null
+        },
+        {
+          "key": "runtime_cost",
+          "value": -1.0,
+          "valueStr": null
+        }
+      ],
+      "tokenKey": null,
+      "isHideTalent": false
+    }
+  ],
+  "skills": {
+    "skchr_mlyss_1": {
+      "name": "渐进性润化",
+      "rangeId": null,
+      "description": "期间逐渐回复<@ba.vup>{fake_cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，攻击速度<@ba.vup>+{attack_speed}</>",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 28,
+        "initSp": 8,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_mlyss_1",
+      "duration": 15.0,
+      "blackboard": [
+        {
+          "key": "mlyss_s_1[cost].cost",
+          "value": 1.0,
+          "valueStr": null
+        },
+        {
+          "key": "mlyss_s_1[cost].interval",
+          "value": 1.154,
+          "valueStr": null
+        },
+        {
+          "key": "atk",
+          "value": 0.5,
+          "valueStr": null
+        },
+        {
+          "key": "attack_speed",
+          "value": 50.0,
+          "valueStr": null
+        },
+        {
+          "key": "fake_cost",
+          "value": 13.0,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_mlyss_2": {
+      "name": "生态耦合",
+      "rangeId": null,
+      "description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时，每秒回复<@ba.vup>{hp_recovery_per_sec_by_max_hp_ratio:0%}</>的生命值，获得<@ba.vup>{damage_resistance:0%}</>的<$ba.protect>庇护</>，若为远程复制体时，攻击变为<@ba.vup>二</>连击，随机攻击范围内的目标",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 18,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_mlyss_2",
+      "duration": 15.0,
+      "blackboard": [
+        {
+          "key": "cost",
+          "value": 15.0,
+          "valueStr": null
+        },
+        {
+          "key": "atk",
+          "value": 0.5,
+          "valueStr": null
+        },
+        {
+          "key": "damage_resistance",
+          "value": 0.25,
+          "valueStr": null
+        },
+        {
+          "key": "hp_recovery_per_sec_by_max_hp_ratio",
+          "value": 0.05,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_mlyss_3": {
+      "name": "浅层非熵适应",
+      "rangeId": null,
+      "description": "立即获得<@ba.vup>{cost}</>点费用，自身与流形攻击力<@ba.vup>+{atk:0%}</>，若流形为近战复制体时每<@ba.vup>{mlyss_s_3[token_melee_trigger].interval}</>秒对周围八格敌人向自己中心<@ba.vup>小力度地</>拖拽并使所有阻挡的单位持续<$ba.stun>晕眩</>，若为远程复制体时刷新所有流形且攻击附带持续<@ba.vup>{mlyss_s_3[unmoveable].duration}</>秒的<$ba.root>束缚</>",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 35,
+        "initSp": 18,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_mlyss_3",
+      "duration": 15.0,
+      "blackboard": [
+        {
+          "key": "cost",
+          "value": 15.0,
+          "valueStr": null
+        },
+        {
+          "key": "atk",
+          "value": 0.5,
+          "valueStr": null
+        },
+        {
+          "key": "mlyss_s_3[token_melee_trigger].interval",
+          "value": 2.0,
+          "valueStr": null
+        },
+        {
+          "key": "mlyss_s_3[unmoveable].duration",
+          "value": 1.5,
+          "valueStr": null
+        }
+      ]
+    }
+  },
+  "ranges": {
+    "3-3": {
+      "id": "3-3",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": -1,
+          "col": 0
+        },
+        {
+          "row": -1,
+          "col": 1
+        },
+        {
+          "row": -1,
+          "col": 2
+        },
+        {
+          "row": -1,
+          "col": 3
+        }
+      ]
+    }
+  }
+}

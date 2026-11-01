@@ -1,0 +1,104 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_2uv4y"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_sndtw"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_4fekk"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_5tmbs"]
+
+[sub_resource type="Resource" id="Resource_6yifj"]
+script = ExtResource("1_2uv4y")
+trait_name = "尖兵"
+description = "能够阻挡两个敌人；本作无自主移动阻挡对象。"
+effect_type = "prioritize_blocked"
+
+[sub_resource type="Resource" id="Resource_68cba"]
+script = ExtResource("3_4fekk")
+skill_name = "冲锋号令·γ型"
+initial_sp = 20
+trigger_type = "auto"
+sp_required = 35
+sp_recharge_type = "time"
+description = "自动开启，立即获得12点部署费用。"
+effect_type = "instant_cost"
+effect_params = {
+"cost_add": 12
+}
+
+[sub_resource type="Resource" id="Resource_oveag"]
+script = ExtResource("3_4fekk")
+skill_name = "除恶"
+initial_sp = 10
+sp_required = 13
+sp_recharge_type = "time"
+description = "立即获得4费用，十字范围内最多6名地面敌人受到400%物理伤害，0.7秒后处决仍重伤的命中者并使嵯峨技力+2。可充能3次，可选择重伤者；无敌人时攻击范围内箱子→静止球一次。"
+effect_type = "saga_purge"
+effect_params = {
+"attack_mult": 4.0,
+"charge_count": 3,
+"cost_add": 4,
+"execute_delay_ticks": 21,
+"target_count": 6
+}
+attack_range_override = Array[Vector2i]([Vector2i(0, -2), Vector2i(0, -1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(0, 1), Vector2i(0, 2)])
+
+[sub_resource type="Resource" id="Resource_mfpqc"]
+script = ExtResource("3_4fekk")
+skill_name = "怒目"
+initial_sp = 28
+sp_required = 40
+sp_recharge_type = "time"
+description = "攻击+130%，攻击间隔增加0.5秒，范围向前延伸一格，20秒内每秒获得1费用。攻击最多当前阻挡数的范围内敌人；对本轮攻击前生命低于50%的目标追加一段攻击。无敌人时攻击箱子→静止球一次。"
+effect_type = "saga_fury"
+effect_params = {
+"attack_interval_add": 0.5,
+"attack_mult": 2.3,
+"total_cost": 20
+}
+duration = 20.0
+attack_range_override = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0)])
+
+[sub_resource type="Resource" id="Resource_f3nbl"]
+script = ExtResource("4_5tmbs")
+talent_name = "劝善"
+description = "致命伤害保留敌人1血并重伤10秒，嵯峨普攻跳过重伤者。本作重伤：攻速降低80%（最终攻速乘20%），阻挡0、禁治疗和持续回复，允许攻击技能及外力推拉；其他来源击杀使击杀者技力+2，技能生效时不获得，自然死亡无奖励。"
+effect_type = "critical_wound"
+effect_params = {
+"attack_speed_remaining_percent": 20,
+"duration_ticks": 300,
+"sp_add": 2
+}
+
+[sub_resource type="Resource" id="Resource_h1jrt"]
+script = ExtResource("4_5tmbs")
+talent_name = "清明"
+description = "每次部署生命首次低于40%时，获得70%物理闪避并每秒回复5%最大生命，持续15秒；回复按本作50%折算，沉默期间效果暂停、计时继续。"
+effect_type = "saga_focus"
+effect_params = {
+"dodge_percent": 70,
+"duration_ticks": 450,
+"hp_threshold_percent": 40,
+"regen_health_percent": 5
+}
+
+[resource]
+script = ExtResource("2_sndtw")
+operator_id = "saga"
+display_name = "嵯峨"
+profession = "先锋"
+profession_id = "vanguard"
+branch = "尖兵"
+max_health = 2205
+attack = 530
+defense = 372
+damage_type = "physical"
+attack_interval = 1.05
+block_count = 2
+initial_deploy_cost = 12
+deploy_cost = 14
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_6yifj")
+talent_1 = SubResource("Resource_f3nbl")
+talent_2 = SubResource("Resource_h1jrt")
+skills = Array[ExtResource("3_4fekk")]([SubResource("Resource_68cba"), SubResource("Resource_oveag"), SubResource("Resource_mfpqc")])

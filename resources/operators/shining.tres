@@ -1,0 +1,92 @@
+[gd_resource type="Resource" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "医师"
+description = "恢复一名友方单位的生命，优先生命比例最低者"
+effect_type = "single_target_heal"
+effect_params = {}
+
+[sub_resource type="Resource" id="Talent1"]
+script = ExtResource("3")
+talent_name = "黑恶魔的庇护"
+description = "攻击范围内友方单位防御力+60"
+effect_type = "defense_flat_aura"
+effect_params = {"defense_add": 60}
+
+[sub_resource type="Resource" id="Talent2"]
+script = ExtResource("3")
+talent_name = "法典"
+description = "自身攻击速度+10"
+effect_type = "attack_speed_buff"
+effect_params = {"attack_speed_add": 10}
+
+[sub_resource type="Resource" id="Skill1"]
+script = ExtResource("4")
+initial_sp = 20
+trigger_type = "manual"
+skill_name = "信条"
+description = "攻击力+80%，攻击速度+20"
+sp_required = 40
+sp_recharge_type = "time"
+effect_type = "atk_spd_boost"
+effect_params = {"attack_mult": 1.8, "attack_speed_add": 20}
+duration = 20.0
+
+[sub_resource type="Resource" id="Skill2"]
+script = ExtResource("4")
+initial_sp = 0
+trigger_type = "auto"
+skill_name = "自动掩护"
+description = "下次实际治疗消耗一份充能，目标获得攻击力50%的全伤害屏障和防御+50%，独立持续3秒；屏障量叠加、先生成先消耗，防御不叠加且耗尽后保留至到期；可充能3次。"
+sp_required = 5
+sp_recharge_type = "time"
+effect_type = "heal_barrier"
+effect_params = {"charge_count": 3, "shield_attack_percent": 50, "defense_percent": 50, "barrier_duration_ticks": 90}
+duration = 0.0
+
+[sub_resource type="Resource" id="Skill3"]
+script = ExtResource("4")
+initial_sp = 115
+trigger_type = "manual"
+skill_name = "教条力场"
+description = "攻击力+50%，攻击范围内全体友方防御力+100%，含自身，持续60秒。"
+sp_required = 120
+sp_recharge_type = "time"
+effect_type = "heal_defense_aura"
+effect_params = {"attack_mult": 1.5, "defense_percent": 100}
+duration = 60.0
+
+[resource]
+script = ExtResource("1")
+operator_id = "shining"
+race_id = "sarkaz"
+display_name = "闪灵"
+profession = "医疗"
+profession_id = "medic"
+branch = "医师"
+max_health = 1613
+attack = 530
+defense = 138
+magic_resist = 0
+damage_type = "healing"
+attack_interval = 2.85
+block_count = 1
+initial_deploy_cost = 18
+deploy_cost = 20
+redeploy_time = 70.0
+dodge_physical = 0
+dodge_magical = 0
+attack_range = Array[Vector2i]([Vector2i(0,-1),Vector2i(0,0),Vector2i(0,1),Vector2i(1,-1),Vector2i(1,0),Vector2i(1,1),Vector2i(2,-1),Vector2i(2,0),Vector2i(2,1),Vector2i(3,-1),Vector2i(3,0),Vector2i(3,1)])
+terrain_requirement = "high"
+ignore_deploy_line = false
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent1")
+talent_2 = SubResource("Talent2")
+skills = Array[ExtResource("4")]([SubResource("Skill1"),SubResource("Skill2"),SubResource("Skill3")])
+equipped_skill_index = 0

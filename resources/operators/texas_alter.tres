@@ -1,0 +1,107 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_gkdai"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_6lfxj"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_wwkvf"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_j6v8v"]
+
+[sub_resource type="Resource" id="Resource_k0sv8"]
+script = ExtResource("1_gkdai")
+trait_name = "处决者"
+description = "快速再部署18秒；依统一阻挡关系可攻击自身阻挡的目标。"
+effect_type = "fast_redeploy"
+
+[sub_resource type="Resource" id="Resource_3s2en"]
+script = ExtResource("3_wwkvf")
+skill_name = "细雨无声"
+trigger_type = "passive"
+sp_recharge_type = "passive"
+description = "部署12秒攻击+70%，攻击施加10秒沉默与每秒400法伤；持续伤害独立保留到来源离场后。"
+effect_type = "texas_silence"
+effect_params = {
+"attack_mult": 1.7,
+"dot_damage": 400,
+"dot_duration_ticks": 300,
+"dot_interval_ticks": 30,
+"silence_ticks": 300
+}
+duration = 12.0
+
+[sub_resource type="Resource" id="Resource_3ec8i"]
+script = ExtResource("3_wwkvf")
+skill_name = "阵雨连绵"
+trigger_type = "passive"
+sp_recharge_type = "passive"
+description = "部署范围240%法伤，命中赋予10秒30%法抗削弱；攻击+55%、二连法术攻击。"
+effect_type = "texas_arts"
+effect_params = {
+"attack_mult": 1.55,
+"burst_attack_mult": 2.4,
+"resist_duration_ticks": 300,
+"resist_remaining_percent": 70
+}
+duration = 10.0
+burst_range_override = Array[Vector2i]([Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1)])
+
+[sub_resource type="Resource" id="Resource_6bioj"]
+script = ExtResource("3_wwkvf")
+skill_name = "剑雨滂沱"
+trigger_type = "passive"
+sp_recharge_type = "passive"
+description = "部署两次范围165%法伤、晕2秒；初次剑雨量化20tick，后续每秒释放最多四个不同目标130%法伤、晕0.2秒，落下延迟由模拟RNG抽0至9tick。"
+effect_type = "texas_alter_rain"
+effect_params = {
+"attack_mult": 1.0,
+"burst_attack_mult": 1.65,
+"burst_stun_ticks": 60,
+"first_rain_ticks": 20,
+"rain_attack_mult": 1.3,
+"rain_delay_max_ticks": 9,
+"rain_interval_ticks": 30,
+"rain_stun_ticks": 6,
+"target_count": 4
+}
+duration = 8.0
+burst_range_override = Array[Vector2i]([Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1)])
+
+[sub_resource type="Resource" id="Resource_j1q7v"]
+script = ExtResource("4_j6v8v")
+talent_name = "德克萨斯传统"
+description = "被动技能期间攻击+20%；每次部署首次击杀全生命重置并再释放被动技能，不能释放时保留机会。"
+effect_type = "texas_tradition"
+effect_params = {
+"attack_percent": 20
+}
+
+[sub_resource type="Resource" id="Resource_4duax"]
+script = ExtResource("4_j6v8v")
+talent_name = "德克萨斯剑术"
+description = "每次部署首次击杀前攻速+8，受到所有伤害降低25%。"
+effect_type = "texas_swordsmanship"
+effect_params = {
+"attack_speed_add": 8,
+"damage_remaining_percent": 75
+}
+
+[resource]
+script = ExtResource("2_6lfxj")
+operator_id = "texas_alter"
+display_name = "缄默德克萨斯"
+profession = "特种"
+profession_id = "specialist"
+branch = "处决者"
+max_health = 1598
+attack = 569
+defense = 320
+damage_type = "physical"
+attack_interval = 0.93
+block_count = 1
+initial_deploy_cost = 8
+deploy_cost = 10
+redeploy_time = 18.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_k0sv8")
+talent_1 = SubResource("Resource_j1q7v")
+talent_2 = SubResource("Resource_4duax")
+skills = Array[ExtResource("3_wwkvf")]([SubResource("Resource_3s2en"), SubResource("Resource_3ec8i"), SubResource("Resource_6bioj")])

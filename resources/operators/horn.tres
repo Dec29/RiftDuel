@@ -1,0 +1,86 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="trait"]
+script = ExtResource("2")
+trait_name = "要塞"
+description = "远程攻击造成范围物理伤害；自身格近战攻击为单体，远程范围前方存在盲区"
+effect_type = "fortress"
+effect_params = {"splash_radius_squared":1}
+
+[sub_resource type="Resource" id="talent1"]
+script = ExtResource("3")
+talent_name = "军事要塞"
+description = "在场时所有友方重装干员攻击力+20%，包含自身"
+effect_type = "attack_aura"
+effect_params = {"profession_id":"defender","attack_percent":20}
+
+[sub_resource type="Resource" id="talent2"]
+script = ExtResource("3")
+talent_name = "血战"
+description = "每次部署首次致命伤后生命上限最终乘50%，生命恢复到新上限；攻击速度+18、防御力+18%"
+effect_type = "bloodbath"
+effect_params = {"max_health_percent":50,"attack_speed_add":18,"defense_percent":18}
+
+[sub_resource type="Resource" id="skill"]
+script = ExtResource("4")
+initial_sp = 0
+trigger_type = "attack"
+skill_name = "照明榴弹"
+description = "下次攻击造成280%攻击力的物理伤害；远程爆炸扩大至八邻格；可充能2次。远程照明8秒反隐/反迷彩，本作无适用对象"
+effect_type = "fortress_charge_shot"
+effect_params = {"attack_mult":2.8,"charge_count":2,"splash_radius_squared":2}
+sp_required = 5
+sp_recharge_type = "time"
+
+[sub_resource type="Resource" id="skill2"]
+script = ExtResource("4")
+skill_name = "暴风号令"
+initial_sp = 18
+sp_required = 25
+sp_recharge_type = "time"
+trigger_type = "manual"
+duration = -1.0
+effect_type = "fortress_ammo"
+effect_params = {"attack_mult": 2.4, "magic_attack_percent": 60, "ammo_count": 10, "overload_ammo": 5, "hp_loss_percent": 60}
+description = "每次攻击造成240%物理溅射伤害，拥有10枚弹药。剩余5枚起额外造成60%法术溅射；过载时主动关闭倾泻剩余弹药并流失当前生命60%，可随时关闭。"
+
+[sub_resource type="Resource" id="skill3"]
+script = ExtResource("4")
+skill_name = "终极防线"
+initial_sp = 25
+sp_required = 35
+sp_recharge_type = "time"
+trigger_type = "manual"
+duration = 24.0
+effect_type = "fortress_overload"
+effect_params = {"attack_mult": 1.7, "overload_attack_mult": 2.4, "attack_interval_add": -1.8, "overload_ticks": 360, "hp_loss_interval_ticks": 6, "hp_loss_max_percent": 12}
+description = "攻击力+70%，攻击间隔缩短1.8秒；12秒后过载，攻击力改为+140%，每0.2秒结算线性增长失血，过载12秒达到最大生命12%/秒。可随时关闭。"
+
+[resource]
+script = ExtResource("1")
+operator_id = "horn"
+profession = "重装"
+profession_id = "defender"
+branch = "要塞"
+max_health = 3067
+attack = 936
+defense = 620
+magic_resist = 0
+damage_type = "physical"
+block_count = 3
+initial_deploy_cost = 24
+deploy_cost = 28
+redeploy_time = 70
+display_name = "号角"
+attack_interval = 2.8
+terrain_requirement = "ground"
+attack_range = Array[Vector2i]([Vector2i(3, -1), Vector2i(3, 0), Vector2i(3, 1), Vector2i(4, -1), Vector2i(4, 0), Vector2i(4, 1), Vector2i(5, 0)])
+branch_trait = SubResource("trait")
+talent_1 = SubResource("talent1")
+talent_2 = SubResource("talent2")
+skills = Array[ExtResource("4")]([SubResource("skill"), SubResource("skill2"), SubResource("skill3")])

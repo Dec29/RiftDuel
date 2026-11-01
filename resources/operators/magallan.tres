@@ -1,0 +1,99 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_yotjy"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_7wnqv"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_6755k"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_86yxy"]
+
+[sub_resource type="Resource" id="Resource_4si7x"]
+script = ExtResource("1_yotjy")
+trait_name = "召唤师"
+description = "攻击造成法术伤害，可使用随携带技能变化的无人机协助作战。"
+effect_type = "summoner"
+
+[sub_resource type="Resource" id="Resource_g1e63"]
+script = ExtResource("3_6755k")
+skill_name = "高效制冷模块"
+initial_sp = 20
+sp_required = 30
+sp_recharge_type = "time"
+description = "被动：自身和龙腾.F范围内敌人每3秒获得1秒停顿标记；主动15秒，脉冲改为2.5秒束缚标记，结束回收全部在场无人机。停顿每目标3秒内最多打断一次普攻或普通治疗、最多延后0.4秒；束缚禁普攻和普通治疗，不续期且结束后免疫1秒；均不阻止外力推拉，本体仍可普通攻击。"
+effect_type = "magallan_cooling"
+effect_params = {
+"bind_ticks": 75,
+"pulse_ticks": 90,
+"slow_ticks": 30
+}
+duration = 15.0
+
+[sub_resource type="Resource" id="Resource_m6h44"]
+script = ExtResource("3_6755k")
+skill_name = "激光开采模块"
+initial_sp = 25
+sp_required = 38
+sp_recharge_type = "time"
+description = "携带龙腾.L，按本作适配攻击自身格及朝向前方一格的敌人、箱子或球；主动15秒，本体及其无人机攻速+150，无人机对主目标及其四邻造成群体法术伤害，结束回收在场无人机。"
+effect_type = "magallan_laser"
+effect_params = {
+"attack_speed_add": 150,
+"splash_radius_squared": 1
+}
+duration = 15.0
+
+[sub_resource type="Resource" id="Resource_pcy5q"]
+script = ExtResource("3_6755k")
+skill_name = "武装打击模块"
+initial_sp = 25
+sp_required = 38
+sp_recharge_type = "time"
+description = "携带高台龙腾.A进行群体物理攻击；主动15秒，本体和其无人机攻击力+150%，无人机爆炸半径由0.75扩大至1.25格（整数格距从落点格扩大到四邻），结束回收在场无人机。"
+effect_type = "magallan_artillery"
+effect_params = {
+"attack_percent": 150,
+"splash_radius_squared": 1
+}
+duration = 15.0
+
+[sub_resource type="Resource" id="Resource_0kw4d"]
+script = ExtResource("4_86yxy")
+talent_name = "支援无人机·龙腾"
+description = "本局初始5架库存，最多同时部署3架，不占普通编队槽；技能结束回收在场无人机并返还库存，击毁／手动撤退不返还，本体离场无人机一并退场。"
+effect_type = "drone_supply"
+effect_params = {
+"max_count": 3,
+"stock_count": 5
+}
+
+[sub_resource type="Resource" id="Resource_vpxho"]
+script = ExtResource("4_86yxy")
+talent_name = "光学折射配件"
+description = "无人机部署后的20秒内隐匿，不能成为敌方直接攻击目标；范围伤害仍可命中，银灰攻击范围内可反隐。"
+effect_type = "drone_concealment"
+effect_params = {
+"hidden_ticks": 600
+}
+
+[resource]
+script = ExtResource("2_7wnqv")
+group_id = "rhine"
+operator_id = "magallan"
+display_name = "麦哲伦"
+profession = "辅助"
+profession_id = "supporter"
+branch = "召唤师"
+max_health = 1103
+attack = 469
+defense = 140
+magic_resist = 20
+damage_type = "magical"
+attack_interval = 1.6
+block_count = 1
+initial_deploy_cost = 10
+deploy_cost = 12
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_4si7x")
+talent_1 = SubResource("Resource_0kw4d")
+talent_2 = SubResource("Resource_vpxho")
+skills = Array[ExtResource("3_6755k")]([SubResource("Resource_g1e63"), SubResource("Resource_m6h44"), SubResource("Resource_pcy5q")])

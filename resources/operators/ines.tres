@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="skill"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="trait"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="talent"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="operator"]
+
+[sub_resource type="Resource" id="trait"]
+script = ExtResource("trait")
+trait_name = "情报官"
+description = "再部署时间减少，可使用远程攻击"
+effect_type = "agent"
+effect_params = {}
+
+[sub_resource type="Resource" id="talent0"]
+script = ExtResource("talent")
+talent_name = "影织"
+description = "对每个敌人首次造成伤害后，使目标束缚5秒并偷取其90点攻击力（持续至目标被击倒或伊内丝离场）"
+effect_type = "ines_first_strike"
+effect_params = {"attack_steal": 90,"attack_limit": 18000,"bind_ticks": 150}
+
+[sub_resource type="Resource" id="talent1"]
+script = ExtResource("talent")
+talent_name = "影哨"
+description = "攻击范围内敌人的隐匿效果失效且移动速度-30%，撤退后留下一个影哨使该效果持续生效（最多1个）"
+effect_type = "ines_shadow"
+effect_params = {"speed_reduce": 30}
+
+[sub_resource type="Resource" id="skill0"]
+script = ExtResource("skill")
+skill_name = "淬影突袭"
+initial_sp = 3
+sp_required = 3
+sp_recharge_type = "on_hit"
+trigger_type = "attack"
+description = "下一次攻击使目标3秒内每秒受到当前攻击力80%的法术伤害，不叠加；获得2费用。"
+effect_type = "ines_bleed"
+effect_params = {"attack_mult": 1.0,"cost_add": 2,"dot_attack_percent": 80,"dot_ticks": 90}
+duration = 0.0
+attack_range_override = Array[Vector2i]([])
+
+[sub_resource type="Resource" id="skill1"]
+script = ExtResource("skill")
+skill_name = "暗夜无明"
+initial_sp = 15
+sp_required = 20
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "12秒内攻击力+110%，范围扩大并隐匿；每次攻击获得1费用并偷取目标7攻速，最多70，技能结束归还。"
+effect_type = "ines_night"
+effect_params = {"attack_mult": 2.1,"cost_add": 1,"speed_steal": 7,"speed_limit": 70}
+duration = 12.0
+attack_range_override = Array[Vector2i]([Vector2i(1,1),Vector2i(2,1),Vector2i(0,0),Vector2i(1,0),Vector2i(2,0),Vector2i(3,0),Vector2i(1,-1),Vector2i(2,-1)])
+
+[sub_resource type="Resource" id="skill2"]
+script = ExtResource("skill")
+skill_name = "独影归途"
+initial_sp = 0
+sp_required = 0
+sp_recharge_type = "passive"
+trigger_type = "passive"
+description = "首次部署不耗费，留下固定影哨并立即离场、刷新再部署；后续部署16秒攻击+160%，影哨沿直线回收命中最多6敌人造成200%物理伤害，期间每次对敌人造成伤害获得1费用。"
+effect_type = "ines_recall"
+effect_params = {"attack_mult": 2.6,"cost_add": 1,"recall_attack_mult": 2.0,"target_count": 6}
+duration = 16.0
+attack_range_override = Array[Vector2i]([])
+
+[resource]
+script = ExtResource("operator")
+operator_id = "ines"
+display_name = "伊内丝"
+profession = "先锋"
+profession_id = "vanguard"
+branch = "情报官"
+max_health = 2121
+attack = 589
+defense = 281
+magic_resist = 0
+damage_type = "physical"
+attack_interval = 1.0
+block_count = 1
+initial_deploy_cost = 9
+deploy_cost = 11
+redeploy_time = 35.0
+attack_range = Array[Vector2i]([Vector2i(0,0),Vector2i(1,0),Vector2i(2,0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("trait")
+talent_1 = SubResource("talent0")
+talent_2 = SubResource("talent1")
+skills = Array[ExtResource("skill")]([SubResource("skill0"),SubResource("skill1"),SubResource("skill2")])

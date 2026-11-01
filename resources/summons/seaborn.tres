@@ -1,0 +1,51 @@
+[gd_resource type="Resource" format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "斯卡蒂的海嗣"
+description = "不攻击、不挡球、不可受伤；25秒寿命，本体离场一起退场；离场后独立30秒冷却。"
+effect_type = "seaborn"
+effect_params = {"lifetime_ticks": 750}
+
+[sub_resource type="Resource" id="Talent"]
+script = ExtResource("3")
+talent_name = "无独立天赋"
+description = "本体范围的延伸，不单独提供技能或台词。"
+effect_type = "none"
+
+[sub_resource type="Resource" id="Skill"]
+script = ExtResource("4")
+trigger_type = "passive"
+skill_name = "无主动技能"
+sp_recharge_type = "passive"
+description = "斯卡蒂的海嗣不攻击，也不释放技能"
+effect_type = "no_skill"
+
+[resource]
+script = ExtResource("1")
+operator_id = "seaborn"
+display_name = "斯卡蒂的海嗣"
+profession = "召唤物"
+profession_id = "summon"
+branch = "浊心斯卡蒂召唤物"
+max_health = 100
+attack = 100
+defense = 0
+magic_resist = 0
+damage_type = "physical"
+attack_interval = 1.0
+block_count = 0
+deploy_cost = 5
+redeploy_time = 30.0
+dodge_physical = 0
+attack_range = Array[Vector2i]([Vector2i(-1,-1),Vector2i(0,-1),Vector2i(1,-1),Vector2i(-1,0),Vector2i(0,0),Vector2i(1,0),Vector2i(-1,1),Vector2i(0,1),Vector2i(1,1)])
+terrain_requirement = "both"
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent")
+talent_2 = SubResource("Talent")
+skills = Array[ExtResource("4")]([SubResource("Skill")])

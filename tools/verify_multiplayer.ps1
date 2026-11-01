@@ -2,7 +2,7 @@ param(
     [switch]$Graphics,
     [int]$DelayMs = 0,
     [ValidateSet("battle", "endurance")][string]$Mode = "battle",
-    [int]$Ticks = 9000,
+    [int]$Ticks = 6750,
     [int]$Port = 24790,
     [string]$Executable = "",
     [string]$Endpoint = ""
@@ -13,6 +13,7 @@ $ProjectRoot = Split-Path -Parent (Split-Path -Parent $MyInvocation.MyCommand.Pa
 $CaseDirectory = Join-Path $ProjectRoot (".godot\net-qa-" + [Guid]::NewGuid().ToString("N"))
 New-Item -ItemType Directory -Path $CaseDirectory | Out-Null
 $TracePrefix = (Join-Path $CaseDirectory "peer").Replace("\", "/")
+$ExpectedOperators = @(Get-ChildItem -LiteralPath (Join-Path $ProjectRoot "resources/operators") -File -Filter "*.tres").Count
 $Processes = @()
 $OverallCode = 1
 $Runtime = $Godot
@@ -57,7 +58,7 @@ try {
     }
     $HostResult = Get-Content -LiteralPath ($TracePrefix + "_host.json") -Raw | ConvertFrom-Json
     $ClientResult = Get-Content -LiteralPath ($TracePrefix + "_client.json") -Raw | ConvertFrom-Json
-    if ($HostResult.build -ne $ClientResult.build -or $HostResult.build.Length -ne 64 -or $HostResult.operators -ne 8 -or $ClientResult.operators -ne 8) {
+    if ($HostResult.build -ne $ClientResult.build -or $HostResult.build.Length -ne 64 -or $HostResult.operators -ne $ExpectedOperators -or $ClientResult.operators -ne $ExpectedOperators) {
         throw "Build fingerprint or operator resource validation failed."
     }
     if ($HostResult.tick -ne $ClientResult.tick -or $HostResult.hash -ne $ClientResult.hash -or $HostResult.result -ne $ClientResult.result) {

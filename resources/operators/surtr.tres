@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_i1jeg"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_r8ont"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_61nmm"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_yylml"]
+
+[sub_resource type="Resource" id="Resource_k0pt8"]
+script = ExtResource("1_i1jeg")
+trait_name = "术战者"
+description = "攻击造成法术伤害"
+effect_type = "magical_attack"
+
+[sub_resource type="Resource" id="Resource_hhfri"]
+script = ExtResource("3_61nmm")
+skill_name = "烈焰魔剑"
+trigger_type = "attack"
+sp_required = 2
+sp_recharge_type = "on_hit"
+description = "下次攻击为310%攻击力法伤；该击击倒敌人时回满技力。"
+effect_type = "kill_refund_strike"
+effect_params = {
+"attack_mult": 3.1
+}
+
+[sub_resource type="Resource" id="Resource_p2ml8"]
+script = ExtResource("3_61nmm")
+skill_name = "熔核巨影"
+initial_sp = 12
+sp_required = 18
+sp_recharge_type = "time"
+description = "18秒攻击+120%、攻击距离+1、最多攻击2名敌人；仅有1名敌人时，该击攻击力再乘160%。"
+effect_type = "dual_arts_boost"
+effect_params = {
+"attack_mult": 2.2,
+"single_target_percent": 160,
+"target_count": 2
+}
+duration = 18.0
+attack_range_override = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0)])
+
+[sub_resource type="Resource" id="Resource_rkw57"]
+script = ExtResource("3_61nmm")
+skill_name = "黄昏"
+sp_required = 5
+sp_recharge_type = "time"
+description = "立即增加5000生命上限并回满生命，攻击+330%、距离+2、最多攻击4名敌人，无限持续；每0.2秒流失生命，60秒线性增长至每秒最大生命20%，触发余烬后8秒强制退场。"
+effect_type = "twilight"
+effect_params = {
+"attack_mult": 4.3,
+"loss_max_percent": 20,
+"loss_pulse_ticks": 6,
+"max_health_add": 5000,
+"ramp_ticks": 1800,
+"target_count": 4
+}
+duration = -1.0
+attack_range_override = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0)])
+
+[sub_resource type="Resource" id="Resource_i3dho"]
+script = ExtResource("4_yylml")
+talent_name = "熔火"
+description = "无视攻击目标20法术抗性"
+effect_type = "flat_resist_penetration"
+effect_params = {
+"resist_ignore": 20
+}
+
+[sub_resource type="Resource" id="Resource_dyaaq"]
+script = ExtResource("4_yylml")
+talent_name = "余烬"
+description = "受到致命伤害时持续使生命值不低于1，8秒后强制退出战场"
+effect_type = "fatal_delay"
+effect_params = {
+"duration_ticks": 240
+}
+
+[resource]
+script = ExtResource("2_r8ont")
+operator_id = "surtr"
+display_name = "史尔特尔"
+profession = "近卫"
+profession_id = "guard"
+branch = "术战者"
+race_id = "sarkaz"
+max_health = 2916
+attack = 672
+defense = 414
+magic_resist = 15
+damage_type = "magical"
+attack_interval = 1.25
+block_count = 1
+initial_deploy_cost = 19
+deploy_cost = 21
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_k0pt8")
+talent_1 = SubResource("Resource_i3dho")
+talent_2 = SubResource("Resource_dyaaq")
+skills = Array[ExtResource("3_61nmm")]([SubResource("Resource_hhfri"), SubResource("Resource_p2ml8"), SubResource("Resource_rkw57")])

@@ -58,9 +58,11 @@ func _run() -> void:
 	await process_frame
 	if not _check(current_scene.scene_file_path == "res://view/start_menu.tscn" and not paused, "Result home must open unpaused start menu"):
 		return
-	var session := NetSession.new()
+	var session := NetSession.new(Engine.get_main_loop().root.get_node("OperatorDB").network_content())
 	root.add_child(session)
 	session.phase = "loading"
+	session.round_number=1
+	session.match_rules=MatchRules.new()
 	var network_battle = load("res://main.tscn").instantiate()
 	network_battle.session = session
 	var menu := current_scene
@@ -92,12 +94,16 @@ func _run() -> void:
 	_click(network_battle.match_view, network_battle.match_view._result_room_rect().get_center())
 	await process_frame
 	await process_frame
-	if not _check(current_scene.scene_file_path == "res://lobby.tscn" and current_scene.session.phase == "idle" and not is_instance_valid(session), "Return room must dispose old connection and open fresh room entry"):
+	if not _check(current_scene.scene_file_path == "res://lobby.tscn" and current_scene.session.phase == "idle" and not is_instance_valid(session), "After peer departure return must dispose disconnected session and open pairing"):
 		return
+	if not _check(current_scene.session is RelaySession, "Returned room defaults to a fresh internet session"):
+		return
+	current_scene.get_node("RoomView/Center/Panel/Mode").select(1)
+	current_scene.get_node("RoomView/Center/Panel/Mode").item_selected.emit(1)
 	current_scene.get_node("RoomView/Center/Panel/Create").pressed.emit()
 	if not _check(current_scene.session.phase == "hosting", "Returned room must be able to create again"):
 		return
-	current_scene.get_node("RoomView/Center/Panel/Back").pressed.emit()
+	current_scene.get_node("RoomView/Center/Panel/Footer/Back").pressed.emit()
 	await process_frame
 	await process_frame
 	current_scene.get_node("Menu/SinglePlayer").pressed.emit()
@@ -105,7 +111,7 @@ func _run() -> void:
 	await process_frame
 	if not _check(current_scene.match_state.result == 0 and current_scene.match_state.tick < 30, "New match must reset previous result and time"):
 		return
-	print("Result view OK: draw/freeze, blocked input, home, verification gate, fresh room and new match")
+	print("Result view OK: draw/freeze, blocked input, home, verification gate, pairing after peer departure and new match")
 	quit(0)
 
 func _click(view: MatchView, point: Vector2) -> void:

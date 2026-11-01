@@ -1,0 +1,50 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="trait"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="talent"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="skill"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="op"]
+[sub_resource type="Resource" id="trait"]
+script = ExtResource("trait")
+trait_name = "机动盾牌"
+description = "不攻击，不能接受直接治疗；阻挡2、嘲讽+1，绑定本体离场时退场。"
+effect_type = "jessica_shield"
+effect_params = {"taunt_level":1}
+[sub_resource type="Resource" id="none"]
+script = ExtResource("talent")
+talent_name = "无"
+description = "效果由绑定本体和召唤物特性结算。"
+effect_type = "none"
+effect_params = {}
+[sub_resource type="Resource" id="skill"]
+script = ExtResource("skill")
+skill_name = "无独立技能"
+initial_sp = 0
+sp_required = 0
+trigger_type = "passive"
+sp_recharge_type = "passive"
+description = "由本体携带技能提供强化，无独立技能。"
+effect_type = "no_skill"
+effect_params = {}
+duration = 0.0
+[resource]
+script = ExtResource("op")
+operator_id = "jessica_shield"
+display_name = "机动盾牌"
+profession = "召唤物"
+profession_id = "summon"
+branch = "机动盾牌"
+max_health = 3802
+attack = 0
+defense = 755
+magic_resist = 0
+block_count = 2
+deploy_cost = 5
+redeploy_time = 30.0
+damage_type = "physical"
+attack_interval = 1.0
+terrain_requirement = "ground"
+attack_range = Array[Vector2i]([Vector2i(0,0)])
+branch_trait = SubResource("trait")
+talent_1 = SubResource("none")
+talent_2 = SubResource("none")
+skills = Array[ExtResource("skill")]([SubResource("skill")])

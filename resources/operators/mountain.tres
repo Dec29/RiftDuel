@@ -1,0 +1,105 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_a1eiw"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_n5hrq"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_t5m7k"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_jsb3a"]
+
+[sub_resource type="Resource" id="Resource_pfrst"]
+script = ExtResource("1_a1eiw")
+trait_name = "斗士"
+description = "能够阻挡一个敌人"
+effect_type = "prioritize_blocked"
+
+[sub_resource type="Resource" id="Resource_1dtlf"]
+script = ExtResource("3_t5m7k")
+skill_name = "左勾扫拳"
+trigger_type = "attack"
+sp_required = 3
+sp_recharge_type = "on_hit"
+description = "下次攻击为230%攻击力并额外攻击1个敌人。"
+effect_type = "blue_double"
+effect_params = {
+"attack_mult": 2.3,
+"target_count": 2
+}
+
+[sub_resource type="Resource" id="Resource_tijgx"]
+script = ExtResource("3_t5m7k")
+skill_name = "横扫架势"
+sp_required = 5
+sp_recharge_type = "time"
+description = "切换姿态：防御-20%、攻击+80%、阻挡+1，范围缩至自身格；按本作统一阻挡判定攻击自身阻挡的最多当前阻挡数敌人，每秒恢复最大生命7%。"
+effect_type = "fighter_stance"
+effect_params = {
+"attack_mult": 1.8,
+"block_count_add": 1,
+"defense_mult": 0.8,
+"regen_health_percent": 7
+}
+duration = -1.0
+attack_range_override = Array[Vector2i]([Vector2i(0, 0)])
+
+[sub_resource type="Resource" id="Resource_ibe57"]
+script = ExtResource("3_t5m7k")
+skill_name = "震地碎岩击"
+initial_sp = 25
+sp_required = 40
+sp_recharge_type = "time"
+description = "30秒攻击+100%、基础间隔+0.7秒；每次对范围内最多4名敌人各攻击2次并中等力度推开；天赋触发率75%。范围内箱子和静止球独立承受两次效果。"
+effect_type = "fighter_barrage"
+effect_params = {
+"attack_interval_add": 0.7,
+"attack_mult": 2.0,
+"shift_force": 2,
+"shot_count": 2,
+"talent_chance_percent": 75,
+"target_count": 4
+}
+duration = 30.0
+attack_range_override = Array[Vector2i]([Vector2i(0, -1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(0, 1)])
+
+[sub_resource type="Resource" id="Resource_8dgy3"]
+script = ExtResource("4_jsb3a")
+talent_name = "巨力重拳"
+description = "攻击时有20%的几率攻击力提升至160%，并在3秒内使目标攻击力降低15%（不可叠加）"
+effect_type = "attack_weaken_proc"
+effect_params = {
+"attack_percent": 160,
+"attack_remaining_percent": 85,
+"chance_percent": 20,
+"duration_ticks": 90
+}
+
+[sub_resource type="Resource" id="Resource_hetpr"]
+script = ExtResource("4_jsb3a")
+talent_name = "强壮肉体"
+description = "防御力+10%，获得15%的物理闪避"
+effect_type = "defense_dodge"
+effect_params = {
+"defense_percent": 10,
+"dodge_percent": 15
+}
+
+[resource]
+script = ExtResource("2_n5hrq")
+operator_id = "mountain"
+display_name = "山"
+profession = "近卫"
+profession_id = "guard"
+branch = "斗士"
+max_health = 2745
+attack = 587
+defense = 357
+damage_type = "physical"
+attack_interval = 0.78
+block_count = 1
+initial_deploy_cost = 9
+deploy_cost = 11
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_pfrst")
+talent_1 = SubResource("Resource_8dgy3")
+talent_2 = SubResource("Resource_hetpr")
+skills = Array[ExtResource("3_t5m7k")]([SubResource("Resource_1dtlf"), SubResource("Resource_tijgx"), SubResource("Resource_ibe57")])

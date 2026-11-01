@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_2xxhh"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_hoi57"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_v24g5"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_412au"]
+
+[sub_resource type="Resource" id="Resource_a7ek2"]
+script = ExtResource("1_2xxhh")
+trait_name = "削弱者"
+description = "普通攻击造成法术伤害。"
+effect_type = "magical_attack"
+
+[sub_resource type="Resource" id="Resource_4hvm2"]
+script = ExtResource("3_v24g5")
+skill_name = "传音回响"
+initial_sp = 25
+sp_required = 40
+sp_recharge_type = "time"
+description = "攻击范围内敌人攻速-60，持续20秒；仍按双响天赋最多攻击2名敌人。"
+effect_type = "pramanix_echo"
+effect_params = {
+"attack_mult": 1.0,
+"attack_speed_reduce": 60
+}
+duration = 20.0
+
+[sub_resource type="Resource" id="Resource_yovj8"]
+script = ExtResource("3_v24g5")
+skill_name = "自然震慑"
+initial_sp = 20
+sp_required = 40
+sp_recharge_type = "time"
+description = "攻击范围内敌人防御降低60%、法抗降低30%，持续25秒；同类取最强，离开范围或源退场立即移除。"
+effect_type = "pramanix_weaken"
+effect_params = {
+"attack_mult": 1.0,
+"defense_remaining_percent": 40,
+"resist_remaining_percent": 70
+}
+duration = 25.0
+
+[sub_resource type="Resource" id="Resource_8j43q"]
+script = ExtResource("4_412au")
+talent_name = "虚弱化"
+description = "有效攻击范围内生命严格低于40%的敌人受到30%脆弱；同类取最高，含真实伤害，不作用于球。"
+effect_type = "low_health_fragile"
+effect_params = {
+"fragile_percent": 30,
+"hp_threshold_percent": 40
+}
+
+[sub_resource type="Resource" id="Resource_a0pp4"]
+script = ExtResource("4_412au")
+talent_name = "双响"
+description = "普通攻击同时选择最多两个不同敌人；箱子及静止球仍按现有后备目标结算一次。"
+effect_type = "double_target"
+effect_params = {
+"target_count": 2
+}
+
+[resource]
+script = ExtResource("2_hoi57")
+group_id = "kjerag"
+operator_id = "pramanix"
+display_name = "初雪"
+profession = "辅助"
+profession_id = "supporter"
+branch = "削弱者"
+max_health = 1605
+attack = 430
+defense = 102
+magic_resist = 25
+damage_type = "magical"
+attack_interval = 1.6
+block_count = 1
+initial_deploy_cost = 10
+deploy_cost = 12
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -2), Vector2i(1, -2), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(0, 2), Vector2i(1, 2)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_a7ek2")
+talent_1 = SubResource("Resource_8j43q")
+talent_2 = SubResource("Resource_a0pp4")
+skills = Array[ExtResource("3_v24g5")]([SubResource("Resource_4hvm2"), SubResource("Resource_yovj8")])

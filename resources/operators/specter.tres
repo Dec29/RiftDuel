@@ -1,0 +1,79 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_thesv"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_ry1a5"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_cug8b"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_ving3"]
+
+[sub_resource type="Resource" id="Resource_xdrqd"]
+script = ExtResource("1_thesv")
+trait_name = "强攻手"
+description = "同时攻击范围内最多当前阻挡数的敌人。"
+effect_type = "attack_all_blocked"
+
+[sub_resource type="Resource" id="Resource_57bwp"]
+script = ExtResource("3_cug8b")
+skill_name = "攻击力强化·γ型"
+initial_sp = 15
+sp_required = 30
+sp_recharge_type = "time"
+description = "攻击力+100%，持续30秒；群攻沿用本作范围内最多当前阻挡数目标。"
+effect_type = "attack_up"
+effect_params = {
+"attack_mult": 2.0
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_50j2o"]
+script = ExtResource("3_cug8b")
+skill_name = "肉斩骨断"
+initial_sp = 35
+sp_required = 40
+sp_recharge_type = "time"
+description = "攻击力+160%，持续15秒，技能生效时生命不低于1；结束后自身眩晕10秒，遵循现有抵抗与流明解除规则。沉默暂停锁血和攻击增益但不暂停倒计时。"
+effect_type = "specter_survival"
+effect_params = {
+"attack_mult": 2.6,
+"end_stun_ticks": 300
+}
+duration = 15.0
+
+[sub_resource type="Resource" id="Resource_vtq80"]
+script = ExtResource("4_ving3")
+talent_name = "深海再生力"
+description = "最大生命+10%，每秒回复当前最大生命2%；持续回复按本作50%折算，沉默暂停天赋。"
+effect_type = "abyssal_regeneration"
+effect_params = {
+"health_percent": 10,
+"regen_health_percent": 2
+}
+
+[sub_resource type="Resource" id="Resource_7vwof"]
+script = ExtResource("4_ving3")
+talent_name = "无第二天赋"
+description = "原作仅有一个天赋，不额外添加天赋。"
+effect_type = "none"
+
+[resource]
+script = ExtResource("2_ry1a5")
+operator_id = "specter"
+display_name = "幽灵鲨"
+profession = "近卫"
+profession_id = "guard"
+branch = "强攻手"
+group_id = "abyssal"
+max_health = 2630
+attack = 725
+defense = 355
+damage_type = "physical"
+attack_interval = 1.2
+block_count = 3
+initial_deploy_cost = 19
+deploy_cost = 23
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_xdrqd")
+talent_1 = SubResource("Resource_vtq80")
+talent_2 = SubResource("Resource_7vwof")
+skills = Array[ExtResource("3_cug8b")]([SubResource("Resource_57bwp"), SubResource("Resource_50j2o")])

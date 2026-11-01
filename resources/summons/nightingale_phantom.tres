@@ -20,6 +20,7 @@ effect_type = "none"
 
 [sub_resource type="Resource" id="Skill"]
 script = ExtResource("4")
+trigger_type = "passive"
 skill_name = "无主动技能"
 sp_recharge_type = "passive"
 description = "幻影不攻击，也不释放技能"

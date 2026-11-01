@@ -1,0 +1,103 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_5w0k5"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_ftnyj"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_wc8fr"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_ukc6y"]
+
+[sub_resource type="Resource" id="Resource_388y3"]
+script = ExtResource("1_5w0k5")
+trait_name = "扩散术师"
+description = "攻击造成群体法术伤害。"
+effect_type = "magic_splash"
+effect_params = {
+"splash_radius_squared": 1
+}
+
+[sub_resource type="Resource" id="Resource_cgwx0"]
+script = ExtResource("3_wc8fr")
+skill_name = "攻击力强化·γ型"
+initial_sp = 15
+sp_required = 30
+sp_recharge_type = "time"
+description = "攻击力+100%，持续30秒。"
+effect_type = "atk_def_boost"
+effect_params = {
+"attack_mult": 2.0,
+"defense_mult": 1.0
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_eusd5"]
+script = ExtResource("3_wc8fr")
+skill_name = "荒时之锁"
+initial_sp = 30
+sp_required = 50
+sp_recharge_type = "time"
+description = "停止普通攻击，每秒对攻击范围内所有敌人造成140%法术伤害并晕眩1秒，连续7秒；不受攻速影响。无敌人时按箱子、静止球顺序结算同倍率攻击。"
+effect_type = "caster_lock"
+effect_params = {
+"attack_mult": 1.4,
+"pulse_ticks": 30,
+"stun_ticks": 30
+}
+duration = 7.0
+
+[sub_resource type="Resource" id="Resource_5ct82"]
+script = ExtResource("3_wc8fr")
+skill_name = "序时之匙"
+initial_sp = 80
+sp_required = 110
+sp_recharge_type = "time"
+description = "攻击范围扩大，攻击力+170%，攻击范围内所有敌人并以力度1推开；主观缓时变为45%移动减速，本作无自主移动对象，不改攻速或外力推拉。无敌人时按箱子、静止球结算一次攻击，球仍使用现有重量推力规则。持续27秒。"
+effect_type = "caster_wave"
+effect_params = {
+"attack_mult": 2.7,
+"shift_force": 1,
+"slow_multiplier": 3
+}
+duration = 27.0
+attack_range_override = Array[Vector2i]([Vector2i(0, -2), Vector2i(1, -2), Vector2i(2, -2), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(3, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(3, 1), Vector2i(0, 2), Vector2i(1, 2), Vector2i(2, 2)])
+
+[sub_resource type="Resource" id="Resource_vh5hw"]
+script = ExtResource("4_ukc6y")
+talent_name = "技力光环·术师"
+description = "在场时己方术师自然技力回复+0.4/秒，同类取最高。"
+effect_type = "sp_recharge_aura"
+effect_params = {
+"profession_id": "caster",
+"sp_recharge_bonus_percent": 40
+}
+
+[sub_resource type="Resource" id="Resource_3ggpq"]
+script = ExtResource("4_ukc6y")
+talent_name = "主观缓时"
+description = "原作攻击范围内敌人移动速度-15%；本作暂无自主移动对象，不改变攻击速度或外力推拉。"
+effect_type = "movement_slow_aura"
+effect_params = {
+"move_speed_reduce_percent": 15
+}
+
+[resource]
+script = ExtResource("2_ftnyj")
+operator_id = "mostima"
+display_name = "莫斯提马"
+profession = "术师"
+profession_id = "caster"
+branch = "扩散术师"
+max_health = 1831
+attack = 834
+defense = 132
+magic_resist = 20
+damage_type = "magical"
+attack_interval = 2.9
+block_count = 1
+initial_deploy_cost = 31
+deploy_cost = 34
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_388y3")
+talent_1 = SubResource("Resource_vh5hw")
+talent_2 = SubResource("Resource_3ggpq")
+skills = Array[ExtResource("3_wc8fr")]([SubResource("Resource_cgwx0"), SubResource("Resource_eusd5"), SubResource("Resource_5ct82")])

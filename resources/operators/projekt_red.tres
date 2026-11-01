@@ -1,0 +1,76 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_m5lvv"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_cge7q"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_o8nb2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_lxlpk"]
+
+[sub_resource type="Resource" id="Resource_6nc5a"]
+script = ExtResource("1_m5lvv")
+trait_name = "处决者"
+description = "基础再部署18秒，保留现有撤退返费。"
+effect_type = "fast_redeploy"
+
+[sub_resource type="Resource" id="Resource_tu1we"]
+script = ExtResource("3_o8nb2")
+skill_name = "处决模式"
+trigger_type = "passive"
+sp_recharge_type = "passive"
+description = "部署后10秒攻击+80%，获得50%物理与法术闪避；被动不可手动开启。"
+effect_type = "red_execute"
+effect_params = {
+"attack_mult": 1.8,
+"dodge_percent": 50
+}
+duration = 10.0
+
+[sub_resource type="Resource" id="Resource_rk2vu"]
+script = ExtResource("3_o8nb2")
+skill_name = "狼群"
+trigger_type = "passive"
+sp_recharge_type = "passive"
+description = "部署时立即对周围全部敌人造成250%物伤和3秒眩晕，同时打击范围内所有箱子、推动静止球一次；各类目标互不排斥，本作AOE适配。"
+effect_type = "red_wolf"
+effect_params = {
+"attack_mult": 2.5,
+"stun_ticks": 90
+}
+attack_range_override = Array[Vector2i]([Vector2i(0, -1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(0, 1)])
+
+[sub_resource type="Resource" id="Resource_6w2gm"]
+script = ExtResource("4_lxlpk")
+talent_name = "刺骨"
+description = "每次攻击的伤害保底为攻击力30%，再按特种职业系数折算；不额外放大球推力。"
+effect_type = "minimum_attack"
+effect_params = {
+"minimum_percent": 30
+}
+
+[sub_resource type="Resource" id="Resource_tpy3a"]
+script = ExtResource("4_lxlpk")
+talent_name = "无第二天赋"
+description = "原作仅有一个天赋，不额外添加天赋。"
+effect_type = "none"
+
+[resource]
+script = ExtResource("2_cge7q")
+operator_id = "projekt_red"
+display_name = "红"
+profession = "特种"
+profession_id = "specialist"
+branch = "处决者"
+max_health = 1505
+attack = 530
+defense = 302
+damage_type = "physical"
+attack_interval = 0.93
+block_count = 1
+initial_deploy_cost = 7
+deploy_cost = 9
+redeploy_time = 18.0
+attack_range = Array[Vector2i]([Vector2i(0, 0), Vector2i(1, 0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("Resource_6nc5a")
+talent_1 = SubResource("Resource_6w2gm")
+talent_2 = SubResource("Resource_tpy3a")
+skills = Array[ExtResource("3_o8nb2")]([SubResource("Resource_tu1we"), SubResource("Resource_rk2vu")])

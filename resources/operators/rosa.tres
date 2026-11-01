@@ -1,0 +1,101 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_mk4wd"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_csiv6"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_e46ux"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_6r2km"]
+
+[sub_resource type="Resource" id="Resource_rdvrt"]
+script = ExtResource("1_mk4wd")
+trait_name = "攻城手"
+description = "优先攻击重量最重的敌人"
+effect_type = "prioritize_heavy"
+
+[sub_resource type="Resource" id="Resource_6ifd1"]
+script = ExtResource("3_e46ux")
+skill_name = "攻击力强化·γ型"
+initial_sp = 15
+sp_required = 30
+sp_recharge_type = "time"
+description = "30秒攻击+100%。"
+effect_type = "attack_up"
+effect_params = {
+"attack_mult": 2.0
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_nnevc"]
+script = ExtResource("3_e46ux")
+skill_name = "分裂射击"
+initial_sp = 45
+sp_required = 65
+sp_recharge_type = "time"
+description = "60秒攻击+90%，最多攻击2名不同敌人，优先重量高者。"
+effect_type = "multi_target_boost"
+effect_params = {
+"attack_mult": 1.9,
+"defense_mult": 1.0,
+"ignore_ranged_penalty": true,
+"target_count": 2
+}
+duration = 60.0
+attack_range_override = Array[Vector2i]([Vector2i(2, -2), Vector2i(3, -2), Vector2i(2, -1), Vector2i(3, -1), Vector2i(4, -1), Vector2i(2, 0), Vector2i(3, 0), Vector2i(4, 0), Vector2i(2, 1), Vector2i(3, 1), Vector2i(4, 1), Vector2i(2, 2), Vector2i(3, 2)])
+
+[sub_resource type="Resource" id="Resource_cv0t5"]
+script = ExtResource("3_e46ux")
+skill_name = "雪崩击"
+initial_sp = 15
+sp_required = 30
+sp_recharge_type = "time"
+description = "锁定范围内最多4名最重敌人，8秒内每秒以125%攻击力攻击并持续尝试束缚；沿用束缚结束后1秒免疫。敌人退场／隐匿时断开对应锁链；本体眩晕／沉默中断技能。无敌人时锁定箱子或静止球，每秒一击，球不受束缚。"
+effect_type = "heavy_bind_volley"
+effect_params = {
+"attack_mult": 1.25,
+"pulse_ticks": 30,
+"target_count": 4
+}
+duration = 8.0
+
+[sub_resource type="Resource" id="Resource_6ipw8"]
+script = ExtResource("4_6r2km")
+talent_name = "深入骨髓"
+description = "攻击重量较重（重量等级大于等于3）的敌人时，无视其防御力的60%"
+effect_type = "heavy_penetration"
+effect_params = {
+"defense_ignore_percent": 60,
+"weight_threshold": 3
+}
+
+[sub_resource type="Resource" id="Resource_xng7a"]
+script = ExtResource("4_6r2km")
+talent_name = "学生楷模"
+description = "编入队伍时，所有【乌萨斯学生自治团】干员攻击力+8%"
+effect_type = "group_attack_aura"
+effect_params = {
+"attack_percent": 8,
+"group_id": "ursus_student"
+}
+
+[resource]
+script = ExtResource("2_csiv6")
+operator_id = "rosa"
+display_name = "早露"
+profession = "狙击"
+profession_id = "sniper"
+branch = "攻城手"
+group_id = "ursus_student"
+max_health = 1755
+attack = 1032
+defense = 122
+damage_type = "physical"
+attack_interval = 2.4
+block_count = 1
+initial_deploy_cost = 22
+deploy_cost = 24
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(2, -2), Vector2i(3, -2), Vector2i(2, -1), Vector2i(3, -1), Vector2i(4, -1), Vector2i(2, 0), Vector2i(3, 0), Vector2i(4, 0), Vector2i(2, 1), Vector2i(3, 1), Vector2i(4, 1), Vector2i(2, 2), Vector2i(3, 2)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_rdvrt")
+talent_1 = SubResource("Resource_6ipw8")
+talent_2 = SubResource("Resource_xng7a")
+skills = Array[ExtResource("3_e46ux")]([SubResource("Resource_6ifd1"), SubResource("Resource_nnevc"), SubResource("Resource_cv0t5")])

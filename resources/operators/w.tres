@@ -1,0 +1,100 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_6e17j"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_clgfk"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_es7jk"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_p3ogo"]
+
+[sub_resource type="Resource" id="Resource_kfxms"]
+script = ExtResource("1_6e17j")
+trait_name = "炮手"
+description = "攻击造成群体物理伤害，半径1格；没有敌人时按箱子→静止球结算一次。"
+effect_type = "physical_splash"
+effect_params = {
+"splash_radius_squared": 1
+}
+
+[sub_resource type="Resource" id="Resource_p7345"]
+script = ExtResource("3_es7jk")
+skill_name = "红桃K"
+sp_required = 16
+sp_recharge_type = "time"
+description = "立即发射350%物理榴弹，命中及四邻敌人晕眩3秒；无敌人时按箱子→静止球结算一次。"
+effect_type = "w_grenade"
+effect_params = {
+"attack_mult": 3.5,
+"stun_ticks": 90
+}
+
+[sub_resource type="Resource" id="Resource_rnjy1"]
+script = ExtResource("3_es7jk")
+skill_name = "惊吓盒子"
+trigger_type = "attack"
+sp_required = 8
+sp_recharge_type = "time"
+description = "下次攻击改为埋设地雷，120秒寿命；敌人进入自身格或四邻后延迟1.5秒爆炸，280%物理伤害及2.2秒晕眩。本作：独立地面效果、不占干员格；遵守地界／中央禁部署，优先敌人脚下、其次离敌最近空地、其余模拟随机，本体离场清除。"
+effect_type = "w_mine"
+effect_params = {
+"attack_mult": 2.8,
+"delay_ticks": 45,
+"lifetime_ticks": 3600,
+"stun_ticks": 66
+}
+
+[sub_resource type="Resource" id="Resource_26q45"]
+script = ExtResource("3_es7jk")
+skill_name = "D12"
+initial_sp = 20
+sp_required = 33
+sp_recharge_type = "time"
+description = "在当前生命最多的至多4个敌人身上放置炸弹，3秒后每枚造成310%物理伤害并晕眩5秒；爆炸覆盖自身格与四邻，可重叠。目标离场在最后位置立即爆炸，W离场仍保留。无敌人时标记箱子或静止球；攻击力取开启快照，单位伤害按狙击系数，球不折算。"
+effect_type = "w_marks"
+effect_params = {
+"attack_mult": 3.1,
+"delay_ticks": 90,
+"stun_ticks": 150,
+"target_count": 4
+}
+
+[sub_resource type="Resource" id="Resource_sq0j8"]
+script = ExtResource("4_p3ogo")
+talent_name = "设伏"
+description = "在场10秒后获得60%物理与法术闪避，嘲讽等级-1；沉默期间失效。"
+effect_type = "delayed_ambush"
+effect_params = {
+"dodge_percent": 60,
+"warmup_ticks": 300
+}
+
+[sub_resource type="Resource" id="Resource_a6gri"]
+script = ExtResource("4_p3ogo")
+talent_name = "落井下石"
+description = "攻击范围内晕眩敌人受到的物理伤害+18%；与脆弱独立乘算，不增加法术／真实伤害或球推力。"
+effect_type = "stunned_physical_aura"
+effect_params = {
+"damage_percent": 18
+}
+
+[resource]
+script = ExtResource("2_clgfk")
+operator_id = "w"
+race_id = "sarkaz"
+display_name = "W"
+profession = "狙击"
+profession_id = "sniper"
+branch = "炮手"
+max_health = 1605
+attack = 912
+defense = 133
+damage_type = "physical"
+attack_interval = 2.8
+block_count = 1
+initial_deploy_cost = 25
+deploy_cost = 29
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(3, -1), Vector2i(4, -1), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(3, 0), Vector2i(4, 0), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(3, 1), Vector2i(4, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_kfxms")
+talent_1 = SubResource("Resource_sq0j8")
+talent_2 = SubResource("Resource_a6gri")
+skills = Array[ExtResource("3_es7jk")]([SubResource("Resource_p7345"), SubResource("Resource_rnjy1"), SubResource("Resource_26q45")])

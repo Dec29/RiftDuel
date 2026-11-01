@@ -1,0 +1,11 @@
+{
+  "fixed_source": "import/source_data/m129/ling.json at 17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "mechanics_reference": "https://prts.wiki/w/%E2%80%9C%E5%BC%A6%E6%83%8A%E2%80%9D",
+  "accessed": "2026-10-21",
+  "verified": [
+    "real tokens stat levels and redeploy cost/timer",
+    "two directed range merge cases, latest old token selection",
+    "advanced additive form stats, HP reset",
+    "blocked target cleave and no ordinary healing"
+  ]
+}

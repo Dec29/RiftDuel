@@ -1,0 +1,1307 @@
+{
+  "repository": "Kengxxiao/ArknightsGameData",
+  "commit": "17759cc8cdf37388414145d16262a3a06f3ab25e",
+  "table_sha256": {
+    "character_table.json": "e523c7c83c36e2d76697121079e17d0282da1a94d59a55e1cc55616edf0b41c4",
+    "skill_table.json": "b6559b845efea6042e23f1d976185f12e13de3d749464543f5c2c17a7d2fa280",
+    "range_table.json": "4d974598394630a1ad465b954321254397f514c7fb26cba944d320ac18b874d0"
+  },
+  "operator_id": "lee",
+  "char_id": "char_322_lmlee",
+  "name": "老鲤",
+  "rarity": "TIER_6",
+  "profession": "SPECIAL",
+  "sub_profession": "merchant",
+  "profile": "E2 maximum level, zero trust/potential bonuses, no module, skills M3",
+  "character": {
+    "name": "老鲤",
+    "description": "再部署时间<@ba.kw>减少</>，撤退时不返还<@ba.kw>部署费用</>，在场时每3秒<@ba.kw>消耗</>3点部署费用（不足时自动撤退）",
+    "sortIndex": 593,
+    "spTargetType": "NONE",
+    "spTargetId": null,
+    "canUseGeneralPotentialItem": true,
+    "canUseActivityPotentialItem": false,
+    "potentialItemId": "p_char_322_lmlee",
+    "activityPotentialItemId": null,
+    "classicPotentialItemId": "class_p_char_322_lmlee",
+    "nationId": "lungmen",
+    "groupId": null,
+    "teamId": "lee",
+    "mainPower": {
+      "nationId": "lungmen",
+      "groupId": null,
+      "teamId": "lee"
+    },
+    "subPower": null,
+    "displayNumber": "LM18",
+    "appellation": "Lee",
+    "position": "MELEE",
+    "tagList": [
+      "快速复活",
+      "生存",
+      "输出"
+    ],
+    "itemUsage": "龙门私家侦探老鲤，不管遇到什么样的麻烦或困难，都尽可以请求他的帮助。",
+    "itemDesc": "如果实在没什么事的话，至少尝尝他做的菜。",
+    "itemObtainApproach": "招募寻访",
+    "isNotObtainable": false,
+    "isSpChar": false,
+    "maxPotentialLevel": 5,
+    "rarity": "TIER_6",
+    "profession": "SPECIAL",
+    "subProfessionId": "merchant",
+    "trait": {
+      "candidates": [
+        {
+          "unlockCondition": {
+            "phase": "PHASE_0",
+            "level": 1
+          },
+          "requiredPotentialRank": 0,
+          "blackboard": [
+            {
+              "key": "interval",
+              "value": 3.0,
+              "valueStr": null
+            },
+            {
+              "key": "cost",
+              "value": -3.0,
+              "valueStr": null
+            }
+          ],
+          "overrideDescripton": null,
+          "prefabKey": null,
+          "rangeId": null
+        }
+      ]
+    },
+    "phases": [
+      {
+        "characterPrefabKey": "char_322_lmlee",
+        "rangeId": "1-1",
+        "maxLevel": 50,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1179,
+              "atk": 376,
+              "def": 240,
+              "magicResistance": 0.0,
+              "cost": 7,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.0,
+              "respawnTime": 25,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 50,
+            "data": {
+              "maxHp": 1552,
+              "atk": 516,
+              "def": 308,
+              "magicResistance": 0.0,
+              "cost": 7,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.0,
+              "respawnTime": 25,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": null
+      },
+      {
+        "characterPrefabKey": "char_322_lmlee",
+        "rangeId": "1-1",
+        "maxLevel": 80,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1552,
+              "atk": 516,
+              "def": 308,
+              "magicResistance": 0.0,
+              "cost": 9,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.0,
+              "respawnTime": 25,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 80,
+            "data": {
+              "maxHp": 1917,
+              "atk": 654,
+              "def": 395,
+              "magicResistance": 0.0,
+              "cost": 9,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.0,
+              "respawnTime": 25,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": [
+          {
+            "id": "3281",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30042",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30062",
+            "count": 3,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "characterPrefabKey": "char_322_lmlee",
+        "rangeId": "1-1",
+        "maxLevel": 90,
+        "attributesKeyFrames": [
+          {
+            "level": 1,
+            "data": {
+              "maxHp": 1917,
+              "atk": 654,
+              "def": 395,
+              "magicResistance": 0.0,
+              "cost": 9,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.0,
+              "respawnTime": 25,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          },
+          {
+            "level": 90,
+            "data": {
+              "maxHp": 2427,
+              "atk": 789,
+              "def": 465,
+              "magicResistance": 0.0,
+              "cost": 9,
+              "blockCnt": 1,
+              "moveSpeed": 1.0,
+              "attackSpeed": 100.0,
+              "baseAttackTime": 1.0,
+              "respawnTime": 25,
+              "hpRecoveryPerSec": 0.0,
+              "spRecoveryPerSec": 1.0,
+              "maxDeployCount": 1,
+              "maxDeckStackCnt": 0,
+              "tauntLevel": 0,
+              "massLevel": 0,
+              "baseForceLevel": 0,
+              "stunImmune": false,
+              "silenceImmune": false,
+              "sleepImmune": false,
+              "frozenImmune": false,
+              "levitateImmune": false,
+              "disarmedCombatImmune": false,
+              "fearedImmune": false,
+              "palsyImmune": false,
+              "attractImmune": false,
+              "teleportImmune": false,
+              "groundBoundImmune": false
+            }
+          }
+        ],
+        "evolveCost": [
+          {
+            "id": "3283",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30115",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30074",
+            "count": 9,
+            "type": "MATERIAL"
+          }
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "skillId": "skchr_lmlee_1",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31044",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31023",
+                "count": 7,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30094",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30074",
+                "count": 9,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30135",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30104",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skchr_lmlee_2",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30014",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30093",
+                "count": 7,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30104",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30084",
+                "count": 7,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30145",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31044",
+                "count": 4,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        }
+      },
+      {
+        "skillId": "skchr_lmlee_3",
+        "overridePrefabKey": null,
+        "overrideTokenKey": null,
+        "levelUpCostCond": [
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 28800,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 8,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31014",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30013",
+                "count": 11,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 57600,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 12,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31034",
+                "count": 4,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31014",
+                "count": 8,
+                "type": "MATERIAL"
+              }
+            ]
+          },
+          {
+            "unlockCond": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "lvlUpTime": 86400,
+            "levelUpCost": [
+              {
+                "id": "3303",
+                "count": 15,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "30125",
+                "count": 6,
+                "type": "MATERIAL"
+              },
+              {
+                "id": "31054",
+                "count": 5,
+                "type": "MATERIAL"
+              }
+            ]
+          }
+        ],
+        "unlockCond": {
+          "phase": "PHASE_2",
+          "level": 1
+        }
+      }
+    ],
+    "displayTokenDict": null,
+    "talents": [
+      {
+        "candidates": [
+          {
+            "unlockCondition": {
+              "phase": "PHASE_1",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "和气生财",
+            "description": "老鲤阻挡目标时，使其攻击速度-7，且自身攻击速度+7；当周围八格内仅存在一个敌人时效果翻倍",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "lmlee_t_1[enemy].attack_speed",
+                "value": -7.0,
+                "valueStr": null
+              },
+              {
+                "key": "lmlee_t_1[self].attack_speed",
+                "value": 7.0,
+                "valueStr": null
+              },
+              {
+                "key": "cnt",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_1",
+              "level": 1
+            },
+            "requiredPotentialRank": 4,
+            "prefabKey": "1",
+            "name": "和气生财",
+            "description": "老鲤阻挡目标时，使其攻击速度-8<@ba.talpu>（+1）</>，且自身攻击速度+8<@ba.talpu>（+1）</>；当周围八格内仅存在一个敌人时效果翻倍",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "lmlee_t_1[enemy].attack_speed",
+                "value": -8.0,
+                "valueStr": null
+              },
+              {
+                "key": "lmlee_t_1[self].attack_speed",
+                "value": 8.0,
+                "valueStr": null
+              },
+              {
+                "key": "cnt",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "1",
+            "name": "和气生财",
+            "description": "老鲤阻挡目标时，使其攻击速度-14，且自身攻击速度+14；当周围八格内仅存在一个敌人时效果翻倍",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "lmlee_t_1[enemy].attack_speed",
+                "value": -14.0,
+                "valueStr": null
+              },
+              {
+                "key": "lmlee_t_1[self].attack_speed",
+                "value": 14.0,
+                "valueStr": null
+              },
+              {
+                "key": "cnt",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          },
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 4,
+            "prefabKey": "1",
+            "name": "和气生财",
+            "description": "老鲤阻挡目标时，使其攻击速度-15<@ba.talpu>（+1）</>，且自身攻击速度+15<@ba.talpu>（+1）</>；当周围八格内仅存在一个敌人时效果翻倍",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "lmlee_t_1[enemy].attack_speed",
+                "value": -15.0,
+                "valueStr": null
+              },
+              {
+                "key": "lmlee_t_1[self].attack_speed",
+                "value": 15.0,
+                "valueStr": null
+              },
+              {
+                "key": "cnt",
+                "value": 1.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          }
+        ]
+      },
+      {
+        "candidates": [
+          {
+            "unlockCondition": {
+              "phase": "PHASE_2",
+              "level": 1
+            },
+            "requiredPotentialRank": 0,
+            "prefabKey": "2",
+            "name": "有备无患",
+            "description": "特性消耗费用时，若费用足够则改为消耗5费用，抵消自身受到的下一次<$ba.stun>晕眩</>/<$ba.frozen>冻结</>，并使攻击来源晕眩3秒",
+            "rangeId": null,
+            "blackboard": [
+              {
+                "key": "extra_cost",
+                "value": -5.0,
+                "valueStr": null
+              },
+              {
+                "key": "stun",
+                "value": 3.0,
+                "valueStr": null
+              }
+            ],
+            "tokenKey": null,
+            "isHideTalent": false
+          }
+        ]
+      }
+    ],
+    "potentialRanks": [
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "再部署时间-4秒",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "RESPAWN_TIME",
+                "formulaItem": "ADDITION",
+                "value": -4.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "攻击力+30",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "ATK",
+                "formulaItem": "ADDITION",
+                "value": 30.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      },
+      {
+        "type": "CUSTOM",
+        "description": "第一天赋效果增强",
+        "buff": null,
+        "equivalentCost": null
+      },
+      {
+        "type": "BUFF",
+        "description": "部署费用-1",
+        "buff": {
+          "attributes": {
+            "abnormalFlags": null,
+            "abnormalImmunes": null,
+            "abnormalAntis": null,
+            "abnormalCombos": null,
+            "abnormalComboImmunes": null,
+            "attributeModifiers": [
+              {
+                "attributeType": "COST",
+                "formulaItem": "ADDITION",
+                "value": -1.0,
+                "loadFromBlackboard": false,
+                "fetchBaseValueFromSourceEntity": false
+              }
+            ]
+          }
+        },
+        "equivalentCost": null
+      }
+    ],
+    "favorKeyFrames": [
+      {
+        "level": 0,
+        "data": {
+          "maxHp": 0,
+          "atk": 0,
+          "def": 0,
+          "magicResistance": 0.0,
+          "cost": 0,
+          "blockCnt": 0,
+          "moveSpeed": 0.0,
+          "attackSpeed": 0.0,
+          "baseAttackTime": 0.0,
+          "respawnTime": 0,
+          "hpRecoveryPerSec": 0.0,
+          "spRecoveryPerSec": 0.0,
+          "maxDeployCount": 0,
+          "maxDeckStackCnt": 0,
+          "tauntLevel": 0,
+          "massLevel": 0,
+          "baseForceLevel": 0,
+          "stunImmune": false,
+          "silenceImmune": false,
+          "sleepImmune": false,
+          "frozenImmune": false,
+          "levitateImmune": false,
+          "disarmedCombatImmune": false,
+          "fearedImmune": false,
+          "palsyImmune": false,
+          "attractImmune": false,
+          "teleportImmune": false,
+          "groundBoundImmune": false
+        }
+      },
+      {
+        "level": 50,
+        "data": {
+          "maxHp": 300,
+          "atk": 55,
+          "def": 0,
+          "magicResistance": 0.0,
+          "cost": 0,
+          "blockCnt": 0,
+          "moveSpeed": 0.0,
+          "attackSpeed": 0.0,
+          "baseAttackTime": 0.0,
+          "respawnTime": 0,
+          "hpRecoveryPerSec": 0.0,
+          "spRecoveryPerSec": 0.0,
+          "maxDeployCount": 0,
+          "maxDeckStackCnt": 0,
+          "tauntLevel": 0,
+          "massLevel": 0,
+          "baseForceLevel": 0,
+          "stunImmune": false,
+          "silenceImmune": false,
+          "sleepImmune": false,
+          "frozenImmune": false,
+          "levitateImmune": false,
+          "disarmedCombatImmune": false,
+          "fearedImmune": false,
+          "palsyImmune": false,
+          "attractImmune": false,
+          "teleportImmune": false,
+          "groundBoundImmune": false
+        }
+      }
+    ],
+    "allSkillLvlup": [
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3301",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3301",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30041",
+            "count": 5,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30021",
+            "count": 4,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_0",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30052",
+            "count": 4,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30062",
+            "count": 3,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30032",
+            "count": 3,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3302",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31043",
+            "count": 5,
+            "type": "MATERIAL"
+          }
+        ]
+      },
+      {
+        "unlockCond": {
+          "phase": "PHASE_1",
+          "level": 1
+        },
+        "lvlUpCost": [
+          {
+            "id": "3303",
+            "count": 8,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "31053",
+            "count": 4,
+            "type": "MATERIAL"
+          },
+          {
+            "id": "30093",
+            "count": 3,
+            "type": "MATERIAL"
+          }
+        ]
+      }
+    ]
+  },
+  "base": {
+    "maxHp": 2427,
+    "atk": 789,
+    "def": 465,
+    "magicResistance": 0.0,
+    "cost": 9,
+    "blockCnt": 1,
+    "moveSpeed": 1.0,
+    "attackSpeed": 100.0,
+    "baseAttackTime": 1.0,
+    "respawnTime": 25,
+    "hpRecoveryPerSec": 0.0,
+    "spRecoveryPerSec": 1.0,
+    "maxDeployCount": 1,
+    "maxDeckStackCnt": 0,
+    "tauntLevel": 0,
+    "massLevel": 0,
+    "baseForceLevel": 0,
+    "stunImmune": false,
+    "silenceImmune": false,
+    "sleepImmune": false,
+    "frozenImmune": false,
+    "levitateImmune": false,
+    "disarmedCombatImmune": false,
+    "fearedImmune": false,
+    "palsyImmune": false,
+    "attractImmune": false,
+    "teleportImmune": false,
+    "groundBoundImmune": false
+  },
+  "branch_description": "再部署时间<@ba.kw>减少</>，撤退时不返还<@ba.kw>部署费用</>，在场时每3秒<@ba.kw>消耗</>3点部署费用（不足时自动撤退）",
+  "talents": [
+    {
+      "unlockCondition": {
+        "phase": "PHASE_2",
+        "level": 1
+      },
+      "requiredPotentialRank": 0,
+      "prefabKey": "1",
+      "name": "和气生财",
+      "description": "老鲤阻挡目标时，使其攻击速度-14，且自身攻击速度+14；当周围八格内仅存在一个敌人时效果翻倍",
+      "rangeId": null,
+      "blackboard": [
+        {
+          "key": "lmlee_t_1[enemy].attack_speed",
+          "value": -14.0,
+          "valueStr": null
+        },
+        {
+          "key": "lmlee_t_1[self].attack_speed",
+          "value": 14.0,
+          "valueStr": null
+        },
+        {
+          "key": "cnt",
+          "value": 1.0,
+          "valueStr": null
+        }
+      ],
+      "tokenKey": null,
+      "isHideTalent": false
+    },
+    {
+      "unlockCondition": {
+        "phase": "PHASE_2",
+        "level": 1
+      },
+      "requiredPotentialRank": 0,
+      "prefabKey": "2",
+      "name": "有备无患",
+      "description": "特性消耗费用时，若费用足够则改为消耗5费用，抵消自身受到的下一次<$ba.stun>晕眩</>/<$ba.frozen>冻结</>，并使攻击来源晕眩3秒",
+      "rangeId": null,
+      "blackboard": [
+        {
+          "key": "extra_cost",
+          "value": -5.0,
+          "valueStr": null
+        },
+        {
+          "key": "stun",
+          "value": 3.0,
+          "valueStr": null
+        }
+      ],
+      "tokenKey": null,
+      "isHideTalent": false
+    }
+  ],
+  "skills": {
+    "skchr_lmlee_1": {
+      "name": "小惩大诫",
+      "rangeId": null,
+      "description": "攻击力<@ba.vup>+{atk:0%}</>，并获得<@ba.vup>{prob:0%}</>的法术闪避\\n<@ba.rem>持续时间无限</>",
+      "skillType": "AUTO",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 7,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_lmlee_1",
+      "duration": -1.0,
+      "blackboard": [
+        {
+          "key": "atk",
+          "value": 0.6,
+          "valueStr": null
+        },
+        {
+          "key": "prob",
+          "value": 0.4,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_lmlee_2": {
+      "name": "驱凶辟邪",
+      "rangeId": null,
+      "description": "被动效果：攻击速度<@ba.vup>+{attack_speed}</>；主动开启：标记目标使其更易受我方攻击，<@ba.vup>{paper_duration}</>秒后标记爆炸对周围造成<@ba.vup>{default_atk_scale:0%}</>的法术伤害。期间我方每对目标造成一次伤害，爆炸伤害增加老鲤攻击力的<@ba.vup>{factor_atk_scale:0%}</>（最多增加<@ba.vup>{max_stack_cnt}</>次，达到上限或目标被击倒时提前爆炸）",
+      "skillType": "MANUAL",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 7,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_lmlee_2",
+      "duration": 0.0,
+      "blackboard": [
+        {
+          "key": "default_atk_scale",
+          "value": 3.0,
+          "valueStr": null
+        },
+        {
+          "key": "factor_atk_scale",
+          "value": 0.2,
+          "valueStr": null
+        },
+        {
+          "key": "max_stack_cnt",
+          "value": 30.0,
+          "valueStr": null
+        },
+        {
+          "key": "taunt_level",
+          "value": 1.0,
+          "valueStr": null
+        },
+        {
+          "key": "paper_duration",
+          "value": 5.0,
+          "valueStr": null
+        },
+        {
+          "key": "attack_speed",
+          "value": 30.0,
+          "valueStr": null
+        }
+      ]
+    },
+    "skchr_lmlee_3": {
+      "name": "贵客盈门",
+      "rangeId": "x-4",
+      "description": "攻击范围<@ba.vup>扩大</>，攻击力和防御力<@ba.vup>+{atk:0%}</>；攻击<@ba.vup>小力度</>推开范围内除当前目标外的敌人。自身容易成为攻击目标，且有<@ba.vup>{prob:0%}</>概率闪避来自范围外的物理或法术伤害\\n<@ba.rem>持续时间无限</>",
+      "skillType": "AUTO",
+      "durationType": "NONE",
+      "spData": {
+        "spType": "INCREASE_WITH_TIME",
+        "levelUpCost": null,
+        "maxChargeTime": 1,
+        "spCost": 7,
+        "initSp": 0,
+        "increment": 1.0
+      },
+      "prefabId": "skchr_lmlee_3",
+      "duration": -1.0,
+      "blackboard": [
+        {
+          "key": "atk",
+          "value": 0.5,
+          "valueStr": null
+        },
+        {
+          "key": "def",
+          "value": 0.5,
+          "valueStr": null
+        },
+        {
+          "key": "taunt_level",
+          "value": 1.0,
+          "valueStr": null
+        },
+        {
+          "key": "prob",
+          "value": 0.7,
+          "valueStr": null
+        },
+        {
+          "key": "attack@prob_knockback",
+          "value": 1.0,
+          "valueStr": null
+        },
+        {
+          "key": "attack@force",
+          "value": 0.0,
+          "valueStr": null
+        }
+      ]
+    }
+  },
+  "ranges": {
+    "1-1": {
+      "id": "1-1",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        }
+      ]
+    },
+    "x-4": {
+      "id": "x-4",
+      "direction": 1,
+      "grids": [
+        {
+          "row": 1,
+          "col": -1
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": -1
+        },
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": -1,
+          "col": -1
+        },
+        {
+          "row": -1,
+          "col": 0
+        },
+        {
+          "row": -1,
+          "col": 1
+        }
+      ]
+    }
+  },
+  "prts": "https://prts.wiki/w/老鲤"
+}

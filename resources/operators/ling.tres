@@ -1,0 +1,85 @@
+[gd_resource type="Resource" format=3]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "召唤师"
+description = "攻击造成<@ba.kw>法术伤害</>\\n可以使用<@ba.kw>召唤物</>协助作战"
+effect_type = "summoner"
+effect_params = {}
+[sub_resource type="Resource" id="Talent1"]
+script = ExtResource("3")
+talent_name = "挑灯问梦"
+description = "携带5个召唤物，最多3份在场额度，功能随技能改变；高级弦惊占2份。"
+effect_type = "ling_supply"
+effect_params = {"stock_count": 5, "max_count": 3}
+[sub_resource type="Resource" id="Talent2"]
+script = ExtResource("3")
+talent_name = "随付笺咏醉屠苏"
+description = "召唤物被击倒、吸收或回收时额外获得3SP、攻击+3%，最多5层；重新部署清空。"
+effect_type = "ling_recycle"
+effect_params = {"sp_add": 3, "attack_percent": 3, "max_stacks": 5}
+[sub_resource type="Resource" id="Skill0"]
+script = ExtResource("4")
+skill_name = "重进酒"
+initial_sp = 15
+sp_required = 25
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "25秒内自身与清平攻击+50%、攻速+50，清平改法伤；开启获得1库存。"
+effect_type = "ling_wine"
+effect_params = {"attack_mult": 1.5, "attack_speed_add": 50, "stock_add": 1}
+duration = 25.0
+attack_range_override = Array[Vector2i]([])
+burst_range_override = Array[Vector2i]([])
+[sub_resource type="Resource" id="Skill1"]
+script = ExtResource("4")
+skill_name = "笑鸣瑟"
+initial_sp = 5
+sp_required = 13
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "本体与逍遥各对范围内最多两敌造成450%法术伤害、束缚3秒；结束回收生命低于一半的逍遥，可充能2次。"
+effect_type = "ling_chord"
+effect_params = {"attack_mult": 1.0, "burst_attack_mult": 4.5, "target_count": 2, "bind_ticks": 90, "charge_count": 2}
+duration = 0.0
+attack_range_override = Array[Vector2i]([])
+burst_range_override = Array[Vector2i]([])
+[sub_resource type="Resource" id="Skill2"]
+script = ExtResource("4")
+skill_name = "宁作吾"
+initial_sp = 15
+sp_required = 40
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "30秒内自身与弦惊攻防+100%，召唤物每0.5秒对四邻敌人造成20%令攻击法伤；结束获得1库存。弦惊按原范围合体，高级仍单格并占两份额度。"
+effect_type = "ling_thunder"
+effect_params = {"attack_mult": 2.0, "defense_mult": 2.0, "pulse_ticks": 15, "pulse_attack_percent": 20, "stock_add": 1}
+duration = 30.0
+attack_range_override = Array[Vector2i]([])
+burst_range_override = Array[Vector2i]([])
+[resource]
+script = ExtResource("1")
+operator_id = "ling"
+display_name = "令"
+profession = "辅助"
+profession_id = "supporter"
+branch = "召唤师"
+max_health = 1079
+attack = 473
+defense = 138
+magic_resist = 20
+damage_type = "magical"
+attack_interval = 1.6
+block_count = 1
+initial_deploy_cost = 10
+deploy_cost = 12
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(0,-1),Vector2i(1,-1),Vector2i(2,-1),Vector2i(0,0),Vector2i(1,0),Vector2i(2,0),Vector2i(3,0),Vector2i(0,1),Vector2i(1,1),Vector2i(2,1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent1")
+talent_2 = SubResource("Talent2")
+skills = Array[ExtResource("4")]([SubResource("Skill0"),SubResource("Skill1"),SubResource("Skill2")])

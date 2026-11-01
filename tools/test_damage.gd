@@ -10,13 +10,45 @@ const EXPECTED_IDS := [
 	"blaze",
 	"ceobe",
 	"exusiai",
+	"eyjafjalla",
+	"horn",
 	"hoshiguma",
+	"ifrit",
+	"magallan",
+	"mostima",
 	"nightingale",
+	"phantom",
+	"saileach",
+	"saria",
+	"schwarz",
+	"shining",
+	"siege",
+	"silverash",
+	"skadi",
+	"suzuran",
 	"swire_alter",
+	"typhon",
+	"weedy",
 ]
 const DAMAGE_TYPES := ["physical", "magical", "true", "healing"]
 const TERRAIN_TYPES := ["ground", "high", "both"]
 const EXPECTED_DATA := {
+	"magallan": ["麦哲伦",469,20,"magallan_cooling",15.0],
+	"weedy": ["温蒂",677,0,"pusher_strike",0.0],
+	"mostima": ["莫斯提马",834,20,"atk_def_boost",30.0],
+	"saria": ["塞雷娅",485,10,"guardian_aid",0.0],
+	"siege": ["推进之王",515,0,"instant_cost",0.0],
+	"ifrit": ["伊芙利特",870,20,"atk_spd_boost",20.0],
+	"typhon": ["提丰",1045,0,"atk_spd_boost",35.0],
+	"skadi": ["斯卡蒂",1015,0,"atk_spd_boost",35.0],
+	"phantom": ["傀影", 558, 0, "deploy_physical_shield", 10.0],
+	"schwarz": ["黑", 840, 0, "armor_break_single", 0.0],
+	"horn": ["号角", 936, 0, "fortress_charge_shot", 0.0],
+	"saileach": ["琴柳", 546, 0, "cost_regen", 8.0],
+	"suzuran": ["铃兰", 521, 25, "atk_spd_boost_auto", 30.0],
+	"eyjafjalla": ["艾雅法拉", 645, 20, "atk_spd_boost_repeat", 25.0],
+	"silverash": ["银灰", 713, 10, "atk_boost_single", 0.0],
+	"shining": ["闪灵", 530, 0, "atk_spd_boost", 20.0],
 	"angelina": ["安洁莉娜", 542, 25, "atk_boost_auto", 35.0],
 	"bagpipe": ["风笛", 586, 0, "atk_spd_boost", 35.0],
 	"blaze": ["煌", 765, 0, "atk_boost_single", 0.0],
@@ -56,8 +88,8 @@ func _initialize() -> void:
 		if operator_data.magic_resist < 0 or operator_data.magic_resist > 100:
 			_fail("Invalid magic_resist for %s: %d" % [operator_data.operator_id, operator_data.magic_resist])
 			return
-		if operator_data.skills.size() != 1:
-			_fail("Expected one imported skill for %s, got %d" % [operator_data.operator_id, operator_data.skills.size()])
+		if operator_data.skills.size() != (3 if operator_data.operator_id in ["exusiai", "schwarz", "suzuran", "shining", "blaze", "silverash", "skadi", "typhon", "ifrit", "siege", "saria", "mostima", "weedy", "magallan", "bagpipe", "hoshiguma", "eyjafjalla", "nightingale", "horn", "angelina", "phantom", "ceobe", "saileach", "swire_alter"] else 1):
+			_fail("Unexpected imported skill count for %s: %d" % [operator_data.operator_id, operator_data.skills.size()])
 			return
 		if operator_data.branch_trait == null or operator_data.talent_1 == null or operator_data.talent_2 == null:
 			_fail("Missing nested resource for %s" % operator_data.operator_id)

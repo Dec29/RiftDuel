@@ -41,10 +41,12 @@ var _limit := 0
 var _trace: FileAccess
 var _last_tick := -1
 var _started := 0
+var _running_started := 0
 var _deadline := 0
 var _queued := false
 var _queued_until := 0
 var _red_deployed := false
+var _exusiai_deployed := false
 var _skill_sent := false
 var _sent := 0
 var _finished_at := 0
@@ -55,21 +57,26 @@ var _input_delay := NetSession.INPUT_DELAY
 
 func start(args: PackedStringArray) -> void:
 	assert(args.size() in [7, 8])
-	assert(OperatorDB.all_ids().size() == 8, "Expected eight operator resources")
+	assert(OperatorDB.all_ids().has("swire_alter") and OperatorDB.all_ids().has("bagpipe"), "Missing operators required by the peer fixture")
 	_role = args[0]
 	_prefix = args[1]
 	_mode = args[5]
 	_limit = int(args[6])
+	var maximum := Config.MATCH_TICKS + Config.OVERTIME_TICKS
+	if _mode == "endurance" and (_limit <= 0 or _limit > maximum):
+		push_error("Endurance ticks %d outside 1..%d match boundary" % [_limit, maximum])
+		get_tree().quit(1)
+		return
 	_trace = FileAccess.open(_prefix + "_" + _role + ".trace", FileAccess.WRITE)
 	assert(_trace != null)
 	if args.size() == 8:
 		_endpoint = args[7]
 		_input_delay = RelaySession.RELAY_DELAY
-		var relay := DelayedRelay.new()
+		var relay := DelayedRelay.new(Engine.get_main_loop().root.get_node("OperatorDB").network_content())
 		relay.delay_ms = int(args[4])
 		_session = relay
 	else:
-		var lan := DelayedSession.new()
+		var lan := DelayedSession.new(Engine.get_main_loop().root.get_node("OperatorDB").network_content())
 		lan.delay_ms = int(args[4])
 		_session = lan
 	get_tree().root.add_child(_session)
@@ -97,14 +104,16 @@ func _step() -> void:
 		var invitation_path := _prefix + ".invitation"
 		if _role == "host" and relay.phase == "hosting" and not _invitation_written:
 			var invitation := FileAccess.open(invitation_path + ".tmp", FileAccess.WRITE)
-			invitation.store_string(JSON.stringify({"code": relay.room_code, "invite": relay.invite}))
+			invitation.store_string(JSON.stringify({"code": relay.room_code}))
 			invitation.close()
-			assert(DirAccess.rename_absolute(invitation_path + ".tmp", invitation_path) == OK)
+			var rename_error := DirAccess.rename_absolute(invitation_path + ".tmp", invitation_path)
+			assert(rename_error == OK)
 			_invitation_written = true
 		elif _role == "client" and relay.phase == "idle" and FileAccess.file_exists(invitation_path):
 			var invitation: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(invitation_path))
-			assert(DirAccess.remove_absolute(invitation_path) == OK)
-			relay.join_online(_endpoint, invitation.code, invitation.invite)
+			var remove_error := DirAccess.remove_absolute(invitation_path)
+			assert(remove_error == OK)
+			relay.join_online(_endpoint, invitation.code)
 	if Time.get_ticks_msec() > _deadline:
 		push_error("Peer test timed out: " + _session.status)
 		get_tree().quit(1)
@@ -115,15 +124,36 @@ func _step() -> void:
 		return
 	if _session.phase == "room":
 		if not _session.local_ready:
+			_session.local_squad = PackedStringArray(["swire_alter", "nightingale", "exusiai"]) if _role == "host" else PackedStringArray(["bagpipe", "ceobe", "exusiai"])
+			_session.local_skills = PackedInt32Array()
+			_session.local_skills.resize(_session.local_squad.size())
+			_session.local_skills[2] = 1 if _role == "host" else 2
 			_session.set_ready(true)
 		if _role == "host" and _session.remote_ready:
 			_session.start_match()
 	if _battle == null:
 		return
 	var state: MatchState = _battle.match_state
+	if _session.phase == "running" and _running_started == 0:
+		_running_started = Time.get_ticks_msec()
 	if state.tick != _last_tick:
 		_trace.store_line("%d,%d" % [state.tick, state.state_hash()])
 		_last_tick = state.tick
+		if _mode == "endurance":
+			if not _exusiai_deployed:
+				_battle.local_input.select_operator("exusiai")
+				_battle.local_input.queue_deploy(state.tick, Vector2i(12, 2) if _role == "host" else Vector2i(8, 2), 3)
+				_exusiai_deployed = true
+				_sent += 1
+			if _queued and state.tick >= _queued_until:
+				_queued = false
+			if not _queued:
+				for unit in state.units:
+					if unit.side == _session.side and unit.operator_id == "exusiai" and SkillRules.can_manually_activate(unit, OperatorDB.get_data("exusiai").skills[unit.skill_index]):
+						_battle.local_input.queue_skill(state.tick, unit.unit_id, unit.skill_index)
+						_queued = true
+						_queued_until = state.tick + _input_delay + 2
+						_sent += 1
 		if _mode == "battle":
 			var own: UnitState
 			for unit in state.units:
@@ -158,7 +188,7 @@ func _step() -> void:
 		_finished_at = Time.get_ticks_msec()
 		_trace.flush()
 		var result := FileAccess.open(_prefix + "_" + _role + ".json", FileAccess.WRITE)
-		result.store_string(JSON.stringify({"tick": state.tick, "hash": state.state_hash(), "result": state.result, "ball": [state.ball.cell.x, state.ball.cell.y], "commands": _sent, "elapsed_ms": _finished_at - _started, "side": _session.side, "build": _session.build_id, "operators": OperatorDB.all_ids().size()}))
+		result.store_string(JSON.stringify({"tick": state.tick, "hash": state.state_hash(), "result": state.result, "ball": [state.ball.cell.x, state.ball.cell.y], "commands": _sent, "elapsed_ms": _finished_at - _started, "active_elapsed_ms": _finished_at - _running_started, "side": _session.side, "build": _session.build_id, "operators": OperatorDB.all_ids().size()}))
 		result.close()
 		_trace.close()
 		get_tree().physics_frame.disconnect(_step)
@@ -167,6 +197,7 @@ func _step() -> void:
 
 func _finish() -> void:
 	if DisplayServer.get_name() != "headless":
+		_battle.match_view.queue_redraw()
 		await RenderingServer.frame_post_draw
 		assert(get_tree().root.get_texture().get_image().save_png(_prefix + "_" + _role + ".png") == OK)
 	await get_tree().create_timer(1.0).timeout

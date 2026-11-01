@@ -1,0 +1,75 @@
+[gd_resource type="Resource" load_steps=10 format=3]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "吟游者"
+description = "不攻击，范围内友方每秒回复自身攻击力10%；自身不受鼓舞。"
+effect_type = "bard"
+effect_params = {"regen_attack_percent": 10}
+
+[sub_resource type="Resource" id="Talent1"]
+script = ExtResource("3")
+talent_name = "安可"
+description = "技能结束后50%几率立即回复最大技力的50%。"
+effect_type = "encore_sp"
+effect_params = {"chance_percent": 50, "sp_percent": 50}
+
+[sub_resource type="Resource" id="Talent2"]
+script = ExtResource("3")
+talent_name = ""
+description = ""
+effect_type = "none"
+effect_params = {}
+
+[sub_resource type="Resource" id="Skill1"]
+script = ExtResource("4")
+skill_name = "睡眠之歌"
+initial_sp = 45
+sp_required = 60
+sp_recharge_type = "time"
+trigger_type = "manual"
+duration = 7.0
+description = "扩大范围，7秒歌声期间持续施加睡眠，统一随技能结束到期；离开范围不提前醒来，解除后仍在歌声内会再次入睡。睡眠期间不可选中、免伤、阻挡0，禁止普攻与新开技能；技力、技能计时及已释放独立效果继续。生命回复速度提高至每秒100%攻击力。"
+effect_type = "bard_sleep"
+effect_params = {"regen_attack_percent": 100}
+attack_range_override = Array[Vector2i]([Vector2i(-1,2), Vector2i(0,2), Vector2i(1,2), Vector2i(-2,1), Vector2i(-1,1), Vector2i(0,1), Vector2i(1,1), Vector2i(2,1), Vector2i(-2,0), Vector2i(-1,0), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(-2,-1), Vector2i(-1,-1), Vector2i(0,-1), Vector2i(1,-1), Vector2i(2,-1), Vector2i(-1,-2), Vector2i(0,-2), Vector2i(1,-2)])
+
+[sub_resource type="Resource" id="Skill2"]
+script = ExtResource("4")
+skill_name = "战斗之歌"
+initial_sp = 25
+sp_required = 45
+sp_recharge_type = "time"
+trigger_type = "manual"
+duration = 30.0
+description = "范围内其他友方获得空100%攻击力的鼓舞，不影响吟游者。"
+effect_type = "bard_song"
+effect_params = {"regen_attack_percent": 10, "inspire_attack_percent": 100}
+
+[resource]
+script = ExtResource("1")
+operator_id = "sora"
+display_name = "空"
+profession = "辅助"
+profession_id = "supporter"
+branch = "吟游者"
+max_health = 1356
+attack = 335
+defense = 238
+magic_resist = 0
+damage_type = "physical"
+attack_interval = 1.3
+block_count = 1
+initial_deploy_cost = 5
+deploy_cost = 7
+redeploy_time = 70
+attack_range = Array[Vector2i]([Vector2i(0,2), Vector2i(-1,1), Vector2i(0,1), Vector2i(1,1), Vector2i(-2,0), Vector2i(-1,0), Vector2i(0,0), Vector2i(1,0), Vector2i(2,0), Vector2i(-1,-1), Vector2i(0,-1), Vector2i(1,-1), Vector2i(0,-2)])
+terrain_requirement = "high"
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent1")
+talent_2 = SubResource("Talent2")
+skills = Array[ExtResource("4")]([SubResource("Skill1"), SubResource("Skill2")])

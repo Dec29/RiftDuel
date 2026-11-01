@@ -8,7 +8,7 @@ func _initialize() -> void:
 		state.tick = Config.MATCH_TICKS - 2
 		state.ball.cell.x = column
 		state.step([], [])
-		_expect(state.result == 0, "Must not end before 9000 ticks")
+		_expect(state.result == 0, "Must not end before normal-time deadline")
 		state.step([], [])
 		_expect(state.result == (1 if column < 10 else (2 if column > 10 else 0)), "Normal-time column verdict: %d" % column)
 	for column in [9, 10, 11]:
@@ -43,8 +43,8 @@ func _initialize() -> void:
 		first.step([], [])
 		second.step([], [])
 		_expect(first.state_hash() == second.state_hash(), "Timeout replay diverged: %d" % tick)
-	_expect(first.result == 3 and first.tick == 10800, "Empty match must draw at exactly six minutes")
-	print("Match end: normal time, overtime, goals, settled position, frozen result, 10800-tick replay; failures=%d" % failures)
+	_expect(first.result == 3 and first.tick == Config.MATCH_TICKS + Config.OVERTIME_TICKS, "Empty match must draw at exactly six active real minutes")
+	print("Match end: normal time, overtime, goals, settled position, frozen result, deadline replay; failures=%d" % failures)
 	quit(0 if failures == 0 else 1)
 
 func _expect(condition: bool, message: String) -> void:

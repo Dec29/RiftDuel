@@ -7,8 +7,8 @@ var client: RelaySession
 func start(args: PackedStringArray) -> void:
 	assert(args.size() == 1)
 	get_tree().create_timer(45.0).timeout.connect(func() -> void: get_tree().quit(1))
-	host = RelaySession.new()
-	client = RelaySession.new()
+	host = RelaySession.new(Engine.get_main_loop().root.get_node("OperatorDB").network_content())
+	client = RelaySession.new(Engine.get_main_loop().root.get_node("OperatorDB").network_content())
 	add_child(host)
 	add_child(client)
 	host.failed.connect(func(message: String) -> void:
@@ -21,7 +21,7 @@ func start(args: PackedStringArray) -> void:
 	)
 	host.create_online(args[0])
 	await _wait_phase(host, "hosting")
-	client.join_online(args[0], host.room_code, host.invite)
+	client.join_online(args[0], host.room_code)
 	await _wait_phase(client, "room")
 	await _wait_phase(host, "room")
 	host.set_ready(true)
@@ -38,7 +38,7 @@ func start(args: PackedStringArray) -> void:
 	var operators := {}
 	for id in OperatorDB.all_ids():
 		operators[id] = OperatorDB.get_data(id)
-	assert(operators.size() == 8)
+	assert(operators.has("nightingale") and operators.has("nightingale_phantom") == false)
 	var states := [MatchState.new(host.match_seed, operators), MatchState.new(client.match_seed, operators)]
 	for state in states:
 		state.sides[0].cost = 99

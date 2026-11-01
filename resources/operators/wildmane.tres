@@ -1,0 +1,77 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="skill"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="trait"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="talent"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="op"]
+
+[sub_resource type="Resource" id="trait"]
+script = ExtResource("trait")
+trait_name = "冲锋手"
+description = "击杀敌人后获得1点部署费用，撤退时返还初始部署费用"
+effect_type = "refund_on_kill"
+effect_params = {"refund_amount":1}
+
+[sub_resource type="Resource" id="talent0"]
+script = ExtResource("talent")
+talent_name = "一致向前"
+description = "部署后，所有未部署的【近卫】干员的部署费用-1（每个干员每次被部署前，最多可被减少5费）"
+effect_type = "guard_deploy_discount"
+effect_params = {"discount_per_deploy":1,"max_discount":5}
+
+[sub_resource type="Resource" id="talent1"]
+script = ExtResource("talent")
+talent_name = "无"
+description = "原作仅一个天赋。"
+effect_type = "none"
+effect_params = {}
+
+[sub_resource type="Resource" id="skill0"]
+script = ExtResource("skill")
+skill_name = "骑枪刺击"
+initial_sp = 0
+sp_required = 0
+sp_recharge_type = "passive"
+trigger_type = "passive"
+description = "部署后30秒攻击速度+135。"
+effect_type = "wildmane_deploy"
+effect_params = {"attack_mult":1.0,"attack_speed_add":135}
+duration = 30.0
+attack_range_override = Array[Vector2i]([])
+
+[sub_resource type="Resource" id="skill1"]
+script = ExtResource("skill")
+skill_name = "夹枪冲锋"
+initial_sp = 30
+sp_required = 40
+sp_recharge_type = "time"
+trigger_type = "manual"
+description = "20秒攻击范围扩大、攻击力+80%，每次攻击向攻击方向以M125力度2推动目标。"
+effect_type = "wildmane_charge"
+effect_params = {"attack_mult":1.8,"shift_force":2}
+duration = 20.0
+attack_range_override = Array[Vector2i]([Vector2i(0,0),Vector2i(1,0),Vector2i(2,0)])
+
+[resource]
+script = ExtResource("op")
+operator_id = "wildmane"
+display_name = "野鬃"
+profession = "先锋"
+profession_id = "vanguard"
+branch = "冲锋手"
+group_id = "kazimierz"
+max_health = 2225
+attack = 558
+defense = 372
+magic_resist = 0
+damage_type = "physical"
+attack_interval = 1.0
+block_count = 1
+initial_deploy_cost = 12
+deploy_cost = 14
+redeploy_time = 80.0
+attack_range = Array[Vector2i]([Vector2i(0,0),Vector2i(1,0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("trait")
+talent_1 = SubResource("talent0")
+talent_2 = SubResource("talent1")
+skills = Array[ExtResource("skill")]([SubResource("skill0"),SubResource("skill1")])

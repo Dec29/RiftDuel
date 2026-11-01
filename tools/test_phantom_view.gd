@@ -17,7 +17,7 @@ func _run() -> void:
 	var db := root.get_node("OperatorDB")
 	for id in db.all_ids():
 		definitions[id] = db.get_data(id)
-	assert(definitions.size() == 8)
+	assert(definitions.has("shining"))
 	for side in 2:
 		for mirrored in [false, true]:
 			var state := MatchState.new(72, definitions)
@@ -33,7 +33,7 @@ func _run() -> void:
 			root.add_child(view)
 			assert(not definitions.has("nightingale_phantom"))
 			var ids := view._tray_operator_ids()
-			assert(ids.size() == 8 and ids.has("nightingale_phantom") and not ids.has("nightingale"))
+			assert(ids.size() == definitions.size() and ids.has("nightingale_phantom") and not ids.has("nightingale"))
 			var hash_before := state.state_hash()
 			var cost_before: int = state.sides[side].cost
 			_mouse(view, view._card_rect(ids.find("nightingale_phantom")).get_center(), true)
@@ -42,16 +42,17 @@ func _run() -> void:
 			assert(input.take_commands().is_empty() and state.state_hash() == hash_before)
 			_mouse(view, view._card_rect(ids.find("nightingale_phantom")).get_center(), true)
 			var phantom_cell := Vector2i(11 if side == 0 else 9, 2)
-			_mouse(view, view._cell_rect(phantom_cell).get_center(), false)
+			_mouse(view, view.projection.cell_rect(phantom_cell).get_center(), false)
 			var commands := input.take_commands()
 			assert(commands.size() == 1 and commands[0].operator_id == "nightingale_phantom" and commands[0].cell == phantom_cell)
 			assert(view._deploy_phase == MatchView.DeployPhase.IDLE and state.state_hash() == hash_before)
-			assert(CommandCodec.decode(CommandCodec.encode(commands), state.tick).has("commands"))
+			assert(CommandCodec.decode(CommandCodec.encode(commands), state.tick, Engine.get_main_loop().root.get_node("OperatorDB").network_content()["ids"]).has("commands"))
 			state.step(commands if side == 0 else empty, commands if side == 1 else empty)
 			assert(state.units.size() == 2 and state.sides[side].phantom_count == 1 and state.sides[side].cost == cost_before - 5)
 			assert(view._tray_operator_ids().has("nightingale_phantom") and not state.phantom_available(side))
-			_mouse(view, view._cell_rect(phantom_cell).get_center(), true)
+			_mouse(view, view.projection.cell_rect(phantom_cell).get_center(), true)
 			assert(input.selected_unit_id == 1)
+			view._info_tab = MatchView.InfoTab.COMMAND
 			var space := InputEventKey.new()
 			space.pressed = true
 			space.keycode = KEY_SPACE
@@ -78,7 +79,7 @@ func _run() -> void:
 			_mouse(view, view._card_rect(view._tray_operator_ids().find("nightingale_phantom")).get_center(), true)
 			assert(view._deploy_phase == MatchView.DeployPhase.IDLE and input.take_commands().is_empty())
 			input.side = 1 - side
-			_mouse(view, view._cell_rect(phantom_cell).get_center(), true)
+			_mouse(view, view.projection.cell_rect(phantom_cell).get_center(), true)
 			_mouse(view, view._skill_rect().get_center(), true)
 			_mouse(view, view._cancel_rect().get_center(), true)
 			assert(input.take_commands().is_empty())

@@ -1,0 +1,48 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="skill"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="trait"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="talent"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="operator"]
+
+[sub_resource type="Resource" id="trait"]
+script = ExtResource("trait")
+trait_name = "狼群"
+description = "原作狼群，继承先锋伤害系数；每影增加阻挡与一次攻击。"
+effect_type = "vigil_wolf"
+effect_params = {"source_profession_id":"vanguard"}
+[sub_resource type="Resource" id="none"]
+script = ExtResource("talent")
+talent_name = "无"
+description = "由伺夜控制。"
+effect_type = "none"
+effect_params = {}
+[sub_resource type="Resource" id="skill"]
+script = ExtResource("skill")
+skill_name = "狼群"
+sp_recharge_type = "passive"
+trigger_type = "passive"
+effect_type = "no_skill"
+effect_params = {}
+duration = 0.0
+[resource]
+script = ExtResource("operator")
+operator_id = "vigil_wolf"
+display_name = "狼群"
+profession = "召唤物"
+profession_id = "summon"
+branch = "狼群"
+max_health = 1100
+attack = 371
+defense = 317
+magic_resist = 20
+damage_type = "physical"
+attack_interval = 1.25
+block_count = 0
+deploy_cost = 0
+redeploy_time = 10.0
+attack_range = Array[Vector2i]([Vector2i(0,0)])
+terrain_requirement = "ground"
+branch_trait = SubResource("trait")
+talent_1 = SubResource("none")
+talent_2 = SubResource("none")
+skills = Array[ExtResource("skill")]([SubResource("skill")])

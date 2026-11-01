@@ -88,8 +88,8 @@ func _initialize() -> void:
 	if first.ball.cell != Vector2i(0, 5) or first.result != MatchState.RESULT_BLUE_WIN:
 		_fail("Expected blue win at (0, 5), got cell=%s result=%d" % [first.ball.cell, first.result])
 		return
-	if first.tick > 9000:
-		_fail("Match exceeded 9000 ticks: %d" % first.tick)
+	if first.tick > Config.MATCH_TICKS:
+		_fail("Match exceeded Config.MATCH_TICKS ticks: %d" % first.tick)
 		return
 	if first.state_hash() != second.state_hash():
 		_fail("Determinism mismatch: first=%d second=%d" % [first.state_hash(), second.state_hash()])
@@ -122,7 +122,7 @@ func _initialize() -> void:
 		if skill_tick == 600 and (skill_first.units[0].skill_ticks_left != 1049 or skill_first.units[0].sp != 0):
 			_fail("Manual skill command did not activate Bagpipe")
 			return
-	if ai_first.result != MatchState.RESULT_BLUE_WIN or ai_first.tick > 9000:
+	if ai_first.result != MatchState.RESULT_BLUE_WIN or ai_first.tick > Config.MATCH_TICKS:
 		_fail("AIInput did not finish a match: result=%d tick=%d cell=%s" % [ai_first.result, ai_first.tick, ai_first.ball.cell])
 		return
 	if ai_first.state_hash() != ai_second.state_hash():
@@ -213,7 +213,7 @@ func _initialize() -> void:
 
 func _run_match(definitions: Dictionary, schedule: Dictionary, generate_schedule: bool) -> MatchState:
 	var state := MATCH_STATE.new(0x12345678, definitions) as MatchState
-	while state.result == MatchState.RESULT_RUNNING and state.tick < 9000:
+	while state.result == MatchState.RESULT_RUNNING and state.tick < Config.MATCH_TICKS:
 		var blue_commands: Array[InputCommand] = []
 		if generate_schedule:
 			if not state.units.is_empty():
@@ -235,7 +235,7 @@ func _run_match(definitions: Dictionary, schedule: Dictionary, generate_schedule
 func _run_ai_match(definitions: Dictionary, schedule: Dictionary, generate_schedule: bool, hashes: Array[int]) -> MatchState:
 	var state := MATCH_STATE.new(0x12345678, definitions) as MatchState
 	var ai := AI_INPUT.new(0, definitions) as AIInput
-	while state.result == MatchState.RESULT_RUNNING and state.tick < 9000:
+	while state.result == MatchState.RESULT_RUNNING and state.tick < Config.MATCH_TICKS:
 		var blue_commands: Array[InputCommand] = []
 		if generate_schedule:
 			var before_hash := state.state_hash()

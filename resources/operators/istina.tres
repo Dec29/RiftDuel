@@ -1,0 +1,85 @@
+[gd_resource type="Resource" script_class="OperatorData" format=3]
+
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="1_v6qnd"]
+[ext_resource type="Script" path="res://data/operator_data.gd" id="2_v4432"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="3_28mh8"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="4_mj0uv"]
+
+[sub_resource type="Resource" id="Resource_s0ntq"]
+script = ExtResource("1_v6qnd")
+trait_name = "凝滞师"
+description = "攻击实际造成伤害后赋予0.8秒停顿；每目标3秒内最多打断一次普攻或普通治疗、最多延后0.4秒，不影响主动技能或外力位移。"
+effect_type = "slow_on_hit"
+effect_params = {
+"slow_duration": 0.8
+}
+
+[sub_resource type="Resource" id="Resource_38aqd"]
+script = ExtResource("3_28mh8")
+skill_name = "专心致志"
+initial_sp = 20
+sp_required = 40
+sp_recharge_type = "time"
+description = "攻击间隔减少1.1秒，持续30秒，天赋攻速+18仍参与间隔换算。"
+effect_type = "istina_focus"
+effect_params = {
+"attack_interval_add": -1.1,
+"attack_mult": 1.0
+}
+duration = 30.0
+
+[sub_resource type="Resource" id="Resource_8mnbj"]
+script = ExtResource("3_28mh8")
+skill_name = "文学风暴"
+initial_sp = 30
+sp_required = 50
+sp_recharge_type = "time"
+description = "攻击+75%，扩大范围，同时攻击最多3名不同敌人，持续25秒；停顿每目标3秒内最多打断一次普攻或普通治疗、最多延后0.4秒。"
+effect_type = "istina_storm"
+effect_params = {
+"attack_mult": 1.75,
+"target_count": 3
+}
+duration = 25.0
+attack_range_override = Array[Vector2i]([Vector2i(-1, -2), Vector2i(0, -2), Vector2i(1, -2), Vector2i(-2, -1), Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(-2, 0), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-2, 1), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1), Vector2i(-1, 2), Vector2i(0, 2), Vector2i(1, 2)])
+
+[sub_resource type="Resource" id="Resource_ixfim"]
+script = ExtResource("4_mj0uv")
+talent_name = "探知者"
+description = "自身防御-35%、攻速+18；停顿每目标3秒内最多打断一次普攻或普通治疗、最多延后0.4秒，不影响外力位移。"
+effect_type = "explorer"
+effect_params = {
+"attack_speed_add": 18,
+"defense_reduce_percent": 35
+}
+
+[sub_resource type="Resource" id="Resource_3uwk5"]
+script = ExtResource("4_mj0uv")
+talent_name = "无第二天赋"
+description = "原作仅有一个天赋，不额外添加天赋。"
+effect_type = "none"
+
+[resource]
+script = ExtResource("2_v4432")
+operator_id = "istina"
+group_id = "ursus_student"
+display_name = "真理"
+profession = "辅助"
+profession_id = "supporter"
+branch = "凝滞师"
+max_health = 1280
+attack = 518
+defense = 104
+magic_resist = 20
+damage_type = "magical"
+attack_interval = 1.9
+block_count = 1
+initial_deploy_cost = 13
+deploy_cost = 15
+redeploy_time = 70.0
+attack_range = Array[Vector2i]([Vector2i(-1, -1), Vector2i(0, -1), Vector2i(1, -1), Vector2i(2, -1), Vector2i(-1, 0), Vector2i(0, 0), Vector2i(1, 0), Vector2i(2, 0), Vector2i(-1, 1), Vector2i(0, 1), Vector2i(1, 1), Vector2i(2, 1)])
+terrain_requirement = "high"
+branch_trait = SubResource("Resource_s0ntq")
+talent_1 = SubResource("Resource_ixfim")
+talent_2 = SubResource("Resource_3uwk5")
+skills = Array[ExtResource("3_28mh8")]([SubResource("Resource_38aqd"), SubResource("Resource_8mnbj")])

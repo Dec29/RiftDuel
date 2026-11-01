@@ -1,0 +1,94 @@
+[gd_resource type="Resource" load_steps=11 format=3]
+
+[ext_resource type="Script" path="res://data/operator_data.gd" id="1"]
+[ext_resource type="Script" path="res://data/trait_resource.gd" id="2"]
+[ext_resource type="Script" path="res://data/talent_resource.gd" id="3"]
+[ext_resource type="Script" path="res://data/skill_resource.gd" id="4"]
+
+[sub_resource type="Resource" id="Trait"]
+script = ExtResource("2")
+trait_name = "领主"
+description = "可以进行远程攻击，但此时攻击力降低至80%；本作无移动阻挡，单位与球普通攻击均按远攻折算，技能1强化攻击及技能2／3生效时免折算"
+effect_type = "ranged_attack"
+effect_params = {"attack_percent": 80}
+
+[sub_resource type="Resource" id="Talent1"]
+script = ExtResource("3")
+talent_name = "领袖"
+description = "自身攻击力+10%；编入队伍时所有可部署干员再部署时间-10%，无需在场"
+effect_type = "attack_redeploy_buff"
+effect_params = {"attack_percent": 10, "redeploy_reduction_percent": 10}
+
+[sub_resource type="Resource" id="Talent2"]
+script = ExtResource("3")
+talent_name = "鹰眼视觉"
+description = "使攻击范围内敌人的隐匿效果失效；本作无隐匿对象，无适用机制"
+effect_type = "reveal_invisible"
+effect_params = {}
+
+[sub_resource type="Resource" id="Skill1"]
+script = ExtResource("4")
+initial_sp = 0
+trigger_type = "attack"
+skill_name = "强力击γ"
+description = "下次攻击的攻击力提高至290%，不受远程攻击折算"
+sp_required = 2
+sp_recharge_type = "on_hit"
+effect_type = "atk_boost_single"
+effect_params = {"attack_mult": 2.9, "ignore_ranged_penalty": true}
+duration = 0.0
+
+[sub_resource type="Resource" id="Skill2"]
+script = ExtResource("4")
+initial_sp = 0
+trigger_type = "manual"
+skill_name = "雪境生存法则"
+description = "每次消耗5技力切换状态；防御状态攻击范围缩小，防御力+100%，每秒回复最大生命6%（本作按50%折算为3%），仍可攻击且免除远攻折算；状态内继续回复技力，再次开启回到初始状态。"
+sp_required = 5
+sp_recharge_type = "time"
+effect_type = "stance_defense_regen"
+effect_params = {"attack_mult": 1.0, "defense_mult": 2.0, "regen_health_percent": 6, "ignore_ranged_penalty": true}
+duration = -1.0
+attack_range_override = Array[Vector2i]([Vector2i(0,1),Vector2i(0,0),Vector2i(1,0),Vector2i(0,-1)])
+
+[sub_resource type="Resource" id="Skill3"]
+script = ExtResource("4")
+initial_sp = 75
+trigger_type = "manual"
+skill_name = "真银斩"
+description = "防御力-70%，攻击力+200%，攻击范围扩大，攻击至多6个不同敌人，免除远攻折算，持续30秒；敌人优先，其次箱子一击，再对球施加一次实际攻击推力。"
+sp_required = 90
+sp_recharge_type = "time"
+effect_type = "multi_target_boost"
+effect_params = {"attack_mult": 3.0, "defense_mult": 0.3, "target_count": 6, "ignore_ranged_penalty": true}
+duration = 30.0
+attack_range_override = Array[Vector2i]([Vector2i(0,3),Vector2i(0,2),Vector2i(1,2),Vector2i(0,1),Vector2i(1,1),Vector2i(2,1),Vector2i(0,0),Vector2i(1,0),Vector2i(2,0),Vector2i(3,0),Vector2i(0,-1),Vector2i(1,-1),Vector2i(2,-1),Vector2i(0,-2),Vector2i(1,-2),Vector2i(0,-3)])
+
+[resource]
+script = ExtResource("1")
+group_id = "kjerag"
+operator_id = "silverash"
+display_name = "银灰"
+profession = "近卫"
+profession_id = "guard"
+branch = "领主"
+max_health = 2560
+attack = 713
+defense = 397
+magic_resist = 10
+damage_type = "physical"
+attack_interval = 1.3
+block_count = 2
+initial_deploy_cost = 18
+deploy_cost = 20
+redeploy_time = 70.0
+dodge_physical = 0
+dodge_magical = 0
+attack_range = Array[Vector2i]([Vector2i(0,-1),Vector2i(0,0),Vector2i(0,1),Vector2i(1,-1),Vector2i(1,0),Vector2i(1,1),Vector2i(2,0),Vector2i(3,0)])
+terrain_requirement = "ground"
+ignore_deploy_line = false
+branch_trait = SubResource("Trait")
+talent_1 = SubResource("Talent1")
+talent_2 = SubResource("Talent2")
+skills = Array[ExtResource("4")]([SubResource("Skill1"), SubResource("Skill2"), SubResource("Skill3")])
+equipped_skill_index = 0
