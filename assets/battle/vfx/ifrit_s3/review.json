@@ -1,0 +1,53 @@
+{
+  "actor_attack_clip": "Skill_2_Loop",
+  "board_times": [
+    0.35,
+    0.7,
+    1.35
+  ],
+  "performance_cycle_seconds": 23.0,
+  "id": "ifrit_s3",
+  "title": "伊芙利特默认S3 · 原网格/骨骼火焰",
+  "operator_id": "ifrit",
+  "asset_root": "res://assets/battle/vfx/ifrit_s3/",
+  "output": "res://.ai/ifrit-s3-20261025/component/",
+  "clip_ids": [
+    "start",
+    "range",
+    "buff"
+  ],
+  "start_times": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "anchors": [
+    "source",
+    "target",
+    "source"
+  ],
+  "target_distance_units": 2.8,
+  "projectile_seconds": 0.65,
+  "loop_seconds": 23.0,
+  "verify_times": [
+    0.35,
+    0.7,
+    1.35,
+    4.0,
+    10.0,
+    19.9,
+    20.3,
+    22.1
+  ],
+  "hit_verify_time": 1.35,
+  "capture_ranges": [
+    [
+      0.0,
+      3.0
+    ],
+    [
+      19.5,
+      22.1
+    ]
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "source_pack": "res://assets/battle/vfx/ifrit_s3/source_pack.json",
+  "output": "res://assets/battle/vfx/ifrit_s3",
+  "frames_per_second": 30,
+  "discard_invisible": true,
+  "clips": [
+    {
+      "id": "start",
+      "prefab": 0,
+      "role": "start",
+      "emission_seconds": 0.7,
+      "duration_seconds": 2.2,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "range",
+      "prefab": 1,
+      "role": "attached",
+      "emission_seconds": 20,
+      "duration_seconds": 22,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "buff",
+      "prefab": 2,
+      "role": "attached",
+      "emission_seconds": 20,
+      "duration_seconds": 20.5,
+      "travel_units": 0,
+      "attachment_offset": [
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

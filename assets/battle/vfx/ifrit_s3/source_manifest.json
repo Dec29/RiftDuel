@@ -1,0 +1,258 @@
+{
+  "copyright": "Arknights / Hypergryph and respective rightsholders. Local non-commercial fan-project testing is not a new license. Repository code license does not cover game art.",
+  "sources": [
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\battle\\prefabs\\effects\\ifrit.ab",
+      "bytes": 1450241,
+      "sha256": "feaa9f2cd97ba2960d99397ae27bb41e7f18cd3fc3698a70365ea3b7f07de5f5"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\refs\\fx\\material.ab",
+      "bytes": 63148,
+      "sha256": "53e01422e18f06641dd8e893d61aa9914fb65f7058767f7ea7c47b85ccfd7eff"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\[uc]shaders.ab",
+      "bytes": 443792,
+      "sha256": "668663dccbada9272f30092c5fe5a5b3594a24da56b43527fd65212146860e0a"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\refs\\fx\\texture\\fire.ab",
+      "bytes": 1776680,
+      "sha256": "9fdefad60641f862cd7a87a839ea65990b99dd11a00261cfdac5743d810a5360"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\flow.ab",
+      "bytes": 13817256,
+      "sha256": "f60b60836874c9f629303d5f750c119abe191e81582a335ffe52572b3666e4d5"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\star.ab",
+      "bytes": 6516985,
+      "sha256": "c601419ffde815547c7563a64c444ac2b4f8fab6b329d11b68ae9c659516c63b"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\trail.ab",
+      "bytes": 10859786,
+      "sha256": "4c6613ca58d886b5be224d0067658f8d3c99b6083c5c3f3659fb1652c9ed4125"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\smoke.ab",
+      "bytes": 3453973,
+      "sha256": "3a12e1947eaa79c539a2b04759bdad8697d01dda5b655db2da9fca91254df36b"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\refs\\fx\\texture\\vein.ab",
+      "bytes": 1879808,
+      "sha256": "b64a7fe0667c121eaf760b81523f263b94f160e63ba7cf5e2953557c707f5d51"
+    }
+  ],
+  "prefabs": [
+    {
+      "name": "ifrit_skill_03_start",
+      "original_cab": "CAB-e58959fd0548d411473b98cd99aea7d1",
+      "game_object_path_id": "-8439855126924307666"
+    },
+    {
+      "name": "ifrit_skill_03_range",
+      "original_cab": "CAB-e58959fd0548d411473b98cd99aea7d1",
+      "game_object_path_id": "-2092437235218838545"
+    },
+    {
+      "name": "ifrit_skill_03_buff",
+      "original_cab": "CAB-e58959fd0548d411473b98cd99aea7d1",
+      "game_object_path_id": "4909697124749404280"
+    }
+  ],
+  "textures": [
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-1074696917881622342.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-1074696917881622342",
+      "bytes": 6284,
+      "sha256": "f74fe25ec860fd1893d58227f19ee76b6edd827f53f60f8f84801c934c5e71bc"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-5177635814654685401.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-5177635814654685401",
+      "bytes": 6196,
+      "sha256": "d54a8268c1bdf9bae9d6600bfb14681356402a5c876b660be673be7e5fe1eaa2"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_5319023822968148357.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "5319023822968148357",
+      "bytes": 4540,
+      "sha256": "d36889e429bdc516dc3740362ed113fda748a2ccbaca1fc6f6fdb8c27839b78d"
+    },
+    {
+      "file": "textures/CAB-895a9c6afcb47c5c7f43c8589b1fe2fc_-1153213323322257993.png",
+      "original_cab": "CAB-895a9c6afcb47c5c7f43c8589b1fe2fc",
+      "original_path_id": "-1153213323322257993",
+      "bytes": 16373,
+      "sha256": "49947f41c3e60d155291101b91588a9fadeb343b7aaf61b97e0436eb5d39fb3e"
+    },
+    {
+      "file": "textures/CAB-895a9c6afcb47c5c7f43c8589b1fe2fc_-5189148343427951642.png",
+      "original_cab": "CAB-895a9c6afcb47c5c7f43c8589b1fe2fc",
+      "original_path_id": "-5189148343427951642",
+      "bytes": 6383,
+      "sha256": "b9aded83294a2d4bc064bff4b55c9a52d8dc26689df68b6e93f4d5d3e1d50957"
+    },
+    {
+      "file": "textures/CAB-a1620becb3839aebe0c9da8f7cca77f8_9193066530983125547.png",
+      "original_cab": "CAB-a1620becb3839aebe0c9da8f7cca77f8",
+      "original_path_id": "9193066530983125547",
+      "bytes": 74374,
+      "sha256": "af764e81b629c0d97ce9e478aa053b1aa1114065eead8398b08f2757edb7f250"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-4487102536378500135.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "-4487102536378500135",
+      "bytes": 13827,
+      "sha256": "8fa88e4669415409a9f135dd3c4a2bf7c41ec1981150b8061474e3d0377f783e"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-9033574108148208245.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "-9033574108148208245",
+      "bytes": 25019,
+      "sha256": "576771fe06ac83ebb137fab52476536aca002d87f678662e6663c18318ca8dfc"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_2170936782449842998.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "2170936782449842998",
+      "bytes": 28992,
+      "sha256": "5470149919247542778596ae536c7c646f11174cddde106102eb83a81d43262d"
+    },
+    {
+      "file": "textures/CAB-d78082c54cca29d82a1f4895c6b873e6_-6714872522585104964.png",
+      "original_cab": "CAB-d78082c54cca29d82a1f4895c6b873e6",
+      "original_path_id": "-6714872522585104964",
+      "bytes": 33104,
+      "sha256": "941770a38670c132cdc0fbece0be51b72d053d0306328a1f816df7c200f4f713"
+    },
+    {
+      "file": "textures/CAB-d78082c54cca29d82a1f4895c6b873e6_-7153419131079563927.png",
+      "original_cab": "CAB-d78082c54cca29d82a1f4895c6b873e6",
+      "original_path_id": "-7153419131079563927",
+      "bytes": 65364,
+      "sha256": "0bcdacb9f4bfcf95d6de5062df6ef8cd65952c73743e463e6e27958d61790bfa"
+    },
+    {
+      "file": "textures/CAB-e58959fd0548d411473b98cd99aea7d1_-515851399183617769.png",
+      "original_cab": "CAB-e58959fd0548d411473b98cd99aea7d1",
+      "original_path_id": "-515851399183617769",
+      "bytes": 20316,
+      "sha256": "f99909d84f091de37f8aa4b8b425e5435ef1b15ad853917c4081acf5fcafe0e7"
+    },
+    {
+      "file": "textures/CAB-e58959fd0548d411473b98cd99aea7d1_-8744873709325713197.png",
+      "original_cab": "CAB-e58959fd0548d411473b98cd99aea7d1",
+      "original_path_id": "-8744873709325713197",
+      "bytes": 854,
+      "sha256": "7f71b9db84609211e5604ae02ff4590933afb52115af3a24a93d7289c3d66350"
+    },
+    {
+      "file": "textures/CAB-e58959fd0548d411473b98cd99aea7d1_4911177250009586560.png",
+      "original_cab": "CAB-e58959fd0548d411473b98cd99aea7d1",
+      "original_path_id": "4911177250009586560",
+      "bytes": 14438,
+      "sha256": "283065bd70edb7bc41113f3879eada2d23154a32a765b6fae1c94b165a0049dc"
+    },
+    {
+      "file": "textures/CAB-e58959fd0548d411473b98cd99aea7d1_899359187574851.png",
+      "original_cab": "CAB-e58959fd0548d411473b98cd99aea7d1",
+      "original_path_id": "899359187574851",
+      "bytes": 79421,
+      "sha256": "075a9c78a86c5f433179dddb543fe139642c840f86f4783cde4bfab086f66820"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-7887427954279609538.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "-7887427954279609538",
+      "bytes": 2875,
+      "sha256": "c3d27b0165fb0e84fc74c4c4d2cf1ccf67e9d056fd2474e4ab70314f37c74484"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_4863001910688194251.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "4863001910688194251",
+      "bytes": 5270,
+      "sha256": "4b4d6fdad92e24e79767b60ff7a21960f006609de9cb5478f0bcb4f10be9e49a"
+    }
+  ],
+  "source_pack_bytes": 787370,
+  "source_pack_sha256": "67bd16189189cc8e7469a244866b49de673febd6ddd8430850b5fc9b8572870f",
+  "decoder": {
+    "unitypy": "1.25.4",
+    "unpacker_commit": "4a4b9efc6be4690b68b70b4a16578950baa066d3",
+    "lz4ak_source_sha256": "55832b28aefe510880bfcf54c0628138b0ee561b46b3fb8830f58fddadcd475a"
+  },
+  "animation_binding_gaps": [],
+  "derived_clips": [
+    {
+      "file": "start.res",
+      "original_prefab": "ifrit_skill_03_start",
+      "original_cab": "CAB-e58959fd0548d411473b98cd99aea7d1",
+      "original_game_object_path_id": "-8439855126924307666",
+      "bytes": 412137,
+      "sha256": "3c0b580037fd0b95a87c84aeb5446a3dce3373ce08e6391cd747c334296799b3",
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; 30Hz four-facing offline source-component sampling"
+    },
+    {
+      "file": "range.res",
+      "original_prefab": "ifrit_skill_03_range",
+      "original_cab": "CAB-e58959fd0548d411473b98cd99aea7d1",
+      "original_game_object_path_id": "-2092437235218838545",
+      "bytes": 9363980,
+      "sha256": "c306d588dcb9653cd7647be457714b62c71ef43a3636dcd4d569b3a8bc074035",
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; 30Hz four-facing offline source-component sampling"
+    },
+    {
+      "file": "buff.res",
+      "original_prefab": "ifrit_skill_03_buff",
+      "original_cab": "CAB-e58959fd0548d411473b98cd99aea7d1",
+      "original_game_object_path_id": "4909697124749404280",
+      "bytes": 27690284,
+      "sha256": "45a55830fed0696573d6315ecdf7637444d26a52d682b7b5be220d3d8a842de8",
+      "conversion": "tools/build_original_vfx.gd with adjacent build.json; 30Hz four-facing offline source-component sampling"
+    }
+  ],
+  "adapted_mask_shader": {
+    "file": "../native_mask_add.gdshader",
+    "original_cab": "CAB-1b70e77fd118dea4a32415ac87839ac6",
+    "original_path_id": "7890298797014127830",
+    "original_name": "Torappu/Particles/Mask/Mask (Add)",
+    "bytes": 1083,
+    "sha256": "c7619c8e2fbf56322e6ed0fc6c9d4b016db54d856b5e039a7861de46b137ced1",
+    "conversion": "D3D11 bytecode disassembly recorded in task evidence; equation translated to CanvasItem blend_add"
+  },
+  "runtime_storage": {
+    "version": 2,
+    "engine": "Godot 4.7.2",
+    "source_sample_rate_hz": 30,
+    "geometry": "Exact source surface arrays plus offline-packed 2D GPU buffers; only degenerate padding added, no visible layers removed. Player-owned bounded buffers avoid eager ArrayMesh RID allocation.",
+    "proof": ".ai/vfx-release-20261027/packed-buffer-conversion-final.json"
+  },
+  "runtime_files": [
+    {
+      "file": "buff.res",
+      "bytes": 27690284,
+      "sha256": "45a55830fed0696573d6315ecdf7637444d26a52d682b7b5be220d3d8a842de8"
+    },
+    {
+      "file": "range.res",
+      "bytes": 9363980,
+      "sha256": "c306d588dcb9653cd7647be457714b62c71ef43a3636dcd4d569b3a8bc074035"
+    },
+    {
+      "file": "start.res",
+      "bytes": 412137,
+      "sha256": "3c0b580037fd0b95a87c84aeb5446a3dce3373ce08e6391cd747c334296799b3"
+    }
+  ]
+}

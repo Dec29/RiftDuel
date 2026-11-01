@@ -1,0 +1,27 @@
+{
+	"clips": [
+		{
+			"bake_ms": 275,
+			"duration_seconds": 2.2,
+			"file": "res://assets/battle/vfx/ifrit_s3/start.res",
+			"frames": 264,
+			"id": "start"
+		},
+		{
+			"bake_ms": 8507,
+			"duration_seconds": 22.0,
+			"file": "res://assets/battle/vfx/ifrit_s3/range.res",
+			"frames": 2640,
+			"id": "range"
+		},
+		{
+			"bake_ms": 13238,
+			"duration_seconds": 20.5,
+			"file": "res://assets/battle/vfx/ifrit_s3/buff.res",
+			"frames": 2460,
+			"id": "buff"
+		}
+	],
+	"facing_count": 4,
+	"fps": 30.0
+}
