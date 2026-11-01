@@ -1,0 +1,211 @@
+{
+  "copyright": "Arknights / Hypergryph and respective rightsholders. Local non-commercial fan-project testing is not a new license. Repository code license does not cover game art.",
+  "sources": [
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\battle\\prefabs\\effects\\amgoat.ab",
+      "bytes": 1073396,
+      "sha256": "498baa3f2937d3d74b5d810ac166b5988dafda460d624aad38af826cabe26f4f"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\refs\\fx\\material.ab",
+      "bytes": 63148,
+      "sha256": "53e01422e18f06641dd8e893d61aa9914fb65f7058767f7ea7c47b85ccfd7eff"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\[uc]shaders.ab",
+      "bytes": 443792,
+      "sha256": "668663dccbada9272f30092c5fe5a5b3594a24da56b43527fd65212146860e0a"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\star.ab",
+      "bytes": 6516985,
+      "sha256": "c601419ffde815547c7563a64c444ac2b4f8fab6b329d11b68ae9c659516c63b"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\smoke.ab",
+      "bytes": 3453973,
+      "sha256": "3a12e1947eaa79c539a2b04759bdad8697d01dda5b655db2da9fca91254df36b"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\trail.ab",
+      "bytes": 10859786,
+      "sha256": "4c6613ca58d886b5be224d0067658f8d3c99b6083c5c3f3659fb1652c9ed4125"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\StreamingAssets\\AB\\Windows\\refs\\fx\\texture\\fire.ab",
+      "bytes": 1776680,
+      "sha256": "9fdefad60641f862cd7a87a839ea65990b99dd11a00261cfdac5743d810a5360"
+    },
+    {
+      "source": "E:\\Hypergryph Launcher\\games\\Arknights Game\\Arknights_Data\\PersistentData\\Bundles\\refs\\fx\\texture\\flow.ab",
+      "bytes": 13817256,
+      "sha256": "f60b60836874c9f629303d5f750c119abe191e81582a335ffe52572b3666e4d5"
+    }
+  ],
+  "prefabs": [
+    {
+      "name": "amgoat_skill_03_buff",
+      "original_cab": "CAB-5289d9e37062370b337812b446c8f9ad",
+      "game_object_path_id": "-8716161371034522387"
+    },
+    {
+      "name": "amgoat_skill_03_buff_end",
+      "original_cab": "CAB-5289d9e37062370b337812b446c8f9ad",
+      "game_object_path_id": "-759786389565692625"
+    },
+    {
+      "name": "amgoat_skill_03_hit",
+      "original_cab": "CAB-5289d9e37062370b337812b446c8f9ad",
+      "game_object_path_id": "7297572796581075489"
+    },
+    {
+      "name": "amgoat_skill_03_trail",
+      "original_cab": "CAB-5289d9e37062370b337812b446c8f9ad",
+      "game_object_path_id": "8361331761713015727"
+    }
+  ],
+  "textures": [
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-1074696917881622342.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-1074696917881622342",
+      "bytes": 6284,
+      "sha256": "f74fe25ec860fd1893d58227f19ee76b6edd827f53f60f8f84801c934c5e71bc"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-5177635814654685401.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-5177635814654685401",
+      "bytes": 6196,
+      "sha256": "d54a8268c1bdf9bae9d6600bfb14681356402a5c876b660be673be7e5fe1eaa2"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-6042231430977390818.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-6042231430977390818",
+      "bytes": 27247,
+      "sha256": "422f1b5626970e9a9c6e7021b98efab682d671204d53c6dbb7c68aa070ff90b7"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-7700247273027960271.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "-7700247273027960271",
+      "bytes": 5875,
+      "sha256": "1c60043bc8f18abb7e7c462b5d95e7e89b66127d31983d419013ed7e40793a40"
+    },
+    {
+      "file": "textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_3404383912326436187.png",
+      "original_cab": "CAB-3fcda8e432a735264d43b49ecbf8fbee",
+      "original_path_id": "3404383912326436187",
+      "bytes": 19403,
+      "sha256": "8346b145257086f7dee973b1c7ceb78b37fdf5a3d99aea0e21990d8c61538b3b"
+    },
+    {
+      "file": "textures/CAB-5289d9e37062370b337812b446c8f9ad_-3149303621173420174.png",
+      "original_cab": "CAB-5289d9e37062370b337812b446c8f9ad",
+      "original_path_id": "-3149303621173420174",
+      "bytes": 17733,
+      "sha256": "aa22226028db5d060648991e4793fe68e4c36f60f38c9890326cfe268cc55886"
+    },
+    {
+      "file": "textures/CAB-895a9c6afcb47c5c7f43c8589b1fe2fc_7952450118463663148.png",
+      "original_cab": "CAB-895a9c6afcb47c5c7f43c8589b1fe2fc",
+      "original_path_id": "7952450118463663148",
+      "bytes": 27797,
+      "sha256": "ccb8a768ac14c31c80c45b5a12d825ecf13b72ccf241cda7e772ca18aca9e5b0"
+    },
+    {
+      "file": "textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-9033574108148208245.png",
+      "original_cab": "CAB-c2c688f710a565b7cce0cc93f7bd219f",
+      "original_path_id": "-9033574108148208245",
+      "bytes": 25019,
+      "sha256": "576771fe06ac83ebb137fab52476536aca002d87f678662e6663c18318ca8dfc"
+    },
+    {
+      "file": "textures/CAB-d78082c54cca29d82a1f4895c6b873e6_-7153419131079563927.png",
+      "original_cab": "CAB-d78082c54cca29d82a1f4895c6b873e6",
+      "original_path_id": "-7153419131079563927",
+      "bytes": 65364,
+      "sha256": "0bcdacb9f4bfcf95d6de5062df6ef8cd65952c73743e463e6e27958d61790bfa"
+    },
+    {
+      "file": "textures/CAB-d78082c54cca29d82a1f4895c6b873e6_6044336614900160849.png",
+      "original_cab": "CAB-d78082c54cca29d82a1f4895c6b873e6",
+      "original_path_id": "6044336614900160849",
+      "bytes": 25948,
+      "sha256": "f50c0aabd20a1e18fbe9cf33f85c2aec04eb17bf198c4553c6060ac5378ca906"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-622374428413268163.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "-622374428413268163",
+      "bytes": 5749,
+      "sha256": "6effd5847c80031c4952e9d882588837e210638d5a0238e07c900d0679bff351"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-7887427954279609538.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "-7887427954279609538",
+      "bytes": 2875,
+      "sha256": "c3d27b0165fb0e84fc74c4c4d2cf1ccf67e9d056fd2474e4ab70314f37c74484"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_3186937618351494922.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "3186937618351494922",
+      "bytes": 3137,
+      "sha256": "092f7307130d7ed80a93605276c5372b3ea8815058d8205d39e9e4ade270d0cd"
+    },
+    {
+      "file": "textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_8158538832724726361.png",
+      "original_cab": "CAB-fe644cd0cf84f312dc9d6de3bfc17d34",
+      "original_path_id": "8158538832724726361",
+      "bytes": 5435,
+      "sha256": "ab0dfac0baff62809a318d9e76a07e35060c8e4896421eb8d5909306cbbdace8"
+    }
+  ],
+  "source_pack_bytes": 1214427,
+  "source_pack_sha256": "7b15cd305777cb655a2e19f640d8ba568279ace82ddc3e252ae1b666b4cd3f23",
+  "decoder": {
+    "unitypy": "1.25.4",
+    "unpacker_commit": "4a4b9efc6be4690b68b70b4a16578950baa066d3",
+    "lz4ak_source_sha256": "55832b28aefe510880bfcf54c0628138b0ee561b46b3fb8830f58fddadcd475a"
+  },
+  "animation_binding_gaps": [],
+  "dependency_audit": {
+    "objects": 212,
+    "missing_references": 9,
+    "report": "dependency-gaps.json",
+    "note": "Unresolved external script/lifecycle references. All render meshes/materials/textures used here resolved; no complete lifecycle/fidelity claim."
+  },
+  "visual_reference_status": "Full original default-costume dynamic comparison remains unverified; this is a source-derived gameplay experiment, not declared original-equivalent.",
+  "runtime_storage": {
+    "version": 2,
+    "engine": "Godot 4.7.2",
+    "source_sample_rate_hz": 30,
+    "geometry": "Exact source surface arrays plus offline-packed 2D GPU buffers; only degenerate padding added, no visible layers removed. Player-owned bounded buffers avoid eager ArrayMesh RID allocation.",
+    "proof": ".ai/vfx-release-20261027/packed-buffer-conversion-final.json"
+  },
+  "runtime_files": [
+    {
+      "file": "buff.res",
+      "bytes": 36546629,
+      "sha256": "6d3bd242640669ddccb24e37ff6f397c39b3cfdf8cb7ee46329718c335e76ce4"
+    },
+    {
+      "file": "end.res",
+      "bytes": 2890532,
+      "sha256": "2b21ae6f3820b09a742d366e9bf892dcc71d89660d7c8edf977f2a5dc4a09ea5"
+    },
+    {
+      "file": "flight.res",
+      "bytes": 313268,
+      "sha256": "5da76a9a4ad9c2c558ec4988589f9075934c005621c48264b2d365eee1f14874"
+    },
+    {
+      "file": "hit.res",
+      "bytes": 74103,
+      "sha256": "d411ddcb1adf1f2b11963fff2b62de6339fc0ae5b3b8253ff8a2124b4b5b8d91"
+    }
+  ]
+}

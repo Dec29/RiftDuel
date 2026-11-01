@@ -1,0 +1,34 @@
+{
+	"clips": [
+		{
+			"bake_ms": 12840,
+			"duration_seconds": 16.5,
+			"file": "res://assets/battle/vfx/eyjafjalla_s3/buff.res",
+			"frames": 1980,
+			"id": "buff"
+		},
+		{
+			"bake_ms": 955,
+			"duration_seconds": 2.0,
+			"file": "res://assets/battle/vfx/eyjafjalla_s3/end.res",
+			"frames": 240,
+			"id": "end"
+		},
+		{
+			"bake_ms": 120,
+			"duration_seconds": 1.3,
+			"file": "res://assets/battle/vfx/eyjafjalla_s3/hit.res",
+			"frames": 156,
+			"id": "hit"
+		},
+		{
+			"bake_ms": 451,
+			"duration_seconds": 1.2,
+			"file": "res://assets/battle/vfx/eyjafjalla_s3/flight.res",
+			"frames": 144,
+			"id": "flight"
+		}
+	],
+	"facing_count": 4,
+	"fps": 30.0
+}

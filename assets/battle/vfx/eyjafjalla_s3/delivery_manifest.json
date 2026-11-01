@@ -1,0 +1,357 @@
+{
+  "baseline_master": "5442e82d77752c002d93da23168b16ddd046ae94",
+  "worktree_head": "c461b9d1fa7cb2d6c5d15c62d1fe4935c56b5f93",
+  "status": "review draft, no new commit; legacy shared blend threshold check remains nonzero",
+  "source_validation": {
+    "bundles": 8,
+    "textures": 14,
+    "all_actual_sha_passed": true
+  },
+  "files": [
+    {
+      "file": "Docs/GDD.md",
+      "bytes": 15508,
+      "sha256": "c1525084893c3715e91919f791bde55bd1818fcdaa14519c891c6b008d8e5598"
+    },
+    {
+      "file": "Docs/original_vfx.md",
+      "bytes": 7667,
+      "sha256": "3b827f18e533ffc403d6f78969ae370b1000af0dcb5655aadbe8e703598a36b5"
+    },
+    {
+      "file": "Docs/original_vfx_battle.md",
+      "bytes": 9179,
+      "sha256": "bff62d7702e6ba4f9a11c28b8935383c6333eba1a805c60b432ec81d53661af8"
+    },
+    {
+      "file": "Docs/silverash_s3_vfx.md",
+      "bytes": 9592,
+      "sha256": "d291ef64bc697dd0780ccbe1f902785299e9ef89221ffb421992ae91890f4f70"
+    },
+    {
+      "file": "Docs/visual_spec.md",
+      "bytes": 18623,
+      "sha256": "99c040c92454741edf7a42fe8fad907235cd1307ec743133821df41c318fdd89"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/animation-binding-gaps.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/buff.res",
+      "bytes": 16909070,
+      "sha256": "f9b27c3101d5bbdf18c520fb4b4e00de4e90d5790db968d0d37ef13028c4e222"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/build.json",
+      "bytes": 1109,
+      "sha256": "b0b81cc4f87cff961ba662270850202d8666f6d92f35cf6abb9d1fb090129b0c"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/build_report.json",
+      "bytes": 659,
+      "sha256": "066541351bfffcb94d40fbe64b2b6334b69026fe34f77bb752776b10b90fb120"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/dependency-gaps.json",
+      "bytes": 1761,
+      "sha256": "1dfa3c21b92e80eb74440a328a61a872853fb421e0bcb281208ed4b1ea24cf8a"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/end.res",
+      "bytes": 1278205,
+      "sha256": "3af131da1f96705efa0df0e69741634ce0ae8e533391545b9f70612862de2c88"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/flight.res",
+      "bytes": 142151,
+      "sha256": "e5b6bdfed87f78b7a57929b3e23e2d1e7ca0d94f7c8f5e00d340eb4582df7dc5"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/hit.res",
+      "bytes": 34896,
+      "sha256": "83ad641d467aa7ffe95af47d78644fc7c3f91424ceae73318fb508c7178fe380"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/review.json",
+      "bytes": 814,
+      "sha256": "31b39fac0448de929b7d2f35f48cfb6141d11145b6bbfb628b5f40823d3ae3ef"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/source_manifest.json",
+      "bytes": 8207,
+      "sha256": "393520cd482037c07499ad515846bcd23a526607be3f42d4cf98e1998a564fdd"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/source_pack.json",
+      "bytes": 1214427,
+      "sha256": "7b15cd305777cb655a2e19f640d8ba568279ace82ddc3e252ae1b666b4cd3f23"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-1074696917881622342.png",
+      "bytes": 6284,
+      "sha256": "f74fe25ec860fd1893d58227f19ee76b6edd827f53f60f8f84801c934c5e71bc"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-1074696917881622342.png.import",
+      "bytes": 1116,
+      "sha256": "9d72359040a0cf46786047b0835e132968906163b30577dd13f114d08d2f6012"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-5177635814654685401.png",
+      "bytes": 6196,
+      "sha256": "d54a8268c1bdf9bae9d6600bfb14681356402a5c876b660be673be7e5fe1eaa2"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-5177635814654685401.png.import",
+      "bytes": 1115,
+      "sha256": "62454d8f89e5d46e940fa37be99c5f1f40a901e92c12bbddcb593893cd959954"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-6042231430977390818.png",
+      "bytes": 27247,
+      "sha256": "422f1b5626970e9a9c6e7021b98efab682d671204d53c6dbb7c68aa070ff90b7"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-6042231430977390818.png.import",
+      "bytes": 1116,
+      "sha256": "91c6183801e488a3e8cffb5e35b09ace8f6ee799f8473eb675a9bc5b7def4178"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-7700247273027960271.png",
+      "bytes": 5875,
+      "sha256": "1c60043bc8f18abb7e7c462b5d95e7e89b66127d31983d419013ed7e40793a40"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_-7700247273027960271.png.import",
+      "bytes": 1115,
+      "sha256": "7a1a5cf7dadfeae595afc753d0c51fef3de6f940fb11f2063a80ffaa78cf0d3c"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_3404383912326436187.png",
+      "bytes": 19403,
+      "sha256": "8346b145257086f7dee973b1c7ceb78b37fdf5a3d99aea0e21990d8c61538b3b"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-3fcda8e432a735264d43b49ecbf8fbee_3404383912326436187.png.import",
+      "bytes": 1113,
+      "sha256": "007d61a566b6a90132ff01347b5c271c0e81c86193e75f456b0c786f38904063"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-5289d9e37062370b337812b446c8f9ad_-3149303621173420174.png",
+      "bytes": 17733,
+      "sha256": "aa22226028db5d060648991e4793fe68e4c36f60f38c9890326cfe268cc55886"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-5289d9e37062370b337812b446c8f9ad_-3149303621173420174.png.import",
+      "bytes": 1116,
+      "sha256": "7c2b587f87ba942ff8194656206a4490efc4a5e9f40b49f3fd23de789370087a"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-895a9c6afcb47c5c7f43c8589b1fe2fc_7952450118463663148.png",
+      "bytes": 27797,
+      "sha256": "ccb8a768ac14c31c80c45b5a12d825ecf13b72ccf241cda7e772ca18aca9e5b0"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-895a9c6afcb47c5c7f43c8589b1fe2fc_7952450118463663148.png.import",
+      "bytes": 1113,
+      "sha256": "c7cfd8ca0aae98f40dc370c9bf65c2a48cd209f5aa1f44959ff3f79219e83c10"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-9033574108148208245.png",
+      "bytes": 25019,
+      "sha256": "576771fe06ac83ebb137fab52476536aca002d87f678662e6663c18318ca8dfc"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-c2c688f710a565b7cce0cc93f7bd219f_-9033574108148208245.png.import",
+      "bytes": 1116,
+      "sha256": "5adcd9096d7c2a89072d14549a084a6c473d1641498550e9353ddb0827aa7587"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-d78082c54cca29d82a1f4895c6b873e6_-7153419131079563927.png",
+      "bytes": 65364,
+      "sha256": "0bcdacb9f4bfcf95d6de5062df6ef8cd65952c73743e463e6e27958d61790bfa"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-d78082c54cca29d82a1f4895c6b873e6_-7153419131079563927.png.import",
+      "bytes": 1115,
+      "sha256": "bb90cb555441e883b154a483275917f6cc87022252deb2914ac7029b83e49c8f"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-d78082c54cca29d82a1f4895c6b873e6_6044336614900160849.png",
+      "bytes": 25948,
+      "sha256": "f50c0aabd20a1e18fbe9cf33f85c2aec04eb17bf198c4553c6060ac5378ca906"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-d78082c54cca29d82a1f4895c6b873e6_6044336614900160849.png.import",
+      "bytes": 1112,
+      "sha256": "caa5e037ed3e4ee8a654490339c721b3b0c684f060fd6cd3caea413dad033606"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-622374428413268163.png",
+      "bytes": 5749,
+      "sha256": "6effd5847c80031c4952e9d882588837e210638d5a0238e07c900d0679bff351"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-622374428413268163.png.import",
+      "bytes": 1113,
+      "sha256": "481d3373a66993b000e0cfec6ab178b4e5e956b8bdb094d2cdc77ad8c08d5be6"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-7887427954279609538.png",
+      "bytes": 2875,
+      "sha256": "c3d27b0165fb0e84fc74c4c4d2cf1ccf67e9d056fd2474e4ab70314f37c74484"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_-7887427954279609538.png.import",
+      "bytes": 1116,
+      "sha256": "27e090dbbbb146fae945c6ff8c9fe05b696c0bfdffe8adb30b9b03dc650b0689"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_3186937618351494922.png",
+      "bytes": 3137,
+      "sha256": "092f7307130d7ed80a93605276c5372b3ea8815058d8205d39e9e4ade270d0cd"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_3186937618351494922.png.import",
+      "bytes": 1113,
+      "sha256": "37199d063a37d2ef27251b57f6a2767c56cace7da6266d8a1542cede3205d75f"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_8158538832724726361.png",
+      "bytes": 5435,
+      "sha256": "ab0dfac0baff62809a318d9e76a07e35060c8e4896421eb8d5909306cbbdace8"
+    },
+    {
+      "file": "assets/battle/vfx/eyjafjalla_s3/textures/CAB-fe644cd0cf84f312dc9d6de3bfc17d34_8158538832724726361.png.import",
+      "bytes": 1113,
+      "sha256": "f8d9f056916b836c5b705b95e9a212b75a1b600239016d8ec8e9f4581281e1a5"
+    },
+    {
+      "file": "assets/battle/vfx/native_add.gdshader",
+      "bytes": 1722,
+      "sha256": "79c44935d2af032eaa6da2910bb7e4db51c950ba98729cde1d1842e806c608c0"
+    },
+    {
+      "file": "assets/battle/vfx/native_mix.gdshader",
+      "bytes": 1722,
+      "sha256": "6cdf9bd384e5e235382ea8fe214c4806f67e1a0f65880ec17c8644707419cec3"
+    },
+    {
+      "file": "export_presets.cfg",
+      "bytes": 3606,
+      "sha256": "b13f6eed7c1d12e922415e5784dd10e145769db06cd8a2cc2b38fcb5a6ebb291"
+    },
+    {
+      "file": "main.gd",
+      "bytes": 6631,
+      "sha256": "891b6e0b4e8e547b966ef5dfa9216e6d2c2212e206bc5c2938c4c9d4e0b922bd"
+    },
+    {
+      "file": "project.godot",
+      "bytes": 1050,
+      "sha256": "f55946aec8c1a31cc017747d4e9a067bf3df060bf2ff14eb6d7fdc11cd47919a"
+    },
+    {
+      "file": "tools/build_windows.ps1",
+      "bytes": 8145,
+      "sha256": "3d8785a02b0b61851451c00e3cd5efd3c963ac77fb427e1e971082cb95db742d"
+    },
+    {
+      "file": "tools/export_original_vfx.py",
+      "bytes": 9296,
+      "sha256": "51a68aacae1d0c25f0a182d437b3a481d2eaec85013be6851b1852bb03202eb5"
+    },
+    {
+      "file": "tools/original_vfx_sampler.gd",
+      "bytes": 21439,
+      "sha256": "1cd7df412a8ce1d4bba3939e62dab59c0a66b751931425c7988696f3e4607bab"
+    },
+    {
+      "file": "tools/package_original_vfx_check.gd.uid",
+      "bytes": 19,
+      "sha256": "f97111de915b6e90bd4551b4ed0bfed5250e7915b59d005bbc5be9cf4ddef541"
+    },
+    {
+      "file": "tools/test_original_vfx_match.gd",
+      "bytes": 9678,
+      "sha256": "122fe46a1fee3a08b75eec94fa8925cf0e3ff973d824ce6d41bed150e7bc0ac9"
+    },
+    {
+      "file": "tools/test_original_vfx_match.gd.uid",
+      "bytes": 20,
+      "sha256": "d57a7481e8b5e9a08b336f4de947939b66711c6d6b5c0b9d39a01e70d5a18a5b"
+    },
+    {
+      "file": "tools/vfx_lab.gd",
+      "bytes": 3632,
+      "sha256": "1825f18716d4279cf4a4217a99d8f8ff6df2df73af84e7d3f385b0a9fcf80a97"
+    },
+    {
+      "file": "tools/vfx_lab.gd.uid",
+      "bytes": 20,
+      "sha256": "9d242184ce8a838fdafe751550504226b585d4790cf614b9ff67c75d08aaac06"
+    },
+    {
+      "file": "tools/vfx_lab.tscn",
+      "bytes": 238,
+      "sha256": "d2f79e5624241be72770c07cad5d887b5f43f445a34020d5e50405004d787142"
+    },
+    {
+      "file": "tools/vfx_lab_entry.gd",
+      "bytes": 301,
+      "sha256": "dde69b4f0370be001c347693f72e9582416dfd0762f61cf61b39a04c9256643e"
+    },
+    {
+      "file": "tools/vfx_lab_entry.gd.uid",
+      "bytes": 20,
+      "sha256": "a0d578fb68b684ec8dd27d59d003c78c25870759756864c9b5e604d6d1db1219"
+    },
+    {
+      "file": "tools/vfx_lab_entry.tscn",
+      "bytes": 171,
+      "sha256": "f600cc55eae5d836b36185d7cfc4e8b787b9629248831bb95613a433e121a3a3"
+    },
+    {
+      "file": "tools/vfx_lab_override.cfg",
+      "bytes": 54,
+      "sha256": "8318b6c6c063ddde41bb6dbcd41b9dddb6c926601311230da9871a9ce8c9990b"
+    },
+    {
+      "file": "view/battle_original_vfx.gd",
+      "bytes": 8966,
+      "sha256": "2d8f302360599e2c634f2f927d0d3328c107b64a6acb4d7e828ffdd57bc5a3ea"
+    },
+    {
+      "file": "view/battle_original_vfx.gd.uid",
+      "bytes": 20,
+      "sha256": "9892bc067d797f6d627a6b3168417caf4f15ca687447180e785f6a774ef0e1cb"
+    },
+    {
+      "file": "view/battle_renderer.gd",
+      "bytes": 39312,
+      "sha256": "56ea504d19de7858f7602d353b860a784dda5ef9759eba3d79dcf5637c853983"
+    },
+    {
+      "file": "view/match_view.gd",
+      "bytes": 32037,
+      "sha256": "440f4de1ccf1642c55bb6af401608c0de989968e7e20e41c00d5800064a08698"
+    },
+    {
+      "file": "view/native_canvas.gdshader",
+      "bytes": 1088,
+      "sha256": "c0032032aaee84829cd400adc19809b31f0cbb31b01d2508fdf6151f0aaf4427"
+    },
+    {
+      "file": "view/original_vfx_player.gd",
+      "bytes": 1487,
+      "sha256": "2a202ba58c6a68ff2687e1ffa32d2201567c86c235661842ea2670f5a5b74afc"
+    },
+    {
+      "file": "view/palette.gd",
+      "bytes": 3780,
+      "sha256": "326ab35205418d67a1ab87ad0a899236cd079ca47b78bac3e41a45eb20b758ed"
+    }
+  ]
+}
