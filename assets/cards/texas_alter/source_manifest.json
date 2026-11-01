@@ -1,0 +1,33 @@
+{
+  "operator_id": "texas_alter",
+  "char_id": "char_1028_texas2",
+  "display_name": "缄默德克萨斯",
+  "files": [
+    {
+      "category": "cards",
+      "kind": "portrait",
+      "path": "assets/cards/texas_alter/portrait.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/portrait/char_1028_texas2_1.png",
+      "bytes": 104692,
+      "sha256": "bbd1d1778173df288fb6faec5933803688680b2e4db331fb81a36929ebdab9aa",
+      "width": 180,
+      "height": 360
+    },
+    {
+      "category": "cards",
+      "kind": "avatar",
+      "path": "assets/cards/texas_alter/avatar.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_1028_texas2.png",
+      "bytes": 51024,
+      "sha256": "ecc0383bec1a4d45b4f33932f9556f4dc031e55ea85b22c18aefcaf1d3ef5271",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified."
+}

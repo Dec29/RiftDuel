@@ -1,0 +1,67 @@
+{
+  "operator_id": "pozyomka",
+  "char_id": "char_4055_bgsnow",
+  "display_name": "鸿雪",
+  "files": [
+    {
+      "category": "voice",
+      "tag": "023",
+      "language": "ja",
+      "path": "assets/audio/voices/pozyomka/cn_023.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4055_bgsnow/cn_023.mp3",
+      "bytes": 33454,
+      "sha256": "911f49666d684677ae6e1144f697319bada6bbd0a29f74c19b9dbfdee6fca4b6"
+    },
+    {
+      "category": "voice",
+      "tag": "024",
+      "language": "ja",
+      "path": "assets/audio/voices/pozyomka/cn_024.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4055_bgsnow/cn_024.mp3",
+      "bytes": 15691,
+      "sha256": "c1e07f731b19f5da88a1475f582d76c0dd666531534d174616e710c5a73fab89"
+    },
+    {
+      "category": "voice",
+      "tag": "025",
+      "language": "ja",
+      "path": "assets/audio/voices/pozyomka/cn_025.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4055_bgsnow/cn_025.mp3",
+      "bytes": 31155,
+      "sha256": "4d3a7f456cb1b4f144421e2a518b0310ec4287c3993ec4b5ea4fcac414fc4e54"
+    },
+    {
+      "category": "voice",
+      "tag": "026",
+      "language": "ja",
+      "path": "assets/audio/voices/pozyomka/cn_026.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4055_bgsnow/cn_026.mp3",
+      "bytes": 15482,
+      "sha256": "e9639c00c4b1490bf2f2167ba77f0390592dc2dcc2ab91294a1d4893e1087ac1"
+    },
+    {
+      "category": "voice",
+      "tag": "027",
+      "language": "ja",
+      "path": "assets/audio/voices/pozyomka/cn_027.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4055_bgsnow/cn_027.mp3",
+      "bytes": 37216,
+      "sha256": "993dbe6e84fd5a2d92e455292b715fb5f6fb00761305700385f522656f23b178"
+    },
+    {
+      "category": "voice",
+      "tag": "028",
+      "language": "ja",
+      "path": "assets/audio/voices/pozyomka/cn_028.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4055_bgsnow/cn_028.mp3",
+      "bytes": 27812,
+      "sha256": "f63a9eb91bf95676cb23cb1521dac2e7c233d52b5665f29264596d9167f84fb9"
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified."
+}

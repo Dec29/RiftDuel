@@ -1,0 +1,62 @@
+{
+  "operator_id": "gladiia",
+  "char_id": "char_474_glady",
+  "commit": "33a5327f9c01512f0c14a9407de303920db16125",
+  "files": [
+    {
+      "category": "voice",
+      "tag": "023",
+      "language": "ja",
+      "path": "assets/audio/voices/gladiia/cn_023.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_474_glady/cn_023.mp3",
+      "bytes": 11302,
+      "sha256": "0f1694d02d12f366405845b55a79516e772114b9b32336d9f2f2c97ba9819fa2"
+    },
+    {
+      "category": "voice",
+      "tag": "024",
+      "language": "ja",
+      "path": "assets/audio/voices/gladiia/cn_024.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_474_glady/cn_024.mp3",
+      "bytes": 15482,
+      "sha256": "5923c8b10b5ad442e7685abb3171c585915bce8e0a2eabf027c42f5ca47c6221"
+    },
+    {
+      "category": "voice",
+      "tag": "025",
+      "language": "ja",
+      "path": "assets/audio/voices/gladiia/cn_025.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_474_glady/cn_025.mp3",
+      "bytes": 36380,
+      "sha256": "2d0156376878bec90487ec634be1b28ca782b30c37f3bbeefc570256825c0511"
+    },
+    {
+      "category": "voice",
+      "tag": "026",
+      "language": "ja",
+      "path": "assets/audio/voices/gladiia/cn_026.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_474_glady/cn_026.mp3",
+      "bytes": 38052,
+      "sha256": "2a948775843124b47372e3d4c3cd806381f0d95d54547b12bfba88ada0df79ed"
+    },
+    {
+      "category": "voice",
+      "tag": "027",
+      "language": "ja",
+      "path": "assets/audio/voices/gladiia/cn_027.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_474_glady/cn_027.mp3",
+      "bytes": 41395,
+      "sha256": "35b02f5d331295d26f6d28664bd944a9443fe9475e8d15deec318147881cb931"
+    },
+    {
+      "category": "voice",
+      "tag": "028",
+      "language": "ja",
+      "path": "assets/audio/voices/gladiia/cn_028.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_474_glady/cn_028.mp3",
+      "bytes": 17154,
+      "sha256": "d5e8df6223210b2718fdde40e9f7e421abc445300fadf80514f6fa42283e7aed"
+    }
+  ],
+  "missing_tags": []
+}

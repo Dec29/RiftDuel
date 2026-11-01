@@ -1,0 +1,62 @@
+{
+  "operator_id": "mon3tr_operator",
+  "char_id": "char_4179_monstr",
+  "commit": "33a5327f9c01512f0c14a9407de303920db16125",
+  "files": [
+    {
+      "category": "voice",
+      "tag": "023",
+      "language": "ja",
+      "path": "assets/audio/voices/mon3tr_operator/cn_023.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4179_monstr/cn_023.mp3",
+      "bytes": 15273,
+      "sha256": "133bcfcf4425daced5db8a213aefade4a65bfca938e083f4fdcf4fbd00111344"
+    },
+    {
+      "category": "voice",
+      "tag": "024",
+      "language": "ja",
+      "path": "assets/audio/voices/mon3tr_operator/cn_024.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4179_monstr/cn_024.mp3",
+      "bytes": 15900,
+      "sha256": "a698c625b9e029df131290ce07d913e383a481083a5a3412f35e8ea993e77cbb"
+    },
+    {
+      "category": "voice",
+      "tag": "025",
+      "language": "ja",
+      "path": "assets/audio/voices/mon3tr_operator/cn_025.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4179_monstr/cn_025.mp3",
+      "bytes": 23005,
+      "sha256": "9e9feee5e8ebfda8cea3f734e6c058b2a64b66f9753a448fb74314da1af1a4bb"
+    },
+    {
+      "category": "voice",
+      "tag": "026",
+      "language": "ja",
+      "path": "assets/audio/voices/mon3tr_operator/cn_026.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4179_monstr/cn_026.mp3",
+      "bytes": 20915,
+      "sha256": "aa7f6fd64127e38581c09ebb69dee2d85f4977cbf5fbeaa5d77c58d1159344fd"
+    },
+    {
+      "category": "voice",
+      "tag": "027",
+      "language": "ja",
+      "path": "assets/audio/voices/mon3tr_operator/cn_027.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4179_monstr/cn_027.mp3",
+      "bytes": 26767,
+      "sha256": "cc264d4472eb8527701a98a343f4733154f58e9c77497ed29c8df046f3e8c9cc"
+    },
+    {
+      "category": "voice",
+      "tag": "028",
+      "language": "ja",
+      "path": "assets/audio/voices/mon3tr_operator/cn_028.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4179_monstr/cn_028.mp3",
+      "bytes": 29066,
+      "sha256": "4fa883a8a5404c14f36a7c7823454dbc66901a4f72005c227fb7b4c9a9b9a68f"
+    }
+  ],
+  "missing_tags": []
+}

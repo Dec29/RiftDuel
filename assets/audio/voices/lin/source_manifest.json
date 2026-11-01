@@ -1,0 +1,67 @@
+{
+  "operator_id": "lin",
+  "char_id": "char_4080_lin",
+  "display_name": "林",
+  "files": [
+    {
+      "category": "voice",
+      "tag": "023",
+      "language": "ja",
+      "path": "assets/audio/voices/lin/cn_023.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4080_lin/cn_023.mp3",
+      "bytes": 15273,
+      "sha256": "5e40aaaeed34ccf63d042d842f91661a730fd25ba65f43c9b947fd37261e34d2"
+    },
+    {
+      "category": "voice",
+      "tag": "024",
+      "language": "ja",
+      "path": "assets/audio/voices/lin/cn_024.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4080_lin/cn_024.mp3",
+      "bytes": 27812,
+      "sha256": "dbf9655e46c40202c3e855a85587db476a5a17105ea84228eacd3a0a1678089b"
+    },
+    {
+      "category": "voice",
+      "tag": "025",
+      "language": "ja",
+      "path": "assets/audio/voices/lin/cn_025.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4080_lin/cn_025.mp3",
+      "bytes": 41187,
+      "sha256": "4d9de91d71509cda388c019ab9b904554edae734dbbe0921dfe1f1ae70d084f5"
+    },
+    {
+      "category": "voice",
+      "tag": "026",
+      "language": "ja",
+      "path": "assets/audio/voices/lin/cn_026.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4080_lin/cn_026.mp3",
+      "bytes": 27603,
+      "sha256": "d01e6b1833151a5e10ef701a32bd09ac8ad459a320e04d625d35ec265a151c66"
+    },
+    {
+      "category": "voice",
+      "tag": "027",
+      "language": "ja",
+      "path": "assets/audio/voices/lin/cn_027.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4080_lin/cn_027.mp3",
+      "bytes": 46620,
+      "sha256": "bac1c3401003efcdbec5b4e0cf4c8ecf7fadc91952dd083d9ec2b92a1c791b00"
+    },
+    {
+      "category": "voice",
+      "tag": "028",
+      "language": "ja",
+      "path": "assets/audio/voices/lin/cn_028.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_4080_lin/cn_028.mp3",
+      "bytes": 7123,
+      "sha256": "2a9fe649ab002fc86eb3fd51533480e478497f023cde13b1bd5f2a85d78619a8"
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified."
+}

@@ -1,0 +1,88 @@
+{
+  "source": "https://github.com/Aceship/Arknight-Images",
+  "commit": "0b28f9562fcadbd644c6225f8f8aefbb500b4d22",
+  "source_type": "Community mirror of Arknights game artwork; not an official asset distribution or AI-generated artwork",
+  "copyright_notice": "Arknights game artwork remains third-party copyrighted material. No explicit artwork redistribution grant was found in the inspected repository root at this commit. User explicitly requested these original icons for a noncommercial fan project; this request is not a third-party license grant. No license is added or changed.",
+  "files": [
+    {
+      "profession_id": "vanguard",
+      "path": "assets/icons/professions/vanguard.png",
+      "url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes/class_vanguard.png",
+      "sha256": "AD0A39BFB026449A1E7D2566C214335358AB5E129B27481A141B9A0100F86A9F",
+      "width": 255,
+      "height": 255,
+      "bytes": 5238,
+      "modification": "none"
+    },
+    {
+      "profession_id": "guard",
+      "path": "assets/icons/professions/guard.png",
+      "url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes/class_guard.png",
+      "sha256": "BBA79BE4C4F997903A6EBB44F50759199C98B762036283CB1E60F70DE24FE590",
+      "width": 255,
+      "height": 255,
+      "bytes": 4340,
+      "modification": "none"
+    },
+    {
+      "profession_id": "defender",
+      "path": "assets/icons/professions/defender.png",
+      "url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes/class_defender.png",
+      "sha256": "E9BA3B23EBEBBF85B8BFA0CE310B5A0AD6E2C8E68735DACAF67774497551883E",
+      "width": 255,
+      "height": 255,
+      "bytes": 7706,
+      "modification": "none"
+    },
+    {
+      "profession_id": "sniper",
+      "path": "assets/icons/professions/sniper.png",
+      "url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes/class_sniper.png",
+      "sha256": "4533E560C9CA1566388FC2528C46582D7C3D0C3A39720381459BFA5C9E4D28DA",
+      "width": 255,
+      "height": 255,
+      "bytes": 6206,
+      "modification": "none"
+    },
+    {
+      "profession_id": "caster",
+      "path": "assets/icons/professions/caster.png",
+      "url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes/class_caster.png",
+      "sha256": "92FF36996EA3A5301620EB38D48BC4A8BA4C5F3C9B1BE21ED3E298EF47D8B8E0",
+      "width": 255,
+      "height": 255,
+      "bytes": 4072,
+      "modification": "none"
+    },
+    {
+      "profession_id": "medic",
+      "path": "assets/icons/professions/medic.png",
+      "url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes/class_medic.png",
+      "sha256": "0C16AEDA390EE669D9940AFD7DD5346CF1534BA0DD08FBFC7E17FE6A3FD1A940",
+      "width": 255,
+      "height": 255,
+      "bytes": 5843,
+      "modification": "none"
+    },
+    {
+      "profession_id": "supporter",
+      "path": "assets/icons/professions/supporter.png",
+      "url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes/class_supporter.png",
+      "sha256": "F351496BFE2043FDF7BA0183320749BE3AA77A9AA180C3E43565604CE3C5D3B5",
+      "width": 255,
+      "height": 255,
+      "bytes": 2665,
+      "modification": "none"
+    },
+    {
+      "profession_id": "specialist",
+      "path": "assets/icons/professions/specialist.png",
+      "url": "https://raw.githubusercontent.com/Aceship/Arknight-Images/0b28f9562fcadbd644c6225f8f8aefbb500b4d22/classes/class_specialist.png",
+      "sha256": "CE067913FA238927613DD36F758B2442BF8E7483ECCA70594C4CB288A7A8C89F",
+      "width": 255,
+      "height": 255,
+      "bytes": 3868,
+      "modification": "none"
+    }
+  ]
+}

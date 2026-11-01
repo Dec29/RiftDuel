@@ -1,0 +1,33 @@
+{
+  "operator_id": "thorns",
+  "char_id": "char_293_thorns",
+  "display_name": "棘刺",
+  "files": [
+    {
+      "category": "cards",
+      "kind": "portrait",
+      "path": "assets/cards/thorns/portrait.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/portrait/char_293_thorns_1.png",
+      "bytes": 101128,
+      "sha256": "56f93373ca666770d7c6935890febc86680e1228122b4202010a4c3dc8da2b98",
+      "width": 180,
+      "height": 360
+    },
+    {
+      "category": "cards",
+      "kind": "avatar",
+      "path": "assets/cards/thorns/avatar.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_293_thorns.png",
+      "bytes": 46443,
+      "sha256": "4c03e9741f9a8a2593cc7e6c11862f90a0f225f193763d40c457dcb1fefd4a4a",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified."
+}

@@ -1,0 +1,30 @@
+{
+  "operator_id": "gladiia",
+  "char_id": "char_474_glady",
+  "files": [
+    {
+      "category": "cards",
+      "kind": "portrait",
+      "path": "assets/cards/gladiia/portrait.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/portrait/char_474_glady_1.png",
+      "bytes": 121297,
+      "sha256": "5d35180084b8afb6768d77c6a51abb9da44a8740528f0cbffa5711811eeea40a",
+      "width": 180,
+      "height": 360
+    },
+    {
+      "category": "cards",
+      "kind": "avatar",
+      "path": "assets/cards/gladiia/avatar.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_474_glady.png",
+      "bytes": 57729,
+      "sha256": "400a2770ddb6c8127b3ccbe9171fca080e6bc949bd28aac5fe02476547e3ee83",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "char_id": "token_10005_mgllan_drone2",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/token_10005_mgllan_drone2.png",
+      "commit": "9bf239661e37766fba585806fb9fa67e79bb679e",
+      "bytes": 37724,
+      "sha256": "9ca5425409a5d4b92fea2a61e3609e89cdbfc033a38bcb983042709f15747ec0",
+      "kind": "avatar",
+      "variant": "original default summon",
+      "width": 180,
+      "height": 180,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "operator_id": "magallan_drone_l",
+      "path": "assets/cards/magallan_drone_l/avatar.png",
+      "modification": "none"
+    }
+  ],
+  "copyright_notice": "Original Arknights / Hypergryph and respective rightsholders. Local non-commercial fan use is not a new license; source code license does not cover game art."
+}

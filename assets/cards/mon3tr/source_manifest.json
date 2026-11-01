@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "char_id": "token_10002_kalts_mon3tr",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/token_10002_kalts_mon3tr.png",
+      "commit": "9bf239661e37766fba585806fb9fa67e79bb679e",
+      "bytes": 41496,
+      "sha256": "85af808fb575529addfe2a80f43fa0a162cb60537e7c86fd1cb47fb474a04652",
+      "kind": "avatar",
+      "variant": "original default summon",
+      "width": 180,
+      "height": 180,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "operator_id": "mon3tr",
+      "path": "assets/cards/mon3tr/avatar.png",
+      "modification": "none"
+    }
+  ],
+  "copyright_notice": "Original Arknights / Hypergryph and respective rightsholders. Local non-commercial fan use is not a new license; source code license does not cover game art."
+}

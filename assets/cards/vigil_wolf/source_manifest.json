@@ -1,0 +1,22 @@
+{
+  "files": [
+    {
+      "char_id": "token_10028_vigil_wolf",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/token_10028_vigil_wolf.png",
+      "commit": "9bf239661e37766fba585806fb9fa67e79bb679e",
+      "bytes": 19976,
+      "sha256": "71f894fc308a641cbb286e2795c8a33aba38012e44b4cd4a98b8cc7f8ac14b6e",
+      "kind": "avatar",
+      "variant": "original default summon",
+      "width": 180,
+      "height": 180,
+      "mode": "RGBA",
+      "alpha_min": 0,
+      "alpha_max": 255,
+      "operator_id": "vigil_wolf",
+      "path": "assets/cards/vigil_wolf/avatar.png",
+      "modification": "none"
+    }
+  ],
+  "copyright_notice": "Original Arknights / Hypergryph and respective rightsholders. Local non-commercial fan use is not a new license; source code license does not cover game art."
+}

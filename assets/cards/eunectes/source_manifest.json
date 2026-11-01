@@ -1,0 +1,30 @@
+{
+  "operator_id": "eunectes",
+  "char_id": "char_416_zumama",
+  "files": [
+    {
+      "category": "cards",
+      "kind": "portrait",
+      "path": "assets/cards/eunectes/portrait.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/portrait/char_416_zumama_1.png",
+      "bytes": 128297,
+      "sha256": "ee26cf8d9377de5e5a33562b8638103a7b0f2c47b7e630924cea0e7b5e6c3d23",
+      "width": 180,
+      "height": 360
+    },
+    {
+      "category": "cards",
+      "kind": "avatar",
+      "path": "assets/cards/eunectes/avatar.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_416_zumama.png",
+      "bytes": 60134,
+      "sha256": "519f88afcd7736c9dea5a9cce02a3404573125f48661222ea6f30f8dd5937814",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e"
+  }
+}

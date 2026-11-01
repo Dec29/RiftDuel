@@ -1,0 +1,67 @@
+{
+  "operator_id": "reed_alter",
+  "char_id": "char_1020_reed2",
+  "display_name": "焰影苇草",
+  "files": [
+    {
+      "category": "voice",
+      "tag": "023",
+      "language": "ja",
+      "path": "assets/audio/voices/reed_alter/cn_023.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1020_reed2/cn_023.mp3",
+      "bytes": 17781,
+      "sha256": "f45276e04f44095a9178c9078f8d892b57e10d30aa52f55f58abfa27ca901600"
+    },
+    {
+      "category": "voice",
+      "tag": "024",
+      "language": "ja",
+      "path": "assets/audio/voices/reed_alter/cn_024.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1020_reed2/cn_024.mp3",
+      "bytes": 22378,
+      "sha256": "adff388b3313087102ec2b039fa8c9c82dc13b491622629536ceaedeb18a55f5"
+    },
+    {
+      "category": "voice",
+      "tag": "025",
+      "language": "ja",
+      "path": "assets/audio/voices/reed_alter/cn_025.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1020_reed2/cn_025.mp3",
+      "bytes": 22796,
+      "sha256": "c892ff798afa46e36a7538a841ab487f00892502d3e3e2c95b3a2906ba47300a"
+    },
+    {
+      "category": "voice",
+      "tag": "026",
+      "language": "ja",
+      "path": "assets/audio/voices/reed_alter/cn_026.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1020_reed2/cn_026.mp3",
+      "bytes": 24259,
+      "sha256": "ad7ed4a255d388e155c7f03462953ee01987519f59ef66ba06186429b8ae1c47"
+    },
+    {
+      "category": "voice",
+      "tag": "027",
+      "language": "ja",
+      "path": "assets/audio/voices/reed_alter/cn_027.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1020_reed2/cn_027.mp3",
+      "bytes": 9213,
+      "sha256": "478f6b885e6fe4ec613580a498a2cf6f0d09514bd610da3d1bdcf1b113eb7d15"
+    },
+    {
+      "category": "voice",
+      "tag": "028",
+      "language": "ja",
+      "path": "assets/audio/voices/reed_alter/cn_028.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1020_reed2/cn_028.mp3",
+      "bytes": 9422,
+      "sha256": "4489b59dbb6f1c1268d3bdbe0e0aa76e12a762b7954e9c6045a4b884d54e50de"
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified."
+}

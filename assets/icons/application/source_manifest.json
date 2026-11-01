@@ -1,0 +1,44 @@
+{
+  "asset": "RiftDuel application icon",
+  "revision": 3,
+  "created": "2026-10-30",
+  "origin": "Original project icon; AI-assisted concept followed by exact vector reconstruction; selected by project owner in the local design review on 2026-10-30",
+  "third_party_game_artwork_used": false,
+  "geometry": {
+    "view_box": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "shared_path": "M531 136 586 216 461 479 344 501 456 600 396 768 172 506Z",
+    "red_transform": "rotate(180 512 512)",
+    "background": "#1A1E24",
+    "blue": "#5E9CD3",
+    "red": "#BF616A",
+    "exterior": "transparent"
+  },
+  "conversion": [
+    "SVG retains a single shared path and a 180-degree rotated reference",
+    "1024x1024 RGBA PNG uses 4x4 subpixel sampling with the red coverage mask derived by an exact half-turn of the blue mask",
+    "ICO embeds 16,32,48,64,128,256 pixel RGBA PNG frames resized from the approved PNG with System.Drawing HighQualityBicubic and SourceCopy; no color or geometry edits"
+  ],
+  "missing_components": [],
+  "files": [
+    {
+      "path": "riftduel.svg",
+      "bytes": 616,
+      "sha256": "363b4677a6acdde15551e8d40eee2579674885c5e9fa053f528a4cc0064c6e85"
+    },
+    {
+      "path": "riftduel.png",
+      "bytes": 37405,
+      "sha256": "67f1bfae8bb24994cef35d91e1a98866758ba33672c54c4afe09695bce800c07"
+    },
+    {
+      "path": "riftduel.ico",
+      "bytes": 24151,
+      "sha256": "df1bad0414b27cb6b9808060e57fc0194424b6f46b64d16bf179394d8f69e1c1"
+    }
+  ]
+}

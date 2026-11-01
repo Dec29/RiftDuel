@@ -1,0 +1,33 @@
+{
+  "operator_id": "silence_alter",
+  "char_id": "char_1031_slent2",
+  "display_name": "淬羽赫默",
+  "files": [
+    {
+      "category": "cards",
+      "kind": "portrait",
+      "path": "assets/cards/silence_alter/portrait.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/portrait/char_1031_slent2_1.png",
+      "bytes": 128092,
+      "sha256": "079abfd792cb4e374549f8a8185e7be2984d3b1c14c7a5610134a04090c7699f",
+      "width": 180,
+      "height": 360
+    },
+    {
+      "category": "cards",
+      "kind": "avatar",
+      "path": "assets/cards/silence_alter/avatar.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_1031_slent2.png",
+      "bytes": 65361,
+      "sha256": "77afe4c3c2193062074a91dc51a397af87f5aab1c5a5bfaf33e3667b7ce74ecf",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e",
+    "voice": "33a5327f9c01512f0c14a9407de303920db16125"
+  },
+  "verification_boundary": "Original bytes only; Windows resource generation, animation semantic mapping, graphics and export remain unverified."
+}

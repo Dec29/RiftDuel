@@ -1,0 +1,30 @@
+{
+  "operator_id": "mon3tr_operator",
+  "char_id": "char_4179_monstr",
+  "files": [
+    {
+      "category": "cards",
+      "kind": "portrait",
+      "path": "assets/cards/mon3tr_operator/portrait.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/portrait/char_4179_monstr_1.png",
+      "bytes": 126699,
+      "sha256": "2178cd0aae33028cbb9cba8fcf5e0c7396c0a18a8a141618584a649b0b780935",
+      "width": 180,
+      "height": 360
+    },
+    {
+      "category": "cards",
+      "kind": "avatar",
+      "path": "assets/cards/mon3tr_operator/avatar.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_4179_monstr.png",
+      "bytes": 60812,
+      "sha256": "2cfb5e34eca73b6d34be197aa9c5d36450d02bd46a66dc83648e27e5e165fa39",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e"
+  }
+}

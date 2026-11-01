@@ -1,0 +1,30 @@
+{
+  "operator_id": "jessica_alter",
+  "char_id": "char_1034_jesca2",
+  "files": [
+    {
+      "category": "cards",
+      "kind": "portrait",
+      "path": "assets/cards/jessica_alter/portrait.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/portrait/char_1034_jesca2_1.png",
+      "bytes": 128539,
+      "sha256": "e23d9c6149f36e701b9defa2fd54e08e6e996af8b7db431256e1bde68adaae2a",
+      "width": 180,
+      "height": 360
+    },
+    {
+      "category": "cards",
+      "kind": "avatar",
+      "path": "assets/cards/jessica_alter/avatar.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_1034_jesca2.png",
+      "bytes": 71305,
+      "sha256": "051021ea85f5d7e30a9909dd01f3ec07789229f0474fc4fd1884c9fce09982bf",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e"
+  }
+}

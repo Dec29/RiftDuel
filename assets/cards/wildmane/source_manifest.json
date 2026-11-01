@@ -1,0 +1,30 @@
+{
+  "operator_id": "wildmane",
+  "char_id": "char_496_wildmn",
+  "files": [
+    {
+      "category": "cards",
+      "kind": "portrait",
+      "path": "assets/cards/wildmane/portrait.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/portrait/char_496_wildmn_1.png",
+      "bytes": 133313,
+      "sha256": "3d027a003390b345c8ada3467aed04a9203aeec2555f1ece8070b8ea87f4013d",
+      "width": 180,
+      "height": 360
+    },
+    {
+      "category": "cards",
+      "kind": "avatar",
+      "path": "assets/cards/wildmane/avatar.png",
+      "url": "https://raw.githubusercontent.com/yuanyan3060/ArknightsGameResource/9bf239661e37766fba585806fb9fa67e79bb679e/avatar/char_496_wildmn.png",
+      "bytes": 71557,
+      "sha256": "ee707e274597b48a47dcec39716906ccdb267fa21c4218d16c4c3cf5192036e9",
+      "width": 180,
+      "height": 180
+    }
+  ],
+  "commits": {
+    "spine": "85f588ae805127ce93e8c47aa6dfcabc932f0a3e",
+    "cards": "9bf239661e37766fba585806fb9fa67e79bb679e"
+  }
+}

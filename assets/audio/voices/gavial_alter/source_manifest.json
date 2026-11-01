@@ -1,0 +1,62 @@
+{
+  "operator_id": "gavial_alter",
+  "char_id": "char_1026_gvial2",
+  "commit": "33a5327f9c01512f0c14a9407de303920db16125",
+  "files": [
+    {
+      "category": "voice",
+      "tag": "023",
+      "language": "ja",
+      "path": "assets/audio/voices/gavial_alter/cn_023.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1026_gvial2/cn_023.mp3",
+      "bytes": 15691,
+      "sha256": "92f4f7dd95e39e54acfe2e4cf8373f61cbbc8c7ffba0b228fef9e5ed576e79fd"
+    },
+    {
+      "category": "voice",
+      "tag": "024",
+      "language": "ja",
+      "path": "assets/audio/voices/gavial_alter/cn_024.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1026_gvial2/cn_024.mp3",
+      "bytes": 21960,
+      "sha256": "17c81906b92779216994f1ef45dbc0b58f93a86b2a210bf84f3b1d7b6cb2207c"
+    },
+    {
+      "category": "voice",
+      "tag": "025",
+      "language": "ja",
+      "path": "assets/audio/voices/gavial_alter/cn_025.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1026_gvial2/cn_025.mp3",
+      "bytes": 25722,
+      "sha256": "fe43378b3ad18ccbfedb9cad00aa71ceccbf6f4edb393ae0325fdf26e969f042"
+    },
+    {
+      "category": "voice",
+      "tag": "026",
+      "language": "ja",
+      "path": "assets/audio/voices/gavial_alter/cn_026.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1026_gvial2/cn_026.mp3",
+      "bytes": 11929,
+      "sha256": "c77db37a96e953dbad49145b133178da2317769483fe8bcc13d55ba2ba230974"
+    },
+    {
+      "category": "voice",
+      "tag": "027",
+      "language": "ja",
+      "path": "assets/audio/voices/gavial_alter/cn_027.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1026_gvial2/cn_027.mp3",
+      "bytes": 10675,
+      "sha256": "72f10560edd82352b1172c460616914ced0af5340de19bcbc8dc225eebf98a9e"
+    },
+    {
+      "category": "voice",
+      "tag": "028",
+      "language": "ja",
+      "path": "assets/audio/voices/gavial_alter/cn_028.mp3",
+      "url": "https://raw.githubusercontent.com/ArknightsAssets/ArknightsAssets2/33a5327f9c01512f0c14a9407de303920db16125/assets/dyn/audio/sound_beta_2/voice/char_1026_gvial2/cn_028.mp3",
+      "bytes": 10675,
+      "sha256": "04fa2d6dc938d57f6cac60169d98e652505f250df8b6024a5f37aa05d04395d3"
+    }
+  ],
+  "missing_tags": []
+}
