@@ -25,21 +25,17 @@ Godot 4.7 + GDScript 的 Windows 双人 PvP 推球 Demo。一百零四名普通�
 | net/ | 编解码、ENet／WebSocket 会话、输入 tick 对齐；不传状态 |
 | view/ | MatchView 统一输入与 HUD；BoardProjection、DeployInteraction、BattleRenderer、UnitInfo 分别负责投影、部署、场景绘制和信息 |
 | data/、resources/ | 资源校验由CSV导入与运行加载共用；OperatorDB登记内容，Config提供平衡参数；attack_action_data保存依赖模拟状态的动作查询 |
-| import/、Operator_Information.xlsx | CSV 导入源与原作资料表，游戏不直接读取 |
+| import/ | 规范化 CSV 导入源，游戏不直接读取 |
 | assets/、addons/spine_bridge/ | 美术源／运行骨骼、来源清单、原生库与许可文件 |
 | server/ | 独立 Go 房间和输入中继，部署模板在 server/deploy |
 | tools/ | 可复现测试、导入和构建；正式包排除，QA 导出保留 |
-| Docs/、AGENTS.md | 现行设计／契约与按模块读取的开发规则 |
 | build/、.godot/、.ai/ | 当前交付包、引擎缓存／验收产物、本地临时协作，均不提交 |
 
 调用链：界面 → LocalInput → 单人或网络收齐指令 → MatchState.step；视图只读模拟。AI 使用相同指令接口，中继只转发。CSV 经 import_operators.gd 生成 .tres；骨架源经视觉导入工具生成 .res，再由视图装载。
 
-## 文档与验证
+## 验证
 
-- [设计与范围](Docs/GDD.md)、[数据契约索引](Docs/data_contract.md)、[天赋机制](Docs/passives.md)、[网络协议](Docs/network_protocol.md)。
-- [视觉](Docs/visual_spec.md)、[骨骼接入](Docs/spine_feasibility.md)、[编码规范](Docs/coding_standards.md)、[验证与发布](Docs/verification.md)、[中继运行](server/README.md)。
-
-按修改选择专项，命令与边界见[验证与发布](Docs/verification.md)。以下是基础套件与构建入口：
+中继运行说明见 [server/README.md](server/README.md)。以下是基础套件与构建入口：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File tools/verify.ps1
