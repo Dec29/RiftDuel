@@ -50,6 +50,11 @@ func round_trip(index: int) -> bool:
 	while client.phase != "room" and client.phase != "failed" and Time.get_ticks_msec() < deadline:
 		await process_frame
 	if not check(host.phase == "room" and client.phase == "room", "Room join"): return false
+	# This focused skill fixture uses free squads rather than the default draft.
+	host.set_rules(MatchRules.new("score", 5, 1, false).to_wire())
+	while host.rules_pending or client.rules.draft_enabled:
+		if not check(Time.get_ticks_msec() < deadline, "Free-squad rules acknowledged"): return false
+		await process_frame
 	host.local_squad = PackedStringArray([operator_id,"exusiai"])
 	client.local_squad = PackedStringArray([operator_id,"exusiai"])
 	host.local_skills = PackedInt32Array([index,0])
@@ -86,6 +91,14 @@ func round_trip(index: int) -> bool:
 		state._ball_data.kick_threshold=1000000000
 	var blue := LocalInput.new(0)
 	var red := LocalInput.new(1)
+	var views: Array[MatchView] = []
+	if "view" in OS.get_cmdline_user_args():
+		for side in 2:
+			var view := MatchView.new()
+			view.bind(first if side == 0 else second, blue if side == 0 else red, data)
+			view.multiplayer_match = true
+			root.add_child(view)
+			views.append(view)
 	var hashes := [{0: first.state_hash()}, {0: second.state_hash()}]
 	var checked := 0
 	var observed := [false,false]
@@ -165,6 +178,7 @@ func round_trip(index: int) -> bool:
 			if unit.operator_id=="flowing_shape" and not unit.flow_is_split and unit.flow_copy_id=="exusiai":copied+=1
 		if not check(copied==2,"Actual COPY accepted after real flow deploy/open window on both peers"):return false
 
+	for view in views: view.queue_free()
 	host.leave()
 	client.close()
 	host.queue_free()

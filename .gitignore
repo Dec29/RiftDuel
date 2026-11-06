@@ -20,7 +20,7 @@ Thumbs.db
 *.trace
 
 # 独立发布快照不包含本地开发规范、设计文档和原始资料表
-/Docs/
+/[Dd]ocs/
 **/AGENTS.md
 /CLAUDE.md
 /Operator_Information.xlsx

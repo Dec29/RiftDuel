@@ -13,6 +13,11 @@ func _ready() -> void:
 	var error := preferences.read()
 	$Center/Panel/Status.text = error
 	_build_keys()
+	var update_panel := preload("res://view/client_update_panel.gd").new()
+	update_panel.name = "Update"
+	update_panel.set_meta("_tab_name", "更新")
+	$Center/Panel/Tabs.add_child(update_panel)
+	$Center/Panel/Tabs.set_tab_title(update_panel.get_index(), "更新")
 	$Center/Panel/Tabs/Connection/Custom.button_pressed = preferences.use_custom_server
 	$Center/Panel/Tabs/Connection/Endpoint.text = preferences.custom_endpoint
 	$Center/Panel/Tabs/Connection/Endpoint.visible = preferences.use_custom_server
@@ -149,9 +154,9 @@ func _audio_changed() -> void:
 func _tab_actions() -> void:
 	_capture_action=""
 	_refresh_keys()
-	var audio_tab: bool=$Center/Panel/Tabs.current_tab==2
-	$Center/Panel/Actions/Save.visible=not audio_tab
-	$Center/Panel/Actions/Cancel.text="返回" if audio_tab else "取消"
+	var immediate_tab: bool=$Center/Panel/Tabs.get_current_tab_control().name in ["Audio", "Update"]
+	$Center/Panel/Actions/Save.visible=not immediate_tab
+	$Center/Panel/Actions/Cancel.text="返回" if immediate_tab else "取消"
 
 
 func _resolution_options() -> void:

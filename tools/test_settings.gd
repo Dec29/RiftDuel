@@ -25,7 +25,7 @@ func _run() -> void:
 	legacy.save(TEST_PATH)
 	if not _check(preferences.read(TEST_PATH).is_empty() and preferences.window_resolution==Vector2i(1600,900),"Legacy preferences must acquire display defaults"):return
 	preferences=PREFERENCES.new()
-	if not _check(preferences.endpoint() == "wss://134.175.45.75/ws" and preferences.goal_position == "left" and not preferences.use_custom_server, "New preferences must use default server and left goal"):
+	if not _check(preferences.endpoint() == "wss://114.132.252.252/ws" and preferences.goal_position == "left" and not preferences.use_custom_server, "New preferences must use default server and left goal"):
 		return
 	for endpoint in ["wss://example.com:0/ws", "wss://example.com:99999/ws", "wss://example.com:-1/ws", "wss://example.com:abc/ws", "ws://127.0.0.1:0/ws", "ws://127.0.0.1:65536/ws"]:
 		if not _check(not PREFERENCES.valid_endpoint(endpoint), "Invalid port accepted: " + endpoint):
@@ -128,6 +128,10 @@ func _run() -> void:
 	current_scene.get_node("Menu/SinglePlayer").pressed.emit()
 	await process_frame
 	await process_frame
+	if not _check(current_scene.scene_file_path == "res://solo_setup.tscn", "Single player opens current preparation page"):return
+	current_scene.get_node("RoomView/Center/Panel/Room/ReadyRow/Start").pressed.emit()
+	await process_frame
+	await process_frame
 	if not _check(current_scene.scene_file_path == "res://main.tscn" and current_scene.local_input.side == 0 and not current_scene.match_view.mirror_board, "Saved right-side preference must reach blue-side match rendering"):
 		return
 	current_scene.match_view.home_requested.emit()
@@ -140,7 +144,7 @@ func _run() -> void:
 	var joins := []
 	room.online_join_requested.connect(func(code: String) -> void: joins.append(code))
 	room.get_node("Center/Panel/Mode").select(0)
-	room.update_room({"phase": "idle", "online": true, "status": "", "side": 0, "code": "", "local_ready": false, "remote_ready": false, "addresses": ""})
+	room.update_room({"rules": MatchRules.pvp_default(), "can_edit": false, "round": 0, "pending": false, "local_returned": false, "remote_returned": false, "phase": "idle", "online": true, "status": "", "side": 0, "code": "", "local_ready": false, "remote_ready": false, "addresses": ""})
 	room.get_node("Center/Panel/JoinRow/Code").text = "123456"
 	room.get_node("Center/Panel/JoinRow/Join").pressed.emit()
 	if not _check(joins == ["123456"] and not room.has_node("Center/Panel/Endpoint") and not room.get_node("Center/Panel/AddressRow").visible, "Online room must parse one six-digit room code with no address fields"):

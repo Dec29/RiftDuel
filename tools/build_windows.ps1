@@ -91,6 +91,8 @@ if (-not (Test-Path -LiteralPath $IgnoreMarker)) {
     throw "Windows export could not mark the game folder as non-project content."
 }
 $SmokeStartInfo = New-Object System.Diagnostics.ProcessStartInfo
+& (Join-Path $ProjectRoot "tools/build_updater.ps1") -OutputDirectory $OutputDirectory
+if ($LASTEXITCODE -ne 0) { throw "Updater staging failed" }
 $SmokeStartInfo.FileName = $Executable
 $SmokeStartInfo.Arguments = '--headless --quit-after 3 --log-file "{0}"' -f $Log
 $SmokeStartInfo.WorkingDirectory = $OutputDirectory
@@ -132,7 +134,7 @@ foreach ($RuntimeFile in @($BridgeLibrary, $ProviderLibrary)) {
 $LicenseDirectory = Join-Path $OutputDirectory "licenses\spine_bridge"
 New-Item -ItemType Directory -Path $LicenseDirectory -Force | Out-Null
 Copy-Item -LiteralPath (Join-Path $ProjectRoot "addons\spine_bridge\SPINE-RUNTIMES-LICENSE.txt"), (Join-Path $ProjectRoot "addons\spine_bridge\GODOT-CPP-LICENSE.md") -Destination $LicenseDirectory -Force
-Compress-Archive -LiteralPath $Executable, $Package, $BridgeLibrary, (Join-Path $OutputDirectory "addons"), (Join-Path $OutputDirectory "licenses") -DestinationPath $Archive -Force
+Compress-Archive -LiteralPath $Executable, $Package, $BridgeLibrary, (Join-Path $OutputDirectory "RiftDuelUpdater.exe"), (Join-Path $OutputDirectory "client_version.json"), (Join-Path $OutputDirectory "addons"), (Join-Path $OutputDirectory "licenses") -DestinationPath $Archive -Force
 $ExecutableHash = (Get-FileHash -LiteralPath $Executable -Algorithm SHA256).Hash
 $PackageHash = (Get-FileHash -LiteralPath $Package -Algorithm SHA256).Hash
 $ArchiveHash = (Get-FileHash -LiteralPath $Archive -Algorithm SHA256).Hash

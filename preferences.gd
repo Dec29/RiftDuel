@@ -1,7 +1,7 @@
 extends RefCounted
 
 const HOTKEYS := preload("res://hotkeys.gd")
-const DEFAULT_ENDPOINT := "wss://134.175.45.75/ws"
+const DEFAULT_ENDPOINT := "wss://114.132.252.252/ws"
 const FILE_PATH := "user://preferences.cfg"
 const WINDOW_MODES := ["windowed", "borderless", "fullscreen"]
 const DEFAULT_VOLUME := 10

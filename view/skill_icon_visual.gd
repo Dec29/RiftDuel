@@ -2,6 +2,7 @@ class_name SkillIconVisual
 extends RefCounted
 
 const PALETTE := preload("res://view/palette.gd")
+const OPERATOR_DB := preload("res://data/operator_db.gd")
 # Original skill IDs/icon IDs; bindings and fixed sources are in the asset manifest.
 const ICON_IDS := {
  "aak": [
@@ -496,10 +497,12 @@ static var _textures: Dictionary = {}
 
 static func texture(operator_id: String, skill_index: int) -> Texture2D:
 	# Summons have no separately drafted ordinary-operator skill icon.
+	# get_data() contains ordinary operators only; use the shared summon registry.
+	if OPERATOR_DB.SUMMON_OWNERS.has(operator_id):
+		return null
 	if not ICON_IDS.has(operator_id):
-		if Engine.get_main_loop().root.get_node("OperatorDB").get_data(operator_id).profession_id!="summon":
-			push_error(operator_id+": missing ordinary operator skill icon mapping")
-			Engine.get_main_loop().quit(1)
+		push_error(operator_id+": missing ordinary operator skill icon mapping")
+		Engine.get_main_loop().quit(1)
 		return null
 	var id: String = ICON_IDS[operator_id][skill_index]
 	if not _textures.has(id):

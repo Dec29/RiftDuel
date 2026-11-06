@@ -9,6 +9,7 @@ var _polyhedron_edges: Array[Vector2i] = []
 
 
 func _ready() -> void:
+	_update_startup.call_deferred()
 	if not get_tree().root.has_meta("display_preferences_applied"):
 		var preferences = preload("res://preferences.gd").new()
 		var display_error: String = preferences.read()
@@ -99,6 +100,16 @@ func _ready() -> void:
 		var error := get_tree().change_scene_to_file("res://view/settings_menu.tscn")
 		assert(error == OK, "Cannot open settings")
 	)
+
+
+func _update_startup() -> void:
+	if not is_inside_tree(): return
+	var tree := get_tree()
+	await tree.process_frame
+	if not is_inside_tree(): return
+	await tree.process_frame
+	if not is_inside_tree(): return
+	tree.root.get_node("ClientUpdates").startup()
 
 
 func _process(delta: float) -> void:

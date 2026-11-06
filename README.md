@@ -4,7 +4,7 @@ Godot 4.7 + GDScript 的 Windows 双人 PvP 推球 Demo。一百零四名普通�
 
 ## 运行与存档
 
-用 Godot 4.7.2 导入 project.godot。发布使用 build/Demo/RiftDuel 完整文件夹或同级 ZIP，保留 EXE、PCK、Bridge DLL、addons 提供器和 licenses；.sha256 核对压缩包。联机双方使用相同包，默认互联网中继 wss://134.175.45.75/ws，六位配对码加入；LAN 在房间选项栏切换。
+用 Godot 4.7.2 导入 project.godot。发布使用 build/Demo/RiftDuel 完整文件夹或同级 ZIP，保留 EXE、PCK、Bridge DLL、addons 提供器和 licenses；.sha256 核对压缩包。联机双方使用相同包，默认互联网中继 wss://114.132.252.252/ws，六位配对码加入；LAN 在房间选项栏切换。
 
 单人模式先进入对局准备，默认限时积分，也可选择单球决胜与每局时长；单人和多人准备页均可直接调整编队，房内编辑会先取消本方准备，保留连接与配对码，返回后重新准备交换新名单。
 
@@ -12,11 +12,13 @@ Godot 4.7 + GDScript 的 Windows 双人 PvP 推球 Demo。一百零四名普通�
 
 一支自由编队携带 1–12 名干员，各选一个技能；编辑可空队，进入对局前须至少一人。编队与设置分别保存为 user://squad.cfg、user://preferences.cfg；Windows 默认位于 `%APPDATA%/Godot/app_userdata/RiftDuel/`，不在 build 中。
 
+发布客户端启动时异步检查同一 GitHub 仓库的签名更新；设置→更新可手动检查、下载并重启安装。只下载有变化的文件或适配本地版本的差分，校验后还原完整 PCK，联机仍要求相同构建。检查失败可继续游戏，安装失败恢复旧文件；编队和设置存档保留。同目录 `RiftDuelUpdater.exe` 可恢复中断的安装并启动游戏；发布流程见 [tools/updater/README.md](tools/updater/README.md)。
+
 ## 工程结构
 
 | 路径 | 职责与主要入口 |
 |---|---|
-| project.godot、view/start_menu.tscn | 启动入口；Config、OperatorDB 两个 autoload |
+| project.godot、view/start_menu.tscn | 启动入口；Config／OperatorDB 提供数据，ClientUpdates 管理本地更新 |
 | main.gd／main.tscn | 对局装配、固定调度、收取双方指令后调用模拟 |
 | lobby.gd／lobby.tscn、view/draft_view.gd | 房间与赛前禁选流程，将会话交给对局 |
 | squad.gd、preferences.gd | 编队和设置的本地存档边界 |
